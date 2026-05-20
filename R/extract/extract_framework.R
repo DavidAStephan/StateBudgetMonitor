@@ -28,11 +28,24 @@
 #'   `local_path` columns attached.
 #' @param dictionary Variable dictionary tibble.
 #' @param cfg Project config.
+#' @param csv_files Optional character vector of committed CSV paths.
+#'   When supplied (typically by the `extracted_csv_files` target),
+#'   the function uses these paths verbatim and `targets` correctly
+#'   invalidates downstream when any CSV is added or removed. If
+#'   `NULL`, the function falls back to a `list.files()` of
+#'   `cfg$paths$extracted` --- useful for ad-hoc interactive use.
 #' @return Long tibble in `fiscal_facts` shape.
 #' @export
-sbm_extract_all <- function(downloaded_registry, dictionary, cfg) {
+sbm_extract_all <- function(downloaded_registry, dictionary, cfg,
+                            csv_files = NULL) {
   extracted_root <- cfg$paths$extracted %||% "data/extracted"
   fs::dir_create(extracted_root)
+
+  if (is.null(csv_files)) {
+    csv_files <- list.files(extracted_root, pattern = "\\.csv$",
+                            recursive = TRUE, full.names = TRUE)
+  }
+  csv_files <- normalizePath(csv_files, mustWork = FALSE)
 
   per_doc <- purrr::pmap(
     downloaded_registry |>
@@ -43,11 +56,17 @@ sbm_extract_all <- function(downloaded_registry, dictionary, cfg) {
              release_date, source_url, local_path,
              download_status, parser_version) {
 
-      csv_path <- file.path(extracted_root, tolower(jurisdiction),
-                            paste0(document_id, ".csv"))
+      csv_path <- normalizePath(
+        file.path(extracted_root, tolower(jurisdiction),
+                  paste0(document_id, ".csv")),
+        mustWork = FALSE
+      )
 
-      ## 1. Committed CSV wins.
-      if (file.exists(csv_path) && file.size(csv_path) > 0L) {
+      ## 1. Committed CSV wins --- but only count it if it's in the
+      ## tracked file list (so removing a CSV correctly de-populates
+      ## the warehouse on the next tar_make()).
+      if (csv_path %in% csv_files &&
+          file.exists(csv_path) && file.size(csv_path) > 0L) {
         rows <- sbm_read_extracted_csv(csv_path)
         if (nrow(rows) == 0L) return(NULL)
         return(

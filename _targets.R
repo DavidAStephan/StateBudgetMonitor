@@ -63,8 +63,18 @@ list(
   ## synthetic fiscal_facts tibble so downstream stages have something to
   ## work with.
 
+  ## Track the committed CSV files so that adding / removing one
+  ## under data/extracted/ invalidates extracted_facts on the next
+  ## tar_make() run. The target returns a tibble of (path, mtime,
+  ## size) --- targets hashes the value, so any add / remove / edit
+  ## invalidates downstream. Handles zero-CSV case cleanly.
+  tar_target(
+    extracted_csv_files,
+    sbm_list_extracted_csvs(cfg$paths$extracted %||% "data/extracted")
+  ),
   tar_target(extracted_facts,
-             sbm_extract_all(downloaded_registry, dictionary, cfg)),
+             sbm_extract_all(downloaded_registry, dictionary, cfg,
+                             csv_files = extracted_csv_files$path)),
 
   ## ---- Manual overrides ---------------------------------------------------
 
@@ -89,7 +99,15 @@ list(
 
   ## ---- Wage policy --------------------------------------------------------
 
-  tar_target(wage_policy_rows, sbm_load_wage_policy(cfg)),
+  tar_target(
+    wage_policy_csv_files,
+    sbm_list_extracted_csvs(
+      file.path(cfg$paths$extracted %||% "data/extracted", "wage_policy"),
+      recursive = FALSE
+    )
+  ),
+  tar_target(wage_policy_rows,
+             sbm_load_wage_policy(cfg, csv_files = wage_policy_csv_files$path)),
   tar_target(
     warehouse_wage_policy_written,
     sbm_write_wage_policy(warehouse_populated, wage_policy_rows),

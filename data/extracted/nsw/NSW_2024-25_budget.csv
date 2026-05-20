@@ -1,7 +1,0 @@
-variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
-rev_total,112800,2024-25,FALSE,Total revenue,PLACEHOLDER --- replace with extracted value
-exp_total,119500,2024-25,FALSE,Total expenses,PLACEHOLDER --- replace with extracted value
-net_debt,139200,2024-25,FALSE,Net debt,PLACEHOLDER --- replace with extracted value
-rev_total,117200,2025-26,TRUE,Total revenue,PLACEHOLDER --- forward estimate
-exp_total,122900,2025-26,TRUE,Total expenses,PLACEHOLDER --- forward estimate
-net_debt,159700,2025-26,TRUE,Net debt,PLACEHOLDER --- forward estimate

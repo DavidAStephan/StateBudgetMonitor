@@ -18,13 +18,19 @@
 #'   * `notes`               --- free-text caveats.
 #'
 #' @param cfg Project config.
+#' @param csv_files Optional character vector of per-jurisdiction CSV
+#'   paths. When supplied (typically by the `wage_policy_csv_files`
+#'   target), `targets` correctly invalidates downstream on add/remove.
 #' @return Long tibble of wage-policy statements.
 #' @keywords internal
-sbm_load_wage_policy <- function(cfg) {
+sbm_load_wage_policy <- function(cfg, csv_files = NULL) {
   root <- file.path(cfg$paths$extracted %||% "data/extracted", "wage_policy")
-  if (!fs::dir_exists(root)) return(empty_wage_policy())
 
-  files <- fs::dir_ls(root, glob = "*.csv")
+  if (is.null(csv_files)) {
+    if (!fs::dir_exists(root)) return(empty_wage_policy())
+    csv_files <- as.character(fs::dir_ls(root, glob = "*.csv"))
+  }
+  files <- csv_files[file.exists(csv_files)]
   if (length(files) == 0L) return(empty_wage_policy())
 
   required <- c("document_id", "effective_from", "annual_rise_pct",
