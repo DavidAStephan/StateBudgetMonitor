@@ -11,9 +11,15 @@ library(reactable)
 library(htmltools)
 tar_source("R")
 
-recon <- tryCatch(tar_read(gfs_reconciliation), error = function(e) tibble::tibble())
-registry <- tryCatch(tar_read(registry), error = function(e) tibble::tibble())
-dictionary <- tryCatch(tar_read(dictionary), error = function(e) tibble::tibble())
+recon      <- tryCatch(tar_read(gfs_reconciliation), error = function(e) tibble::tibble())
+registry   <- tryCatch(tar_read(registry),          error = function(e) tibble::tibble())
+dictionary <- tryCatch(tar_read(dictionary),        error = function(e) tibble::tibble())
+cfg        <- tryCatch(tar_read(cfg),               error = function(e) list())
+tolerance_pct <- if (length(cfg) > 0L) {
+  cfg$validation$gfs_tolerance_pct %||% 2
+} else {
+  2
+}
 ```
 
 ## What this project does
@@ -110,7 +116,7 @@ forecast year, see how each Budget update has moved the estimate.
 
 For headline variables (revenue, expenses, balance, net debt) we
 expect our extracted figures to track ABS GFS within
-`r format(round(targets::tar_read(cfg)$validation$gfs_tolerance_pct %||% 2, 1), nsmall = 1)`%.
+`r format(round(tolerance_pct, 1), nsmall = 1)`%.
 Discrepancies above tolerance are flagged here.
 
 ```{r recon-table}

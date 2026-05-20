@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  # Execute every chunk from the project root so `tar_read()` and
+  # `tar_source("R")` resolve regardless of where the .qmd file lives.
+  execute-dir: project
   preview:
     port: 4200
   render:
@@ -97,7 +100,3 @@ execute:
   message: false
   freeze: auto
   daemon: false
-
-# Execute every chunk from the project root so `tar_read()` /
-# `tar_source("R")` resolve regardless of where the .qmd file lives.
-execute-dir: project
