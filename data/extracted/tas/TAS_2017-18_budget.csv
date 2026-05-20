@@ -1,0 +1,287 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5573.7,2016-17,FALSE,Total Revenue,
+rev_total,5874.0,2017-18,FALSE,Total Revenue,
+rev_total,5863.0,2018-19,TRUE,Total Revenue,
+rev_total,5984.8,2019-20,TRUE,Total Revenue,
+rev_total,6048.7,2020-21,TRUE,Total Revenue,
+rev_taxation,1055.6,2016-17,FALSE,Taxation,
+rev_taxation,1128.5,2017-18,FALSE,Taxation,
+rev_taxation,1147.4,2018-19,TRUE,Taxation,
+rev_taxation,1173.0,2019-20,TRUE,Taxation,
+rev_taxation,1198.9,2020-21,TRUE,Taxation,
+rev_gst,3634.6,2016-17,FALSE,Grants,2016-17 Budget figure includes GST within total Grants
+rev_gst,3682.9,2017-18,FALSE,Grants,2017-18 Budget figure includes GST within total Grants
+rev_gst,3673.5,2018-19,TRUE,Grants,Forward Estimate includes GST within total Grants
+rev_gst,3735.4,2019-20,TRUE,Grants,Forward Estimate includes GST within total Grants
+rev_gst,3748.3,2020-21,TRUE,Grants,Forward Estimate includes GST within total Grants
+rev_sales_goods_svcs,352.9,2016-17,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,408.0,2017-18,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,417.0,2018-19,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,424.8,2019-20,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,428.7,2020-21,TRUE,Sales of Goods and Services,
+rev_interest,16.5,2016-17,FALSE,Interest Income,
+rev_interest,19.6,2017-18,FALSE,Interest Income,
+rev_interest,17.6,2018-19,TRUE,Interest Income,
+rev_interest,16.0,2019-20,TRUE,Interest Income,
+rev_interest,17.2,2020-21,TRUE,Interest Income,
+rev_dividend,263.8,2016-17,FALSE,Dividend, Tax and Rate Equivalent Income,
+rev_dividend,358.4,2017-18,FALSE,Dividend, Tax and Rate Equivalent Income,
+rev_dividend,338.2,2018-19,TRUE,Dividend, Tax and Rate Equivalent Income,
+rev_dividend,370.1,2019-20,TRUE,Dividend, Tax and Rate Equivalent Income,
+rev_dividend,390.4,2020-21,TRUE,Dividend, Tax and Rate Equivalent Income,
+rev_other,153.8,2016-17,FALSE,Other Revenue,
+rev_other,177.7,2017-18,FALSE,Other Revenue,
+rev_other,170.1,2018-19,TRUE,Other Revenue,
+rev_other,165.2,2019-20,TRUE,Other Revenue,
+rev_other,163.5,2020-21,TRUE,Other Revenue,
+exp_total,5496.3,2016-17,FALSE,Total Expenses,
+exp_total,5819.8,2017-18,FALSE,Total Expenses,
+exp_total,5812.3,2018-19,TRUE,Total Expenses,
+exp_total,5933.6,2019-20,TRUE,Total Expenses,
+exp_total,6003.4,2020-21,TRUE,Total Expenses,
+exp_employee,2311.0,2016-17,FALSE,Employee Expenses,
+exp_employee,2400.4,2017-18,FALSE,Employee Expenses,
+exp_employee,2430.4,2018-19,TRUE,Employee Expenses,
+exp_employee,2461.6,2019-20,TRUE,Employee Expenses,
+exp_employee,2533.0,2020-21,TRUE,Employee Expenses,
+exp_super,284.6,2016-17,FALSE,Superannuation,
+exp_super,273.5,2017-18,FALSE,Superannuation,
+exp_super,269.7,2018-19,TRUE,Superannuation,
+exp_super,270.0,2019-20,TRUE,Superannuation,
+exp_super,271.0,2020-21,TRUE,Superannuation,
+exp_depreciation,264.6,2016-17,FALSE,Depreciation,
+exp_depreciation,268.6,2017-18,FALSE,Depreciation,
+exp_depreciation,263.7,2018-19,TRUE,Depreciation,
+exp_depreciation,322.8,2019-20,TRUE,Depreciation,
+exp_depreciation,337.6,2020-21,TRUE,Depreciation,
+exp_interest,10.3,2016-17,FALSE,Borrowing Costs,
+exp_interest,9.8,2017-18,FALSE,Borrowing Costs,
+exp_interest,9.5,2018-19,TRUE,Borrowing Costs,
+exp_interest,9.0,2019-20,TRUE,Borrowing Costs,
+exp_interest,8.2,2020-21,TRUE,Borrowing Costs,
+exp_other_operating,1105.9,2016-17,FALSE,Supplies and Consumables,
+exp_other_operating,1227.8,2017-18,FALSE,Supplies and Consumables,
+exp_other_operating,1186.1,2018-19,TRUE,Supplies and Consumables,
+exp_other_operating,1187.2,2019-20,TRUE,Supplies and Consumables,
+exp_other_operating,1206.8,2020-21,TRUE,Supplies and Consumables,
+net_op_balance,77.3,2016-17,FALSE,NET OPERATING BALANCE,
+net_op_balance,54.3,2017-18,FALSE,NET OPERATING BALANCE,
+net_op_balance,50.7,2018-19,TRUE,NET OPERATING BALANCE,
+net_op_balance,51.3,2019-20,TRUE,NET OPERATING BALANCE,
+net_op_balance,45.3,2020-21,TRUE,NET OPERATING BALANCE,
+net_cap_investment,237.9,2016-17,FALSE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,308.2,2017-18,FALSE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,279.9,2018-19,TRUE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,48.5,2019-20,TRUE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,-25.8,2020-21,TRUE,Net Acquisition of Non-Financial Assets,
+net_lending,-160.6,2016-17,FALSE,FISCAL BALANCE,
+net_lending,-253.9,2017-18,FALSE,FISCAL BALANCE,
+net_lending,-229.2,2018-19,TRUE,FISCAL BALANCE,
+net_lending,2.8,2019-20,TRUE,FISCAL BALANCE,
+net_lending,71.1,2020-21,TRUE,FISCAL BALANCE,
+cash_surplus,-64.2,2016-17,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-149.8,2017-18,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-198.1,2018-19,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,20.7,2019-20,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,128.7,2020-21,TRUE,CASH SURPLUS/(DEFICIT),
+net_debt,-301.3,2016-17,FALSE,NET DEBT,
+net_debt,-451.8,2017-18,FALSE,NET DEBT,
+net_debt,-200.0,2018-19,TRUE,NET DEBT,
+net_debt,-212.9,2019-20,TRUE,NET DEBT,
+net_debt,-339.6,2020-21,TRUE,NET DEBT,
+net_fin_liabilities,5929.6,2016-17,FALSE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,5818.6,2017-18,FALSE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,6106.6,2018-19,TRUE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,6110.5,2019-20,TRUE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,6039.4,2020-21,TRUE,NET FINANCIAL LIABILITIES,
+net_worth,10249.2,2016-17,FALSE,NET WORTH,
+net_worth,11723.5,2017-18,FALSE,NET WORTH,
+net_worth,12058.5,2018-19,TRUE,NET WORTH,
+net_worth,12445.0,2019-20,TRUE,NET WORTH,
+net_worth,12843.8,2020-21,TRUE,NET WORTH,
+capex_pnfa,530.8,2016-17,FALSE,Purchases of Non-Financial Assets,
+capex_pnfa,609.9,2017-18,FALSE,Purchases of Non-Financial Assets,
+capex_pnfa,574.0,2018-19,TRUE,Purchases of Non-Financial Assets,
+capex_pnfa,402.1,2019-20,TRUE,Purchases of Non-Financial Assets,
+capex_pnfa,342.7,2020-21,TRUE,Purchases of Non-Financial Assets,
+econ_gsp_growth,1.3,2015-16,FALSE,Gross State Product,Actual data
+econ_gsp_growth,1.0,2016-17,FALSE,Gross State Product,Estimate
+econ_gsp_growth,2.5,2017-18,FALSE,Gross State Product,Forecast
+econ_gsp_growth,2.0,2018-19,TRUE,Gross State Product,Projection
+econ_gsp_growth,2.0,2019-20,TRUE,Gross State Product,Projection
+econ_gsp_growth,2.0,2020-21,TRUE,Gross State Product,Projection
+econ_employment,-0.3,2015-16,FALSE,Employment,Actual data
+econ_employment,0.0,2016-17,FALSE,Employment,Estimate
+econ_employment,1.25,2017-18,FALSE,Employment,Forecast
+econ_employment,1.0,2018-19,TRUE,Employment,Projection
+econ_employment,1.0,2019-20,TRUE,Employment,Projection
+econ_employment,1.0,2020-21,TRUE,Employment,Projection
+econ_unemployment,6.5,2015-16,FALSE,Unemployment Rate,Actual data
+econ_unemployment,6.25,2016-17,FALSE,Unemployment Rate,Estimate
+econ_unemployment,6.25,2017-18,FALSE,Unemployment Rate,Forecast
+econ_unemployment,6.0,2018-19,TRUE,Unemployment Rate,Projection
+econ_unemployment,6.0,2019-20,TRUE,Unemployment Rate,Projection
+econ_unemployment,6.0,2020-21,TRUE,Unemployment Rate,Projection
+econ_cpi,1.4,2015-16,FALSE,Consumer Price Index (Hobart),Actual data
+econ_cpi,2.0,2016-17,FALSE,Consumer Price Index (Hobart),Estimate
+econ_cpi,2.25,2017-18,FALSE,Consumer Price Index (Hobart),Forecast
+econ_cpi,2.25,2018-19,TRUE,Consumer Price Index (Hobart),Projection
+econ_cpi,2.25,2019-20,TRUE,Consumer Price Index (Hobart),Projection
+econ_cpi,2.25,2020-21,TRUE,Consumer Price Index (Hobart),Projection
+econ_population,0.4,2015-16,FALSE,Population,Actual data
+econ_population,0.6,2016-17,FALSE,Population,Estimate
+econ_population,0.6,2017-18,FALSE,Population,Forecast
+econ_population,0.6,2018-19,TRUE,Population,Projection
+econ_population,0.6,2019-20,TRUE,Population,Projection
+econ_population,0.6,2020-21,TRUE,Population,Projection
+rev_total,3125.4,2016-17,FALSE,Total Revenue,PNFC Sector Estimated Outcome
+rev_total,3089.6,2017-18,FALSE,Total Revenue,PNFC Sector
+rev_total,3186.3,2018-19,TRUE,Total Revenue,PNFC Sector
+rev_total,3356.4,2019-20,TRUE,Total Revenue,PNFC Sector
+rev_total,3484.1,2020-21,TRUE,Total Revenue,PNFC Sector
+exp_total,3127.4,2016-17,FALSE,Total Expenses,PNFC Sector Estimated Outcome
+exp_total,3145.1,2017-18,FALSE,Total Expenses,PNFC Sector
+exp_total,3187.6,2018-19,TRUE,Total Expenses,PNFC Sector
+exp_total,3342.0,2019-20,TRUE,Total Expenses,PNFC Sector
+exp_total,3469.2,2020-21,TRUE,Total Expenses,PNFC Sector
+net_op_balance,-2.0,2016-17,FALSE,NET OPERATING BALANCE,PNFC Sector Estimated Outcome
+net_op_balance,-55.5,2017-18,FALSE,NET OPERATING BALANCE,PNFC Sector
+net_op_balance,-1.3,2018-19,TRUE,NET OPERATING BALANCE,PNFC Sector
+net_op_balance,14.4,2019-20,TRUE,NET OPERATING BALANCE,PNFC Sector
+net_op_balance,14.9,2020-21,TRUE,NET OPERATING BALANCE,PNFC Sector
+net_lending,-177.7,2016-17,FALSE,FISCAL BALANCE,PNFC Sector Estimated Outcome
+net_lending,-222.8,2017-18,FALSE,FISCAL BALANCE,PNFC Sector
+net_lending,-89.1,2018-19,TRUE,FISCAL BALANCE,PNFC Sector
+net_lending,-5.3,2019-20,TRUE,FISCAL BALANCE,PNFC Sector
+net_lending,7.3,2020-21,TRUE,FISCAL BALANCE,PNFC Sector
+cash_surplus,-167.1,2016-17,FALSE,CASH SURPLUS/(DEFICIT),PNFC Sector Estimated Outcome
+cash_surplus,-215.1,2017-18,FALSE,CASH SURPLUS/(DEFICIT),PNFC Sector
+cash_surplus,-52.7,2018-19,TRUE,CASH SURPLUS/(DEFICIT),PNFC Sector
+cash_surplus,30.9,2019-20,TRUE,CASH SURPLUS/(DEFICIT),PNFC Sector
+cash_surplus,14.7,2020-21,TRUE,CASH SURPLUS/(DEFICIT),PNFC Sector
+net_debt,2407.8,2016-17,FALSE,NET DEBT,PNFC Sector Estimated Outcome as at 30 June
+net_debt,2559.8,2017-18,FALSE,NET DEBT,PNFC Sector as at 30 June
+net_debt,2554.1,2018-19,TRUE,NET DEBT,PNFC Sector as at 30 June
+net_debt,2511.5,2019-20,TRUE,NET DEBT,PNFC Sector as at 30 June
+net_debt,2489.2,2020-21,TRUE,NET DEBT,PNFC Sector as at 30 June
+net_worth,4386.3,2016-17,FALSE,NET WORTH,PNFC Sector Estimated Outcome as at 30 June
+net_worth,4380.4,2017-18,FALSE,NET WORTH,PNFC Sector as at 30 June
+net_worth,4482.1,2018-19,TRUE,NET WORTH,PNFC Sector as at 30 June
+net_worth,4558.7,2019-20,TRUE,NET WORTH,PNFC Sector as at 30 June
+net_worth,4641.2,2020-21,TRUE,NET WORTH,PNFC Sector as at 30 June
+rev_total,9145.5,2016-17,FALSE,Total Revenue,TNFP Sector Estimated Outcome
+rev_total,8548.4,2017-18,FALSE,Total Revenue,TNFP Sector
+rev_total,8640.0,2018-19,TRUE,Total Revenue,TNFP Sector
+rev_total,8873.6,2019-20,TRUE,Total Revenue,TNFP Sector
+rev_total,9041.4,2020-21,TRUE,Total Revenue,TNFP Sector
+exp_total,8335.6,2016-17,FALSE,Total Expenses,TNFP Sector Estimated Outcome
+exp_total,8549.7,2017-18,FALSE,Total Expenses,TNFP Sector
+exp_total,8590.6,2018-19,TRUE,Total Expenses,TNFP Sector
+exp_total,8807.9,2019-20,TRUE,Total Expenses,TNFP Sector
+exp_total,8981.2,2020-21,TRUE,Total Expenses,TNFP Sector
+net_op_balance,810.0,2016-17,FALSE,NET OPERATING BALANCE,TNFP Sector Estimated Outcome
+net_op_balance,-1.2,2017-18,FALSE,NET OPERATING BALANCE,TNFP Sector
+net_op_balance,49.4,2018-19,TRUE,NET OPERATING BALANCE,TNFP Sector
+net_op_balance,65.7,2019-20,TRUE,NET OPERATING BALANCE,TNFP Sector
+net_op_balance,60.2,2020-21,TRUE,NET OPERATING BALANCE,TNFP Sector
+net_lending,435.3,2016-17,FALSE,FISCAL BALANCE,TNFP Sector Estimated Outcome
+net_lending,-476.7,2017-18,FALSE,FISCAL BALANCE,TNFP Sector
+net_lending,-318.3,2018-19,TRUE,FISCAL BALANCE,TNFP Sector
+net_lending,-2.5,2019-20,TRUE,FISCAL BALANCE,TNFP Sector
+net_lending,78.4,2020-21,TRUE,FISCAL BALANCE,TNFP Sector
+cash_surplus,542.0,2016-17,FALSE,CASH SURPLUS/(DEFICIT),TNFP Sector Estimated Outcome
+cash_surplus,-364.9,2017-18,FALSE,CASH SURPLUS/(DEFICIT),TNFP Sector
+cash_surplus,-250.8,2018-19,TRUE,CASH SURPLUS/(DEFICIT),TNFP Sector
+cash_surplus,51.6,2019-20,TRUE,CASH SURPLUS/(DEFICIT),TNFP Sector
+cash_surplus,143.4,2020-21,TRUE,CASH SURPLUS/(DEFICIT),TNFP Sector
+net_debt,1748.0,2016-17,FALSE,NET DEBT,TNFP Sector Estimated Outcome as at 30 June
+net_debt,2108.0,2017-18,FALSE,NET DEBT,TNFP Sector as at 30 June
+net_debt,2354.1,2018-19,TRUE,NET DEBT,TNFP Sector as at 30 June
+net_debt,2298.6,2019-20,TRUE,NET DEBT,TNFP Sector as at 30 June
+net_debt,2149.6,2020-21,TRUE,NET DEBT,TNFP Sector as at 30 June
+net_worth,11493.7,2016-17,FALSE,NET WORTH,TNFP Sector Estimated Outcome as at 30 June
+net_worth,11723.5,2017-18,FALSE,NET WORTH,TNFP Sector as at 30 June
+net_worth,12058.5,2018-19,TRUE,NET WORTH,TNFP Sector as at 30 June
+net_worth,12445.0,2019-20,TRUE,NET WORTH,TNFP Sector as at 30 June
+net_worth,12843.8,2020-21,TRUE,NET WORTH,TNFP Sector as at 30 June
+rev_total,442.4,2016-17,FALSE,Total Revenue,PFC Sector Estimated Outcome
+rev_total,444.0,2017-18,FALSE,Total Revenue,PFC Sector
+rev_total,440.1,2018-19,TRUE,Total Revenue,PFC Sector
+rev_total,451.2,2019-20,TRUE,Total Revenue,PFC Sector
+rev_total,456.3,2020-21,TRUE,Total Revenue,PFC Sector
+exp_total,435.6,2016-17,FALSE,Total Expenses,PFC Sector Estimated Outcome
+exp_total,500.6,2017-18,FALSE,Total Expenses,PFC Sector
+exp_total,493.7,2018-19,TRUE,Total Expenses,PFC Sector
+exp_total,498.4,2019-20,TRUE,Total Expenses,PFC Sector
+exp_total,501.9,2020-21,TRUE,Total Expenses,PFC Sector
+net_op_balance,6.8,2016-17,FALSE,NET OPERATING BALANCE,PFC Sector Estimated Outcome
+net_op_balance,-56.6,2017-18,FALSE,NET OPERATING BALANCE,PFC Sector
+net_op_balance,-53.5,2018-19,TRUE,NET OPERATING BALANCE,PFC Sector
+net_op_balance,-47.2,2019-20,TRUE,NET OPERATING BALANCE,PFC Sector
+net_op_balance,-45.6,2020-21,TRUE,NET OPERATING BALANCE,PFC Sector
+net_lending,6.1,2016-17,FALSE,FISCAL BALANCE,PFC Sector Estimated Outcome
+net_lending,-56.9,2017-18,FALSE,FISCAL BALANCE,PFC Sector
+net_lending,-54.0,2018-19,TRUE,FISCAL BALANCE,PFC Sector
+net_lending,-47.7,2019-20,TRUE,FISCAL BALANCE,PFC Sector
+net_lending,-45.9,2020-21,TRUE,FISCAL BALANCE,PFC Sector
+cash_surplus,63.1,2016-17,FALSE,CASH SURPLUS/(DEFICIT),PFC Sector Estimated Outcome
+cash_surplus,-14.4,2017-18,FALSE,CASH SURPLUS/(DEFICIT),PFC Sector
+cash_surplus,17.7,2018-19,TRUE,CASH SURPLUS/(DEFICIT),PFC Sector
+cash_surplus,22.5,2019-20,TRUE,CASH SURPLUS/(DEFICIT),PFC Sector
+cash_surplus,28.2,2020-21,TRUE,CASH SURPLUS/(DEFICIT),PFC Sector
+net_debt,-2072.6,2016-17,FALSE,NET DEBT,PFC Sector Estimated Outcome as at 30 June
+net_debt,-2072.2,2017-18,FALSE,NET DEBT,PFC Sector as at 30 June
+net_debt,-2104.6,2018-19,TRUE,NET DEBT,PFC Sector as at 30 June
+net_debt,-2140.9,2019-20,TRUE,NET DEBT,PFC Sector as at 30 June
+net_debt,-2184.9,2020-21,TRUE,NET DEBT,PFC Sector as at 30 June
+net_worth,1317.1,2016-17,FALSE,NET WORTH,PFC Sector Estimated Outcome as at 30 June
+net_worth,1273.6,2017-18,FALSE,NET WORTH,PFC Sector as at 30 June
+net_worth,1233.5,2018-19,TRUE,NET WORTH,PFC Sector as at 30 June
+net_worth,1198.8,2019-20,TRUE,NET WORTH,PFC Sector as at 30 June
+net_worth,1166.5,2020-21,TRUE,NET WORTH,PFC Sector as at 30 June
+rev_total,9376.3,2016-17,FALSE,Total Revenue,Total State Sector Estimated Outcome
+rev_total,8712.4,2017-18,FALSE,Total Revenue,Total State Sector
+rev_total,8809.9,2018-19,TRUE,Total Revenue,Total State Sector
+rev_total,9069.0,2019-20,TRUE,Total Revenue,Total State Sector
+rev_total,9240.6,2020-21,TRUE,Total Revenue,Total State Sector
+exp_total,8559.5,2016-17,FALSE,Total Expenses,Total State Sector Estimated Outcome
+exp_total,8770.2,2017-18,FALSE,Total Expenses,Total State Sector
+exp_total,8814.0,2018-19,TRUE,Total Expenses,Total State Sector
+exp_total,9050.5,2019-20,TRUE,Total Expenses,Total State Sector
+exp_total,9226.0,2020-21,TRUE,Total Expenses,Total State Sector
+net_op_balance,816.8,2016-17,FALSE,NET OPERATING BALANCE,Total State Sector Estimated Outcome
+net_op_balance,-57.9,2017-18,FALSE,NET OPERATING BALANCE,Total State Sector
+net_op_balance,-4.1,2018-19,TRUE,NET OPERATING BALANCE,Total State Sector
+net_op_balance,18.5,2019-20,TRUE,NET OPERATING BALANCE,Total State Sector
+net_op_balance,14.6,2020-21,TRUE,NET OPERATING BALANCE,Total State Sector
+net_lending,441.4,2016-17,FALSE,FISCAL BALANCE,Total State Sector Estimated Outcome
+net_lending,-533.6,2017-18,FALSE,FISCAL BALANCE,Total State Sector
+net_lending,-372.3,2018-19,TRUE,FISCAL BALANCE,Total State Sector
+net_lending,-50.2,2019-20,TRUE,FISCAL BALANCE,Total State Sector
+net_lending,32.5,2020-21,TRUE,FISCAL BALANCE,Total State Sector
+net_debt,1748.0,2016-17,FALSE,NET DEBT,Total State Sector - derived from TNFP data
+net_debt,35.8,2017-18,FALSE,NET DEBT,Total State Sector - calculated as TNFP + PFC
+net_debt,249.5,2018-19,TRUE,NET DEBT,Total State Sector - calculated as TNFP + PFC
+net_debt,157.7,2019-20,TRUE,NET DEBT,Total State Sector - calculated as TNFP + PFC
+net_debt,-35.3,2020-21,TRUE,NET DEBT,Total State Sector - calculated as TNFP + PFC
+rev_total,6499.6,2016-17,FALSE,Total Revenue,General Government Estimated Outcome
+rev_gst,4371.9,2016-17,FALSE,Grants,General Government Estimated Outcome - includes GST within total Grants
+rev_taxation,1094.1,2016-17,FALSE,Taxation,General Government Estimated Outcome
+rev_sales_goods_svcs,411.2,2016-17,FALSE,Sales of Goods and Services,General Government Estimated Outcome
+rev_interest,22.1,2016-17,FALSE,Interest Income,General Government Estimated Outcome
+rev_dividend,316.0,2016-17,FALSE,Dividend Tax and Rate Equivalent Income,General Government Estimated Outcome
+rev_other,188.4,2016-17,FALSE,Other Revenue,General Government Estimated Outcome
+exp_total,5687.6,2016-17,FALSE,Total Expenses,General Government Estimated Outcome
+exp_employee,2371.5,2016-17,FALSE,Employee Expenses,General Government Estimated Outcome
+exp_super,339.9,2016-17,FALSE,Superannuation,General Government Estimated Outcome
+exp_depreciation,267.1,2016-17,FALSE,Depreciation,General Government Estimated Outcome
+exp_other_operating,1187.9,2016-17,FALSE,Supplies and Consumables,General Government Estimated Outcome
+exp_interest,10.4,2016-17,FALSE,Borrowing Costs,General Government Estimated Outcome
+net_op_balance,812.0,2016-17,FALSE,NET OPERATING BALANCE,General Government Estimated Outcome
+net_cap_investment,198.9,2016-17,FALSE,Net Acquisition of Non-Financial Assets,General Government Estimated Outcome
+net_lending,613.1,2016-17,FALSE,FISCAL BALANCE,General Government Estimated Outcome
+cash_surplus,709.1,2016-17,FALSE,CASH SURPLUS/(DEFICIT),General Government Estimated Outcome
+net_debt,-659.8,2016-17,FALSE,NET DEBT,General Government Estimated Outcome as at 30 June
+net_worth,11493.7,2016-17,FALSE,NET WORTH,General Government Estimated Outcome as at 30 June
+net_fin_liabilities,5520.8,2016-17,FALSE,NET FINANCIAL LIABILITIES,General Government Estimated Outcome as at 30 June
+capex_pnfa,495.3,2016-17,FALSE,Purchases of Non-Financial Assets,General Government Estimated Outcome

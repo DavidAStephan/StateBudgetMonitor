@@ -1,0 +1,142 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,10042,2025-26,FALSE,Total revenue,Table 2.6 Non financial public sector – revenue components
+rev_total,10051,2026-27,TRUE,Total revenue,Table 2.6 Non financial public sector – revenue components
+rev_total,10297,2027-28,TRUE,Total revenue,Table 2.6 Non financial public sector – revenue components
+rev_total,10550,2028-29,TRUE,Total revenue,Table 2.6 Non financial public sector – revenue components
+rev_taxation,748,2025-26,FALSE,Taxation revenue,Table 2.6 Non financial public sector – revenue components
+rev_taxation,745,2026-27,TRUE,Taxation revenue,Table 2.6 Non financial public sector – revenue components
+rev_taxation,773,2027-28,TRUE,Taxation revenue,Table 2.6 Non financial public sector – revenue components
+rev_taxation,804,2028-29,TRUE,Taxation revenue,Table 2.6 Non financial public sector – revenue components
+rev_payroll,277,2025-26,FALSE,Taxes on employers,Table 6.1 Territory taxes and royalties components
+rev_payroll,277,2026-27,TRUE,Taxes on employers,Table 6.1 Territory taxes and royalties components
+rev_payroll,292,2027-28,TRUE,Taxes on employers,Table 6.1 Territory taxes and royalties components
+rev_payroll,309,2028-29,TRUE,Taxes on employers,Table 6.1 Territory taxes and royalties components
+rev_stamp_duty,139,2025-26,FALSE,Taxes on property,Table 6.1 Territory taxes and royalties components
+rev_stamp_duty,126,2026-27,TRUE,Taxes on property,Table 6.1 Territory taxes and royalties components
+rev_stamp_duty,128,2027-28,TRUE,Taxes on property,Table 6.1 Territory taxes and royalties components
+rev_stamp_duty,130,2028-29,TRUE,Taxes on property,Table 6.1 Territory taxes and royalties components
+rev_gambling,145,2025-26,FALSE,Taxes on gambling,Table 6.1 Territory taxes and royalties components
+rev_gambling,146,2026-27,TRUE,Taxes on gambling,Table 6.1 Territory taxes and royalties components
+rev_gambling,147,2027-28,TRUE,Taxes on gambling,Table 6.1 Territory taxes and royalties components
+rev_gambling,150,2028-29,TRUE,Taxes on gambling,Table 6.1 Territory taxes and royalties components
+rev_motor_vehicle,103,2025-26,FALSE,Motor vehicle taxes,Table 6.1 Territory taxes and royalties components
+rev_motor_vehicle,107,2026-27,TRUE,Motor vehicle taxes,Table 6.1 Territory taxes and royalties components
+rev_motor_vehicle,110,2027-28,TRUE,Motor vehicle taxes,Table 6.1 Territory taxes and royalties components
+rev_motor_vehicle,113,2028-29,TRUE,Motor vehicle taxes,Table 6.1 Territory taxes and royalties components
+rev_gst,4571,2025-26,FALSE,GST revenue,Table 2.6 Non financial public sector – revenue components
+rev_gst,4725,2026-27,TRUE,GST revenue,Table 2.6 Non financial public sector – revenue components
+rev_gst,4960,2027-28,TRUE,GST revenue,Table 2.6 Non financial public sector – revenue components
+rev_gst,5200,2028-29,TRUE,GST revenue,Table 2.6 Non financial public sector – revenue components
+rev_grants_tied,2568,2025-26,FALSE,Tied Commonwealth revenue,Table 5.1 Non financial public sector – components of total revenue
+rev_grants_tied,2499,2026-27,TRUE,Tied Commonwealth revenue,Table 5.1 Non financial public sector – components of total revenue
+rev_grants_tied,2362,2027-28,TRUE,Tied Commonwealth revenue,Table 5.1 Non financial public sector – components of total revenue
+rev_grants_tied,2369,2028-29,TRUE,Tied Commonwealth revenue,Table 5.1 Non financial public sector – components of total revenue
+rev_sales_goods_svcs,1486,2025-26,FALSE,Sales of goods and services,Table 2.6 Non financial public sector – revenue components
+rev_sales_goods_svcs,1502,2026-27,TRUE,Sales of goods and services,Table 2.6 Non financial public sector – revenue components
+rev_sales_goods_svcs,1557,2027-28,TRUE,Sales of goods and services,Table 2.6 Non financial public sector – revenue components
+rev_sales_goods_svcs,1587,2028-29,TRUE,Sales of goods and services,Table 2.6 Non financial public sector – revenue components
+rev_interest,143,2025-26,FALSE,Interest income,Table 2.6 Non financial public sector – revenue components
+rev_interest,146,2026-27,TRUE,Interest income,Table 2.6 Non financial public sector – revenue components
+rev_interest,150,2027-28,TRUE,Interest income,Table 2.6 Non financial public sector – revenue components
+rev_interest,154,2028-29,TRUE,Interest income,Table 2.6 Non financial public sector – revenue components
+rev_dividend,45,2025-26,FALSE,Dividend and income tax equivalent income,Table 2.6 Non financial public sector – revenue components
+rev_dividend,59,2026-27,TRUE,Dividend and income tax equivalent income,Table 2.6 Non financial public sector – revenue components
+rev_dividend,60,2027-28,TRUE,Dividend and income tax equivalent income,Table 2.6 Non financial public sector – revenue components
+rev_dividend,59,2028-29,TRUE,Dividend and income tax equivalent income,Table 2.6 Non financial public sector – revenue components
+rev_other,99,2025-26,FALSE,Other revenue,Table 2.6 Non financial public sector – revenue components
+rev_other,97,2026-27,TRUE,Other revenue,Table 2.6 Non financial public sector – revenue components
+rev_other,99,2027-28,TRUE,Other revenue,Table 2.6 Non financial public sector – revenue components
+rev_other,104,2028-29,TRUE,Other revenue,Table 2.6 Non financial public sector – revenue components
+exp_total,10069,2025-26,FALSE,Total expenses,Table 2.9 Non financial public sector – expenditure components
+exp_total,10049,2026-27,TRUE,Total expenses,Table 2.9 Non financial public sector – expenditure components
+exp_total,10222,2027-28,TRUE,Total expenses,Table 2.9 Non financial public sector – expenditure components
+exp_total,10385,2028-29,TRUE,Total expenses,Table 2.9 Non financial public sector – expenditure components
+exp_employee,4041,2025-26,FALSE,Employee and related expenses,Table 2.9 Non financial public sector – expenditure components
+exp_employee,4069,2026-27,TRUE,Employee and related expenses,Table 2.9 Non financial public sector – expenditure components
+exp_employee,4182,2027-28,TRUE,Employee and related expenses,Table 2.9 Non financial public sector – expenditure components
+exp_employee,4256,2028-29,TRUE,Employee and related expenses,Table 2.9 Non financial public sector – expenditure components
+exp_depreciation,897,2025-26,FALSE,Depreciation and amortisation,Table 2.9 Non financial public sector – expenditure components
+exp_depreciation,893,2026-27,TRUE,Depreciation and amortisation,Table 2.9 Non financial public sector – expenditure components
+exp_depreciation,879,2027-28,TRUE,Depreciation and amortisation,Table 2.9 Non financial public sector – expenditure components
+exp_depreciation,872,2028-29,TRUE,Depreciation and amortisation,Table 2.9 Non financial public sector – expenditure components
+exp_interest,679,2025-26,FALSE,Interest expenses,Table 2.9 Non financial public sector – expenditure components
+exp_interest,784,2026-27,TRUE,Interest expenses,Table 2.9 Non financial public sector – expenditure components
+exp_interest,856,2027-28,TRUE,Interest expenses,Table 2.9 Non financial public sector – expenditure components
+exp_interest,911,2028-29,TRUE,Interest expenses,Table 2.9 Non financial public sector – expenditure components
+exp_other_operating,2881,2025-26,FALSE,Other operating expenses,Table 2.9 Non financial public sector – expenditure components
+exp_other_operating,2781,2026-27,TRUE,Other operating expenses,Table 2.9 Non financial public sector – expenditure components
+exp_other_operating,2842,2027-28,TRUE,Other operating expenses,Table 2.9 Non financial public sector – expenditure components
+exp_other_operating,2847,2028-29,TRUE,Other operating expenses,Table 2.9 Non financial public sector – expenditure components
+exp_current_grants,1301,2025-26,FALSE,Current grants,Table 2.9 Non financial public sector – expenditure components
+exp_current_grants,1312,2026-27,TRUE,Current grants,Table 2.9 Non financial public sector – expenditure components
+exp_current_grants,1336,2027-28,TRUE,Current grants,Table 2.9 Non financial public sector – expenditure components
+exp_current_grants,1387,2028-29,TRUE,Current grants,Table 2.9 Non financial public sector – expenditure components
+exp_capital_grants,196,2025-26,FALSE,Capital grants,Table 2.9 Non financial public sector – expenditure components
+exp_capital_grants,131,2026-27,TRUE,Capital grants,Table 2.9 Non financial public sector – expenditure components
+exp_capital_grants,48,2027-28,TRUE,Capital grants,Table 2.9 Non financial public sector – expenditure components
+exp_capital_grants,34,2028-29,TRUE,Capital grants,Table 2.9 Non financial public sector – expenditure components
+net_op_balance,-265,2025-26,FALSE,Net operating balance,Table 1.1 Key fiscal indicators
+net_op_balance,-101,2026-27,TRUE,Net operating balance,Table 1.1 Key fiscal indicators
+net_op_balance,17,2027-28,TRUE,Net operating balance,Table 1.1 Key fiscal indicators
+net_op_balance,52,2028-29,TRUE,Net operating balance,Table 1.1 Key fiscal indicators
+net_cap_investment,2119,2025-26,FALSE,Net capital investment,Table 2.9 Non financial public sector – expenditure components
+net_cap_investment,1743,2026-27,TRUE,Net capital investment,Table 2.9 Non financial public sector – expenditure components
+net_cap_investment,1422,2027-28,TRUE,Net capital investment,Table 2.9 Non financial public sector – expenditure components
+net_cap_investment,1513,2028-29,TRUE,Net capital investment,Table 2.9 Non financial public sector – expenditure components
+net_lending,-1308,2025-26,FALSE,Fiscal balance,Table 1.1 Key fiscal indicators
+net_lending,-897,2026-27,TRUE,Fiscal balance,Table 1.1 Key fiscal indicators
+net_lending,-529,2027-28,TRUE,Fiscal balance,Table 1.1 Key fiscal indicators
+net_lending,-531,2028-29,TRUE,Fiscal balance,Table 1.1 Key fiscal indicators
+net_debt,12191,2025-26,FALSE,Net debt,Table 1.1 Key fiscal indicators
+net_debt,13107,2026-27,TRUE,Net debt,Table 1.1 Key fiscal indicators
+net_debt,13506,2027-28,TRUE,Net debt,Table 1.1 Key fiscal indicators
+net_debt,13966,2028-29,TRUE,Net debt,Table 1.1 Key fiscal indicators
+econ_gsp_growth,7.8,2025-26,FALSE,GSP growth (real %),Table 3.1 Territory key economic indicators
+econ_gsp_growth,5.9,2026-27,TRUE,GSP growth (real %),Table 3.1 Territory key economic indicators
+econ_gsp_growth,1.7,2027-28,TRUE,GSP growth (real %),Table 3.1 Territory key economic indicators
+econ_gsp_growth,3.0,2028-29,TRUE,GSP growth (real %),Table 3.1 Territory key economic indicators
+econ_employment,0.8,2025-26,FALSE,Employment growth (%),Table 3.1 Territory key economic indicators
+econ_employment,1.2,2026-27,TRUE,Employment growth (%),Table 3.1 Territory key economic indicators
+econ_employment,1.6,2027-28,TRUE,Employment growth (%),Table 3.1 Territory key economic indicators
+econ_employment,1.6,2028-29,TRUE,Employment growth (%),Table 3.1 Territory key economic indicators
+econ_unemployment,5.0,2025-26,FALSE,Unemployment rate (%),Table 3.1 Territory key economic indicators
+econ_unemployment,4.7,2026-27,TRUE,Unemployment rate (%),Table 3.1 Territory key economic indicators
+econ_unemployment,4.6,2027-28,TRUE,Unemployment rate (%),Table 3.1 Territory key economic indicators
+econ_unemployment,4.5,2028-29,TRUE,Unemployment rate (%),Table 3.1 Territory key economic indicators
+econ_cpi,2.9,2025-26,FALSE,Consumer Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_cpi,2.4,2026-27,TRUE,Consumer Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_cpi,2.5,2027-28,TRUE,Consumer Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_cpi,2.5,2028-29,TRUE,Consumer Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_wpi,3.0,2025-26,FALSE,Wage Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_wpi,3.1,2026-27,TRUE,Wage Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_wpi,3.2,2027-28,TRUE,Wage Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_wpi,3.3,2028-29,TRUE,Wage Price Index growth (%),Table 3.1 Territory key economic indicators
+econ_population,1.0,2025-26,FALSE,Population growth (%),Table 3.1 Territory key economic indicators
+econ_population,1.1,2026-27,TRUE,Population growth (%),Table 3.1 Territory key economic indicators
+econ_population,1.2,2027-28,TRUE,Population growth (%),Table 3.1 Territory key economic indicators
+econ_population,1.2,2028-29,TRUE,Population growth (%),Table 3.1 Territory key economic indicators
+rev_grants_untied,4287,2024-25,FALSE,Untied Commonwealth revenue,Table 5.1 components of total revenue
+capex_pnfa,1564.889,2025-26,FALSE,Purchases of non financial assets,Table 2.9 Non financial public sector – expenditure components
+capex_pnfa,1329.805,2026-27,TRUE,Purchases of non financial assets,Table 2.9 Non financial public sector – expenditure components
+capex_pnfa,1133.529,2027-28,TRUE,Purchases of non financial assets,Table 2.9 Non financial public sector – expenditure components
+capex_pnfa,1152.520,2028-29,TRUE,Purchases of non financial assets,Table 2.9 Non financial public sector – expenditure components
+net_fin_liabilities,14674.469,2025-26,FALSE,Net financial liabilities,Table 2.12 Non financial public sector balance sheet variations
+net_fin_liabilities,15425.272,2026-27,TRUE,Net financial liabilities,Table 2.12 Non financial public sector balance sheet variations
+net_fin_liabilities,15874.689,2027-28,TRUE,Net financial liabilities,Table 2.12 Non financial public sector balance sheet variations
+net_fin_liabilities,16302.886,2028-29,TRUE,Net financial liabilities,Table 2.12 Non financial public sector balance sheet variations
+cash_surplus,-1355.468,2025-26,FALSE,Cash surplus / (deficit),Page 92 General government sector cash flow statement
+cash_surplus,-874.675,2026-27,TRUE,Cash surplus / (deficit),Page 92 General government sector cash flow statement
+cash_surplus,-485.259,2027-28,TRUE,Cash surplus / (deficit),Page 92 General government sector cash flow statement
+cash_surplus,-514.022,2028-29,TRUE,Cash surplus / (deficit),Page 92 General government sector cash flow statement
+rev_grants_untied,4571,2025-26,FALSE,Untied Commonwealth revenue (GST),Table 5.1 Non financial public sector – components of total revenue
+rev_grants_untied,4725,2026-27,TRUE,Untied Commonwealth revenue (GST),Table 5.1 Non financial public sector – components of total revenue
+rev_grants_untied,4960,2027-28,TRUE,Untied Commonwealth revenue (GST),Table 5.1 Non financial public sector – components of total revenue
+rev_grants_untied,5200,2028-29,TRUE,Untied Commonwealth revenue (GST),Table 5.1 Non financial public sector – components of total revenue
+cash_surplus,-1661.542,2025-26,FALSE,Cash surplus / (deficit),Table on page 98 - Non financial public sector cash flow statement
+cash_surplus,-940.342,2026-27,TRUE,Cash surplus / (deficit),Table on page 98 - Non financial public sector cash flow statement
+cash_surplus,-426.343,2027-28,TRUE,Cash surplus / (deficit),Table on page 98 - Non financial public sector cash flow statement
+cash_surplus,-512.002,2028-29,TRUE,Cash surplus / (deficit),Table on page 98 - Non financial public sector cash flow statement
+net_fin_liabilities,17031.329,2025-26,FALSE,Net financial liabilities,Table on page 97 - Non financial public sector balance sheet
+net_fin_liabilities,17875.360,2026-27,TRUE,Net financial liabilities,Table on page 97 - Non financial public sector balance sheet
+net_fin_liabilities,18313.034,2027-28,TRUE,Net financial liabilities,Table on page 97 - Non financial public sector balance sheet
+net_fin_liabilities,18771.737,2028-29,TRUE,Net financial liabilities,Table on page 97 - Non financial public sector balance sheet

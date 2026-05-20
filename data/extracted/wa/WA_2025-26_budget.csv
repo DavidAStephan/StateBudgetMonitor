@@ -1,0 +1,415 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,48388,2024-25,FALSE,Total revenue,
+rev_total,50257,2025-26,FALSE,Total revenue,
+rev_total,47464,2026-27,TRUE,Total revenue,
+rev_total,47761,2027-28,TRUE,Total revenue,
+rev_total,48746,2028-29,TRUE,Total revenue,
+exp_total,45857,2024-25,FALSE,Total expenses,
+exp_total,47844,2025-26,FALSE,Total expenses,
+exp_total,45045,2026-27,TRUE,Total expenses,
+exp_total,45127,2027-28,TRUE,Total expenses,
+exp_total,45901,2028-29,TRUE,Total expenses,
+net_op_balance,2532,2024-25,FALSE,Net Operating Balance,
+net_op_balance,2414,2025-26,FALSE,Net Operating Balance,
+net_op_balance,2419,2026-27,TRUE,Net Operating Balance,
+net_op_balance,2634,2027-28,TRUE,Net Operating Balance,
+net_op_balance,2845,2028-29,TRUE,Net Operating Balance,
+net_debt,25029,2024-25,FALSE,Net Debt at 30 June,General Government Sector
+net_debt,29200,2025-26,FALSE,Net Debt at 30 June,General Government Sector
+net_debt,30680,2026-27,TRUE,Net Debt at 30 June,General Government Sector
+net_debt,31136,2027-28,TRUE,Net Debt at 30 June,General Government Sector
+net_debt,30575,2028-29,TRUE,Net Debt at 30 June,General Government Sector
+cash_surplus,603,2024-25,FALSE,Cash Surplus/Deficit,General Government Sector
+cash_surplus,1233,2025-26,FALSE,Cash Surplus/Deficit,General Government Sector
+cash_surplus,1120,2026-27,TRUE,Cash Surplus/Deficit,General Government Sector
+cash_surplus,1311,2027-28,TRUE,Cash Surplus/Deficit,General Government Sector
+cash_surplus,1857,2028-29,TRUE,Cash Surplus/Deficit,General Government Sector
+net_worth,179298,2024-25,FALSE,Net Worth,General Government Sector
+net_worth,185654,2025-26,FALSE,Net Worth,General Government Sector
+net_worth,190021,2026-27,TRUE,Net Worth,General Government Sector
+net_worth,195103,2027-28,TRUE,Net Worth,General Government Sector
+net_worth,199201,2028-29,TRUE,Net Worth,General Government Sector
+capex_pnfa,4371,2024-25,FALSE,Asset Investment Program,General Government Sector
+capex_pnfa,3961,2025-26,FALSE,Asset Investment Program,General Government Sector
+capex_pnfa,3510,2026-27,TRUE,Asset Investment Program,General Government Sector
+capex_pnfa,3340,2027-28,TRUE,Asset Investment Program,General Government Sector
+capex_pnfa,3118,2028-29,TRUE,Asset Investment Program,General Government Sector
+econ_gsp_growth,0.5,2024-25,FALSE,Real Gross State Product growth (%),"Estimated Actual, Table 1"
+econ_gsp_growth,2.5,2025-26,FALSE,Real Gross State Product growth (%),Budget Year
+econ_gsp_growth,3.0,2026-27,TRUE,Real Gross State Product growth (%),Outyear
+econ_gsp_growth,2.5,2027-28,TRUE,Real Gross State Product growth (%),Outyear
+econ_gsp_growth,2.0,2028-29,TRUE,Real Gross State Product growth (%),Outyear
+econ_employment,3.0,2024-25,FALSE,Employment growth (%),Estimated Actual
+econ_employment,1.75,2025-26,FALSE,Employment growth (%),Budget Year
+econ_employment,1.5,2026-27,TRUE,Employment growth (%),Outyear
+econ_employment,1.5,2027-28,TRUE,Employment growth (%),Outyear
+econ_employment,1.5,2028-29,TRUE,Employment growth (%),Outyear
+econ_unemployment,3.75,2024-25,FALSE,Unemployment rate (%),Estimated Actual
+econ_unemployment,3.75,2025-26,FALSE,Unemployment rate (%),Budget Year
+econ_unemployment,4.0,2026-27,TRUE,Unemployment rate (%),Outyear
+econ_unemployment,4.25,2027-28,TRUE,Unemployment rate (%),Outyear
+econ_unemployment,4.25,2028-29,TRUE,Unemployment rate (%),Outyear
+econ_cpi,2.75,2024-25,FALSE,Perth Consumer Price Index growth (%),Estimated Actual; Excluding electricity sub-index
+econ_cpi,2.75,2025-26,FALSE,Perth Consumer Price Index growth (%),Budget Year; Excluding electricity sub-index
+econ_cpi,2.5,2026-27,TRUE,Perth Consumer Price Index growth (%),Outyear; Excluding electricity sub-index
+econ_cpi,2.5,2027-28,TRUE,Perth Consumer Price Index growth (%),Outyear; Excluding electricity sub-index
+econ_cpi,2.5,2028-29,TRUE,Perth Consumer Price Index growth (%),Outyear; Excluding electricity sub-index
+econ_wpi,3.75,2024-25,FALSE,Wage Price Index growth (%),Estimated Actual
+econ_wpi,3.5,2025-26,FALSE,Wage Price Index growth (%),Budget Year
+econ_wpi,3.0,2026-27,TRUE,Wage Price Index growth (%),Outyear
+econ_wpi,3.0,2027-28,TRUE,Wage Price Index growth (%),Outyear
+econ_wpi,3.0,2028-29,TRUE,Wage Price Index growth (%),Outyear
+econ_population,1.9,2024-25,FALSE,Population growth (%),Estimated Actual
+econ_population,1.8,2025-26,FALSE,Population growth (%),Budget Year
+econ_population,1.7,2026-27,TRUE,Population growth (%),Outyear
+econ_population,1.7,2027-28,TRUE,Population growth (%),Outyear
+econ_population,1.6,2028-29,TRUE,Population growth (%),Outyear
+rev_total,48388,2024-25,FALSE,Total,"Estimated Actual from Table 1, page 75"
+rev_total,50257,2025-26,FALSE,Total,"Budget Year from Table 1, page 75"
+rev_total,47464,2026-27,TRUE,Total,"Outyear from Table 1, page 75"
+rev_total,47761,2027-28,TRUE,Total,"Outyear from Table 1, page 75"
+rev_total,48746,2028-29,TRUE,Total,"Outyear from Table 1, page 75"
+rev_taxation,14862,2024-25,FALSE,Taxation,"Estimated Actual from Table 1, page 75"
+rev_taxation,15113,2025-26,FALSE,Taxation,"Budget Year from Table 1, page 75"
+rev_taxation,15403,2026-27,TRUE,Taxation,"Outyear from Table 1, page 75"
+rev_taxation,15696,2027-28,TRUE,Taxation,"Outyear from Table 1, page 75"
+rev_taxation,16266,2028-29,TRUE,Taxation,"Outyear from Table 1, page 75"
+rev_payroll,5863,2024-25,FALSE,Payroll tax,"Estimated from text, page 78: 'Payroll tax is estimated to grow by a robust 8.8% in 2024-25' (calculated backwards from 2025-26 figure)"
+rev_payroll,6137,2025-26,FALSE,Payroll tax,"Budget Year from text, page 78: 'payroll tax growth is projected to moderate to 4.7% in 2025-26 in line with an expected slowdown... This still equates to an annual increase of $274 million'"
+rev_stamp_duty,3394,2024-25,FALSE,Total transfer duty,"Estimated Actual from text, page 79: 'Total transfer duty is estimated to reach $3.4 billion in 2024-25'"
+rev_stamp_duty,3198,2025-26,FALSE,Total transfer duty,"Budget Year from text, page 79: 'transfer duty is forecast to decline by 5.8% (or $196 million) in 2025-26' (calculated from 2024-25)"
+rev_land_tax,1029,2024-25,FALSE,Total land tax,"Estimated from text, page 79: 'Total land tax collections are forecast to increase by 9.7% to $1.1 billion in 2025-26' (calculated backwards)"
+rev_land_tax,1129,2025-26,FALSE,Total land tax,"Budget Year from text, page 79"
+rev_gambling,429,2024-25,FALSE,Taxes on gambling,"Estimated from text, page 80: 'gambling tax revenue is expected to decrease by a further 2.6% (or $11 million) in 2025-26' (calculated backwards)"
+rev_gambling,418,2025-26,FALSE,Taxes on gambling,"Budget Year from text, page 80"
+rev_gst,7362,2024-25,FALSE,GST grants,"Estimated Actual from Table 4, page 86"
+rev_gst,7840,2025-26,FALSE,GST grants,"Budget Year from Table 4, page 86"
+rev_gst,9145,2026-27,TRUE,GST grants,"Outyear from Table 4, page 86"
+rev_gst,9489,2027-28,TRUE,GST grants,"Outyear from Table 4, page 86"
+rev_gst,9880,2028-29,TRUE,GST grants,"Outyear from Table 4, page 86"
+rev_grants_tied,9586,2024-25,FALSE,Tied Grants,"Estimated Actual from Table 4, page 86"
+rev_grants_tied,10581,2025-26,FALSE,Tied Grants,"Budget Year from Table 4, page 86"
+rev_grants_tied,7990,2026-27,TRUE,Tied Grants,"Outyear from Table 4, page 86"
+rev_grants_tied,7542,2027-28,TRUE,Tied Grants,"Outyear from Table 4, page 86"
+rev_grants_tied,7433,2028-29,TRUE,Tied Grants,"Outyear from Table 4, page 86"
+rev_sales_goods_svcs,3477,2024-25,FALSE,Sales of goods and services,"Estimated Actual from Table 1, page 75"
+rev_sales_goods_svcs,3377,2025-26,FALSE,Sales of goods and services,"Budget Year from Table 1, page 75"
+rev_sales_goods_svcs,3425,2026-27,TRUE,Sales of goods and services,"Outyear from Table 1, page 75"
+rev_sales_goods_svcs,3536,2027-28,TRUE,Sales of goods and services,"Outyear from Table 1, page 75"
+rev_sales_goods_svcs,3603,2028-29,TRUE,Sales of goods and services,"Outyear from Table 1, page 75"
+rev_interest,327,2024-25,FALSE,Interest income,"Estimated Actual from Table 1, page 75"
+rev_interest,280,2025-26,FALSE,Interest income,"Budget Year from Table 1, page 75"
+rev_interest,294,2026-27,TRUE,Interest income,"Outyear from Table 1, page 75"
+rev_interest,319,2027-28,TRUE,Interest income,"Outyear from Table 1, page 75"
+rev_interest,345,2028-29,TRUE,Interest income,"Outyear from Table 1, page 75"
+rev_dividend,1435,2024-25,FALSE,Revenue from public corporations,"Estimated Actual from Table 1, page 75. Includes dividends and tax equivalent revenue"
+rev_dividend,3686,2025-26,FALSE,Revenue from public corporations,"Budget Year from Table 1, page 75. Includes dividends and tax equivalent revenue; includes $400m special dividend from Pilbara Ports Authority"
+rev_dividend,2484,2026-27,TRUE,Revenue from public corporations,"Outyear from Table 1, page 75. Includes dividends and tax equivalent revenue"
+rev_dividend,2591,2027-28,TRUE,Revenue from public corporations,"Outyear from Table 1, page 75. Includes dividends and tax equivalent revenue"
+rev_dividend,2855,2028-29,TRUE,Revenue from public corporations,"Outyear from Table 1, page 75. Includes dividends and tax equivalent revenue"
+rev_other,763,2024-25,FALSE,Other revenue,"Estimated Actual from Table 1, page 75"
+rev_other,749,2025-26,FALSE,Other revenue,"Budget Year from Table 1, page 75"
+rev_other,725,2026-27,TRUE,Other revenue,"Outyear from Table 1, page 75"
+rev_other,725,2027-28,TRUE,Other revenue,"Outyear from Table 1, page 75"
+rev_other,713,2028-29,TRUE,Other revenue,"Outyear from Table 1, page 75"
+exp_total,45856,2024-25,FALSE,Total expenses,"Estimated Actual from page 73, text: 'at $45.9 billion, aggregate expenses for the general government sector in 2024-25'"
+exp_total,47856,2025-26,FALSE,Total expenses,"Budget Year from page 97, text: 'Recurrent spending by the general government sector is budgeted to increase by $2 billion (or 4.3%) in 2025-26, to a total of $47.8 billion'"
+exp_health,14591,2025-26,FALSE,Health and Mental Health,"Budget Year from Figure 1, page 98"
+exp_education,8218,2025-26,FALSE,Education,"Budget Year from Figure 1, page 98"
+net_op_balance,2532,2024-25,FALSE,General government net operating balance,"Estimated Actual from Table 6, page 57"
+net_op_balance,2414,2025-26,FALSE,General government net operating balance,"Budget Year from Table 6, page 57"
+net_op_balance,2419,2026-27,TRUE,General government net operating balance,"Outyear from Table 6, page 57"
+net_op_balance,2634,2027-28,TRUE,General government net operating balance,"Outyear from Table 6, page 57"
+net_op_balance,2845,2028-29,TRUE,General government net operating balance,"Outyear from Table 6, page 57"
+net_debt,33583,2024-25,FALSE,Total Public Sector Net Debt,"Estimated from Table 5, page 55"
+net_debt,38968,2025-26,FALSE,Total Public Sector Net Debt,"Budget Year from Table 5, page 55"
+net_debt,41292,2026-27,TRUE,Total Public Sector Net Debt,"Outyear from Table 5, page 55"
+net_debt,42161,2027-28,TRUE,Total Public Sector Net Debt,"Outyear from Table 5, page 55"
+net_debt,42484,2028-29,TRUE,Total Public Sector Net Debt,"Outyear from Table 5, page 55"
+net_worth,179300,2024-25,FALSE,Total public sector net worth,"Estimated from Table 6, page 57"
+net_worth,185700,2025-26,FALSE,Total public sector net worth,"Budget Year from Table 6, page 57"
+net_worth,190000,2026-27,TRUE,Total public sector net worth,"Outyear from Table 6, page 57"
+net_worth,195100,2027-28,TRUE,Total public sector net worth,"Outyear from Table 6, page 57"
+net_worth,199200,2028-29,TRUE,Total public sector net worth,"Outyear from Table 6, page 57"
+rev_total,50257,2025-26,FALSE,Total revenue,
+rev_total,47464,2026-27,TRUE,Total revenue,
+rev_total,47761,2027-28,TRUE,Total revenue,
+rev_total,48746,2028-29,TRUE,Total revenue,
+rev_taxation,15113,2025-26,FALSE,Taxation,
+rev_taxation,15403,2026-27,TRUE,Taxation,
+rev_taxation,15696,2027-28,TRUE,Taxation,
+rev_taxation,16266,2028-29,TRUE,Taxation,
+rev_gst,15776,2025-26,FALSE,Current grants and subsidies,GST is part of Commonwealth grants
+rev_gst,15750,2026-27,TRUE,Current grants and subsidies,GST is part of Commonwealth grants
+rev_gst,16301,2027-28,TRUE,Current grants and subsidies,GST is part of Commonwealth grants
+rev_gst,16873,2028-29,TRUE,Current grants and subsidies,GST is part of Commonwealth grants
+rev_sales_goods_svcs,3377,2025-26,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3425,2026-27,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3536,2027-28,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3603,2028-29,TRUE,Sales of goods and services,
+rev_interest,280,2025-26,FALSE,Interest income,
+rev_interest,294,2026-27,TRUE,Interest income,
+rev_interest,319,2027-28,TRUE,Interest income,
+rev_interest,345,2028-29,TRUE,Interest income,
+rev_dividend,2788,2025-26,FALSE,Dividends from other sector entities,
+rev_dividend,1558,2026-27,TRUE,Dividends from other sector entities,
+rev_dividend,1651,2027-28,TRUE,Dividends from other sector entities,
+rev_dividend,1908,2028-29,TRUE,Dividends from other sector entities,
+rev_other,9992,2025-26,FALSE,Other revenue,Sum of capital grants (3031) + tax equivalent (898) + royalty (8245) + other (749) - double counted items
+rev_other,10281,2026-27,TRUE,Other revenue,Sum of capital grants (1672) + tax equivalent (925) + royalty (7711) + other (725) - double counted items
+rev_other,9460,2027-28,TRUE,Other revenue,Sum of capital grants (979) + tax equivalent (940) + royalty (7616) + other (725) - double counted items
+rev_other,9251,2028-29,TRUE,Other revenue,Sum of capital grants (627) + tax equivalent (947) + royalty (7464) + other (713) - double counted items
+exp_total,47844,2025-26,FALSE,Total expenses,
+exp_total,45045,2026-27,TRUE,Total expenses,
+exp_total,45127,2027-28,TRUE,Total expenses,
+exp_total,45901,2028-29,TRUE,Total expenses,
+exp_employee,19041,2025-26,FALSE,Salaries,
+exp_employee,18770,2026-27,TRUE,Salaries,
+exp_employee,19326,2027-28,TRUE,Salaries,
+exp_employee,19915,2028-29,TRUE,Salaries,
+exp_super,2486,2025-26,FALSE,Superannuation expenses,Sum of concurrent costs (2280) and interest cost (206)
+exp_super,2448,2026-27,TRUE,Superannuation expenses,Sum of concurrent costs (2250) and interest cost (198)
+exp_super,2505,2027-28,TRUE,Superannuation expenses,Sum of concurrent costs (2316) and interest cost (189)
+exp_super,2566,2028-29,TRUE,Superannuation expenses,Sum of concurrent costs (2388) and interest cost (178)
+exp_depreciation,2406,2025-26,FALSE,Depreciation and amortisation,
+exp_depreciation,2441,2026-27,TRUE,Depreciation and amortisation,
+exp_depreciation,2434,2027-28,TRUE,Depreciation and amortisation,
+exp_depreciation,2422,2028-29,TRUE,Depreciation and amortisation,
+exp_interest,1175,2025-26,FALSE,Interest expenses,Sum of interest on leases (152) and other interest (1023)
+exp_interest,1255,2026-27,TRUE,Interest expenses,Sum of interest on leases (149) and other interest (1106)
+exp_interest,1355,2027-28,TRUE,Interest expenses,Sum of interest on leases (145) and other interest (1210)
+exp_interest,1444,2028-29,TRUE,Interest expenses,Sum of interest on leases (142) and other interest (1302)
+exp_other_operating,12351,2025-26,FALSE,Other operating expenses,Sum of other employee costs (452) + services/contracts (4755) + other gross operating (7144)
+exp_other_operating,11306,2026-27,TRUE,Other operating expenses,Sum of other employee costs (419) + services/contracts (4345) + other gross operating (6542)
+exp_other_operating,11281,2027-28,TRUE,Other operating expenses,Sum of other employee costs (396) + services/contracts (3894) + other gross operating (6991)
+exp_other_operating,11487,2028-29,TRUE,Other operating expenses,Sum of other employee costs (399) + services/contracts (3693) + other gross operating (7395)
+exp_current_grants,9713,2025-26,FALSE,Current transfers,
+exp_current_grants,8466,2026-27,TRUE,Current transfers,
+exp_current_grants,8001,2027-28,TRUE,Current transfers,
+exp_current_grants,7861,2028-29,TRUE,Current transfers,
+exp_capital_grants,670,2025-26,FALSE,Capital transfers,
+exp_capital_grants,360,2026-27,TRUE,Capital transfers,
+exp_capital_grants,224,2027-28,TRUE,Capital transfers,
+exp_capital_grants,207,2028-29,TRUE,Capital transfers,
+net_op_balance,2414,2025-26,FALSE,NET OPERATING BALANCE,
+net_op_balance,2419,2026-27,TRUE,NET OPERATING BALANCE,
+net_op_balance,2634,2027-28,TRUE,NET OPERATING BALANCE,
+net_op_balance,2845,2028-29,TRUE,NET OPERATING BALANCE,
+net_cap_investment,1472,2025-26,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,1003,2026-27,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,838,2027-28,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,629,2028-29,TRUE,Total net acquisition of non-financial assets,
+net_lending,941,2025-26,FALSE,NET LENDING/-BORROWING,
+net_lending,1417,2026-27,TRUE,NET LENDING/-BORROWING,
+net_lending,1796,2027-28,TRUE,NET LENDING/-BORROWING,
+net_lending,2216,2028-29,TRUE,NET LENDING/-BORROWING,
+capex_pnfa,3961,2025-26,FALSE,Purchase of non-financial assets,
+capex_pnfa,3510,2026-27,TRUE,Purchase of non-financial assets,
+capex_pnfa,3340,2027-28,TRUE,Purchase of non-financial assets,
+capex_pnfa,3118,2028-29,TRUE,Purchase of non-financial assets,
+rev_taxation,14862,2024-25,FALSE,Total Taxation,Estimated Actual from Table 2.1
+rev_taxation,15113,2025-26,FALSE,Total Taxation,Budget Year from Table 2.1
+rev_taxation,15403,2026-27,TRUE,Total Taxation,Outyear from Table 2.1
+rev_taxation,15696,2027-28,TRUE,Total Taxation,Outyear from Table 2.1
+rev_taxation,16266,2028-29,TRUE,Total Taxation,Outyear from Table 2.1
+rev_payroll,5880,2024-25,FALSE,Payroll tax,Estimated Actual from Table 2.1
+rev_payroll,6154,2025-26,FALSE,Payroll tax,Budget Year from Table 2.1
+rev_payroll,6462,2026-27,TRUE,Payroll tax,Outyear from Table 2.1
+rev_payroll,6786,2027-28,TRUE,Payroll tax,Outyear from Table 2.1
+rev_payroll,7125,2028-29,TRUE,Payroll tax,Outyear from Table 2.1
+rev_land_tax,899,2024-25,FALSE,Land tax,Estimated Actual from Table 2.1
+rev_land_tax,988,2025-26,FALSE,Land tax,Budget Year from Table 2.1
+rev_land_tax,1020,2026-27,TRUE,Land tax,Outyear from Table 2.1
+rev_land_tax,1053,2027-28,TRUE,Land tax,Outyear from Table 2.1
+rev_land_tax,1088,2028-29,TRUE,Land tax,Outyear from Table 2.1
+rev_stamp_duty,3398,2024-25,FALSE,Total duty on transfers,Estimated Actual from Table 2.1
+rev_stamp_duty,3202,2025-26,FALSE,Total duty on transfers,Budget Year from Table 2.1
+rev_stamp_duty,2975,2026-27,TRUE,Total duty on transfers,Outyear from Table 2.1
+rev_stamp_duty,2757,2027-28,TRUE,Total duty on transfers,Outyear from Table 2.1
+rev_stamp_duty,2762,2028-29,TRUE,Total duty on transfers,Outyear from Table 2.1
+rev_gambling,414,2024-25,FALSE,Total taxes on gambling,Estimated Actual from Table 2.1
+rev_gambling,403,2025-26,FALSE,Total taxes on gambling,Budget Year from Table 2.1
+rev_gambling,411,2026-27,TRUE,Total taxes on gambling,Outyear from Table 2.1
+rev_gambling,416,2027-28,TRUE,Total taxes on gambling,Outyear from Table 2.1
+rev_gambling,422,2028-29,TRUE,Total taxes on gambling,Outyear from Table 2.1
+rev_motor_vehicle,2240,2024-25,FALSE,Total motor vehicle taxes,Estimated Actual from Table 2.1
+rev_motor_vehicle,2248,2025-26,FALSE,Total motor vehicle taxes,Budget Year from Table 2.1
+rev_motor_vehicle,2311,2026-27,TRUE,Total motor vehicle taxes,Outyear from Table 2.1
+rev_motor_vehicle,2359,2027-28,TRUE,Total motor vehicle taxes,Outyear from Table 2.1
+rev_motor_vehicle,2451,2028-29,TRUE,Total motor vehicle taxes,Outyear from Table 2.1
+rev_gst,7362,2024-25,FALSE,GST grants,Estimated Actual from Table 2.1
+rev_gst,7840,2025-26,FALSE,GST grants,Budget Year from Table 2.1
+rev_gst,9145,2026-27,TRUE,GST grants,Outyear from Table 2.1
+rev_gst,9489,2027-28,TRUE,GST grants,Outyear from Table 2.1
+rev_gst,9880,2028-29,TRUE,GST grants,Outyear from Table 2.1
+rev_grants_tied,6757,2024-25,FALSE,National Agreements + National Partnerships/Other Grants (current),Estimated Actual from Table 2.1
+rev_grants_tied,7936,2025-26,FALSE,National Agreements + National Partnerships/Other Grants (current),Budget Year from Table 2.1
+rev_grants_tied,6605,2026-27,TRUE,National Agreements + National Partnerships/Other Grants (current),Outyear from Table 2.1
+rev_grants_tied,6812,2027-28,TRUE,National Agreements + National Partnerships/Other Grants (current),Outyear from Table 2.1
+rev_grants_tied,6993,2028-29,TRUE,National Agreements + National Partnerships/Other Grants (current),Outyear from Table 2.1
+rev_grants_untied,630,2024-25,FALSE,Commonwealth untied grants ex-GST (North West Shelf + crude oil),Estimated Actual from Table 2.1
+rev_grants_untied,385,2025-26,FALSE,Commonwealth untied grants ex-GST (North West Shelf + crude oil),Budget Year from Table 2.1
+rev_grants_untied,287,2026-27,TRUE,Commonwealth untied grants ex-GST (North West Shelf + crude oil),Outyear from Table 2.1
+rev_grants_untied,249,2027-28,TRUE,Commonwealth untied grants ex-GST (North West Shelf + crude oil),Outyear from Table 2.1
+rev_grants_untied,186,2028-29,TRUE,Commonwealth untied grants ex-GST (North West Shelf + crude oil),Outyear from Table 2.1
+rev_sales_goods_svcs,3477,2024-25,FALSE,Total Sale of Goods and Services,Estimated Actual from Table 2.1
+rev_sales_goods_svcs,3377,2025-26,FALSE,Total Sale of Goods and Services,Budget Year from Table 2.1
+rev_sales_goods_svcs,3425,2026-27,TRUE,Total Sale of Goods and Services,Outyear from Table 2.1
+rev_sales_goods_svcs,3536,2027-28,TRUE,Total Sale of Goods and Services,Outyear from Table 2.1
+rev_sales_goods_svcs,3603,2028-29,TRUE,Total Sale of Goods and Services,Outyear from Table 2.1
+rev_interest,327,2024-25,FALSE,INTEREST INCOME,Estimated Actual from Table 2.1
+rev_interest,280,2025-26,FALSE,INTEREST INCOME,Budget Year from Table 2.1
+rev_interest,294,2026-27,TRUE,INTEREST INCOME,Outyear from Table 2.1
+rev_interest,319,2027-28,TRUE,INTEREST INCOME,Outyear from Table 2.1
+rev_interest,345,2028-29,TRUE,INTEREST INCOME,Outyear from Table 2.1
+rev_dividend,1435,2024-25,FALSE,Total Revenue from Public Corporations,Estimated Actual from Table 2.1
+rev_dividend,3686,2025-26,FALSE,Total Revenue from Public Corporations,Budget Year from Table 2.1
+rev_dividend,2484,2026-27,TRUE,Total Revenue from Public Corporations,Outyear from Table 2.1
+rev_dividend,2591,2027-28,TRUE,Total Revenue from Public Corporations,Outyear from Table 2.1
+rev_dividend,2855,2028-29,TRUE,Total Revenue from Public Corporations,Outyear from Table 2.1
+rev_other,763,2024-25,FALSE,OTHER,Estimated Actual from Table 2.1
+rev_other,749,2025-26,FALSE,OTHER,Budget Year from Table 2.1
+rev_other,725,2026-27,TRUE,OTHER,Outyear from Table 2.1
+rev_other,725,2027-28,TRUE,OTHER,Outyear from Table 2.1
+rev_other,713,2028-29,TRUE,OTHER,Outyear from Table 2.1
+rev_total,48388,2024-25,FALSE,TOTAL REVENUE,Estimated Actual from Table 2.1
+rev_total,50257,2025-26,FALSE,TOTAL REVENUE,Budget Year from Table 2.1
+rev_total,47464,2026-27,TRUE,TOTAL REVENUE,Outyear from Table 2.1
+rev_total,47761,2027-28,TRUE,TOTAL REVENUE,Outyear from Table 2.1
+rev_total,48746,2028-29,TRUE,TOTAL REVENUE,Outyear from Table 2.1
+exp_employee,20694,2024-25,FALSE,Wages salaries and supplements and superannuation,Estimated Actual from Table 1.3
+exp_employee,21563,2025-26,FALSE,Wages salaries and supplements and superannuation,Budget Year from Table 1.3
+exp_employee,21272,2026-27,TRUE,Wages salaries and supplements and superannuation,Outyear from Table 1.3
+exp_employee,22171,2027-28,TRUE,Wages salaries and supplements and superannuation,Outyear from Table 1.3
+exp_employee,22649,2028-29,TRUE,Wages salaries and supplements and superannuation,Outyear from Table 1.3
+exp_depreciation,3547,2024-25,FALSE,Depreciation and amortisation (GGS),Estimated Actual from Appendix 1 Table 1.1
+exp_depreciation,3872,2025-26,FALSE,Depreciation and amortisation (GGS),Budget Year from Appendix 1 Table 1.1
+exp_depreciation,4015,2026-27,TRUE,Depreciation and amortisation (GGS),Outyear from Appendix 1 Table 1.1
+exp_depreciation,4089,2027-28,TRUE,Depreciation and amortisation (GGS),Outyear from Appendix 1 Table 1.1
+exp_depreciation,4168,2028-29,TRUE,Depreciation and amortisation (GGS),Outyear from Appendix 1 Table 1.1
+exp_interest,1956,2024-25,FALSE,Interest paid (from cash flow),Estimated Actual from Table 1.3
+exp_interest,1882,2025-26,FALSE,Interest paid (from cash flow),Budget Year from Table 1.3
+exp_interest,2088,2026-27,TRUE,Interest paid (from cash flow),Outyear from Table 1.3
+exp_interest,2256,2027-28,TRUE,Interest paid (from cash flow),Outyear from Table 1.3
+exp_interest,2438,2028-29,TRUE,Interest paid (from cash flow),Outyear from Table 1.3
+exp_current_grants,9345,2024-25,FALSE,Current grants and subsidies (GGS Operating Statement),Estimated Actual from Appendix 1 Table 1.1
+exp_current_grants,9713,2025-26,FALSE,Current grants and subsidies (GGS Operating Statement),Budget Year from Appendix 1 Table 1.1
+exp_current_grants,8466,2026-27,TRUE,Current grants and subsidies (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_current_grants,8001,2027-28,TRUE,Current grants and subsidies (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_current_grants,7861,2028-29,TRUE,Current grants and subsidies (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_capital_grants,667,2024-25,FALSE,Capital grants (GGS Operating Statement),Estimated Actual from Appendix 1 Table 1.1
+exp_capital_grants,670,2025-26,FALSE,Capital grants (GGS Operating Statement),Budget Year from Appendix 1 Table 1.1
+exp_capital_grants,360,2026-27,TRUE,Capital grants (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_capital_grants,224,2027-28,TRUE,Capital grants (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_capital_grants,207,2028-29,TRUE,Capital grants (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_total,48385,2024-25,FALSE,Total expenses (GGS Operating Statement),Estimated Actual from Appendix 1 Table 1.1
+exp_total,49948,2025-26,FALSE,Total expenses (GGS Operating Statement),Budget Year from Appendix 1 Table 1.1
+exp_total,50630,2026-27,TRUE,Total expenses (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_total,50846,2027-28,TRUE,Total expenses (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+exp_total,50887,2028-29,TRUE,Total expenses (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_op_balance,411,2024-25,FALSE,NET OPERATING BALANCE (GGS Operating Statement),Estimated Actual from Appendix 1 Table 1.1
+net_op_balance,67,2025-26,FALSE,NET OPERATING BALANCE (GGS Operating Statement),Budget Year from Appendix 1 Table 1.1
+net_op_balance,-146,2026-27,TRUE,NET OPERATING BALANCE (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_op_balance,-43,2027-28,TRUE,NET OPERATING BALANCE (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_op_balance,-21,2028-29,TRUE,NET OPERATING BALANCE (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_lending,-5710,2024-25,FALSE,NET LENDING/-BORROWING (GGS Operating Statement),Estimated Actual from Appendix 1 Table 1.1
+net_lending,-4147,2025-26,FALSE,NET LENDING/-BORROWING (GGS Operating Statement),Budget Year from Appendix 1 Table 1.1
+net_lending,-2046,2026-27,TRUE,NET LENDING/-BORROWING (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_lending,-504,2027-28,TRUE,NET LENDING/-BORROWING (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+net_lending,-336,2028-29,TRUE,NET LENDING/-BORROWING (GGS Operating Statement),Outyear from Appendix 1 Table 1.1
+cash_surplus,603,2024-25,FALSE,Cash surplus/-deficit (GGS Cash Flow Statement),Estimated Actual from Table 1.3
+cash_surplus,1233,2025-26,FALSE,Cash surplus/-deficit (GGS Cash Flow Statement),Budget Year from Table 1.3
+cash_surplus,1120,2026-27,TRUE,Cash surplus/-deficit (GGS Cash Flow Statement),Outyear from Table 1.3
+cash_surplus,1311,2027-28,TRUE,Cash surplus/-deficit (GGS Cash Flow Statement),Outyear from Table 1.3
+cash_surplus,1857,2028-29,TRUE,Cash surplus/-deficit (GGS Cash Flow Statement),Outyear from Table 1.3
+net_debt,25029,2024-25,FALSE,Net debt (GGS Balance Sheet),
+rev_total,43027,2024-25,FALSE,Total revenue,Estimated Actual
+rev_total,44758,2025-26,FALSE,Total revenue,Budget Year
+rev_total,46826,2026-27,TRUE,Total revenue,Forward estimate
+rev_total,49138,2027-28,TRUE,Total revenue,Forward estimate
+rev_total,50807,2028-29,TRUE,Total revenue,Forward estimate
+rev_taxation,11569,2024-25,FALSE,Taxation revenue,Estimated Actual
+rev_taxation,12166,2025-26,FALSE,Taxation revenue,Budget Year
+rev_taxation,12735,2026-27,TRUE,Taxation revenue,Forward estimate
+rev_taxation,13293,2027-28,TRUE,Taxation revenue,Forward estimate
+rev_taxation,13929,2028-29,TRUE,Taxation revenue,Forward estimate
+rev_payroll,5139,2024-25,FALSE,Payroll tax,Estimated Actual
+rev_payroll,5454,2025-26,FALSE,Payroll tax,Budget Year
+rev_payroll,5748,2026-27,TRUE,Payroll tax,Forward estimate
+rev_payroll,6052,2027-28,TRUE,Payroll tax,Forward estimate
+rev_payroll,6377,2028-29,TRUE,Payroll tax,Forward estimate
+rev_land_tax,2454,2024-25,FALSE,Land tax,Estimated Actual
+rev_land_tax,2544,2025-26,FALSE,Land tax,Budget Year
+rev_land_tax,2652,2026-27,TRUE,Land tax,Forward estimate
+rev_land_tax,2754,2027-28,TRUE,Land tax,Forward estimate
+rev_land_tax,2873,2028-29,TRUE,Land tax,Forward estimate
+rev_stamp_duty,2180,2024-25,FALSE,Transfer duty,Estimated Actual
+rev_stamp_duty,2277,2025-26,FALSE,Transfer duty,Budget Year
+rev_stamp_duty,2403,2026-27,TRUE,Transfer duty,Forward estimate
+rev_stamp_duty,2528,2027-28,TRUE,Transfer duty,Forward estimate
+rev_stamp_duty,2672,2028-29,TRUE,Transfer duty,Forward estimate
+rev_motor_vehicle,1038,2024-25,FALSE,Vehicle licence fees and duty,Estimated Actual
+rev_motor_vehicle,1069,2025-26,FALSE,Vehicle licence fees and duty,Budget Year
+rev_motor_vehicle,1099,2026-27,TRUE,Vehicle licence fees and duty,Forward estimate
+rev_motor_vehicle,1126,2027-28,TRUE,Vehicle licence fees and duty,Forward estimate
+rev_motor_vehicle,1157,2028-29,TRUE,Vehicle licence fees and duty,Forward estimate
+rev_gambling,285,2024-25,FALSE,Betting tax and casino tax,Estimated Actual
+rev_gambling,320,2025-26,FALSE,Betting tax and casino tax,Budget Year
+rev_gambling,323,2026-27,TRUE,Betting tax and casino tax,Forward estimate
+rev_gambling,326,2027-28,TRUE,Betting tax and casino tax,Forward estimate
+rev_gambling,329,2028-29,TRUE,Betting tax and casino tax,Forward estimate
+rev_gst,8282,2024-25,FALSE,GST revenue,Estimated Actual
+rev_gst,8514,2025-26,FALSE,GST revenue,Budget Year
+rev_gst,8971,2026-27,TRUE,GST revenue,Forward estimate
+rev_gst,9425,2027-28,TRUE,GST revenue,Forward estimate
+rev_gst,9883,2028-29,TRUE,GST revenue,Forward estimate
+rev_grants_tied,5437,2024-25,FALSE,Commonwealth specific purpose payments,Estimated Actual
+rev_grants_tied,5638,2025-26,FALSE,Commonwealth specific purpose payments,Budget Year
+rev_grants_tied,5883,2026-27,TRUE,Commonwealth specific purpose payments,Forward estimate
+rev_grants_tied,6138,2027-28,TRUE,Commonwealth specific purpose payments,Forward estimate
+rev_grants_tied,6383,2028-29,TRUE,Commonwealth specific purpose payments,Forward estimate
+rev_grants_untied,1001,2024-25,FALSE,Commonwealth national partnership and other grants,Estimated Actual
+rev_grants_untied,1156,2025-26,FALSE,Commonwealth national partnership and other grants,Budget Year
+rev_grants_untied,1077,2026-27,TRUE,Commonwealth national partnership and other grants,Forward estimate
+rev_grants_untied,913,2027-28,TRUE,Commonwealth national partnership and other grants,Forward estimate
+rev_grants_untied,775,2028-29,TRUE,Commonwealth national partnership and other grants,Forward estimate
+exp_total,43173,2024-25,FALSE,Total expenses,Estimated Actual
+exp_total,45067,2025-26,FALSE,Total expenses,Budget Year
+exp_total,46289,2026-27,TRUE,Total expenses,Forward estimate
+exp_total,47855,2027-28,TRUE,Total expenses,Forward estimate
+exp_total,49566,2028-29,TRUE,Total expenses,Forward estimate
+exp_employee,19655,2024-25,FALSE,Employee benefits expense,Estimated Actual
+exp_employee,20449,2025-26,FALSE,Employee benefits expense,Budget Year
+exp_employee,20890,2026-27,TRUE,Employee benefits expense,Forward estimate
+exp_employee,21448,2027-28,TRUE,Employee benefits expense,Forward estimate
+exp_employee,22064,2028-29,TRUE,Employee benefits expense,Forward estimate
+exp_depreciation,2955,2024-25,FALSE,Depreciation and amortisation,Estimated Actual
+exp_depreciation,3096,2025-26,FALSE,Depreciation and amortisation,Budget Year
+exp_depreciation,3256,2026-27,TRUE,Depreciation and amortisation,Forward estimate
+exp_depreciation,3359,2027-28,TRUE,Depreciation and amortisation,Forward estimate
+exp_depreciation,3458,2028-29,TRUE,Depreciation and amortisation,Forward estimate
+exp_interest,849,2024-25,FALSE,Interest expense,Estimated Actual
+exp_interest,867,2025-26,FALSE,Interest expense,Budget Year
+exp_interest,921,2026-27,TRUE,Interest expense,Forward estimate
+exp_interest,986,2027-28,TRUE,Interest expense,Forward estimate
+exp_interest,1052,2028-29,TRUE,Interest expense,Forward estimate
+net_op_balance,-146,2024-25,FALSE,Net operating balance,Estimated Actual
+net_op_balance,-309,2025-26,FALSE,Net operating balance,Budget Year
+net_op_balance,537,2026-27,TRUE,Net operating balance,Forward estimate
+net_op_balance,1283,2027-28,TRUE,Net operating balance,Forward estimate
+net_op_balance,1241,2028-29,TRUE,Net operating balance,Forward estimate
+cash_surplus,-3629,2024-25,FALSE,Cash surplus/(deficit),Estimated Actual
+cash_surplus,-4176,2025-26,FALSE,Cash surplus/(deficit),Budget Year
+cash_surplus,-1579,2026-27,TRUE,Cash surplus/(deficit),Forward estimate
+cash_surplus,-237,2027-28,TRUE,Cash surplus/(deficit),Forward estimate
+cash_surplus,1024,2028-29,TRUE,Cash surplus/(deficit),Forward estimate
+net_debt,22979,2024-25,FALSE,Net debt,Estimated Actual
+net_debt,26891,2025-26,FALSE,Net debt,Budget Year
+net_debt,27960,2026-27,TRUE,Net debt,Forward estimate
+net_debt,27660,2027-28,TRUE,Net debt,Forward estimate
+net_debt,26136,2028-29,TRUE,Net debt,Forward estimate
+rev_grants_tied,9208.7,2024-25,FALSE,Total Commonwealth tied grants,From Table 12.1 - sum of all tied grant categories
+rev_grants_tied,10227.4,2025-26,FALSE,Total Commonwealth tied grants,From Table 12.1 - sum of all tied grant categories
+rev_grants_tied,7736.4,2026-27,TRUE,Total Commonwealth tied grants,From Table 12.1 - sum of all tied grant categories
+rev_grants_tied,7303.8,2027-28,TRUE,Total Commonwealth tied grants,From Table 12.1 - sum of all tied grant categories
+rev_grants_tied,7234.8,2028-29,TRUE,Total Commonwealth tied grants,From Table 12.1 - sum of all tied grant categories

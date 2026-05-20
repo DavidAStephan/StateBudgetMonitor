@@ -136,12 +136,30 @@ for (i in seq_len(nrow(candidates))) {
 
   pages <- find_ggs_pages(row$pdf_path)
   if (is.null(pages)) {
-    cat("  skipping --- could not locate GGS table pages\n")
-    results[[i]] <- list(document_id = row$document_id, status = "anchor_not_found")
-    next
+    ## Anchor finder failed --- fall back to chunking the whole PDF.
+    ## Anthropic caps PDF input at 100 pages, so we slice into 90-page
+    ## chunks and let the LLM find the GGS tables wherever they live.
+    ## `pdf_length()` uses qpdf which fails on some encrypted PDFs;
+    ## `pdf_text()` uses poppler and is more forgiving.
+    n <- tryCatch(length(pdftools::pdf_text(row$pdf_path)),
+                  error = function(e) 0L)
+    if (n == 0L) {
+      cat("  skipping --- unreadable PDF\n")
+      results[[i]] <- list(document_id = row$document_id, status = "anchor_not_found")
+      next
+    }
+    ## Text mode (via pdftools::pdf_text) uses ~500-1500 tokens per
+    ## page, so 60-page slices stay comfortably under Sonnet's 200K
+    ## context window even for the most text-dense Budget Papers.
+    chunk_size <- 60L
+    starts <- seq.int(1L, n, by = chunk_size)
+    pages  <- lapply(starts, function(s) seq.int(s, min(s + chunk_size - 1L, n)))
+    cat(sprintf("  anchor not found --- chunking whole PDF: %d pages in %d slice(s)\n",
+                n, length(pages)))
+  } else {
+    cat(sprintf("  GGS pages: %d-%d (n=%d)\n",
+                min(pages), max(pages), length(pages)))
   }
-  cat(sprintf("  GGS pages: %d-%d (n=%d)\n",
-              min(pages), max(pages), length(pages)))
 
   out <- tryCatch(
     sbm_extract_llm(row$document_id, registry, dictionary, cfg, pages = pages),

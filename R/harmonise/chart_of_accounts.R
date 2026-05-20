@@ -27,6 +27,41 @@ sbm_apply_chart_of_accounts <- function(facts, dictionary, overrides) {
       by = c("jurisdiction", "variable_id")
     )
 
+  ## Defensively drop rows whose variable_id isn't in the dictionary
+  ## --- those would later fail the NOT NULL constraint on
+  ## dim_variables.canonical_label. The LLM occasionally invents
+  ## variable_ids that aren't canonical (e.g. "rev_grants" instead of
+  ## "rev_grants_tied" / "rev_grants_untied"). Log the count so the
+  ## user can decide whether to extend the dictionary.
+  n_orphan <- sum(is.na(labelled$canonical_label))
+  if (n_orphan > 0L) {
+    orphans <- labelled |>
+      dplyr::filter(is.na(canonical_label)) |>
+      dplyr::count(variable_id, sort = TRUE)
+    sbm_warn(sprintf(
+      "chart_of_accounts: dropping %d row(s) for variable_id(s) not in dictionary: %s",
+      n_orphan,
+      paste(sprintf("%s (%d)", orphans$variable_id, orphans$n), collapse = ", ")
+    ))
+    labelled <- labelled |> dplyr::filter(!is.na(canonical_label))
+  }
+
+  ## Defensive drop on NA primary-key / NOT-NULL fields the warehouse
+  ## insists on. LLM responses occasionally leave is_forward_estimate
+  ## blank or omit value_aud_mil for one of N years.
+  n_bad <- sum(is.na(labelled$is_forward_estimate) | is.na(labelled$value_aud_mil) |
+               is.na(labelled$fiscal_year) | is.na(labelled$variable_id))
+  if (n_bad > 0L) {
+    sbm_warn(sprintf(
+      "chart_of_accounts: dropping %d row(s) with NA in required field(s)", n_bad
+    ))
+    labelled <- labelled |>
+      dplyr::filter(!is.na(is_forward_estimate),
+                    !is.na(value_aud_mil),
+                    !is.na(fiscal_year),
+                    !is.na(variable_id))
+  }
+
   ## Overrides take precedence: replace value for any matching key.
   if (nrow(overrides) > 0L) {
     labelled <- labelled |>

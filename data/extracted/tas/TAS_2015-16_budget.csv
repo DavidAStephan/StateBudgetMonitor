@@ -1,0 +1,177 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5307.8,2015-16,FALSE,Revenue from Transactions,
+rev_total,5400.5,2016-17,TRUE,Revenue from Transactions,
+rev_total,5486.3,2017-18,TRUE,Revenue from Transactions,
+rev_total,5677.6,2018-19,TRUE,Revenue from Transactions,
+rev_taxation,1027.1,2015-16,FALSE,Taxation,
+rev_taxation,1041.7,2016-17,TRUE,Taxation,
+rev_taxation,1059.1,2017-18,TRUE,Taxation,
+rev_taxation,1080.1,2018-19,TRUE,Taxation,
+rev_gst,2248.8,2015-16,FALSE,GST revenue,"Value calculated from Table 5.1 in chapter 5, page 84"
+rev_gst,2310.9,2016-17,TRUE,GST revenue,"Value from Table 5.1 in chapter 5, page 84"
+rev_gst,2335.4,2017-18,TRUE,GST revenue,"Value from Table 5.1 in chapter 5, page 84"
+rev_gst,2499.6,2018-19,TRUE,GST revenue,"Value from Table 5.1 in chapter 5, page 84"
+rev_sales_goods_svcs,357.8,2015-16,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,355.1,2016-17,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,362.7,2017-18,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,367.9,2018-19,TRUE,Sales of Goods and Services,
+rev_interest,16.7,2015-16,FALSE,Interest Income,
+rev_interest,16.4,2016-17,TRUE,Interest Income,
+rev_interest,19.3,2017-18,TRUE,Interest Income,
+rev_interest,20.5,2018-19,TRUE,Interest Income,
+rev_dividend,213.4,2015-16,FALSE,Dividend Tax and Rate Equivalent Income,
+rev_dividend,218.7,2016-17,TRUE,Dividend Tax and Rate Equivalent Income,
+rev_dividend,255.4,2017-18,TRUE,Dividend Tax and Rate Equivalent Income,
+rev_dividend,241.8,2018-19,TRUE,Dividend Tax and Rate Equivalent Income,
+exp_total,5366.3,2015-16,FALSE,Expenses from Transactions,
+exp_total,5299.0,2016-17,TRUE,Expenses from Transactions,
+exp_total,5398.3,2017-18,TRUE,Expenses from Transactions,
+exp_total,5495.2,2018-19,TRUE,Expenses from Transactions,
+exp_employee,2237.3,2015-16,FALSE,Employee Expenses,
+exp_employee,2230.1,2016-17,TRUE,Employee Expenses,
+exp_employee,2271.1,2017-18,TRUE,Employee Expenses,
+exp_employee,2317.4,2018-19,TRUE,Employee Expenses,
+exp_super,261.8,2015-16,FALSE,Superannuation,
+exp_super,263.0,2016-17,TRUE,Superannuation,
+exp_super,264.2,2017-18,TRUE,Superannuation,
+exp_super,266.3,2018-19,TRUE,Superannuation,
+exp_depreciation,285.3,2015-16,FALSE,Depreciation,
+exp_depreciation,294.1,2016-17,TRUE,Depreciation,
+exp_depreciation,312.5,2017-18,TRUE,Depreciation,
+exp_depreciation,319.6,2018-19,TRUE,Depreciation,
+exp_interest,10.8,2015-16,FALSE,Borrowing Costs,
+exp_interest,10.4,2016-17,TRUE,Borrowing Costs,
+exp_interest,10.1,2017-18,TRUE,Borrowing Costs,
+exp_interest,9.7,2018-19,TRUE,Borrowing Costs,
+net_op_balance,-58.5,2015-16,FALSE,NET OPERATING BALANCE,
+net_op_balance,101.5,2016-17,TRUE,NET OPERATING BALANCE,
+net_op_balance,88.0,2017-18,TRUE,NET OPERATING BALANCE,
+net_op_balance,182.4,2018-19,TRUE,NET OPERATING BALANCE,
+net_cap_investment,98.6,2015-16,FALSE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,228.5,2016-17,TRUE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,106.5,2017-18,TRUE,Net Acquisition of Non-Financial Assets,
+net_cap_investment,75.6,2018-19,TRUE,Net Acquisition of Non-Financial Assets,
+net_lending,-157.1,2015-16,FALSE,FISCAL BALANCE,
+net_lending,-127.0,2016-17,TRUE,FISCAL BALANCE,
+net_lending,-18.6,2017-18,TRUE,FISCAL BALANCE,
+net_lending,106.9,2018-19,TRUE,FISCAL BALANCE,
+net_debt,-252.6,2015-16,FALSE,Net Debt,"Value from Table 1.1, page 6. Net Debt is negative (Net Cash and Investments)"
+net_debt,-214.2,2016-17,TRUE,Net Debt,"Value from Table 1.1, page 6. Net Debt is negative (Net Cash and Investments)"
+net_debt,-306.0,2017-18,TRUE,Net Debt,"Value from Table 1.1, page 6. Net Debt is negative (Net Cash and Investments)"
+net_debt,-492.9,2018-19,TRUE,Net Debt,"Value from Table 1.1, page 6. Net Debt is negative (Net Cash and Investments)"
+capex_pnfa,414.0,2015-16,FALSE,Purchases of Non-Financial Assets,
+capex_pnfa,552.1,2016-17,TRUE,Purchases of Non-Financial Assets,
+capex_pnfa,449.1,2017-18,TRUE,Purchases of Non-Financial Assets,
+capex_pnfa,424.9,2018-19,TRUE,Purchases of Non-Financial Assets,
+capex_infra_program,409.8,2015-16,FALSE,Infrastructure Investment,"Value from Table 1.1, page 6"
+capex_infra_program,524.5,2016-17,TRUE,Infrastructure Investment,"Value from Table 1.1, page 6"
+capex_infra_program,448.1,2017-18,TRUE,Infrastructure Investment,"Value from Table 1.1, page 6"
+capex_infra_program,424.5,2018-19,TRUE,Infrastructure Investment,"Value from Table 1.1, page 6"
+econ_gsp_growth,2.5,2015-16,FALSE,Gross State Product,"Value from Table 2.1, page 26, real percentage change"
+econ_gsp_growth,2.0,2016-17,TRUE,Gross State Product,"Value from Table 2.1, page 26, real percentage change"
+econ_gsp_growth,2.0,2017-18,TRUE,Gross State Product,"Value from Table 2.1, page 26, real percentage change"
+econ_gsp_growth,2.0,2018-19,TRUE,Gross State Product,"Value from Table 2.1, page 26, real percentage change"
+econ_employment,0.5,2015-16,FALSE,Employment,"Value from Table 2.1, page 26, year-average percentage change"
+econ_employment,1.0,2016-17,TRUE,Employment,"Value from Table 2.1, page 26, year-average percentage change"
+econ_employment,1.0,2017-18,TRUE,Employment,"Value from Table 2.1, page 26, year-average percentage change"
+econ_employment,1.0,2018-19,TRUE,Employment,"Value from Table 2.1, page 26, year-average percentage change"
+econ_unemployment,6.75,2015-16,FALSE,Unemployment Rate,"Value from Table 2.1, page 26, year-average percentage level"
+econ_unemployment,6.75,2016-17,TRUE,Unemployment Rate,"Value from Table 2.1, page 26, year-average percentage level"
+econ_unemployment,6.75,2017-18,TRUE,Unemployment Rate,"Value from Table 2.1, page 26, year-average percentage level"
+econ_unemployment,6.75,2018-19,TRUE,Unemployment Rate,"Value from Table 2.1, page 26, year-average percentage level"
+econ_cpi,2.25,2015-16,FALSE,Consumer Price Index (Hobart),"Value from Table 2.1, page 26, year-average percentage change"
+econ_cpi,2.5,2016-17,TRUE,Consumer Price Index (Hobart),"Value from Table 2.1, page 26, year-average percentage change"
+econ_cpi,2.5,2017-18,TRUE,Consumer Price Index (Hobart),"Value from Table 2.1, page 26, year-average percentage change"
+econ_cpi,2.5,2018-19,TRUE,Consumer Price Index (Hobart),"Value from Table 2.1, page 26, year-average percentage change"
+econ_population,0.5,2015-16,FALSE,Population,"Value from Table 2.1, page 26, year-average percentage change"
+econ_population,0.6,2016-17,TRUE,Population,"Value from Table 2.1, page 26, year-average percentage change"
+econ_population,0.6,2017-18,TRUE,Population,"Value from Table 2.1, page 26, year-average percentage change"
+econ_population,0.6,2018-19,TRUE,Population,"Value from Table 2.1, page 26, year-average percentage change"
+rev_grants_tied,1099.0,2015-16,FALSE,Total Payments for Specific Purposes,"Value from Table 5.4, page 90"
+rev_grants_tied,1057.3,2016-17,TRUE,Total Payments for Specific Purposes,"Value from Table 5.4, page 90"
+rev_grants_tied,1021.6,2017-18,TRUE,Total Payments for Specific Purposes,"Value from Table 5.4, page 90"
+rev_grants_tied,1092.4,2018-19,TRUE,Total Payments for Specific Purposes,"Value from Table 5.4, page 90"
+rev_grants_untied,2246.1,2015-16,FALSE,GST Revenue,"Value from Table 5.3, page 86"
+rev_grants_untied,2362.1,2016-17,TRUE,GST Revenue,"Value from Table 5.3, page 86"
+rev_grants_untied,2423.4,2017-18,TRUE,GST Revenue,"Value from Table 5.3, page 86"
+rev_grants_untied,2521.3,2018-19,TRUE,GST Revenue,"Value from Table 5.3, page 86"
+rev_payroll,321.5,2015-16,FALSE,Payroll Tax,"Value from Table 5.5, page 94"
+rev_payroll,334.5,2016-17,TRUE,Payroll Tax,"Value from Table 5.5, page 94"
+rev_payroll,347.8,2017-18,TRUE,Payroll Tax,"Value from Table 5.5, page 94"
+rev_payroll,361.6,2018-19,TRUE,Payroll Tax,"Value from Table 5.5, page 94"
+rev_stamp_duty,180.5,2015-16,FALSE,Conveyance Duty,"Value from Table 5.5, page 94"
+rev_stamp_duty,171.8,2016-17,TRUE,Conveyance Duty,"Value from Table 5.5, page 94"
+rev_stamp_duty,175.9,2017-18,TRUE,Conveyance Duty,"Value from Table 5.5, page 94"
+rev_stamp_duty,180.1,2018-19,TRUE,Conveyance Duty,"Value from Table 5.5, page 94"
+rev_land_tax,94.0,2015-16,FALSE,Land Tax,"Value from Table 5.5, page 94"
+rev_land_tax,96.9,2016-17,TRUE,Land Tax,"Value from Table 5.5, page 94"
+rev_land_tax,99.8,2017-18,TRUE,Land Tax,"Value from Table 5.5, page 94"
+rev_land_tax,102.7,2018-19,TRUE,Land Tax,"Value from Table 5.5, page 94"
+rev_gambling,96.2,2015-16,FALSE,Gambling Taxes,"Value from Table 5.5, page 94. Sum of Casino Tax (56.1) + Betting Exchange (3.5) + Lottery Tax (29.3) + Totalizator Levy (7.1)"
+rev_gambling,97.3,2016-17,TRUE,Gambling Taxes,"Value from Table 5.5, page 94. Sum of Casino Tax (56.7) + Betting Exchange (3.5) + Lottery Tax (29.8) + Totalizator Levy (7.3)"
+rev_gambling,98.9,2017-18,TRUE,Gambling Taxes,"Value from Table 5.5, page 94. Sum of Casino Tax (57.4) + Betting Exchange (3.6) + Lottery Tax (30.4) + Totalizator Levy (7.5)"
+rev_gambling,100.5,2018-19,TRUE,Gambling Taxes,"Value from Table 5.5, page 94. Sum of Casino Tax (58.0) + Betting Exchange (3.7) + Lottery Tax (31.1) + Totalizator Levy (7.7)"
+rev_motor_vehicle,129.8,2015-16,FALSE,Motor Vehicle Fees and Taxes + Vehicle Registration Fees,"Value from Table 5.5, page 94. Sum of Motor Vehicle Duty (39.5) + Motor Tax (83.6) + Motor Vehicle Fire Levy (7.6) - Motor Tax included in sum"
+rev_motor_vehicle,133.1,2016-17,TRUE,Motor Vehicle Fees and Taxes + Vehicle Registration Fees,"Value from Table 5.5, page 94"
+rev_motor_vehicle,131.5,2017-18,TRUE,Motor Vehicle Fees and Taxes + Vehicle Registration Fees,"Value from Table 5.5, page 94"
+rev_motor_vehicle,128.1,2018-19,TRUE,Motor Vehicle Fees and Taxes + Vehicle Registration Fees,"Value from Table 5.5, page 94"
+rev_other_tax,85.8,2015-16,FALSE,Insurance Duty,"Value from Table 5.5, page 94"
+rev_other_tax,88.8,2016-17,TRUE,Insurance Duty,"Value from Table 5.5, page 94"
+rev_other_tax,87.3,2017-18,TRUE,Insurance Duty,"Value from Table 5.5, page 94"
+rev_other_tax,85.9,2018-19,TRUE,Insurance Duty,"Value from Table 5.5, page 94"
+rev_other,143.4,2015-16,FALSE,Other Revenue,"Value from Table 5.10, page 102"
+rev_other,140.4,2016-17,TRUE,Other Revenue,"Value from Table 5.10, page 102"
+rev_other,139.7,2017-18,TRUE,Other Revenue,"Value from Table 5.10, page 102"
+rev_other,144.0,2018-19,TRUE,Other Revenue,"Value from Table 5.10, page 102"
+exp_other_operating,1059.0,2015-16,FALSE,Supplies and Consumables,"Value from Table 4.1, page 49"
+exp_other_operating,1062.4,2016-17,TRUE,Supplies and Consumables,"Value from Table 4.1, page 49"
+exp_other_operating,1079.5,2017-18,TRUE,Supplies and Consumables,"Value from Table 4.1, page 49"
+exp_other_operating,1075.4,2018-19,TRUE,Supplies and Consumables,"Value from Table 4.1, page 49"
+exp_current_grants,1200.6,2015-16,FALSE,Grant Expenses,"Value from Table 4.1, page 49"
+exp_current_grants,1125.1,2016-17,TRUE,Grant Expenses,"Value from Table 4.1, page 49"
+exp_current_grants,1141.6,2017-18,TRUE,Grant Expenses,"Value from Table 4.1, page 49"
+exp_current_grants,1183.6,2018-19,TRUE,Grant Expenses,"Value from Table 4.1, page 49"
+net_fin_liabilities,5240.0,2015-16,FALSE,NET FINANCIAL LIABILITIES,"Value from Table 4.2, page 53"
+net_fin_liabilities,5405.5,2016-17,TRUE,NET FINANCIAL LIABILITIES,"Value from Table 4.2, page 53"
+net_fin_liabilities,5455.9,2017-18,TRUE,NET FINANCIAL LIABILITIES,"Value from Table 4.2, page 53"
+net_fin_liabilities,5390.3,2018-19,TRUE,NET FINANCIAL LIABILITIES,"Value from Table 4.2, page 53"
+net_worth,10759.2,2015-16,FALSE,NET WORTH,"Value from Table 4.2, page 53"
+net_worth,11211.5,2016-17,TRUE,NET WORTH,"Value from Table 4.2, page 53"
+net_worth,11640.3,2017-18,TRUE,NET WORTH,"Value from Table 4.2, page 53"
+net_worth,12198.2,2018-19,TRUE,NET WORTH,"Value from Table 4.2, page 53"
+cash_surplus,-56.4,2015-16,FALSE,CASH SURPLUS/(DEFICIT),"Value from Table 4.3, page 55"
+cash_surplus,-8.0,2016-17,TRUE,CASH SURPLUS/(DEFICIT),"Value from Table 4.3, page 55"
+cash_surplus,114.7,2017-18,TRUE,CASH SURPLUS/(DEFICIT),"Value from Table 4.3, page 55"
+cash_surplus,209.7,2018-19,TRUE,CASH SURPLUS/(DEFICIT),"Value from Table 4.3, page 55"
+exp_health,1555.5,2015-16,FALSE,Health,"Value from Table A1.14, page 168, expenses by purpose"
+exp_health,1486.6,2016-17,TRUE,Health,"Value from Table A1.14, page 168, expenses by purpose"
+exp_health,1505.3,2017-18,TRUE,Health,"Value from Table A1.14, page 168, expenses by purpose"
+exp_health,1517.8,2018-19,TRUE,Health,"Value from Table A1.14, page 168, expenses by purpose"
+exp_education,1442.1,2015-16,FALSE,Education,"Value from Table A1.14, page 168, expenses by purpose"
+exp_education,1486.1,2016-17,TRUE,Education,"Value from Table A1.14, page 168, expenses by purpose"
+exp_education,1512.3,2017-18,TRUE,Education,"Value from Table A1.14, page 168, expenses by purpose"
+exp_education,1536.7,2018-19,TRUE,Education,"Value from Table A1.14, page 168, expenses by purpose"
+exp_public_order,476.9,2015-16,FALSE,Public Order and Safety,"Value from Table A1.14, page 168, expenses by purpose"
+exp_public_order,484.9,2016-17,TRUE,Public Order and Safety,"Value from Table A1.14, page 168, expenses by purpose"
+exp_public_order,498.0,2017-18,TRUE,Public Order and Safety,"Value from Table A1.14, page 168, expenses by purpose"
+exp_public_order,507.8,2018-19,TRUE,Public Order and Safety,"Value from Table A1.14, page 168, expenses by purpose"
+exp_transport_comms,280.5,2015-16,FALSE,Transport and Communications,"Value from Table A1.14, page 168, expenses by purpose"
+exp_transport_comms,276.0,2016-17,TRUE,Transport and Communications,"Value from Table A1.14, page 168, expenses by purpose"
+exp_transport_comms,252.9,2017-18,TRUE,Transport and Communications,"Value from Table A1.14, page 168, expenses by purpose"
+exp_transport_comms,257.0,2018-19,TRUE,Transport and Communications,"Value from Table A1.14, page 168, expenses by purpose"
+exp_social_security,433.0,2015-16,FALSE,Social Security and Welfare,"Value from Table A1.14, page 168, expenses by purpose"
+exp_social_security,456.5,2016-17,TRUE,Social Security and Welfare,"Value from Table A1.14, page 168, expenses by purpose"
+exp_social_security,500.7,2017-18,TRUE,Social Security and Welfare,"Value from Table A1.14, page 168, expenses by purpose"
+exp_social_security,547.9,2018-19,TRUE,Social Security and Welfare,"Value from Table A1.14, page 168, expenses by purpose"
+exp_general_public,211.2,2015-16,FALSE,General Public Services,"Value from Table A1.14, page 168, expenses by purpose"
+exp_general_public,194.9,2016-17,TRUE,General Public Services,"Value from Table A1.14, page 168, expenses by purpose"
+exp_general_public,208.0,2017-18,TRUE,General Public Services,"Value from Table A1.14, page 168, expenses by purpose"
+exp_general_public,216.2,2018-19,TRUE,General Public Services,"Value from Table A1.14, page 168, expenses by purpose"
+exp_recreation,182.3,2015-16,FALSE,Recreation and Culture,"Value from Table A1.14, page 168, expenses by purpose"
+exp_recreation,177.6,2016-17,TRUE,Recreation and Culture,"Value from Table A1.14, page 168, expenses by purpose"
+exp_recreation,180.9,2017-18,TRUE,Recreation and Culture,"Value from Table A1.14, page 168, expenses by purpose"
+exp_recreation,172.0,2018-19,TRUE,Recreation and Culture,"Value from Table A1.14, page 168, expenses by purpose"
+exp_other_function,230.2,2015-16,FALSE,Other functions,"Value from Table A1.14, page 168, sum of Housing and Community Amenities (170.2) + Other Economic Affairs (144.2) - Nominal Interest on Superannuation excluded as not a service function"
+exp_other_function,203.7,2016-17,TRUE,Other functions,"Value from Table A1.14, page 168, sum of Housing and Community Amenities (165.0) + Other Economic Affairs (105.1) - Nominal Interest excluded"
+exp_other_function,197.9,2017-18,TRUE,Other functions,"Value from Table A1.14, page 168, sum of Housing and Community Amenities (169.6) + Other Economic Affairs (98.3) - Nominal Interest excluded"
+exp_other_function,164.6,2018-19,TRUE,Other functions,"Value from Table A1.14, page 168, sum of Housing and Community Amenities (173.5) + Other Economic Affairs (92.7) - Nominal Interest excluded"

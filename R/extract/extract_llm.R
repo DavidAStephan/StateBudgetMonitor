@@ -73,20 +73,20 @@ sbm_extract_llm <- function(document_id, registry, dictionary, cfg,
   }
 
   ## Carve out the requested page range if needed. Anthropic caps PDF
-  ## input at 100 pages; Budget Papers are often 150-400 pages, of
-  ## which only ~20-40 contain the General Government Sector tables.
-  if (!is.null(pages)) {
-    if (!requireNamespace("pdftools", quietly = TRUE)) {
-      stop("sbm_extract_llm: `pdftools` is needed for page subsetting. ",
-           "`install.packages('pdftools')` and retry.", call. = FALSE)
+  ## input at 100 pages; Budget Papers are often 150-400 pages.
+  ##
+  ## If `pages` is a numeric vector of <=100 pages: send that slice.
+  ## If it's a list of slices: send each slice as a separate LLM call
+  ## and concatenate the resulting CSVs (used for whole-PDF chunking).
+  if (!is.null(pages) && !is.list(pages)) {
+    if (length(pages) > 100L) {
+      stop("sbm_extract_llm: page slice exceeds Anthropic's 100-page cap. ",
+           "Pass `pages` as a list of slices to auto-chunk.", call. = FALSE)
     }
-    subset_dir <- file.path(tempdir(), "sbm_pdf_subsets")
-    fs::dir_create(subset_dir)
-    subset_path <- file.path(subset_dir, paste0(document_id, "_subset.pdf"))
-    pdftools::pdf_subset(pdf_path, pages = pages, output = subset_path)
-    sbm_info(sprintf("Subset PDF: %d pages -> %s",
-                     length(pages), basename(subset_path)))
-    pdf_path <- subset_path
+    pages <- list(pages)
+  }
+  if (is.null(pages) || length(pages) == 0L) {
+    pages <- list(NULL)  # send the whole PDF (must be <=100 pages)
   }
 
   ## --- build prompt with the canonical variable taxonomy ------------------
@@ -139,19 +139,62 @@ sbm_extract_llm <- function(document_id, registry, dictionary, cfg,
 
   ## ellmer reads ANTHROPIC_API_KEY from env automatically; we only
   ## verified above that it's set. Avoid the deprecated `api_key` arg.
-  chat <- switch(
-    provider,
-    anthropic = ellmer::chat_anthropic(
-      model         = model,
-      system_prompt = system_prompt
-    ),
-    stop(sprintf("Unsupported LLM provider: %s", provider), call. = FALSE)
-  )
+  ## A fresh chat per slice is essential --- `chat_anthropic()` keeps
+  ## conversation history, so reusing one instance accumulates prior
+  ## slice contents into every subsequent request and blows past the
+  ## 200K context window on the later slices of large docs.
+  new_chat <- function() {
+    switch(
+      provider,
+      anthropic = ellmer::chat_anthropic(
+        model         = model,
+        system_prompt = system_prompt
+      ),
+      stop(sprintf("Unsupported LLM provider: %s", provider), call. = FALSE)
+    )
+  }
 
-  sbm_info(sprintf("LLM extraction: %s (model = %s)", document_id, model))
-  csv_text <- chat$chat(
-    ellmer::content_pdf_file(pdf_path)
-  )
+  sbm_info(sprintf("LLM extraction: %s (model = %s, %d slice%s)",
+                   document_id, model, length(pages),
+                   if (length(pages) == 1L) "" else "s"))
+
+  ## Extract text per slice and send as plain text. Sending PDF binary
+  ## directly used Anthropic's vision tokens (each page rendered as an
+  ## image, ~5K tokens), blowing past the 200K context on text-heavy
+  ## Budget Papers. Plain text averages ~500-1500 tokens per page,
+  ## fitting comfortably within the window.
+  if (!requireNamespace("pdftools", quietly = TRUE)) {
+    stop("sbm_extract_llm: `pdftools` is required.", call. = FALSE)
+  }
+
+  full_text <- tryCatch(pdftools::pdf_text(pdf_path),
+                        error = function(e) NULL)
+  if (is.null(full_text) || length(full_text) == 0L) {
+    sbm_warn(sprintf("sbm_extract_llm: unable to read text from %s", pdf_path))
+    return(invisible(NULL))
+  }
+
+  csv_chunks <- vapply(seq_along(pages), function(i) {
+    slice <- pages[[i]]
+    if (is.null(slice)) slice <- seq_along(full_text)
+    slice_text <- paste(full_text[slice], collapse = "\n\n")
+    if (length(pages) > 1L) {
+      sbm_info(sprintf("  slice %d/%d (%d pages, %d chars)",
+                       i, length(pages), length(slice), nchar(slice_text)))
+    }
+    ## Fresh chat per slice (see new_chat() above).
+    ## If a single slice errors, log and continue with the others ---
+    ## partial results are better than nothing for the rest of the doc.
+    tryCatch(
+      new_chat()$chat(slice_text),
+      error = function(e) {
+        sbm_warn(sprintf("  slice %d/%d failed: %s",
+                         i, length(pages), conditionMessage(e)))
+        ""
+      }
+    )
+  }, character(1))
+  csv_text <- paste(csv_chunks, collapse = "\n")
 
   ## --- write to disk and verify schema ------------------------------------
   out_dir  <- file.path(

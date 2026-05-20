@@ -1,0 +1,179 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6654,2019-20,FALSE,Total revenue,Non financial public sector total revenue
+rev_total,6650,2020-21,TRUE,Total revenue,Non financial public sector total revenue
+rev_total,6882,2021-22,TRUE,Total revenue,Non financial public sector total revenue
+rev_total,7067,2022-23,TRUE,Total revenue,Non financial public sector total revenue
+rev_taxation,636,2018-19,FALSE,Taxation revenue,Non financial public sector taxation revenue estimate
+rev_taxation,530,2019-20,FALSE,Taxation revenue,Non financial public sector taxation revenue
+rev_taxation,572,2020-21,TRUE,Taxation revenue,Non financial public sector taxation revenue
+rev_taxation,604,2021-22,TRUE,Taxation revenue,Non financial public sector taxation revenue
+rev_taxation,627,2022-23,TRUE,Taxation revenue,Non financial public sector taxation revenue
+rev_gst,2725,2018-19,FALSE,GST revenue,Non financial public sector GST revenue estimate
+rev_gst,2763,2019-20,FALSE,GST revenue,Non financial public sector GST revenue
+rev_gst,2858,2020-21,TRUE,GST revenue,Non financial public sector GST revenue
+rev_gst,3003,2021-22,TRUE,GST revenue,Non financial public sector GST revenue
+rev_gst,3346,2022-23,TRUE,GST revenue,Non financial public sector GST revenue
+rev_grants_untied,252,2019-20,FALSE,Commonwealth financial assistance payment,GST top-up guarantee payment
+rev_grants_untied,259,2020-21,TRUE,Commonwealth financial assistance payment,GST top-up guarantee payment
+rev_grants_untied,274,2021-22,TRUE,Commonwealth financial assistance payment,GST top-up guarantee payment
+rev_interest,100,2018-19,FALSE,Interest income,Non financial public sector interest income estimate
+rev_interest,83,2019-20,FALSE,Interest income,Non financial public sector interest income
+rev_interest,85,2020-21,TRUE,Interest income,Non financial public sector interest income
+rev_interest,89,2021-22,TRUE,Interest income,Non financial public sector interest income
+rev_interest,91,2022-23,TRUE,Interest income,Non financial public sector interest income
+rev_dividend,24,2018-19,FALSE,Dividend and income tax equivalent income,Non financial public sector dividend income estimate
+rev_dividend,30,2019-20,FALSE,Dividend and income tax equivalent income,Non financial public sector dividend income
+rev_dividend,30,2020-21,TRUE,Dividend and income tax equivalent income,Non financial public sector dividend income
+rev_dividend,32,2021-22,TRUE,Dividend and income tax equivalent income,Non financial public sector dividend income
+rev_dividend,33,2022-23,TRUE,Dividend and income tax equivalent income,Non financial public sector dividend income
+exp_total,7398,2018-19,FALSE,Total expenses,Non financial public sector total expenses estimate
+exp_total,7227,2019-20,FALSE,Total expenses,Non financial public sector total expenses
+exp_total,7213,2020-21,TRUE,Total expenses,Non financial public sector total expenses
+exp_total,7342,2021-22,TRUE,Total expenses,Non financial public sector total expenses
+exp_total,7412,2022-23,TRUE,Total expenses,Non financial public sector total expenses
+exp_employee,2653,2018-19,FALSE,Employee expenses,Non financial public sector employee expenses estimate
+exp_employee,2649,2019-20,FALSE,Employee expenses,Non financial public sector employee expenses
+exp_employee,2653,2020-21,TRUE,Employee expenses,Non financial public sector employee expenses
+exp_employee,2706,2021-22,TRUE,Employee expenses,Non financial public sector employee expenses
+exp_employee,2708,2022-23,TRUE,Employee expenses,Non financial public sector employee expenses
+exp_super,434,2018-19,FALSE,Superannuation expenses,Non financial public sector superannuation expenses estimate
+exp_super,359,2019-20,FALSE,Superannuation expenses,Non financial public sector superannuation expenses
+exp_super,361,2020-21,TRUE,Superannuation expenses,Non financial public sector superannuation expenses
+exp_super,368,2021-22,TRUE,Superannuation expenses,Non financial public sector superannuation expenses
+exp_super,364,2022-23,TRUE,Superannuation expenses,Non financial public sector superannuation expenses
+exp_depreciation,608,2018-19,FALSE,Depreciation and amortisation,Non financial public sector depreciation estimate
+exp_depreciation,715,2019-20,FALSE,Depreciation and amortisation,Non financial public sector depreciation
+exp_depreciation,703,2020-21,TRUE,Depreciation and amortisation,Non financial public sector depreciation
+exp_depreciation,694,2021-22,TRUE,Depreciation and amortisation,Non financial public sector depreciation
+exp_depreciation,684,2022-23,TRUE,Depreciation and amortisation,Non financial public sector depreciation
+exp_interest,313,2018-19,FALSE,Interest expenses,Non financial public sector interest expenses estimate
+exp_interest,371,2019-20,FALSE,Interest expenses,Non financial public sector interest expenses
+exp_interest,409,2020-21,TRUE,Interest expenses,Non financial public sector interest expenses
+exp_interest,447,2021-22,TRUE,Interest expenses,Non financial public sector interest expenses
+exp_interest,482,2022-23,TRUE,Interest expenses,Non financial public sector interest expenses
+net_op_balance,-727,2018-19,FALSE,Net operating balance,General government sector net operating balance estimate
+net_op_balance,-632,2019-20,FALSE,Net operating balance,General government sector net operating balance
+net_op_balance,-615,2020-21,TRUE,Net operating balance,General government sector net operating balance
+net_op_balance,-512,2021-22,TRUE,Net operating balance,General government sector net operating balance
+net_op_balance,-383,2022-23,TRUE,Net operating balance,General government sector net operating balance
+net_lending,-1263,2018-19,FALSE,Fiscal balance,Non financial public sector fiscal balance estimate
+net_lending,-1054,2019-20,FALSE,Fiscal balance,Non financial public sector fiscal balance
+net_lending,-859,2020-21,TRUE,Fiscal balance,Non financial public sector fiscal balance
+net_lending,-604,2021-22,TRUE,Fiscal balance,Non financial public sector fiscal balance
+net_lending,-530,2022-23,TRUE,Fiscal balance,Non financial public sector fiscal balance
+net_debt,4191,2018-19,FALSE,Net debt,Non financial public sector net debt estimate
+net_debt,6206,2019-20,FALSE,Net debt,Non financial public sector net debt including AASB 16 Leases impact
+net_debt,6988,2020-21,TRUE,Net debt,Non financial public sector net debt including AASB 16 Leases impact
+net_debt,7524,2021-22,TRUE,Net debt,Non financial public sector net debt including AASB 16 Leases impact
+net_debt,8021,2022-23,TRUE,Net debt,Non financial public sector net debt including AASB 16 Leases impact
+capex_pnfa,1087,2018-19,FALSE,Net capital,Non financial public sector net capital estimate
+capex_pnfa,1187,2019-20,FALSE,Net capital,Non financial public sector net capital
+capex_pnfa,980,2020-21,TRUE,Net capital,Non financial public sector net capital
+capex_pnfa,824,2021-22,TRUE,Net capital,Non financial public sector net capital
+capex_pnfa,852,2022-23,TRUE,Net capital,Non financial public sector net capital
+econ_gsp_growth,1.7,2017-18,FALSE,Gross state product,GSP growth year ended June inflation adjusted
+econ_gsp_growth,-0.2,2018-19,FALSE,Gross state product,GSP growth year ended June inflation adjusted estimate
+econ_gsp_growth,6.3,2019-20,FALSE,Gross state product,GSP growth year ended June inflation adjusted forecast
+econ_gsp_growth,4.1,2020-21,TRUE,Gross state product,GSP growth year ended June inflation adjusted forecast
+econ_gsp_growth,2.9,2021-22,TRUE,Gross state product,GSP growth year ended June inflation adjusted forecast
+econ_gsp_growth,2.5,2022-23,TRUE,Gross state product,GSP growth year ended June inflation adjusted forecast
+econ_employment,-1.2,2017-18,FALSE,Employment growth,Employment growth year ended June year-on-year percentage change
+econ_employment,-1.6,2018-19,FALSE,Employment growth,Employment growth year ended June year-on-year percentage change estimate
+econ_employment,0.0,2019-20,FALSE,Employment growth,Employment growth year ended June year-on-year percentage change forecast
+econ_employment,0.7,2020-21,TRUE,Employment growth,Employment growth year ended June year-on-year percentage change forecast
+econ_employment,0.9,2021-22,TRUE,Employment growth,Employment growth year ended June year-on-year percentage change forecast
+econ_employment,1.0,2022-23,TRUE,Employment growth,Employment growth year ended June year-on-year percentage change forecast
+econ_unemployment,4.2,2017-18,FALSE,Unemployment rate,Unemployment rate year average
+econ_unemployment,4.7,2018-19,FALSE,Unemployment rate,Unemployment rate year average estimate
+econ_unemployment,4.6,2019-20,FALSE,Unemployment rate,Unemployment rate year average forecast
+econ_unemployment,4.5,2020-21,TRUE,Unemployment rate,Unemployment rate year average forecast
+econ_unemployment,4.5,2021-22,TRUE,Unemployment rate,Unemployment rate year average forecast
+econ_unemployment,4.4,2022-23,TRUE,Unemployment rate,Unemployment rate year average forecast
+econ_cpi,1.0,2017-18,FALSE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change
+econ_cpi,1.5,2018-19,FALSE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change estimate
+econ_cpi,1.6,2019-20,FALSE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change forecast
+econ_cpi,2.0,2020-21,TRUE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change forecast
+econ_cpi,2.2,2021-22,TRUE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change forecast
+econ_cpi,2.2,2022-23,TRUE,Consumer Price Index growth,CPI growth year ended June year-on-year percentage change forecast
+econ_wpi,1.3,2017-18,FALSE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change
+econ_wpi,1.8,2018-19,FALSE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change estimate
+econ_wpi,1.5,2019-20,FALSE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change forecast
+econ_wpi,1.5,2020-21,TRUE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change forecast
+econ_wpi,1.6,2021-22,TRUE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change forecast
+econ_wpi,1.8,2022-23,TRUE,Wage Price Index growth,WPI growth year ended June year-on-year percentage change forecast
+econ_population,-0.1,2017-18,FALSE,Population growth,Population growth year ended June annual percentage change
+econ_population,-0.7,2018-19,FALSE,Population growth,Population growth year ended June annual percentage change estimate
+econ_population,0.2,2019-20,FALSE,Population growth,Population growth year ended June annual percentage change forecast
+econ_population,0.6,2020-21,TRUE,Population growth,Population growth year ended June annual percentage change forecast
+econ_population,0.7,2021-22,TRUE,Population growth,Population growth year ended June annual percentage change forecast
+econ_population,0.8,2022-23,TRUE,Population growth,Population growth year ended June annual percentage change forecast
+rev_sales_goods_svcs,1052,2018-19,FALSE,Sales of goods and services,Non financial public sector sales of goods and services estimate
+rev_sales_goods_svcs,1119,2019-20,FALSE,Sales of goods and services,Non financial public sector sales of goods and services
+rev_sales_goods_svcs,1143,2020-21,TRUE,Sales of goods and services,Non financial public sector sales of goods and services
+rev_sales_goods_svcs,1198,2021-22,TRUE,Sales of goods and services,Non financial public sector sales of goods and services
+rev_sales_goods_svcs,1230,2022-23,TRUE,Sales of goods and services,Non financial public sector sales of goods and services
+rev_other,586,2018-19,FALSE,Other revenue,Non financial public sector other revenue estimate
+rev_other,504,2019-20,FALSE,Other revenue,Non financial public sector other revenue
+rev_other,433,2020-21,TRUE,Other revenue,Non financial public sector other revenue
+rev_other,419,2021-22,TRUE,Other revenue,Non financial public sector other revenue
+rev_other,398,2022-23,TRUE,Other revenue,Non financial public sector other revenue
+exp_other_operating,2093,2018-19,FALSE,Other operating expenses,Non financial public sector other operating expenses estimate
+exp_other_operating,1932,2019-20,FALSE,Other operating expenses,Non financial public sector other operating expenses
+exp_other_operating,1923,2020-21,TRUE,Other operating expenses,Non financial public sector other operating expenses
+exp_other_operating,1979,2021-22,TRUE,Other operating expenses,Non financial public sector other operating expenses
+exp_other_operating,2014,2022-23,TRUE,Other operating expenses,Non financial public sector other operating expenses
+exp_current_grants,1026,2018-19,FALSE,Current grants,Non financial public sector current grants estimate
+exp_current_grants,990,2019-20,FALSE,Current grants,Non financial public sector current grants
+exp_current_grants,998,2020-21,TRUE,Current grants,Non financial public sector current grants
+exp_current_grants,995,2021-22,TRUE,Current grants,Non financial public sector current grants
+exp_current_grants,1005,2022-23,TRUE,Current grants,Non financial public sector current grants
+exp_capital_grants,113,2018-19,FALSE,Capital grants,Non financial public sector capital grants estimate
+exp_capital_grants,91,2019-20,FALSE,Capital grants,Non financial public sector capital grants
+exp_capital_grants,44,2020-21,TRUE,Capital grants,Non financial public sector capital grants
+exp_capital_grants,29,2021-22,TRUE,Capital grants,Non financial public sector capital grants
+exp_capital_grants,27,2022-23,TRUE,Capital grants,Non financial public sector capital grants
+net_fin_liabilities,9446,2018-19,FALSE,Net financial liabilities,Non financial public sector net financial liabilities estimate
+net_fin_liabilities,11350,2019-20,FALSE,Net financial liabilities,Non financial public sector net financial liabilities
+net_fin_liabilities,12075,2020-21,TRUE,Net financial liabilities,Non financial public sector net financial liabilities
+net_fin_liabilities,12543,2021-22,TRUE,Net financial liabilities,Non financial public sector net financial liabilities
+net_fin_liabilities,12936,2022-23,TRUE,Net financial liabilities,Non financial public sector net financial liabilities
+net_worth,9861,2018-19,FALSE,Net worth,Non financial public sector net worth estimate
+net_worth,9426,2019-20,FALSE,Net worth,Non financial public sector net worth
+net_worth,9002,2020-21,TRUE,Net worth,Non financial public sector net worth
+net_worth,8682,2021-22,TRUE,Net worth,Non financial public sector net worth
+net_worth,8478,2022-23,TRUE,Net worth,Non financial public sector net worth
+cash_surplus,-1112,2018-19,FALSE,Cash surplus / (deficit),Non financial public sector cash deficit estimate
+cash_surplus,-1048,2019-20,FALSE,Cash surplus / (deficit),Non financial public sector cash deficit
+cash_surplus,-812,2020-21,TRUE,Cash surplus / (deficit),Non financial public sector cash deficit
+cash_surplus,-573,2021-22,TRUE,Cash surplus / (deficit),Non financial public sector cash deficit
+cash_surplus,-535,2022-23,TRUE,Cash surplus / (deficit),Non financial public sector cash deficit
+rev_grants_tied,1220,2018-19,FALSE,Current grants,Non financial public sector current grants from Commonwealth estimate
+rev_grants_tied,1023,2019-20,FALSE,Current grants,Non financial public sector current grants from Commonwealth
+rev_grants_tied,1018,2020-21,TRUE,Current grants,Non financial public sector current grants from Commonwealth
+rev_grants_tied,1052,2021-22,TRUE,Current grants,Non financial public sector current grants from Commonwealth
+rev_grants_tied,1020,2022-23,TRUE,Current grants,Non financial public sector current grants from Commonwealth
+rev_payroll,253,2018-19,FALSE,Payroll tax,Payroll tax revenue estimate
+rev_payroll,238,2019-20,FALSE,Payroll tax,Payroll tax revenue budget
+rev_payroll,247,2020-21,TRUE,Payroll tax,Payroll tax revenue forward estimate
+rev_payroll,256,2021-22,TRUE,Payroll tax,Payroll tax revenue forward estimate
+rev_payroll,265,2022-23,TRUE,Payroll tax,Payroll tax revenue forward estimate
+rev_stamp_duty,172,2018-19,FALSE,Conveyance and related duty,Stamp duty on property conveyances estimate
+rev_stamp_duty,77,2019-20,FALSE,Conveyance and related duty,Stamp duty on property conveyances budget
+rev_stamp_duty,104,2020-21,TRUE,Conveyance and related duty,Stamp duty on property conveyances forward estimate
+rev_stamp_duty,119,2021-22,TRUE,Conveyance and related duty,Stamp duty on property conveyances forward estimate
+rev_stamp_duty,126,2022-23,TRUE,Conveyance and related duty,Stamp duty on property conveyances forward estimate
+rev_gambling,84,2018-19,FALSE,Taxes on gambling,Gambling tax revenue estimate
+rev_gambling,85,2019-20,FALSE,Taxes on gambling,Gambling tax revenue budget
+rev_gambling,89,2020-21,TRUE,Taxes on gambling,Gambling tax revenue forward estimate
+rev_gambling,92,2021-22,TRUE,Taxes on gambling,Gambling tax revenue forward estimate
+rev_gambling,96,2022-23,TRUE,Taxes on gambling,Gambling tax revenue forward estimate
+rev_motor_vehicle,77,2018-19,FALSE,Motor vehicle taxes,Motor vehicle taxes and registration revenue estimate
+rev_motor_vehicle,79,2019-20,FALSE,Motor vehicle taxes,Motor vehicle taxes and registration revenue budget
+rev_motor_vehicle,82,2020-21,TRUE,Motor vehicle taxes,Motor vehicle taxes and registration revenue forward estimate
+rev_motor_vehicle,84,2021-22,TRUE,Motor vehicle taxes,Motor vehicle taxes and registration revenue forward estimate
+rev_motor_vehicle,87,2022-23,TRUE,Motor vehicle taxes,Motor vehicle taxes and registration revenue forward estimate
+rev_other_tax,50,2018-19,FALSE,Taxes on insurance,Insurance duty revenue estimate
+rev_other_tax,51,2019-20,FALSE,Taxes on insurance,Insurance duty revenue budget
+rev_other_tax,52,2020-21,TRUE,Taxes on insurance,Insurance duty revenue forward estimate
+rev_other_tax,53,2021-22,TRUE,Taxes on insurance,Insurance duty revenue forward estimate
+rev_other_tax,54,2022-23,TRUE,Taxes on insurance,Insurance duty revenue forward estimate

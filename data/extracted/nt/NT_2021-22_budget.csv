@@ -1,0 +1,235 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,7396,2021-22,FALSE,Total revenue,Non financial public sector - Table 2.6
+rev_total,6943,2022-23,TRUE,Total revenue,Non financial public sector - Table 2.6
+rev_total,7005,2023-24,TRUE,Total revenue,Non financial public sector - Table 2.6
+rev_total,6888,2024-25,TRUE,Total revenue,Non financial public sector - Table 2.6
+rev_taxation,546,2021-22,FALSE,Taxation revenue,Table 2.6
+rev_taxation,568,2022-23,TRUE,Taxation revenue,Table 2.6
+rev_taxation,588,2023-24,TRUE,Taxation revenue,Table 2.6
+rev_taxation,611,2024-25,TRUE,Taxation revenue,Table 2.6
+rev_gst,3159,2021-22,FALSE,GST revenue,Table 2.6
+rev_gst,3127,2022-23,TRUE,GST revenue,Table 2.6
+rev_gst,3207,2023-24,TRUE,GST revenue,Table 2.6
+rev_gst,3302,2024-25,TRUE,GST revenue,Table 2.6
+rev_grants_tied,1458,2021-22,FALSE,Current grants,Table 2.6
+rev_grants_tied,1075,2022-23,TRUE,Current grants,Table 2.6
+rev_grants_tied,1004,2023-24,TRUE,Current grants,Table 2.6
+rev_grants_tied,962,2024-25,TRUE,Current grants,Table 2.6
+rev_sales_goods_svcs,1106,2021-22,FALSE,Sales of goods and services,Table 2.6
+rev_sales_goods_svcs,1154,2022-23,TRUE,Sales of goods and services,Table 2.6
+rev_sales_goods_svcs,1198,2023-24,TRUE,Sales of goods and services,Table 2.6
+rev_sales_goods_svcs,1235,2024-25,TRUE,Sales of goods and services,Table 2.6
+rev_interest,81,2021-22,FALSE,Interest income,Table 2.6
+rev_interest,84,2022-23,TRUE,Interest income,Table 2.6
+rev_interest,87,2023-24,TRUE,Interest income,Table 2.6
+rev_interest,90,2024-25,TRUE,Interest income,Table 2.6
+rev_dividend,41,2021-22,FALSE,Dividend and income tax equivalent income,Table 2.6
+rev_dividend,41,2022-23,TRUE,Dividend and income tax equivalent income,Table 2.6
+rev_dividend,38,2023-24,TRUE,Dividend and income tax equivalent income,Table 2.6
+rev_dividend,33,2024-25,TRUE,Dividend and income tax equivalent income,Table 2.6
+exp_total,7940,2021-22,FALSE,Total expenses,Table 2.7
+exp_total,7499,2022-23,TRUE,Total expenses,Table 2.7
+exp_total,7464,2023-24,TRUE,Total expenses,Table 2.7
+exp_total,7432,2024-25,TRUE,Total expenses,Table 2.7
+exp_employee,2815,2021-22,FALSE,Employee expenses,Table 2.7
+exp_employee,2671,2022-23,TRUE,Employee expenses,Table 2.7
+exp_employee,2648,2023-24,TRUE,Employee expenses,Table 2.7
+exp_employee,2622,2024-25,TRUE,Employee expenses,Table 2.7
+exp_super,454,2021-22,FALSE,Superannuation expenses,Table 2.7
+exp_super,457,2022-23,TRUE,Superannuation expenses,Table 2.7
+exp_super,467,2023-24,TRUE,Superannuation expenses,Table 2.7
+exp_super,477,2024-25,TRUE,Superannuation expenses,Table 2.7
+exp_depreciation,752,2021-22,FALSE,Depreciation and amortisation,Table 2.7
+exp_depreciation,742,2022-23,TRUE,Depreciation and amortisation,Table 2.7
+exp_depreciation,743,2023-24,TRUE,Depreciation and amortisation,Table 2.7
+exp_depreciation,733,2024-25,TRUE,Depreciation and amortisation,Table 2.7
+exp_interest,421,2021-22,FALSE,Interest expenses,Table 2.7
+exp_interest,447,2022-23,TRUE,Interest expenses,Table 2.7
+exp_interest,468,2023-24,TRUE,Interest expenses,Table 2.7
+exp_interest,478,2024-25,TRUE,Interest expenses,Table 2.7
+exp_other_operating,2239,2021-22,FALSE,Other operating expenses,Table 2.7
+exp_other_operating,2083,2022-23,TRUE,Other operating expenses,Table 2.7
+exp_other_operating,2046,2023-24,TRUE,Other operating expenses,Table 2.7
+exp_other_operating,2057,2024-25,TRUE,Other operating expenses,Table 2.7
+exp_current_grants,1095,2021-22,FALSE,Current grants,Table 2.7
+exp_current_grants,996,2022-23,TRUE,Current grants,Table 2.7
+exp_current_grants,994,2023-24,TRUE,Current grants,Table 2.7
+exp_current_grants,970,2024-25,TRUE,Current grants,Table 2.7
+exp_capital_grants,92,2021-22,FALSE,Capital grants,Table 2.7
+exp_capital_grants,32,2022-23,TRUE,Capital grants,Table 2.7
+exp_capital_grants,32,2023-24,TRUE,Capital grants,Table 2.7
+exp_capital_grants,28,2024-25,TRUE,Capital grants,Table 2.7
+net_op_balance,-497,2021-22,FALSE,Net operating balance,Table 2.1 and Table 1.1
+net_op_balance,-536,2022-23,TRUE,Net operating balance,Table 2.1 and Table 1.1
+net_op_balance,-480,2023-24,TRUE,Net operating balance,Table 2.1 and Table 1.1
+net_op_balance,-570,2024-25,TRUE,Net operating balance,Table 2.1 and Table 1.1
+net_lending,-1356,2021-22,FALSE,Fiscal balance,Table 1.1 - Non financial public sector
+net_lending,-1215,2022-23,TRUE,Fiscal balance,Table 1.1 - Non financial public sector
+net_lending,-807,2023-24,TRUE,Fiscal balance,Table 1.1 - Non financial public sector
+net_lending,-629,2024-25,TRUE,Fiscal balance,Table 1.1 - Non financial public sector
+net_debt,9001,2021-22,FALSE,Net debt,Table 1.1 and Table 2.9 - Non financial public sector
+net_debt,10163,2022-23,TRUE,Net debt,Table 1.1 and Table 2.9 - Non financial public sector
+net_debt,10866,2023-24,TRUE,Net debt,Table 1.1 and Table 2.9 - Non financial public sector
+net_debt,11405,2024-25,TRUE,Net debt,Table 1.1 and Table 2.9 - Non financial public sector
+capex_pnfa,1422,2021-22,FALSE,Net capital investment,Table 2.7
+capex_pnfa,1313,2022-23,TRUE,Net capital investment,Table 2.7
+capex_pnfa,1074,2023-24,TRUE,Net capital investment,Table 2.7
+capex_pnfa,796,2024-25,TRUE,Net capital investment,Table 2.7
+econ_gsp_growth,2.3,2021-22,FALSE,Gross state product,Table 3.1
+econ_gsp_growth,3.1,2022-23,TRUE,Gross state product,Table 3.1
+econ_gsp_growth,-0.3,2023-24,TRUE,Gross state product,Table 3.1
+econ_gsp_growth,2.3,2024-25,TRUE,Gross state product,Table 3.1
+econ_employment,1.8,2021-22,FALSE,Employment growth,Table 3.1
+econ_employment,1.7,2022-23,TRUE,Employment growth,Table 3.1
+econ_employment,1.1,2023-24,TRUE,Employment growth,Table 3.1
+econ_employment,0.7,2024-25,TRUE,Employment growth,Table 3.1
+econ_unemployment,5.4,2021-22,FALSE,Unemployment rate,Table 3.1
+econ_unemployment,5.1,2022-23,TRUE,Unemployment rate,Table 3.1
+econ_unemployment,4.9,2023-24,TRUE,Unemployment rate,Table 3.1
+econ_unemployment,4.8,2024-25,TRUE,Unemployment rate,Table 3.1
+econ_cpi,1.8,2021-22,FALSE,Consumer price index,Table 3.1
+econ_cpi,1.4,2022-23,TRUE,Consumer price index,Table 3.1
+econ_cpi,1.8,2023-24,TRUE,Consumer price index,Table 3.1
+econ_cpi,2.2,2024-25,TRUE,Consumer price index,Table 3.1
+econ_wpi,1.7,2021-22,FALSE,Wage price index,Table 3.1
+econ_wpi,1.4,2022-23,TRUE,Wage price index,Table 3.1
+econ_wpi,1.3,2023-24,TRUE,Wage price index,Table 3.1
+econ_wpi,1.4,2024-25,TRUE,Wage price index,Table 3.1
+econ_population,0.5,2021-22,FALSE,Population growth,Table 3.1
+econ_population,0.8,2022-23,TRUE,Population growth,Table 3.1
+econ_population,0.9,2023-24,TRUE,Population growth,Table 3.1
+econ_population,1.0,2024-25,TRUE,Population growth,Table 3.1
+rev_total,6635.489,2021-22,FALSE,TOTAL REVENUE,Table 8.1 General government sector comprehensive operating statement
+rev_total,6158.544,2022-23,TRUE,TOTAL REVENUE,Table 8.1 General government sector comprehensive operating statement
+rev_total,6180.071,2023-24,TRUE,TOTAL REVENUE,Table 8.1 General government sector comprehensive operating statement
+rev_total,6052.935,2024-25,TRUE,TOTAL REVENUE,Table 8.1 General government sector comprehensive operating statement
+rev_taxation,552.677,2021-22,FALSE,Taxation revenue,Table 8.1 General government sector comprehensive operating statement
+rev_taxation,575.112,2022-23,TRUE,Taxation revenue,Table 8.1 General government sector comprehensive operating statement
+rev_taxation,595.544,2023-24,TRUE,Taxation revenue,Table 8.1 General government sector comprehensive operating statement
+rev_taxation,617.770,2024-25,TRUE,Taxation revenue,Table 8.1 General government sector comprehensive operating statement
+rev_payroll,220,2021-22,FALSE,Payroll taxes,Table 8.16 General government sector taxes
+rev_stamp_duty,102,2021-22,FALSE,Stamp duties on financial and capital transactions,Table 8.16 General government sector taxes
+rev_gambling,95,2021-22,FALSE,Taxes on gambling,Table 8.16 General government sector taxes
+rev_motor_vehicle,74,2021-22,FALSE,Motor vehicle registration fees,Table 8.16 General government sector taxes
+rev_other_tax,60,2021-22,FALSE,Taxes on insurance,Table 8.16 includes insurance at $58M plus other categories
+rev_gst,3159,2021-22,FALSE,GST revenue,Chapter 5 Table 5.1 and multiple references in text
+rev_gst,3127,2022-23,TRUE,GST revenue,Chapter 5 Table 5.1
+rev_gst,3207,2023-24,TRUE,GST revenue,Chapter 5 Table 5.1
+rev_gst,3302,2024-25,TRUE,GST revenue,Chapter 5 Table 5.1
+rev_grants_tied,4617.291,2021-22,FALSE,Current grants,Table 8.1 General government sector comprehensive operating statement
+rev_grants_tied,4202.000,2022-23,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+rev_grants_tied,4210.520,2023-24,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+rev_grants_tied,4264.157,2024-25,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+rev_sales_goods_svcs,386.391,2021-22,FALSE,Sales of goods and services,Table 8.1 General government sector comprehensive operating statement
+rev_sales_goods_svcs,390.985,2022-23,TRUE,Sales of goods and services,Table 8.1 General government sector comprehensive operating statement
+rev_sales_goods_svcs,399.947,2023-24,TRUE,Sales of goods and services,Table 8.1 General government sector comprehensive operating statement
+rev_sales_goods_svcs,402.520,2024-25,TRUE,Sales of goods and services,Table 8.1 General government sector comprehensive operating statement
+rev_interest,81.258,2021-22,FALSE,Interest income,Table 8.1 General government sector comprehensive operating statement
+rev_interest,83.761,2022-23,TRUE,Interest income,Table 8.1 General government sector comprehensive operating statement
+rev_interest,86.514,2023-24,TRUE,Interest income,Table 8.1 General government sector comprehensive operating statement
+rev_interest,89.432,2024-25,TRUE,Interest income,Table 8.1 General government sector comprehensive operating statement
+rev_dividend,46.501,2021-22,FALSE,Dividend and income tax equivalent income,Table 8.1 General government sector comprehensive operating statement
+rev_dividend,53.885,2022-23,TRUE,Dividend and income tax equivalent income,Table 8.1 General government sector comprehensive operating statement
+rev_dividend,54.982,2023-24,TRUE,Dividend and income tax equivalent income,Table 8.1 General government sector comprehensive operating statement
+rev_dividend,77.984,2024-25,TRUE,Dividend and income tax equivalent income,Table 8.1 General government sector comprehensive operating statement
+rev_other,399.977,2021-22,FALSE,Other revenue,Table 8.1 General government sector comprehensive operating statement
+rev_other,389.960,2022-23,TRUE,Other revenue,Table 8.1 General government sector comprehensive operating statement
+rev_other,377.608,2023-24,TRUE,Other revenue,Table 8.1 General government sector comprehensive operating statement
+rev_other,386.158,2024-25,TRUE,Other revenue,Table 8.1 General government sector comprehensive operating statement
+exp_total,7132.117,2021-22,FALSE,TOTAL EXPENSES,Table 8.1 General government sector comprehensive operating statement
+exp_total,6694.928,2022-23,TRUE,TOTAL EXPENSES,Table 8.1 General government sector comprehensive operating statement
+exp_total,6660.502,2023-24,TRUE,TOTAL EXPENSES,Table 8.1 General government sector comprehensive operating statement
+exp_total,6623.313,2024-25,TRUE,TOTAL EXPENSES,Table 8.1 General government sector comprehensive operating statement
+exp_employee,2681.881,2021-22,FALSE,Employee benefits expense,Table 8.1 General government sector comprehensive operating statement
+exp_employee,2535.453,2022-23,TRUE,Employee benefits expense,Table 8.1 General government sector comprehensive operating statement
+exp_employee,2508.096,2023-24,TRUE,Employee benefits expense,Table 8.1 General government sector comprehensive operating statement
+exp_employee,2488.853,2024-25,TRUE,Employee benefits expense,Table 8.1 General government sector comprehensive operating statement
+exp_super,444.844,2021-22,FALSE,Total superannuation expenses,Table 8.1 - sum of superannuation interest cost and other superannuation expenses
+exp_super,447.836,2022-23,TRUE,Total superannuation expenses,Table 8.1 - sum of superannuation interest cost and other superannuation expenses
+exp_super,457.089,2023-24,TRUE,Total superannuation expenses,Table 8.1 - sum of superannuation interest cost and other superannuation expenses
+exp_super,467.186,2024-25,TRUE,Total superannuation expenses,Table 8.1 - sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,535.506,2021-22,FALSE,Depreciation and amortisation,Table 8.1 General government sector comprehensive operating statement
+exp_depreciation,529.835,2022-23,TRUE,Depreciation and amortisation,Table 8.1 General government sector comprehensive operating statement
+exp_depreciation,525.696,2023-24,TRUE,Depreciation and amortisation,Table 8.1 General government sector comprehensive operating statement
+exp_depreciation,519.718,2024-25,TRUE,Depreciation and amortisation,Table 8.1 General government sector comprehensive operating statement
+exp_interest,358.830,2021-22,FALSE,Interest expenses,Table 8.1 General government sector comprehensive operating statement
+exp_interest,386.444,2022-23,TRUE,Interest expenses,Table 8.1 General government sector comprehensive operating statement
+exp_interest,411.050,2023-24,TRUE,Interest expenses,Table 8.1 General government sector comprehensive operating statement
+exp_interest,423.304,2024-25,TRUE,Interest expenses,Table 8.1 General government sector comprehensive operating statement
+exp_other_operating,1652.228,2021-22,FALSE,Other operating expenses,Table 8.1 General government sector comprehensive operating statement
+exp_other_operating,1486.999,2022-23,TRUE,Other operating expenses,Table 8.1 General government sector comprehensive operating statement
+exp_other_operating,1466.192,2023-24,TRUE,Other operating expenses,Table 8.1 General government sector comprehensive operating statement
+exp_other_operating,1459.696,2024-25,TRUE,Other operating expenses,Table 8.1 General government sector comprehensive operating statement
+exp_current_grants,1156.229,2021-22,FALSE,Current grants,Table 8.1 General government sector comprehensive operating statement
+exp_current_grants,1058.144,2022-23,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+exp_current_grants,1056.908,2023-24,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+exp_current_grants,1033.388,2024-25,TRUE,Current grants,Table 8.1 General government sector comprehensive operating statement
+exp_capital_grants,115.792,2021-22,FALSE,Capital grants,Table 8.1 General government sector comprehensive operating statement
+exp_capital_grants,53.231,2022-23,TRUE,Capital grants,Table 8.1 General government sector comprehensive operating statement
+exp_capital_grants,52.425,2023-24,TRUE,Capital grants,Table 8.1 General government sector comprehensive operating statement
+exp_capital_grants,49.219,2024-25,TRUE,Capital grants,Table 8.1 General government sector comprehensive operating statement
+exp_health,2070,2021-22,FALSE,Health,Table 8.20 General government sector operating expenses by function
+exp_education,1296,2021-22,FALSE,Education,Table 8.20 General government sector operating expenses by function
+exp_public_order,917,2021-22,FALSE,Public order and safety,Table 8.20 General government sector operating expenses by function
+exp_transport_comms,287,2021-22,FALSE,Transport,Table 8.20 General government sector operating expenses by function
+exp_social_security,651,2021-22,FALSE,Social protection,Table 8.20 General government sector operating expenses by function
+exp_general_public,536,2021-22,FALSE,General public services,Table 8.20 General government sector operating expenses by function
+exp_recreation,156,2021-22,FALSE,Recreation culture and religion,Table 8.20 General government sector operating expenses by function
+exp_other_function,219,2021-22,FALSE,Other expenses,Table 8.20 includes economic affairs environmental protection housing and community amenities
+net_op_balance,-496.628,2021-22,FALSE,NET OPERATING BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_op_balance,-536.384,2022-23,TRUE,NET OPERATING BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_op_balance,-480.431,2023-24,TRUE,NET OPERATING BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_op_balance,-570.378,2024-25,TRUE,NET OPERATING BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_cap_investment,785.911,2021-22,FALSE,Total net acquisition of non financial assets,Table 8.1 General government sector comprehensive operating statement
+net_cap_investment,661.485,2022-23,TRUE,Total net acquisition of non financial assets,Table 8.1 General government sector comprehensive operating statement
+net_cap_investment,367.923,2023-24,TRUE,Total net acquisition of non financial assets,Table 8.1 General government sector comprehensive operating statement
+net_cap_investment,113.821,2024-25,TRUE,Total net acquisition of non financial assets,Table 8.1 General government sector comprehensive operating statement
+net_lending,-1282.539,2021-22,FALSE,FISCAL BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_lending,-1197.869,2022-23,TRUE,FISCAL BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_lending,-848.354,2023-24,TRUE,FISCAL BALANCE,Table 8.1 General government sector comprehensive operating statement
+net_lending,-684.199,2024-25,TRUE,FISCAL BALANCE,Table 8.1 General government sector comprehensive operating statement
+cash_surplus,-1167.712,2021-22,FALSE,CASH SURPLUS/DEFICIT,Table 8.3 General government sector cash flow statement
+cash_surplus,-1096.020,2022-23,TRUE,CASH SURPLUS/DEFICIT,Table 8.3 General government sector cash flow statement
+cash_surplus,-792.523,2023-24,TRUE,CASH SURPLUS/DEFICIT,Table 8.3 General government sector cash flow statement
+cash_surplus,-637.613,2024-25,TRUE,CASH SURPLUS/DEFICIT,Table 8.3 General government sector cash flow statement
+net_debt,7368.399,2021-22,FALSE,NET DEBT,Table 8.2 General government sector balance sheet
+net_debt,8531.414,2022-23,TRUE,NET DEBT,Table 8.2 General government sector balance sheet
+net_debt,9280.985,2023-24,TRUE,NET DEBT,Table 8.2 General government sector balance sheet
+net_debt,9882.050,2024-25,TRUE,NET DEBT,Table 8.2 General government sector balance sheet
+net_fin_liabilities,12517.725,2021-22,FALSE,NET FINANCIAL LIABILITIES,Table 8.2 General government sector balance sheet
+net_fin_liabilities,13525.647,2022-23,TRUE,NET FINANCIAL LIABILITIES,Table 8.2 General government sector balance sheet
+net_fin_liabilities,14179.494,2023-24,TRUE,NET FINANCIAL LIABILITIES,Table 8.2 General government sector balance sheet
+net_fin_liabilities,14668.928,2024-25,TRUE,NET FINANCIAL LIABILITIES,Table 8.2 General government sector balance sheet
+net_worth,9396.971,2021-22,FALSE,NET WORTH,Table 8.2 General government sector balance sheet
+net_worth,9041.944,2022-23,TRUE,NET WORTH,Table 8.2 General government sector balance sheet
+net_worth,8786.552,2023-24,TRUE,NET WORTH,Table 8.2 General government sector balance sheet
+net_worth,8447.419,2024-25,TRUE,NET WORTH,Table 8.2 General government sector balance sheet
+capex_pnfa,1221.744,2021-22,FALSE,Purchases of non financial assets,Table 8.1 General government sector comprehensive operating statement
+capex_pnfa,1135.582,2022-23,TRUE,Purchases of non financial assets,Table 8.1 General government sector comprehensive operating statement
+capex_pnfa,913.185,2023-24,TRUE,Purchases of non financial assets,Table 8.1 General government sector comprehensive operating statement
+capex_pnfa,646.238,2024-25,TRUE,Purchases of non financial assets,Table 8.1 General government sector comprehensive operating statement
+econ_gsp_growth,2.3,2021-22,FALSE,Gross state product,Table 3.1 Territory key economic indicators
+econ_gsp_growth,3.1,2022-23,TRUE,Gross state product,Table 3.1 Territory key economic indicators
+econ_gsp_growth,-0.3,2023-24,TRUE,Gross state product,Table 3.1 Territory key economic indicators
+econ_gsp_growth,2.3,2024-25,TRUE,Gross state product,Table 3.1 Territory key economic indicators
+econ_employment,1.8,2021-22,FALSE,Employment growth,Table 3.1 Territory key economic indicators
+econ_employment,1.7,2022-23,TRUE,Employment growth,Table 3.1 Territory key economic indicators
+econ_employment,1.1,2023-24,TRUE,Employment growth,Table 3.1 Territory key economic indicators
+econ_employment,0.7,2024-25,TRUE,Employment growth,Table 3.1 Territory key economic indicators
+econ_unemployment,5.4,2021-22,FALSE,Unemployment rate,Table 3.1 Territory
+econ_unemployment,5.4,2021-22,FALSE,Unemployment rate,Table 3.1 Territory key economic indicators
+econ_unemployment,5.1,2022-23,TRUE,Unemployment rate,Table 3.1 Territory key economic indicators
+econ_unemployment,4.9,2023-24,TRUE,Unemployment rate,Table 3.1 Territory key economic indicators
+econ_unemployment,4.8,2024-25,TRUE,Unemployment rate,Table 3.1 Territory key economic indicators
+econ_cpi,1.8,2021-22,FALSE,Consumer Price Index growth,Table 3.1 Territory key economic indicators
+econ_cpi,1.4,2022-23,TRUE,Consumer Price Index growth,Table 3.1 Territory key economic indicators
+econ_cpi,1.8,2023-24,TRUE,Consumer Price Index growth,Table 3.1 Territory key economic indicators
+econ_cpi,2.2,2024-25,TRUE,Consumer Price Index growth,Table 3.1 Territory key economic indicators
+econ_wpi,1.7,2021-22,FALSE,Wage Price Index growth,Table 3.1 Territory key economic indicators
+econ_wpi,1.4,2022-23,TRUE,Wage Price Index growth,Table 3.1 Territory key economic indicators
+econ_wpi,1.3,2023-24,TRUE,Wage Price Index growth,Table 3.1 Territory key economic indicators
+econ_wpi,1.4,2024-25,TRUE,Wage Price Index growth,Table 3.1 Territory key economic indicators
+econ_population,0.5,2021-22,FALSE,Population growth,Table 3.1 Territory key economic indicators
+econ_population,0.8,2022-23,TRUE,Population growth,Table 3.1 Territory key economic indicators
+econ_population,0.9,2023-24,TRUE,Population growth,Table 3.1 Territory key economic indicators
+econ_population,1.0,2024-25,TRUE,Population growth,Table 3.1 Territory key economic indicators

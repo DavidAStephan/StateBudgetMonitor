@@ -1,0 +1,153 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6406.7,2019-20,FALSE,Total revenue,
+rev_total,6397.6,2020-21,TRUE,Total revenue,
+rev_total,6570.0,2021-22,TRUE,Total revenue,
+rev_total,6799.7,2022-23,TRUE,Total revenue,
+exp_total,6349.3,2019-20,FALSE,Total expenses,
+exp_total,6312.5,2020-21,TRUE,Total expenses,
+exp_total,6395.5,2021-22,TRUE,Total expenses,
+exp_total,6549.2,2022-23,TRUE,Total expenses,
+net_op_balance,57.4,2019-20,FALSE,Net Operating Balance,
+net_op_balance,85.1,2020-21,TRUE,Net Operating Balance,
+net_op_balance,174.5,2021-22,TRUE,Net Operating Balance,
+net_op_balance,250.6,2022-23,TRUE,Net Operating Balance,
+net_debt,284.5,2019-20,FALSE,Net Debt,Includes lease liabilities under AASB 16
+net_debt,643.1,2020-21,TRUE,Net Debt,Includes lease liabilities under AASB 16
+net_debt,820.0,2021-22,TRUE,Net Debt,Includes lease liabilities under AASB 16
+net_debt,1114.1,2022-23,TRUE,Net Debt,Includes lease liabilities under AASB 16
+capex_pnfa,700.1,2019-20,FALSE,Purchases of non-financial assets,
+capex_pnfa,718.6,2020-21,TRUE,Purchases of non-financial assets,
+capex_pnfa,613.9,2021-22,TRUE,Purchases of non-financial assets,
+capex_pnfa,677.0,2022-23,TRUE,Purchases of non-financial assets,
+capex_infra_program,723.3,2019-20,FALSE,Infrastructure Investment,General Government infrastructure investment
+capex_infra_program,715.9,2020-21,TRUE,Infrastructure Investment,General Government infrastructure investment
+capex_infra_program,630.1,2021-22,TRUE,Infrastructure Investment,General Government infrastructure investment
+capex_infra_program,695.0,2022-23,TRUE,Infrastructure Investment,General Government infrastructure investment
+rev_gst,2475.3,2019-20,FALSE,GST Revenue,
+rev_gst,2559.3,2020-21,TRUE,GST Revenue,
+rev_gst,2697.2,2021-22,TRUE,GST Revenue,
+rev_gst,2799.1,2022-23,TRUE,GST Revenue,
+rev_grants_tied,1448.3,2019-20,FALSE,Payments for Specific Purposes,Includes SPPs and NPPs
+rev_grants_tied,1477.5,2020-21,TRUE,Payments for Specific Purposes,Includes SPPs and NPPs
+rev_grants_tied,1484.9,2021-22,TRUE,Payments for Specific Purposes,Includes SPPs and NPPs
+rev_grants_tied,1604.5,2022-23,TRUE,Payments for Specific Purposes,Includes SPPs and NPPs
+rev_taxation,1215.5,2019-20,FALSE,Taxation,
+rev_taxation,1251.6,2020-21,TRUE,Taxation,
+rev_taxation,1283.7,2021-22,TRUE,Taxation,
+rev_taxation,1315.6,2022-23,TRUE,Taxation,
+rev_payroll,379.4,2019-20,FALSE,Payroll tax,
+rev_payroll,391.7,2020-21,TRUE,Payroll tax,
+rev_payroll,404.7,2021-22,TRUE,Payroll tax,
+rev_payroll,418.2,2022-23,TRUE,Payroll tax,
+rev_stamp_duty,236.7,2019-20,FALSE,Conveyance duty,
+rev_stamp_duty,245.0,2020-21,TRUE,Conveyance duty,
+rev_stamp_duty,245.0,2021-22,TRUE,Conveyance duty,
+rev_stamp_duty,245.0,2022-23,TRUE,Conveyance duty,
+rev_land_tax,119.0,2019-20,FALSE,Land tax,
+rev_land_tax,123.3,2020-21,TRUE,Land tax,
+rev_land_tax,127.9,2021-22,TRUE,Land tax,
+rev_land_tax,132.6,2022-23,TRUE,Land tax,
+rev_gambling,94.4,2019-20,FALSE,Gambling taxes,Sum of casino tax/licence fees and lottery tax and totalizator wagering levy
+rev_gambling,94.9,2020-21,TRUE,Gambling taxes,
+rev_gambling,95.3,2021-22,TRUE,Gambling taxes,
+rev_gambling,95.8,2022-23,TRUE,Gambling taxes,
+rev_motor_vehicle,201.6,2019-20,FALSE,Motor vehicle fees and taxes,Includes registration fees and motor vehicle duty/tax/fire levy
+rev_motor_vehicle,208.1,2020-21,TRUE,Motor vehicle fees and taxes,
+rev_motor_vehicle,215.3,2021-22,TRUE,Motor vehicle fees and taxes,
+rev_motor_vehicle,221.8,2022-23,TRUE,Motor vehicle fees and taxes,
+rev_sales_goods_svcs,416.0,2019-20,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,421.3,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,427.4,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,428.9,2022-23,TRUE,Sales of goods and services,
+rev_interest,16.8,2019-20,FALSE,Interest income,
+rev_interest,16.6,2020-21,TRUE,Interest income,
+rev_interest,18.0,2021-22,TRUE,Interest income,
+rev_interest,23.1,2022-23,TRUE,Interest income,
+rev_dividend,524.1,2019-20,FALSE,Dividend tax and rate equivalent income,
+rev_dividend,375.4,2020-21,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,365.8,2021-22,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,337.1,2022-23,TRUE,Dividend tax and rate equivalent income,
+rev_other,157.9,2019-20,FALSE,Other revenue,
+rev_other,153.0,2020-21,TRUE,Other revenue,
+rev_other,149.8,2021-22,TRUE,Other revenue,
+rev_other,153.3,2022-23,TRUE,Other revenue,
+exp_employee,2675.1,2019-20,FALSE,Employee expenses,
+exp_employee,2712.9,2020-21,TRUE,Employee expenses,
+exp_employee,2762.6,2021-22,TRUE,Employee expenses,
+exp_employee,2845.5,2022-23,TRUE,Employee expenses,
+exp_super,305.1,2019-20,FALSE,Superannuation,
+exp_super,303.3,2020-21,TRUE,Superannuation,
+exp_super,302.2,2021-22,TRUE,Superannuation,
+exp_super,302.1,2022-23,TRUE,Superannuation,
+exp_depreciation,329.4,2019-20,FALSE,Depreciation,
+exp_depreciation,352.0,2020-21,TRUE,Depreciation,
+exp_depreciation,384.2,2021-22,TRUE,Depreciation,
+exp_depreciation,394.1,2022-23,TRUE,Depreciation,
+exp_interest,14.1,2019-20,FALSE,Borrowing costs,
+exp_interest,23.7,2020-21,TRUE,Borrowing costs,
+exp_interest,29.7,2021-22,TRUE,Borrowing costs,
+exp_interest,35.4,2022-23,TRUE,Borrowing costs,
+net_worth,12330.8,2019-20,FALSE,Net Worth,
+net_worth,12687.6,2020-21,TRUE,Net Worth,
+net_worth,13097.6,2021-22,TRUE,Net Worth,
+net_worth,13623.1,2022-23,TRUE,Net Worth,
+net_fin_liabilities,7384.4,2019-20,FALSE,Net Financial Liabilities,
+net_fin_liabilities,7715.0,2020-21,TRUE,Net Financial Liabilities,
+net_fin_liabilities,7924.0,2021-22,TRUE,Net Financial Liabilities,
+net_fin_liabilities,8218.9,2022-23,TRUE,Net Financial Liabilities,
+exp_depreciation,329.4,2019-20,FALSE,Depreciation,
+exp_depreciation,352.0,2020-21,TRUE,Depreciation,
+exp_depreciation,384.2,2021-22,TRUE,Depreciation,
+exp_depreciation,394.1,2022-23,TRUE,Depreciation,
+exp_interest,14.1,2019-20,FALSE,Borrowing costs,
+exp_interest,23.7,2020-21,TRUE,Borrowing costs,
+exp_interest,29.7,2021-22,TRUE,Borrowing costs,
+exp_interest,35.4,2022-23,TRUE,Borrowing costs,
+net_fin_worth,-1932.9,2019-20,FALSE,Net Financial Worth,
+net_fin_worth,-2212.0,2020-21,TRUE,Net Financial Worth,
+net_fin_worth,-2321.3,2021-22,TRUE,Net Financial Worth,
+net_fin_worth,-2368.2,2022-23,TRUE,Net Financial Worth,
+rev_other_tax,99.6,2019-20,FALSE,Insurance duty,From taxes on provision of goods and services
+rev_other_tax,102.3,2020-21,TRUE,Insurance duty,From taxes on provision of goods and services
+rev_other_tax,105.5,2021-22,TRUE,Insurance duty,From taxes on provision of goods and services
+rev_other_tax,108.6,2022-23,TRUE,Insurance duty,From taxes on provision of goods and services
+exp_other_operating,1293.8,2019-20,FALSE,Supplies and consumables,
+exp_other_operating,1277.4,2020-21,TRUE,Supplies and consumables,
+exp_other_operating,1359.2,2021-22,TRUE,Supplies and consumables,
+exp_other_operating,1393.0,2022-23,TRUE,Supplies and consumables,
+exp_current_grants,1461.2,2019-20,FALSE,Grant and subsidy expenses,
+exp_current_grants,1424.6,2020-21,TRUE,Grant and subsidy expenses,
+exp_current_grants,1387.0,2021-22,TRUE,Grant and subsidy expenses,
+exp_current_grants,1405.8,2022-23,TRUE,Grant and subsidy expenses,
+exp_health,1961.6,2019-20,FALSE,Health,Expenses by purpose
+exp_health,1966.6,2020-21,TRUE,Health,Expenses by purpose
+exp_health,2044.9,2021-22,TRUE,Health,Expenses by purpose
+exp_health,2121.6,2022-23,TRUE,Health,Expenses by purpose
+exp_education,1676.9,2019-20,FALSE,Education,Expenses by purpose
+exp_education,1747.0,2020-21,TRUE,Education,Expenses by purpose
+exp_education,1809.5,2021-22,TRUE,Education,Expenses by purpose
+exp_education,1870.1,2022-23,TRUE,Education,Expenses by purpose
+exp_public_order,615.7,2019-20,FALSE,Public order and safety,Expenses by purpose
+exp_public_order,611.2,2020-21,TRUE,Public order and safety,Expenses by purpose
+exp_public_order,627.6,2021-22,TRUE,Public order and safety,Expenses by purpose
+exp_public_order,627.4,2022-23,TRUE,Public order and safety,Expenses by purpose
+exp_transport_comms,291.4,2019-20,FALSE,Transport,Expenses by purpose
+exp_transport_comms,294.2,2020-21,TRUE,Transport,Expenses by purpose
+exp_transport_comms,306.3,2021-22,TRUE,Transport,Expenses by purpose
+exp_transport_comms,312.8,2022-23,TRUE,Transport,Expenses by purpose
+exp_social_security,519.4,2019-20,FALSE,Social protection,Expenses by purpose
+exp_social_security,489.1,2020-21,TRUE,Social protection,Expenses by purpose
+exp_social_security,489.9,2021-22,TRUE,Social protection,Expenses by purpose
+exp_social_security,502.1,2022-23,TRUE,Social protection,Expenses by purpose
+exp_general_public,270.3,2019-20,FALSE,General public services,Expenses by purpose
+exp_general_public,236.9,2020-21,TRUE,General public services,Expenses by purpose
+exp_general_public,184.5,2021-22,TRUE,General public services,Expenses by purpose
+exp_general_public,198.3,2022-23,TRUE,General public services,Expenses by purpose
+exp_recreation,155.7,2019-20,FALSE,Recreation culture and religion,Expenses by purpose
+exp_recreation,140.4,2020-21,TRUE,Recreation culture and religion,Expenses by purpose
+exp_recreation,135.0,2021-22,TRUE,Recreation culture and religion,Expenses by purpose
+exp_recreation,132.7,2022-23,TRUE,Recreation culture and religion,Expenses by purpose
+cash_surplus,-340.6,2019-20,FALSE,Cash surplus / (deficit),
+cash_surplus,-197.6,2020-21,TRUE,Cash surplus / (deficit),
+cash_surplus,61.9,2021-22,TRUE,Cash surplus / (deficit),
+cash_surplus,67.3,2022-23,TRUE,Cash surplus / (deficit),

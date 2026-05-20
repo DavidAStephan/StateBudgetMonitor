@@ -1,0 +1,226 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,43601,2022-23,FALSE,Total revenue,Actual
+rev_total,45075,2023-24,FALSE,Total revenue,Estimated Actual
+rev_total,46194,2024-25,FALSE,Total revenue,Budget Year
+rev_total,44113,2025-26,TRUE,Total revenue,Forward estimate
+rev_total,44561,2026-27,TRUE,Total revenue,Forward estimate
+rev_total,45113,2027-28,TRUE,Total revenue,Forward estimate
+exp_total,38481,2022-23,FALSE,Total expenses,Actual
+exp_total,41917,2023-24,FALSE,Total expenses,Estimated Actual
+exp_total,43591,2024-25,FALSE,Total expenses,Budget Year
+exp_total,41683,2025-26,TRUE,Total expenses,Forward estimate
+exp_total,41728,2026-27,TRUE,Total expenses,Forward estimate
+exp_total,42655,2027-28,TRUE,Total expenses,Forward estimate
+net_op_balance,5120,2022-23,FALSE,Net Operating Balance,Actual
+net_op_balance,3158,2023-24,FALSE,Net Operating Balance,Estimated Actual
+net_op_balance,2603,2024-25,FALSE,Net Operating Balance,Budget Year
+net_op_balance,2431,2025-26,TRUE,Net Operating Balance,Forward estimate
+net_op_balance,2833,2026-27,TRUE,Net Operating Balance,Forward estimate
+net_op_balance,2458,2027-28,TRUE,Net Operating Balance,Forward estimate
+net_worth,151977,2022-23,FALSE,Net Worth,Actual - at 30 June
+net_worth,159615,2023-24,FALSE,Net Worth,Estimated Actual - at 30 June
+net_worth,164772,2024-25,FALSE,Net Worth,Budget Year - at 30 June
+net_worth,169501,2025-26,TRUE,Net Worth,Forward estimate - at 30 June
+net_worth,173916,2026-27,TRUE,Net Worth,Forward estimate - at 30 June
+net_worth,177939,2027-28,TRUE,Net Worth,Forward estimate - at 30 June
+net_debt,18223,2022-23,FALSE,Net Debt at 30 June,Actual - General Government
+net_debt,20775,2023-24,FALSE,Net Debt at 30 June,Estimated Actual - General Government
+net_debt,25298,2024-25,FALSE,Net Debt at 30 June,Budget Year - General Government
+net_debt,27917,2025-26,TRUE,Net Debt at 30 June,Forward estimate - General Government
+net_debt,29109,2026-27,TRUE,Net Debt at 30 June,Forward estimate - General Government
+net_debt,29215,2027-28,TRUE,Net Debt at 30 June,Forward estimate - General Government
+capex_pnfa,3870,2022-23,FALSE,Asset Investment Program,Actual - General Government
+capex_pnfa,3553,2023-24,FALSE,Asset Investment Program,Estimated Actual - General Government
+capex_pnfa,3565,2024-25,FALSE,Asset Investment Program,Budget Year - General Government
+capex_pnfa,4064,2025-26,TRUE,Asset Investment Program,Forward estimate - General Government
+capex_pnfa,4492,2026-27,TRUE,Asset Investment Program,Forward estimate - General Government
+capex_pnfa,3414,2027-28,TRUE,Asset Investment Program,Forward estimate - General Government
+cash_surplus,4043,2022-23,FALSE,Cash Surplus/Deficit,Actual - General Government
+cash_surplus,2038,2023-24,FALSE,Cash Surplus/Deficit,Estimated Actual - General Government
+cash_surplus,1732,2024-25,FALSE,Cash Surplus/Deficit,Budget Year - General Government
+cash_surplus,577,2025-26,TRUE,Cash Surplus/Deficit,Forward estimate - General Government
+cash_surplus,615,2026-27,TRUE,Cash Surplus/Deficit,Forward estimate - General Government
+cash_surplus,1032,2027-28,TRUE,Cash Surplus/Deficit,Forward estimate - General Government
+net_debt,28636,2023-24,FALSE,Total Public Sector Net Debt,Estimated Actual at 30 June
+net_debt,32712,2024-25,FALSE,Total Public Sector Net Debt,Budget Year at 30 June
+net_debt,36947,2025-26,TRUE,Total Public Sector Net Debt,Forward estimate at 30 June
+net_debt,39800,2026-27,TRUE,Total Public Sector Net Debt,Forward estimate at 30 June
+net_debt,40897,2027-28,TRUE,Total Public Sector Net Debt,Forward estimate at 30 June
+rev_total,43601,2022-23,FALSE,Total revenue,Actual
+rev_total,45075,2023-24,FALSE,Total revenue,Estimated Actual
+rev_total,46194,2024-25,FALSE,Total revenue,Budget Year
+rev_total,44113,2025-26,TRUE,Total revenue,Outyear
+rev_total,44561,2026-27,TRUE,Total revenue,Outyear
+rev_total,45113,2027-28,TRUE,Total revenue,Outyear
+rev_taxation,12427,2022-23,FALSE,Taxation,Actual
+rev_taxation,13508,2023-24,FALSE,Taxation,Estimated Actual
+rev_taxation,13577,2024-25,FALSE,Taxation,Budget Year
+rev_taxation,13949,2025-26,TRUE,Taxation,Outyear
+rev_taxation,14427,2026-27,TRUE,Taxation,Outyear
+rev_taxation,14943,2027-28,TRUE,Taxation,Outyear
+rev_gst,6306,2022-23,FALSE,GST grants,Actual
+rev_gst,6417,2023-24,FALSE,GST grants,Estimated Actual
+rev_gst,7264,2024-25,FALSE,GST grants,Budget Year
+rev_gst,7744,2025-26,TRUE,GST grants,Outyear
+rev_gst,8591,2026-27,TRUE,GST grants,Outyear
+rev_gst,9090,2027-28,TRUE,GST grants,Outyear
+rev_interest,333,2022-23,FALSE,Interest income,Actual
+rev_interest,373,2023-24,FALSE,Interest income,Estimated Actual
+rev_interest,342,2024-25,FALSE,Interest income,Budget Year
+rev_interest,269,2025-26,TRUE,Interest income,Outyear
+rev_interest,304,2026-27,TRUE,Interest income,Outyear
+rev_interest,266,2027-28,FALSE,Interest income,Outyear
+rev_sales_goods_svcs,3296,2022-23,FALSE,Sales of goods and services,Actual
+rev_sales_goods_svcs,3139,2023-24,FALSE,Sales of goods and services,Estimated Actual
+rev_sales_goods_svcs,3236,2024-25,FALSE,Sales of goods and services,Budget Year
+rev_sales_goods_svcs,3246,2025-26,TRUE,Sales of goods and services,Outyear
+rev_sales_goods_svcs,3331,2026-27,TRUE,Sales of goods and services,Outyear
+rev_sales_goods_svcs,3421,2027-28,TRUE,Sales of goods and services,Outyear
+royalty_income,11045,2022-23,FALSE,Royalty income,Actual
+royalty_income,11243,2023-24,FALSE,Royalty income,Estimated Actual
+royalty_income,7773,2024-25,FALSE,Royalty income,Budget Year
+royalty_income,7488,2025-26,TRUE,Royalty income,Outyear
+royalty_income,7446,2026-27,TRUE,Royalty income,Outyear
+royalty_income,7358,2027-28,TRUE,Royalty income,Outyear
+exp_total,41942,2022-23,FALSE,Total expenses,Actual from page 51 context
+exp_total,41891,2023-24,FALSE,Total expenses,Estimated Actual from page 51 context
+exp_total,43564,2024-25,FALSE,Total expenses,Budget Year from page 51 context
+exp_total,41726,2025-26,TRUE,Total expenses,Outyear from page 51 context
+exp_total,41781,2026-27,TRUE,Total expenses,Outyear from page 51 context
+exp_total,42328,2027-28,TRUE,Total expenses,Outyear from page 51 context
+net_op_balance,1659,2022-23,FALSE,Net operating balance,Actual from page 51 context
+net_op_balance,3184,2023-24,FALSE,Net operating balance,Estimated Actual from page 51 context
+net_op_balance,2630,2024-25,FALSE,Net operating balance,Budget Year from page 51 context
+net_op_balance,2387,2025-26,TRUE,Net operating balance,Outyear from page 51 context
+net_op_balance,2780,2026-27,TRUE,Net operating balance,Outyear from page 51 context
+net_op_balance,2785,2027-28,TRUE,Net operating balance,Outyear from page 51 context
+rev_total,45075,2023-24,FALSE,Total revenue,"General Government Sector, estimated actual"
+rev_taxation,13508,2023-24,FALSE,Total Taxation,"General Government Sector, estimated actual"
+rev_payroll,5473,2023-24,FALSE,Payroll tax,"General Government Sector, estimated actual"
+rev_stamp_duty,2469,2023-24,FALSE,Transfer duty,"General Government Sector, estimated actual. Transfer duty only, excludes Foreign Buyers Surcharge and Landholder duty"
+rev_land_tax,835,2023-24,FALSE,Land tax,"General Government Sector, estimated actual"
+rev_gambling,400,2023-24,FALSE,Total taxes on gambling,"General Government Sector, estimated actual"
+rev_motor_vehicle,2099,2023-24,FALSE,Total motor vehicle taxes,"General Government Sector, estimated actual"
+rev_other_tax,2098,2023-24,FALSE,,"General Government Sector, estimated actual. Calculated as Total Taxation minus sum of identified taxes"
+rev_gst,6417,2023-24,FALSE,GST grants,"General Government Sector, estimated actual"
+rev_grants_tied,3034,2023-24,FALSE,Health Reform,"General Government Sector, estimated actual. National Agreement only"
+rev_grants_untied,656,2023-24,FALSE,North West Shelf grants,"General Government Sector, estimated actual"
+rev_sales_goods_svcs,3139,2023-24,FALSE,Total Sale of Goods and Services,"General Government Sector, estimated actual"
+rev_interest,373,2023-24,FALSE,Interest income,"General Government Sector, estimated actual"
+rev_dividend,211,2023-24,FALSE,Dividends,"General Government Sector, estimated actual"
+rev_other,815,2023-24,FALSE,Total Other,"General Government Sector, estimated actual"
+rev_royalty,11243,2023-24,FALSE,Total Royalty Income,"General Government Sector, estimated actual"
+exp_total,41917,2023-24,FALSE,Total General Government Expenses,"General Government Sector, estimated actual"
+exp_employee,17840,2023-24,FALSE,Salaries,"General Government Sector, estimated actual"
+exp_super,2095,2023-24,FALSE,Superannuation concurrent costs,"General Government Sector, estimated actual"
+exp_depreciation,5531,2023-24,FALSE,Depreciation and amortisation,"General Government Sector, estimated actual"
+exp_interest,1911,2023-24,FALSE,,"General Government Sector, estimated actual. Total interest (other interest + interest on leases)"
+exp_current_grants,8318,2023-24,FALSE,Total Current Transfers,"General Government Sector, estimated actual"
+exp_capital_grants,693,2023-24,FALSE,Total Capital Transfers,"General Government Sector, estimated actual"
+net_op_balance,3529,2023-24,FALSE,Net operating balance,"General Government Sector, estimated actual"
+net_lending,-609,2023-24,FALSE,Net lending / (borrowing),"General Government Sector, estimated actual"
+net_debt,13423,2023-24,FALSE,Net debt,"Public Non-Financial Corporations, estimated actual"
+rev_total,46194,2024-25,FALSE,Total revenue,"General Government Sector, budget year"
+rev_taxation,13577,2024-25,FALSE,Total Taxation,"General Government Sector, budget year"
+rev_payroll,5832,2024-25,FALSE,Payroll tax,"General Government Sector, budget year"
+rev_stamp_duty,2360,2024-25,FALSE,Transfer duty,"General Government Sector, budget year. Transfer duty only, excludes Foreign Buyers Surcharge and Landholder duty"
+rev_land_tax,887,2024-25,FALSE,Land tax,"General Government Sector, budget year"
+rev_gambling,363,2024-25,FALSE,Total taxes on gambling,"General Government Sector, budget year"
+rev_motor_vehicle,1951,2024-25,FALSE,Total motor vehicle taxes,"General Government Sector, budget year"
+rev_other_tax,2393,2024-25,FALSE,,"General Government Sector, budget year. Calculated as Total Taxation minus sum of identified taxes"
+rev_gst,7264,2024-25,FALSE,GST grants,"General Government Sector, budget year"
+rev_grants_tied,3209,2024-25,FALSE,Health Reform,"General Government Sector, budget year. National Agreement only"
+rev_grants_untied,591,2024-25,FALSE,North West Shelf grants,"General Government Sector, budget year"
+rev_sales_goods_svcs,3236,2024-25,FALSE,Total Sale of Goods and Services,"General Government Sector, budget year"
+rev_interest,342,2024-25,FALSE,Interest income,"General Government Sector, budget year"
+rev_dividend,1571,2024-25,FALSE,Dividends,"General Government Sector, budget year"
+rev_other,674,2024-25,FALSE,Total Other,"General Government Sector, budget year"
+rev_royalty,7773,2024-25,FALSE,Total Royalty Income,"General Government Sector, budget year"
+exp_total,43591,2024-25,FALSE,Total General Government Expenses,"General Government Sector, budget year"
+exp_employee,18909,2024-25,FALSE,Salaries,"General Government Sector, budget year"
+exp_super,2286,2024-25,FALSE,Superannuation concurrent costs,"General Government Sector, budget year"
+exp_depreciation,5753,2024-25,FALSE,Depreciation and amortisation,"General Government Sector, budget year"
+exp_interest,1641,2024-25,FALSE,,"General Government Sector, budget year. Total interest (other interest + interest on leases)"
+exp_current_grants,9032,2024-25,FALSE,Total Current Transfers,"General Government Sector, budget year"
+exp_capital_grants,549,2024-25,FALSE,Total Capital Transfers,"General Government Sector, budget year"
+net_op_balance,1735,2024-25,FALSE,Net operating balance,"General Government Sector, budget year"
+net_lending,-4446,2024-25,FALSE,Net lending / (borrowing),"General Government Sector, budget year"
+net_debt,13368,2024-25,FALSE,Net debt,"Public Non-Financial Corporations, budget year"
+rev_total,44113,2025-26,TRUE,Total revenue,"General Government Sector, outyear"
+rev_taxation,13949,2025-26,TRUE,Total Taxation,"General Government Sector, outyear"
+rev_payroll,6095,2025-26,TRUE,Payroll tax,"General Government Sector, outyear"
+rev_stamp_duty,2347,2025-26,TRUE,Transfer duty,"General Government Sector, outyear. Transfer duty only, excludes Foreign Buyers Surcharge and Landholder duty"
+rev_land_tax,910,2025-26,TRUE,Land tax,"General Government Sector, outyear"
+rev_gambling,367,2025-26,TRUE,Total taxes on gambling,"General Government Sector, outyear"
+rev_motor_vehicle,1960,2025-26,TRUE,Total motor vehicle taxes,"General Government Sector, outyear"
+rev_other_tax,2265,2025-26,TRUE,,"General Government Sector, outyear. Calculated as Total Taxation minus sum of identified taxes"
+rev_gst,7744,2025-26,TRUE,GST grants,"General Government Sector, outyear"
+rev_grants_tied,3426,2025-26,TRUE,Health Reform,"General Government Sector, outyear. National Agreement only"
+rev_grants_untied,390,2025-26,TRUE,North West Shelf grants,"General Government Sector, outyear"
+rev_sales_goods_svcs,3246,2025-26,TRUE,Total Sale of Goods and Services,"General Government Sector, outyear"
+rev_interest,269,2025-26,TRUE,Interest income,"General Government Sector, outyear"
+rev_dividend,1673,2025-26,TRUE,Dividends,"General Government Sector, outyear"
+rev_other,685,2025-26,TRUE,Total Other,"General Government Sector, outyear"
+rev_royalty,7488,2025-26,TRUE,Total Royalty Income,"General Government Sector, outyear"
+exp_total,41683,2025-26,TRUE,Total General Government Expenses,"General Government Sector, outyear"
+exp_employee,19322,2025-26,TRUE,Salaries,"General Government Sector, outyear"
+exp_super,2409,2025-26,TRUE,Superannuation concurrent costs,"General Government Sector, outyear"
+exp_depreciation,6012,2025-26,TRUE,Depreciation and amortisation,"General Government Sector, outyear"
+exp_interest,1611,2025-26,TRUE,,"General Government Sector, outyear. Total interest (other interest + interest on leases)"
+exp_current_grants,7455,2025-26,TRUE,Total Current Transfers,"General Government Sector, outyear"
+exp_capital_grants,464,2025-26,TRUE,Total Capital Transfers,"General Government Sector, outyear"
+net_op_balance,1144,2025-26,TRUE,Net operating balance,"General Government Sector, outyear"
+net_lending,-3925,2025-26,TRUE,Net lending / (borrowing),"General Government Sector, outyear"
+net_debt,15404,2025-26,TRUE,Net debt,"Public Non-Financial Corporations, outyear"
+rev_total,44561,2026-27,TRUE,Total revenue,"General Government Sector, outyear"
+rev_taxation,14427,2026-27,TRUE,Total Taxation,"General Government Sector, outyear"
+rev_payroll,6400,2026-27,TRUE,Payroll tax,"General Government Sector, outyear"
+rev_stamp_duty,2334,2026-27,TRUE,Transfer duty,"General Government Sector, outyear. Transfer duty only, excludes Foreign Buyers Surcharge and Landholder duty"
+rev_land_tax,923,2026-27,TRUE,Land tax,"General Government Sector, outyear"
+rev_gambling,370,2026-27,TRUE,Total taxes on gambling,"General Government Sector, outyear"
+rev_motor_vehicle,2040,2026-27,TRUE,Total motor vehicle taxes,"General Government Sector, outyear"
+rev_other_tax,2360,2026-27,TRUE,,"General Government Sector, outyear. Calculated as Total Taxation minus sum of identified taxes"
+rev_gst,8591,2026-27,TRUE,GST grants,"General Government Sector, outyear"
+rev_grants_tied,3650,2026-27,TRUE,Health Reform,"General Government Sector, outyear. National Agreement only"
+rev_grants_untied,283,2026-27,TRUE,North West Shelf grants,"General Government Sector, outyear"
+rev_sales_goods_svcs,3331,2026-27,TRUE,Total Sale of Goods and Services,"General Government Sector, outyear"
+rev_interest,304,2026-27,TRUE,Interest income,"General Government Sector, outyear"
+rev_dividend,1771,2026-27,TRUE,Dividends,"General Government Sector, outyear"
+rev_other,663,2026-27,TRUE,Total Other,"General Government Sector, outyear"
+rev_royalty,7446,2026-27,TRUE,Total Royalty Income,"General Government Sector, outyear"
+exp_total,41728,2026-27,TRUE,Total General Government Expenses,"General Government Sector, outyear"
+exp_employee,19896,2026-27,TRUE,Salaries,"General Government Sector, outyear"
+exp_super,2463,2026-27,TRUE,Superannuation concurrent costs,"General Government Sector, outyear"
+exp_depreciation,6248,2026-27,TRUE,Depreciation and amortisation,"General Government Sector, outyear"
+exp_interest,1723,2026-27,TRUE,,"General Government Sector, outyear. Total interest (other interest + interest on leases)"
+exp_current_grants,7080,2026-27,TRUE,Total Current Transfers,"General Government Sector, outyear"
+exp_capital_grants,166,2026-27,TRUE,Total Capital Transfers,"General Government Sector, outyear"
+net_op_balance,1107,2026-27,TRUE,Net operating balance,"General Government Sector, outyear"
+net_lending,-2716,2026-27,TRUE,Net lending / (borrowing),"General Government Sector, outyear"
+net_debt,17457,2026-27,TRUE,Net debt,"Public Non-Financial Corporations, outyear"
+rev_total,45113,2027-28,TRUE,Total revenue,"General Government Sector, outyear"
+rev_taxation,14943,2027-28,TRUE,Total Taxation,"General Government Sector, outyear"
+rev_payroll,6722,2027-28,TRUE,Payroll tax,"General Government Sector, outyear"
+rev_stamp_duty,2327,2027-28,TRUE,Transfer duty,"General Government Sector, outyear. Transfer duty only, excludes Foreign Buyers Surcharge and Landholder duty"
+rev_land_tax,935,2027-28,TRUE,Land tax,"General Government Sector, outyear"
+rev_gambling,377,2027-28,TRUE,Total taxes on gambling,"General Government Sector, outyear"
+rev_motor_vehicle,2120,2027-28,TRUE,Total motor vehicle taxes,"General Government Sector, outyear"
+rev_other_tax,2462,2027-28,TRUE,,"General Government Sector, outyear. Calculated as Total Taxation minus sum of identified taxes"
+rev_gst,9090,2027-28,TRUE,GST grants,"General Government Sector, outyear"
+rev_grants_tied,3866,2027-28,TRUE,Health Reform,"General Government Sector, outyear. National Agreement only"
+rev_grants_untied,224,2027-28,TRUE,North West Shelf grants,"General Government Sector, outyear"
+rev_sales_goods_svcs,3421,2027-28,TRUE,Total Sale of Goods and Services,"General Government Sector, outyear"
+rev_interest,266,2027-28,TRUE,Interest income,"General Government Sector, outyear"
+rev_dividend,1804,2027-28,TRUE,Dividends,"General Government Sector, outyear"
+rev_other,668,2027-28,TRUE,Total Other,"General Government Sector, outyear"
+rev_royalty,7358,2027-28,TRUE,Total Royalty Income,"General Government Sector, outyear"
+exp_total,42655,2027-28,TRUE,Total General Government Expenses,"General Government Sector, outyear"
+exp_employee,20501,2027-28,TRUE,Salaries,"General Government Sector, outyear"
+exp_super,2523,2027-28,TRUE,Superannuation concurrent costs,"General Government Sector, outyear"
+exp_depreciation,6301,2027-28,TRUE,Depreciation and amortisation,"General Government Sector, outyear"
+exp_interest,1865,2027-28,TRUE,,"General Government Sector, outyear. Total interest (other interest + interest on leases)"
+exp_current_grants,7143,2027-28,TRUE,Total Current Transfers,"General Government Sector, outyear"
+exp_capital_grants,146,2027-28,TRUE,Total Capital Transfers,"General Government Sector, outyear"
+net_op_balance,923,2027-28,TRUE,Net operating balance,"General Government Sector, outyear"
+net_lending,-582,2027-28,TRUE,Net lending / (borrowing),"General Government Sector, outyear"
+net_debt,18865,2027-28,TRUE,Net debt,"Public Non-Financial Corporations, outyear"

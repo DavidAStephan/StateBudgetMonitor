@@ -1,0 +1,201 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6852.7,2020-21,FALSE,Revenue from transactions,Preliminary Outcome
+rev_total,7257.5,2021-22,FALSE,Revenue from transactions,
+rev_total,7542.7,2022-23,TRUE,Revenue from transactions,
+rev_total,7776.8,2023-24,TRUE,Revenue from transactions,
+rev_total,8051.3,2024-25,TRUE,Revenue from transactions,
+rev_taxation,1336.0,2020-21,FALSE,Taxation,Preliminary Outcome
+rev_taxation,1448.3,2021-22,FALSE,Taxation,
+rev_taxation,1530.6,2022-23,TRUE,Taxation,
+rev_taxation,1608.5,2023-24,TRUE,Taxation,
+rev_taxation,1684.6,2024-25,TRUE,Taxation,
+rev_gst,4300.9,2020-21,FALSE,Grants,Preliminary Outcome - includes GST revenue within total grants
+rev_gst,4653.2,2021-22,FALSE,Grants,Includes GST revenue within total grants
+rev_gst,4922.3,2022-23,TRUE,Grants,Includes GST revenue within total grants
+rev_gst,5094.5,2023-24,TRUE,Grants,Includes GST revenue within total grants
+rev_gst,5258.2,2024-25,TRUE,Grants,Includes GST revenue within total grants
+rev_sales_goods_svcs,440.9,2020-21,FALSE,Sales of goods and services,Preliminary Outcome
+rev_sales_goods_svcs,441.7,2021-22,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,458.5,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,469.8,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,479.9,2024-25,TRUE,Sales of goods and services,
+rev_interest,8.0,2020-21,FALSE,Interest income,Preliminary Outcome
+rev_interest,7.9,2021-22,FALSE,Interest income,
+rev_interest,12.1,2022-23,TRUE,Interest income,
+rev_interest,18.3,2023-24,TRUE,Interest income,
+rev_interest,22.9,2024-25,TRUE,Interest income,
+rev_dividend,403.6,2020-21,FALSE,Dividend tax and rate equivalent income,Preliminary Outcome
+rev_dividend,383.8,2021-22,FALSE,Dividend tax and rate equivalent income,
+rev_dividend,316.1,2022-23,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,286.1,2023-24,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,308.0,2024-25,TRUE,Dividend tax and rate equivalent income,
+rev_other,262.9,2020-21,FALSE,Other revenue,Preliminary Outcome
+rev_other,215.3,2021-22,FALSE,Other revenue,
+rev_other,194.9,2022-23,TRUE,Other revenue,
+rev_other,189.8,2023-24,TRUE,Other revenue,
+rev_other,186.6,2024-25,TRUE,Other revenue,
+exp_total,7264.1,2020-21,FALSE,Expenses from transactions,Preliminary Outcome
+exp_total,7947.2,2021-22,FALSE,Expenses from transactions,
+exp_total,7629.2,2022-23,TRUE,Expenses from transactions,
+exp_total,7737.4,2023-24,TRUE,Expenses from transactions,
+exp_total,7924.5,2024-25,TRUE,Expenses from transactions,
+exp_employee,3036.0,2020-21,FALSE,Employee expenses,Preliminary Outcome
+exp_employee,3202.0,2021-22,FALSE,Employee expenses,
+exp_employee,3244.2,2022-23,TRUE,Employee expenses,
+exp_employee,3400.7,2023-24,TRUE,Employee expenses,
+exp_employee,3550.3,2024-25,TRUE,Employee expenses,
+exp_super,380.3,2020-21,FALSE,Superannuation,Preliminary Outcome
+exp_super,410.3,2021-22,FALSE,Superannuation,
+exp_super,419.1,2022-23,TRUE,Superannuation,
+exp_super,435.1,2023-24,TRUE,Superannuation,
+exp_super,457.4,2024-25,TRUE,Superannuation,
+exp_depreciation,369.3,2020-21,FALSE,Depreciation,Preliminary Outcome
+exp_depreciation,412.5,2021-22,FALSE,Depreciation,
+exp_depreciation,430.4,2022-23,TRUE,Depreciation,
+exp_depreciation,455.0,2023-24,TRUE,Depreciation,
+exp_depreciation,475.6,2024-25,TRUE,Depreciation,
+exp_interest,21.7,2020-21,FALSE,Borrowing costs,Preliminary Outcome
+exp_interest,48.2,2021-22,FALSE,Borrowing costs,
+exp_interest,80.6,2022-23,TRUE,Borrowing costs,
+exp_interest,106.4,2023-24,TRUE,Borrowing costs,
+exp_interest,114.4,2024-25,TRUE,Borrowing costs,
+net_op_balance,-411.5,2020-21,FALSE,NET OPERATING BALANCE,Preliminary Outcome
+net_op_balance,-689.8,2021-22,FALSE,NET OPERATING BALANCE,
+net_op_balance,-86.4,2022-23,TRUE,NET OPERATING BALANCE,
+net_op_balance,39.4,2023-24,TRUE,NET OPERATING BALANCE,
+net_op_balance,126.8,2024-25,TRUE,NET OPERATING BALANCE,
+net_lending,-596.7,2020-21,FALSE,FISCAL BALANCE,Preliminary Outcome
+net_lending,-1041.2,2021-22,FALSE,FISCAL BALANCE,
+net_lending,-501.3,2022-23,TRUE,FISCAL BALANCE,
+net_lending,-478.1,2023-24,TRUE,FISCAL BALANCE,
+net_lending,-315.4,2024-25,TRUE,FISCAL BALANCE,
+cash_surplus,-499.9,2020-21,FALSE,CASH SURPLUS/(DEFICIT),Preliminary Outcome
+cash_surplus,-935.4,2021-22,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-469.9,2022-23,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-321.3,2023-24,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-375.1,2024-25,TRUE,CASH SURPLUS/(DEFICIT),
+net_debt,459.1,2020-21,FALSE,NET DEBT at 30 June,Preliminary Outcome - includes AASB 16 Leases impact
+net_debt,1704.4,2021-22,FALSE,NET DEBT at 30 June,Includes AASB 16 Leases impact
+net_debt,2519.1,2022-23,TRUE,NET DEBT at 30 June,Includes AASB 16 Leases impact
+net_debt,3059.5,2023-24,TRUE,NET DEBT at 30 June,Includes AASB 16 Leases impact
+net_debt,3478.6,2024-25,TRUE,NET DEBT at 30 June,Includes AASB 16 Leases impact
+net_fin_liabilities,10276.0,2020-21,FALSE,NET FINANCIAL LIABILITIES,Preliminary Outcome
+net_fin_liabilities,12445.7,2021-22,FALSE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,13260.1,2022-23,TRUE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,13917.7,2023-24,TRUE,NET FINANCIAL LIABILITIES,
+net_fin_liabilities,14274.2,2024-25,TRUE,NET FINANCIAL LIABILITIES,
+net_worth,9382.8,2020-21,FALSE,NET WORTH,Preliminary Outcome
+net_worth,7927.6,2021-22,FALSE,NET WORTH,
+net_worth,8013.0,2022-23,TRUE,NET WORTH,
+net_worth,8231.4,2023-24,TRUE,NET WORTH,
+net_worth,8718.6,2024-25,TRUE,NET WORTH,
+capex_pnfa,579.7,2020-21,FALSE,Purchases of non-financial assets,Preliminary Outcome
+capex_pnfa,795.8,2021-22,FALSE,Purchases of non-financial assets,
+capex_pnfa,897.8,2022-23,TRUE,Purchases of non-financial assets,
+capex_pnfa,1023.8,2023-24,TRUE,Purchases of non-financial assets,
+capex_pnfa,977.5,2024-25,TRUE,Purchases of non-financial assets,
+econ_gsp_growth,0.3,2019-20,FALSE,Gross state product (real % change),Actual
+econ_gsp_growth,2.0,2020-21,FALSE,Gross state product (real % change),Revised Estimate
+econ_gsp_growth,4.0,2021-22,FALSE,Gross state product (real % change),
+econ_gsp_growth,2.0,2022-23,TRUE,Gross state product (real % change),
+econ_gsp_growth,2.25,2023-24,TRUE,Gross state product (real % change),Projection
+econ_gsp_growth,2.25,2024-25,TRUE,Gross state product (real % change),Projection
+econ_employment,1.4,2019-20,FALSE,Employment (year-average % change),Actual
+econ_employment,1.7,2020-21,FALSE,Employment (year-average % change),Revised Estimate
+econ_employment,2.0,2021-22,FALSE,Employment (year-average % change),
+econ_employment,1.0,2022-23,TRUE,Employment (year-average % change),
+econ_employment,1.0,2023-24,TRUE,Employment (year-average % change),Projection
+econ_employment,1.0,2024-25,TRUE,Employment (year-average % change),Projection
+econ_unemployment,5.9,2019-20,FALSE,Unemployment rate (year-average %),Actual
+econ_unemployment,6.4,2020-21,FALSE,Unemployment rate (year-average %),Actual
+econ_unemployment,5.5,2021-22,FALSE,Unemployment rate (year-average %),
+econ_unemployment,5.5,2022-23,TRUE,Unemployment rate (year-average %),
+econ_unemployment,5.5,2023-24,TRUE,Unemployment rate (year-average %),Projection
+econ_unemployment,5.5,2024-25,TRUE,Unemployment rate (year-average %),Projection
+econ_cpi,2.4,2019-20,FALSE,Consumer Price Index (year-average % change),Actual
+econ_cpi,1.8,2020-21,FALSE,Consumer Price Index (year-average % change),Revised Estimate
+econ_cpi,2.5,2021-22,FALSE,Consumer Price Index (year-average % change),
+econ_cpi,2.0,2022-23,TRUE,Consumer Price Index (year-average % change),
+econ_cpi,2.25,2023-24,TRUE,Consumer Price Index (year-average % change),Projection
+econ_cpi,2.25,2024-25,TRUE,Consumer Price Index (year-average % change),Projection
+econ_population,1.2,2019-20,FALSE,Population (year-average % change),Actual
+econ_population,0.6,2020-21,FALSE,Population (year-average % change),Revised Estimate
+econ_population,0.5,2021-22,FALSE,Population (year-average % change),
+econ_population,0.6,2022-23,TRUE,Population (year-average % change),
+econ_population,0.6,2023-24,TRUE,Population (year-average % change),Projection
+econ_population,0.6,2024-25,TRUE,Population (year-average % change),Projection
+rev_payroll,373.5,2020-21,FALSE,Payroll tax,Preliminary Outcome
+rev_payroll,403.9,2021-22,FALSE,Payroll tax,
+rev_payroll,419.2,2022-23,TRUE,Payroll tax,
+rev_payroll,435.1,2023-24,TRUE,Payroll tax,
+rev_payroll,451.7,2024-25,TRUE,Payroll tax,
+rev_stamp_duty,317.2,2020-21,FALSE,Conveyance duty,Preliminary Outcome
+rev_stamp_duty,378.0,2021-22,FALSE,Conveyance duty,
+rev_stamp_duty,421.7,2022-23,TRUE,Conveyance duty,
+rev_stamp_duty,451.9,2023-24,TRUE,Conveyance duty,
+rev_stamp_duty,484.4,2024-25,TRUE,Conveyance duty,
+rev_land_tax,129.8,2020-21,FALSE,Land tax,Preliminary Outcome
+rev_land_tax,141.7,2021-22,FALSE,Land tax,
+rev_land_tax,148.7,2022-23,TRUE,Land tax,
+rev_land_tax,156.2,2023-24,TRUE,Land tax,
+rev_land_tax,164.0,2024-25,TRUE,Land tax,
+rev_gambling,218.2,2020-21,FALSE,Gambling taxes,Preliminary Outcome - aggregated from components
+rev_gambling,217.8,2021-22,FALSE,Gambling taxes,Aggregated from components
+rev_gambling,221.0,2022-23,TRUE,Gambling taxes,Aggregated from components
+rev_gambling,226.0,2023-24,TRUE,Gambling taxes,Aggregated from components
+rev_gambling,230.9,2024-25,TRUE,Gambling taxes,Aggregated from components
+rev_motor_vehicle,99.6,2020-21,FALSE,Motor tax,Preliminary Outcome
+rev_motor_vehicle,100.5,2021-22,FALSE,Motor tax,
+rev_motor_vehicle,104.5,2022-23,TRUE,Motor tax,
+rev_motor_vehicle,110.5,2023-24,TRUE,Motor tax,
+rev_motor_vehicle,113.9,2024-25,TRUE,Motor tax,
+exp_other_operating,1601.0,2020-21,FALSE,Supplies and consumables,Preliminary Outcome - GGS
+exp_other_operating,1723.8,2021-22,FALSE,Supplies and consumables,GGS
+exp_other_operating,1553.4,2022-23,TRUE,Supplies and consumables,GGS
+exp_other_operating,1574.6,2023-24,TRUE,Supplies and consumables,GGS
+exp_other_operating,1612.9,2024-25,TRUE,Supplies and consumables,GGS
+exp_current_grants,1648.7,2020-21,FALSE,Grant and subsidy expenses,Preliminary Outcome - GGS
+exp_current_grants,1978.8,2021-22,FALSE,Grant and subsidy expenses,GGS
+exp_current_grants,1731.5,2022-23,TRUE,Grant and subsidy expenses,GGS
+exp_current_grants,1598.1,2023-24,TRUE,Grant and subsidy expenses,GGS
+exp_current_grants,1544.8,2024-25,TRUE,Grant and subsidy expenses,GGS
+exp_health,2419.2,2020-21,FALSE,Health expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_health,2585.5,2021-22,FALSE,Health expenses by purpose,COFOG-A classification
+exp_health,2567.0,2022-23,TRUE,Health expenses by purpose,COFOG-A classification
+exp_health,2709.7,2023-24,TRUE,Health expenses by purpose,COFOG-A classification
+exp_health,2875.1,2024-25,TRUE,Health expenses by purpose,COFOG-A classification
+exp_education,1754.3,2020-21,FALSE,Education expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_education,1920.0,2021-22,FALSE,Education expenses by purpose,COFOG-A classification
+exp_education,1981.5,2022-23,TRUE,Education expenses by purpose,COFOG-A classification
+exp_education,2030.5,2023-24,TRUE,Education expenses by purpose,COFOG-A classification
+exp_education,2092.9,2024-25,TRUE,Education expenses by purpose,COFOG-A classification
+exp_public_order,676.9,2020-21,FALSE,Public order and safety expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_public_order,724.3,2021-22,FALSE,Public order and safety expenses by purpose,COFOG-A classification
+exp_public_order,717.4,2022-23,TRUE,Public order and safety expenses by purpose,COFOG-A classification
+exp_public_order,731.0,2023-24,TRUE,Public order and safety expenses by purpose,COFOG-A classification
+exp_public_order,739.4,2024-25,TRUE,Public order and safety expenses by purpose,COFOG-A classification
+exp_transport_comms,306.2,2020-21,FALSE,Transport expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_transport_comms,375.5,2021-22,FALSE,Transport expenses by purpose,COFOG-A classification
+exp_transport_comms,361.1,2022-23,TRUE,Transport expenses by purpose,COFOG-A classification
+exp_transport_comms,355.9,2023-24,TRUE,Transport expenses by purpose,COFOG-A classification
+exp_transport_comms,324.3,2024-25,TRUE,Transport expenses by purpose,COFOG-A classification
+exp_social_security,573.3,2020-21,FALSE,Social protection expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_social_security,562.9,2021-22,FALSE,Social protection expenses by purpose,COFOG-A classification
+exp_social_security,513.4,2022-23,TRUE,Social protection expenses by purpose,COFOG-A classification
+exp_social_security,544.0,2023-24,TRUE,Social protection expenses by purpose,COFOG-A classification
+exp_social_security,553.1,2024-25,TRUE,Social protection expenses by purpose,COFOG-A classification
+exp_general_public,532.4,2020-21,FALSE,General public services expenses by purpose,Preliminary Outcome - COFOG-A classification
+exp_general_public,587.9,2021-22,FALSE,General public services expenses by purpose,COFOG-A classification
+exp_general_public,473.1,2022-23,TRUE,General public services expenses by purpose,COFOG-A classification
+exp_general_public,494.7,2023-24,TRUE,General public services expenses by purpose,COFOG-A classification
+exp_general_public,496.4,2024-25,TRUE,General public services expenses by purpose,COFOG-A classification
+exp_recreation,176.5,2020-21,FALSE,"Recreation, culture and religion expenses by purpose",Preliminary Outcome - COFOG-A classification
+exp_recreation,228.5,2021-22,FALSE,"Recreation, culture and religion expenses by purpose",COFOG-A classification
+exp_recreation,181.1,2022-23,TRUE,"Recreation, culture and religion expenses by purpose",COFOG-A classification
+exp_recreation,157.4,2023-24,TRUE,"Recreation, culture and religion expenses by purpose",COFOG-A classification
+exp_recreation,157.0,2024-25,TRUE,"Recreation, culture and religion expenses by purpose",COFOG-A classification
+net_cap_investment,185.3,2020-21,FALSE,Net acquisition of non-financial assets,Preliminary Outcome
+net_cap_investment,351.4,2021-22,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,414.9,2022-23,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,517.6,2023-24,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,442.1,2024-25,TRUE,Net acquisition of non-financial assets,

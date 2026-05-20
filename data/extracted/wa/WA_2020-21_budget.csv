@@ -1,0 +1,279 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,32162,2019-20,FALSE,Total revenue,
+rev_total,34139,2020-21,FALSE,Total revenue,
+rev_total,31618,2021-22,TRUE,Total revenue,
+rev_total,32466,2022-23,TRUE,Total revenue,
+rev_total,33547,2023-24,TRUE,Total revenue,
+exp_total,30493,2019-20,FALSE,Total expenses,
+exp_total,32935,2020-21,FALSE,Total expenses,
+exp_total,31254,2021-22,TRUE,Total expenses,
+exp_total,31399,2022-23,TRUE,Total expenses,
+exp_total,32073,2023-24,TRUE,Total expenses,
+net_op_balance,1669,2019-20,FALSE,Net Operating Balance,
+net_op_balance,1204,2020-21,FALSE,Net Operating Balance,
+net_op_balance,363,2021-22,TRUE,Net Operating Balance,
+net_op_balance,1067,2022-23,TRUE,Net Operating Balance,
+net_op_balance,1474,2023-24,TRUE,Net Operating Balance,
+net_debt,23758,2019-20,FALSE,Net Debt at 30 June,
+net_debt,25576,2020-21,FALSE,Net Debt at 30 June,
+net_debt,27870,2021-22,TRUE,Net Debt at 30 June,
+net_debt,29235,2022-23,TRUE,Net Debt at 30 June,
+net_debt,29491,2023-24,TRUE,Net Debt at 30 June,
+cash_surplus,2134,2019-20,FALSE,Cash Surplus/Deficit,
+cash_surplus,402,2020-21,FALSE,Cash Surplus/Deficit,
+cash_surplus,-429,2021-22,TRUE,Cash Surplus/Deficit,
+cash_surplus,52,2022-23,TRUE,Cash Surplus/Deficit,
+cash_surplus,762,2023-24,TRUE,Cash Surplus/Deficit,
+net_worth,102438,2019-20,FALSE,Net Worth,
+net_worth,102726,2020-21,FALSE,Net Worth,
+net_worth,103425,2021-22,TRUE,Net Worth,
+net_worth,105701,2022-23,TRUE,Net Worth,
+net_worth,108688,2023-24,TRUE,Net Worth,
+capex_pnfa,2553,2019-20,FALSE,Asset Investment Program,General government sector
+capex_pnfa,3013,2020-21,FALSE,Asset Investment Program,General government sector
+capex_pnfa,2997,2021-22,TRUE,Asset Investment Program,General government sector
+capex_pnfa,2566,2022-23,TRUE,Asset Investment Program,General government sector
+capex_pnfa,2373,2023-24,TRUE,Asset Investment Program,General government sector
+econ_gsp_growth,2.0,2019-20,FALSE,Real Gross State Product growth (%),"Estimated Actual, from Table 1 Key Budget Assumptions"
+econ_gsp_growth,1.25,2020-21,FALSE,Real Gross State Product growth (%),Budget Estimate
+econ_gsp_growth,2.75,2021-22,TRUE,Real Gross State Product growth (%),Forward Estimate
+econ_gsp_growth,1.25,2022-23,TRUE,Real Gross State Product growth (%),Forward Estimate
+econ_gsp_growth,1.5,2023-24,TRUE,Real Gross State Product growth (%),Forward Estimate
+econ_employment,0.3,2019-20,FALSE,Employment growth (%),"Estimated Actual, from Table 1"
+econ_employment,-0.25,2020-21,FALSE,Employment growth (%),Budget Estimate
+econ_employment,2.25,2021-22,TRUE,Employment growth (%),Forward Estimate
+econ_employment,2.0,2022-23,TRUE,Employment growth (%),Forward Estimate
+econ_employment,1.75,2023-24,TRUE,Employment growth (%),Forward Estimate
+econ_unemployment,6.1,2019-20,FALSE,Unemployment rate (%),"Annual average, Estimated Actual"
+econ_unemployment,8.0,2020-21,FALSE,Unemployment rate (%),Annual average Budget Estimate
+econ_unemployment,7.0,2021-22,TRUE,Unemployment rate (%),Annual average Forward Estimate
+econ_unemployment,6.25,2022-23,TRUE,Unemployment rate (%),Annual average Forward Estimate
+econ_unemployment,6.0,2023-24,TRUE,Unemployment rate (%),Annual average Forward Estimate
+econ_cpi,1.3,2019-20,FALSE,Perth Consumer Price Index growth (%),
+econ_cpi,1.5,2020-21,FALSE,Perth Consumer Price Index growth (%),
+econ_cpi,1.75,2021-22,TRUE,Perth Consumer Price Index growth (%),
+econ_cpi,1.75,2022-23,TRUE,Perth Consumer Price Index growth (%),
+econ_cpi,2.0,2023-24,TRUE,Perth Consumer Price Index growth (%),
+econ_wpi,1.7,2019-20,FALSE,Wage Price Index growth (%),
+econ_wpi,1.5,2020-21,FALSE,Wage Price Index growth (%),
+econ_wpi,1.75,2021-22,TRUE,Wage Price Index growth (%),
+econ_wpi,2.0,2022-23,TRUE,Wage Price Index growth (%),
+econ_wpi,2.25,2023-24,TRUE,Wage Price Index growth (%),
+econ_population,1.3,2019-20,FALSE,Population growth (%),
+econ_population,0.8,2020-21,FALSE,Population growth (%),
+econ_population,0.7,2021-22,TRUE,Population growth (%),
+econ_population,1.0,2022-23,TRUE,Population growth (%),
+econ_population,1.3,2023-24,TRUE,Population growth (%),
+exp_total,32935,2020-21,FALSE,Total expenses,
+exp_total,31254,2021-22,TRUE,Total expenses,
+exp_total,31399,2022-23,TRUE,Total expenses,
+exp_total,32073,2023-24,TRUE,Total expenses,
+exp_health,9649,2020-21,FALSE,Health,
+exp_education,5467,2020-21,FALSE,Education,
+exp_public_order,3793,2020-21,FALSE,Community Safety,
+exp_transport_comms,2997,2020-21,FALSE,"Transport, Rail and Roads",
+exp_social_security,2467,2020-21,FALSE,Communities,
+rev_total,34139,2020-21,FALSE,Total revenue,
+rev_total,31618,2021-22,TRUE,Total revenue,
+rev_total,32466,2022-23,TRUE,Total revenue,
+rev_total,33547,2023-24,TRUE,Total revenue,
+rev_total,32162,2019-20,FALSE,Total revenue,
+rev_taxation,8806,2020-21,FALSE,Taxation,
+rev_taxation,9122,2021-22,TRUE,Taxation,
+rev_taxation,9611,2022-23,TRUE,Taxation,
+rev_taxation,9980,2023-24,TRUE,Taxation,
+rev_taxation,9077,2019-20,FALSE,Taxation,
+rev_gst,2322,2020-21,FALSE,GST revenue,
+rev_gst,2554,2021-22,TRUE,GST revenue,
+rev_gst,4849,2022-23,TRUE,GST revenue,
+rev_gst,5091,2023-24,TRUE,GST revenue,
+rev_gst,3466,2019-20,FALSE,GST revenue,
+rev_grants_tied,5642,2020-21,FALSE,Tied grants,
+rev_grants_tied,6159,2021-22,TRUE,Tied grants,
+rev_grants_tied,6097,2022-23,TRUE,Tied grants,
+rev_grants_tied,6613,2023-24,TRUE,Tied grants,
+rev_grants_tied,5091,2019-20,FALSE,Tied grants,
+rev_sales_goods_svcs,2783,2020-21,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3026,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2962,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2959,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2754,2019-20,FALSE,Sales of goods and services,
+rev_interest,100,2020-21,FALSE,Interest income,
+rev_interest,104,2021-22,TRUE,Interest income,
+rev_interest,93,2022-23,TRUE,Interest income,
+rev_interest,93,2023-24,TRUE,Interest income,
+rev_interest,124,2019-20,FALSE,Interest income,
+rev_dividend,3678,2020-21,FALSE,Revenue from public corporations,
+rev_dividend,2093,2021-22,TRUE,Revenue from public corporations,
+rev_dividend,2166,2022-23,TRUE,Revenue from public corporations,
+rev_dividend,2183,2023-24,TRUE,Revenue from public corporations,
+rev_dividend,1123,2019-20,FALSE,Revenue from public corporations,
+rev_other,601,2020-21,FALSE,Other revenue,
+rev_other,596,2021-22,TRUE,Other revenue,
+rev_other,557,2022-23,TRUE,Other revenue,
+rev_other,560,2023-24,TRUE,Other revenue,
+rev_other,614,2019-20,FALSE,Other revenue,
+rev_payroll,3680,2020-21,FALSE,Payroll tax,Estimated from $3,757 minus 2.1% decline
+rev_land_tax,857,2020-21,FALSE,Total land tax,
+rev_land_tax,833,2021-22,TRUE,Total land tax,
+rev_land_tax,820,2022-23,TRUE,Total land tax,Estimated from further 2.7% decline then 3.2% growth in 2023-24
+rev_land_tax,879,2019-20,FALSE,Total land tax,
+econ_gsp_growth,1.25,2020-21,FALSE,GSP growth,Scenario shows 0.0% under second COVID wave
+econ_unemployment,8.0,2020-21,FALSE,Unemployment rate (%),Scenario shows 8.75% under second COVID wave
+exp_health,2000,2020-21,FALSE,Health services for regional Western Australians,"Approximate annual spending on health services for regional WA, stated as 'approximately $2 billion per annum'"
+exp_education,1400,2020-21,FALSE,Education spending in regional WA,"Annual spending to provide education for ~84,000 students in over 330 schools across regional WA, stated as 'an estimated $1.4 billion per annum'"
+rev_total,30367,2018-19,FALSE,Total revenue,Actual
+rev_total,32162,2019-20,FALSE,Total revenue,Actual
+rev_total,34139,2020-21,FALSE,Total revenue,Budget Estimate
+rev_total,31618,2021-22,TRUE,Total revenue,Forward Estimate
+rev_total,32466,2022-23,TRUE,Total revenue,Forward Estimate
+rev_total,33547,2023-24,TRUE,Total revenue,Forward Estimate
+rev_taxation,8616,2018-19,FALSE,Total Taxation,Actual
+rev_taxation,9077,2019-20,FALSE,Total Taxation,Actual
+rev_taxation,8806,2020-21,FALSE,Total Taxation,Budget Estimate
+rev_taxation,9122,2021-22,TRUE,Total Taxation,Forward Estimate
+rev_taxation,9611,2022-23,TRUE,Total Taxation,Forward Estimate
+rev_taxation,9980,2023-24,TRUE,Total Taxation,Forward Estimate
+rev_payroll,3565,2018-19,FALSE,Payroll tax,Actual
+rev_payroll,3642,2019-20,FALSE,Payroll tax,Actual
+rev_payroll,3566,2020-21,FALSE,Payroll tax,Budget Estimate
+rev_payroll,3801,2021-22,TRUE,Payroll tax,Forward Estimate
+rev_payroll,3991,2022-23,TRUE,Payroll tax,Forward Estimate
+rev_payroll,4070,2023-24,TRUE,Payroll tax,Forward Estimate
+rev_stamp_duty,1105,2018-19,FALSE,Total duty on transfers,Actual
+rev_stamp_duty,1329,2019-20,FALSE,Total duty on transfers,Actual
+rev_stamp_duty,1259,2020-21,FALSE,Total duty on transfers,Budget Estimate
+rev_stamp_duty,1218,2021-22,TRUE,Total duty on transfers,Forward Estimate
+rev_stamp_duty,1398,2022-23,TRUE,Total duty on transfers,Forward Estimate
+rev_stamp_duty,1551,2023-24,TRUE,Total duty on transfers,Forward Estimate
+rev_land_tax,807,2018-19,FALSE,Land tax,Actual
+rev_land_tax,792,2019-20,FALSE,Land tax,Actual
+rev_land_tax,770,2020-21,FALSE,Land tax,Budget Estimate
+rev_land_tax,749,2021-22,TRUE,Land tax,Forward Estimate
+rev_land_tax,747,2022-23,TRUE,Land tax,Forward Estimate
+rev_land_tax,771,2023-24,TRUE,Land tax,Forward Estimate
+rev_gambling,294,2018-19,FALSE,Total taxes on gambling,Actual
+rev_gambling,291,2019-20,FALSE,Total taxes on gambling,Actual
+rev_gambling,272,2020-21,FALSE,Total taxes on gambling,Budget Estimate
+rev_gambling,283,2021-22,TRUE,Total taxes on gambling,Forward Estimate
+rev_gambling,300,2022-23,TRUE,Total taxes on gambling,Forward Estimate
+rev_gambling,312,2023-24,TRUE,Total taxes on gambling,Forward Estimate
+rev_motor_vehicle,1367,2018-19,FALSE,Total motor vehicle taxes,Actual
+rev_motor_vehicle,1429,2019-20,FALSE,Total motor vehicle taxes,Actual
+rev_motor_vehicle,1447,2020-21,FALSE,Total motor vehicle taxes,Budget Estimate
+rev_motor_vehicle,1492,2021-22,TRUE,Total motor vehicle taxes,Forward Estimate
+rev_motor_vehicle,1561,2022-23,TRUE,Total motor vehicle taxes,Forward Estimate
+rev_motor_vehicle,1637,2023-24,TRUE,Total motor vehicle taxes,Forward Estimate
+rev_gst,3200,2018-19,FALSE,GST grants,Actual
+rev_gst,3466,2019-20,FALSE,GST grants,Actual
+rev_gst,2322,2020-21,FALSE,GST grants,Budget Estimate
+rev_gst,2554,2021-22,TRUE,GST grants,Forward Estimate
+rev_gst,4849,2022-23,TRUE,GST grants,Forward Estimate
+rev_gst,5091,2023-24,TRUE,GST grants,Forward Estimate
+rev_grants_tied,9444,2018-19,FALSE,Current grants and subsidies (excluding GST and floor),Actual. Calculated as 8588 total current grants minus 3200 GST minus 434 floor
+rev_grants_tied,9379,2019-20,FALSE,Current grants and subsidies (excluding GST and floor),Actual. Calculated as 9379 minus assumed GST/floor components
+rev_grants_tied,5992,2020-21,FALSE,Current grants and subsidies (excluding GST and floor),Budget Estimate. Calculated as 8861 minus 2322 GST minus 1547 floor
+rev_grants_tied,6841,2021-22,TRUE,Current grants and subsidies (excluding GST and floor),Forward Estimate. Calculated as 9444 minus 2554 GST minus 1849 floor  
+rev_grants_tied,5108,2022-23,TRUE,Current grants and subsidies (excluding GST and floor),Forward Estimate. Calculated as 9957 minus 4849 GST
+rev_grants_tied,5951,2023-24,TRUE,Current grants and subsidies (excluding GST and floor),Forward Estimate. Calculated as 11042 minus 5091 GST
+rev_grants_untied,1320,2018-19,FALSE,Commonwealth untied grants (ex-GST),Actual. Calculated as 886 North West Shelf plus 30 crude oil plus 434 70% floor minus GST
+rev_grants_untied,1464,2019-20,FALSE,Commonwealth untied grants (ex-GST),Actual. Calculated as 629 North West Shelf plus 21 crude oil plus 814 70% floor
+rev_grants_untied,1922,2020-21,FALSE,Commonwealth untied grants (ex-GST),Budget Estimate. Calculated as 361 North West Shelf plus 14 crude oil plus 1547 70% floor
+rev_grants_untied,2231,2021-22,TRUE,Commonwealth untied grants (ex-GST),Forward Estimate. Calculated as 367 North West Shelf plus 15 crude oil plus 1849 70% floor
+rev_grants_untied,305,2022-23,TRUE,Commonwealth untied grants (ex-GST),Forward Estimate. Calculated as 293 North West Shelf plus 12 crude oil
+rev_grants_untied,265,2023-24,TRUE,Commonwealth untied grants (ex-GST),Forward Estimate. Calculated as 255 North West Shelf plus 10 crude oil
+rev_sales_goods_svcs,2734,2018-19,FALSE,Sales of goods and services,Actual
+rev_sales_goods_svcs,2754,2019-20,FALSE,Sales of goods and services,Actual
+rev_sales_goods_svcs,2783,2020-21,FALSE,Sales of goods and services,Budget Estimate
+rev_sales_goods_svcs,3026,2021-22,TRUE,Sales of goods and services,Forward Estimate
+rev_sales_goods_svcs,2962,2022-23,TRUE,Sales of goods and services,Forward Estimate
+rev_sales_goods_svcs,2959,2023-24,TRUE,Sales of goods and services,Forward Estimate
+rev_interest,168,2018-19,FALSE,Interest income,Actual
+rev_interest,124,2019-20,FALSE,Interest income,Actual
+rev_interest,100,2020-21,FALSE,Interest income,Budget Estimate
+rev_interest,104,2021-22,TRUE,Interest income,Forward Estimate
+rev_interest,93,2022-23,TRUE,Interest income,Forward Estimate
+rev_interest,93,2023-24,TRUE,Interest income,Forward Estimate
+rev_dividend,1350,2018-19,FALSE,Dividends from other sector entities,Actual
+rev_dividend,392,2019-20,FALSE,Dividends from other sector entities,Actual
+rev_dividend,2776,2020-21,FALSE,Dividends from other sector entities,Budget Estimate
+rev_dividend,1379,2021-22,TRUE,Dividends from other sector entities,Forward Estimate
+rev_dividend,1424,2022-23,TRUE,Dividends from other sector entities,Forward Estimate
+rev_dividend,1402,2023-24,TRUE,Dividends from other sector entities,Forward Estimate
+rev_other,701,2018-19,FALSE,Other,Actual
+rev_other,614,2019-20,FALSE,Other,Actual
+rev_other,601,2020-21,FALSE,Other,Budget Estimate
+rev_other,596,2021-22,TRUE,Other,Forward Estimate
+rev_other,557,2022-23,TRUE,Other,Forward Estimate
+rev_other,560,2023-24,TRUE,Other,Forward Estimate
+exp_total,29050,2018-19,FALSE,Total expenses,Actual
+exp_total,30493,2019-20,FALSE,Total expenses,Actual
+exp_total,32935,2020-21,FALSE,Total expenses,Budget Estimate
+exp_total,31254,2021-22,TRUE,Total expenses,Forward Estimate
+exp_total,31399,2022-23,TRUE,Total expenses,Forward Estimate
+exp_total,32073,2023-24,TRUE,Total expenses,Forward Estimate
+exp_employee,12269,2018-19,FALSE,Salaries,Actual
+exp_employee,12887,2019-20,FALSE,Salaries,Actual
+exp_employee,12997,2020-21,FALSE,Salaries,Budget Estimate
+exp_employee,13118,2021-22,TRUE,Salaries,Forward Estimate
+exp_employee,13487,2022-23,TRUE,Salaries,Forward Estimate
+exp_employee,13968,2023-24,TRUE,Salaries,Forward Estimate
+exp_super,1348,2018-19,FALSE,Total superannuation expenses,Actual. Calculated as 1213 concurrent plus 135 interest cost
+exp_super,1365,2019-20,FALSE,Total superannuation expenses,Actual. Calculated as 1276 concurrent plus 89 interest cost
+exp_super,1364,2020-21,FALSE,Total superannuation expenses,Budget Estimate. Calculated as 1290 concurrent plus 74 interest cost
+exp_super,1440,2021-22,TRUE,Total superannuation expenses,Forward Estimate. Calculated as 1358 concurrent plus 82 interest cost
+exp_super,1549,2022-23,TRUE,Total superannuation expenses,Forward Estimate. Calculated as 1456 concurrent plus 93 interest cost
+exp_super,1674,2023-24,TRUE,Total superannuation expenses,Forward Estimate. Calculated as 1571 concurrent plus 103 interest cost
+exp_depreciation,1718,2018-19,FALSE,Depreciation and amortisation,Actual
+exp_depreciation,1751,2019-20,FALSE,Depreciation and amortisation,Actual
+exp_depreciation,1854,2020-21,FALSE,Depreciation and amortisation,Budget Estimate
+exp_depreciation,1859,2021-22,TRUE,Depreciation and amortisation,Forward Estimate
+exp_depreciation,1858,2022-23,TRUE,Depreciation and amortisation,Forward Estimate
+exp_depreciation,1835,2023-24,TRUE,Depreciation and amortisation,Forward Estimate
+exp_interest,1012,2018-19,FALSE,Total interest expenses,Actual. Calculated as 153 leases plus 859 other
+exp_interest,879,2019-20,FALSE,Total interest expenses,Actual. Calculated as 142 leases plus 737 other
+exp_interest,809,2020-21,FALSE,Total interest expenses,Budget Estimate. Calculated as 145 leases plus 664 other
+exp_interest,788,2021-22,TRUE,Total interest expenses,Forward Estimate. Calculated as 143 leases plus 645 other
+exp_interest,783,2022-23,TRUE,Total interest expenses,Forward Estimate. Calculated as 138 leases plus 645 other
+exp_interest,764,2023-24,TRUE,Total interest expenses,Forward Estimate. Calculated as 130 leases plus 634 other
+exp_other_operating,8291,2018-19,FALSE,Other operating expenses,Actual. Calculated as 380 other employee plus 2528 services plus 5383 other gross operating
+exp_other_operating,8382,2019-20,FALSE,Other operating expenses,Actual. Calculated as 401 other employee plus 2590 services plus 5391 other gross operating
+exp_other_operating,8715,2020-21,FALSE,Other operating expenses,Budget Estimate. Calculated as 360 other employee plus 2632 services plus 5723 other gross operating
+exp_other_operating,8304,2021-22,TRUE,Other operating expenses,Forward Estimate. Calculated as 348 other employee plus 2495 services plus 5461 other gross operating
+exp_other_operating,8397,2022-23,TRUE,Other operating expenses,Forward Estimate. Calculated as 353 other employee plus 2504 services plus 5540 other gross operating
+exp_other_operating,8553,2023-24,TRUE,Other operating expenses,Forward Estimate. Calculated as 357 other employee plus 2523 services plus 5673 other gross operating
+exp_current_grants,3922,2018-19,FALSE,Current transfers,Actual
+exp_current_grants,5003,2019-20,FALSE,Current transfers,Actual
+exp_current_grants,6665,2020-21,FALSE,Current transfers,Budget Estimate
+exp_current_grants,5443,2021-22,TRUE,Current transfers,Forward Estimate
+exp_current_grants,5128,2022-23,TRUE,Current transfers,Forward Estimate
+exp_current_grants,5033,2023-24,TRUE,Current transfers,Forward Estimate
+exp_capital_grants,489,2018-19,FALSE,Capital transfers,Actual
+exp_capital_grants,228,2019-20,FALSE,Capital transfers,Actual
+exp_capital_grants,532,2020-21,FALSE,Capital transfers,Budget Estimate
+exp_capital_grants,301,2021-22,TRUE,Capital transfers,Forward Estimate
+exp_capital_grants,198,2022-23,TRUE,Capital transfers,Forward Estimate
+exp_capital_grants,245,2023-24,TRUE,Capital transfers,Forward Estimate
+exp_health,9013,2018-19,FALSE,Health,Actual
+exp_health,9557,2019-20,FALSE,Health,Actual
+exp_health,9928,2020-21,FALSE,Health,Budget Estimate
+exp_health,9979,2021-22,TRUE,Health,Forward Estimate
+exp_health,10187,2022-23,TRUE,Health,Forward Estimate
+exp_health,10509,2023-24,TRUE,Health,Forward Estimate
+exp_education,7601,2018-19,FALSE,Education,Actual
+exp_education,6536,2019-20,FALSE,Education,Actual
+exp_education,6828,2020-21,FALSE,Education,Budget Estimate
+exp_education,6950,2021-22,TRUE,Education,Forward Estimate
+exp_education,7102,2022-23,TRUE,Education,Forward Estimate
+exp_education,7348,2023-24,TRUE,Education,Forward Estimate
+exp_public_order,3585,2018-19,FALSE,Public order and safety,Actual
+exp_public_order,3826,2019-20,FALSE,Public order and safety,Actual
+exp_public_order,3776,2020-21,FALSE,Public order and safety,Budget Estimate
+exp_public_order,3726,2021-22,TRUE,Public order and safety,Forward Estimate
+exp_public_order,3742,2022-23,TRUE,Public order and safety,Forward Estimate
+exp_public_order,3776,2023-24,
+capex_pnfa,5188.4,2019-20,FALSE,TOTAL (Asset Investment Program),
+capex_pnfa,7549.3,2020-21,FALSE,TOTAL (Asset Investment Program),
+capex_pnfa,7457.7,2021-22,TRUE,TOTAL (Asset Investment Program),
+capex_pnfa,6278.9,2022-23,TRUE,TOTAL (Asset Investment Program),
+capex_pnfa,5767.6,2023-24,TRUE,TOTAL (Asset Investment Program),

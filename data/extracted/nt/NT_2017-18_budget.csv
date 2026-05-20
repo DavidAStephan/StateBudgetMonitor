@@ -1,0 +1,157 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6229,2017-18,FALSE,Total revenue,
+rev_total,6002,2018-19,TRUE,Total revenue,
+rev_total,6166,2019-20,TRUE,Total revenue,
+rev_total,6275,2020-21,TRUE,Total revenue,
+rev_taxation,558,2017-18,FALSE,Taxation revenue,
+rev_taxation,557,2018-19,TRUE,Taxation revenue,
+rev_taxation,576,2019-20,TRUE,Taxation revenue,
+rev_taxation,592,2020-21,TRUE,Taxation revenue,
+rev_gst,2909,2017-18,FALSE,GST revenue,
+rev_gst,3030,2018-19,TRUE,GST revenue,
+rev_gst,3150,2019-20,TRUE,GST revenue,
+rev_gst,3302,2020-21,TRUE,GST revenue,
+rev_grants_tied,978,2017-18,FALSE,Current grants,
+rev_grants_tied,853,2018-19,TRUE,Current grants,
+rev_grants_tied,877,2019-20,TRUE,Current grants,
+rev_grants_tied,823,2020-21,TRUE,Current grants,
+rev_sales_goods_svcs,1022,2017-18,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,1120,2018-19,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1177,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1205,2020-21,TRUE,Sales of goods and services,
+rev_interest,65,2017-18,FALSE,Interest income,
+rev_interest,67,2018-19,TRUE,Interest income,
+rev_interest,69,2019-20,TRUE,Interest income,
+rev_interest,71,2020-21,TRUE,Interest income,
+rev_dividend,19,2017-18,FALSE,Dividend and tax-equivalent income,
+rev_dividend,18,2018-19,TRUE,Dividend and tax-equivalent income,
+rev_dividend,23,2019-20,TRUE,Dividend and tax-equivalent income,
+rev_dividend,21,2020-21,TRUE,Dividend and tax-equivalent income,
+rev_other,80,2017-18,FALSE,Other revenue,Mining royalties included
+rev_other,67,2018-19,TRUE,Other revenue,Mining royalties included
+rev_other,66,2019-20,TRUE,Other revenue,Mining royalties included
+rev_other,71,2020-21,TRUE,Other revenue,Mining royalties included
+exp_total,6730,2017-18,FALSE,Total expenses,
+exp_total,6505,2018-19,TRUE,Total expenses,
+exp_total,6724,2019-20,TRUE,Total expenses,
+exp_total,6821,2020-21,TRUE,Total expenses,
+exp_employee,2384,2017-18,FALSE,Employee expenses,
+exp_employee,2380,2018-19,TRUE,Employee expenses,
+exp_employee,2434,2019-20,TRUE,Employee expenses,
+exp_employee,2485,2020-21,TRUE,Employee expenses,
+exp_super,355,2017-18,FALSE,Superannuation expenses,
+exp_super,355,2018-19,TRUE,Superannuation expenses,
+exp_super,357,2019-20,TRUE,Superannuation expenses,
+exp_super,354,2020-21,TRUE,Superannuation expenses,
+exp_depreciation,541,2017-18,FALSE,Depreciation and amortisation,
+exp_depreciation,544,2018-19,TRUE,Depreciation and amortisation,
+exp_depreciation,547,2019-20,TRUE,Depreciation and amortisation,
+exp_depreciation,550,2020-21,TRUE,Depreciation and amortisation,
+exp_interest,289,2017-18,FALSE,Interest expenses,
+exp_interest,325,2018-19,TRUE,Interest expenses,
+exp_interest,365,2019-20,TRUE,Interest expenses,
+exp_interest,393,2020-21,TRUE,Interest expenses,
+exp_other_operating,2004,2017-18,FALSE,Other operating expenses,
+exp_other_operating,1884,2018-19,TRUE,Other operating expenses,
+exp_other_operating,1973,2019-20,TRUE,Other operating expenses,
+exp_other_operating,2019,2020-21,TRUE,Other operating expenses,
+exp_current_grants,906,2017-18,FALSE,Current grants and subsidies,
+exp_current_grants,839,2018-19,TRUE,Current grants and subsidies,
+exp_current_grants,872,2019-20,TRUE,Current grants and subsidies,
+exp_current_grants,847,2020-21,TRUE,Current grants and subsidies,
+exp_capital_grants,104,2017-18,FALSE,Capital grants,
+exp_capital_grants,28,2018-19,TRUE,Capital grants,
+exp_capital_grants,22,2019-20,TRUE,Capital grants,
+exp_capital_grants,17,2020-21,TRUE,Capital grants,
+net_op_balance,-503,2017-18,FALSE,Net operating balance,
+net_op_balance,-509,2018-19,TRUE,Net operating balance,
+net_op_balance,-561,2019-20,TRUE,Net operating balance,
+net_op_balance,-556,2020-21,TRUE,Net operating balance,
+net_cap_investment,1291,2017-18,FALSE,Net capital investment,
+net_cap_investment,880,2018-19,TRUE,Net capital investment,
+net_cap_investment,580,2019-20,TRUE,Net capital investment,
+net_cap_investment,552,2020-21,TRUE,Net capital investment,
+net_lending,-1312,2017-18,FALSE,Net lending / (borrowing),Non financial public sector fiscal balance
+net_lending,-859,2018-19,TRUE,Net lending / (borrowing),Non financial public sector fiscal balance
+net_lending,-611,2019-20,TRUE,Net lending / (borrowing),Non financial public sector fiscal balance
+net_lending,-572,2020-21,TRUE,Net lending / (borrowing),Non financial public sector fiscal balance
+net_debt,3604,2017-18,FALSE,Net debt,Non financial public sector
+net_debt,4404,2018-19,TRUE,Net debt,Non financial public sector
+net_debt,4939,2019-20,TRUE,Net debt,Non financial public sector
+net_debt,5479,2020-21,TRUE,Net debt,Non financial public sector
+capex_pnfa,373,2017-18,FALSE,Capital grants,Total capital from revenue table
+capex_pnfa,115,2018-19,TRUE,Capital grants,Total capital from revenue table
+capex_pnfa,53,2019-20,TRUE,Capital grants,Total capital from revenue table
+capex_pnfa,15,2020-21,TRUE,Capital grants,Total capital from revenue table
+econ_gsp_growth,1.0,2017-18,FALSE,Gross state product,
+econ_gsp_growth,5.1,2018-19,TRUE,Gross state product,
+econ_gsp_growth,2.0,2019-20,TRUE,Gross state product,
+econ_gsp_growth,2.1,2020-21,TRUE,Gross state product,
+econ_employment,0.5,2017-18,FALSE,Employment growth (%),
+econ_employment,0.6,2018-19,TRUE,Employment growth (%),
+econ_employment,0.8,2019-20,TRUE,Employment growth (%),
+econ_employment,1.2,2020-21,TRUE,Employment growth (%),
+econ_unemployment,4.0,2017-18,FALSE,Unemployment rate (%),
+econ_unemployment,4.2,2018-19,TRUE,Unemployment rate (%),
+econ_unemployment,4.3,2019-20,TRUE,Unemployment rate (%),
+econ_unemployment,4.3,2020-21,TRUE,Unemployment rate (%),
+econ_cpi,0.4,2017-18,FALSE,Consumer Price Index growth (%),
+econ_cpi,1.3,2018-19,TRUE,Consumer Price Index growth (%),
+econ_cpi,1.9,2019-20,TRUE,Consumer Price Index growth (%),
+econ_cpi,2.4,2020-21,TRUE,Consumer Price Index growth (%),
+econ_wpi,1.9,2017-18,FALSE,Wage Price Index growth (%),
+econ_wpi,2.0,2018-19,TRUE,Wage Price Index growth (%),
+econ_wpi,2.3,2019-20,TRUE,Wage Price Index growth (%),
+econ_wpi,2.6,2020-21,TRUE,Wage Price Index growth (%),
+econ_population,-0.3,2017-18,FALSE,Population growth (%),
+econ_population,0.3,2018-19,TRUE,Population growth (%),
+econ_population,0.8,2019-20,TRUE,Population growth (%),
+econ_population,1.2,2020-21,TRUE,Population growth (%),
+rev_grants_untied,3,2016-17,FALSE,Grants in lieu of uranium royalties,General revenue assistance
+rev_grants_untied,3,2017-18,FALSE,Grants in lieu of uranium royalties,General revenue assistance
+capex_infra_program,1255,2017-18,FALSE,Total capital investment,General government sector
+capex_infra_program,841,2018-19,TRUE,Total capital investment,General government sector
+capex_infra_program,514,2019-20,TRUE,Total capital investment,General government sector
+net_worth,10027.536,2016-17,FALSE,Net worth,General government sector
+net_worth,9776.148,2017-18,FALSE,Net worth,General government sector
+net_worth,9525.653,2018-19,TRUE,Net worth,General government sector
+net_worth,9217.493,2019-20,TRUE,Net worth,General government sector
+net_worth,8914.050,2020-21,TRUE,Net worth,General government sector
+net_fin_liabilities,6544.339,2016-17,FALSE,Net financial liabilities,General government sector
+net_fin_liabilities,7505.123,2017-18,FALSE,Net financial liabilities,General government sector
+net_fin_liabilities,8139.828,2018-19,TRUE,Net financial liabilities,General government sector
+net_fin_liabilities,8519.253,2019-20,TRUE,Net financial liabilities,General government sector
+net_fin_liabilities,8861.730,2020-21,TRUE,Net financial liabilities,General government sector
+cash_surplus,-455.732,2016-17,FALSE,Cash surplus / (deficit),General government sector
+cash_surplus,-1179.096,2017-18,FALSE,Cash surplus / (deficit),General government sector
+cash_surplus,-851.512,2018-19,TRUE,Cash surplus / (deficit),General government sector
+cash_surplus,-599.025,2019-20,TRUE,Cash surplus / (deficit),General government sector
+cash_surplus,-602.636,2020-21,TRUE,Cash surplus / (deficit),General government sector
+rev_payroll,301.187,2016-17,FALSE,Payroll taxes,General government sector
+rev_payroll,260.030,2017-18,FALSE,Payroll taxes,General government sector
+rev_stamp_duty,106.914,2016-17,FALSE,Stamp duties on financial and capital transactions,General government sector
+rev_stamp_duty,103.532,2017-18,FALSE,Stamp duties on financial and capital transactions,General government sector
+rev_gambling,72.721,2016-17,FALSE,Taxes on gambling,General government sector
+rev_gambling,78.016,2017-18,FALSE,Taxes on gambling,General government sector
+rev_motor_vehicle,69.544,2016-17,FALSE,Motor vehicle registration fees,General government sector
+rev_motor_vehicle,76.713,2017-18,FALSE,Motor vehicle registration fees,General government sector
+rev_other_tax,38.485,2016-17,FALSE,Taxes on insurance,General government sector; includes insurance duty
+rev_other_tax,39.255,2017-18,FALSE,Taxes on insurance,General government sector; includes insurance duty
+rev_grants_tied,4239.787,2016-17,FALSE,Current grants,General government sector
+rev_grants_tied,3886.959,2017-18,FALSE,Current grants,General government sector
+exp_health,1473,2016-17,FALSE,Expenses on health,General government sector operating expenses by function
+exp_health,1490,2017-18,FALSE,Expenses on health,General government sector operating expenses by function
+exp_education,1184,2016-17,FALSE,Expenses on education,General government sector operating expenses by function
+exp_education,1187,2017-18,FALSE,Expenses on education,General government sector operating expenses by function
+exp_public_order,742,2016-17,FALSE,Expenses on public order and safety,General government sector operating expenses by function
+exp_public_order,757,2017-18,FALSE,Expenses on public order and safety,General government sector operating expenses by function
+exp_transport_comms,229,2016-17,FALSE,Expenses on transport,General government sector operating expenses by function
+exp_transport_comms,229,2017-18,FALSE,Expenses on transport,General government sector operating expenses by function
+exp_social_security,532,2016-17,FALSE,Expenses on social protection,General government sector operating expenses by function
+exp_social_security,597,2017-18,FALSE,Expenses on social protection,General government sector operating expenses by function
+exp_general_public,485,2016-17,FALSE,Expenses on general public services,General government sector operating expenses by function
+exp_general_public,492,2017-18,FALSE,Expenses on general public services,General government sector operating expenses by function
+exp_recreation,169,2016-17,FALSE,Expenses on recreation culture and religion,General government sector operating expenses by function
+exp_recreation,171,2017-18,FALSE,Expenses on recreation culture and religion,General government sector operating expenses by function
+exp_other_function,1086,2016-17,FALSE,Other expenses,Sum of economic affairs housing environmental protection; general government sector
+exp_other_function,1186,2017-18,FALSE,Other expenses,Sum of economic affairs housing environmental protection; general government sector

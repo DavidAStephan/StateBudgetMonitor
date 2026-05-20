@@ -1,0 +1,105 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6788,2015-16,FALSE,Total revenue,
+rev_total,6547,2016-17,FALSE,Total revenue,
+rev_total,6477,2017-18,TRUE,Total revenue,
+rev_total,6466,2018-19,TRUE,Total revenue,
+rev_total,6768,2019-20,TRUE,Total revenue,
+rev_taxation,602,2015-16,FALSE,Taxation revenue,
+rev_taxation,577,2016-17,FALSE,Taxation revenue,
+rev_taxation,596,2017-18,TRUE,Taxation revenue,
+rev_taxation,612,2018-19,TRUE,Taxation revenue,
+rev_taxation,629,2019-20,TRUE,Taxation revenue,
+rev_payroll,280,2015-16,FALSE,Payroll tax,
+rev_payroll,284,2016-17,FALSE,Payroll tax,
+rev_stamp_duty,138,2015-16,FALSE,Conveyance and related duty,
+rev_stamp_duty,104,2016-17,FALSE,Conveyance and related duty,
+rev_gambling,74,2015-16,FALSE,Taxes on gambling,
+rev_gambling,76,2016-17,FALSE,Taxes on gambling,
+rev_motor_vehicle,69,2015-16,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,71,2016-17,FALSE,Motor vehicle taxes,
+rev_gst,3274,2015-16,FALSE,GST revenue,
+rev_gst,3263,2016-17,FALSE,GST revenue,
+rev_gst,3306,2017-18,TRUE,GST revenue,
+rev_gst,3474,2018-19,TRUE,GST revenue,
+rev_gst,3698,2019-20,TRUE,GST revenue,
+rev_grants_tied,1094,2015-16,FALSE,Current grants,
+rev_grants_tied,975,2016-17,FALSE,Current grants,
+rev_grants_tied,961,2017-18,TRUE,Current grants,
+rev_grants_tied,871,2018-19,TRUE,Current grants,
+rev_grants_tied,904,2019-20,TRUE,Current grants,
+rev_sales_goods_svcs,1100,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,1044,2016-17,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,1111,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1165,2018-19,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1209,2019-20,TRUE,Sales of goods and services,
+rev_interest,92,2015-16,FALSE,Interest income,
+rev_interest,88,2016-17,FALSE,Interest income,
+rev_interest,90,2017-18,TRUE,Interest income,
+rev_interest,92,2018-19,TRUE,Interest income,
+rev_interest,94,2019-20,TRUE,Interest income,
+rev_dividend,20,2015-16,FALSE,Dividend and income tax equivalent income,
+rev_dividend,12,2016-17,FALSE,Dividend and income tax equivalent income,
+rev_dividend,10,2017-18,TRUE,Dividend and income tax equivalent income,
+rev_dividend,7,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_dividend,7,2019-20,TRUE,Dividend and income tax equivalent income,
+exp_total,6497,2015-16,FALSE,Total expenses,
+exp_total,6461,2016-17,FALSE,Total expenses,
+exp_total,6491,2017-18,TRUE,Total expenses,
+exp_total,6531,2018-19,TRUE,Total expenses,
+exp_total,6739,2019-20,TRUE,Total expenses,
+exp_employee,2227,2015-16,FALSE,Employee expenses,
+exp_employee,2274,2016-17,FALSE,Employee expenses,
+exp_employee,2320,2017-18,TRUE,Employee expenses,
+exp_employee,2353,2018-19,TRUE,Employee expenses,
+exp_employee,2424,2019-20,TRUE,Employee expenses,
+exp_super,355,2015-16,FALSE,Superannuation expenses,
+exp_super,351,2016-17,FALSE,Superannuation expenses,
+exp_super,349,2017-18,TRUE,Superannuation expenses,
+exp_super,349,2018-19,TRUE,Superannuation expenses,
+exp_super,351,2019-20,TRUE,Superannuation expenses,
+exp_depreciation,504,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,521,2016-17,FALSE,Depreciation and amortisation,
+exp_depreciation,530,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,532,2018-19,TRUE,Depreciation and amortisation,
+exp_depreciation,537,2019-20,TRUE,Depreciation and amortisation,
+exp_interest,296,2015-16,FALSE,Interest expenses,
+exp_interest,276,2016-17,FALSE,Interest expenses,
+exp_interest,284,2017-18,TRUE,Interest expenses,
+exp_interest,295,2018-19,TRUE,Interest expenses,
+exp_interest,302,2019-20,TRUE,Interest expenses,
+exp_other_operating,1984,2015-16,FALSE,Other operating expenses,
+exp_other_operating,1944,2016-17,FALSE,Other operating expenses,
+exp_other_operating,2010,2017-18,TRUE,Other operating expenses,
+exp_other_operating,2072,2018-19,TRUE,Other operating expenses,
+exp_other_operating,2106,2019-20,TRUE,Other operating expenses,
+exp_current_grants,856,2015-16,FALSE,Current grants,
+exp_current_grants,865,2016-17,FALSE,Current grants,
+exp_current_grants,840,2017-18,TRUE,Current grants,
+exp_current_grants,785,2018-19,TRUE,Current grants,
+exp_current_grants,862,2019-20,TRUE,Current grants,
+exp_capital_grants,144,2015-16,FALSE,Capital grants,
+exp_capital_grants,98,2016-17,FALSE,Capital grants,
+exp_capital_grants,21,2017-18,TRUE,Capital grants,
+exp_capital_grants,2,2018-19,TRUE,Capital grants,
+exp_capital_grants,13,2019-20,TRUE,Capital grants,
+net_op_balance,242,2015-16,FALSE,Net operating balance,General Government Sector
+net_op_balance,70,2016-17,FALSE,Net operating balance,General Government Sector
+net_op_balance,-19,2017-18,TRUE,Net operating balance,General Government Sector
+net_op_balance,-56,2018-19,TRUE,Net operating balance,General Government Sector
+net_op_balance,23,2019-20,TRUE,Net operating balance,General Government Sector
+net_cap_investment,994,2015-16,FALSE,Net capital,Non Financial Public Sector
+net_cap_investment,1375,2016-17,FALSE,Net capital,Non Financial Public Sector
+net_cap_investment,905,2017-18,TRUE,Net capital,Non Financial Public Sector
+net_cap_investment,590,2018-19,TRUE,Net capital,Non Financial Public Sector
+net_cap_investment,527,2019-20,TRUE,Net capital,Non Financial Public Sector
+net_lending,-153,2015-16,FALSE,Fiscal balance,Non Financial Public Sector
+net_lending,-794,2016-17,FALSE,Fiscal balance,Non Financial Public Sector
+net_lending,-413,2017-18,TRUE,Fiscal balance,Non Financial Public Sector
+net_lending,-148,2018-19,TRUE,Fiscal balance,Non Financial Public Sector
+net_lending,12,2019-20,TRUE,Fiscal balance,Non Financial Public Sector
+net_debt,1971,2015-16,FALSE,Net debt,Non Financial Public Sector
+net_debt,2707,2016-17,FALSE,Net debt,Non Financial Public Sector
+net_debt,3048,2017-18,TRUE,Net debt,Non Financial Public Sector
+net_debt,3137,2018-19,TRUE,Net debt,Non Financial Public Sector
+net_debt,3101,2019-20,TRUE,Net debt,Non Financial Public Sector
+capex_pnfa,1375,2016-17,FALSE,Net capital investment,Non Financial Public Sector

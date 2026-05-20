@@ -1,0 +1,158 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6035.8,2017-18,FALSE,Revenue from transactions,Estimated Outcome
+rev_total,6217.3,2018-19,FALSE,Revenue from transactions,
+rev_total,6249.2,2019-20,TRUE,Revenue from transactions,
+rev_total,6353.1,2020-21,TRUE,Revenue from transactions,
+rev_total,6556.5,2021-22,TRUE,Revenue from transactions,
+rev_taxation,1161.1,2017-18,FALSE,Taxation,Estimated Outcome
+rev_taxation,1215.2,2018-19,FALSE,Taxation,
+rev_taxation,1247.8,2019-20,TRUE,Taxation,
+rev_taxation,1274.0,2020-21,TRUE,Taxation,
+rev_taxation,1301.2,2021-22,TRUE,Taxation,
+rev_gst,3802.0,2017-18,FALSE,Grants,Estimated Outcome - includes GST and other grants
+rev_gst,3893.9,2018-19,FALSE,Grants,Includes GST and other grants
+rev_gst,3911.9,2019-20,TRUE,Grants,Includes GST and other grants
+rev_gst,4009.4,2020-21,TRUE,Grants,Includes GST and other grants
+rev_gst,4187.2,2021-22,TRUE,Grants,Includes GST and other grants
+rev_sales_goods_svcs,406.4,2017-18,FALSE,Sales of goods and services,Estimated Outcome
+rev_sales_goods_svcs,417.6,2018-19,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,422.6,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,429.3,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,435.7,2021-22,TRUE,Sales of goods and services,
+rev_interest,22.4,2017-18,FALSE,Interest income,Estimated Outcome
+rev_interest,17.8,2018-19,FALSE,Interest income,
+rev_interest,13.3,2019-20,TRUE,Interest income,
+rev_interest,12.1,2020-21,TRUE,Interest income,
+rev_interest,12.5,2021-22,TRUE,Interest income,
+rev_dividend,376.5,2017-18,FALSE,Dividend tax and rate equivalent income,Estimated Outcome
+rev_dividend,409.7,2018-19,FALSE,Dividend tax and rate equivalent income,
+rev_dividend,391.6,2019-20,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,369.9,2020-21,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,368.9,2021-22,TRUE,Dividend tax and rate equivalent income,
+rev_other,168.4,2017-18,FALSE,Other revenue,Estimated Outcome
+rev_other,164.6,2018-19,FALSE,Other revenue,
+rev_other,162.3,2019-20,TRUE,Other revenue,
+rev_other,157.3,2020-21,TRUE,Other revenue,
+rev_other,149.2,2021-22,TRUE,Other revenue,
+exp_total,5960.5,2017-18,FALSE,Expenses from transactions,Estimated Outcome
+exp_total,6055.4,2018-19,FALSE,Expenses from transactions,
+exp_total,6135.5,2019-20,TRUE,Expenses from transactions,
+exp_total,6204.8,2020-21,TRUE,Expenses from transactions,
+exp_total,6360.0,2021-22,TRUE,Expenses from transactions,
+exp_employee,2513.8,2017-18,FALSE,Employee expenses,Estimated Outcome
+exp_employee,2531.5,2018-19,FALSE,Employee expenses,
+exp_employee,2588.7,2019-20,TRUE,Employee expenses,
+exp_employee,2658.5,2020-21,TRUE,Employee expenses,
+exp_employee,2735.6,2021-22,TRUE,Employee expenses,
+exp_super,318.4,2017-18,FALSE,Superannuation,Estimated Outcome
+exp_super,294.1,2018-19,FALSE,Superannuation,
+exp_super,297.4,2019-20,TRUE,Superannuation,
+exp_super,299.0,2020-21,TRUE,Superannuation,
+exp_super,302.6,2021-22,TRUE,Superannuation,
+exp_depreciation,267.7,2017-18,FALSE,Depreciation,Estimated Outcome
+exp_depreciation,264.1,2018-19,FALSE,Depreciation,
+exp_depreciation,322.7,2019-20,TRUE,Depreciation,
+exp_depreciation,337.8,2020-21,TRUE,Depreciation,
+exp_depreciation,348.2,2021-22,TRUE,Depreciation,
+exp_interest,9.7,2017-18,FALSE,Borrowing costs,Estimated Outcome
+exp_interest,9.5,2018-19,FALSE,Borrowing costs,
+exp_interest,9.1,2019-20,TRUE,Borrowing costs,
+exp_interest,8.8,2020-21,TRUE,Borrowing costs,
+exp_interest,8.3,2021-22,TRUE,Borrowing costs,
+net_op_balance,75.3,2017-18,FALSE,NET OPERATING BALANCE,Estimated Outcome
+net_op_balance,161.9,2018-19,FALSE,NET OPERATING BALANCE,
+net_op_balance,113.7,2019-20,TRUE,NET OPERATING BALANCE,
+net_op_balance,148.3,2020-21,TRUE,NET OPERATING BALANCE,
+net_op_balance,196.4,2021-22,TRUE,NET OPERATING BALANCE,
+net_cap_investment,216.0,2017-18,FALSE,Net acquisition of non-financial assets,Estimated Outcome
+net_cap_investment,446.5,2018-19,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,366.1,2019-20,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,143.0,2020-21,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,143.6,2021-22,TRUE,Net acquisition of non-financial assets,
+net_lending,-140.7,2017-18,FALSE,FISCAL BALANCE,Estimated Outcome
+net_lending,-284.6,2018-19,FALSE,FISCAL BALANCE,
+net_lending,-252.4,2019-20,TRUE,FISCAL BALANCE,
+net_lending,5.3,2020-21,TRUE,FISCAL BALANCE,
+net_lending,52.9,2021-22,TRUE,FISCAL BALANCE,
+net_debt,-622.4,2018,FALSE,NET DEBT,Estimated Outcome at 30 June
+net_debt,-329.6,2019,FALSE,NET DEBT,At 30 June
+net_debt,-23.3,2020,TRUE,NET DEBT,At 30 June
+net_debt,-14.8,2021,TRUE,NET DEBT,At 30 June
+net_debt,-51.6,2022,TRUE,NET DEBT,At 30 June
+net_worth,11244.9,2018,FALSE,NET WORTH,Estimated Outcome at 30 June
+net_worth,11593.3,2019,FALSE,NET WORTH,At 30 June
+net_worth,11971.0,2020,TRUE,NET WORTH,At 30 June
+net_worth,12419.8,2021,TRUE,NET WORTH,At 30 June
+net_worth,12949.3,2022,TRUE,NET WORTH,At 30 June
+net_fin_liabilities,6192.7,2018,FALSE,NET FINANCIAL LIABILITIES,Estimated Outcome at 30 June
+net_fin_liabilities,6553.4,2019,FALSE,NET FINANCIAL LIABILITIES,At 30 June
+net_fin_liabilities,6867.2,2020,TRUE,NET FINANCIAL LIABILITIES,At 30 June
+net_fin_liabilities,6906.8,2021,TRUE,NET FINANCIAL LIABILITIES,At 30 June
+net_fin_liabilities,6905.5,2022,TRUE,NET FINANCIAL LIABILITIES,At 30 June
+capex_pnfa,514.7,2017-18,FALSE,Purchases of non-financial assets,Estimated Outcome
+capex_pnfa,741.0,2018-19,FALSE,Purchases of non-financial assets,
+capex_pnfa,719.6,2019-20,TRUE,Purchases of non-financial assets,
+capex_pnfa,532.4,2020-21,TRUE,Purchases of non-financial assets,
+capex_pnfa,523.8,2021-22,TRUE,Purchases of non-financial assets,
+econ_gsp_growth,3.5,2017-18,FALSE,Gross State Product (real % change),Estimate
+econ_gsp_growth,2.25,2018-19,FALSE,Gross State Product (real % change),Forecast
+econ_gsp_growth,2.0,2019-20,TRUE,Gross State Product (real % change),Projection
+econ_gsp_growth,2.0,2020-21,TRUE,Gross State Product (real % change),Projection
+econ_gsp_growth,2.0,2021-22,TRUE,Gross State Product (real % change),Projection
+econ_employment,2.25,2017-18,FALSE,Employment (year-average % change),Estimate
+econ_employment,0.5,2018-19,FALSE,Employment (year-average % change),Forecast
+econ_employment,1.0,2019-20,TRUE,Employment (year-average % change),Projection
+econ_employment,1.0,2020-21,TRUE,Employment (year-average % change),Projection
+econ_employment,1.0,2021-22,TRUE,Employment (year-average % change),Projection
+econ_unemployment,6.0,2017-18,FALSE,Unemployment Rate (year-average %),Estimate
+econ_unemployment,6.0,2018-19,FALSE,Unemployment Rate (year-average %),Forecast
+econ_unemployment,6.0,2019-20,TRUE,Unemployment Rate (year-average %),Projection
+econ_unemployment,6.0,2020-21,TRUE,Unemployment Rate (year-average %),Projection
+econ_unemployment,6.0,2021-22,TRUE,Unemployment Rate (year-average %),Projection
+econ_cpi,2.0,2017-18,FALSE,Consumer Price Index (year-average % change),Estimate
+econ_cpi,2.25,2018-19,FALSE,Consumer Price Index (year-average % change),Forecast
+econ_cpi,2.25,2019-20,TRUE,Consumer Price Index (year-average % change),Projection
+econ_cpi,2.25,2020-21,TRUE,Consumer Price Index (year-average % change),Projection
+econ_cpi,2.25,2021-22,TRUE,Consumer Price Index (year-average % change),Projection
+econ_population,0.7,2017-18,FALSE,Population (year-average % change),Estimate
+econ_population,0.7,2018-19,FALSE,Population (year-average % change),Forecast
+econ_population,0.6,2019-20,TRUE,Population (year-average % change),Projection
+econ_population,0.6,2020-21,TRUE,Population (year-average % change),Projection
+econ_population,0.6,2021-22,TRUE,Population (year-average % change),Projection
+exp_current_grants,1351.3,2017-18,FALSE,Grant and subsidy expenses,Estimated Outcome
+exp_current_grants,1393.1,2018-19,FALSE,Grant and subsidy expenses,
+exp_current_grants,1376.8,2019-20,TRUE,Grant and subsidy expenses,
+exp_current_grants,1322.5,2020-21,TRUE,Grant and subsidy expenses,
+exp_current_grants,1323.0,2021-22,TRUE,Grant and subsidy expenses,
+exp_other_operating,1211.4,2017-18,FALSE,Supplies and consumables,Estimated Outcome
+exp_other_operating,1232.7,2018-19,FALSE,Supplies and consumables,
+exp_other_operating,1231.5,2019-20,TRUE,Supplies and consumables,
+exp_other_operating,1264.4,2020-21,TRUE,Supplies and consumables,
+exp_other_operating,1324.2,2021-22,TRUE,Supplies and consumables,
+cash_surplus,-18.4,2017-18,FALSE,CASH SURPLUS/(DEFICIT),Estimated Outcome
+cash_surplus,-195.7,2018-19,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-222.6,2019-20,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,62.1,2020-21,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,114.1,2021-22,TRUE,CASH SURPLUS/(DEFICIT),
+capex_infra_program,535.9,2017-18,FALSE,Total infrastructure expenditure,Estimated Outcome
+capex_infra_program,752.4,2018-19,FALSE,Allocated infrastructure expenditure,
+capex_infra_program,671.6,2019-20,TRUE,Allocated infrastructure expenditure,
+capex_infra_program,478.6,2020-21,TRUE,Allocated infrastructure expenditure,
+capex_infra_program,476.1,2021-22,TRUE,Allocated infrastructure expenditure,
+capex_infra_program,731.6,2019-20,TRUE,Total infrastructure expenditure,Includes estimated future Australian Government roads funding provision
+capex_infra_program,538.6,2020-21,TRUE,Total infrastructure expenditure,Includes estimated future Australian Government roads funding provision
+capex_infra_program,536.1,2021-22,TRUE,Total infrastructure expenditure,Includes estimated future Australian Government roads funding provision
+rev_total,4785.3,2017-18,FALSE,Total receipts - Consolidated Fund,Estimated Outcome
+rev_gst,2424.8,2017-18,FALSE,General Purpose Payments - Consolidated Fund,Estimated Outcome
+rev_grants_tied,544.9,2017-18,FALSE,Specific Purpose Payments - Consolidated Fund,Estimated Outcome
+rev_taxation,1036.3,2017-18,FALSE,Taxation - Consolidated Fund State sources,Estimated Outcome
+rev_dividend,387.0,2017-18,FALSE,Receipts from government businesses - Consolidated Fund,Estimated Outcome
+exp_total,4820.0,2017-18,FALSE,Total Expenditure - Consolidated Fund,Estimated Outcome
+cash_surplus,-34.6,2017-18,FALSE,CONSOLIDATED FUND SURPLUS/(DEFICIT),Estimated Outcome
+cash_surplus,87.2,2017-18,FALSE,CONSOLIDATED FUND SURPLUS/(DEFICIT),March YTD Actual - 9 months
+net_op_balance,72.6,2017-18,FALSE,NET OPERATING BALANCE,March YTD Actual - 9 months to 31 March 2018
+net_lending,25.6,2017-18,FALSE,FISCAL BALANCE,March YTD Actual - 9 months to 31 March 2018
+cash_surplus,111.4,2017-18,FALSE,CASH SURPLUS/(DEFICIT),March YTD Actual - 9 months to 31 March 2018
+net_debt,-858.4,2018,FALSE,NET DEBT,March YTD Actual at 31 March 2018
+net_worth,9976.1,2018,FALSE,NET WORTH,March YTD Actual at 31 March 2018
+net_fin_liabilities,7105.1,2018,FALSE,NET FINANCIAL LIABILITIES,March YTD Actual at 31 March 2018

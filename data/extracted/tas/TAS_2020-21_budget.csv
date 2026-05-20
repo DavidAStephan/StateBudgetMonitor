@@ -1,0 +1,176 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6413.9,2019-20,FALSE,Total Revenue from transactions,
+rev_total,6428.1,2020-21,FALSE,Total Revenue from transactions,
+rev_total,6812.4,2021-22,TRUE,Total Revenue from transactions,
+rev_total,7094.6,2022-23,TRUE,Total Revenue from transactions,
+rev_total,7335.2,2023-24,TRUE,Total Revenue from transactions,
+rev_taxation,1271.0,2019-20,FALSE,Taxation,
+rev_taxation,1220.6,2020-21,FALSE,Taxation,
+rev_taxation,1297.1,2021-22,TRUE,Taxation,
+rev_taxation,1338.8,2022-23,TRUE,Taxation,
+rev_taxation,1375.3,2023-24,TRUE,Taxation,
+rev_gst,2301.7,2019-20,FALSE,GST revenue,From Chapter 5 Table 5.1
+rev_gst,2375.6,2020-21,FALSE,GST revenue,From Chapter 5 Table 5.1
+rev_gst,2672.3,2021-22,TRUE,GST revenue,From Chapter 5 Table 5.1
+rev_gst,2852.0,2022-23,TRUE,GST revenue,From Chapter 5 Table 5.1
+rev_gst,3030.5,2023-24,TRUE,GST revenue,From Chapter 5 Table 5.1
+rev_sales_goods_svcs,382.8,2019-20,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,433.4,2020-21,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,459.2,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,468.0,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,475.4,2023-24,TRUE,Sales of goods and services,
+rev_interest,9.8,2019-20,FALSE,Interest income,
+rev_interest,14.9,2020-21,FALSE,Interest income,
+rev_interest,15.4,2021-22,TRUE,Interest income,
+rev_interest,16.8,2022-23,TRUE,Interest income,
+rev_interest,11.9,2023-24,TRUE,Interest income,
+rev_dividend,541.9,2019-20,FALSE,Dividend tax and rate equivalent income,
+rev_dividend,413.1,2020-21,FALSE,Dividend tax and rate equivalent income,
+rev_dividend,348.2,2021-22,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,296.0,2022-23,TRUE,Dividend tax and rate equivalent income,
+rev_dividend,257.4,2023-24,TRUE,Dividend tax and rate equivalent income,
+rev_other,216.9,2019-20,FALSE,Other revenue,
+rev_other,177.9,2020-21,FALSE,Other revenue,
+rev_other,172.8,2021-22,TRUE,Other revenue,
+rev_other,177.0,2022-23,TRUE,Other revenue,
+rev_other,175.4,2023-24,TRUE,Other revenue,
+exp_total,6751.6,2019-20,FALSE,Total Expenses from transactions,
+exp_total,7546.1,2020-21,FALSE,Total Expenses from transactions,
+exp_total,7093.9,2021-22,TRUE,Total Expenses from transactions,
+exp_total,7080.7,2022-23,TRUE,Total Expenses from transactions,
+exp_total,7318.0,2023-24,TRUE,Total Expenses from transactions,
+exp_employee,2916.4,2019-20,FALSE,Employee expenses,
+exp_employee,3051.7,2020-21,FALSE,Employee expenses,
+exp_employee,3124.2,2021-22,TRUE,Employee expenses,
+exp_employee,3151.3,2022-23,TRUE,Employee expenses,
+exp_employee,3259.6,2023-24,TRUE,Employee expenses,
+exp_super,389.4,2019-20,FALSE,Superannuation,
+exp_super,373.8,2020-21,FALSE,Superannuation,
+exp_super,390.7,2021-22,TRUE,Superannuation,
+exp_super,378.4,2022-23,TRUE,Superannuation,
+exp_super,379.2,2023-24,TRUE,Superannuation,
+exp_depreciation,361.1,2019-20,FALSE,Depreciation,
+exp_depreciation,388.1,2020-21,FALSE,Depreciation,
+exp_depreciation,415.3,2021-22,TRUE,Depreciation,
+exp_depreciation,430.7,2022-23,TRUE,Depreciation,
+exp_depreciation,446.2,2023-24,TRUE,Depreciation,
+exp_interest,9.3,2020-21,FALSE,Borrowing costs,2019-20 actual
+exp_interest,29.3,2020-21,FALSE,Borrowing costs,
+exp_interest,53.1,2021-22,TRUE,Borrowing costs,
+exp_interest,62.8,2022-23,TRUE,Borrowing costs,
+exp_interest,70.2,2023-24,TRUE,Borrowing costs,
+net_op_balance,-337.7,2019-20,FALSE,NET OPERATING BALANCE,
+net_op_balance,-1118.0,2020-21,FALSE,NET OPERATING BALANCE,
+net_op_balance,-281.5,2021-22,TRUE,NET OPERATING BALANCE,
+net_op_balance,13.9,2022-23,TRUE,NET OPERATING BALANCE,
+net_op_balance,17.2,2023-24,TRUE,NET OPERATING BALANCE,
+net_cap_investment,89.3,2019-20,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,661.7,2020-21,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,464.4,2021-22,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,352.2,2022-23,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,455.1,2023-24,TRUE,Net acquisition of non-financial assets,
+net_lending,-426.9,2019-20,FALSE,FISCAL BALANCE,
+net_lending,-1779.7,2020-21,FALSE,FISCAL BALANCE,
+net_lending,-745.9,2021-22,TRUE,FISCAL BALANCE,
+net_lending,-338.3,2022-23,TRUE,FISCAL BALANCE,
+net_lending,-437.9,2023-24,TRUE,FISCAL BALANCE,
+cash_surplus,-271.5,2019-20,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-1845.8,2020-21,FALSE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-797.8,2021-22,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-428.1,2022-23,TRUE,CASH SURPLUS/(DEFICIT),
+cash_surplus,-528.1,2023-24,TRUE,CASH SURPLUS/(DEFICIT),
+net_debt,-175.5,2019-20,FALSE,NET DEBT,As at 30 June
+net_debt,1854.8,2020-21,FALSE,NET DEBT,As at 30 June
+net_debt,2854.4,2021-22,TRUE,NET DEBT,As at 30 June
+net_debt,3729.1,2022-23,TRUE,NET DEBT,As at 30 June
+net_debt,4380.5,2023-24,TRUE,NET DEBT,As at 30 June
+net_fin_liabilities,10871.4,2019-20,FALSE,NET FINANCIAL LIABILITIES,As at 30 June
+net_fin_liabilities,13881.0,2020-21,FALSE,NET FINANCIAL LIABILITIES,As at 30 June
+net_fin_liabilities,14754.2,2021-22,TRUE,NET FINANCIAL LIABILITIES,As at 30 June
+net_fin_liabilities,15485.7,2022-23,TRUE,NET FINANCIAL LIABILITIES,As at 30 June
+net_fin_liabilities,16017.2,2023-24,TRUE,NET FINANCIAL LIABILITIES,As at 30 June
+net_worth,7862.8,2019-20,FALSE,NET WORTH,As at 30 June
+net_worth,6012.7,2020-21,FALSE,NET WORTH,As at 30 June
+net_worth,5958.4,2021-22,TRUE,NET WORTH,As at 30 June
+net_worth,6214.7,2022-23,TRUE,NET WORTH,As at 30 June
+net_worth,6594.5,2023-24,TRUE,NET WORTH,As at 30 June
+capex_pnfa,508.7,2019-20,FALSE,Purchases of non-financial assets,
+capex_pnfa,1085.5,2020-21,FALSE,Purchases of non-financial assets,
+capex_pnfa,922.9,2021-22,TRUE,Purchases of non-financial assets,
+capex_pnfa,819.0,2022-23,TRUE,Purchases of non-financial assets,
+capex_pnfa,936.8,2023-24,TRUE,Purchases of non-financial assets,
+econ_gsp_growth,-0.5,2019-20,FALSE,Gross State Product (real % change),Chapter 2 Table 2.1
+econ_gsp_growth,-1.5,2020-21,FALSE,Gross State Product (real % change),Chapter 2 Table 2.1
+econ_gsp_growth,3.75,2021-22,TRUE,Gross State Product (real % change),Chapter 2 Table 2.1
+econ_employment,1.3,2019-20,FALSE,Employment (year-average % change),Chapter 2 Table 2.1
+econ_employment,-1.75,2020-21,FALSE,Employment (year-average % change),Chapter 2 Table 2.1
+econ_employment,-1.0,2021-22,TRUE,Employment (year-average % change),Chapter 2 Table 2.1
+econ_unemployment,5.9,2019-20,FALSE,Unemployment rate (year-average %),Chapter 2 Table 2.1
+econ_unemployment,8.5,2020-21,FALSE,Unemployment rate (year-average %),Chapter 2 Table 2.1
+econ_unemployment,8.25,2021-22,TRUE,Unemployment rate (year-average %),Chapter 2 Table 2.1
+econ_cpi,2.4,2019-20,FALSE,Consumer Price Index growth (%),Chapter 2 Table 2.1
+econ_cpi,1.7,2020-21,FALSE,Consumer Price Index growth (%),Chapter 2 Table 2.1
+econ_cpi,1.2,2021-22,TRUE,Consumer Price Index growth (%),Chapter 2 Table 2.1
+econ_population,1.0,2019-20,FALSE,Population growth (%),Chapter 2 Table 2.1
+econ_population,0.5,2020-21,FALSE,Population growth (%),Chapter 2 Table 2.1
+econ_population,0.6,2021-22,TRUE,Population growth (%),Chapter 2 Table 2.1
+rev_grants,3898.7,2019-20,FALSE,Total Grants,From Chapter 5 Table 5.2
+rev_grants,4066.1,2020-21,FALSE,Total Grants,From Chapter 5 Table 5.2
+rev_grants,4411.7,2021-22,TRUE,Total Grants,From Chapter 5 Table 5.2
+rev_grants,4688.6,2022-23,TRUE,Total Grants,From Chapter 5 Table 5.2
+rev_grants,4929.1,2023-24,TRUE,Total Grants,From Chapter 5 Table 5.2
+rev_grants_tied,1422.8,2019-20,FALSE,Total Payments for Specific Purposes,From Chapter 5 Table 5.2
+rev_grants_tied,1805.1,2020-21,FALSE,Total Payments for Specific Purposes,From Chapter 5 Table 5.2
+rev_grants_tied,1683.3,2021-22,TRUE,Total Payments for Specific Purposes,From Chapter 5 Table 5.2
+rev_grants_tied,1823.8,2022-23,TRUE,Total Payments for Specific Purposes,From Chapter 5 Table 5.2
+rev_grants_tied,1923.7,2023-24,TRUE,Total Payments for Specific Purposes,From Chapter 5 Table 5.2
+rev_grants_untied,2401.9,2019-20,FALSE,GST Revenue,From Chapter 5 Table 5.2
+rev_grants_untied,2212.3,2020-21,FALSE,GST Revenue,From Chapter 5 Table 5.2
+rev_grants_untied,2678.7,2021-22,TRUE,GST Revenue,From Chapter 5 Table 5.2
+rev_grants_untied,2821.2,2022-23,TRUE,GST Revenue,From Chapter 5 Table 5.2
+rev_grants_untied,2968.1,2023-24,TRUE,GST Revenue,From Chapter 5 Table 5.2
+rev_payroll,343.4,2019-20,FALSE,Payroll tax,From Chapter 5 Table 5.5
+rev_payroll,351.9,2020-21,FALSE,Payroll tax,From Chapter 5 Table 5.5
+rev_payroll,374.8,2021-22,TRUE,Payroll tax,From Chapter 5 Table 5.5
+rev_payroll,384.6,2022-23,TRUE,Payroll tax,From Chapter 5 Table 5.5
+rev_payroll,398.0,2023-24,TRUE,Payroll tax,From Chapter 5 Table 5.5
+rev_stamp_duty,314.2,2019-20,FALSE,Conveyance duty,From Chapter 5 Table 5.5
+rev_stamp_duty,268.7,2020-21,FALSE,Conveyance duty,From Chapter 5 Table 5.5
+rev_stamp_duty,269.6,2021-22,TRUE,Conveyance duty,From Chapter 5 Table 5.5
+rev_stamp_duty,284.1,2022-23,TRUE,Conveyance duty,From Chapter 5 Table 5.5
+rev_stamp_duty,289.7,2023-24,TRUE,Conveyance duty,From Chapter 5 Table 5.5
+rev_land_tax,124.9,2019-20,FALSE,Land tax,From Chapter 5 Table 5.5
+rev_land_tax,116.7,2020-21,FALSE,Land tax,From Chapter 5 Table 5.5
+rev_land_tax,150.8,2021-22,TRUE,Land tax,From Chapter 5 Table 5.5
+rev_land_tax,156.5,2022-23,TRUE,Land tax,From Chapter 5 Table 5.5
+rev_land_tax,162.4,2023-24,TRUE,Land tax,From Chapter 5 Table 5.5
+rev_gambling,52.5,2019-20,FALSE,Gambling taxes total,From Chapter 5 Table 5.5 - sum of gambling components
+rev_gambling,99.8,2020-21,FALSE,Gambling taxes total,From Chapter 5 Table 5.5 - sum of gambling components
+rev_gambling,105.2,2021-22,TRUE,Gambling taxes total,From Chapter 5 Table 5.5 - sum of gambling components
+rev_gambling,105.7,2022-23,TRUE,Gambling taxes total,From Chapter 5 Table 5.5 - sum of gambling components
+rev_gambling,106.1,2023-24,TRUE,Gambling taxes total,From Chapter 5 Table 5.5 - sum of gambling components
+rev_motor_vehicle,157.2,2019-20,FALSE,Motor vehicle fees and taxes total,From Chapter 5 Table 5.5 - sum of motor vehicle components
+rev_motor_vehicle,145.9,2020-21,FALSE,Motor vehicle fees and taxes total,From Chapter 5 Table 5.5 - sum of motor vehicle components
+rev_motor_vehicle,152.5,2021-22,TRUE,Motor vehicle fees and taxes total,From Chapter 5 Table 5.5 - sum of motor vehicle components
+rev_motor_vehicle,155.7,2022-23,TRUE,Motor vehicle fees and taxes total,From Chapter 5 Table 5.5 - sum of motor vehicle components
+rev_motor_vehicle,159.3,2023-24,TRUE,Motor vehicle fees and taxes total,From Chapter 5 Table 5.5 - sum of motor vehicle components
+rev_other_tax,109.8,2019-20,FALSE,Other state taxation,From Chapter 5 Table 5.5 - calculated as residual
+rev_other_tax,138.3,2020-21,FALSE,Other state taxation,From Chapter 5 Table 5.5 - calculated as residual
+rev_other_tax,142.4,2021-22,TRUE,Other state taxation,From Chapter 5 Table 5.5 - calculated as residual
+rev_other_tax,145.7,2022-23,TRUE,Other state taxation,From Chapter 5 Table 5.5 - calculated as residual
+rev_other_tax,148.9,2023-24,TRUE,Other state taxation,From Chapter 5 Table 5.5 - calculated as residual
+exp_current_grants,1537.6,2019-20,FALSE,Grant and subsidy expenses,From Chapter 4 Table 4.1
+exp_current_grants,1771.0,2020-21,FALSE,Grant and subsidy expenses,From Chapter 4 Table 4.1
+exp_current_grants,1597.6,2021-22,TRUE,Grant and subsidy expenses,From Chapter 4 Table 4.1
+exp_current_grants,1544.9,2022-23,TRUE,Grant and subsidy expenses,From Chapter 4 Table 4.1
+exp_current_grants,1565.4,2023-24,TRUE,Grant and subsidy expenses,From Chapter 4 Table 4.1
+exp_other_operating,1289.1,2019-20,FALSE,Supplies and consumables,From Chapter 4 Table 4.1
+exp_other_operating,1731.8,2020-21,FALSE,Supplies and consumables,From Chapter 4 Table 4.1
+exp_other_operating,1386.3,2021-22,TRUE,Supplies and consumables,From Chapter 4 Table 4.1
+exp_other_operating,1387.0,2022-23,TRUE,Supplies and consumables,From Chapter 4 Table 4.1
+exp_other_operating,1474.7,2023-24,TRUE,Supplies and consumables,From Chapter 4 Table 4.1
+capex_infra_program,521.8,2019-20,FALSE,Total infrastructure expenditure,From Chapter 6 Table 6.1
+capex_infra_program,1073.4,2020-21,FALSE,Total infrastructure expenditure,From Chapter 6 Table 6.1
+capex_infra_program,959.4,2021-22,TRUE,Total infrastructure expenditure,From Chapter 6 Table 6.1
+capex_infra_program,863.2,2022-23,TRUE,Total infrastructure expenditure,From Chapter 6 Table 6.1
+capex_infra_program,998.4,2023-24,TRUE,Total infrastructure expenditure,From Chapter 6 Table 6.1

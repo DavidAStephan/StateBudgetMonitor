@@ -1,0 +1,331 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,25718,2012-13,FALSE,Revenue,
+rev_total,27970,2013-14,FALSE,Revenue,
+rev_total,28683,2014-15,FALSE,Revenue,
+rev_total,29901,2015-16,TRUE,Revenue,
+rev_total,31159,2016-17,TRUE,Revenue,
+rev_total,32162,2017-18,TRUE,Revenue,
+exp_total,25468,2012-13,FALSE,Expenses,
+exp_total,27787,2013-14,FALSE,Expenses,
+exp_total,28508,2014-15,FALSE,Expenses,
+exp_total,29896,2015-16,TRUE,Expenses,
+exp_total,31109,2016-17,TRUE,Expenses,
+exp_total,31879,2017-18,TRUE,Expenses,
+net_op_balance,249,2012-13,FALSE,Net Operating Balance,
+net_op_balance,183,2013-14,FALSE,Net Operating Balance,
+net_op_balance,175,2014-15,FALSE,Net Operating Balance,
+net_op_balance,5,2015-16,TRUE,Net Operating Balance,
+net_op_balance,50,2016-17,TRUE,Net Operating Balance,
+net_op_balance,283,2017-18,TRUE,Net Operating Balance,
+net_debt,4742,2012-13,FALSE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+net_debt,7426,2013-14,FALSE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+net_debt,9953,2014-15,FALSE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+net_debt,11350,2015-16,TRUE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+net_debt,12553,2016-17,TRUE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+net_debt,13297,2017-18,TRUE,Memorandum Item: Net Debt,Table 2 shows net debt at year end
+capex_pnfa,3195,2012-13,FALSE,Asset Investment Program,
+capex_pnfa,3168,2013-14,FALSE,Asset Investment Program,
+capex_pnfa,3169,2014-15,FALSE,Asset Investment Program,
+capex_pnfa,2241,2015-16,TRUE,Asset Investment Program,
+capex_pnfa,2302,2016-17,TRUE,Asset Investment Program,
+capex_pnfa,2208,2017-18,TRUE,Asset Investment Program,
+cash_surplus,1077,2012-13,FALSE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+cash_surplus,1230,2013-14,FALSE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+cash_surplus,1256,2014-15,FALSE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+cash_surplus,1201,2015-16,TRUE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+cash_surplus,1436,2016-17,TRUE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+cash_surplus,1765,2017-18,TRUE,Net Cash Flows from Operating Activities,This is operating cash flow not cash surplus
+rev_total,28683,2014-15,FALSE,Total,Table 1 page 89
+rev_total,29901,2015-16,TRUE,Total,Table 1 page 89
+rev_total,31159,2016-17,TRUE,Total,Table 1 page 89
+rev_total,32162,2017-18,TRUE,Total,Table 1 page 89
+rev_taxation,9346,2014-15,FALSE,Taxation,Table 1 page 89
+rev_taxation,9841,2015-16,TRUE,Taxation,Table 1 page 89
+rev_taxation,10475,2016-17,TRUE,Taxation,Table 1 page 89
+rev_taxation,11220,2017-18,TRUE,Taxation,Table 1 page 89
+rev_payroll,3834,2014-15,FALSE,Payroll tax,Table 9 page 97
+rev_payroll,4147,2015-16,TRUE,Payroll tax,Table 9 page 97
+rev_payroll,4488,2016-17,TRUE,Payroll tax,Table 9 page 97
+rev_payroll,4859,2017-18,TRUE,Payroll tax,Table 9 page 97
+rev_stamp_duty,1823,2014-15,FALSE,Transfer duty,Table 9 page 97
+rev_stamp_duty,1749,2015-16,TRUE,Transfer duty,Table 9 page 97
+rev_stamp_duty,1764,2016-17,TRUE,Transfer duty,Table 9 page 97
+rev_stamp_duty,1826,2017-18,TRUE,Transfer duty,Table 9 page 97
+rev_land_tax,755,2014-15,FALSE,Land tax,Table 9 page 97
+rev_land_tax,830,2015-16,TRUE,Land tax,Table 9 page 97
+rev_land_tax,913,2016-17,TRUE,Land tax,Table 9 page 97
+rev_land_tax,1014,2017-18,TRUE,Land tax,Table 9 page 97
+rev_gambling,322,2014-15,FALSE,Total,Table 9 page 97
+rev_gambling,334,2015-16,TRUE,Total,Table 9 page 97
+rev_gambling,347,2016-17,TRUE,Total,Table 9 page 97
+rev_gambling,361,2017-18,TRUE,Total,Table 9 page 97
+rev_motor_vehicle,1336,2014-15,FALSE,Total,Table 9 page 97
+rev_motor_vehicle,1433,2015-16,TRUE,Total,Table 9 page 97
+rev_motor_vehicle,1531,2016-17,TRUE,Total,Table 9 page 97
+rev_motor_vehicle,1636,2017-18,TRUE,Total,Table 9 page 97
+rev_gst,2215,2014-15,FALSE,GST revenue grants,Table 1 page 89
+rev_gst,1616,2015-16,TRUE,GST revenue grants,Table 1 page 89
+rev_gst,1118,2016-17,TRUE,GST revenue grants,Table 1 page 89
+rev_gst,799,2017-18,TRUE,GST revenue grants,Table 1 page 89
+rev_sales_goods_svcs,2356,2014-15,FALSE,Sales of goods and services,Table 1 page 89
+rev_sales_goods_svcs,2542,2015-16,TRUE,Sales of goods and services,Table 1 page 89
+rev_sales_goods_svcs,2660,2016-17,TRUE,Sales of goods and services,Table 1 page 89
+rev_sales_goods_svcs,2792,2017-18,TRUE,Sales of goods and services,Table 1 page 89
+rev_interest,210,2014-15,FALSE,Interest income,Table 1 page 89
+rev_interest,240,2015-16,TRUE,Interest income,Table 1 page 89
+rev_interest,269,2016-17,TRUE,Interest income,Table 1 page 89
+rev_interest,272,2017-18,TRUE,Interest income,Table 1 page 89
+rev_dividend,1468,2014-15,FALSE,Revenue from public corporations,Table 1 page 89
+rev_dividend,1551,2015-16,TRUE,Revenue from public corporations,Table 1 page 89
+rev_dividend,1656,2016-17,TRUE,Revenue from public corporations,Table 1 page 89
+rev_dividend,1691,2017-18,TRUE,Revenue from public corporations,Table 1 page 89
+net_debt,24918,2014-15,FALSE,Net Debt,Table 5 page 58
+net_debt,26190,2015-16,TRUE,Net Debt,Table 5 page 58
+net_debt,27556,2016-17,TRUE,Net Debt,Table 5 page 58
+net_debt,29378,2017-18,TRUE,Net Debt,Table 5 page 58
+rev_total,27780,2013-14,FALSE,"Total revenue","Estimated Actual"
+rev_total,28508,2014-15,FALSE,"Total revenue","Budget Estimate"
+rev_taxation,7146,2013-14,FALSE,"Taxation revenue","Estimated Actual"
+rev_taxation,7461,2014-15,FALSE,"Taxation revenue","Budget Estimate"
+rev_payroll,2639,2013-14,FALSE,"Payroll tax","Estimated Actual"
+rev_payroll,2836,2014-15,FALSE,"Payroll tax","Budget Estimate"
+rev_stamp_duty,1651,2013-14,FALSE,"Stamp duties","Estimated Actual"
+rev_stamp_duty,1600,2014-15,FALSE,"Stamp duties","Budget Estimate"
+rev_land_tax,810,2013-14,FALSE,"Land tax","Estimated Actual"
+rev_land_tax,863,2014-15,FALSE,"Land tax","Budget Estimate"
+rev_gambling,341,2013-14,FALSE,"Gambling taxes","Estimated Actual"
+rev_gambling,358,2014-15,FALSE,"Gambling taxes","Budget Estimate"
+rev_motor_vehicle,678,2013-14,FALSE,"Motor vehicle taxes","Estimated Actual"
+rev_motor_vehicle,699,2014-15,FALSE,"Motor vehicle taxes","Budget Estimate"
+rev_other_tax,1027,2013-14,FALSE,"Other taxation revenue","Estimated Actual"
+rev_other_tax,1105,2014-15,FALSE,"Other taxation revenue","Budget Estimate"
+rev_gst,5281,2013-14,FALSE,"GST revenue","Estimated Actual"
+rev_gst,5348,2014-15,FALSE,"GST revenue","Budget Estimate"
+rev_grants_tied,3399,2013-14,FALSE,"Commonwealth tied grants","Estimated Actual"
+rev_grants_tied,3432,2014-15,FALSE,"Commonwealth tied grants","Budget Estimate"
+rev_sales_goods_svcs,2285,2013-14,FALSE,"Sales of goods and services","Estimated Actual"
+rev_sales_goods_svcs,2374,2014-15,FALSE,"Sales of goods and services","Budget Estimate"
+rev_interest,212,2013-14,FALSE,"Interest income","Estimated Actual"
+rev_interest,210,2014-15,FALSE,"Interest income","Budget Estimate"
+rev_dividend,850,2013-14,FALSE,"Dividend and tax-equivalent income","Estimated Actual. Dividends only. Tax equivalent on p117."
+rev_dividend,938,2014-15,FALSE,"Dividend and tax-equivalent income","Budget Estimate. Dividends only. Tax equivalent on p117."
+rev_other,6176,2013-14,FALSE,"Royalty income","Estimated Actual from Table 17 p112"
+rev_other,6176,2014-15,FALSE,"Royalty income","Budget Estimate from Table 17 p112"
+exp_total,27780,2013-14,FALSE,"Total expenses","Estimated Actual"
+exp_total,28508,2014-15,FALSE,"Total expenses","Budget Estimate"
+exp_health,7562,2013-14,FALSE,"Expenses on health","Estimated Actual. WA Health p129"
+exp_health,8009,2014-15,FALSE,"Expenses on health","Budget Estimate. Sum of WA Health changes p129 and 7562"
+exp_education,4388,2013-14,FALSE,"Expenses on education","Estimated Actual. Education p135"
+exp_education,4576,2014-15,FALSE,"Expenses on education","Budget Estimate. Sum of Education changes p135 and 4388"
+exp_public_order,2667,2013-14,FALSE,"Expenses on public order and safety","Estimated Actual. WA Police p141"
+exp_public_order,2750,2014-15,FALSE,"Expenses on public order and safety","Budget Estimate. Sum of WA Police changes p141 and 2667"
+capex_pnfa,7100,2013-14,FALSE,"Purchases of non-financial assets","Estimated Actual. Approximate from p166"
+capex_pnfa,6728,2014-15,FALSE,"Purchases of non-financial assets","Budget Estimate from Figure 1 p166"
+rev_total,28683,2014-15,FALSE,Total Revenue,
+rev_total,29901,2015-16,TRUE,Total Revenue,
+rev_total,31159,2016-17,TRUE,Total Revenue,
+rev_total,32162,2017-18,TRUE,Total Revenue,
+rev_taxation,9346,2014-15,FALSE,Taxation,
+rev_taxation,9841,2015-16,TRUE,Taxation,
+rev_taxation,10475,2016-17,TRUE,Taxation,
+rev_taxation,11220,2017-18,TRUE,Taxation,
+rev_gst,8006,2014-15,FALSE,Current grants and subsidies,Includes GST revenue
+rev_gst,7767,2015-16,TRUE,Current grants and subsidies,Includes GST revenue
+rev_gst,7689,2016-17,TRUE,Current grants and subsidies,Includes GST revenue
+rev_gst,7563,2017-18,TRUE,Current grants and subsidies,Includes GST revenue
+rev_sales_goods_svcs,2356,2014-15,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2542,2015-16,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2660,2016-17,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2792,2017-18,TRUE,Sales of goods and services,
+rev_interest,210,2014-15,FALSE,Interest income,
+rev_interest,240,2015-16,TRUE,Interest income,
+rev_interest,269,2016-17,TRUE,Interest income,
+rev_interest,272,2017-18,TRUE,Interest income,
+rev_dividend,938,2014-15,FALSE,Dividends from other sector entities,
+rev_dividend,990,2015-16,TRUE,Dividends from other sector entities,
+rev_dividend,1060,2016-17,TRUE,Dividends from other sector entities,
+rev_dividend,1077,2017-18,TRUE,Dividends from other sector entities,
+rev_other,444,2014-15,FALSE,Other,Revenue other category
+rev_other,485,2015-16,TRUE,Other,Revenue other category
+rev_other,442,2016-17,TRUE,Other,Revenue other category
+rev_other,395,2017-18,TRUE,Other,Revenue other category
+exp_total,28508,2014-15,FALSE,Total Expenses,
+exp_total,29896,2015-16,TRUE,Total Expenses,
+exp_total,31109,2016-17,TRUE,Total Expenses,
+exp_total,31879,2017-18,TRUE,Total Expenses,
+exp_employee,11345,2014-15,FALSE,Salaries,
+exp_employee,11773,2015-16,TRUE,Salaries,
+exp_employee,12273,2016-17,TRUE,Salaries,
+exp_employee,12498,2017-18,TRUE,Salaries,
+exp_super,1472,2014-15,FALSE,Superannuation expenses,Concurrent costs plus interest cost
+exp_super,1580,2015-16,TRUE,Superannuation expenses,Concurrent costs plus interest cost
+exp_super,1698,2016-17,TRUE,Superannuation expenses,Concurrent costs plus interest cost
+exp_super,1790,2017-18,TRUE,Superannuation expenses,Concurrent costs plus interest cost
+exp_depreciation,1289,2014-15,FALSE,Depreciation and amortisation,
+exp_depreciation,1395,2015-16,TRUE,Depreciation and amortisation,
+exp_depreciation,1442,2016-17,TRUE,Depreciation and amortisation,
+exp_depreciation,1447,2017-18,TRUE,Depreciation and amortisation,
+exp_interest,538,2014-15,FALSE,Other interest,
+exp_interest,652,2015-16,TRUE,Other interest,
+exp_interest,801,2016-17,TRUE,Other interest,
+exp_interest,897,2017-18,TRUE,Other interest,
+exp_other_operating,7845,2014-15,FALSE,Other operating expenses,Services contracts plus other gross operating
+exp_other_operating,7901,2015-16,TRUE,Other operating expenses,Services contracts plus other gross operating
+exp_other_operating,8296,2016-17,TRUE,Other operating expenses,Services contracts plus other gross operating
+exp_other_operating,8561,2017-18,TRUE,Other operating expenses,Services contracts plus other gross operating
+exp_current_grants,5454,2014-15,FALSE,Current transfers,
+exp_current_grants,5754,2015-16,TRUE,Current transfers,
+exp_current_grants,6108,2016-17,TRUE,Current transfers,
+exp_current_grants,6121,2017-18,TRUE,Current transfers,
+exp_capital_grants,565,2014-15,FALSE,Capital transfers,
+exp_capital_grants,641,2015-16,TRUE,Capital transfers,
+exp_capital_grants,454,2016-17,TRUE,Capital transfers,
+exp_capital_grants,440,2017-18,TRUE,Capital transfers,
+net_op_balance,175,2014-15,FALSE,NET OPERATING BALANCE,
+net_op_balance,5,2015-16,TRUE,NET OPERATING BALANCE,
+net_op_balance,50,2016-17,TRUE,NET OPERATING BALANCE,
+net_op_balance,283,2017-18,TRUE,NET OPERATING BALANCE,
+capex_pnfa,3169,2014-15,FALSE,Purchase of non-financial assets,
+capex_pnfa,2241,2015-16,TRUE,Purchase of non-financial assets,
+capex_pnfa,2302,2016-17,TRUE,Purchase of non-financial assets,
+capex_pnfa,2208,2017-18,TRUE,Purchase of non-financial assets,
+net_lending,-1629,2014-15,FALSE,NET LENDING/-BORROWING,
+net_lending,-427,2015-16,TRUE,NET LENDING/-BORROWING,
+net_lending,-578,2016-17,TRUE,NET LENDING/-BORROWING,
+net_lending,-356,2017-18,TRUE,NET LENDING/-BORROWING,
+cash_surplus,-1622,2014-15,FALSE,Cash surplus/-deficit,
+cash_surplus,-737,2015-16,TRUE,Cash surplus/-deficit,
+cash_surplus,-633,2016-17,TRUE,Cash surplus/-deficit,
+cash_surplus,-321,2017-18,TRUE,Cash surplus/-deficit,
+net_debt,9953,2014-15,FALSE,Net debt,
+net_debt,11350,2015-16,TRUE,Net debt,
+net_debt,12553,2016-17,TRUE,Net debt,
+net_debt,13297,2017-18,TRUE,Net debt,
+net_fin_liabilities,20038,2014-15,FALSE,Net financial liabilities,
+net_fin_liabilities,21010,2015-16,TRUE,Net financial liabilities,
+net_fin_liabilities,22143,2016-17,TRUE,Net financial liabilities,
+net_fin_liabilities,23007,2017-18,TRUE,Net financial liabilities,
+net_worth,119294,2014-15,FALSE,NET WORTH,
+net_worth,122596,2015-16,TRUE,NET WORTH,
+net_worth,125899,2016-17,TRUE,NET WORTH,
+net_worth,129452,2017-18,TRUE,NET WORTH,
+rev_total,27970,2013-14,FALSE,"Total revenue",Estimated Actual from Table 2.1
+rev_total,28683,2014-15,FALSE,"Total revenue",Budget Estimate from Table 2.1
+rev_total,29901,2015-16,TRUE,"Total revenue",Forward Estimate from Table 2.1
+rev_total,31159,2016-17,TRUE,"Total revenue",Forward Estimate from Table 2.1
+rev_total,32162,2017-18,TRUE,"Total revenue",Forward Estimate from Table 2.1
+rev_taxation,8881,2013-14,FALSE,"Total Taxation",Estimated Actual from Table 2.1
+rev_taxation,9346,2014-15,FALSE,"Total Taxation",Budget Estimate from Table 2.1
+rev_taxation,9841,2015-16,TRUE,"Total Taxation",Forward Estimate from Table 2.1
+rev_taxation,10475,2016-17,TRUE,"Total Taxation",Forward Estimate from Table 2.1
+rev_taxation,11220,2017-18,TRUE,"Total Taxation",Forward Estimate from Table 2.1
+rev_payroll,3617,2013-14,FALSE,"Payroll tax",Estimated Actual from Table 2.1
+rev_payroll,3834,2014-15,FALSE,"Payroll tax",Budget Estimate from Table 2.1
+rev_payroll,4147,2015-16,TRUE,"Payroll tax",Forward Estimate from Table 2.1
+rev_payroll,4488,2016-17,TRUE,"Payroll tax",Forward Estimate from Table 2.1
+rev_payroll,4859,2017-18,TRUE,"Payroll tax",Forward Estimate from Table 2.1
+rev_land_tax,662,2013-14,FALSE,"Land tax",Estimated Actual from Table 2.1
+rev_land_tax,755,2014-15,FALSE,"Land tax",Budget Estimate from Table 2.1
+rev_land_tax,830,2015-16,TRUE,"Land tax",Forward Estimate from Table 2.1
+rev_land_tax,913,2016-17,TRUE,"Land tax",Forward Estimate from Table 2.1
+rev_land_tax,1014,2017-18,TRUE,"Land tax",Forward Estimate from Table 2.1
+rev_stamp_duty,2035,2013-14,FALSE,"Total duty on transfers",Estimated Actual from Table 2.1
+rev_stamp_duty,1946,2014-15,FALSE,"Total duty on transfers",Budget Estimate from Table 2.1
+rev_stamp_duty,1869,2015-16,TRUE,"Total duty on transfers",Forward Estimate from Table 2.1
+rev_stamp_duty,1885,2016-17,TRUE,"Total duty on transfers",Forward Estimate from Table 2.1
+rev_stamp_duty,1949,2017-18,TRUE,"Total duty on transfers",Forward Estimate from Table 2.1
+rev_gambling,309,2013-14,FALSE,"Total taxes on gambling",Estimated Actual from Table 2.1
+rev_gambling,322,2014-15,FALSE,"Total taxes on gambling",Budget Estimate from Table 2.1
+rev_gambling,334,2015-16,TRUE,"Total taxes on gambling",Forward Estimate from Table 2.1
+rev_gambling,347,2016-17,TRUE,"Total taxes on gambling",Forward Estimate from Table 2.1
+rev_gambling,361,2017-18,TRUE,"Total taxes on gambling",Forward Estimate from Table 2.1
+rev_motor_vehicle,1178,2013-14,FALSE,"Total motor vehicle taxes",Estimated Actual from Table 2.1
+rev_motor_vehicle,1336,2014-15,FALSE,"Total motor vehicle taxes",Budget Estimate from Table 2.1
+rev_motor_vehicle,1433,2015-16,TRUE,"Total motor vehicle taxes",Forward Estimate from Table 2.1
+rev_motor_vehicle,1531,2016-17,TRUE,"Total motor vehicle taxes",Forward Estimate from Table 2.1
+rev_motor_vehicle,1636,2017-18,TRUE,"Total motor vehicle taxes",Forward Estimate from Table 2.1
+rev_gst,2473,2013-14,FALSE,"GST grants",Estimated Actual from Table 2.1
+rev_gst,2215,2014-15,FALSE,"GST grants",Budget Estimate from Table 2.1
+rev_gst,1616,2015-16,TRUE,"GST grants",Forward Estimate from Table 2.1
+rev_gst,1118,2016-17,TRUE,"GST grants",Forward Estimate from Table 2.1
+rev_gst,799,2017-18,TRUE,"GST grants",Forward Estimate from Table 2.1
+rev_sales_goods_svcs,2267,2013-14,FALSE,"Total Sales of Goods and Services",Estimated Actual from Table 2.1
+rev_sales_goods_svcs,2356,2014-15,FALSE,"Total Sales of Goods and Services",Budget Estimate from Table 2.1
+rev_sales_goods_svcs,2542,2015-16,TRUE,"Total Sales of Goods and Services",Forward Estimate from Table 2.1
+rev_sales_goods_svcs,2660,2016-17,TRUE,"Total Sales of Goods and Services",Forward Estimate from Table 2.1
+rev_sales_goods_svcs,2792,2017-18,TRUE,"Total Sales of Goods and Services",Forward Estimate from Table 2.1
+rev_interest,212,2013-14,FALSE,"Interest income",Estimated Actual from Table 2.1
+rev_interest,210,2014-15,FALSE,"Interest income",Budget Estimate from Table 2.1
+rev_interest,240,2015-16,TRUE,"Interest income",Forward Estimate from Table 2.1
+rev_interest,269,2016-17,TRUE,"Interest income",Forward Estimate from Table 2.1
+rev_interest,272,2017-18,TRUE,"Interest income",Forward Estimate from Table 2.1
+rev_dividend,850,2013-14,FALSE,"Dividends",Estimated Actual from Table 2.1
+rev_dividend,938,2014-15,FALSE,"Dividends",Budget Estimate from Table 2.1
+rev_dividend,990,2015-16,TRUE,"Dividends",Forward Estimate from Table 2.1
+rev_dividend,1060,2016-17,TRUE,"Dividends",Forward Estimate from Table 2.1
+rev_dividend,1077,2017-18,TRUE,"Dividends",Forward Estimate from Table 2.1
+exp_total,27787,2013-14,FALSE,"Total General Government Expenses",Estimated Actual from Note 5
+exp_total,28508,2014-15,FALSE,"Total General Government Expenses",Budget Estimate from Note 5
+exp_total,29896,2015-16,TRUE,"Total General Government Expenses",Forward Estimate from Note 5
+exp_total,31109,2016-17,TRUE,"Total General Government Expenses",Forward Estimate from Note 5
+exp_total,31879,2017-18,TRUE,"Total General Government Expenses",Forward Estimate from Note 5
+exp_health,7504,2013-14,FALSE,"Health",Estimated Actual from Note 5
+exp_health,7930,2014-15,FALSE,"Health",Budget Estimate from Note 5
+exp_health,8200,2015-16,TRUE,"Health",Forward Estimate from Note 5
+exp_health,8548,2016-17,TRUE,"Health",Forward Estimate from Note 5
+exp_health,8604,2017-18,TRUE,"Health",Forward Estimate from Note 5
+exp_education,6512,2013-14,FALSE,"Education",Estimated Actual from Note 5
+exp_education,6850,2014-15,FALSE,"Education",Budget Estimate from Note 5
+exp_education,7248,2015-16,TRUE,"Education",Forward Estimate from Note 5
+exp_education,7537,2016-17,TRUE,"Education",Forward Estimate from Note 5
+exp_education,7856,2017-18,TRUE,"Education",Forward Estimate from Note 5
+exp_public_order,3080,2013-14,FALSE,"Public order and safety",Estimated Actual from Note 5
+exp_public_order,3193,2014-15,FALSE,"Public order and safety",Budget Estimate from Note 5
+exp_public_order,3333,2015-16,TRUE,"Public order and safety",Forward Estimate from Note 5
+exp_public_order,3467,2016-17,TRUE,"Public order and safety",Forward Estimate from Note 5
+exp_public_order,3506,2017-18,TRUE,"Public order and safety",Forward Estimate from Note 5
+exp_transport_comms,2262,2013-14,FALSE,"Transport and communications",Estimated Actual from Note 5
+exp_transport_comms,2208,2014-15,FALSE,"Transport and communications",Budget Estimate from Note 5
+exp_transport_comms,2314,2015-16,TRUE,"Transport and communications",Forward Estimate from Note 5
+exp_transport_comms,2427,2016-17,TRUE,"Transport and communications",Forward Estimate from Note 5
+exp_transport_comms,2527,2017-18,TRUE,"Transport and communications",Forward Estimate from Note 5
+exp_social_security,1946,2013-14,FALSE,"Social security and welfare",Estimated Actual from Note 5
+exp_social_security,2079,2014-15,FALSE,"Social security and welfare",Budget Estimate from Note 5
+exp_social_security,2193,2015-16,TRUE,"Social security and welfare",Forward Estimate from Note 5
+exp_social_security,2230,2016-17,TRUE,"Social security and welfare",Forward Estimate from Note 5
+exp_social_security,2220,2017-18,TRUE,"Social security and welfare",Forward Estimate from Note 5
+exp_general_public,675,2013-14,FALSE,"General public services",Estimated Actual from Note 5
+exp_general_public,489,2014-15,FALSE,"General public services",Budget Estimate from Note 5
+exp_general_public,666,2015-16,TRUE,"General public services",Forward Estimate from Note 5
+exp_general_public,755,2016-17,TRUE,"General public services",Forward Estimate from Note 5
+exp_general_public,1019,2017-18,TRUE,"General public services",Forward Estimate from Note 5
+exp_recreation,904,2013-14,FALSE,"Recreation and culture",Estimated Actual from Note 5
+exp_recreation,879,2014-15,FALSE,"Recreation and culture",Budget Estimate from Note 5
+exp_recreation,957,2015-16,TRUE,"Recreation and culture",Forward Estimate from Note 5
+exp_recreation,885,2016-17,TRUE,"Recreation and culture",Forward Estimate from Note 5
+exp_recreation,879,2017-18,TRUE,"Recreation and culture",Forward Estimate from Note 5
+net_op_balance,183,2013-14,FALSE,"AASB1049 net operating balance",Estimated Actual convergence table
+net_op_balance,175,2014-15,FALSE,"AASB1049 net operating balance",Budget Estimate convergence table
+net_op_balance,5,2015-16,TRUE,"AASB1049 net operating balance",Forward Estimate convergence table
+net_op_balance,50,2016-17,TRUE,"AASB1049 net operating balance",Forward Estimate convergence table
+net_op_balance,283,2017-18,TRUE,"AASB1049 net operating balance",Forward Estimate convergence table
+net_lending,-1727,2013-14,FALSE,"GFS net lending/-borrowing",Estimated Actual convergence table
+net_lending,-1629,2014-15,FALSE,"GFS net lending/-borrowing",Budget Estimate convergence table
+net_lending,-515,2015-16,TRUE,"GFS net lending/-borrowing",Forward Estimate convergence table
+net_lending,-578,2016-17,TRUE,"GFS net lending/-borrowing",Forward Estimate convergence table
+net_lending,-356,2017-18,TRUE,"GFS net lending/-borrowing",Forward Estimate convergence table
+cash_surplus,-2006,2013-14,FALSE,"GFS cash surplus/-deficit",Estimated Actual convergence table
+cash_surplus,-1838,2014-15,FALSE,"GFS cash surplus/-deficit",Budget Estimate convergence table
+cash_surplus,-743,2015-16,TRUE,"GFS cash surplus/-deficit",Forward Estimate convergence table
+cash_surplus,-633,2016-17,TRUE,"GFS cash surplus/-deficit",Forward Estimate convergence table
+cash_surplus,-321,2017-18,TRUE,"GFS cash surplus/-deficit",Forward Estimate convergence table
+net_worth,116444,2014,FALSE,"GFS net worth",Actual convergence table
+net_worth,119615,2015,FALSE,"GFS net worth",Budget Estimate convergence table
+net_worth,122830,2016,TRUE,"GFS net worth",Forward Estimate convergence table
+net_worth,126134,2017,TRUE,"GFS net worth",Forward Estimate convergence table
+net_worth,129687,2018,TRUE,"GFS net worth",Forward Estimate convergence table
+capex_pnfa,3168,2013-14,FALSE,"Total Purchases of Non-financial Assets",Estimated Actual from Note 5
+capex_pnfa,3169,2014-15,FALSE,"Total Purchases of Non-financial Assets",Budget Estimate from Note 5
+capex_pnfa,2241,2015-16,TRUE,"Total Purchases of Non-financial Assets",Forward Estimate from Note 5
+capex_pnfa,2302,2016-17,TRUE,"Total Purchases of Non-financial Assets",Forward Estimate from Note 5
+capex_pnfa,2208,2017-18,TRUE,"Total Purchases of Non-financial Assets",Forward Estimate from Note 5

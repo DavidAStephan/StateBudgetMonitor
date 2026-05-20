@@ -1,0 +1,132 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6446,2017-18,FALSE,Total revenue,
+rev_total,6268,2018-19,FALSE,Total revenue,
+rev_total,6090,2019-20,TRUE,Total revenue,
+rev_total,6192,2020-21,TRUE,Total revenue,
+rev_total,6325,2021-22,TRUE,Total revenue,
+rev_taxation,618,2017-18,FALSE,Taxation revenue,
+rev_taxation,531,2018-19,FALSE,Taxation revenue,
+rev_taxation,543,2019-20,TRUE,Taxation revenue,
+rev_taxation,570,2020-21,TRUE,Taxation revenue,
+rev_taxation,589,2021-22,TRUE,Taxation revenue,
+rev_gst,2901,2017-18,FALSE,GST revenue,
+rev_gst,2713,2018-19,FALSE,GST revenue,
+rev_gst,2811,2019-20,TRUE,GST revenue,
+rev_gst,2937,2020-21,TRUE,GST revenue,
+rev_gst,3071,2021-22,TRUE,GST revenue,
+rev_grants_tied,1097,2017-18,FALSE,Current grants,
+rev_grants_tied,929,2018-19,FALSE,Current grants,
+rev_grants_tied,895,2019-20,TRUE,Current grants,
+rev_grants_tied,886,2020-21,TRUE,Current grants,
+rev_grants_tied,870,2021-22,TRUE,Current grants,
+rev_sales_goods_svcs,1013,2017-18,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,1061,2018-19,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,1178,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1197,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1224,2021-22,TRUE,Sales of goods and services,
+rev_interest,108,2017-18,FALSE,Interest income,
+rev_interest,73,2018-19,FALSE,Interest income,
+rev_interest,78,2019-20,TRUE,Interest income,
+rev_interest,81,2020-21,TRUE,Interest income,
+rev_interest,83,2021-22,TRUE,Interest income,
+rev_dividend,22,2017-18,FALSE,Dividend and income tax equivalent income,
+rev_dividend,28,2018-19,FALSE,Dividend and income tax equivalent income,
+rev_dividend,36,2019-20,TRUE,Dividend and income tax equivalent income,
+rev_dividend,35,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_dividend,42,2021-22,TRUE,Dividend and income tax equivalent income,
+exp_total,6977,2017-18,FALSE,Total expenses,
+exp_total,6866,2018-19,FALSE,Total expenses,
+exp_total,6949,2019-20,TRUE,Total expenses,
+exp_total,7048,2020-21,TRUE,Total expenses,
+exp_total,7179,2021-22,TRUE,Total expenses,
+exp_employee,2527,2017-18,FALSE,Employee expenses,
+exp_employee,2454,2018-19,FALSE,Employee expenses,
+exp_employee,2510,2019-20,TRUE,Employee expenses,
+exp_employee,2545,2020-21,TRUE,Employee expenses,
+exp_employee,2578,2021-22,TRUE,Employee expenses,
+exp_super,357,2017-18,FALSE,Superannuation expenses,
+exp_super,359,2018-19,FALSE,Superannuation expenses,
+exp_super,361,2019-20,TRUE,Superannuation expenses,
+exp_super,358,2020-21,TRUE,Superannuation expenses,
+exp_super,359,2021-22,TRUE,Superannuation expenses,
+exp_depreciation,598,2017-18,FALSE,Depreciation and amortisation,
+exp_depreciation,584,2018-19,FALSE,Depreciation and amortisation,
+exp_depreciation,574,2019-20,TRUE,Depreciation and amortisation,
+exp_depreciation,573,2020-21,TRUE,Depreciation and amortisation,
+exp_depreciation,572,2021-22,TRUE,Depreciation and amortisation,
+exp_interest,288,2017-18,FALSE,Interest expenses,
+exp_interest,324,2018-19,FALSE,Interest expenses,
+exp_interest,385,2019-20,TRUE,Interest expenses,
+exp_interest,440,2020-21,TRUE,Interest expenses,
+exp_interest,506,2021-22,TRUE,Interest expenses,
+exp_other_operating,2012,2017-18,FALSE,Other operating expenses,
+exp_other_operating,1947,2018-19,FALSE,Other operating expenses,
+exp_other_operating,2032,2019-20,TRUE,Other operating expenses,
+exp_other_operating,2021,2020-21,TRUE,Other operating expenses,
+exp_other_operating,2049,2021-22,TRUE,Other operating expenses,
+exp_current_grants,931,2017-18,FALSE,Current grants,
+exp_current_grants,959,2018-19,FALSE,Current grants,
+exp_current_grants,891,2019-20,TRUE,Current grants,
+exp_current_grants,920,2020-21,TRUE,Current grants,
+exp_current_grants,922,2021-22,TRUE,Current grants,
+exp_capital_grants,112,2017-18,FALSE,Capital grants,
+exp_capital_grants,80,2018-19,FALSE,Capital grants,
+exp_capital_grants,36,2019-20,TRUE,Capital grants,
+exp_capital_grants,26,2020-21,TRUE,Capital grants,
+exp_capital_grants,24,2021-22,TRUE,Capital grants,
+net_op_balance,-541,2017-18,FALSE,Net operating balance,General government sector
+net_op_balance,-603,2018-19,FALSE,Net operating balance,General government sector
+net_op_balance,-920,2019-20,TRUE,Net operating balance,General government sector
+net_op_balance,-922,2020-21,TRUE,Net operating balance,General government sector
+net_op_balance,-922,2021-22,TRUE,Net operating balance,General government sector
+net_lending,-984,2017-18,FALSE,Fiscal balance,Non financial public sector
+net_lending,-1214,2018-19,FALSE,Fiscal balance,Non financial public sector
+net_lending,-1134,2019-20,TRUE,Fiscal balance,Non financial public sector
+net_lending,-1102,2020-21,TRUE,Fiscal balance,Non financial public sector
+net_lending,-1068,2021-22,TRUE,Fiscal balance,Non financial public sector
+net_debt,3313,2017-18,FALSE,Net debt,Non financial public sector
+net_debt,4485,2018-19,FALSE,Net debt,Non financial public sector
+net_debt,5547,2019-20,TRUE,Net debt,Non financial public sector
+net_debt,6550,2020-21,TRUE,Net debt,Non financial public sector
+net_debt,7543,2021-22,TRUE,Net debt,Non financial public sector
+capex_pnfa,1036,2017-18,FALSE,Net capital,Non financial public sector
+capex_pnfa,1179,2018-19,FALSE,Net capital,Non financial public sector
+capex_pnfa,821,2019-20,TRUE,Net capital,Non financial public sector
+capex_pnfa,795,2020-21,TRUE,Net capital,Non financial public sector
+capex_pnfa,763,2021-22,TRUE,Net capital,Non financial public sector
+econ_gsp_growth,4.0,2016-17,FALSE,Gross state product,Year-on-year percentage change
+econ_gsp_growth,2.6,2017-18,FALSE,Gross state product,Year-on-year percentage change
+econ_gsp_growth,2.1,2018-19,FALSE,Gross state product,Year-on-year percentage change
+econ_gsp_growth,-0.4,2019-20,TRUE,Gross state product,Year-on-year percentage change
+econ_gsp_growth,2.6,2020-21,TRUE,Gross state product,Year-on-year percentage change
+econ_gsp_growth,2.8,2021-22,TRUE,Gross state product,Year-on-year percentage change
+econ_employment,2.5,2016-17,FALSE,Employment growth,Year-on-year percentage change
+econ_employment,-2.0,2017-18,FALSE,Employment growth,Year-on-year percentage change
+econ_employment,-0.5,2018-19,FALSE,Employment growth,Year-on-year percentage change
+econ_employment,0.3,2019-20,TRUE,Employment growth,Year-on-year percentage change
+econ_employment,0.9,2020-21,TRUE,Employment growth,Year-on-year percentage change
+econ_employment,1.0,2021-22,TRUE,Employment growth,Year-on-year percentage change
+econ_unemployment,3.4,2016-17,FALSE,Unemployment rate,Year average
+econ_unemployment,4.3,2017-18,FALSE,Unemployment rate,Year average
+econ_unemployment,4.9,2018-19,FALSE,Unemployment rate,Year average
+econ_unemployment,4.5,2019-20,TRUE,Unemployment rate,Year average
+econ_unemployment,4.3,2020-21,TRUE,Unemployment rate,Year average
+econ_unemployment,4.0,2021-22,TRUE,Unemployment rate,Year average
+econ_cpi,0.1,2016-17,FALSE,Consumer Price Index growth,Year-on-year percentage change
+econ_cpi,0.5,2017-18,FALSE,Consumer Price Index growth,Year-on-year percentage change
+econ_cpi,1.0,2018-19,FALSE,Consumer Price Index growth,Year-on-year percentage change
+econ_cpi,1.7,2019-20,TRUE,Consumer Price Index growth,Year-on-year percentage change
+econ_cpi,1.9,2020-21,TRUE,Consumer Price Index growth,Year-on-year percentage change
+econ_cpi,2.3,2021-22,TRUE,Consumer Price Index growth,Year-on-year percentage change
+econ_wpi,2.1,2016-17,FALSE,Wage Price Index growth,Year-on-year percentage change
+econ_wpi,1.8,2017-18,FALSE,Wage Price Index growth,Year-on-year percentage change
+econ_wpi,1.7,2018-19,FALSE,Wage Price Index growth,Year-on-year percentage change
+econ_wpi,1.8,2019-20,TRUE,Wage Price Index growth,Year-on-year percentage change
+econ_wpi,2.0,2020-21,TRUE,Wage Price Index growth,Year-on-year percentage change
+econ_wpi,2.1,2021-22,TRUE,Wage Price Index growth,Year-on-year percentage change
+econ_population,0.3,2016-17,FALSE,Population growth,Annual percentage change
+econ_population,0.0,2017-18,FALSE,Population growth,Annual percentage change
+econ_population,-0.7,2018-19,FALSE,Population growth,Annual percentage change
+econ_population,0.6,2019-20,TRUE,Population growth,Annual percentage change
+econ_population,1.0,2020-21,TRUE,Population growth,Annual percentage change
+econ_population,1.1,2021-22,TRUE,Population growth,Annual percentage change

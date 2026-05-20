@@ -1,0 +1,323 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,27956,2013-14,FALSE,Total revenue,
+rev_total,27045,2014-15,FALSE,Total revenue,
+rev_total,26325,2015-16,FALSE,Total revenue,
+rev_total,28496,2016-17,TRUE,Total revenue,
+rev_total,31075,2017-18,TRUE,Total revenue,
+rev_total,33517,2018-19,TRUE,Total revenue,
+exp_total,27236,2013-14,FALSE,Total expenses,
+exp_total,28332,2014-15,FALSE,Total expenses,
+exp_total,29033,2015-16,FALSE,Total expenses,
+exp_total,29644,2016-17,TRUE,Total expenses,
+exp_total,30201,2017-18,TRUE,Total expenses,
+exp_total,31308,2018-19,TRUE,Total expenses,
+net_op_balance,719,2013-14,FALSE,Net Operating Balance,
+net_op_balance,-1287,2014-15,FALSE,Net Operating Balance,
+net_op_balance,-2708,2015-16,FALSE,Net Operating Balance,
+net_op_balance,-1148,2016-17,TRUE,Net Operating Balance,
+net_op_balance,874,2017-18,TRUE,Net Operating Balance,
+net_op_balance,2209,2018-19,TRUE,Net Operating Balance,
+net_debt,20754,2013-14,FALSE,Net Debt at 30 June,Total Public Sector
+net_debt,25455,2014-15,FALSE,Net Debt at 30 June,Total Public Sector
+net_debt,30996,2015-16,FALSE,Net Debt at 30 June,Total Public Sector
+net_debt,34443,2016-17,TRUE,Net Debt at 30 June,Total Public Sector
+net_debt,36289,2017-18,TRUE,Net Debt at 30 June,Total Public Sector
+net_debt,35753,2018-19,TRUE,Net Debt at 30 June,Total Public Sector
+capex_pnfa,6814,2013-14,FALSE,Asset Investment Program,Total Public Sector
+capex_pnfa,6555,2014-15,FALSE,Asset Investment Program,Total Public Sector
+capex_pnfa,6284,2015-16,FALSE,Asset Investment Program,Total Public Sector
+capex_pnfa,5963,2016-17,TRUE,Asset Investment Program,Total Public Sector
+capex_pnfa,6081,2017-18,TRUE,Asset Investment Program,Total Public Sector
+capex_pnfa,5757,2018-19,TRUE,Asset Investment Program,Total Public Sector
+cash_surplus,-2465,2013-14,FALSE,Cash Position,Total Public Sector
+cash_surplus,-4140,2014-15,FALSE,Cash Position,Total Public Sector
+cash_surplus,-5090,2015-16,FALSE,Cash Position,Total Public Sector
+cash_surplus,-3139,2016-17,TRUE,Cash Position,Total Public Sector
+cash_surplus,-1147,2017-18,TRUE,Cash Position,Total Public Sector
+cash_surplus,790,2018-19,TRUE,Cash Position,Total Public Sector
+econ_gsp_growth,5.5,2013-14,FALSE,Real Gross State Product growth (%),
+econ_gsp_growth,3.25,2014-15,FALSE,Real Gross State Product growth (%),
+econ_gsp_growth,2.0,2015-16,FALSE,Real Gross State Product growth (%),
+econ_gsp_growth,3.5,2016-17,TRUE,Real Gross State Product growth (%),
+econ_gsp_growth,2.75,2017-18,TRUE,Real Gross State Product growth (%),
+econ_gsp_growth,2.75,2018-19,TRUE,Real Gross State Product growth (%),
+econ_employment,1.1,2013-14,FALSE,Employment growth (%),
+econ_employment,2.5,2014-15,FALSE,Employment growth (%),
+econ_employment,1.75,2015-16,FALSE,Employment growth (%),
+econ_employment,1.75,2016-17,TRUE,Employment growth (%),
+econ_employment,2.0,2017-18,TRUE,Employment growth (%),
+econ_employment,2.0,2018-19,TRUE,Employment growth (%),
+econ_unemployment,4.8,2013-14,FALSE,Unemployment rate (%),
+econ_unemployment,5.5,2014-15,FALSE,Unemployment rate (%),
+econ_unemployment,6.25,2015-16,FALSE,Unemployment rate (%),
+econ_unemployment,6.0,2016-17,TRUE,Unemployment rate (%),
+econ_unemployment,5.75,2017-18,TRUE,Unemployment rate (%),
+econ_unemployment,5.25,2018-19,TRUE,Unemployment rate (%),
+econ_wpi,2.8,2013-14,FALSE,Wage Price Index growth (%),
+econ_wpi,2.25,2014-15,FALSE,Wage Price Index growth (%),
+econ_wpi,2.75,2015-16,FALSE,Wage Price Index growth (%),
+econ_wpi,3.0,2016-17,TRUE,Wage Price Index growth (%),
+econ_wpi,3.25,2017-18,TRUE,Wage Price Index growth (%),
+econ_wpi,3.5,2018-19,TRUE,Wage Price Index growth (%),
+econ_cpi,3.0,2013-14,FALSE,Perth Consumer Price Index growth (%),
+econ_cpi,2.0,2014-15,FALSE,Perth Consumer Price Index growth (%),
+econ_cpi,2.25,2015-16,FALSE,Perth Consumer Price Index growth (%),
+econ_cpi,2.5,2016-17,TRUE,Perth Consumer Price Index growth (%),
+econ_cpi,2.5,2017-18,TRUE,Perth Consumer Price Index growth (%),
+econ_cpi,2.5,2018-19,TRUE,Perth Consumer Price Index growth (%),
+econ_population,2.6,2013-14,FALSE,Population growth (%),
+econ_population,1.9,2014-15,FALSE,Population growth (%),
+econ_population,2.0,2015-16,FALSE,Population growth (%),
+econ_population,2.1,2016-17,TRUE,Population growth (%),
+econ_population,2.2,2017-18,TRUE,Population growth (%),
+econ_population,2.2,2018-19,TRUE,Population growth (%),
+rev_total,27045,2014-15,FALSE,Total revenue,Estimated Actual
+rev_total,26325,2015-16,FALSE,Total revenue,Budget Estimate
+rev_total,28496,2016-17,TRUE,Total revenue,Forward Estimate
+rev_total,31075,2017-18,TRUE,Total revenue,Forward Estimate
+rev_total,33517,2018-19,TRUE,Total revenue,Forward Estimate
+rev_taxation,9052,2014-15,FALSE,Taxation revenue,Estimated Actual
+rev_taxation,9754,2015-16,FALSE,Taxation revenue,Budget Estimate
+rev_taxation,10359,2016-17,TRUE,Taxation revenue,Forward Estimate
+rev_taxation,11012,2017-18,TRUE,Taxation revenue,Forward Estimate
+rev_taxation,11709,2018-19,TRUE,Taxation revenue,Forward Estimate
+rev_payroll,3655,2014-15,FALSE,Payroll tax,Estimated Actual
+rev_payroll,3997,2015-16,FALSE,Payroll tax,Budget Estimate
+rev_payroll,4304,2016-17,TRUE,Payroll tax,Forward Estimate
+rev_payroll,4631,2017-18,TRUE,Payroll tax,Forward Estimate
+rev_payroll,4993,2018-19,TRUE,Payroll tax,Forward Estimate
+rev_land_tax,746,2014-15,FALSE,Land tax,Estimated Actual
+rev_land_tax,939,2015-16,FALSE,Land tax,Budget Estimate
+rev_land_tax,1011,2016-17,TRUE,Land tax,Forward Estimate
+rev_land_tax,1089,2017-18,TRUE,Land tax,Forward Estimate
+rev_land_tax,1173,2018-19,TRUE,Land Estimate
+rev_stamp_duty,1683,2014-15,FALSE,Transfer duty,Estimated Actual
+rev_stamp_duty,1614,2015-16,FALSE,Transfer duty,Budget Estimate
+rev_stamp_duty,1628,2016-17,TRUE,Transfer duty,Forward Estimate
+rev_stamp_duty,1685,2017-18,TRUE,Transfer duty,Forward Estimate
+rev_stamp_duty,1749,2018-19,TRUE,Transfer duty,Forward Estimate
+rev_gambling,299,2014-15,FALSE,Gambling taxes,Estimated Actual
+rev_gambling,289,2015-16,FALSE,Gambling taxes,Budget Estimate
+rev_gambling,301,2016-17,TRUE,Gambling taxes,Forward Estimate
+rev_gambling,312,2017-18,TRUE,Gambling taxes,Forward Estimate
+rev_gambling,323,2018-19,TRUE,Gambling taxes,Forward Estimate
+rev_motor_vehicle,1263,2014-15,FALSE,Motor vehicle taxes,Estimated Actual
+rev_motor_vehicle,1337,2015-16,FALSE,Motor vehicle taxes,Budget Estimate
+rev_motor_vehicle,1414,2016-17,TRUE,Motor vehicle taxes,Forward Estimate
+rev_motor_vehicle,1495,2017-18,TRUE,Motor vehicle taxes,Forward Estimate
+rev_motor_vehicle,1584,2018-19,TRUE,Motor vehicle taxes,Forward Estimate
+rev_other_tax,641,2014-15,FALSE,Other taxation revenue,Estimated Actual - includes insurance duty and other taxes on property
+rev_other_tax,682,2015-16,FALSE,Other taxation revenue,Budget Estimate - includes insurance duty and other taxes on property
+rev_other_tax,757,2016-17,TRUE,Other taxation revenue,Forward Estimate - includes insurance duty and other taxes on property
+rev_other_tax,819,2017-18,TRUE,Other taxation revenue,Forward Estimate - includes insurance duty and other taxes on property
+rev_other_tax,887,2018-19,TRUE,Other taxation revenue,Forward Estimate - includes insurance duty and other taxes on property
+rev_gst,2262,2014-15,FALSE,GST revenue grants,Estimated Actual
+rev_gst,1934,2015-16,FALSE,GST revenue grants,Budget Estimate
+rev_gst,2404,2016-17,TRUE,GST revenue grants,Forward Estimate
+rev_gst,3500,2017-18,TRUE,GST revenue grants,Forward Estimate
+rev_gst,5196,2018-19,TRUE,GST revenue grants,Forward Estimate
+rev_sales_goods_svcs,2213,2014-15,FALSE,Sales of goods and services,Estimated Actual
+rev_sales_goods_svcs,2342,2015-16,FALSE,Sales of goods and services,Budget Estimate
+rev_sales_goods_svcs,2381,2016-17,TRUE,Sales of goods and services,Forward Estimate
+rev_sales_goods_svcs,2497,2017-18,TRUE,Sales of goods and services,Forward Estimate
+rev_sales_goods_svcs,2625,2018-19,TRUE,Sales of goods and services,Forward Estimate
+rev_interest,189,2014-15,FALSE,Interest income,Estimated Actual
+rev_interest,174,2015-16,FALSE,Interest income,Budget Estimate
+rev_interest,179,2016-17,TRUE,Interest income,Forward Estimate
+rev_interest,182,2017-18,TRUE,Interest income,Forward Estimate
+rev_interest,185,2018-19,TRUE,Interest income,Forward Estimate
+rev_dividend,1771,2014-15,FALSE,Revenue from public corporations,Estimated Actual
+rev_dividend,1472,2015-16,FALSE,Revenue from public corporations,Budget Estimate
+rev_dividend,1635,2016-17,TRUE,Revenue from public corporations,Forward Estimate
+rev_dividend,1692,2017-18,TRUE,Revenue from public corporations,Forward Estimate
+rev_dividend,1798,2018-19,TRUE,Revenue from public corporations,Forward Estimate
+rev_total,28301,2015-16,FALSE,"Total revenue",
+rev_taxation,7660,2015-16,FALSE,"Taxation revenue",
+rev_gst,5033,2015-16,FALSE,"GST revenue",
+rev_grants_untied,237,2015-16,FALSE,"Commonwealth untied grants (ex-GST)",
+rev_sales_goods_svcs,2188,2015-16,FALSE,"Sales of goods and services",
+rev_interest,174,2015-16,FALSE,"Interest income",
+rev_other,2182,2015-16,FALSE,"Other revenue","Includes royalties dividend and other items"
+exp_total,29033,2015-16,FALSE,"Total expenses",
+exp_employee,12415,2015-16,FALSE,"Employee expenses","Includes salaries and wages"
+exp_depreciation,2489,2015-16,FALSE,"Depreciation",
+exp_health,8150,2015-16,FALSE,"Expenses on health",
+exp_education,4798,2015-16,FALSE,"Expenses on education",
+exp_public_order,2816,2015-16,FALSE,"Expenses on public order and safety","Law and Order"
+exp_transport_comms,2322,2015-16,FALSE,"Expenses on transport and communications","Transport Rail and Roads"
+net_op_balance,-732,2015-16,FALSE,"Net operating balance","Calculated as revenue minus expenses"
+capex_pnfa,6284,2015-16,FALSE,"Purchases of non-financial assets","Total Asset Investment Program"
+rev_total,27045,2014-15,FALSE,Total (Revenue),
+rev_total,26325,2015-16,FALSE,Total (Revenue),
+rev_total,28496,2016-17,TRUE,Total (Revenue),
+rev_total,31075,2017-18,TRUE,Total (Revenue),
+rev_total,33517,2018-19,TRUE,Total (Revenue),
+rev_taxation,9052,2014-15,FALSE,Taxation,
+rev_taxation,9754,2015-16,FALSE,Taxation,
+rev_taxation,10359,2016-17,TRUE,Taxation,
+rev_taxation,11012,2017-18,TRUE,Taxation,
+rev_taxation,11709,2018-19,TRUE,Taxation,
+rev_gst,7926,2014-15,FALSE,Current grants and subsidies,Includes GST revenue
+rev_gst,7738,2015-16,FALSE,Current grants and subsidies,Includes GST revenue
+rev_gst,8497,2016-17,TRUE,Current grants and subsidies,Includes GST revenue
+rev_gst,9702,2017-18,TRUE,Current grants and subsidies,Includes GST revenue
+rev_gst,11594,2018-19,TRUE,Current grants and subsidies,Includes GST revenue
+rev_sales_goods_svcs,2213,2014-15,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2342,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2381,2016-17,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2497,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2625,2018-19,TRUE,Sales of goods and services,
+rev_interest,189,2014-15,FALSE,Interest income,
+rev_interest,174,2015-16,FALSE,Interest income,
+rev_interest,179,2016-17,TRUE,Interest income,
+rev_interest,182,2017-18,TRUE,Interest income,
+rev_interest,185,2018-19,TRUE,Interest income,
+rev_dividend,1771,2014-15,FALSE,Revenue from public corporations (combined),Sum of dividends and tax equivalent income
+rev_dividend,1472,2015-16,FALSE,Revenue from public corporations (combined),Sum of dividends and tax equivalent income
+rev_dividend,1635,2016-17,TRUE,Revenue from public corporations (combined),Sum of dividends and tax equivalent income
+rev_dividend,1693,2017-18,TRUE,Revenue from public corporations (combined),Sum of dividends and tax equivalent income
+rev_dividend,1798,2018-19,TRUE,Revenue from public corporations (combined),Sum of dividends and tax equivalent income
+rev_other,5108,2014-15,FALSE,Other revenue (combined),Sum of royalty income and other
+rev_other,4193,2015-16,FALSE,Other revenue (combined),Sum of royalty income and other
+rev_other,4507,2016-17,TRUE,Other revenue (combined),Sum of royalty income and other
+rev_other,5017,2017-18,TRUE,Other revenue (combined),Sum of royalty income and other
+rev_other,5390,2018-19,TRUE,Other revenue (combined),Sum of royalty income and other
+exp_total,28332,2014-15,FALSE,Total (Expenses),
+exp_total,29033,2015-16,FALSE,Total (Expenses),
+exp_total,29644,2016-17,TRUE,Total (Expenses),
+exp_total,30201,2017-18,TRUE,Total (Expenses),
+exp_total,31308,2018-19,TRUE,Total (Expenses),
+exp_employee,11292,2014-15,FALSE,Salaries,
+exp_employee,11498,2015-16,FALSE,Salaries,
+exp_employee,11871,2016-17,TRUE,Salaries,
+exp_employee,12066,2017-18,TRUE,Salaries,
+exp_employee,12435,2018-19,TRUE,Salaries,
+exp_super,1302,2014-15,FALSE,Superannuation (combined),Sum of concurrent costs and interest cost
+exp_super,1353,2015-16,FALSE,Superannuation (combined),Sum of concurrent costs and interest cost
+exp_super,1395,2016-17,TRUE,Superannuation (combined),Sum of concurrent costs and interest cost
+exp_super,1416,2017-18,TRUE,Superannuation (combined),Sum of concurrent costs and interest cost
+exp_super,1451,2018-19,TRUE,Superannuation (combined),Sum of concurrent costs and interest cost
+exp_depreciation,1274,2014-15,FALSE,Depreciation and amortisation,
+exp_depreciation,1434,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,1482,2016-17,TRUE,Depreciation and amortisation,
+exp_depreciation,1509,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,1554,2018-19,TRUE,Depreciation and amortisation,
+exp_interest,544,2014-15,FALSE,Other interest,
+exp_interest,616,2015-16,FALSE,Other interest,
+exp_interest,689,2016-17,TRUE,Other interest,
+exp_interest,760,2017-18,TRUE,Other interest,
+exp_interest,814,2018-19,TRUE,Other interest,
+exp_other_operating,8414,2014-15,FALSE,Other operating expenses (combined),Sum of other employee costs, services and contracts, and other gross operating expenses
+exp_other_operating,8225,2015-16,FALSE,Other operating expenses (combined),Sum of other employee costs, services and contracts, and other gross operating expenses
+exp_other_operating,8303,2016-17,TRUE,Other operating expenses (combined),Sum of other employee costs, services and contracts, and other gross operating expenses
+exp_other_operating,8509,2017-18,TRUE,Other operating expenses (combined),Sum of other employee costs, services and contracts, and other gross operating expenses
+exp_other_operating,8961,2018-19,TRUE,Other operating expenses (combined),Sum of other employee costs, services and contracts, and other gross operating expenses
+exp_current_grants,5377,2014-15,FALSE,Current transfers,
+exp_current_grants,5353,2015-16,FALSE,Current transfers,
+exp_current_grants,5472,2016-17,TRUE,Current transfers,
+exp_current_grants,5517,2017-18,TRUE,Current transfers,
+exp_current_grants,5792,2018-19,TRUE,Current transfers,
+exp_capital_grants,577,2014-15,FALSE,Capital transfers,
+exp_capital_grants,555,2015-16,FALSE,Capital transfers,
+exp_capital_grants,433,2016-17,TRUE,Capital transfers,
+exp_capital_grants,423,2017-18,TRUE,Capital transfers,
+exp_capital_grants,301,2018-19,TRUE,Capital transfers,
+net_op_balance,-1287,2014-15,FALSE,NET OPERATING BALANCE,
+net_op_balance,-2708,2015-16,FALSE,NET OPERATING BALANCE,
+net_op_balance,-1148,2016-17,TRUE,NET OPERATING BALANCE,
+net_op_balance,874,2017-18,TRUE,NET OPERATING BALANCE,
+net_op_balance,2209,2018-19,TRUE,NET OPERATING BALANCE,
+net_cap_investment,1840,2014-15,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,919,2015-16,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,904,2016-17,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,1344,2017-18,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,489,2018-19,TRUE,Total net acquisition of non-financial assets,
+net_lending,-3127,2014-15,FALSE,NET LENDING/-BORROWING,
+net_lending,-3628,2015-16,FALSE,NET LENDING/-BORROWING,
+net_lending,-2051,2016-17,TRUE,NET LENDING/-BORROWING,
+net_lending,-470,2017-18,TRUE,NET LENDING/-BORROWING,
+net_lending,1719,2018-19,TRUE,NET LENDING/-BORROWING,
+cash_surplus,-2579,2014-15,FALSE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,-4042,2015-16,FALSE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,-2287,2016-17,TRUE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,-349,2017-18,TRUE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,1406,2018-19,TRUE,Cash surplus/-deficit,From Table 1.3
+net_debt,10669,2014-15,FALSE,Net debt,From Table 1.2
+net_debt,15799,2015-16,FALSE,Net debt,From Table 1.2
+net_debt,18909,2016-17,TRUE,Net debt,From Table 1.2
+net_debt,20227,2017-18,TRUE,Net debt,From Table 1.2
+net_debt,19345,2018-19,TRUE,Net debt,From Table 1.2
+net_fin_liabilities,22263,2014-15,FALSE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,26819,2015-16,FALSE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,29623,2016-17,TRUE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,30661,2017-18,TRUE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,29517,2018-19,TRUE,Net financial liabilities,From Table 1.2
+net_worth,117406,2014-15,FALSE,NET WORTH,From Table 1.2
+net_worth,117510,2015-16,FALSE,NET WORTH,From Table 1.2
+net_worth,119214,2016-17,TRUE,NET WORTH,From Table 1.2
+net_worth,122757,2017-18,TRUE,NET WORTH,From Table 1.2
+net_worth,127617,2018-19,TRUE,NET WORTH,From Table 1.2
+capex_pnfa,3077,2014-15,FALSE,Purchase of non-financial assets,
+capex_pnfa,2603,2015-16,FALSE,Purchase of non-financial assets,
+capex_pnfa,2606,2016-17,TRUE,Purchase of non-financial assets,
+capex_pnfa,2622,2017-18,TRUE,Purchase of non-financial assets,
+capex_pnfa,2229,2018-19,TRUE,Purchase of non-financial assets,
+rev_taxation,9052,2014-15,FALSE,Total Taxation,
+rev_taxation,9754,2015-16,FALSE,Total Taxation,
+rev_taxation,10359,2016-17,TRUE,Total Taxation,
+rev_taxation,11012,2017-18,TRUE,Total Taxation,
+rev_taxation,11709,2018-19,TRUE,Total Taxation,
+rev_payroll,3655,2014-15,FALSE,Payroll tax,
+rev_payroll,3997,2015-16,FALSE,Payroll tax,
+rev_payroll,4304,2016-17,TRUE,Payroll tax,
+rev_payroll,4631,2017-18,TRUE,Payroll tax,
+rev_payroll,4993,2018-19,TRUE,Payroll tax,
+rev_land_tax,746,2014-15,FALSE,Land tax,
+rev_land_tax,939,2015-16,FALSE,Land tax,
+rev_land_tax,1011,2016-17,TRUE,Land tax,
+rev_land_tax,1089,2017-18,TRUE,Land tax,
+rev_land_tax,1173,2018-19,TRUE,Land tax,
+rev_stamp_duty,1803,2014-15,FALSE,Total duty on transfers,
+rev_stamp_duty,1732,2015-16,FALSE,Total duty on transfers,
+rev_stamp_duty,1747,2016-17,TRUE,Total duty on transfers,
+rev_stamp_duty,1806,2017-18,TRUE,Total duty on transfers,
+rev_stamp_duty,1873,2018-19,TRUE,Total duty on transfers,
+rev_gambling,299,2014-15,FALSE,Total taxes on gambling,
+rev_gambling,289,2015-16,FALSE,Total taxes on gambling,
+rev_gambling,301,2016-17,TRUE,Total taxes on gambling,
+rev_gambling,312,2017-18,TRUE,Total taxes on gambling,
+rev_gambling,323,2018-19,TRUE,Total taxes on gambling,
+rev_motor_vehicle,1263,2014-15,FALSE,Total motor vehicle taxes,
+rev_motor_vehicle,1337,2015-16,FALSE,Total motor vehicle taxes,
+rev_motor_vehicle,1414,2016-17,TRUE,Total motor vehicle taxes,
+rev_motor_vehicle,1495,2017-18,TRUE,Total motor vehicle taxes,
+rev_motor_vehicle,1584,2018-19,TRUE,Total motor vehicle taxes,
+rev_gst,2262,2014-15,FALSE,GST grants,
+rev_gst,1934,2015-16,FALSE,GST grants,
+rev_gst,2404,2016-17,TRUE,GST grants,
+rev_gst,3500,2017-18,TRUE,GST grants,
+rev_gst,5196,2018-19,TRUE,GST grants,
+rev_sales_goods_svcs,2213,2014-15,FALSE,Total Sale of Goods and Services,
+rev_sales_goods_svcs,2342,2015-16,FALSE,Total Sale of Goods and Services,
+rev_sales_goods_svcs,2381,2016-17,TRUE,Total Sale of Goods and Services,
+rev_sales_goods_svcs,2497,2017-18,TRUE,Total Sale of Goods and Services,
+rev_sales_goods_svcs,2625,2018-19,TRUE,Total Sale of Goods and Services,
+rev_interest,189,2014-15,FALSE,Interest income,
+rev_interest,174,2015-16,FALSE,Interest income,
+rev_interest,179,2016-17,TRUE,Interest income,
+rev_interest,182,2017-18,TRUE,Interest income,
+rev_interest,185,2018-19,TRUE,Interest income,
+rev_dividend,1277,2014-15,FALSE,Dividends,Includes dividend and tax-equivalent income
+rev_dividend,945,2015-16,FALSE,Dividends,Includes dividend and tax-equivalent income
+rev_dividend,1040,2016-17,TRUE,Dividends,Includes dividend and tax-equivalent income
+rev_dividend,1121,2017-18,TRUE,Dividends,Includes dividend and tax-equivalent income
+rev_dividend,1161,2018-19,TRUE,Dividends,Includes dividend and tax-equivalent income
+rev_total,27045,2014-15,FALSE,TOTAL REVENUE,
+rev_total,26325,2015-16,FALSE,TOTAL REVENUE,
+rev_total,28496,2016-17,TRUE,TOTAL REVENUE,
+rev_total,31075,2017-18,TRUE,TOTAL REVENUE,
+rev_total,33517,2018-19,TRUE,TOTAL REVENUE,
+rev_dividend,945.1,2015-16,FALSE,"Total - Dividends (Table 8.5)",Revenue from public corporations
+rev_dividend,1039.9,2016-17,TRUE,"Total - Dividends (Table 8.5)",
+rev_dividend,1120.7,2017-18,TRUE,"Total - Dividends (Table 8.5)",
+rev_dividend,1160.9,2018-19,TRUE,"Total - Dividends (Table 8.5)",

@@ -1,0 +1,119 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,7848.2,2022-23,FALSE,"Revenue from transactions (total, calculated from components)",
+rev_total,8225.5,2023-24,TRUE,"Revenue from transactions (total, calculated from components)",
+rev_total,8398.9,2024-25,TRUE,"Revenue from transactions (total, calculated from components)",
+rev_total,8481.7,2025-26,TRUE,"Revenue from transactions (total, calculated from components)",
+rev_taxation,1613.3,2022-23,FALSE,Taxation,
+rev_taxation,1715.2,2023-24,TRUE,Taxation,
+rev_taxation,1792.2,2024-25,TRUE,Taxation,
+rev_taxation,1870.7,2025-26,TRUE,Taxation,
+rev_gst,5099.5,2022-23,FALSE,Grants,"GST is included in total Grants, specific GST amount found in Chapter 5 Table 5.3"
+rev_gst,5398.6,2023-24,TRUE,Grants,"GST is included in total Grants, specific GST amount found in Chapter 5 Table 5.3"
+rev_gst,5468.7,2024-25,TRUE,Grants,"GST is included in total Grants, specific GST amount found in Chapter 5 Table 5.3"
+rev_gst,5455.7,2025-26,TRUE,Grants,"GST is included in total Grants, specific GST amount found in Chapter 5 Table 5.3"
+rev_sales_goods_svcs,451.1,2022-23,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,464.8,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,476.8,2024-25,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,481.4,2025-26,TRUE,Sales of goods and services,
+rev_interest,29.2,2022-23,FALSE,Interest income,
+rev_interest,36.3,2023-24,TRUE,Interest income,
+rev_interest,35.5,2024-25,TRUE,Interest income,
+rev_interest,36.9,2025-26,TRUE,Interest income,
+rev_dividend,336.2,2022-23,FALSE,"Dividend, tax and rate equivalent income",
+rev_dividend,294.9,2023-24,TRUE,"Dividend, tax and rate equivalent income",
+rev_dividend,311.2,2024-25,TRUE,"Dividend, tax and rate equivalent income",
+rev_dividend,331.0,2025-26,TRUE,"Dividend, tax and rate equivalent income",
+rev_other,207.8,2022-23,FALSE,Other revenue,
+rev_other,199.5,2023-24,TRUE,Other revenue,
+rev_other,196.9,2024-25,TRUE,Other revenue,
+rev_other,186.8,2025-26,TRUE,Other revenue,
+exp_total,8322.8,2022-23,FALSE,"Expenses from transactions (total, calculated from components)",
+exp_total,8206.4,2023-24,TRUE,"Expenses from transactions (total, calculated from components)",
+exp_total,8366.7,2024-25,TRUE,"Expenses from transactions (total, calculated from components)",
+exp_total,8451.2,2025-26,TRUE,"Expenses from transactions (total, calculated from components)",
+exp_employee,3393.7,2022-23,FALSE,Employee expenses,
+exp_employee,3507.8,2023-24,TRUE,Employee expenses,
+exp_employee,3664.9,2024-25,TRUE,Employee expenses,
+exp_employee,3733.4,2025-26,TRUE,Employee expenses,
+exp_super,411.5,2022-23,FALSE,Superannuation,
+exp_super,425.4,2023-24,TRUE,Superannuation,
+exp_super,449.9,2024-25,TRUE,Superannuation,
+exp_super,468.0,2025-26,TRUE,Superannuation,
+exp_depreciation,466.4,2022-23,FALSE,Depreciation,
+exp_depreciation,497.2,2023-24,TRUE,Depreciation,
+exp_depreciation,517.4,2024-25,TRUE,Depreciation,
+exp_depreciation,543.8,2025-26,TRUE,Depreciation,
+exp_interest,90.0,2022-23,FALSE,Borrowing costs,
+exp_interest,138.8,2023-24,TRUE,Borrowing costs,
+exp_interest,175.1,2024-25,TRUE,Borrowing costs,
+exp_interest,206.0,2025-26,TRUE,Borrowing costs,
+exp_other_operating,1768.2,2022-23,FALSE,Supplies and consumables,
+exp_other_operating,1630.4,2023-24,TRUE,Supplies and consumables,
+exp_other_operating,1664.5,2024-25,TRUE,Supplies and consumables,
+exp_other_operating,1663.6,2025-26,TRUE,Supplies and consumables,
+net_op_balance,-474.6,2022-23,FALSE,NET OPERATING BALANCE,
+net_op_balance,19.1,2023-24,TRUE,NET OPERATING BALANCE,
+net_op_balance,32.2,2024-25,TRUE,NET OPERATING BALANCE,
+net_op_balance,30.5,2025-26,TRUE,NET OPERATING BALANCE,
+net_lending,-1135.9,2022-23,FALSE,FISCAL BALANCE,Fiscal Balance is equivalent to Net Lending/(Borrowing)
+net_lending,-691.6,2023-24,TRUE,FISCAL BALANCE,Fiscal Balance is equivalent to Net Lending/(Borrowing)
+net_lending,-553.2,2024-25,TRUE,FISCAL BALANCE,Fiscal Balance is equivalent to Net Lending/(Borrowing)
+net_lending,-283.6,2025-26,TRUE,FISCAL BALANCE,Fiscal Balance is equivalent to Net Lending/(Borrowing)
+net_debt,2994.0,2022-23,FALSE,NET DEBT,From Table 4.2 Balance Sheet
+net_debt,3958.9,2023-24,TRUE,NET DEBT,From Table 4.2 Balance Sheet
+net_debt,4791.1,2024-25,TRUE,NET DEBT,From Table 4.2 Balance Sheet
+net_debt,5179.0,2025-26,TRUE,NET DEBT,From Table 4.2 Balance Sheet
+net_worth,10769.8,2022-23,FALSE,NET WORTH,From Table 4.2 Balance Sheet
+net_worth,11112.8,2023-24,TRUE,NET WORTH,From Table 4.2 Balance Sheet
+net_worth,11478.3,2024-25,TRUE,NET WORTH,From Table 4.2 Balance Sheet
+net_worth,11748.4,2025-26,TRUE,NET WORTH,From Table 4.2 Balance Sheet
+capex_pnfa,1176.3,2022-23,FALSE,Purchases of non-financial assets,From Table 4.3 Cash Flow Statement
+capex_pnfa,1310.9,2023-24,TRUE,Purchases of non-financial assets,From Table 4.3 Cash Flow Statement
+capex_pnfa,1200.5,2024-25,TRUE,Purchases of non-financial assets,From Table 4.3 Cash Flow Statement
+capex_pnfa,910.7,2025-26,TRUE,Purchases of non-financial assets,From Table 4.3 Cash Flow Statement
+exp_current_grants,1962.4,2022-23,FALSE,Grant and subsidy expenses,Includes current grants and subsidies
+exp_current_grants,1780.6,2023-24,TRUE,Grant and subsidy expenses,Includes current grants and subsidies
+exp_current_grants,1668.3,2024-25,TRUE,Grant and subsidy expenses,Includes current grants and subsidies
+exp_current_grants,1611.7,2025-26,TRUE,Grant and subsidy expenses,Includes current grants and subsidies
+net_cap_investment,661.3,2022-23,FALSE,Net acquisition of non-financial assets,"Calculated as Purchases of non-financial assets minus Sales of non-financial assets minus Depreciation"
+net_cap_investment,710.8,2023-24,TRUE,Net acquisition of non-financial assets,"Calculated as Purchases of non-financial assets minus Sales of non-financial assets minus Depreciation"
+net_cap_investment,585.4,2024-25,TRUE,Net acquisition of non-financial assets,"Calculated as Purchases of non-financial assets minus Sales of non-financial assets minus Depreciation"
+net_cap_investment,314.1,2025-26,TRUE,Net acquisition of non-financial assets,"Calculated as Purchases of non-financial assets minus Sales of non-financial assets minus Depreciation"
+net_fin_liabilities,12031.0,2022-23,FALSE,NET FINANCIAL LIABILITIES,From Table 4.2 Balance Sheet
+net_fin_liabilities,12948.8,2023-24,TRUE,NET FINANCIAL LIABILITIES,From Table 4.2 Balance Sheet
+net_fin_liabilities,13647.2,2024-25,TRUE,NET FINANCIAL LIABILITIES,From Table 4.2 Balance Sheet
+net_fin_liabilities,14001.6,2025-26,TRUE,NET FINANCIAL LIABILITIES,From Table 4.2 Balance Sheet
+capex_infra_program,1324.2,2022-23,FALSE,Total infrastructure investment program,"From Table 6.1, includes all infrastructure expenditure by agencies"
+capex_infra_program,1366.0,2023-24,TRUE,Total infrastructure investment program,"From Table 6.1, includes all infrastructure expenditure by agencies"
+capex_infra_program,1232.2,2024-25,TRUE,Total infrastructure investment program,"From Table 6.1, includes all infrastructure expenditure by agencies"
+capex_infra_program,931.7,2025-26,TRUE,Total infrastructure investment program,"From Table 6.1, includes all infrastructure expenditure by agencies"
+econ_gsp_growth,3.8,2020-21,FALSE,Gross state product (real, % change),Actual outcome
+econ_gsp_growth,3.75,2021-22,FALSE,Gross state product (real, % change),Revised estimate
+econ_gsp_growth,2.75,2022-23,FALSE,Gross state product (real, % change),
+econ_gsp_growth,3.0,2023-24,TRUE,Gross state product (real, % change),
+econ_gsp_growth,2.25,2024-25,TRUE,Gross state product (real, % change),Projection
+econ_gsp_growth,2.25,2025-26,TRUE,Gross state product (real, % change),Projection
+econ_employment,1.6,2020-21,FALSE,Employment (year-average, % change),Actual outcome
+econ_employment,2.25,2021-22,FALSE,Employment (year-average, % change),Revised estimate
+econ_employment,1.25,2022-23,FALSE,Employment (year-average, % change),
+econ_employment,1.0,2023-24,TRUE,Employment (year-average, % change),
+econ_employment,1.0,2024-25,TRUE,Employment (year-average, % change),Projection
+econ_employment,1.0,2025-26,TRUE,Employment (year-average, % change),Projection
+econ_unemployment,6.4,2020-21,FALSE,Unemployment rate (year-average, %),Actual outcome
+econ_unemployment,4.5,2021-22,FALSE,Unemployment rate (year-average, %),Revised estimate
+econ_unemployment,4.5,2022-23,FALSE,Unemployment rate (year-average, %),
+econ_unemployment,4.5,2023-24,TRUE,Unemployment rate (year-average, %),
+econ_unemployment,4.5,2024-25,TRUE,Unemployment rate (year-average, %),Projection
+econ_unemployment,4.5,2025-26,TRUE,Unemployment rate (year-average, %),Projection
+econ_cpi,1.8,2020-21,FALSE,Consumer Price Index (year-average, % change),Actual outcome
+econ_cpi,4.75,2021-22,FALSE,Consumer Price Index (year-average, % change),Revised estimate
+econ_cpi,5.5,2022-23,FALSE,Consumer Price Index (year-average, % change),
+econ_cpi,3.25,2023-24,TRUE,Consumer Price Index (year-average, % change),
+econ_cpi,2.5,2024-25,TRUE,Consumer Price Index (year-average, % change),Projection
+econ_cpi,2.5,2025-26,TRUE,Consumer Price Index (year-average, % change),Projection
+econ_population,0.5,2020-21,FALSE,Population (year-average, % change),Actual outcome
+econ_population,0.2,2021-22,FALSE,Population (year-average, % change),Revised estimate
+econ_population,0.7,2022-23,FALSE,Population (year-average, % change),
+econ_population,0.9,2023-24,TRUE,Population (year-average, % change),
+econ_population,0.7,2024-25,TRUE,Population (year-average, % change),Projection
+econ_population,0.7,2025-26,TRUE,Population (year-average, % change),Projection

@@ -1,0 +1,151 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,8540.0,2022-23,FALSE,Total revenue,2022-23 Estimated Outcome
+rev_total,8422.2,2023-24,FALSE,Total revenue,Budget
+rev_total,8599.4,2024-25,TRUE,Total revenue,Forward Estimate
+rev_total,8654.7,2025-26,TRUE,Total revenue,Forward Estimate
+rev_total,8786.3,2026-27,TRUE,Total revenue,Forward Estimate
+rev_taxation,1684.5,2023-24,FALSE,Taxation,Budget
+rev_gst,3520.0,2023-24,FALSE,GST revenue,Implied from chart showing GST as 67% of 5619.0m grants
+rev_grants_tied,1440.0,2023-24,FALSE,Commonwealth tied grants,Estimated from grants breakdown
+rev_grants_untied,659.0,2023-24,FALSE,Commonwealth untied grants (ex-GST),Estimated from grants breakdown
+rev_sales_goods_svcs,418.7,2023-24,FALSE,Sales of goods and services,Budget
+rev_interest,74.6,2023-24,FALSE,Interest income,Budget
+rev_dividend,302.8,2023-24,FALSE,Dividend and tax-equivalent income,Budget
+rev_other,196.4,2023-24,FALSE,Other revenue,Budget
+exp_total,8757.0,2022-23,FALSE,Total expenses,2022-23 Estimated Outcome
+exp_total,8719.7,2023-24,FALSE,Total expenses,Budget
+exp_total,8747.4,2024-25,TRUE,Total expenses,Forward Estimate
+exp_total,8642.1,2025-26,TRUE,Total expenses,Forward Estimate
+exp_total,8725.0,2026-27,TRUE,Total expenses,Forward Estimate
+exp_health,2903.1,2023-24,FALSE,Health,From chart showing expenses by purpose
+exp_education,2132.5,2023-24,FALSE,Education,From chart showing expenses by purpose
+exp_public_order,840.1,2023-24,FALSE,Public order and safety,From chart showing expenses by purpose
+exp_transport_comms,464.0,2023-24,FALSE,Transport,From chart showing expenses by purpose
+exp_social_security,672.0,2023-24,FALSE,Social protection,From chart showing expenses by purpose
+exp_general_public,547.3,2023-24,FALSE,General public services,From chart showing expenses by purpose
+exp_recreation,170.1,2023-24,FALSE,Recreation culture and religion,From chart showing expenses by purpose
+net_op_balance,-217.1,2022-23,FALSE,Net Operating Balance,2022-23 Estimated Outcome
+net_op_balance,-297.5,2023-24,FALSE,Net Operating Balance,Budget
+net_op_balance,-148.1,2024-25,TRUE,Net Operating Balance,Forward Estimate
+net_op_balance,12.7,2025-26,TRUE,Net Operating Balance,Forward Estimate
+net_op_balance,61.2,2026-27,TRUE,Net Operating Balance,Forward Estimate
+net_lending,-598.8,2022-23,FALSE,Fiscal Surplus/(Deficit),2022-23 Estimated Outcome
+net_lending,-988.8,2023-24,FALSE,Fiscal Surplus/(Deficit),Budget
+net_lending,-770.3,2024-25,TRUE,Fiscal Surplus/(Deficit),Forward Estimate
+net_lending,-412.6,2025-26,TRUE,Fiscal Surplus/(Deficit),Forward Estimate
+net_lending,-189.6,2026-27,TRUE,Fiscal Surplus/(Deficit),Forward Estimate
+net_debt,2282.9,2022-23,FALSE,Net debt at 30 June,2022-23 Estimated Outcome
+net_debt,3497.2,2023-24,FALSE,Net debt at 30 June,Budget
+net_debt,4592.8,2024-25,TRUE,Net debt at 30 June,Forward Estimate
+net_debt,5135.7,2025-26,TRUE,Net debt at 30 June,Forward Estimate
+net_debt,5596.0,2026-27,TRUE,Net debt at 30 June,Forward Estimate
+capex_pnfa,968.5,2022-23,FALSE,Infrastructure Investment,2022-23 Estimated Outcome
+capex_pnfa,1234.8,2023-24,FALSE,Infrastructure Investment,Budget
+capex_pnfa,1204.5,2024-25,TRUE,Infrastructure Investment,Forward Estimate
+capex_pnfa,993.4,2025-26,TRUE,Infrastructure Investment,Forward Estimate
+capex_pnfa,839.2,2026-27,TRUE,Infrastructure Investment,Forward Estimate
+econ_gsp_growth,4.3,2021-22,FALSE,Gross state product (real % change),Actuals
+econ_gsp_growth,1.5,2022-23,FALSE,Gross state product (real % change),Estimate
+econ_gsp_growth,2.0,2023-24,FALSE,Gross state product (real % change),Forecast
+econ_gsp_growth,2.25,2024-25,TRUE,Gross state product (real % change),Forecast
+econ_gsp_growth,2.5,2025-26,TRUE,Gross state product (real % change),Projection
+econ_gsp_growth,2.5,2026-27,TRUE,Gross state product (real % change),Projection
+econ_employment,3.0,2021-22,FALSE,Employment (year-average % change),Actuals
+econ_employment,2.5,2022-23,FALSE,Employment (year-average % change),Estimate
+econ_employment,0.5,2023-24,FALSE,Employment (year-average % change),Forecast
+econ_employment,1.0,2024-25,TRUE,Employment (year-average % change),Forecast
+econ_employment,1.25,2025-26,TRUE,Employment (year-average % change),Projection
+econ_employment,1.25,2026-27,TRUE,Employment (year-average % change),Projection
+econ_unemployment,4.4,2021-22,FALSE,Unemployment rate (year-average %),Actuals
+econ_unemployment,4.0,2022-23,FALSE,Unemployment rate (year-average %),Estimate
+econ_unemployment,4.5,2023-24,FALSE,Unemployment rate (year-average %),Forecast
+econ_unemployment,4.5,2024-25,TRUE,Unemployment rate (year-average %),Forecast
+econ_unemployment,4.5,2025-26,TRUE,Unemployment rate (year-average %),Projection
+econ_unemployment,4.5,2026-27,TRUE,Unemployment rate (year-average %),Projection
+econ_cpi,5.0,2021-22,FALSE,Consumer Price Index (year-average % change),Actuals
+econ_cpi,7.25,2022-23,FALSE,Consumer Price Index (year-average % change),Estimate
+econ_cpi,4.25,2023-24,FALSE,Consumer Price Index (year-average % change),Forecast
+econ_cpi,3.25,2024-25,TRUE,Consumer Price Index (year-average % change),Forecast
+econ_cpi,2.5,2025-26,TRUE,Consumer Price Index (year-average % change),Projection
+econ_cpi,2.5,2026-27,TRUE,Consumer Price Index (year-average % change),Projection
+econ_population,0.7,2021-22,FALSE,Population (year-average % change),Actuals
+econ_population,0.7,2022-23,FALSE,Population (year-average % change),Estimate
+econ_population,0.9,2023-24,FALSE,Population (year-average % change),Forecast
+econ_population,0.9,2024-25,TRUE,Population (year-average % change),Forecast
+econ_population,0.7,2025-26,TRUE,Population (year-average % change),Projection
+econ_population,0.7,2026-27,TRUE,Population (year-average % change),Projection
+rev_payroll,488.9,2022-23,FALSE,Payroll tax,2022-23 Estimated Outcome
+rev_payroll,512.6,2023-24,FALSE,Payroll tax,Budget
+rev_payroll,537.5,2024-25,TRUE,Payroll tax,Forward Estimate
+rev_payroll,563.7,2025-26,TRUE,Payroll tax,Forward Estimate
+rev_payroll,591.1,2026-27,TRUE,Payroll tax,Forward Estimate
+rev_stamp_duty,361.2,2022-23,FALSE,Conveyance duty,2022-23 Estimated Outcome
+rev_stamp_duty,350.7,2023-24,FALSE,Conveyance duty,Budget
+rev_stamp_duty,362.7,2024-25,TRUE,Conveyance duty,Forward Estimate
+rev_stamp_duty,384.5,2025-26,TRUE,Conveyance duty,Forward Estimate
+rev_stamp_duty,407.7,2026-27,TRUE,Conveyance duty,Forward Estimate
+rev_land_tax,164.7,2022-23,FALSE,Land tax,2022-23 Estimated Outcome
+rev_land_tax,195.0,2023-24,FALSE,Land tax,Budget
+rev_land_tax,207.7,2024-25,TRUE,Land tax,Forward Estimate
+rev_land_tax,221.1,2025-26,TRUE,Land tax,Forward Estimate
+rev_land_tax,235.4,2026-27,TRUE,Land tax,Forward Estimate
+rev_gambling,122.3,2022-23,FALSE,Gambling taxes,2022-23 Estimated Outcome from sum of components
+rev_gambling,127.2,2023-24,FALSE,Gambling taxes,Budget from sum of components
+rev_gambling,130.4,2024-25,TRUE,Gambling taxes,Forward Estimate from sum of components
+rev_gambling,133.6,2025-26,TRUE,Gambling taxes,Forward Estimate from sum of components
+rev_gambling,137.2,2026-27,TRUE,Gambling taxes,Forward Estimate from sum of components
+rev_motor_vehicle,234.8,2022-23,FALSE,Taxes on use of goods and services,2022-23 Estimated Outcome
+rev_motor_vehicle,241.8,2023-24,FALSE,Taxes on use of goods and services,Budget
+rev_motor_vehicle,249.0,2024-25,TRUE,Taxes on use of goods and services,Forward Estimate
+rev_motor_vehicle,256.3,2025-26,TRUE,Taxes on use of goods and services,Forward Estimate
+rev_motor_vehicle,263.9,2026-27,TRUE,Taxes on use of goods and services,Forward Estimate
+net_fin_liabilities,10788.8,2022-23,FALSE,Net financial liabilities,2022-23 Estimated Outcome
+net_fin_liabilities,12082.5,2023-24,FALSE,Net financial liabilities,Budget
+net_fin_liabilities,13181.4,2024-25,TRUE,Net financial liabilities,Forward Estimate
+net_fin_liabilities,13773.1,2025-26,TRUE,Net financial liabilities,Forward Estimate
+net_fin_liabilities,14100.2,2026-27,TRUE,Net financial liabilities,Forward Estimate
+net_worth,15206.8,2022-23,FALSE,Net worth,2022-23 Estimated Outcome
+net_worth,15442.7,2023-24,FALSE,Net worth,Budget
+net_worth,15794.7,2024-25,TRUE,Net worth,Forward Estimate
+net_worth,16355.2,2025-26,TRUE,Net worth,Forward Estimate
+net_worth,17212.0,2026-27,TRUE,Net worth,Forward Estimate
+cash_surplus,-532.8,2022-23,FALSE,Cash surplus/(deficit),2022-23 Estimated Outcome
+cash_surplus,-953.2,2023-24,FALSE,Cash surplus/(deficit),Budget
+cash_surplus,-881.3,2024-25,TRUE,Cash surplus/(deficit),Forward Estimate
+cash_surplus,-465.9,2025-26,TRUE,Cash surplus/(deficit),Forward Estimate
+cash_surplus,-415.7,2026-27,TRUE,Cash surplus/(deficit),Forward Estimate
+rev_grants_tied,1986.9,2022-23,FALSE,Tied Funding (Payments for Specific Purposes),2022-23 Estimated Outcome
+rev_grants_tied,2050.7,2023-24,FALSE,Tied Funding (Payments for Specific Purposes),Budget
+rev_grants_tied,2062.5,2024-25,TRUE,Tied Funding (Payments for Specific Purposes),Forward Estimate
+rev_grants_tied,1893.9,2025-26,TRUE,Tied Funding (Payments for Specific Purposes),Forward Estimate
+rev_grants_tied,1834.3,2026-27,TRUE,Tied Funding (Payments for Specific Purposes),Forward Estimate
+exp_employee,3585.0,2022-23,FALSE,Employee expenses,2022-23 Estimated Outcome
+exp_employee,3710.5,2023-24,FALSE,Employee expenses,Budget
+exp_employee,3822.0,2024-25,TRUE,Employee expenses,Forward Estimate
+exp_employee,3879.9,2025-26,TRUE,Employee expenses,Forward Estimate
+exp_employee,3956.7,2026-27,TRUE,Employee expenses,Forward Estimate
+exp_super,422.4,2022-23,FALSE,Superannuation expenses,2022-23 Estimated Outcome
+exp_super,439.6,2023-24,FALSE,Superannuation expenses,Budget
+exp_super,461.9,2024-25,TRUE,Superannuation expenses,Forward Estimate
+exp_super,481.7,2025-26,TRUE,Superannuation expenses,Forward Estimate
+exp_super,486.0,2026-27,TRUE,Superannuation expenses,Forward Estimate
+exp_depreciation,456.0,2022-23,FALSE,Depreciation,2022-23 Estimated Outcome
+exp_depreciation,448.1,2023-24,FALSE,Depreciation,Budget
+exp_depreciation,466.8,2024-25,TRUE,Depreciation,Forward Estimate
+exp_depreciation,487.6,2025-26,TRUE,Depreciation,Forward Estimate
+exp_depreciation,501.1,2026-27,TRUE,Depreciation,Forward Estimate
+exp_interest,86.3,2022-23,FALSE,Borrowing costs,2022-23 Estimated Outcome
+exp_interest,144.9,2023-24,FALSE,Borrowing costs,Budget
+exp_interest,201.6,2024-25,TRUE,Borrowing costs,Forward Estimate
+exp_interest,250.7,2025-26,TRUE,Borrowing costs,Forward Estimate
+exp_interest,285.5,2026-27,TRUE,Borrowing costs,Forward Estimate
+exp_current_grants,2146.9,2022-23,FALSE,Grant and subsidy expenses,2022-23 Estimated Outcome
+exp_current_grants,1991.8,2023-24,FALSE,Grant and subsidy expenses,Budget
+exp_current_grants,1856.1,2024-25,TRUE,Grant and subsidy expenses,Forward Estimate
+exp_current_grants,1688.4,2025-26,TRUE,Grant and subsidy expenses,Forward Estimate
+exp_current_grants,1677.2,2026-27,TRUE,Grant and subsidy expenses,Forward Estimate
+exp_other_operating,1714.9,2022-23,FALSE,Supplies and consumables,2022-23 Estimated Outcome
+exp_other_operating,1650.0,2023-24,FALSE,Supplies and consumables,Budget
+exp_other_operating,1657.4,2024-25,TRUE,Supplies and consumables,Forward Estimate
+exp_other_operating,1627.7,2025-26,TRUE,Supplies and consumables,Forward Estimate
+exp_other_operating,1660.9,2026-27,TRUE,Supplies and consumables,Forward Estimate

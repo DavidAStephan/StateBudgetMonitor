@@ -1,0 +1,313 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,43102,2022-23,FALSE,Revenue,Estimated Actual
+rev_total,43218,2023-24,FALSE,Revenue,Budget Year
+rev_total,40567,2024-25,TRUE,Revenue,
+rev_total,40678,2025-26,TRUE,Revenue,
+rev_total,41525,2026-27,TRUE,Revenue,
+exp_total,38875,2022-23,FALSE,Expenses,Estimated Actual
+exp_total,39925,2023-24,FALSE,Expenses,Budget Year
+exp_total,38200,2024-25,TRUE,Expenses,
+exp_total,38138,2025-26,TRUE,Expenses,
+exp_total,38642,2026-27,TRUE,Expenses,
+net_op_balance,4226,2022-23,FALSE,Net Operating Balance,Estimated Actual
+net_op_balance,3293,2023-24,FALSE,Net Operating Balance,Budget Year
+net_op_balance,2367,2024-25,TRUE,Net Operating Balance,
+net_op_balance,2540,2025-26,TRUE,Net Operating Balance,
+net_op_balance,2883,2026-27,TRUE,Net Operating Balance,
+net_worth,138749,2022-23,FALSE,Net Worth,Estimated Actual at 30 June
+net_worth,144817,2023-24,FALSE,Net Worth,Budget Year at 30 June
+net_worth,148139,2024-25,TRUE,Net Worth,at 30 June
+net_worth,152002,2025-26,TRUE,Net Worth,at 30 June
+net_worth,156335,2026-27,TRUE,Net Worth,at 30 June
+net_debt,19085,2022-23,FALSE,Net Debt at 30 June,Estimated Actual
+net_debt,22060,2023-24,FALSE,Net Debt at 30 June,Budget Year
+net_debt,25527,2024-25,TRUE,Net Debt at 30 June,
+net_debt,26704,2025-26,TRUE,Net Debt at 30 June,
+net_debt,27073,2026-27,TRUE,Net Debt at 30 June,
+capex_pnfa,3244,2022-23,FALSE,Asset Investment Program,Estimated Actual
+capex_pnfa,3189,2023-24,FALSE,Asset Investment Program,Budget Year
+capex_pnfa,4182,2024-25,TRUE,Asset Investment Program,
+capex_pnfa,4231,2025-26,TRUE,Asset Investment Program,
+capex_pnfa,3973,2026-27,TRUE,Asset Investment Program,
+cash_surplus,3125,2022-23,FALSE,Cash Surplus/Deficit,Estimated Actual
+cash_surplus,3202,2023-24,FALSE,Cash Surplus/Deficit,Budget Year
+cash_surplus,9,2024-25,TRUE,Cash Surplus/Deficit,
+cash_surplus,381,2025-26,TRUE,Cash Surplus/Deficit,
+cash_surplus,1024,2026-27,TRUE,Cash Surplus/Deficit,
+rev_total,41658,2021-22,FALSE,Total,Actual
+rev_total,43102,2022-23,FALSE,Total,Estimated Actual
+rev_total,43218,2023-24,FALSE,Total,Budget Year
+rev_total,40567,2024-25,TRUE,Total,Outyear
+rev_total,40678,2025-26,TRUE,Total,Outyear
+rev_total,41525,2026-27,TRUE,Total,Outyear
+rev_taxation,11634,2021-22,FALSE,Taxation,Actual
+rev_taxation,12153,2022-23,FALSE,Taxation,Estimated Actual
+rev_taxation,11915,2023-24,FALSE,Taxation,Budget Year
+rev_taxation,12052,2024-25,TRUE,Taxation,Outyear
+rev_taxation,12488,2025-26,TRUE,Taxation,Outyear
+rev_taxation,12806,2026-27,TRUE,Taxation,Outyear
+rev_sales_goods_svcs,3027,2021-22,FALSE,Sales of goods and services,Actual
+rev_sales_goods_svcs,3069,2022-23,FALSE,Sales of goods and services,Estimated Actual
+rev_sales_goods_svcs,3149,2023-24,FALSE,Sales of goods and services,Budget Year
+rev_sales_goods_svcs,3149,2024-25,TRUE,Sales of goods and services,Outyear
+rev_sales_goods_svcs,3182,2025-26,TRUE,Sales of goods and services,Outyear
+rev_sales_goods_svcs,3170,2026-27,TRUE,Sales of goods and services,Outyear
+rev_interest,127,2021-22,FALSE,Interest income,Actual
+rev_interest,279,2022-23,FALSE,Interest income,Estimated Actual
+rev_interest,265,2023-24,FALSE,Interest income,Budget Year
+rev_interest,250,2024-25,TRUE,Interest income,Outyear
+rev_interest,247,2025-26,TRUE,Interest income,Outyear
+rev_interest,260,2026-27,TRUE,Interest income,Outyear
+rev_dividend,1518,2021-22,FALSE,Revenue from public corporations,Actual - includes both dividends and tax equivalent revenue
+rev_dividend,894,2022-23,FALSE,Revenue from public corporations,Estimated Actual - includes both dividends and tax equivalent revenue
+rev_dividend,2208,2023-24,FALSE,Revenue from public corporations,Budget Year - includes both dividends and tax equivalent revenue
+rev_dividend,2481,2024-25,TRUE,Revenue from public corporations,Outyear - includes both dividends and tax equivalent revenue
+rev_dividend,2629,2025-26,TRUE,Revenue from public corporations,Outyear - includes both dividends and tax equivalent revenue
+rev_dividend,2771,2026-27,TRUE,Revenue from public corporations,Outyear - includes both dividends and tax equivalent revenue
+rev_other,799,2021-22,FALSE,Other,Actual
+rev_other,730,2022-23,FALSE,Other,Estimated Actual
+rev_other,957,2023-24,FALSE,Other,Budget Year
+rev_other,752,2024-25,TRUE,Other,Outyear
+rev_other,628,2025-26,TRUE,Other,Outyear
+rev_other,613,2026-27,TRUE,Other,Outyear
+rev_gst,5484,2021-22,FALSE,GST-related grants,Actual
+rev_gst,6353,2022-23,FALSE,GST-related grants,Estimated Actual
+rev_gst,6484,2023-24,FALSE,GST-related grants,Budget Year
+rev_gst,7179,2024-25,TRUE,GST-related grants,Outyear
+rev_gst,7535,2025-26,TRUE,GST-related grants,Outyear
+rev_gst,8907,2026-27,TRUE,GST-related grants,Outyear
+exp_total,39925,2023-24,FALSE,Total expenses,"Budget Year - from Figure 1, page 86"
+exp_health,12126,2023-24,FALSE,Health and Mental Health,"Budget Year - from Figure 1, page 86"
+exp_education,6425,2023-24,FALSE,Education,"Budget Year - from Figure 1, page 86"
+exp_transport_comms,4067,2023-24,FALSE,Roads Rail and Transport,"Budget Year - from Figure 1, page 86"
+exp_public_order,4348,2023-24,FALSE,Community Safety,"Budget Year - from Figure 1, page 86"
+exp_transport_comms,80.0,2022-23,FALSE,Ex-Tropical Cyclone Ellie – Roads Recovery,"Main Roads recovery works from Ex-Tropical Cyclone Ellie, under Major Spending Changes for Commissioner of Main Roads"
+capex_pnfa,50.0,2022-23,FALSE,Westport Strategic Land Acquisitions,"New investment for Main Roads to progress strategic land acquisitions for Westport precinct, under WA Jobs Plan section"
+capex_pnfa,2164.3,2022-23,FALSE,Main Roads total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,2286.2,2023-24,TRUE,Main Roads total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,1858.0,2024-25,TRUE,Main Roads total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,1418.6,2025-26,TRUE,Main Roads total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,922.7,2026-27,TRUE,Main Roads total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,2227.5,2022-23,FALSE,Public Transport Authority total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,3280.0,2023-24,TRUE,Public Transport Authority total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,1984.1,2024-25,TRUE,Public Transport Authority total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,551.3,2025-26,TRUE,Public Transport Authority total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,352.0,2026-27,TRUE,Public Transport Authority total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,52.6,2022-23,FALSE,Department of Transport total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,63.0,2023-24,TRUE,Department of Transport total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,82.7,2024-25,TRUE,Department of Transport total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,65.6,2025-26,TRUE,Department of Transport total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,21.8,2026-27,TRUE,Department of Transport total,"From Asset Investment in Road, Rail and Transport Infrastructure table"
+capex_pnfa,82.6,2022-23,FALSE,Fremantle Port Authority,"From Asset Investment in Ports table"
+capex_pnfa,95.3,2023-24,TRUE,Fremantle Port Authority,"From Asset Investment in Ports table"
+capex_pnfa,40.4,2024-25,TRUE,Fremantle Port Authority,"From Asset Investment in Ports table"
+capex_pnfa,25.1,2025-26,TRUE,Fremantle Port Authority,"From Asset Investment in Ports table"
+capex_pnfa,16.5,2026-27,TRUE,Fremantle Port Authority,"From Asset Investment in Ports table"
+capex_pnfa,2.7,2022-23,FALSE,Kimberley Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,61.2,2023-24,TRUE,Kimberley Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,20.1,2024-25,TRUE,Kimberley Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,1.6,2025-26,TRUE,Kimberley Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,1.6,2026-27,TRUE,Kimberley Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,26.1,2022-23,FALSE,Mid West Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,92.0,2023-24,TRUE,Mid West Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,142.7,2024-25,TRUE,Mid West Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,160.5,2025-26,TRUE,Mid West Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,5.5,2026-27,TRUE,Mid West Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,173.8,2022-23,FALSE,Pilbara Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,291.6,2023-24,TRUE,Pilbara Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,138.0,2024-25,TRUE,Pilbara Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,101.9,2025-26,TRUE,Pilbara Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,44.5,2026-27,TRUE,Pilbara Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,33.8,2022-23,FALSE,Southern Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,62.1,2023-24,TRUE,Southern Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,44.7,2024-25,TRUE,Southern Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,12.0,2025-26,TRUE,Southern Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,11.1,2026-27,TRUE,Southern Ports Authority,"From Asset Investment in Ports table"
+capex_pnfa,1267.3,2022-23,FALSE,Electricity Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,1269.2,2023-24,TRUE,Electricity Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,1234.3,2024-25,TRUE,Electricity Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,1193.4,2025-26,TRUE,Electricity Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,1182.5,2026-27,TRUE,Electricity Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,728.1,2022-23,FALSE,Water Corporation,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,1113.5,2023-24,TRUE,Water Corporation,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,862.8,2024-25,TRUE,Water Corporation,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,700.0,2025-26,TRUE,Water Corporation,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,710.6,2026-27,TRUE,Water Corporation,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,14.7,2022-23,FALSE,Bunbury and Busselton Water Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,22.1,2023-24,TRUE,Bunbury and Busselton Water Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,29.5,2024-25,TRUE,Bunbury and Busselton Water Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,10.5,2025-26,TRUE,Bunbury and Busselton Water Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,7.9,2026-27,TRUE,Bunbury and Busselton Water Corporations,"From Asset Investment in Western Australian Utilities table"
+capex_pnfa,453.0,2022-23,FALSE,WA Health,"From Asset Investment in Health and Education table"
+capex_pnfa,765.9,2023-24,TRUE,WA Health,"From Asset Investment in Health and Education table"
+capex_pnfa,620.4,2024-25,TRUE,WA Health,"From Asset Investment in Health and Education table"
+capex_pnfa,478.5,2025-26,TRUE,WA Health,"From Asset Investment in Health and Education table"
+capex_pnfa,650.7,2026-27,TRUE,WA Health,"From Asset Investment in Health and Education table"
+capex_pnfa,538.3,2022-23,FALSE,Education,"From Asset Investment in Health and Education table"
+capex_pnfa,626.8,2023-24,TRUE,Education,"From Asset Investment in Health and Education table"
+capex_pnfa,484.5,2024-25,TRUE,Education,"From Asset Investment in Health and Education table"
+capex_pnfa,267.5,2025-26,TRUE,Education,"From Asset Investment in Health and Education table"
+capex_pnfa,166.4,2026-27,TRUE,Education,"From Asset Investment in Health and Education table"
+capex_pnfa,80.4,2022-23,FALSE,Department of Justice,"From Asset Investment in Community Safety table"
+capex_pnfa,137.5,2023-24,TRUE,Department of Justice,"From Asset Investment in Community Safety table"
+capex_pnfa,70.8,2024-25,TRUE,Department of Justice,"From Asset Investment in Community Safety table"
+capex_pnfa,19.3,2025-26,TRUE,Department of Justice,"From Asset Investment in Community Safety table"
+capex_pnfa,15.5,2026-27,TRUE,Department of Justice,"From Asset Investment in Community Safety table"
+capex_pnfa,95.7,2022-23,FALSE,Western Australia Police Force,"From Asset Investment in Community Safety table"
+capex_pnfa,146.6,2023-24,TRUE,Western Australia Police Force,"From Asset Investment in Community Safety table"
+capex_pnfa,102.7,2024-25,TRUE,Western Australia Police Force,"From Asset Investment in Community Safety table"
+capex_pnfa,51.8,2025-26,TRUE,Western Australia Police Force,"From Asset Investment in Community Safety table"
+capex_pnfa,25.8,2026-27,TRUE,Western Australia Police Force,"From Asset Investment in Community Safety table"
+capex_pnfa,49.2,2022-23,FALSE,Fire and Emergency Services,"From Asset Investment in Community Safety table"
+capex_pnfa,55.6,2023-24,TRUE,Fire and Emergency Services,"From Asset Investment in Community Safety table"
+capex_pnfa,53.8,2024-25,TRUE,Fire and Emergency Services,"From Asset Investment in Community Safety table"
+capex_pnfa,38.4,2025-26,TRUE,Fire and Emergency Services,"From Asset Investment in Community Safety table"
+capex_pnfa,30.5,2026-27,TRUE,Fire and Emergency Services,"From Asset Investment in Community Safety table"
+capex_pnfa,493.2,2022-23,FALSE,Communities,"From Asset Investment in Communities table"
+capex_pnfa,545.4,2023-24,TRUE,Communities,"From Asset Investment in Communities table"
+capex_pnfa,364.3,2024-25,TRUE,Communities,"From Asset Investment in Communities table"
+capex_pnfa,296.9,2025-26,TRUE,Communities,"From Asset Investment in Communities table"
+capex_pnfa,267.1,2026-27,TRUE,Communities,"From Asset Investment in Communities table"
+capex_pnfa,57.1,2022-23,FALSE,Local Government Sport and Cultural Industries,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,115.7,2023-24,TRUE,Local Government Sport and Cultural Industries,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,166.5,2024-25,TRUE,Local Government Sport and Cultural Industries,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,128.7,2025-26,TRUE,Local Government Sport and Cultural Industries,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,53.0,2026-27,TRUE,Local Government Sport and Cultural Industries,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,74.4,2022-23,FALSE,Western Australian Sports Centre Trust,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,34.1,2023-24,TRUE,Western Australian Sports Centre Trust,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,20.8,2024-25,TRUE,Western Australian Sports Centre Trust,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,27.6,2025-26,TRUE,Western Australian Sports Centre Trust,"From Asset Investment in Vibrant Communities table"
+capex_pnfa,20.5,2026-27,TRUE,Western Australian Sports Centre Trust,"From Asset Investment in Vibrant Communities table"
+rev_total,43218,2023-24,FALSE,Total revenue,From Table 1.1
+rev_total,40567,2024-25,TRUE,Total revenue,From Table 1.1
+rev_total,40678,2025-26,TRUE,Total revenue,From Table 1.1
+rev_total,41525,2026-27,TRUE,Total revenue,From Table 1.1
+rev_taxation,11915,2023-24,FALSE,Taxation,From Table 1.1
+rev_taxation,12052,2024-25,TRUE,Taxation,From Table 1.1
+rev_taxation,12488,2025-26,TRUE,Taxation,From Table 1.1
+rev_taxation,12806,2026-27,TRUE,Taxation,From Table 1.1
+rev_gst,7982,2023-24,FALSE,GST revenue,Inferred from royalty income line in Table 1.1 (commonwealth grants context)
+rev_gst,7046,2024-25,TRUE,GST revenue,Inferred from royalty income line
+rev_gst,6968,2025-26,TRUE,GST revenue,Inferred from royalty income line
+rev_gst,6671,2026-27,TRUE,GST revenue,Inferred from royalty income line
+rev_sales_goods_svcs,3149,2023-24,FALSE,Sales of goods and services,From Table 1.1
+rev_sales_goods_svcs,3149,2024-25,TRUE,Sales of goods and services,From Table 1.1
+rev_sales_goods_svcs,3182,2025-26,TRUE,Sales of goods and services,From Table 1.1
+rev_sales_goods_svcs,3170,2026-27,TRUE,Sales of goods and services,From Table 1.1
+rev_interest,265,2023-24,FALSE,Interest income,From Table 1.1
+rev_interest,250,2024-25,TRUE,Interest income,From Table 1.1
+rev_interest,247,2025-26,TRUE,Interest income,From Table 1.1
+rev_interest,260,2026-27,TRUE,Interest income,From Table 1.1
+rev_dividend,1423,2023-24,FALSE,Dividends from other sector entities,From Table 1.1
+rev_dividend,1592,2024-25,TRUE,Dividends from other sector entities,From Table 1.1
+rev_dividend,1690,2025-26,TRUE,Dividends from other sector entities,From Table 1.1
+rev_dividend,1791,2026-27,TRUE,Dividends from other sector entities,From Table 1.1
+exp_total,39925,2023-24,FALSE,Total expenses,From Table 1.1
+exp_total,38200,2024-25,TRUE,Total expenses,From Table 1.1
+exp_total,38138,2025-26,TRUE,Total expenses,From Table 1.1
+exp_total,38642,2026-27,TRUE,Total expenses,From Table 1.1
+exp_employee,15671,2023-24,FALSE,Salaries,From Table 1.1 (employee expenses)
+exp_employee,16100,2024-25,TRUE,Salaries,From Table 1.1
+exp_employee,16534,2025-26,TRUE,Salaries,From Table 1.1
+exp_employee,16891,2026-27,TRUE,Salaries,From Table 1.1
+exp_super,1776,2023-24,FALSE,Concurrent costs,From Table 1.1 Superannuation concurrent costs
+exp_super,1909,2024-25,TRUE,Concurrent costs,From Table 1.1
+exp_super,2049,2025-26,TRUE,Concurrent costs,From Table 1.1
+exp_super,2087,2026-27,TRUE,Concurrent costs,From Table 1.1
+exp_depreciation,2150,2023-24,FALSE,Depreciation and amortisation,From Table 1.1
+exp_depreciation,2140,2024-25,TRUE,Depreciation and amortisation,From Table 1.1
+exp_depreciation,2128,2025-26,TRUE,Depreciation and amortisation,From Table 1.1
+exp_depreciation,2136,2026-27,TRUE,Depreciation and amortisation,From Table 1.1
+exp_interest,741,2023-24,FALSE,Other interest,From Table 1.1 (excluding lease interest)
+exp_interest,756,2024-25,TRUE,Other interest,From Table 1.1
+exp_interest,779,2025-26,TRUE,Other interest,From Table 1.1
+exp_interest,826,2026-27,TRUE,Other interest,From Table 1.1
+net_op_balance,3293,2023-24,FALSE,NET OPERATING BALANCE,From Table 1.1
+net_op_balance,2367,2024-25,TRUE,NET OPERATING BALANCE,From Table 1.1
+net_op_balance,2540,2025-26,TRUE,NET OPERATING BALANCE,From Table 1.1
+net_op_balance,2883,2026-27,TRUE,NET OPERATING BALANCE,From Table 1.1
+net_cap_investment,1052,2023-24,FALSE,Total net acquisition of non-financial assets,From Table 1.1
+net_cap_investment,2101,2024-25,TRUE,Total net acquisition of non-financial assets,From Table 1.1
+net_cap_investment,2037,2025-26,TRUE,Total net acquisition of non-financial assets,From Table 1.1
+net_cap_investment,1771,2026-27,TRUE,Total net acquisition of non-financial assets,From Table 1.1
+net_lending,2241,2023-24,FALSE,NET LENDING/-BORROWING,From Table 1.1
+net_lending,266,2024-25,TRUE,NET LENDING/-BORROWING,From Table 1.1
+net_lending,503,2025-26,TRUE,NET LENDING/-BORROWING,From Table 1.1
+net_lending,1113,2026-27,TRUE,NET LENDING/-BORROWING,From Table 1.1
+cash_surplus,3202,2023-24,FALSE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,9,2024-25,TRUE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,381,2025-26,TRUE,Cash surplus/-deficit,From Table 1.3
+cash_surplus,1024,2026-27,TRUE,Cash surplus/-deficit,From Table 1.3
+net_debt,22060,2023-24,FALSE,Net debt,From Table 1.2
+net_debt,25527,2024-25,TRUE,Net debt,From Table 1.2
+net_debt,26704,2025-26,TRUE,Net debt,From Table 1.2
+net_debt,27073,2026-27,TRUE,Net debt,From Table 1.2
+net_fin_liabilities,32842,2023-24,FALSE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,36281,2024-25,TRUE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,37560,2025-26,TRUE,Net financial liabilities,From Table 1.2
+net_fin_liabilities,38047,2026-27,TRUE,Net financial liabilities,From Table 1.2
+net_worth,144817,2023-24,FALSE,NET WORTH,From Table 1.2
+net_worth,148139,2024-25,TRUE,NET WORTH,From Table 1.2
+net_worth,152002,2025-26,TRUE,NET WORTH,From Table 1.2
+net_worth,156335,2026-27,TRUE,NET WORTH,From Table 1.2
+capex_pnfa,3189,2023-24,FALSE,Purchase of non-financial assets,From Table 1.1
+capex_pnfa,4182,2024-25,TRUE,Purchase of non-financial assets,From Table 1.1
+capex_pnfa,4231,2025-26,TRUE,Purchase of non-financial assets,From Table 1.1
+capex_pnfa,3973,2026-27,TRUE,Purchase of non-financial assets,From Table 1.1
+rev_total,43218,2023-24,FALSE,"TOTAL REVENUE",Budget year
+rev_total,40567,2024-25,TRUE,"TOTAL REVENUE",Forward estimate
+rev_total,40678,2025-26,TRUE,"TOTAL REVENUE",Forward estimate
+rev_total,41525,2026-27,TRUE,"TOTAL REVENUE",Forward estimate
+rev_taxation,11915,2023-24,FALSE,"Total Taxation",Budget year
+rev_taxation,12052,2024-25,TRUE,"Total Taxation",Forward estimate
+rev_taxation,12488,2025-26,TRUE,"Total Taxation",Forward estimate
+rev_taxation,12806,2026-27,TRUE,"Total Taxation",Forward estimate
+rev_payroll,4981,2023-24,FALSE,"Payroll tax",Budget year
+rev_payroll,5132,2024-25,TRUE,"Payroll tax",Forward estimate
+rev_payroll,5287,2025-26,TRUE,"Payroll tax",Forward estimate
+rev_payroll,5445,2026-27,TRUE,"Payroll tax",Forward estimate
+rev_stamp_duty,1989,2023-24,FALSE,"Total duty on transfers",Budget year
+rev_stamp_duty,1997,2024-25,TRUE,"Total duty on transfers",Forward estimate
+rev_stamp_duty,2147,2025-26,TRUE,"Total duty on transfers",Forward estimate
+rev_stamp_duty,2181,2026-27,TRUE,"Total duty on transfers",Forward estimate
+rev_land_tax,842,2023-24,FALSE,"Land tax",Budget year
+rev_land_tax,850,2024-25,TRUE,"Land tax",Forward estimate
+rev_land_tax,858,2025-26,TRUE,"Land tax",Forward estimate
+rev_land_tax,871,2026-27,TRUE,"Land tax",Forward estimate
+rev_gambling,356,2023-24,FALSE,"Total taxes on gambling",Budget year
+rev_gambling,355,2024-25,TRUE,"Total taxes on gambling",Forward estimate
+rev_gambling,362,2025-26,TRUE,"Total taxes on gambling",Forward estimate
+rev_gambling,367,2026-27,TRUE,"Total taxes on gambling",Forward estimate
+rev_motor_vehicle,1879,2023-24,FALSE,"Total motor vehicle taxes",Budget year
+rev_motor_vehicle,1780,2024-25,TRUE,"Total motor vehicle taxes",Forward estimate
+rev_motor_vehicle,1840,2025-26,TRUE,"Total motor vehicle taxes",Forward estimate
+rev_motor_vehicle,1902,2026-27,TRUE,"Total motor vehicle taxes",Forward estimate
+rev_gst,6484,2023-24,FALSE,"GST grants",Budget year
+rev_gst,7179,2024-25,TRUE,"GST grants",Forward estimate
+rev_gst,7535,2025-26,TRUE,"GST grants",Forward estimate
+rev_gst,8907,2026-27,TRUE,"GST grants",Forward estimate
+rev_grants_tied,6920,2023-24,FALSE,"Calculated from National Agreements + National Partnerships/Other Grants current grants",Subtotal of National Agreements and National Partnerships current grants
+rev_grants_tied,5901,2024-25,TRUE,"Calculated from National Agreements + National Partnerships/Other Grants current grants",Subtotal of National Agreements and National Partnerships current grants
+rev_grants_tied,5708,2025-26,TRUE,"Calculated from National Agreements + National Partnerships/Other Grants current grants",Subtotal of National Agreements and National Partnerships current grants
+rev_grants_tied,5900,2026-27,TRUE,"Calculated from National Agreements + National Partnerships/Other Grants current grants",Subtotal of National Agreements and National Partnerships current grants
+rev_sales_goods_svcs,3149,2023-24,FALSE,"Total Sale of Goods and Services",Budget year
+rev_sales_goods_svcs,3149,2024-25,TRUE,"Total Sale of Goods and Services",Forward estimate
+rev_sales_goods_svcs,3182,2025-26,TRUE,"Total Sale of Goods and Services",Forward estimate
+rev_sales_goods_svcs,3170,2026-27,TRUE,"Total Sale of Goods and Services",Forward estimate
+rev_interest,265,2023-24,FALSE,"INTEREST INCOME",Budget year
+rev_interest,250,2024-25,TRUE,"INTEREST INCOME",Forward estimate
+rev_interest,247,2025-26,TRUE,"INTEREST INCOME",Forward estimate
+rev_interest,260,2026-27,TRUE,"INTEREST INCOME",Forward estimate
+rev_dividend,2208,2023-24,FALSE,"Total Revenue from Public Corporations",Budget year
+rev_dividend,2481,2024-25,TRUE,"Total Revenue from Public Corporations",Forward estimate
+rev_dividend,2629,2025-26,TRUE,"Total Revenue from Public Corporations",Forward estimate
+rev_dividend,2771,2026-27,TRUE,"Total Revenue from Public Corporations",Forward estimate
+rev_other,7982,2023-24,FALSE,"Total Royalty Income",Budget year
+rev_other,7046,2024-25,TRUE,"Total Royalty Income",Forward estimate
+rev_other,6968,2025-26,TRUE,"Total Royalty Income",Forward estimate
+rev_other,6671,2026-27,TRUE,"Total Royalty Income",Forward estimate
+capex_infra_program,8233.6,2022-23,FALSE,"TOTAL, Asset Investment Program table (Table 7.1)",
+capex_infra_program,10404.8,2023-24,FALSE,"TOTAL, Asset Investment Program table (Table 7.1)",
+capex_infra_program,10431.3,2024-25,TRUE,"TOTAL, Asset Investment Program table (Table 7.1)",
+capex_infra_program,9833.8,2025-26,TRUE,"TOTAL, Asset Investment Program table (Table 7.1)",
+capex_infra_program,8334.4,2026-27,TRUE,"TOTAL, Asset Investment Program table (Table 7.1)",
