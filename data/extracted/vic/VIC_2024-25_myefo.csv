@@ -1,0 +1,59 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,98059,2024-25,FALSE,Total revenue and income from transactions,
+rev_total,103426,2025-26,TRUE,Total revenue and income from transactions,
+rev_total,107036,2026-27,TRUE,Total revenue and income from transactions,
+rev_total,110364,2027-28,TRUE,Total revenue and income from transactions,
+rev_taxation,39152,2024-25,FALSE,Taxation,
+rev_taxation,41563,2025-26,TRUE,Taxation,
+rev_taxation,43776,2026-27,TRUE,Taxation,
+rev_taxation,45788,2027-28,TRUE,Taxation,
+rev_payroll,11100,2024-25,FALSE,Taxes on employers' payroll and labour force,"Includes payroll tax, COVID Debt Levy - Payroll 10m+, and Mental Health and Wellbeing Levy"
+rev_land_tax,7700,2024-25,FALSE,Land taxes,
+rev_stamp_duty,8700,2024-25,FALSE,Land transfer duty,
+rev_gambling,2800,2024-25,FALSE,Gambling taxes,
+rev_motor_vehicle,3600,2024-25,FALSE,Motor vehicle taxes,
+rev_dividend,2523,2024-25,FALSE,Dividends, TER and interest,Comprises dividends and income tax equivalent revenue and interest
+rev_dividend,2264,2025-26,TRUE,Dividends, TER and interest,Comprises dividends and income tax equivalent revenue and interest
+rev_dividend,2334,2026-27,TRUE,Dividends, TER and interest,Comprises dividends and income tax equivalent revenue and interest
+rev_dividend,2398,2027-28,TRUE,Dividends, TER and interest,Comprises dividends and income tax equivalent revenue and interest
+rev_sales_goods_svcs,7080,2024-25,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,7165,2025-26,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,7252,2026-27,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,7317,2027-28,TRUE,Sales of goods and services,
+rev_gst,23600,2024-25,FALSE,GST revenue,
+rev_other,3706,2024-25,FALSE,Other revenue and income,Includes fines, royalties, donations and gifts, assets received free of charge
+rev_other,3269,2025-26,TRUE,Other revenue and income,Includes fines, royalties, donations and gifts, assets received free of charge
+rev_other,3813,2026-27,TRUE,Other revenue and income,Includes fines, royalties, donations and gifts, assets received free of charge
+rev_other,3536,2027-28,TRUE,Other revenue and income,Includes fines, royalties, donations and gifts, assets received free of charge
+exp_total,101653,2024-25,FALSE,Total expenses from transactions,
+exp_total,101847,2025-26,TRUE,Total expenses from transactions,
+exp_total,105318,2026-27,TRUE,Total expenses from transactions,
+exp_total,108410,2027-28,TRUE,Total expenses from transactions,
+exp_employee,37526,2024-25,FALSE,Employee expenses,
+exp_employee,38433,2025-26,TRUE,Employee expenses,
+exp_employee,40046,2026-27,TRUE,Employee expenses,
+exp_employee,41233,2027-28,TRUE,Employee expenses,
+exp_super,4867,2024-25,FALSE,Superannuation,Comprises superannuation interest expense and other superannuation expenses
+exp_super,4913,2025-26,TRUE,Superannuation,Comprises superannuation interest expense and other superannuation expenses
+exp_super,5040,2026-27,TRUE,Superannuation,Comprises superannuation interest expense and other superannuation expenses
+exp_super,5193,2027-28,TRUE,Superannuation,Comprises superannuation interest expense and other superannuation expenses
+exp_depreciation,5512,2024-25,FALSE,Depreciation,
+exp_depreciation,5840,2025-26,TRUE,Depreciation,
+exp_depreciation,6040,2026-27,TRUE,Depreciation,
+exp_depreciation,6177,2027-28,TRUE,Depreciation,
+exp_interest,6582,2024-25,FALSE,Interest expense,
+exp_interest,7410,2025-26,TRUE,Interest expense,
+exp_interest,8345,2026-27,TRUE,Interest expense,
+exp_interest,9317,2027-28,TRUE,Interest expense,
+exp_current_grants,17728,2024-25,FALSE,Grant expense,
+exp_current_grants,17483,2025-26,TRUE,Grant expense,
+exp_current_grants,17362,2026-27,TRUE,Grant expense,
+exp_current_grants,17497,2027-28,TRUE,Grant expense,
+exp_other_operating,29438,2024-25,FALSE,Other operating expenses,
+exp_other_operating,27769,2025-26,TRUE,Other operating expenses,
+exp_other_operating,28486,2026-27,TRUE,Other operating expenses,
+exp_other_operating,28993,2027-28,TRUE,Other operating expenses,
+net_op_balance,-3595,2024-25,FALSE,Net result from transactions – Net operating balance,
+net_op_balance,1579,2025-26,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,1718,2026-27,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,1954,2027-28,TRUE,Net result from transactions – Net operating balance,

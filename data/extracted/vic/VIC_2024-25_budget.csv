@@ -1,0 +1,77 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,96084,2024-25,FALSE,Total revenue and income from transactions,
+rev_total,101064,2025-26,TRUE,Total revenue and income from transactions,
+rev_total,104801,2026-27,TRUE,Total revenue and income from transactions,
+rev_total,106903,2027-28,TRUE,Total revenue and income from transactions,
+rev_taxation,38979,2024-25,FALSE,Taxation,
+rev_taxation,40988,2025-26,TRUE,Taxation,
+rev_taxation,42922,2026-27,TRUE,Taxation,
+rev_taxation,45084,2027-28,TRUE,Taxation,
+rev_interest,1283,2024-25,FALSE,Interest income,
+rev_interest,1136,2025-26,TRUE,Interest income,
+rev_interest,1140,2026-27,TRUE,Interest income,
+rev_interest,1145,2027-28,TRUE,Interest income,
+rev_dividend,1015,2024-25,FALSE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1156,2025-26,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1244,2026-27,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1310,2027-28,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_sales_goods_svcs,6794,2024-25,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,6904,2025-26,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6987,2026-27,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,7076,2027-28,TRUE,Sales of goods and services,
+rev_other,3201,2024-25,FALSE,Other revenue and income,
+rev_other,3237,2025-26,TRUE,Other revenue and income,
+rev_other,3744,2026-27,TRUE,Other revenue and income,
+rev_other,3457,2027-28,TRUE,Other revenue and income,
+exp_total,98276,2024-25,FALSE,Total expenses from transactions,
+exp_total,99563,2025-26,TRUE,Total expenses from transactions,
+exp_total,103164,2026-27,TRUE,Total expenses from transactions,
+exp_total,104966,2027-28,TRUE,Total expenses from transactions,
+exp_employee,36538,2024-25,FALSE,Employee expenses,
+exp_employee,37791,2025-26,TRUE,Employee expenses,
+exp_employee,39389,2026-27,TRUE,Employee expenses,
+exp_employee,39864,2027-28,TRUE,Employee expenses,
+exp_super,4646,2024-25,FALSE,Superannuation expenses,"Combined: Net superannuation interest expense (774) + Other superannuation (3872)"
+exp_super,4721,2025-26,TRUE,Superannuation expenses,"Combined: Net superannuation interest expense (776) + Other superannuation (3945)"
+exp_super,4869,2026-27,TRUE,Superannuation expenses,"Combined: Net superannuation interest expense (784) + Other superannuation (4085)"
+exp_super,4990,2027-28,TRUE,Superannuation expenses,"Combined: Net superannuation interest expense (771) + Other superannuation (4219)"
+exp_depreciation,5234,2024-25,FALSE,Depreciation,
+exp_depreciation,5562,2025-26,TRUE,Depreciation,
+exp_depreciation,5769,2026-27,TRUE,Depreciation,
+exp_depreciation,5896,2027-28,TRUE,Depreciation,
+exp_interest,6502,2024-25,FALSE,Interest expense,
+exp_interest,7573,2025-26,TRUE,Interest expense,
+exp_interest,8456,2026-27,TRUE,Interest expense,
+exp_interest,9375,2027-28,TRUE,Interest expense,
+exp_other_operating,27737,2024-25,FALSE,Other operating expenses,
+exp_other_operating,27119,2025-26,TRUE,Other operating expenses,
+exp_other_operating,27873,2026-27,TRUE,Other operating expenses,
+exp_other_operating,28232,2027-28,TRUE,Other operating expenses,
+net_op_balance,-2191,2024-25,FALSE,Net result from transactions – net operating balance,
+net_op_balance,1500,2025-26,TRUE,Net result from transactions – net operating balance,
+net_op_balance,1637,2026-27,TRUE,Net result from transactions – net operating balance,
+net_op_balance,1937,2027-28,TRUE,Net result from transactions – net operating balance,
+net_lending,-11279,2024-25,FALSE,Net lending/(borrowing),
+net_lending,11829,2025-26,TRUE,Net lending/(borrowing),
+net_lending,-3999,2026-27,TRUE,Net lending/(borrowing),
+net_lending,-787,2027-28,TRUE,Net lending/(borrowing),
+net_debt,156197,2025-26,FALSE,Net debt,Balance sheet as at 30 June
+net_debt,169178,2026-27,TRUE,Net debt,Balance sheet as at 30 June
+net_debt,179185,2027-28,TRUE,Net debt,Balance sheet as at 30 June
+net_debt,187823,2027-28,TRUE,Net debt,"Balance sheet as at 30 June, appears to be 2028"
+net_fin_liabilities,205556,2025-26,FALSE,Net financial liabilities,Balance sheet as at 30 June
+net_fin_liabilities,218096,2026-27,TRUE,Net financial liabilities,Balance sheet as at 30 June
+net_fin_liabilities,227266,2027-28,TRUE,Net financial liabilities,Balance sheet as at 30 June
+net_fin_liabilities,233968,2027-28,TRUE,Net financial liabilities,"Balance sheet as at 30 June, appears to be 2028"
+net_worth,178332,2025-26,FALSE,Net worth,Balance sheet as at 30 June
+net_worth,168709,2026-27,TRUE,Net worth,Balance sheet as at 30 June
+net_worth,173633,2027-28,TRUE,Net worth,Balance sheet as at 30 June
+net_worth,181019,2027-28,TRUE,Net worth,"Balance sheet as at 30 June, appears to be 2028"
+cash_surplus,-15194,2024-25,FALSE,Cash surplus/(deficit),Cash flow statement
+cash_surplus,-8864,2025-26,TRUE,Cash surplus/(deficit),Cash flow statement
+cash_surplus,-7256,2026-27,TRUE,Cash surplus/(deficit),Cash flow statement
+cash_surplus,-7206,2027-28,TRUE,Cash surplus/(deficit),Cash flow statement
+capex_pnfa,17669,2024-25,FALSE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,16671,2025-26,TRUE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,14712,2026-27,TRUE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,13832,2027-28,TRUE,Purchases of non-financial assets,Cash flow statement

@@ -1,0 +1,81 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_taxation,5241,2017-18,FALSE,Taxation revenue,June quarter
+rev_taxation,5896,2018-19,FALSE,Taxation revenue,September quarter
+rev_taxation,5049,2018-19,FALSE,Taxation revenue,December quarter
+rev_taxation,7763,2018-19,FALSE,Taxation revenue,March quarter
+rev_interest,228,2017-18,FALSE,Interest revenue,June quarter
+rev_interest,210,2018-19,FALSE,Interest revenue,September quarter
+rev_interest,206,2018-19,FALSE,Interest revenue,December quarter
+rev_interest,191,2018-19,FALSE,Interest revenue,March quarter
+rev_dividend,263,2017-18,FALSE,Dividends income tax equivalent and rate equivalent revenue,June quarter
+rev_dividend,82,2018-19,FALSE,Dividends income tax equivalent and rate equivalent revenue,September quarter
+rev_dividend,248,2018-19,FALSE,Dividends income tax equivalent and rate equivalent revenue,December quarter
+rev_dividend,97,2018-19,FALSE,Dividends income tax equivalent and rate equivalent revenue,March quarter
+rev_sales_goods_svcs,1901,2017-18,FALSE,Sales of goods and services,June quarter
+rev_sales_goods_svcs,1905,2018-19,FALSE,Sales of goods and services,September quarter
+rev_sales_goods_svcs,1944,2018-19,FALSE,Sales of goods and services,December quarter
+rev_sales_goods_svcs,1914,2018-19,FALSE,Sales of goods and services,March quarter
+rev_other,1031,2017-18,FALSE,Other revenue,June quarter
+rev_other,573,2018-19,FALSE,Other revenue,September quarter
+rev_other,774,2018-19,FALSE,Other revenue,December quarter
+rev_other,547,2018-19,FALSE,Other revenue,March quarter
+rev_total,16202,2017-18,FALSE,Total revenue from transactions,June quarter
+rev_total,16589,2018-19,FALSE,Total revenue from transactions,September quarter
+rev_total,16100,2018-19,FALSE,Total revenue from transactions,December quarter
+rev_total,19676,2018-19,FALSE,Total revenue from transactions,March quarter
+exp_employee,6276,2017-18,FALSE,Employee expenses,June quarter
+exp_employee,6081,2018-19,FALSE,Employee expenses,September quarter
+exp_employee,6213,2018-19,FALSE,Employee expenses,December quarter
+exp_employee,6196,2018-19,FALSE,Employee expenses,March quarter
+exp_super,827,2017-18,FALSE,Net superannuation interest expense + Other superannuation,June quarter
+exp_super,838,2018-19,FALSE,Net superannuation interest expense + Other superannuation,September quarter
+exp_super,891,2018-19,FALSE,Net superannuation interest expense + Other superannuation,December quarter
+exp_super,860,2018-19,FALSE,Net superannuation interest expense + Other superannuation,March quarter
+exp_depreciation,767,2017-18,FALSE,Depreciation,June quarter
+exp_depreciation,680,2018-19,FALSE,Depreciation,September quarter
+exp_depreciation,690,2018-19,FALSE,Depreciation,December quarter
+exp_depreciation,698,2018-19,FALSE,Depreciation,March quarter
+exp_interest,570,2017-18,FALSE,Interest expense,June quarter
+exp_interest,493,2018-19,FALSE,Interest expense,September quarter
+exp_interest,539,2018-19,FALSE,Interest expense,December quarter
+exp_interest,503,2018-19,FALSE,Interest expense,March quarter
+exp_other_operating,5736,2017-18,FALSE,Other operating expenses,June quarter
+exp_other_operating,4812,2018-19,FALSE,Other operating expenses,September quarter
+exp_other_operating,5107,2018-19,FALSE,Other operating expenses,December quarter
+exp_other_operating,4818,2018-19,FALSE,Other operating expenses,March quarter
+exp_total,16896,2017-18,FALSE,Total expenses from transactions,June quarter
+exp_total,15757,2018-19,FALSE,Total expenses from transactions,September quarter
+exp_total,16567,2018-19,FALSE,Total expenses from transactions,December quarter
+exp_total,16932,2018-19,FALSE,Total expenses from transactions,March quarter
+net_op_balance,-694,2017-18,FALSE,Net result from transactions – net operating balance,June quarter
+net_op_balance,832,2018-19,FALSE,Net result from transactions – net operating balance,September quarter
+net_op_balance,-467,2018-19,FALSE,Net result from transactions – net operating balance,December quarter
+net_op_balance,2744,2018-19,FALSE,Net result from transactions – net operating balance,March quarter
+net_cap_investment,1237,2017-18,FALSE,Net acquisition of non-financial assets from transactions,June quarter
+net_cap_investment,690,2018-19,FALSE,Net acquisition of non-financial assets from transactions,September quarter
+net_cap_investment,973,2018-19,FALSE,Net acquisition of non-financial assets from transactions,December quarter
+net_cap_investment,330,2018-19,FALSE,Net acquisition of non-financial assets from transactions,March quarter
+net_lending,-1932,2017-18,FALSE,Net lending/(borrowing),June quarter
+net_lending,142,2018-19,FALSE,Net lending/(borrowing),September quarter
+net_lending,-1440,2018-19,FALSE,Net lending/(borrowing),December quarter
+net_lending,2414,2018-19,FALSE,Net lending/(borrowing),March quarter
+net_worth,184116,2017-18,FALSE,Net worth,June quarter balance sheet
+net_worth,186064,2018-19,FALSE,Net worth,September quarter balance sheet
+net_worth,181565,2018-19,FALSE,Net worth,December quarter balance sheet
+net_worth,183188,2018-19,FALSE,Net worth,March quarter balance sheet
+net_fin_liabilities,53713,2017-18,FALSE,Net financial liabilities,June quarter balance sheet
+net_fin_liabilities,53479,2018-19,FALSE,Net financial liabilities,September quarter balance sheet
+net_fin_liabilities,58713,2018-19,FALSE,Net financial liabilities,December quarter balance sheet
+net_fin_liabilities,58386,2018-19,FALSE,Net financial liabilities,March quarter balance sheet
+net_debt,20003,2017-18,FALSE,Net debt,June quarter balance sheet
+net_debt,18677,2018-19,FALSE,Net debt,September quarter balance sheet
+net_debt,21015,2018-19,FALSE,Net debt,December quarter balance sheet
+net_debt,21837,2018-19,FALSE,Net debt,March quarter balance sheet
+capex_pnfa,3120,2017-18,FALSE,Net cash flows from investments in non-financial assets,June quarter cash flow
+capex_pnfa,2095,2018-19,FALSE,Net cash flows from investments in non-financial assets,September quarter cash flow
+capex_pnfa,2672,2018-19,FALSE,Net cash flows from investments in non-financial assets,December quarter cash flow
+capex_pnfa,1828,2018-19,FALSE,Net cash flows from investments in non-financial assets,March quarter cash flow
+cash_surplus,-1410,2017-18,FALSE,Cash surplus/(deficit),June quarter cash flow
+cash_surplus,1482,2018-19,FALSE,Cash surplus/(deficit),September quarter cash flow
+cash_surplus,-2117,2018-19,FALSE,Cash surplus/(deficit),December quarter cash flow
+cash_surplus,-911,2018-19,FALSE,Cash surplus/(deficit),March quarter cash flow

@@ -51,37 +51,45 @@ find_ggs_pages <- function(pdf_path) {
   if (length(text) == 0L) return(NULL)
   n_pages <- length(text)
 
-  ## A page is a strong "GGS operating statement" hit if it contains:
-  ##   - "General government sector operating statement" (or "Total expenses"
-  ##     near "Total revenue"), AND
-  ##   - a numeric forward-FY header (e.g. "2024-25  2025-26").
-  ## We strongly prefer pages whose contents include ACTUAL numbers in
-  ## a table layout, not just the table title in a TOC.
+  ## Anchors --- any state's terminology. NSW uses "General government
+  ## sector operating statement"; VIC uses "Estimated comprehensive
+  ## operating statement" inside "Estimated financial statements for
+  ## the general government sector"; QLD uses "General Government
+  ## operating statement" in BP2.
   has_table_title <- grepl(
-    "[Gg]eneral [Gg]overnment [Ss]ector [Oo]perating [Ss]tatement|General government sector\\s+operating statement",
+    paste0(
+      "[Gg]eneral [Gg]overnment [Ss]ector [Oo]perating [Ss]tatement|",
+      "[Ee]stimated [Cc]omprehensive [Oo]perating [Ss]tatement|",
+      "[Ee]stimated [Oo]perating [Ss]tatement|",
+      "[Ee]stimated [Ff]inancial [Ss]tatements"
+    ),
     text
   )
   has_revenue_row <- grepl("[Tt]otal [Rr]evenue", text) &
                      grepl("[Tt]otal [Ee]xpenses", text)
-  has_fy_cols     <- grepl("\\d{4}-\\d{2}\\D+\\d{4}-\\d{2}", text)
-  has_numbers     <- grepl("\\b[1-9][0-9],[0-9]{3}\\b", text)  # e.g. 12,345
+  ## FY token uses either ASCII hyphen-minus or unicode en-dash;
+  ## different states publish inconsistently.
+  fy_token   <- "\\d{4}[-–]\\d{2}"
+  has_fy_cols <- grepl(paste0(fy_token, "\\D+", fy_token), text)
+  ## Match either comma-separated (12,345 / NSW + QLD) or
+  ## space-separated thousands (12 345 / VIC).
+  has_numbers     <- grepl("\\b[1-9][0-9](?:,|\\s)[0-9]{3}\\b", text)
 
-  ## Score per page: anchor strength × in-table content
+  ## 4-of-4 hit: explicit op-statement language + Revenue/Expenses row
+  ## + FY column header + actual numbers.
   table_pages <- which(has_table_title & has_revenue_row & has_fy_cols & has_numbers)
+
+  ## 3-of-4 fallback: drop the explicit-title requirement.
   if (length(table_pages) == 0L) {
-    ## Fallback: pages with revenue+expense rows + FY headers + numbers,
-    ## even without explicit table title.
     table_pages <- which(has_revenue_row & has_fy_cols & has_numbers)
   }
+  ## 2-of-4 last-ditch: title + FY columns (catches TOCs near tables).
   if (length(table_pages) == 0L) {
-    ## Last fallback: any page with GGS + FY cols (probably a TOC or
-    ## summary, but better than nothing for the LLM to reason about).
     table_pages <- which(has_table_title & has_fy_cols)
   }
   if (length(table_pages) == 0L) return(NULL)
 
-  ## Prefer the LAST cluster of table pages --- appendices live at the
-  ## end. Find the largest contiguous run of table pages.
+  ## Prefer the LAST contiguous cluster (appendices live at the end).
   gaps <- which(diff(table_pages) > 3L)
   if (length(gaps) > 0L) {
     last_cluster_start <- gaps[length(gaps)] + 1L

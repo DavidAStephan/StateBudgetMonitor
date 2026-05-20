@@ -1,0 +1,55 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,90346,2023-24,FALSE,Total revenue and income from transactions,
+rev_total,93519,2024-25,TRUE,Total revenue and income from transactions,
+rev_total,98220,2025-26,TRUE,Total revenue and income from transactions,
+rev_total,102635,2026-27,TRUE,Total revenue and income from transactions,
+rev_taxation,35774,2023-24,FALSE,Taxation,
+rev_taxation,37855,2024-25,TRUE,Taxation,
+rev_taxation,39645,2025-26,TRUE,Taxation,
+rev_taxation,41562,2026-27,TRUE,Taxation,
+rev_dividend,4011,2023-24,FALSE,Dividends TER and interest,Includes tax-equivalent revenue and interest income
+rev_dividend,2535,2024-25,TRUE,Dividends TER and interest,Includes tax-equivalent revenue and interest income
+rev_dividend,2355,2025-26,TRUE,Dividends TER and interest,Includes tax-equivalent revenue and interest income
+rev_dividend,2412,2026-27,TRUE,Dividends TER and interest,Includes tax-equivalent revenue and interest income
+rev_sales_goods_svcs,6408,2023-24,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,6675,2024-25,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6664,2025-26,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6753,2026-27,TRUE,Sales of goods and services,
+rev_other,3619,2023-24,FALSE,Other revenue and income,
+rev_other,3214,2024-25,TRUE,Other revenue and income,
+rev_other,3327,2025-26,TRUE,Other revenue and income,
+rev_other,3846,2026-27,TRUE,Other revenue and income,
+exp_total,93816,2023-24,FALSE,Total expenses from transactions,
+exp_total,94541,2024-25,TRUE,Total expenses from transactions,
+exp_total,97158,2025-26,TRUE,Total expenses from transactions,
+exp_total,101403,2026-27,TRUE,Total expenses from transactions,
+exp_employee,34816,2023-24,FALSE,Employee expenses,
+exp_employee,35966,2024-25,TRUE,Employee expenses,
+exp_employee,37035,2025-26,TRUE,Employee expenses,
+exp_employee,38653,2026-27,TRUE,Employee expenses,
+exp_super,4391,2023-24,FALSE,Superannuation,
+exp_super,4389,2024-25,TRUE,Superannuation,
+exp_super,4433,2025-26,TRUE,Superannuation,
+exp_super,4510,2026-27,TRUE,Superannuation,
+exp_depreciation,4897,2023-24,FALSE,Depreciation,
+exp_depreciation,5037,2024-25,TRUE,Depreciation,
+exp_depreciation,5348,2025-26,TRUE,Depreciation,
+exp_depreciation,5557,2026-27,TRUE,Depreciation,
+exp_interest,5662,2023-24,FALSE,Interest expense,
+exp_interest,6580,2024-25,TRUE,Interest expense,
+exp_interest,7741,2025-26,TRUE,Interest expense,
+exp_interest,8793,2026-27,TRUE,Interest expense,
+exp_other_operating,27055,2023-24,FALSE,Other operating expenses,
+exp_other_operating,25445,2024-25,TRUE,Other operating expenses,
+exp_other_operating,25720,2025-26,TRUE,Other operating expenses,
+exp_other_operating,26991,2026-27,TRUE,Other operating expenses,
+net_op_balance,-3470,2023-24,FALSE,Net result from transactions – Net operating balance,
+net_op_balance,-1022,2024-25,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,1062,2025-26,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,1232,2026-27,TRUE,Net result from transactions – Net operating balance,
+rev_gst,19900,2023-24,FALSE,GST revenue,Text mentions Victoria's GST revenue forecast
+rev_payroll,10300,2023-24,FALSE,Payroll tax,Text mentions taxes on employers' payroll and labour force including payroll tax COVID Debt Levy and Mental Health and Wellbeing Levy
+rev_land_tax,7500,2023-24,FALSE,Land tax,Text mentions land taxes comprising land tax and COVID Debt Levy – Landholdings
+rev_stamp_duty,7500,2023-24,FALSE,Land transfer duty,Text mentions land transfer duty
+rev_gambling,2600,2023-24,FALSE,Gambling taxes,Text mentions gambling taxes
+rev_motor_vehicle,3400,2023-24,FALSE,Motor vehicle taxes,Text mentions motor vehicle tax revenue

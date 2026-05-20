@@ -1,0 +1,49 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,69757,2018-19,FALSE,Total revenue,
+rev_total,71128,2019-20,TRUE,Total revenue,
+rev_total,73221,2020-21,TRUE,Total revenue,
+rev_total,75817,2021-22,TRUE,Total revenue,
+rev_taxation,24092,2018-19,FALSE,Taxation,
+rev_taxation,25050,2019-20,TRUE,Taxation,
+rev_taxation,25836,2020-21,TRUE,Taxation,
+rev_taxation,27116,2021-22,TRUE,Taxation,
+rev_dividend,1921,2018-19,FALSE,Dividends tax equivalent revenue and interest,Includes interest income per note (b)
+rev_dividend,1369,2019-20,TRUE,Dividends tax equivalent revenue and interest,Includes interest income per note (b)
+rev_dividend,1357,2020-21,TRUE,Dividends tax equivalent revenue and interest,Includes interest income per note (b)
+rev_dividend,1319,2021-22,TRUE,Dividends tax equivalent revenue and interest,Includes interest income per note (b)
+rev_sales_goods_svcs,7594,2018-19,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,8417,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8685,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8726,2021-22,TRUE,Sales of goods and services,
+rev_other,2636,2018-19,FALSE,Other current revenue,
+rev_other,2594,2019-20,TRUE,Other current revenue,
+rev_other,2656,2020-21,TRUE,Other current revenue,
+rev_other,2714,2021-22,TRUE,Other current revenue,
+exp_total,67517,2018-19,FALSE,Total expenses,
+exp_total,69403,2019-20,TRUE,Total expenses,
+exp_total,70544,2020-21,TRUE,Total expenses,
+exp_total,72833,2021-22,TRUE,Total expenses,
+exp_employee,24986,2018-19,FALSE,Employee expenses,
+exp_employee,26446,2019-20,TRUE,Employee expenses,
+exp_employee,27495,2020-21,TRUE,Employee expenses,
+exp_employee,28565,2021-22,TRUE,Employee expenses,
+exp_super,3439,2018-19,FALSE,Superannuation,Per note (c)
+exp_super,3441,2019-20,TRUE,Superannuation,Per note (c)
+exp_super,3482,2020-21,TRUE,Superannuation,Per note (c)
+exp_super,3572,2021-22,TRUE,Superannuation,Per note (c)
+exp_depreciation,2921,2018-19,FALSE,Depreciation,
+exp_depreciation,3033,2019-20,TRUE,Depreciation,
+exp_depreciation,3332,2020-21,TRUE,Depreciation,
+exp_depreciation,3526,2021-22,TRUE,Depreciation,
+exp_interest,2090,2018-19,FALSE,Interest expense,
+exp_interest,2133,2019-20,TRUE,Interest expense,
+exp_interest,2211,2020-21,TRUE,Interest expense,
+exp_interest,2260,2021-22,TRUE,Interest expense,
+exp_other_operating,21296,2018-19,FALSE,Other operating expenses,
+exp_other_operating,20305,2019-20,TRUE,Other operating expenses,
+exp_other_operating,20016,2020-21,TRUE,Other operating expenses,
+exp_other_operating,20498,2021-22,TRUE,Other operating expenses,
+net_op_balance,2241,2018-19,FALSE,Net result from transactions,
+net_op_balance,1725,2019-20,TRUE,Net result from transactions,
+net_op_balance,2677,2020-21,TRUE,Net result from transactions,
+net_op_balance,2984,2021-22,TRUE,Net result from transactions,

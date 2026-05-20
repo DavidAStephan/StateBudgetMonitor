@@ -1,0 +1,85 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,81980,2022-23,FALSE,Total revenue and income from transactions,
+rev_total,84593,2023-24,TRUE,Total revenue and income from transactions,
+rev_total,87665,2024-25,TRUE,Total revenue and income from transactions,
+rev_total,91440,2025-26,TRUE,Total revenue and income from transactions,
+rev_taxation,30488,2022-23,FALSE,Taxation,
+rev_taxation,32216,2023-24,TRUE,Taxation,
+rev_taxation,33312,2024-25,TRUE,Taxation,
+rev_taxation,35003,2025-26,TRUE,Taxation,
+rev_interest,715,2022-23,FALSE,Interest income,
+rev_interest,761,2023-24,TRUE,Interest income,
+rev_interest,836,2024-25,TRUE,Interest income,
+rev_interest,844,2025-26,TRUE,Interest income,
+rev_dividend,602,2022-23,FALSE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,703,2023-24,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,794,2024-25,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,807,2025-26,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_sales_goods_svcs,6366,2022-23,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,6410,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6495,2024-25,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6527,2025-26,TRUE,Sales of goods and services,
+rev_other,3459,2022-23,FALSE,Other revenue and income,
+rev_other,3619,2023-24,TRUE,Other revenue and income,
+rev_other,3209,2024-25,TRUE,Other revenue and income,
+rev_other,3434,2025-26,TRUE,Other revenue and income,
+exp_total,89844,2022-23,FALSE,Total expenses from transactions,
+exp_total,87856,2023-24,TRUE,Total expenses from transactions,
+exp_total,88791,2024-25,TRUE,Total expenses from transactions,
+exp_total,90788,2025-26,TRUE,Total expenses from transactions,
+exp_employee,33087,2022-23,FALSE,Employee expenses,
+exp_employee,34240,2023-24,TRUE,Employee expenses,
+exp_employee,34774,2024-25,TRUE,Employee expenses,
+exp_employee,35362,2025-26,TRUE,Employee expenses,
+exp_super,4450,2022-23,FALSE,Net superannuation interest expense + Other superannuation,Combined net superannuation interest (682) and other superannuation (3768)
+exp_super,4623,2023-24,TRUE,Net superannuation interest expense + Other superannuation,Combined net superannuation interest (661) and other superannuation (3962)
+exp_super,4713,2024-25,TRUE,Net superannuation interest expense + Other superannuation,Combined net superannuation interest (641) and other superannuation (4072)
+exp_super,4763,2025-26,TRUE,Net superannuation interest expense + Other superannuation,Combined net superannuation interest (625) and other superannuation (4138)
+exp_depreciation,4650,2022-23,FALSE,Depreciation,
+exp_depreciation,4656,2023-24,TRUE,Depreciation,
+exp_depreciation,4748,2024-25,TRUE,Depreciation,
+exp_depreciation,4972,2025-26,TRUE,Depreciation,
+exp_interest,3899,2022-23,FALSE,Interest expense,
+exp_interest,4864,2023-24,TRUE,Interest expense,
+exp_interest,5690,2024-25,TRUE,Interest expense,
+exp_interest,6384,2025-26,TRUE,Interest expense,
+exp_current_grants,17391,2022-23,FALSE,Grant expense,Assumed to be current grants
+exp_current_grants,15517,2023-24,TRUE,Grant expense,Assumed to be current grants
+exp_current_grants,15109,2024-25,TRUE,Grant expense,Assumed to be current grants
+exp_current_grants,15140,2025-26,TRUE,Grant expense,Assumed to be current grants
+exp_other_operating,26367,2022-23,FALSE,Other operating expenses,
+exp_other_operating,23955,2023-24,TRUE,Other operating expenses,
+exp_other_operating,23757,2024-25,TRUE,Other operating expenses,
+exp_other_operating,24167,2025-26,TRUE,Other operating expenses,
+net_op_balance,-7864,2022-23,FALSE,Net result from transactions – net operating balance,
+net_op_balance,-3263,2023-24,TRUE,Net result from transactions – net operating balance,
+net_op_balance,-1126,2024-25,TRUE,Net result from transactions – net operating balance,
+net_op_balance,652,2025-26,TRUE,Net result from transactions – net operating balance,
+net_cap_investment,6504,2022-23,FALSE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,8824,2023-24,TRUE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,8370,2024-25,TRUE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,-4745,2025-26,TRUE,Net acquisition of non-financial assets from transactions,
+net_lending,-14368,2022-23,FALSE,Net lending/(borrowing),
+net_lending,-12087,2023-24,TRUE,Net lending/(borrowing),
+net_lending,-9495,2024-25,TRUE,Net lending/(borrowing),
+net_lending,5396,2025-26,TRUE,Net lending/(borrowing),
+cash_surplus,-13164,2022-23,FALSE,Cash surplus/(deficit),
+cash_surplus,-16308,2023-24,TRUE,Cash surplus/(deficit),
+cash_surplus,-14257,2024-25,TRUE,Cash surplus/(deficit),
+cash_surplus,-10173,2025-26,TRUE,Cash surplus/(deficit),
+net_debt,118507,2022-23,FALSE,Net debt,From Balance Sheet fiscal aggregates
+net_debt,137429,2023-24,TRUE,Net debt,From Balance Sheet fiscal aggregates
+net_debt,154844,2024-25,TRUE,Net debt,From Balance Sheet fiscal aggregates
+net_debt,167513,2025-26,TRUE,Net debt,From Balance Sheet fiscal aggregates
+net_fin_liabilities,169108,2022-23,FALSE,Net financial liabilities,From Balance Sheet fiscal aggregates
+net_fin_liabilities,187789,2023-24,TRUE,Net financial liabilities,From Balance Sheet fiscal aggregates
+net_fin_liabilities,204476,2024-25,TRUE,Net financial liabilities,From Balance Sheet fiscal aggregates
+net_fin_liabilities,216560,2025-26,TRUE,Net financial liabilities,From Balance Sheet fiscal aggregates
+net_worth,135569,2022-23,FALSE,Net worth,From Balance Sheet
+net_worth,133903,2023-24,TRUE,Net worth,From Balance Sheet
+net_worth,139100,2024-25,TRUE,Net worth,From Balance Sheet
+net_worth,128000,2025-26,TRUE,Net worth,From Balance Sheet
+capex_pnfa,15138,2022-23,FALSE,Purchases of non-financial assets,From Cash Flow Statement
+capex_pnfa,17684,2023-24,TRUE,Purchases of non-financial assets,From Cash Flow Statement
+capex_pnfa,18381,2024-25,TRUE,Purchases of non-financial assets,From Cash Flow Statement
+capex_pnfa,16110,2025-26,TRUE,Purchases of non-financial assets,From Cash Flow Statement

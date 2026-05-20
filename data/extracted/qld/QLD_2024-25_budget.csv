@@ -1,0 +1,79 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,89810,2022-23,FALSE,Total Revenue,
+rev_taxation,20601,2022-23,FALSE,Taxation revenue,
+rev_payroll,6715,2023-24,FALSE,Taxes on employers' payroll and labour force,Est. Act.
+rev_payroll,7245,2024-25,FALSE,Taxes on employers' payroll and labour force,
+rev_stamp_duty,5605,2023-24,FALSE,Stamp duties on financial and capital transactions,Est. Act.
+rev_stamp_duty,6793,2024-25,FALSE,Stamp duties on financial and capital transactions,
+rev_land_tax,2032,2023-24,FALSE,Land taxes,Est. Act.
+rev_land_tax,2499,2024-25,FALSE,Land taxes,
+rev_gambling,2048,2023-24,FALSE,Taxes on gambling,Est. Act.
+rev_gambling,2141,2024-25,FALSE,Taxes on gambling,
+rev_motor_vehicle,3248,2023-24,FALSE,Motor vehicle taxes,Est. Act.
+rev_motor_vehicle,2951,2024-25,FALSE,Motor vehicle taxes,
+rev_sales_goods_svcs,6483,2022-23,FALSE,Sales of goods and services,
+rev_interest,3226,2022-23,FALSE,Interest income,
+rev_dividend,1007,2022-23,FALSE,Dividend and income tax equivalent income,
+rev_dividend,1720,2023-24,FALSE,Total Dividend and Income Tax Equivalent income,Est. Act.
+rev_dividend,1771,2024-25,FALSE,Total Dividend and Income Tax Equivalent income,
+rev_other,20160,2022-23,FALSE,Other revenue,
+exp_total,75880,2022-23,FALSE,Total Expenses,
+exp_total,88495,2023-24,FALSE,Total Expenses,Est. Act.
+exp_total,90738,2024-25,FALSE,Total Expenses,
+exp_total,89232,2025-26,TRUE,Total Expenses,
+exp_total,89783,2026-27,TRUE,Total Expenses,
+exp_total,93305,2027-28,TRUE,Total Expenses,
+exp_employee,30557,2022-23,FALSE,Employee expenses,
+exp_super,3756,2022-23,FALSE,Other superannuation expenses,
+exp_depreciation,5018,2022-23,FALSE,Depreciation and amortisation,
+exp_interest,1688,2022-23,FALSE,Other interest expenses,
+exp_current_grants,12390,2023-24,FALSE,Total current grant expense,Est. Act.
+exp_current_grants,12941,2024-25,FALSE,Total current grant expense,
+exp_capital_grants,4204,2023-24,FALSE,Total capital grant expense,Est. Act.
+exp_capital_grants,4189,2024-25,FALSE,Total capital grant expense,
+exp_health,25704,2023-24,FALSE,Health,Est. Act.
+exp_health,26739,2024-25,FALSE,Health,
+exp_health,26730,2025-26,TRUE,Health,
+exp_health,27442,2026-27,TRUE,Health,
+exp_health,28833,2027-28,TRUE,Health,
+exp_education,20410,2023-24,FALSE,Education,Est. Act.
+exp_education,21275,2024-25,FALSE,Education,
+exp_education,21369,2025-26,TRUE,Education,
+exp_education,21956,2026-27,TRUE,Education,
+exp_education,23026,2027-28,TRUE,Education,
+exp_public_order,7611,2023-24,FALSE,Public order and safety,Est. Act.
+exp_public_order,8426,2024-25,FALSE,Public order and safety,
+exp_public_order,8278,2025-26,TRUE,Public order and safety,
+exp_public_order,8414,2026-27,TRUE,Public order and safety,
+exp_public_order,8650,2027-28,TRUE,Public order and safety,
+exp_transport_comms,9130,2023-24,FALSE,Transport,Est. Act.
+exp_transport_comms,10313,2024-25,FALSE,Transport,
+exp_transport_comms,10292,2025-26,TRUE,Transport,
+exp_transport_comms,9480,2026-27,TRUE,Transport,
+exp_transport_comms,9488,2027-28,TRUE,Transport,
+exp_social_security,10713,2023-24,FALSE,Social protection,Est. Act.
+exp_social_security,7808,2024-25,FALSE,Social protection,
+exp_social_security,7046,2025-26,TRUE,Social protection,
+exp_social_security,7076,2026-27,TRUE,Social protection,
+exp_social_security,7557,2027-28,TRUE,Social protection,
+exp_general_public,6987,2023-24,FALSE,General public services,Est. Act.
+exp_general_public,8690,2024-25,FALSE,General public services,
+exp_general_public,8903,2025-26,TRUE,General public services,
+exp_general_public,9404,2026-27,TRUE,General public services,
+exp_general_public,9808,2027-28,TRUE,General public services,
+exp_recreation,1104,2023-24,FALSE,Recreation culture and religion,Est. Act.
+exp_recreation,1335,2024-25,FALSE,Recreation culture and religion,
+exp_recreation,1167,2025-26,TRUE,Recreation culture and religion,
+exp_recreation,1280,2026-27,TRUE,Recreation culture and religion,
+exp_recreation,1264,2027-28,TRUE,Recreation culture and religion,
+net_op_balance,13930,2022-23,FALSE,Net Operating Balance,
+net_lending,8092,2022-23,FALSE,Fiscal Balance,
+cash_surplus,10167,2022-23,FALSE,Cash Surplus/(Deficit),
+net_debt,2615,2022-23,FALSE,Net Debt,
+net_worth,303973,2022-23,FALSE,Net Worth,
+capex_pnfa,9899,2022-23,FALSE,Purchases of non-financial assets,
+capex_pnfa,11061,2023-24,FALSE,Total Purchases,Est. Act.
+capex_pnfa,12831,2024-25,FALSE,Total Purchases,
+capex_pnfa,14485,2025-26,TRUE,Total Purchases,
+capex_pnfa,14577,2026-27,TRUE,Total Purchases,
+capex_pnfa,12763,2027-28,TRUE,Total Purchases,

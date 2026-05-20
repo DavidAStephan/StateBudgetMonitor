@@ -1,0 +1,82 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,74576,2021-22,FALSE,Total revenue and income from transactions,
+rev_total,79868,2022-23,TRUE,Total revenue and income from transactions,
+rev_total,82773,2023-24,TRUE,Total revenue and income from transactions,
+rev_total,85295,2024-25,TRUE,Total revenue and income from transactions,
+rev_taxation,26577,2021-22,FALSE,Taxation,
+rev_taxation,29058,2022-23,TRUE,Taxation,
+rev_taxation,31097,2023-24,TRUE,Taxation,
+rev_taxation,32429,2024-25,TRUE,Taxation,
+rev_interest,637,2021-22,FALSE,Interest income,
+rev_interest,633,2022-23,TRUE,Interest income,
+rev_interest,661,2023-24,TRUE,Interest income,
+rev_interest,661,2024-25,TRUE,Interest income,
+rev_dividend,575,2021-22,FALSE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,542,2022-23,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,574,2023-24,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,584,2024-25,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_sales_goods_svcs,6405,2021-22,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,6526,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6645,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,6716,2024-25,TRUE,Sales of goods and services,
+rev_other,3605,2021-22,FALSE,Other revenue and income,
+rev_other,3414,2022-23,TRUE,Other revenue and income,
+rev_other,3268,2023-24,TRUE,Other revenue and income,
+rev_other,3383,2024-25,TRUE,Other revenue and income,
+exp_total,86200,2021-22,FALSE,Total expenses from transactions,
+exp_total,83705,2022-23,TRUE,Total expenses from transactions,
+exp_total,84879,2023-24,TRUE,Total expenses from transactions,
+exp_total,87379,2024-25,TRUE,Total expenses from transactions,
+exp_employee,31725,2021-22,FALSE,Employee expenses,
+exp_employee,32590,2022-23,TRUE,Employee expenses,
+exp_employee,33542,2023-24,TRUE,Employee expenses,
+exp_employee,34255,2024-25,TRUE,Employee expenses,
+exp_super,4247,2021-22,FALSE,Net superannuation interest expense + Other superannuation,"Combined total of net superannuation interest expense (565) and other superannuation (3682)"
+exp_super,4284,2022-23,TRUE,Net superannuation interest expense + Other superannuation,"Combined total of net superannuation interest expense (545) and other superannuation (3739)"
+exp_super,4361,2023-24,TRUE,Net superannuation interest expense + Other superannuation,"Combined total of net superannuation interest expense (525) and other superannuation (3836)"
+exp_super,4433,2024-25,TRUE,Net superannuation interest expense + Other superannuation,"Combined total of net superannuation interest expense (502) and other superannuation (3931)"
+exp_depreciation,4399,2021-22,FALSE,Depreciation,
+exp_depreciation,4572,2022-23,TRUE,Depreciation,
+exp_depreciation,4770,2023-24,TRUE,Depreciation,
+exp_depreciation,5273,2024-25,TRUE,Depreciation,
+exp_interest,3051,2021-22,FALSE,Interest expense,
+exp_interest,3499,2022-23,TRUE,Interest expense,
+exp_interest,4069,2023-24,TRUE,Interest expense,
+exp_interest,4774,2024-25,TRUE,Interest expense,
+exp_current_grants,17301,2021-22,FALSE,Grant expense,
+exp_current_grants,15133,2022-23,TRUE,Grant expense,
+exp_current_grants,14777,2023-24,TRUE,Grant expense,
+exp_current_grants,14995,2024-25,TRUE,Grant expense,
+exp_other_operating,25477,2021-22,FALSE,Other operating expenses,
+exp_other_operating,23625,2022-23,TRUE,Other operating expenses,
+exp_other_operating,23359,2023-24,TRUE,Other operating expenses,
+exp_other_operating,23650,2024-25,TRUE,Other operating expenses,
+net_op_balance,-11624,2021-22,FALSE,Net operating balance,
+net_op_balance,-3837,2022-23,TRUE,Net operating balance,
+net_op_balance,-2106,2023-24,TRUE,Net operating balance,
+net_op_balance,-2085,2024-25,TRUE,Net operating balance,
+net_cap_investment,7442,2021-22,FALSE,Less: Net acquisition of non-financial assets from transactions,
+net_cap_investment,6608,2022-23,TRUE,Less: Net acquisition of non-financial assets from transactions,
+net_cap_investment,9918,2023-24,TRUE,Less: Net acquisition of non-financial assets from transactions,
+net_cap_investment,10342,2024-25,TRUE,Less: Net acquisition of non-financial assets from transactions,
+net_lending,-19066,2021-22,FALSE,Net lending/(borrowing),
+net_lending,-10444,2022-23,TRUE,Net lending/(borrowing),
+net_lending,-12024,2023-24,TRUE,Net lending/(borrowing),
+net_lending,-12427,2024-25,TRUE,Net lending/(borrowing),
+cash_surplus,-21311,2021-22,FALSE,Cash surplus/(deficit),
+cash_surplus,-16416,2022-23,TRUE,Cash surplus/(deficit),
+cash_surplus,-16242,2023-24,TRUE,Cash surplus/(deficit),
+cash_surplus,-16025,2024-25,TRUE,Cash surplus/(deficit),
+net_debt,102071,2022-23,TRUE,Net debt,Balance sheet as at 30 June
+net_debt,120034,2023-24,TRUE,Net debt,Balance sheet as at 30 June
+net_debt,138350,2024-25,TRUE,Net debt,Balance sheet as at 30 June
+net_fin_liabilities,153913,2022-23,TRUE,Net financial liabilities,Balance sheet as at 30 June
+net_fin_liabilities,171240,2023-24,TRUE,Net financial liabilities,Balance sheet as at 30 June
+net_fin_liabilities,188861,2024-25,TRUE,Net financial liabilities,Balance sheet as at 30 June
+net_worth,120690,2022-23,TRUE,Net worth,Balance sheet as at 30 June
+net_worth,118552,2023-24,TRUE,Net worth,Balance sheet as at 30 June
+net_worth,119955,2024-25,TRUE,Net worth,Balance sheet as at 30 June
+capex_pnfa,19833,2021-22,FALSE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,18021,2022-23,TRUE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,18968,2023-24,TRUE,Purchases of non-financial assets,Cash flow statement
+capex_pnfa,19417,2024-25,TRUE,Purchases of non-financial assets,Cash flow statement

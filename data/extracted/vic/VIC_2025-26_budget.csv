@@ -1,0 +1,85 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,108343,2025-26,FALSE,Total revenue and income from transactions,
+rev_total,110295,2026-27,TRUE,Total revenue and income from transactions,
+rev_total,113229,2027-28,TRUE,Total revenue and income from transactions,
+rev_total,116872,2028-29,TRUE,Total revenue and income from transactions,
+rev_taxation,41677,2025-26,FALSE,Taxation,
+rev_taxation,43768,2026-27,TRUE,Taxation,
+rev_taxation,45805,2027-28,TRUE,Taxation,
+rev_taxation,47902,2028-29,TRUE,Taxation,
+rev_gst,52586,2025-26,FALSE,Grants,Includes GST and other grants
+rev_gst,51974,2026-27,TRUE,Grants,Includes GST and other grants
+rev_gst,52842,2027-28,TRUE,Grants,Includes GST and other grants
+rev_gst,54191,2028-29,TRUE,Grants,Includes GST and other grants
+rev_sales_goods_svcs,8041,2025-26,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,8219,2026-27,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8417,2027-28,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8515,2028-29,TRUE,Sales of goods and services,
+rev_interest,1330,2025-26,FALSE,Interest income,
+rev_interest,1214,2026-27,TRUE,Interest income,
+rev_interest,1239,2027-28,TRUE,Interest income,
+rev_interest,1221,2028-29,TRUE,Interest income,
+rev_dividend,1097,2025-26,FALSE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1216,2026-27,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1296,2027-28,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_dividend,1310,2028-29,TRUE,"Dividends, income tax equivalent and rate equivalent income",
+rev_other,3612,2025-26,FALSE,Other revenue and income,
+rev_other,3904,2026-27,TRUE,Other revenue and income,
+rev_other,3630,2027-28,TRUE,Other revenue and income,
+rev_other,3733,2028-29,TRUE,Other revenue and income,
+exp_total,107732,2025-26,FALSE,Total expenses from transactions,
+exp_total,108370,2026-27,TRUE,Total expenses from transactions,
+exp_total,110850,2027-28,TRUE,Total expenses from transactions,
+exp_total,115367,2028-29,TRUE,Total expenses from transactions,
+exp_employee,38835,2025-26,FALSE,Employee expenses,
+exp_employee,39838,2026-27,TRUE,Employee expenses,
+exp_employee,41044,2027-28,TRUE,Employee expenses,
+exp_employee,42434,2028-29,TRUE,Employee expenses,
+exp_super,5252,2025-26,FALSE,Net superannuation interest expense + Other superannuation,Combined value: 789 + 4463
+exp_super,5330,2026-27,TRUE,Net superannuation interest expense + Other superannuation,Combined value: 801 + 4529
+exp_super,5466,2027-28,TRUE,Net superannuation interest expense + Other superannuation,Combined value: 789 + 4677
+exp_super,5551,2028-29,TRUE,Net superannuation interest expense + Other superannuation,Combined value: 736 + 4815
+exp_depreciation,5884,2025-26,FALSE,Depreciation,
+exp_depreciation,6130,2026-27,TRUE,Depreciation,
+exp_depreciation,6254,2027-28,TRUE,Depreciation,
+exp_depreciation,6385,2028-29,TRUE,Depreciation,
+exp_interest,7569,2025-26,FALSE,Interest expense,
+exp_interest,8408,2026-27,TRUE,Interest expense,
+exp_interest,9485,2027-28,TRUE,Interest expense,
+exp_interest,10564,2028-29,TRUE,Interest expense,
+exp_current_grants,18764,2025-26,FALSE,Grant expense,
+exp_current_grants,17860,2026-27,TRUE,Grant expense,
+exp_current_grants,17732,2027-28,TRUE,Grant expense,
+exp_current_grants,18275,2028-29,TRUE,Grant expense,
+exp_other_operating,31428,2025-26,FALSE,Other operating expenses,
+exp_other_operating,30805,2026-27,TRUE,Other operating expenses,
+exp_other_operating,30870,2027-28,TRUE,Other operating expenses,
+exp_other_operating,32158,2028-29,TRUE,Other operating expenses,
+net_op_balance,611,2025-26,FALSE,Net result from transactions – Net operating balance,
+net_op_balance,1925,2026-27,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,2379,2027-28,TRUE,Net result from transactions – Net operating balance,
+net_op_balance,1505,2028-29,TRUE,Net result from transactions – Net operating balance,
+net_lending,14577,2025-26,FALSE,Net lending/(borrowing),
+net_lending,-5046,2026-27,TRUE,Net lending/(borrowing),
+net_lending,-1726,2027-28,TRUE,Net lending/(borrowing),
+net_lending,-2428,2028-29,TRUE,Net lending/(borrowing),
+net_debt,167625,2025-26,FALSE,Net debt,Balance sheet at 30 June 2026
+net_debt,177447,2026-27,TRUE,Net debt,Balance sheet at 30 June 2027
+net_debt,185182,2027-28,TRUE,Net debt,Balance sheet at 30 June 2028
+net_debt,194044,2028-29,TRUE,Net debt,Balance sheet at 30 June 2029
+net_fin_liabilities,217612,2025-26,FALSE,Net financial liabilities,Balance sheet at 30 June 2026
+net_fin_liabilities,227371,2026-27,TRUE,Net financial liabilities,Balance sheet at 30 June 2027
+net_fin_liabilities,233723,2027-28,TRUE,Net financial liabilities,Balance sheet at 30 June 2028
+net_fin_liabilities,240530,2028-29,TRUE,Net financial liabilities,Balance sheet at 30 June 2029
+net_worth,170806,2025-26,FALSE,Net worth,Balance sheet at 30 June 2026
+net_worth,174905,2026-27,TRUE,Net worth,Balance sheet at 30 June 2027
+net_worth,196394,2027-28,TRUE,Net worth,Balance sheet at 30 June 2028
+net_worth,200269,2028-29,TRUE,Net worth,Balance sheet at 30 June 2029
+capex_pnfa,17190,2025-26,FALSE,Purchases of non-financial assets,
+capex_pnfa,15777,2026-27,TRUE,Purchases of non-financial assets,
+capex_pnfa,14379,2027-28,TRUE,Purchases of non-financial assets,
+capex_pnfa,15415,2028-29,TRUE,Purchases of non-financial assets,
+cash_surplus,-9963,2025-26,FALSE,Cash surplus/(deficit),
+cash_surplus,-6931,2026-27,TRUE,Cash surplus/(deficit),
+cash_surplus,-6910,2027-28,TRUE,Cash surplus/(deficit),
+cash_surplus,-8660,2028-29,TRUE,Cash surplus/(deficit),
