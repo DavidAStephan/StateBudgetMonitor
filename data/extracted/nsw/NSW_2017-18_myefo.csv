@@ -1,0 +1,46 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,78139,2016-17,FALSE,Revenue,
+rev_total,79842,2017-18,FALSE,Revenue,
+rev_total,80755,2018-19,TRUE,Revenue,
+rev_total,83142,2019-20,TRUE,Revenue,
+rev_total,84594,2020-21,TRUE,Revenue,
+exp_total,72551,2016-17,FALSE,Expenses,
+exp_total,76510,2017-18,FALSE,Expenses,
+exp_total,78661,2018-19,TRUE,Expenses,
+exp_total,81699,2019-20,TRUE,Expenses,
+exp_total,83036,2020-21,TRUE,Expenses,
+net_op_balance,5724,2016-17,FALSE,Budget Result,
+net_op_balance,3332,2017-18,FALSE,Budget Result,
+net_op_balance,2093,2018-19,TRUE,Budget Result,
+net_op_balance,1442,2019-20,TRUE,Budget Result,
+net_op_balance,1558,2020-21,TRUE,Budget Result,
+econ_employment,0.9,2016-17,FALSE,Employment,Per cent change
+econ_employment,2.5,2017-18,FALSE,Employment,Per cent change
+econ_employment,1.75,2018-19,TRUE,Employment,Per cent change
+econ_employment,1.5,2019-20,TRUE,Employment,Per cent change
+econ_employment,1.25,2020-21,TRUE,Employment,Per cent change
+econ_unemployment,5.0,2016-17,FALSE,Unemployment rate,Per cent
+econ_unemployment,4.75,2017-18,FALSE,Unemployment rate,Per cent
+econ_unemployment,4.75,2018-19,TRUE,Unemployment rate,Per cent
+econ_unemployment,4.75,2019-20,TRUE,Unemployment rate,Per cent
+econ_unemployment,4.75,2020-21,TRUE,Unemployment rate,Per cent
+econ_cpi,2.0,2016-17,FALSE,Sydney consumer price index,Per cent change
+econ_cpi,2.25,2017-18,FALSE,Sydney consumer price index,Per cent change
+econ_cpi,2.25,2018-19,TRUE,Sydney consumer price index,Per cent change
+econ_cpi,2.25,2019-20,TRUE,Sydney consumer price index,Per cent change
+econ_cpi,2.5,2020-21,TRUE,Sydney consumer price index,Per cent change
+econ_wpi,2.1,2016-17,FALSE,Wage price index,Per cent change
+econ_wpi,2.0,2017-18,FALSE,Wage price index,Per cent change
+econ_wpi,2.5,2018-19,TRUE,Wage price index,Per cent change
+econ_wpi,2.75,2019-20,TRUE,Wage price index,Per cent change
+econ_wpi,3.0,2020-21,TRUE,Wage price index,Per cent change
+econ_gsp_growth,2.9,2016-17,FALSE,Real gross state product,Per cent change
+econ_gsp_growth,3.0,2017-18,FALSE,Real gross state product,Per cent change
+econ_gsp_growth,2.75,2018-19,TRUE,Real gross state product,Per cent change
+econ_gsp_growth,2.5,2019-20,TRUE,Real gross state product,Per cent change
+econ_gsp_growth,2.5,2020-21,TRUE,Real gross state product,Per cent change
+econ_population,1.7,2016-17,FALSE,Population,Per cent change
+econ_population,1.6,2017-18,FALSE,Population,Per cent change
+econ_population,1.4,2018-19,TRUE,Population,Per cent change
+econ_population,1.4,2019-20,TRUE,Population,Per cent change
+econ_population,1.4,2020-21,TRUE,Population,Per cent change

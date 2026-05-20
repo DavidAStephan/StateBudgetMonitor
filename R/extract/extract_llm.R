@@ -161,9 +161,25 @@ sbm_extract_llm <- function(document_id, registry, dictionary, cfg,
   fs::dir_create(out_dir)
   out_path <- file.path(out_dir, paste0(document_id, ".csv"))
 
-  ## Strip any markdown code-fence wrapping the LLM may emit.
-  csv_text <- gsub("^```[a-z]*\\n|\\n```$", "", csv_text)
-  writeLines(csv_text, out_path)
+  ## Sanitise the response: the LLM may wrap the CSV in markdown
+  ## code-fences, prepend a chatty preamble, or append a postscript.
+  ## We keep only:
+  ##   (a) exactly one header line matching the contract
+  ##   (b) data lines that start with a snake_case variable_id
+  ##       followed by a comma and a numeric value
+  csv_lines <- unlist(strsplit(csv_text, "\n", fixed = TRUE))
+  header_idx <- grep("^variable_id\\s*,\\s*value_aud_mil", csv_lines)
+  data_rx    <- "^[a-z][a-z_0-9]*\\s*,\\s*-?[0-9.]+"
+  data_lines <- csv_lines[grepl(data_rx, csv_lines)]
+  if (length(header_idx) == 0L || length(data_lines) == 0L) {
+    sbm_warn(sprintf(
+      "sbm_extract_llm: no parseable CSV found in LLM response for %s",
+      document_id
+    ))
+    return(invisible(NULL))
+  }
+  header_line <- csv_lines[header_idx[[1L]]]
+  writeLines(c(header_line, data_lines), out_path)
 
   ## Round-trip validate.
   check <- sbm_read_extracted_csv(out_path)

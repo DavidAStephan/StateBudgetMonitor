@@ -1,0 +1,16 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,78008,2016-17,FALSE,Revenue,Revised estimate
+rev_total,79885,2017-18,FALSE,Revenue,Budget estimate
+rev_total,80224,2018-19,TRUE,Revenue,Forward estimate
+rev_total,82471,2019-20,TRUE,Revenue,Forward estimate
+rev_total,83770,2020-21,TRUE,Revenue,Forward estimate
+exp_total,73537,2016-17,FALSE,Expenses,Revised estimate
+exp_total,77186,2017-18,FALSE,Expenses,Budget estimate
+exp_total,78098,2018-19,TRUE,Expenses,Forward estimate
+exp_total,80939,2019-20,TRUE,Expenses,Forward estimate
+exp_total,82270,2020-21,TRUE,Expenses,Forward estimate
+cash_surplus,4472,2016-17,FALSE,Budget Result,Revised estimate
+cash_surplus,2698,2017-18,FALSE,Budget Result,Budget estimate
+cash_surplus,2126,2018-19,TRUE,Budget Result,Forward estimate
+cash_surplus,1532,2019-20,TRUE,Budget Result,Forward estimate
+cash_surplus,1500,2020-21,TRUE,Budget Result,Forward estimate

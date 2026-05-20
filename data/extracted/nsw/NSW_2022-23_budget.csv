@@ -1,0 +1,88 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,103617,2022-23,FALSE,Total Revenue from Transactions,
+rev_total,106701,2023-24,TRUE,Total Revenue from Transactions,
+rev_total,110101,2024-25,TRUE,Total Revenue from Transactions,
+rev_total,112944,2025-26,TRUE,Total Revenue from Transactions,
+rev_taxation,39637,2022-23,FALSE,Taxation,
+rev_taxation,39683,2023-24,TRUE,Taxation,
+rev_taxation,41732,2024-25,TRUE,Taxation,
+rev_taxation,43753,2025-26,TRUE,Taxation,
+rev_payroll,11274,2022-23,FALSE,Taxes on Employers' Payroll and Labour Force,
+rev_stamp_duty,11152,2022-23,FALSE,Stamp Duties on Financial and Capital Transactions,
+rev_land_tax,5657,2022-23,FALSE,Land Taxes,
+rev_gambling,3262,2022-23,FALSE,Taxes on Gambling,
+rev_motor_vehicle,3596,2022-23,FALSE,Motor Vehicle Taxes,
+rev_gst,25538,2022-23,FALSE,Commonwealth General Purpose,GST revenue included in Commonwealth General Purpose grants
+rev_gst,26304,2023-24,TRUE,Commonwealth General Purpose,GST revenue included in Commonwealth General Purpose grants
+rev_gst,27134,2024-25,TRUE,Commonwealth General Purpose,GST revenue included in Commonwealth General Purpose grants
+rev_gst,28148,2025-26,TRUE,Commonwealth General Purpose,GST revenue included in Commonwealth General Purpose grants
+rev_grants_tied,12476,2022-23,FALSE,Commonwealth Specific Purpose Payments,
+rev_grants_tied,12969,2023-24,TRUE,Commonwealth Specific Purpose Payments,
+rev_grants_tied,13622,2024-25,TRUE,Commonwealth Specific Purpose Payments,
+rev_grants_tied,14317,2025-26,TRUE,Commonwealth Specific Purpose Payments,
+rev_sales_goods_svcs,10191,2022-23,FALSE,Sale of Goods and Services,
+rev_sales_goods_svcs,10122,2023-24,TRUE,Sale of Goods and Services,
+rev_sales_goods_svcs,9107,2024-25,TRUE,Sale of Goods and Services,
+rev_sales_goods_svcs,9084,2025-26,TRUE,Sale of Goods and Services,
+rev_interest,372,2022-23,FALSE,Interest,
+rev_interest,409,2023-24,TRUE,Interest,
+rev_interest,436,2024-25,TRUE,Interest,
+rev_interest,480,2025-26,TRUE,Interest,
+rev_dividend,726,2022-23,FALSE,Dividend and Income Tax Equivalents from Other Sectors,
+rev_dividend,1036,2023-24,TRUE,Dividend and Income Tax Equivalents from Other Sectors,
+rev_dividend,1340,2024-25,TRUE,Dividend and Income Tax Equivalents from Other Sectors,
+rev_dividend,1699,2025-26,TRUE,Dividend and Income Tax Equivalents from Other Sectors,
+exp_total,114878,2022-23,FALSE,Total Expenses from Transactions,
+exp_total,109497,2023-24,TRUE,Total Expenses from Transactions,
+exp_total,109500,2024-25,TRUE,Total Expenses from Transactions,
+exp_total,111513,2025-26,TRUE,Total Expenses from Transactions,
+exp_employee,42640,2022-23,FALSE,Employee,
+exp_employee,42866,2023-24,TRUE,Employee,
+exp_employee,44033,2024-25,TRUE,Employee,
+exp_employee,45264,2025-26,TRUE,Employee,
+exp_super,5396,2022-23,FALSE,Superannuation,Sum of Superannuation Interest Cost (1473) and Other Superannuation (3923)
+exp_super,5520,2023-24,TRUE,Superannuation,Sum of Superannuation Interest Cost (1436) and Other Superannuation (4084)
+exp_super,5633,2024-25,TRUE,Superannuation,Sum of Superannuation Interest Cost (1412) and Other Superannuation (4221)
+exp_super,5751,2025-26,TRUE,Superannuation,Sum of Superannuation Interest Cost (1387) and Other Superannuation (4364)
+exp_depreciation,7907,2022-23,FALSE,Depreciation and Amortisation,
+exp_depreciation,8228,2023-24,TRUE,Depreciation and Amortisation,
+exp_depreciation,8546,2024-25,TRUE,Depreciation and Amortisation,
+exp_depreciation,9047,2025-26,TRUE,Depreciation and Amortisation,
+exp_interest,3566,2022-23,FALSE,Interest,
+exp_interest,4602,2023-24,TRUE,Interest,
+exp_interest,5252,2024-25,TRUE,Interest,
+exp_interest,5973,2025-26,TRUE,Interest,
+exp_other_operating,28368,2022-23,FALSE,Other Operating Expense,
+exp_other_operating,26060,2023-24,TRUE,Other Operating Expense,
+exp_other_operating,24643,2024-25,TRUE,Other Operating Expense,
+exp_other_operating,25272,2025-26,TRUE,Other Operating Expense,
+exp_current_grants,24598,2022-23,FALSE,Total Current Grants Subsidies and Transfer Payments Expense,From Table A1.5
+exp_capital_grants,2390,2022-23,FALSE,Total Capital Grants Subsidies and Transfer Payments Expense,From Table A1.5
+net_op_balance,-11260,2022-23,FALSE,Net Operating Balance,
+net_op_balance,-2796,2023-24,TRUE,Net Operating Balance,
+net_op_balance,601,2024-25,TRUE,Net Operating Balance,
+net_op_balance,1431,2025-26,TRUE,Net Operating Balance,
+net_lending,-25740,2022-23,FALSE,Net Lending/(Borrowing) [Fiscal Balance],
+net_lending,-16427,2023-24,TRUE,Net Lending/(Borrowing) [Fiscal Balance],
+net_lending,-10312,2024-25,TRUE,Net Lending/(Borrowing) [Fiscal Balance],
+net_lending,-9340,2025-26,TRUE,Net Lending/(Borrowing) [Fiscal Balance],
+cash_surplus,-23957,2022-23,FALSE,Cash Surplus/(Deficit),
+cash_surplus,-13631,2023-24,TRUE,Cash Surplus/(Deficit),
+cash_surplus,-12645,2024-25,TRUE,Cash Surplus/(Deficit),
+cash_surplus,-11833,2025-26,TRUE,Cash Surplus/(Deficit),
+net_debt,78169,2022-23,FALSE,Net Debt,As at June 2023
+net_debt,93749,2023-24,TRUE,Net Debt,As at June 2024
+net_debt,105519,2024-25,TRUE,Net Debt,As at June 2025
+net_debt,114814,2025-26,TRUE,Net Debt,As at June 2026
+net_fin_liabilities,174467,2022-23,FALSE,Net Financial Liabilities,As at June 2023
+net_fin_liabilities,189863,2023-24,TRUE,Net Financial Liabilities,As at June 2024
+net_fin_liabilities,199705,2024-25,TRUE,Net Financial Liabilities,As at June 2025
+net_fin_liabilities,210191,2025-26,TRUE,Net Financial Liabilities,As at June 2026
+net_worth,267203,2022-23,FALSE,TOTAL NET WORTH,As at June 2023
+net_worth,273230,2023-24,TRUE,TOTAL NET WORTH,As at June 2024
+net_worth,279067,2024-25,TRUE,TOTAL NET WORTH,As at June 2025
+net_worth,280316,2025-26,TRUE,TOTAL NET WORTH,As at June 2026
+capex_pnfa,21862,2022-23,FALSE,Purchases of Non-Financials Assets,
+capex_pnfa,21722,2023-24,TRUE,Purchases of Non-Financials Assets,
+capex_pnfa,21184,2024-25,TRUE,Purchases of Non-Financials Assets,
+capex_pnfa,20615,2025-26,TRUE,Purchases of Non-Financials Assets,

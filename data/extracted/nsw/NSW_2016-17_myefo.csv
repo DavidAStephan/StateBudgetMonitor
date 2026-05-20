@@ -1,0 +1,19 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,74334,2015-16,FALSE,Revenue,
+rev_total,77005,2016-17,FALSE,Revenue,Budget
+rev_total,77499,2016-17,FALSE,Revenue,Revised
+rev_total,77900,2017-18,TRUE,Revenue,
+rev_total,77654,2018-19,TRUE,Revenue,
+rev_total,80320,2019-20,TRUE,Revenue,
+exp_total,69675,2015-16,FALSE,Expenses,
+exp_total,73292,2016-17,FALSE,Expenses,Budget
+exp_total,73526,2016-17,FALSE,Expenses,Revised
+exp_total,76398,2017-18,TRUE,Expenses,
+exp_total,76633,2018-19,TRUE,Expenses,
+exp_total,79427,2019-20,TRUE,Expenses,
+net_op_balance,4659,2015-16,FALSE,Budget result,
+net_op_balance,3713,2016-17,FALSE,Budget result,Budget
+net_op_balance,3973,2016-17,FALSE,Budget result,Revised
+net_op_balance,1502,2017-18,TRUE,Budget result,
+net_op_balance,1021,2018-19,TRUE,Budget result,
+net_op_balance,893,2019-20,TRUE,Budget result,

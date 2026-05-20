@@ -1,0 +1,7 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_gst,-1900,2026-27,TRUE,GST revenue,Cumulative reduction over four years to 2026-27
+net_op_balance,-7654,2023-24,FALSE,Net operating balance,Revised estimate from Chart 1.3
+net_op_balance,475,2024-25,TRUE,Net operating balance,
+net_op_balance,1200,2025-26,TRUE,Net operating balance,
+net_op_balance,288,2026-27,TRUE,Net operating balance,
+econ_gsp_growth,1.5,2023-24,FALSE,NSW Real Gross State Product,Per cent growth

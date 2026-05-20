@@ -65,12 +65,13 @@ list(
 
   ## Track the committed CSV files so that adding / removing one
   ## under data/extracted/ invalidates extracted_facts on the next
-  ## tar_make() run. The target returns a tibble of (path, mtime,
-  ## size) --- targets hashes the value, so any add / remove / edit
-  ## invalidates downstream. Handles zero-CSV case cleanly.
+  ## tar_make() run. `cue = always` forces this target to re-scan
+  ## the directory every run; downstream re-invalidates only when
+  ## the resulting (path, mtime, size) tibble actually differs.
   tar_target(
     extracted_csv_files,
-    sbm_list_extracted_csvs(cfg$paths$extracted %||% "data/extracted")
+    sbm_list_extracted_csvs(cfg$paths$extracted %||% "data/extracted"),
+    cue = tar_cue("always")
   ),
   tar_target(extracted_facts,
              sbm_extract_all(downloaded_registry, dictionary, cfg,
@@ -104,7 +105,8 @@ list(
     sbm_list_extracted_csvs(
       file.path(cfg$paths$extracted %||% "data/extracted", "wage_policy"),
       recursive = FALSE
-    )
+    ),
+    cue = tar_cue("always")
   ),
   tar_target(wage_policy_rows,
              sbm_load_wage_policy(cfg, csv_files = wage_policy_csv_files$path)),

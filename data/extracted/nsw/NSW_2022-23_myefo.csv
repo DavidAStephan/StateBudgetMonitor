@@ -1,0 +1,5 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+net_op_balance,-11400,2022-23,FALSE,Budget result,
+net_op_balance,-6200,2023-24,TRUE,Budget result,
+net_op_balance,333,2024-25,TRUE,Budget result,
+net_op_balance,1200,2025-26,TRUE,Budget result,

@@ -1,0 +1,23 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,81743,2018-19,FALSE,Total Revenue from Transactions,
+rev_taxation,31709,2018-19,FALSE,Taxation,
+rev_gst,18379,2018-19,FALSE,Commonwealth General Purpose,GST revenue reported as Commonwealth General Purpose grants
+rev_grants_tied,13116,2018-19,FALSE,Commonwealth Specific Purpose Payments + Commonwealth National Partnership Payments,Sum of Commonwealth Specific Purpose Payments (10043) and Commonwealth National Partnership Payments (3073)
+rev_sales_goods_svcs,9072,2018-19,FALSE,Sale of Goods and Services,
+rev_interest,452,2018-19,FALSE,Interest,
+rev_dividend,1971,2018-19,FALSE,Dividend and Income Tax Equivalents from Other Sectors,
+rev_other,5163,2018-19,FALSE,Fines, Regulatory Fees and Other,
+exp_total,80623,2018-19,FALSE,Total Expenses from Transactions,
+exp_employee,32633,2018-19,FALSE,Employee,
+exp_super,4524,2018-19,FALSE,Superannuation Interest Cost + Other Superannuation,Sum of Superannuation Interest Cost (1425) and Other Superannuation (3099)
+exp_depreciation,5081,2018-19,FALSE,Depreciation and Amortisation,
+exp_interest,1855,2018-19,FALSE,Interest,Interest expenses
+exp_other_operating,21299,2018-19,FALSE,Other Operating,
+exp_current_grants,15231,2018-19,FALSE,Grants, Subsidies and Other Transfer Expenses,Reported as combined current and capital grants
+net_op_balance,1120,2018-19,FALSE,BUDGET RESULT - SURPLUS/(DEFICIT) [Net Operating Balance],
+net_lending,-11598,2018-19,FALSE,Net Lending/(Borrowing) [Fiscal Balance],
+cash_surplus,-10093,2018-19,FALSE,Cash Surplus/(Deficit),
+net_debt,-7712,2019-06-30,FALSE,Net Debt,Balance sheet item as at June 2019
+net_fin_liabilities,59758,2019-06-30,FALSE,Net Financial Liabilities,Balance sheet item as at June 2019
+net_worth,275962,2019-06-30,FALSE,TOTAL NET WORTH,Balance sheet item as at June 2019
+capex_pnfa,16681,2018-19,FALSE,Purchases of Non-Financials Assets,

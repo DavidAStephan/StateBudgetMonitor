@@ -1,0 +1,3 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+exp_health,458.5,2020-21,FALSE,Elective surgery investment,"Additional investment to ramp up elective surgeries for patients delayed by COVID-19"
+exp_health,80,2021-22,FALSE,Elective surgery investment,"Further funding to fast-track elective surgeries and clear backlog"

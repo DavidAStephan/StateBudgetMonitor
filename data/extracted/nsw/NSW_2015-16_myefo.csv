@@ -1,0 +1,35 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,69617,2014-15,FALSE,Revenue,
+rev_total,73393,2015-16,FALSE,Revenue,
+rev_total,75604,2016-17,TRUE,Revenue,
+rev_total,76232,2017-18,TRUE,Revenue,
+rev_total,77087,2018-19,TRUE,Revenue,
+exp_total,66736,2014-15,FALSE,Expenses,
+exp_total,69998,2015-16,FALSE,Expenses,
+exp_total,73043,2016-17,TRUE,Expenses,
+exp_total,73639,2017-18,TRUE,Expenses,
+exp_total,75251,2018-19,TRUE,Expenses,
+net_op_balance,2881,2014-15,FALSE,Budget result,
+net_op_balance,3395,2015-16,FALSE,Budget result,
+net_op_balance,2561,2016-17,TRUE,Budget result,
+net_op_balance,2593,2017-18,TRUE,Budget result,
+net_op_balance,1836,2018-19,TRUE,Budget result,
+net_debt,5500,2015-16,FALSE,Net debt,Approximate value from Chart 1.2
+net_debt,5300,2016-17,TRUE,Net debt,Approximate value from Chart 1.2
+net_debt,6300,2017-18,TRUE,Net debt,Approximate value from Chart 1.2
+net_debt,9700,2018-19,TRUE,Net debt,Approximate value from Chart 1.2
+econ_gsp_growth,2.4,2014-15,FALSE,Real gross state product,Percent
+econ_gsp_growth,2.5,2015-16,FALSE,Real gross state product,Percent
+econ_gsp_growth,3.0,2016-17,TRUE,Real gross state product,Percent
+econ_employment,1.2,2014-15,FALSE,Employment,Percent
+econ_employment,3.5,2015-16,FALSE,Employment,Percent
+econ_employment,1.75,2016-17,TRUE,Employment,Percent
+econ_unemployment,5.9,2014-15,FALSE,Unemployment rate,Percent
+econ_unemployment,5.5,2015-16,FALSE,Unemployment rate,Percent
+econ_unemployment,5.25,2016-17,TRUE,Unemployment rate,Percent
+econ_cpi,2.0,2014-15,FALSE,Sydney CPI,Percent
+econ_cpi,2.0,2015-16,FALSE,Sydney CPI,Percent
+econ_cpi,2.75,2016-17,TRUE,Sydney CPI,Percent
+econ_wpi,2.3,2014-15,FALSE,Wage price index,Percent
+econ_wpi,2.75,2015-16,FALSE,Wage price index,Percent
+econ_wpi,2.75,2016-17,TRUE,Wage price index,Percent

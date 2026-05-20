@@ -1,0 +1,14 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+net_op_balance,-10565,2022-23,FALSE,Budget Result,
+net_op_balance,-9676,2023-24,FALSE,Budget Result,
+net_op_balance,-3633,2024-25,FALSE,Budget Result,
+net_op_balance,-2489,2025-26,TRUE,Budget Result,
+net_op_balance,-2364,2026-27,TRUE,Budget Result,
+net_op_balance,-1518,2027-28,TRUE,Budget Result,
+net_debt,74873,2022-23,FALSE,Net debt,
+net_debt,96833,2023-24,FALSE,Net debt,
+net_debt,110523,2024-25,FALSE,Net debt,
+net_debt,121935,2025-26,TRUE,Net debt,
+net_debt,130965,2026-27,TRUE,Net debt,
+net_debt,139497,2027-28,TRUE,Net debt,
+capex_infra_program,119400,2024-25,FALSE,Total infrastructure investment program,"Four year total to 2027-28, not individual fiscal year"

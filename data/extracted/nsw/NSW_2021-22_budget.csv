@@ -1,0 +1,29 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+net_op_balance,-6916,2019-20,FALSE,Budget Result ($m),
+net_op_balance,-7865,2020-21,FALSE,Budget Result ($m),
+net_op_balance,-8604,2021-22,FALSE,Budget Result ($m),
+net_op_balance,-1755,2022-23,TRUE,Budget Result ($m),
+net_op_balance,-306,2023-24,TRUE,Budget Result ($m),
+net_op_balance,466,2024-25,TRUE,Budget Result ($m),
+capex_pnfa,20985,2019-20,FALSE,Capital expenditure ($m),
+capex_pnfa,20169,2020-21,FALSE,Capital expenditure ($m),
+capex_pnfa,23229,2021-22,FALSE,Capital expenditure ($m),
+capex_pnfa,22972,2022-23,TRUE,Capital expenditure ($m),
+capex_pnfa,20570,2023-24,TRUE,Capital expenditure ($m),
+capex_pnfa,18857,2024-25,TRUE,Capital expenditure ($m),
+net_debt,19261,2019-20,FALSE,Net debt ($m),
+net_debt,40622,2020-21,FALSE,Net debt ($m),
+net_debt,63258,2021-22,FALSE,Net debt ($m),
+net_debt,80609,2022-23,TRUE,Net debt ($m),
+net_debt,94340,2023-24,TRUE,Net debt ($m),
+net_debt,103863,2024-25,TRUE,Net debt ($m),
+net_worth,238688,2019-20,FALSE,Net worth ($m),
+net_worth,231405,2020-21,FALSE,Net worth ($m),
+net_worth,234513,2021-22,FALSE,Net worth ($m),
+net_worth,243983,2022-23,TRUE,Net worth ($m),
+net_worth,261827,2023-24,TRUE,Net worth ($m),
+net_worth,275899,2024-25,TRUE,Net worth ($m),
+econ_gsp_growth,0.75,2020-21,FALSE,GSP growth,Fiscal year 2020-21 forecast mentioned in text
+econ_gsp_growth,3.25,2021-22,FALSE,GSP growth,Economic growth forecast mentioned in text
+econ_unemployment,5.0,2021-22,FALSE,Unemployment rate (%),Text mentions close to 5 per cent
+econ_unemployment,4.5,2024-25,TRUE,Unemployment rate (%),Full employment mentioned as 4.5 per cent

@@ -1,0 +1,31 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+econ_gsp_growth,1.2,2023-24,FALSE,Real gross state product,
+econ_gsp_growth,0.75,2024-25,FALSE,Real gross state product,
+econ_gsp_growth,2.5,2025-26,TRUE,Real gross state product,
+econ_gsp_growth,2.25,2026-27,TRUE,Real gross state product,
+econ_gsp_growth,2.25,2027-28,TRUE,Real gross state product,
+econ_employment,2.1,2023-24,FALSE,Employment,
+econ_employment,2.0,2024-25,FALSE,Employment,
+econ_employment,1.5,2025-26,TRUE,Employment,
+econ_employment,1.5,2026-27,TRUE,Employment,
+econ_employment,1.5,2027-28,TRUE,Employment,
+econ_unemployment,3.9,2023-24,FALSE,Unemployment rate,June quarter percentage
+econ_unemployment,4.5,2024-25,FALSE,Unemployment rate,June quarter percentage
+econ_unemployment,4.5,2025-26,TRUE,Unemployment rate,June quarter percentage
+econ_unemployment,4.25,2026-27,TRUE,Unemployment rate,June quarter percentage
+econ_unemployment,4.0,2027-28,TRUE,Unemployment rate,June quarter percentage
+econ_cpi,4.3,2023-24,FALSE,Sydney consumer price index,
+econ_cpi,3.0,2024-25,FALSE,Sydney consumer price index,
+econ_cpi,3.0,2025-26,TRUE,Sydney consumer price index,
+econ_cpi,2.5,2026-27,TRUE,Sydney consumer price index,
+econ_cpi,2.5,2027-28,TRUE,Sydney consumer price index,
+econ_wpi,4.1,2023-24,FALSE,Wage price index,
+econ_wpi,3.5,2024-25,FALSE,Wage price index,
+econ_wpi,3.25,2025-26,TRUE,Wage price index,
+econ_wpi,3.25,2026-27,TRUE,Wage price index,
+econ_wpi,3.5,2027-28,TRUE,Wage price index,
+econ_population,1.7,2023-24,FALSE,Population,Percent change through year to 30 June
+econ_population,1.3,2024-25,FALSE,Population,Percent change through year to 30 June
+econ_population,1.3,2025-26,TRUE,Population,Percent change through year to 30 June
+econ_population,1.2,2026-27,TRUE,Population,Percent change through year to 30 June
+econ_population,1.2,2027-28,TRUE,Population,Percent change through year to 30 June

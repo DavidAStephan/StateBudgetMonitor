@@ -1,0 +1,24 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,67858,2014-15,FALSE,Total Revenue from Transactions,
+rev_taxation,25923,2014-15,FALSE,Taxation,
+rev_gst,16948,2014-15,FALSE,Commonwealth General Purpose,
+rev_grants_tied,10535,2014-15,FALSE,Commonwealth Specific Purpose Payments + Commonwealth National Partnership Payments,Sum of Commonwealth Specific Purpose Payments (7943) and Commonwealth National Partnership Payments (2592)
+rev_sales_goods_svcs,6099,2014-15,FALSE,Sale of Goods and Services,
+rev_interest,623,2014-15,FALSE,Interest,
+rev_dividend,2818,2014-15,FALSE,Dividend and Income Tax Equivalents from Other Sectors + Other Dividends and Distributions,Sum of Dividend and Income Tax Equivalents from Other Sectors (2436) and Other Dividends and Distributions (382)
+rev_other,3886,2014-15,FALSE,"Fines, Regulatory Fees and Other",
+exp_total,67586,2014-15,FALSE,Total Expenses from Transactions,
+exp_employee,28310,2014-15,FALSE,Employee,
+exp_super,4570,2014-15,FALSE,Superannuation Interest Cost + Other Superannuation,Sum of Superannuation Interest Cost (1698) and Other Superannuation (2872)
+exp_depreciation,4220,2014-15,FALSE,Depreciation and Amortisation,
+exp_interest,2303,2014-15,FALSE,Interest,
+exp_other_operating,14606,2014-15,FALSE,Other Operating,
+exp_current_grants,10316,2014-15,FALSE,Current Grants and Subsidies,
+exp_capital_grants,3261,2014-15,FALSE,Capital Grants,
+net_op_balance,272,2014-15,FALSE,Budget Result - Net Operating Balance,
+net_lending,-3243,2014-15,FALSE,Net Lending/(Borrowing) [Fiscal Balance],
+capex_pnfa,10091,2014-15,FALSE,Purchases of Non-Financial Assets,
+cash_surplus,-2482,2014-15,FALSE,Cash Surplus/(Deficit),
+net_debt,9308,2014-15,FALSE,Net Debt,
+net_fin_liabilities,65710,2014-15,FALSE,Net Financial Liabilities,
+net_worth,185219,2014-15,FALSE,Net Worth,

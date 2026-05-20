@@ -79,6 +79,22 @@ sbm_write_facts <- function(db_path, facts, registry) {
       notes
     )
 
+  ## Defensive dedup: drop any duplicate (jurisdiction, variable_id,
+  ## fiscal_year, document_id) rows --- the primary key. LLM-assisted
+  ## extraction occasionally emits the same (variable, year) row
+  ## twice; we keep the first occurrence and log the count.
+  n_before <- nrow(fact_rows)
+  fact_rows <- fact_rows |>
+    dplyr::distinct(jurisdiction, variable_id, fiscal_year, document_id,
+                    .keep_all = TRUE)
+  n_dropped <- n_before - nrow(fact_rows)
+  if (n_dropped > 0L) {
+    sbm_warn(sprintf(
+      "write_facts: dropped %d duplicate fact row(s) on primary key",
+      n_dropped
+    ))
+  }
+
   ## DuckDB doesn't support ON CONFLICT in dbAppendTable, so we wipe
   ## and reload. The warehouse is small (<< 1M rows projected) and
   ## fully rebuildable from data/extracted/, so this is fine.
