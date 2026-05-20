@@ -41,8 +41,7 @@ normalisation against ABS ERP, revisions panel, aggregates) flows
 through automatically.
 :::
 
-```{r controls}
-#| label: linked-chart
+```{r linked-chart}
 
 if (nrow(facts) == 0L) {
   htmltools::p("No facts in the warehouse yet for WA.")
@@ -73,8 +72,8 @@ if (nrow(facts) == 0L) {
     list(
       filter_select("var",  "Variable",       shared, ~canonical_label),
       filter_select("view", "Normalisation",  shared, ~view, multiple = FALSE),
-      filter_slider("fy",   "Fiscal year",    shared, ~fiscal_year,
-                    step = 1, sep = "")
+      filter_select("fy",   "Fiscal year",    shared, ~fiscal_year,
+                    multiple = TRUE)
     ),
     plot_ly(shared,
             x = ~fiscal_year, y = ~value,
