@@ -23,6 +23,12 @@ data/warehouse.duckdb.wal
 # Local caches
 .cache/
 
+# Secrets --- API keys, env vars (never commit)
+.Renviron
+.env
+*.pem
+*.key
+
 # R session artefacts
 .Rhistory
 .Rapp.history
