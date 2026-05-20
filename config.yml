@@ -47,7 +47,7 @@ default:
     # data/extracted/. These settings exist only for local dev runs.
     enabled_locally: false
     provider:        "anthropic"
-    model:           "claude-opus-4-7"
+    model:           "claude-sonnet-4-5-20250929"
     api_key_env:     "ANTHROPIC_API_KEY"
 
   reporting:

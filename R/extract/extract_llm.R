@@ -25,10 +25,15 @@
 #' @param dictionary The variable dictionary tibble (used to seed the
 #'   LLM with the canonical variable taxonomy).
 #' @param cfg Project config.
+#' @param pages Optional integer vector of page numbers to send to the
+#'   LLM (e.g. `100:140`). Anthropic caps PDF input at 100 pages, so
+#'   for Budget Papers larger than that the caller must specify a
+#'   subset covering the General Government Sector tables.
 #' @return Path to the written CSV (invisibly), or NULL on failure /
 #'   gated abort.
 #' @export
-sbm_extract_llm <- function(document_id, registry, dictionary, cfg) {
+sbm_extract_llm <- function(document_id, registry, dictionary, cfg,
+                            pages = NULL) {
 
   ## --- production safety rails ---------------------------------------------
   if (!isTRUE(cfg$llm$enabled_locally)) {
@@ -65,6 +70,23 @@ sbm_extract_llm <- function(document_id, registry, dictionary, cfg) {
   if (!file.exists(pdf_path)) {
     stop(sprintf("sbm_extract_llm: PDF not on disk at %s --- run downloader first",
                  pdf_path), call. = FALSE)
+  }
+
+  ## Carve out the requested page range if needed. Anthropic caps PDF
+  ## input at 100 pages; Budget Papers are often 150-400 pages, of
+  ## which only ~20-40 contain the General Government Sector tables.
+  if (!is.null(pages)) {
+    if (!requireNamespace("pdftools", quietly = TRUE)) {
+      stop("sbm_extract_llm: `pdftools` is needed for page subsetting. ",
+           "`install.packages('pdftools')` and retry.", call. = FALSE)
+    }
+    subset_dir <- file.path(tempdir(), "sbm_pdf_subsets")
+    fs::dir_create(subset_dir)
+    subset_path <- file.path(subset_dir, paste0(document_id, "_subset.pdf"))
+    pdftools::pdf_subset(pdf_path, pages = pages, output = subset_path)
+    sbm_info(sprintf("Subset PDF: %d pages -> %s",
+                     length(pages), basename(subset_path)))
+    pdf_path <- subset_path
   }
 
   ## --- build prompt with the canonical variable taxonomy ------------------
@@ -115,12 +137,13 @@ sbm_extract_llm <- function(document_id, registry, dictionary, cfg) {
   model <- cfg$llm$model    %||% "claude-opus-4-7"
   provider <- cfg$llm$provider %||% "anthropic"
 
+  ## ellmer reads ANTHROPIC_API_KEY from env automatically; we only
+  ## verified above that it's set. Avoid the deprecated `api_key` arg.
   chat <- switch(
     provider,
     anthropic = ellmer::chat_anthropic(
       model         = model,
-      system_prompt = system_prompt,
-      api_key       = Sys.getenv(api_key_env)
+      system_prompt = system_prompt
     ),
     stop(sprintf("Unsupported LLM provider: %s", provider), call. = FALSE)
   )
