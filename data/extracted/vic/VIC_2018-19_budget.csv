@@ -1,0 +1,77 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,69487,2018-19,FALSE,Total revenue from transactions,
+rev_total,70617,2019-20,TRUE,Total revenue from transactions,
+rev_total,72609,2020-21,TRUE,Total revenue from transactions,
+rev_total,75004,2021-22,TRUE,Total revenue from transactions,
+rev_taxation,24081,2018-19,FALSE,Taxation revenue,
+rev_taxation,25245,2019-20,TRUE,Taxation revenue,
+rev_taxation,26074,2020-21,TRUE,Taxation revenue,
+rev_taxation,27483,2021-22,TRUE,Taxation revenue,
+rev_interest,864,2018-19,FALSE,Interest revenue,
+rev_interest,858,2019-20,TRUE,Interest revenue,
+rev_interest,833,2020-21,TRUE,Interest revenue,
+rev_interest,824,2021-22,TRUE,Interest revenue,
+rev_dividend,922,2018-19,FALSE,"Dividends, income tax equivalent and rate equivalent revenue",
+rev_dividend,511,2019-20,TRUE,"Dividends, income tax equivalent and rate equivalent revenue",
+rev_dividend,564,2020-21,TRUE,"Dividends, income tax equivalent and rate equivalent revenue",
+rev_dividend,552,2021-22,TRUE,"Dividends, income tax equivalent and rate equivalent revenue",
+rev_sales_goods_svcs,7541,2018-19,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,8275,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8450,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,8621,2021-22,TRUE,Sales of goods and services,
+rev_other,2622,2018-19,FALSE,Other revenue,
+rev_other,2622,2019-20,TRUE,Other revenue,
+rev_other,2687,2020-21,TRUE,Other revenue,
+rev_other,2747,2021-22,TRUE,Other revenue,
+exp_total,68108,2018-19,FALSE,Total expenses from transactions,
+exp_total,68646,2019-20,TRUE,Total expenses from transactions,
+exp_total,69894,2020-21,TRUE,Total expenses from transactions,
+exp_total,72114,2021-22,TRUE,Total expenses from transactions,
+exp_employee,25562,2018-19,FALSE,Employee expenses,
+exp_employee,26354,2019-20,TRUE,Employee expenses,
+exp_employee,27302,2020-21,TRUE,Employee expenses,
+exp_employee,28288,2021-22,TRUE,Employee expenses,
+exp_depreciation,2876,2018-19,FALSE,Depreciation,
+exp_depreciation,3036,2019-20,TRUE,Depreciation,
+exp_depreciation,3337,2020-21,TRUE,Depreciation,
+exp_depreciation,3507,2021-22,TRUE,Depreciation,
+exp_interest,2167,2018-19,FALSE,Interest expense,
+exp_interest,2211,2019-20,TRUE,Interest expense,
+exp_interest,2275,2020-21,TRUE,Interest expense,
+exp_interest,2319,2021-22,TRUE,Interest expense,
+exp_other_operating,21264,2018-19,FALSE,Other operating expenses,
+exp_other_operating,19713,2019-20,TRUE,Other operating expenses,
+exp_other_operating,19906,2020-21,TRUE,Other operating expenses,
+exp_other_operating,20528,2021-22,TRUE,Other operating expenses,
+net_op_balance,1380,2018-19,FALSE,Net operating balance,
+net_op_balance,1971,2019-20,TRUE,Net operating balance,
+net_op_balance,2715,2020-21,TRUE,Net operating balance,
+net_op_balance,2891,2021-22,TRUE,Net operating balance,
+net_cap_investment,1921,2018-19,FALSE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,2557,2019-20,TRUE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,2189,2020-21,TRUE,Net acquisition of non-financial assets from transactions,
+net_cap_investment,1294,2021-22,TRUE,Net acquisition of non-financial assets from transactions,
+net_lending,-541,2018-19,FALSE,Net lending/(borrowing),
+net_lending,-586,2019-20,TRUE,Net lending/(borrowing),
+net_lending,526,2020-21,TRUE,Net lending/(borrowing),
+net_lending,1597,2021-22,TRUE,Net lending/(borrowing),
+cash_surplus,-4172,2018-19,FALSE,Cash surplus/(deficit),
+cash_surplus,-3656,2019-20,TRUE,Cash surplus/(deficit),
+cash_surplus,-2576,2020-21,TRUE,Cash surplus/(deficit),
+cash_surplus,-1237,2021-22,TRUE,Cash surplus/(deficit),
+net_debt,24339,2018-19,FALSE,Net debt,Balance sheet as at 30 June 2019
+net_debt,28023,2019-20,TRUE,Net debt,Balance sheet as at 30 June 2020
+net_debt,29827,2020-21,TRUE,Net debt,Balance sheet as at 30 June 2021
+net_debt,31366,2021-22,TRUE,Net debt,Balance sheet as at 30 June 2022
+net_fin_liabilities,57525,2018-19,FALSE,Net financial liabilities,Balance sheet as at 30 June 2019
+net_fin_liabilities,60214,2019-20,TRUE,Net financial liabilities,Balance sheet as at 30 June 2020
+net_fin_liabilities,60592,2020-21,TRUE,Net financial liabilities,Balance sheet as at 30 June 2021
+net_fin_liabilities,60305,2021-22,TRUE,Net financial liabilities,Balance sheet as at 30 June 2022
+net_worth,174499,2018-19,FALSE,Net worth,Balance sheet as at 30 June 2019
+net_worth,185183,2019-20,TRUE,Net worth,Balance sheet as at 30 June 2020
+net_worth,190465,2020-21,TRUE,Net worth,Balance sheet as at 30 June 2021
+net_worth,197553,2021-22,TRUE,Net worth,Balance sheet as at 30 June 2022
+capex_pnfa,10091,2018-19,FALSE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,7889,2019-20,TRUE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,6753,2020-21,TRUE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,6456,2021-22,TRUE,Purchase of non-financial assets,From Cash Flow Statement

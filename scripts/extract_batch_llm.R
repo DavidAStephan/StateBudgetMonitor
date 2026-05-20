@@ -56,11 +56,16 @@ find_ggs_pages <- function(pdf_path) {
   ## operating statement" inside "Estimated financial statements for
   ## the general government sector"; QLD uses "General Government
   ## operating statement" in BP2.
+  ## Match the canonical table-title language. The structure varies:
+  ##   - NSW: "General government sector operating statement"
+  ##   - VIC: "Estimated general government sector comprehensive
+  ##           operating statement"
+  ##   - QLD: "General Government operating statement"
+  ## Catch all of these with a flexible "general government" +
+  ## "operating statement" pattern that tolerates intervening words.
   has_table_title <- grepl(
     paste0(
-      "[Gg]eneral [Gg]overnment [Ss]ector [Oo]perating [Ss]tatement|",
-      "[Ee]stimated [Cc]omprehensive [Oo]perating [Ss]tatement|",
-      "[Ee]stimated [Oo]perating [Ss]tatement|",
+      "[Gg]eneral [Gg]overnment[ \\w]{0,40}[Oo]perating [Ss]tatement|",
       "[Ee]stimated [Ff]inancial [Ss]tatements"
     ),
     text
@@ -89,11 +94,16 @@ find_ggs_pages <- function(pdf_path) {
   }
   if (length(table_pages) == 0L) return(NULL)
 
-  ## Prefer the LAST contiguous cluster (appendices live at the end).
+  ## Prefer the FIRST contiguous cluster of table pages. In Statement
+  ## of Finances documents, chapter 1 / appendix A is the General
+  ## Government Sector; later clusters are typically Public
+  ## Non-Financial Corporations (PNFC) or Non-financial Public Sector
+  ## --- out of scope for this project. NSW Budget Papers put the GGS
+  ## appendix near the end, but there's still only one GGS cluster.
   gaps <- which(diff(table_pages) > 3L)
   if (length(gaps) > 0L) {
-    last_cluster_start <- gaps[length(gaps)] + 1L
-    table_pages <- table_pages[last_cluster_start:length(table_pages)]
+    first_cluster_end <- gaps[[1L]]
+    table_pages <- table_pages[seq_len(first_cluster_end)]
   }
   start <- table_pages[[1L]]
   end   <- min(table_pages[length(table_pages)] + 5L, n_pages, start + 9L)
