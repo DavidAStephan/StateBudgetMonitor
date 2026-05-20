@@ -1,0 +1,129 @@
+name: render-and-deploy
+
+on:
+  schedule:
+    # Mondays 06:00 UTC (16:00 AEST). Picks up any newly released
+    # Budget Papers or MYEFOs and republishes the site.
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "R/**"
+      - "inst/**"
+      - "data/extracted/**"
+      - "data/manual_overrides/**"
+      - "reports/**"
+      - "*.qmd"
+      - "_quarto.yml"
+      - "custom.scss"
+      - "config.yml"
+      - "_targets.R"
+      - "DESCRIPTION"
+      - "NAMESPACE"
+      - ".github/workflows/render.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+  R_LIBS_USER: ${{ github.workspace }}/R-lib
+  RENV_CONFIG_AUTOLOADER_ENABLED: "FALSE"
+
+jobs:
+
+  render:
+    runs-on: ubuntu-22.04
+    outputs:
+      page-url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libglpk40 libxml2-dev libssl-dev libcurl4-openssl-dev \
+            libsodium-dev libicu-dev default-jdk
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.4"
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: r-jammy-${{ runner.os }}-v1-${{ hashFiles('.github/workflows/render.yml', 'DESCRIPTION') }}
+
+      - name: Install R packages from RSPM binaries
+        run: |
+          mkdir -p "${R_LIBS_USER}"
+          Rscript -e '
+            options(
+              repos = c(RSPM = "https://packagemanager.posit.co/cran/__linux__/jammy/latest"),
+              install.packages.compile.from.source = "never",
+              Ncpus = 2
+            )
+            .libPaths(c(Sys.getenv("R_LIBS_USER"), .libPaths()))
+            pkgs <- c(
+              "cli", "config", "crosstalk", "DBI", "dplyr", "duckdb", "fs",
+              "ggplot2", "glue", "htmltools", "httr2", "lubridate", "plotly",
+              "purrr", "reactable", "readabs", "readr", "readxl", "rlang",
+              "scales", "stringr", "tabulapdf", "tarchetypes", "targets",
+              "tibble", "tidyr", "yaml", "testthat", "quarto", "rmarkdown",
+              "knitr"
+            )
+            new <- setdiff(pkgs, rownames(installed.packages()))
+            if (length(new) > 0L) install.packages(new)
+          '
+
+      - name: Verify R packages load
+        run: |
+          Rscript -e '
+            .libPaths(c(Sys.getenv("R_LIBS_USER"), .libPaths()))
+            for (p in c("targets", "tarchetypes", "duckdb", "DBI", "dplyr",
+                        "plotly", "crosstalk", "reactable", "config",
+                        "readabs", "tabulapdf")) {
+              loadNamespace(p); cat(sprintf("OK %s\n", p))
+            }
+          '
+
+      - name: Run pipeline (targets::tar_make)
+        run: |
+          Rscript -e '
+            .libPaths(c(Sys.getenv("R_LIBS_USER"), .libPaths()))
+            targets::tar_make()
+          '
+
+      - name: Render Quarto site
+        run: quarto render --to html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: render
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,115 @@
+---
+title: "Queensland"
+subtitle: "General Government Sector fiscal positions"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(crosstalk)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+JURIS <- "QLD"
+
+facts <- tryCatch(
+  tar_read(facts_latest) |> filter(jurisdiction == JURIS),
+  error = function(e) tibble::tibble()
+)
+
+per_capita <- tryCatch(
+  tar_read(facts_per_capita) |> filter(jurisdiction == JURIS),
+  error = function(e) tibble::tibble()
+)
+
+per_gsp <- tryCatch(
+  tar_read(facts_per_gsp) |> filter(jurisdiction == JURIS),
+  error = function(e) tibble::tibble()
+)
+```
+
+## Headline variables
+
+::: {.callout-note}
+Data currently shown is from PLACEHOLDER CSVs under
+`data/extracted/qld/`. Replace those values with extracted figures
+from the source Budget Papers; everything downstream (per-capita
+normalisation against ABS ERP, revisions panel, aggregates) flows
+through automatically.
+:::
+
+```{r controls}
+#| label: linked-chart
+
+if (nrow(facts) == 0L) {
+  htmltools::p("No facts in the warehouse yet for QLD.")
+} else {
+  ## Long panel covering absolute / per-capita / per-GSP views in
+  ## one table so a single SharedData backs all three.
+  long <- facts |>
+    transmute(variable_id, canonical_label, fiscal_year,
+              is_forward_estimate, value = value_aud_mil,
+              view = "absolute_aud_mil") |>
+    bind_rows(
+      per_capita |> transmute(variable_id, canonical_label, fiscal_year,
+                              is_forward_estimate,
+                              value = value_per_capita_aud,
+                              view = "per_capita_aud")
+    ) |>
+    bind_rows(
+      per_gsp |> transmute(variable_id, canonical_label, fiscal_year,
+                           is_forward_estimate,
+                           value = value_share_gsp * 100,
+                           view = "share_gsp_pct")
+    )
+
+  shared <- SharedData$new(long)
+
+  bscols(
+    widths = c(3, 9),
+    list(
+      filter_select("var",  "Variable",       shared, ~canonical_label),
+      filter_select("view", "Normalisation",  shared, ~view, multiple = FALSE),
+      filter_slider("fy",   "Fiscal year",    shared, ~fiscal_year,
+                    step = 1, sep = "")
+    ),
+    plot_ly(shared,
+            x = ~fiscal_year, y = ~value,
+            color = ~is_forward_estimate,
+            colors = c(`FALSE` = "#1f3a93", `TRUE` = "#5a6c7d"),
+            type = "scatter", mode = "lines+markers",
+            line = list(width = 2.5),
+            hovertemplate = paste(
+              "<b>%{x}</b><br>",
+              "Value: %{y:,.2f}<extra></extra>"
+            )) |>
+      sbm_theme_fiscal(
+        title       = paste(JURIS, "--- selected variable"),
+        yaxis_title = "value"
+      )
+  )
+}
+```
+
+## Fact table
+
+```{r fact-table}
+if (nrow(facts) == 0L) {
+  htmltools::p("No facts in the warehouse yet for QLD.")
+} else {
+  facts |>
+    select(variable_id, canonical_label, category, fiscal_year, value_aud_mil,
+           is_forward_estimate, estimate_type, document_id, release_date) |>
+    arrange(category, variable_id, fiscal_year) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE,
+      defaultColDef   = colDef(minWidth = 90)
+    )
+}
+```

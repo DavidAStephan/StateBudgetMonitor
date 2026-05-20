@@ -1,0 +1,89 @@
+---
+title: "Cross-state comparison"
+subtitle: "Compare any variable across selected jurisdictions"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(crosstalk)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+facts      <- tryCatch(tar_read(facts_latest),    error = function(e) tibble::tibble())
+per_capita <- tryCatch(tar_read(facts_per_capita), error = function(e) tibble::tibble())
+per_gsp    <- tryCatch(tar_read(facts_per_gsp),   error = function(e) tibble::tibble())
+```
+
+::: {.callout-note}
+Pick a variable, the jurisdictions to compare, and the normalisation
+view (absolute AUD millions, per-capita AUD, or share of GSP).
+Selections are linked --- changing one widget updates every chart and
+table on the page.
+:::
+
+```{r}
+if (nrow(facts) == 0L) {
+  htmltools::p("No facts in the warehouse yet.")
+} else {
+  long <- facts |>
+    transmute(jurisdiction, variable_id, canonical_label, category,
+              fiscal_year, is_forward_estimate,
+              value = value_aud_mil, view = "absolute_aud_mil") |>
+    bind_rows(
+      per_capita |> transmute(jurisdiction, variable_id, canonical_label,
+                              category, fiscal_year, is_forward_estimate,
+                              value = value_per_capita_aud,
+                              view = "per_capita_aud")
+    ) |>
+    bind_rows(
+      per_gsp |> transmute(jurisdiction, variable_id, canonical_label,
+                           category, fiscal_year, is_forward_estimate,
+                           value = value_share_gsp * 100,
+                           view = "share_gsp_pct")
+    )
+
+  shared <- SharedData$new(long)
+
+  bscols(
+    widths = c(3, 9),
+    list(
+      filter_select("var",  "Variable",      shared, ~canonical_label),
+      filter_select("view", "Normalisation", shared, ~view, multiple = FALSE),
+      filter_checkbox("jur", "Jurisdictions", shared, ~jurisdiction,
+                      inline = TRUE)
+    ),
+    plot_ly(shared,
+            x = ~fiscal_year, y = ~value,
+            color = ~jurisdiction,
+            type = "scatter", mode = "lines+markers",
+            line = list(width = 2)) |>
+      sbm_theme_fiscal(
+        title       = "Selected variable",
+        yaxis_title = "value"
+      )
+  )
+}
+```
+
+## Underlying data
+
+```{r}
+if (nrow(facts) == 0L) {
+  htmltools::p("No facts to show.")
+} else {
+  facts |>
+    select(jurisdiction, variable_id, canonical_label, fiscal_year,
+           value_aud_mil, is_forward_estimate, estimate_type, document_id) |>
+    arrange(variable_id, jurisdiction, fiscal_year) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE
+    )
+}
+```

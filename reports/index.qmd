@@ -1,0 +1,125 @@
+---
+title: "Australian State Budget Monitor"
+subtitle: "Interactive fiscal positions across all eight states and territories"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+facts        <- tryCatch(tar_read(facts_latest),     error = function(e) tibble::tibble())
+agg          <- tryCatch(tar_read(facts_aggregate),  error = function(e) tibble::tibble())
+registry     <- tryCatch(tar_read(registry),         error = function(e) tibble::tibble())
+downloaded   <- tryCatch(tar_read(downloaded_registry), error = function(e) tibble::tibble())
+recon        <- tryCatch(tar_read(gfs_reconciliation), error = function(e) tibble::tibble())
+```
+
+## What this is
+
+A reproducible R pipeline that extracts forward estimates and
+historical actuals from every Australian state and territory Budget
+Paper, MYEFO, and Final Budget Outcome, harmonises them against ABS
+Government Finance Statistics, and renders them as this interactive
+dashboard. Source code is at
+[github.com/DavidAStephan/StateBudgetMonitor](https://github.com/DavidAStephan/StateBudgetMonitor);
+the pipeline runs weekly and republishes the site automatically.
+
+Drill in via the navigation above:
+
+* **States** --- per-jurisdiction view of revenue, expenses, capex,
+  and net debt with normalisation toggles and forward-estimate
+  vintage trails.
+* **Comparison** --- pick a variable, choose jurisdictions, switch
+  between absolute / per-capita / share-of-GSP views.
+* **Aggregate** --- sum across all eight jurisdictions.
+* **Revisions** --- watch the forward estimate for any
+  (jurisdiction, variable, year) triple move across successive
+  Budget updates.
+* **Wage policy** --- public-sector wage-policy decisions per state.
+* **Methodology** --- sources, extraction approach, harmonisation,
+  vintage discipline, ABS reconciliation, and known limitations.
+
+## Pipeline coverage
+
+```{r coverage}
+coverage_cards <- function(facts, registry, downloaded) {
+  htmltools::div(
+    style = "display:flex; gap:1.5rem; margin:1rem 0;",
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#f8f9fa; border-radius:4px;",
+      htmltools::strong("Documents tracked"),
+      htmltools::tags$br(),
+      htmltools::tags$span(style = "font-size:2rem;", nrow(registry))
+    ),
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#f8f9fa; border-radius:4px;",
+      htmltools::strong("Source URLs confirmed"),
+      htmltools::tags$br(),
+      htmltools::tags$span(
+        style = "font-size:2rem;",
+        if (nrow(registry) == 0L) "-"
+        else sum(!is.na(registry$source_url))
+      )
+    ),
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#f8f9fa; border-radius:4px;",
+      htmltools::strong("Facts in warehouse"),
+      htmltools::tags$br(),
+      htmltools::tags$span(style = "font-size:2rem;", nrow(facts))
+    ),
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#f8f9fa; border-radius:4px;",
+      htmltools::strong("Last as-of"),
+      htmltools::tags$br(),
+      htmltools::tags$span(
+        style = "font-size:1.2rem;",
+        format(Sys.Date(), "%d %b %Y")
+      )
+    )
+  )
+}
+
+coverage_cards(facts, registry, downloaded)
+```
+
+## Snapshot: aggregate net debt
+
+```{r snapshot}
+if (nrow(agg) == 0L) {
+  htmltools::p("No aggregate data yet --- add committed CSVs under `data/extracted/`.")
+} else {
+  agg |>
+    filter(variable_id == "net_debt") |>
+    arrange(fiscal_year) |>
+    plot_ly(x = ~fiscal_year, y = ~value_aud_mil,
+            color = ~is_forward_estimate,
+            colors = c(`FALSE` = "#1f3a93", `TRUE` = "#5a6c7d"),
+            type = "scatter", mode = "lines+markers",
+            line = list(width = 3)) |>
+    sbm_theme_fiscal(
+      title       = "All states & territories --- net debt",
+      yaxis_title = "AUD millions"
+    )
+}
+```
+
+## Per-jurisdiction coverage
+
+```{r coverage-table}
+if (nrow(facts) == 0L) {
+  htmltools::p("No facts yet.")
+} else {
+  facts |>
+    count(jurisdiction, name = "facts") |>
+    arrange(desc(facts)) |>
+    reactable(
+      striped         = TRUE,
+      defaultPageSize = 10
+    )
+}
+```

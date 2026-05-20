@@ -1,0 +1,4 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,108500,2023-24,FALSE,Total revenue,PLACEHOLDER --- replace with extracted value
+exp_total,115800,2023-24,FALSE,Total expenses,PLACEHOLDER --- replace with extracted value
+net_debt,118300,2023-24,FALSE,Net debt,PLACEHOLDER --- replace with extracted value

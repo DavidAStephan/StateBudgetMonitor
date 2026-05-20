@@ -1,0 +1,59 @@
+---
+title: "Aggregate states"
+subtitle: "Sum across all eight Australian states and territories"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+agg <- tryCatch(tar_read(facts_aggregate), error = function(e) tibble::tibble())
+```
+
+::: {.callout-note}
+Aggregate views sum flow variables (revenue, expenses, capex) and
+stock variables (net debt) across all eight jurisdictions. They
+should be treated as approximate while Phase 2 extraction is
+incomplete --- the sum reflects whatever subset of states has been
+extracted so far.
+:::
+
+```{r}
+if (nrow(agg) == 0L) {
+  htmltools::p("No aggregate panel yet.")
+} else {
+  agg |>
+    filter(variable_id == "net_debt", !is_forward_estimate) |>
+    arrange(fiscal_year) |>
+    plot_ly(x = ~fiscal_year, y = ~value_aud_mil,
+            type = "scatter", mode = "lines+markers",
+            name = "All states & territories") |>
+    sbm_theme_fiscal(
+      title       = "Aggregate net debt",
+      yaxis_title = "AUD millions"
+    )
+}
+```
+
+## Aggregate fact table
+
+```{r}
+if (nrow(agg) == 0L) {
+  htmltools::p("Empty.")
+} else {
+  agg |>
+    arrange(variable_id, fiscal_year) |>
+    select(variable_id, canonical_label, fiscal_year, value_aud_mil, n_states) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE
+    )
+}
+```

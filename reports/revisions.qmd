@@ -1,0 +1,81 @@
+---
+title: "Forward-estimate revisions"
+subtitle: "How estimates for a given variable and out-year have moved across budget updates"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(crosstalk)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+revs <- tryCatch(tar_read(revisions), error = function(e) tibble::tibble())
+```
+
+::: {.callout-note}
+Each point is one Budget Paper or MYEFO release; the x-axis is the
+document's release date. Filter to a jurisdiction, variable, and
+forecast fiscal year to see how the estimate has moved as each
+Budget update has been released.
+
+This is the vintage-discipline view: it answers
+"what was knowable about X at any past point in time?"
+:::
+
+```{r}
+if (nrow(revs) == 0L) {
+  htmltools::p("No revisions yet --- the panel is built from `fiscal_facts` joined to `dim_documents.release_date`; add committed CSVs under `data/extracted/` to populate it.")
+} else {
+  shared <- SharedData$new(revs |> filter(!is.na(release_date)))
+
+  bscols(
+    widths = c(3, 9),
+    list(
+      filter_select("jur", "Jurisdiction",  shared, ~jurisdiction),
+      filter_select("var", "Variable",      shared, ~canonical_label),
+      filter_select("fy",  "Forecast year", shared, ~fiscal_year)
+    ),
+    plot_ly(shared,
+            x = ~release_date, y = ~value_aud_mil,
+            color = ~doc_type,
+            colors = c(budget  = "#1f3a93",
+                       myefo   = "#a6611a",
+                       outcome = "#5a6c7d"),
+            type = "scatter", mode = "lines+markers",
+            text = ~document_id,
+            hovertemplate = paste(
+              "<b>%{text}</b><br>",
+              "Released: %{x}<br>",
+              "Value: %{y:,.0f} AUD mil<extra></extra>"
+            )) |>
+      sbm_theme_fiscal(
+        title       = "Vintage trail",
+        yaxis_title = "AUD millions"
+      ) |>
+      layout(xaxis = list(title = "Document release date"))
+  )
+}
+```
+
+## All revisions
+
+```{r}
+if (nrow(revs) == 0L) {
+  htmltools::p("Empty.")
+} else {
+  revs |>
+    arrange(jurisdiction, variable_id, fiscal_year, release_date) |>
+    select(jurisdiction, variable_id, canonical_label, fiscal_year,
+           release_date, doc_type, value_aud_mil, document_id) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE
+    )
+}
+```

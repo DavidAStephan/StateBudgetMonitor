@@ -1,0 +1,73 @@
+---
+title: "Public-sector wage policy"
+subtitle: "Stated wage policy decisions across states and territories"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(plotly)
+library(reactable)
+library(htmltools)
+library(crosstalk)
+tar_source("R")
+
+wage_rows <- tryCatch(tar_read(wage_panel), error = function(e) tibble::tibble())
+```
+
+::: {.callout-note}
+Phase 5 deliverable. Per-jurisdiction CSVs under
+`data/extracted/wage_policy/` populate this table; new wage-policy
+decisions land here on the next pipeline rebuild. The seed rows
+shown are PLACEHOLDERs --- replace with real extracted values.
+:::
+
+```{r}
+if (nrow(wage_rows) == 0L) {
+  htmltools::p("No wage policy rows in the warehouse yet.")
+} else {
+  shared <- SharedData$new(wage_rows)
+
+  bscols(
+    widths = c(3, 9),
+    list(
+      filter_select("jur", "Jurisdiction", shared, ~jurisdiction),
+      filter_slider("pct", "Annual rise (%)", shared, ~annual_rise_pct,
+                    step = 0.25, round = TRUE)
+    ),
+    plot_ly(shared,
+            x = ~effective_from, y = ~annual_rise_pct,
+            color = ~jurisdiction,
+            type = "scatter", mode = "markers",
+            text = ~paste0("<b>", document_id, "</b><br>",
+                           "Coverage: ", coverage, "<br>",
+                           policy_text),
+            hoverinfo = "text",
+            marker = list(size = 11)) |>
+      sbm_theme_fiscal(
+        title       = "Stated annual rise (per cent)",
+        yaxis_title = "Per cent"
+      )
+  )
+}
+```
+
+## Decisions
+
+```{r}
+if (nrow(wage_rows) == 0L) {
+  htmltools::p("No wage policy rows.")
+} else {
+  wage_rows |>
+    select(jurisdiction, document_id, effective_from, effective_to,
+           annual_rise_pct, coverage, productivity_offset,
+           sign_on_bonus, policy_text) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE
+    )
+}
+```

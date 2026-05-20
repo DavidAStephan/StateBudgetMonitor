@@ -1,0 +1,39 @@
+# renv
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+renv/sandbox/
+
+# targets cache
+_targets/
+
+# Quarto outputs
+_site/
+_freeze/
+.quarto/
+
+# Raw downloaded PDFs (re-downloadable from primary sources)
+data/raw/
+
+# DuckDB warehouse (rebuilt from data/extracted/ + overrides)
+data/warehouse.duckdb
+data/warehouse.duckdb.wal
+
+# Local caches
+.cache/
+
+# R session artefacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

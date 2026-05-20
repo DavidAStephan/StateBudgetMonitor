@@ -1,0 +1,4 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,118400,2025-26,TRUE,Total revenue,PLACEHOLDER --- forward estimate
+exp_total,124100,2025-26,TRUE,Total expenses,PLACEHOLDER --- forward estimate
+net_debt,162300,2025-26,TRUE,Net debt,PLACEHOLDER --- forward estimate

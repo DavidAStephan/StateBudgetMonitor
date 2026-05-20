@@ -1,0 +1,56 @@
+default:
+
+  paths:
+    raw:        "data/raw"
+    extracted:  "data/extracted"
+    overrides:  "data/manual_overrides/overrides.csv"
+    warehouse:  "data/warehouse.duckdb"
+    cache:      ".cache"
+
+  run:
+    asof_date:  ~                  # NULL => Sys.Date(); override for vintage replay
+    log_level:  "info"
+    http_retries:         4
+    http_backoff_seconds: [1, 4, 16, 64]
+    user_agent: "statebudgetmonitor (+https://github.com/DavidAStephan/StateBudgetMonitor)"
+
+  jurisdictions:
+    codes:  ["NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"]
+
+  fiscal_years:
+    start_fy:  "2014-15"
+    # end_fy left open — derived from current date each run
+
+  document_registry:
+    path: "inst/document_registry.csv"
+
+  variable_dictionary:
+    path: "inst/variable_dictionary.csv"
+
+  abs:
+    gfs_annual_cat:     "5512.0"
+    gfs_quarterly_cat:  "5519.0.55.001"
+    population_cat:     "3101.0"
+    state_accounts_cat: "5220.0"
+    publication_lag_days:
+      gfs_annual:     365
+      gfs_quarterly:  90
+      population:     90
+      state_accounts: 365
+
+  validation:
+    gfs_tolerance_pct: 2.0   # discrepancies above this raise STATUS.md flag
+
+  llm:
+    # The production pipeline NEVER calls an LLM. ellmer-based extraction
+    # runs only on a developer machine; outputs are committed to
+    # data/extracted/. These settings exist only for local dev runs.
+    enabled_locally: false
+    provider:        "anthropic"
+    model:           "claude-opus-4-7"
+    api_key_env:     "ANTHROPIC_API_KEY"
+
+  reporting:
+    asof_label_fmt: "%d %B %Y"
+    site_url:       "https://DavidAStephan.github.io/StateBudgetMonitor/"
+    repo_url:       "https://github.com/DavidAStephan/StateBudgetMonitor"

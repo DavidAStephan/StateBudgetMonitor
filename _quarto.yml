@@ -1,0 +1,103 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 4200
+  render:
+    - "reports/index.qmd"
+    - "reports/state_pages/nsw.qmd"
+    - "reports/state_pages/vic.qmd"
+    - "reports/state_pages/qld.qmd"
+    - "reports/state_pages/wa.qmd"
+    - "reports/state_pages/sa.qmd"
+    - "reports/state_pages/tas.qmd"
+    - "reports/state_pages/act.qmd"
+    - "reports/state_pages/nt.qmd"
+    - "reports/comparison.qmd"
+    - "reports/aggregate.qmd"
+    - "reports/revisions.qmd"
+    - "reports/wage_policy.qmd"
+    - "reports/methodology.qmd"
+
+website:
+  title: "Australian State Budget Monitor"
+  description: >
+    Interactive view of fiscal positions across all eight Australian
+    states and territories, sourced from Budget Papers, MYEFOs, and
+    Final Budget Outcomes.
+  site-url: "https://DavidAStephan.github.io/StateBudgetMonitor/"
+  repo-url: "https://github.com/DavidAStephan/StateBudgetMonitor"
+  repo-actions: [edit, issue]
+  search:
+    type: textbox
+  navbar:
+    background: dark
+    left:
+      - href: reports/index.qmd
+        text: "Overview"
+      - text: "States"
+        menu:
+          - href: reports/state_pages/nsw.qmd
+            text: "NSW"
+          - href: reports/state_pages/vic.qmd
+            text: "VIC"
+          - href: reports/state_pages/qld.qmd
+            text: "QLD"
+          - href: reports/state_pages/wa.qmd
+            text: "WA"
+          - href: reports/state_pages/sa.qmd
+            text: "SA"
+          - href: reports/state_pages/tas.qmd
+            text: "TAS"
+          - href: reports/state_pages/act.qmd
+            text: "ACT"
+          - href: reports/state_pages/nt.qmd
+            text: "NT"
+      - href: reports/comparison.qmd
+        text: "Comparison"
+      - href: reports/aggregate.qmd
+        text: "Aggregate"
+      - href: reports/revisions.qmd
+        text: "Revisions"
+      - href: reports/wage_policy.qmd
+        text: "Wage policy"
+      - href: reports/methodology.qmd
+        text: "Methodology"
+    right:
+      - icon: github
+        href: "https://github.com/DavidAStephan/StateBudgetMonitor"
+        aria-label: "GitHub repo"
+  page-footer:
+    left: |
+      Built from public Australian state Treasury and Budget Papers.
+      Source code on [GitHub](https://github.com/DavidAStephan/StateBudgetMonitor).
+    right: |
+      Built with R, targets, DuckDB, and Quarto.
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    code-fold: true
+    code-tools: true
+    embed-resources: false
+    fig-width: 9
+    fig-height: 5
+    fig-dpi: 110
+    fig-cap-location: bottom
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto
+  daemon: false
+
+# Execute every chunk from the project root so `tar_read()` /
+# `tar_source("R")` resolve regardless of where the .qmd file lives.
+execute-dir: project

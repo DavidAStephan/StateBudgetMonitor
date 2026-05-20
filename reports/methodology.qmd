@@ -1,0 +1,190 @@
+---
+title: "Methodology"
+subtitle: "Sources, extraction, harmonisation, vintage discipline, and known limitations"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+recon <- tryCatch(tar_read(gfs_reconciliation), error = function(e) tibble::tibble())
+registry <- tryCatch(tar_read(registry), error = function(e) tibble::tibble())
+dictionary <- tryCatch(tar_read(dictionary), error = function(e) tibble::tibble())
+```
+
+## What this project does
+
+A public, reproducible R pipeline that:
+
+1. Maintains a registry of every Australian state and territory Budget
+   Paper, MYEFO, and Final Budget Outcome from FY2014-15 onwards.
+2. Downloads each document and extracts the General Government Sector
+   forward-estimates table.
+3. Harmonises line items across jurisdictions against the ABS
+   Government Finance Statistics chart of accounts.
+4. Stores every fact in a DuckDB warehouse keyed on its source
+   document, so that any past "as-at" view of the data can be
+   reconstructed (vintage discipline).
+5. Renders this dashboard with Quarto, fully static.
+
+## Sources
+
+* **Primary --- state Treasury / Budget websites.**
+  Budget Papers, MYEFOs, and Final Budget Outcomes for each
+  jurisdiction. URLs change over time; the canonical list lives in
+  [`inst/document_registry.csv`](https://github.com/DavidAStephan/StateBudgetMonitor/blob/main/inst/document_registry.csv).
+* **Cross-validation --- ABS Government Finance Statistics.**
+  Annual (cat. 5512.0) and quarterly (cat. 5519.0.55.001), pulled
+  via `readabs`. Where ABS has migrated a catalogue to data cubes,
+  we fall back to `readabs::download_abs_data_cube()`.
+* **Normalisation --- ABS population (cat. 3101.0) and ABS state
+  accounts (cat. 5220.0).** Powers the per-capita and share-of-GSP
+  views.
+
+## Extraction
+
+* **Rule-based first** via `tabulapdf`, per-jurisdiction parsers
+  under `R/extract/extract_<state>.R`. Each parser is version-tagged;
+  the `parser_version` is recorded against every fact in the
+  warehouse.
+* **LLM-assisted backfill** via `ellmer` (Anthropic API) for
+  documents where rule-based parsing fails or for unusual layouts.
+  **The LLM-assisted step runs only on a developer machine.** Its
+  structured outputs are committed to `data/extracted/`, and the
+  production CI pipeline reads from those CSVs --- CI never calls an
+  LLM.
+* **Manual overrides** for edge cases live in
+  `data/manual_overrides/overrides.csv` and take precedence in the
+  warehouse build.
+
+The CSV contract is documented in
+[`data/extracted/README.md`](https://github.com/DavidAStephan/StateBudgetMonitor/blob/main/data/extracted/README.md).
+
+## Harmonisation
+
+State charts of accounts differ; the same economic concept may be
+called different things in different jurisdictions. The canonical
+dictionary is a long-format mapping with one row per
+`(canonical_variable_id, jurisdiction)`, pairing each canonical
+variable to the state's source line-item text plus mapping notes.
+
+For revenue, expense, and capex, the canonical reference is ABS GFS
+since that's what flows into national accounts and is what the RBA
+ultimately cares about.
+
+```{r dict-summary}
+if (nrow(dictionary) == 0L) {
+  htmltools::p("Dictionary not loaded.")
+} else {
+  dictionary |>
+    count(category, sub_category, name = "n_jurisdictions") |>
+    arrange(category, sub_category) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      striped         = TRUE,
+      defaultColDef   = colDef(minWidth = 80)
+    )
+}
+```
+
+## Vintage discipline
+
+Every fact in the warehouse is keyed on the document it was
+extracted from. That document's release date lives in
+`dim_documents`. To ask "what was knowable about NSW net debt for
+FY2025-26 as at 1 March 2024?", filter facts to those whose document
+had `release_date <= 2024-03-01`, then take the most recent per
+`(jurisdiction, variable_id, fiscal_year)`. This is the same pattern
+used by the sister project
+[NOM_Nowcast](https://github.com/DavidAStephan/NOM_Nowcast).
+
+The revisions page exposes this directly: pick a variable and a
+forecast year, see how each Budget update has moved the estimate.
+
+## ABS GFS reconciliation
+
+For headline variables (revenue, expenses, balance, net debt) we
+expect our extracted figures to track ABS GFS within
+`r format(round(targets::tar_read(cfg)$validation$gfs_tolerance_pct %||% 2, 1), nsmall = 1)`%.
+Discrepancies above tolerance are flagged here.
+
+```{r recon-table}
+if (nrow(recon) == 0L) {
+  htmltools::div(
+    htmltools::p("No reconciliation rows yet."),
+    htmltools::p(htmltools::tags$em(
+      "ABS GFS catalogue 5512.0 has migrated to data cubes. The fetcher ",
+      "is wired up via readabs::download_abs_data_cube() but currently ",
+      "returns no rows --- see STATUS.md for the catalogue/cube args that ",
+      "need ABS-current verification. Reconciliation populates here once ",
+      "the upstream fetch succeeds."
+    ))
+  )
+} else {
+  recon |>
+    arrange(desc(abs(diff_pct))) |>
+    reactable(
+      defaultPageSize = 15,
+      searchable      = TRUE,
+      filterable      = TRUE,
+      striped         = TRUE,
+      rowStyle        = function(idx) {
+        if (isTRUE(recon$flagged[idx])) list(background = "#fff4e6") else NULL
+      }
+    )
+}
+```
+
+## Document registry coverage
+
+```{r registry-coverage}
+if (nrow(registry) == 0L) {
+  htmltools::p("Registry not loaded.")
+} else {
+  registry |>
+    count(jurisdiction, doc_type, name = "n_documents") |>
+    tidyr::pivot_wider(names_from = doc_type, values_from = n_documents,
+                       values_fill = 0) |>
+    arrange(jurisdiction) |>
+    reactable(
+      striped = TRUE,
+      defaultPageSize = 8
+    )
+}
+```
+
+## Known limitations
+
+* **PDF layout changes are the highest-risk failure mode.** Every
+  parser is version-tagged; cross-validation against ABS GFS surfaces
+  silent regressions.
+* **Per-capita / share-of-GSP normalisations use ABS annual
+  estimates.** Quarterly population estimates are available; we use
+  the end-of-FY (30 June) ERP value.
+* **Wage policy text extraction is best-effort.** The authoritative
+  source is each Budget Paper itself; values shown here are seed /
+  preliminary until each is verified against BP1.
+* **Registry URLs drift over time.** Most rows are seeded with
+  landing-page URLs; specific document URLs are populated as each is
+  parsed. The downloader skips rows without a URL rather than
+  blocking.
+
+## Reproducibility
+
+The project is an installable R package (`statebudgetmonitor`) with a
+locked `renv.lock`. To run end-to-end:
+
+```r
+renv::restore()
+targets::tar_make()
+quarto::quarto_render()
+```
+
+See the project
+[README](https://github.com/DavidAStephan/StateBudgetMonitor#readme)
+for fork-and-deploy instructions.

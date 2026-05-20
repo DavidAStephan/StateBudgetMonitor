@@ -1,0 +1,369 @@
+canonical_variable_id,canonical_label,gfs_code,category,sub_category,unit,is_flow,jurisdiction,source_line_item,mapping_notes,parser_version
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,ACT,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,NSW,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,NT,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,QLD,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,SA,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,TAS,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,VIC,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_total,Total revenue,GFS_REV,revenue,total,AUD_mil,TRUE,WA,Total revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,ACT,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,NSW,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,NT,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,QLD,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,SA,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,TAS,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,VIC,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_taxation,Taxation revenue,GFS_TAX,revenue,taxation_total,AUD_mil,TRUE,WA,Taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,ACT,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,NSW,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,NT,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,QLD,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,SA,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,TAS,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,VIC,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_payroll,Payroll tax,GFS_PAYROLL,revenue,taxation_payroll,AUD_mil,TRUE,WA,Payroll tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,ACT,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,NSW,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,NT,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,QLD,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,SA,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,TAS,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,VIC,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_stamp_duty,Stamp duties,GFS_DUTY,revenue,taxation_stamp,AUD_mil,TRUE,WA,Stamp duties,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,ACT,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,NSW,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,NT,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,QLD,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,SA,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,TAS,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,VIC,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_land_tax,Land tax,GFS_LAND,revenue,taxation_land,AUD_mil,TRUE,WA,Land tax,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,ACT,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,NSW,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,NT,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,QLD,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,SA,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,TAS,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,VIC,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gambling,Gambling taxes,GFS_GAMBLE,revenue,taxation_gambling,AUD_mil,TRUE,WA,Gambling taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,ACT,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,NSW,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,NT,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,QLD,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,SA,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,TAS,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,VIC,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_motor_vehicle,Motor vehicle taxes,GFS_MV,revenue,taxation_motor,AUD_mil,TRUE,WA,Motor vehicle taxes,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,ACT,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,NSW,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,NT,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,QLD,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,SA,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,TAS,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,VIC,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other_tax,Other taxation revenue,GFS_OTHTAX,revenue,taxation_other,AUD_mil,TRUE,WA,Other taxation revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,ACT,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,NSW,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,NT,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,QLD,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,SA,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,TAS,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,VIC,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_gst,GST revenue,GFS_GST,revenue,grants_gst,AUD_mil,TRUE,WA,GST revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,ACT,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,NSW,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,NT,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,QLD,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,SA,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,TAS,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,VIC,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_tied,Commonwealth tied grants,GFS_TIED,revenue,grants_tied,AUD_mil,TRUE,WA,Commonwealth tied grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,ACT,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,NSW,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,NT,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,QLD,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,SA,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,TAS,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,VIC,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_grants_untied,Commonwealth untied grants (ex-GST),GFS_UNTIED,revenue,grants_untied,AUD_mil,TRUE,WA,Commonwealth untied grants (ex-GST),Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,ACT,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,NSW,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,NT,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,QLD,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,SA,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,TAS,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,VIC,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_sales_goods_svcs,Sales of goods and services,GFS_SALES,revenue,sales,AUD_mil,TRUE,WA,Sales of goods and services,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,ACT,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,NSW,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,NT,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,QLD,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,SA,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,TAS,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,VIC,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_interest,Interest income,GFS_INT_IN,revenue,interest_income,AUD_mil,TRUE,WA,Interest income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,ACT,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,NSW,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,NT,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,QLD,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,SA,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,TAS,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,VIC,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_dividend,Dividend and tax-equivalent income,GFS_DIVID,revenue,dividend,AUD_mil,TRUE,WA,Dividend and tax-equivalent income,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,ACT,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,NSW,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,NT,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,QLD,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,SA,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,TAS,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,VIC,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+rev_other,Other revenue,GFS_OTHREV,revenue,other,AUD_mil,TRUE,WA,Other revenue,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,ACT,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,NSW,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,NT,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,QLD,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,SA,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,TAS,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,VIC,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_total,Total expenses,GFS_EXP,expenses,total,AUD_mil,TRUE,WA,Total expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,ACT,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,NSW,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,NT,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,QLD,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,SA,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,TAS,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,VIC,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_employee,Employee expenses,GFS_EMP,expenses,economic_employee,AUD_mil,TRUE,WA,Employee expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,ACT,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,NSW,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,NT,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,QLD,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,SA,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,TAS,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,VIC,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_super,Superannuation expenses,GFS_SUPER,expenses,economic_super,AUD_mil,TRUE,WA,Superannuation expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,ACT,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,NSW,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,NT,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,QLD,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,SA,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,TAS,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,VIC,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_depreciation,Depreciation,GFS_DEPR,expenses,economic_depr,AUD_mil,TRUE,WA,Depreciation,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,ACT,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,NSW,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,NT,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,QLD,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,SA,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,TAS,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,VIC,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_interest,Interest expenses,GFS_INT_EX,expenses,economic_interest,AUD_mil,TRUE,WA,Interest expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,ACT,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,NSW,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,NT,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,QLD,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,SA,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,TAS,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,VIC,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_operating,Other operating expenses,GFS_OTHOP,expenses,economic_other_op,AUD_mil,TRUE,WA,Other operating expenses,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,ACT,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,NSW,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,NT,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,QLD,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,SA,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,TAS,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,VIC,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_current_grants,Current grants and subsidies,GFS_CURGR,expenses,economic_curr_grant,AUD_mil,TRUE,WA,Current grants and subsidies,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,ACT,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,NSW,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,NT,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,QLD,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,SA,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,TAS,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,VIC,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_capital_grants,Capital grants,GFS_CAPGR,expenses,economic_cap_grant,AUD_mil,TRUE,WA,Capital grants,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,ACT,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,NSW,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,NT,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,QLD,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,SA,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,TAS,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,VIC,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_health,Expenses on health,COFOG_07,expenses,function_health,AUD_mil,TRUE,WA,Expenses on health,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,ACT,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,NSW,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,NT,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,QLD,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,SA,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,TAS,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,VIC,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_education,Expenses on education,COFOG_09,expenses,function_education,AUD_mil,TRUE,WA,Expenses on education,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,ACT,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,NSW,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,NT,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,QLD,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,SA,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,TAS,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,VIC,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_public_order,Expenses on public order and safety,COFOG_03,expenses,function_public_ord,AUD_mil,TRUE,WA,Expenses on public order and safety,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,ACT,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,NSW,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,NT,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,QLD,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,SA,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,TAS,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,VIC,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_transport_comms,Expenses on transport and communications,COFOG_04T,expenses,function_transport,AUD_mil,TRUE,WA,Expenses on transport and communications,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,ACT,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,NSW,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,NT,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,QLD,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,SA,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,TAS,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,VIC,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_social_security,Expenses on social security and welfare,COFOG_10,expenses,function_social,AUD_mil,TRUE,WA,Expenses on social security and welfare,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,ACT,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,NSW,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,NT,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,QLD,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,SA,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,TAS,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,VIC,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_general_public,Expenses on general public services,COFOG_01,expenses,function_gen_pub,AUD_mil,TRUE,WA,Expenses on general public services,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,ACT,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,NSW,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,NT,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,QLD,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,SA,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,TAS,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,VIC,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_recreation,"Expenses on recreation, culture, religion",COFOG_08,expenses,function_recreation,AUD_mil,TRUE,WA,"Expenses on recreation, culture, religion",Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,ACT,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,NSW,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,NT,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,QLD,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,SA,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,TAS,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,VIC,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+exp_other_function,Expenses on other functions,COFOG_OTH,expenses,function_other,AUD_mil,TRUE,WA,Expenses on other functions,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,ACT,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,NSW,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,NT,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,QLD,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,SA,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,TAS,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,VIC,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_op_balance,Net operating balance,GFS_NOB,balance,operating,AUD_mil,TRUE,WA,Net operating balance,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,ACT,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,NSW,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,NT,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,QLD,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,SA,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,TAS,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,VIC,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_cap_investment,Net capital investment,GFS_NCI,balance,capex,AUD_mil,TRUE,WA,Net capital investment,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,ACT,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,NSW,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,NT,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,QLD,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,SA,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,TAS,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,VIC,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_lending,Net lending / (borrowing),GFS_NETLEND,balance,fiscal,AUD_mil,TRUE,WA,Net lending / (borrowing),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,ACT,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,NSW,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,NT,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,QLD,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,SA,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,TAS,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,VIC,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+cash_surplus,Cash surplus / (deficit),GFS_CASH,balance,cash,AUD_mil,TRUE,WA,Cash surplus / (deficit),Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,ACT,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,NSW,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,NT,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,QLD,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,SA,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,TAS,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,VIC,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_debt,Net debt,GFS_NETDEBT,balance_sheet,net_debt,AUD_mil,FALSE,WA,Net debt,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,ACT,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,NSW,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,NT,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,QLD,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,SA,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,TAS,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,VIC,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_fin_liabilities,Net financial liabilities,GFS_NFL,balance_sheet,net_fin_liab,AUD_mil,FALSE,WA,Net financial liabilities,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,ACT,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,NSW,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,NT,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,QLD,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,SA,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,TAS,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,VIC,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+net_worth,Net worth,GFS_NW,balance_sheet,net_worth,AUD_mil,FALSE,WA,Net worth,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,ACT,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,NSW,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,NT,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,QLD,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,SA,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,TAS,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,VIC,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_pnfa,Purchases of non-financial assets,GFS_PNFA,capex,pnfa,AUD_mil,TRUE,WA,Purchases of non-financial assets,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,ACT,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,NSW,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,NT,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,QLD,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,SA,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,TAS,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,VIC,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+capex_infra_program,Total infrastructure investment program,GFS_INFRA,capex,infra_program,AUD_mil,TRUE,WA,Total infrastructure investment program,Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,ACT,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,NSW,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,NT,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,QLD,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,SA,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,TAS,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,VIC,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_gsp_growth,"GSP growth (real, %)",ECON_GSP,economic,gsp_growth,pct,TRUE,WA,"GSP growth (real, %)",Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,ACT,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,NSW,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,NT,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,QLD,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,SA,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,TAS,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,VIC,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_employment,Employment growth (%),ECON_EMP,economic,employment,pct,TRUE,WA,Employment growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,ACT,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,NSW,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,NT,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,QLD,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,SA,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,TAS,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,VIC,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_unemployment,Unemployment rate (%),ECON_UNEMP,economic,unemployment,pct,FALSE,WA,Unemployment rate (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,ACT,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,NSW,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,NT,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,QLD,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,SA,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,TAS,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,VIC,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_cpi,Consumer Price Index growth (%),ECON_CPI,economic,cpi,pct,TRUE,WA,Consumer Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,ACT,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,NSW,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,NT,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,QLD,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,SA,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,TAS,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,VIC,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_wpi,Wage Price Index growth (%),ECON_WPI,economic,wpi,pct,TRUE,WA,Wage Price Index growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,ACT,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,NSW,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,NT,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,QLD,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,SA,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,TAS,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,VIC,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0
+econ_population,Population growth (%),ECON_POP,economic,population,pct,TRUE,WA,Population growth (%),Seeded from canonical label --- refine per BP1 line-item text,v0

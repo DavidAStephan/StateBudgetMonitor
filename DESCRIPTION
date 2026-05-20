@@ -1,0 +1,57 @@
+Package: statebudgetmonitor
+Title: Interactive Australian State and Territory Budget Monitor
+Version: 0.1.0
+Authors@R: person("David", "Stephan", email = "david.stephan@gmail.com", role = c("aut", "cre"))
+Description: Reproducible R pipeline that extracts forward estimates and
+    historical actuals from every Australian state and territory Budget
+    Paper, Mid-Year Economic and Fiscal Outlook, and Final Budget
+    Outcome, harmonises them against the ABS Government Finance
+    Statistics chart of accounts, and renders an interactive Quarto
+    dashboard deployed to GitHub Pages. Implements vintage-aware
+    storage so historical forward-estimate revisions can be
+    reconstructed at any past as-of date.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.3)
+Imports:
+    cli,
+    config,
+    crosstalk,
+    DBI,
+    dplyr,
+    duckdb,
+    fs,
+    ggplot2,
+    glue,
+    htmltools,
+    httr2,
+    lubridate,
+    plotly,
+    purrr,
+    reactable,
+    readabs,
+    readr,
+    readxl,
+    rlang,
+    scales,
+    stringr,
+    tarchetypes,
+    targets,
+    tibble,
+    tidyr,
+    yaml
+Suggests:
+    ellmer,
+    knitr,
+    lintr,
+    mockery,
+    quarto,
+    rmarkdown,
+    styler,
+    tabulapdf,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
