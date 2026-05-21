@@ -66,23 +66,11 @@ sbm_apply_chart_of_accounts <- function(facts, dictionary, overrides) {
     labelled <- labelled |> dplyr::filter(!is.na(canonical_label))
   }
 
-  ## Defensive drop on NA primary-key / NOT-NULL fields the warehouse
-  ## insists on. LLM responses occasionally leave is_forward_estimate
-  ## blank or omit value_aud_mil for one of N years.
-  n_bad <- sum(is.na(labelled$is_forward_estimate) | is.na(labelled$value_aud_mil) |
-               is.na(labelled$fiscal_year) | is.na(labelled$variable_id))
-  if (n_bad > 0L) {
-    sbm_warn(sprintf(
-      "chart_of_accounts: dropping %d row(s) with NA in required field(s)", n_bad
-    ))
-    labelled <- labelled |>
-      dplyr::filter(!is.na(is_forward_estimate),
-                    !is.na(value_aud_mil),
-                    !is.na(fiscal_year),
-                    !is.na(variable_id))
-  }
-
   ## Overrides take precedence: replace value for any matching key.
+  ## A row with `value_aud_mil = NA` in the override CSV signals
+  ## "exclude this row from the warehouse" --- the NA-drop below
+  ## then removes it. Useful for retiring clearly-bad LLM extractions
+  ## without re-running the LLM.
   if (nrow(overrides) > 0L) {
     labelled <- labelled |>
       dplyr::rows_update(
@@ -92,6 +80,23 @@ sbm_apply_chart_of_accounts <- function(facts, dictionary, overrides) {
         by = c("jurisdiction", "variable_id", "fiscal_year", "document_id"),
         unmatched = "ignore"
       )
+  }
+
+  ## Defensive drop on NA primary-key / NOT-NULL fields the warehouse
+  ## insists on. Catches both: (a) LLM omissions in source CSVs and
+  ## (b) intentional exclusions via the override mechanism above.
+  n_bad <- sum(is.na(labelled$is_forward_estimate) | is.na(labelled$value_aud_mil) |
+               is.na(labelled$fiscal_year) | is.na(labelled$variable_id))
+  if (n_bad > 0L) {
+    sbm_warn(sprintf(
+      "chart_of_accounts: dropping %d row(s) with NA in required field(s) (incl. override exclusions)",
+      n_bad
+    ))
+    labelled <- labelled |>
+      dplyr::filter(!is.na(is_forward_estimate),
+                    !is.na(value_aud_mil),
+                    !is.na(fiscal_year),
+                    !is.na(variable_id))
   }
 
   labelled

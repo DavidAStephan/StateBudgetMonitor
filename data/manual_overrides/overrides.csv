@@ -1,1 +1,6 @@
 jurisdiction,variable_id,fiscal_year,document_id,value_aud_mil,notes
+NSW,exp_health,2021-22,NSW_2021-22_myefo,,"DROP --- LLM picked $80m elective-surgery investment line instead of total health expenses (typical ~$30B). Exclude until re-extracted."
+SA,cash_surplus,2015-16,SA_2016-17_budget,,"DROP --- $-4m appears 500x too small (median $2,256m). Likely LLM extracted a sub-line."
+SA,net_lending,2015-16,SA_2016-17_budget,,"DROP --- $3m appears 800x too small (median $2,407m). Likely LLM extracted a sub-line."
+NT,rev_grants_untied,2016-17,NT_2017-18_budget,,"DROP --- $3m appears 1000x too small (median $3,890m). LLM mis-extracted."
+NT,rev_grants_untied,2017-18,NT_2017-18_budget,,"DROP --- $3m appears 1000x too small (median $3,890m). LLM mis-extracted."

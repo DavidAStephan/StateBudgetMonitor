@@ -20,6 +20,7 @@ project:
     - "reports/aggregate.qmd"
     - "reports/revisions.qmd"
     - "reports/wage_policy.qmd"
+    - "reports/data_quality.qmd"
     - "reports/methodology.qmd"
 
 website:
@@ -64,6 +65,8 @@ website:
         text: "Revisions"
       - href: reports/wage_policy.qmd
         text: "Wage policy"
+      - href: reports/data_quality.qmd
+        text: "Data quality"
       - href: reports/methodology.qmd
         text: "Methodology"
     right:

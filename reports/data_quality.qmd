@@ -1,0 +1,276 @@
+---
+title: "Data quality"
+subtitle: "Coverage, outliers, and reconciliation checks across the warehouse"
+---
+
+```{r setup}
+#| include: false
+library(targets)
+library(dplyr)
+library(tidyr)
+library(plotly)
+library(reactable)
+library(htmltools)
+tar_source("R")
+
+facts <- tryCatch(tar_read(facts_latest), error = function(e) tibble::tibble())
+revs  <- tryCatch(tar_read(revisions),    error = function(e) tibble::tibble())
+overrides <- tryCatch(
+  sbm_load_overrides("data/manual_overrides/overrides.csv"),
+  error = function(e) tibble::tibble()
+)
+```
+
+::: {.callout-note}
+This page runs the same battery of sanity checks that the
+maintenance script `scripts/audit_data.R` produces on the command
+line, but live against the current warehouse. Use it to spot
+extraction regressions when new years roll in.
+:::
+
+## Coverage --- variables × jurisdictions
+
+How many fiscal years of data we have per variable per jurisdiction.
+Darker cells = more years.
+
+```{r coverage}
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  cov <- facts |>
+    count(variable_id, jurisdiction, name = "n_years") |>
+    arrange(variable_id)
+
+  plot_ly(cov,
+          x = ~jurisdiction, y = ~variable_id, z = ~n_years,
+          type = "heatmap",
+          colorscale = list(c(0, "#f8f9fa"), c(0.2, "#bdd7e7"),
+                            c(0.6, "#6baed6"), c(1, "#08519c")),
+          hovertemplate = "<b>%{y}</b><br>%{x}: %{z} years<extra></extra>") |>
+    plotly::layout(
+      title = "Years of data per (variable, jurisdiction)",
+      font  = list(family = "Inter, system-ui, sans-serif", size = 11L),
+      xaxis = list(title = ""),
+      yaxis = list(title = "", categoryorder = "category descending"),
+      margin = list(l = 200L, r = 20L, t = 50L, b = 60L),
+      height = 900
+    )
+}
+```
+
+## Magnitude check (FY 2024-25)
+
+NSW=100 reference. If a state's headline ratios drift far from its
+population/GSP share, that's a likely extraction error.
+
+```{r magnitudes}
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  key_vars <- c("rev_total", "exp_total", "net_op_balance", "net_debt", "capex_pnfa")
+  mag <- facts |>
+    filter(variable_id %in% key_vars, fiscal_year == "2024-25") |>
+    select(jurisdiction, variable_id, value_aud_mil) |>
+    pivot_wider(names_from = variable_id, values_from = value_aud_mil) |>
+    arrange(desc(rev_total))
+  nsw_rev <- mag$rev_total[mag$jurisdiction == "NSW"]
+  if (length(nsw_rev) > 0L && !is.na(nsw_rev)) {
+    mag <- mag |> mutate(rev_pct_of_NSW = round(100 * rev_total / nsw_rev, 1))
+  }
+  mag |>
+    mutate(across(where(is.numeric), \(x) round(x))) |>
+    reactable(striped = TRUE, defaultPageSize = 8,
+              defaultColDef = colDef(format = colFormat(separators = TRUE)))
+}
+```
+
+## Sign-convention violations
+
+Flags rows that violate basic expectations (e.g. negative revenue
+or unemployment rate >25%).
+
+```{r sign-checks}
+sign_checks <- list(
+  list(var = "net_debt",         rule = function(v) v < -50000, desc = "net_debt < -$50B (implausibly large net assets)"),
+  list(var = "exp_total",        rule = function(v) v < 0,      desc = "exp_total < 0"),
+  list(var = "rev_total",        rule = function(v) v < 0,      desc = "rev_total < 0"),
+  list(var = "exp_employee",     rule = function(v) v < 0,      desc = "exp_employee < 0"),
+  list(var = "capex_pnfa",       rule = function(v) v < 0,      desc = "capex_pnfa < 0"),
+  list(var = "econ_unemployment",rule = function(v) v < 0 | v > 25, desc = "unemployment rate outside [0, 25]%")
+)
+
+flags <- purrr::map_dfr(sign_checks, function(s) {
+  if (nrow(facts) == 0L) return(NULL)
+  facts |>
+    filter(variable_id == s$var, s$rule(value_aud_mil)) |>
+    transmute(rule = s$desc, jurisdiction, fiscal_year, value_aud_mil, document_id)
+})
+
+if (nrow(flags) == 0L) {
+  htmltools::p(htmltools::strong("Pass."), " No sign-convention violations across the warehouse.")
+} else {
+  reactable(flags, striped = TRUE, defaultPageSize = 15,
+            columns = list(
+              value_aud_mil = colDef(format = colFormat(separators = TRUE))
+            ))
+}
+```
+
+## Revenue subtotal reconciliation
+
+`rev_total` should approximately equal the sum of its components
+(taxation, GST, grants tied/untied, sales, interest, dividends,
+other). Rows with mismatch > 20% are flagged. Common causes:
+
+- LLM bundled tied + untied grants under one variable
+- LLM extracted a different "Other revenue" line than what
+  `rev_total` includes
+
+```{r revtotal-reconciliation}
+rev_components <- c("rev_taxation", "rev_gst", "rev_grants_tied", "rev_grants_untied",
+                    "rev_sales_goods_svcs", "rev_interest", "rev_dividend", "rev_other")
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  rev_sum <- facts |>
+    filter(variable_id %in% rev_components) |>
+    group_by(jurisdiction, fiscal_year) |>
+    summarise(rev_sum_components = sum(value_aud_mil, na.rm = TRUE),
+              n_components = n(), .groups = "drop")
+  rev_check <- facts |>
+    filter(variable_id == "rev_total") |>
+    select(jurisdiction, fiscal_year, rev_total = value_aud_mil) |>
+    inner_join(rev_sum, by = c("jurisdiction", "fiscal_year")) |>
+    mutate(diff_pct = round(100 * (rev_sum_components - rev_total) / rev_total, 1),
+           flagged  = abs(diff_pct) > 20) |>
+    filter(n_components >= 4) |>
+    arrange(desc(abs(diff_pct)))
+  reactable(rev_check, striped = TRUE, defaultPageSize = 10,
+            filterable = TRUE,
+            columns = list(
+              rev_total = colDef(format = colFormat(separators = TRUE)),
+              rev_sum_components = colDef(format = colFormat(separators = TRUE)),
+              diff_pct = colDef(format = colFormat(suffix = "%")),
+              flagged  = colDef(cell = function(v) if (v) "FLAG" else "")
+            ),
+            rowStyle = function(idx) {
+              if (isTRUE(rev_check$flagged[idx])) list(background = "#fff4e6") else NULL
+            })
+}
+```
+
+## Year-over-year jumps
+
+For headline variables, flags YoY changes greater than 50% (excluding
+COVID-impacted years 2019-20 to 2021-22). Most flags are real, but
+extreme jumps are worth verifying against the source.
+
+```{r yoy}
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  key_vars <- c("rev_total", "exp_total", "net_op_balance", "net_debt", "capex_pnfa")
+  yoy <- facts |>
+    filter(variable_id %in% key_vars) |>
+    group_by(jurisdiction, variable_id) |>
+    arrange(fiscal_year, .by_group = TRUE) |>
+    mutate(prev = lag(value_aud_mil),
+           yoy_pct = round(100 * (value_aud_mil - prev) / abs(prev), 1)) |>
+    ungroup() |>
+    filter(!is.na(yoy_pct), abs(yoy_pct) > 50, abs(value_aud_mil) > 100,
+           !(fiscal_year %in% c("2019-20", "2020-21", "2021-22"))) |>
+    arrange(desc(abs(yoy_pct))) |>
+    select(jurisdiction, variable_id, fiscal_year, prev, value_aud_mil, yoy_pct)
+  if (nrow(yoy) == 0L) {
+    htmltools::p(htmltools::strong("Pass."), " No YoY jumps > 50%.")
+  } else {
+    reactable(yoy, striped = TRUE, defaultPageSize = 15,
+              columns = list(
+                prev = colDef(format = colFormat(separators = TRUE)),
+                value_aud_mil = colDef(format = colFormat(separators = TRUE)),
+                yoy_pct = colDef(format = colFormat(suffix = "%"))
+              ))
+  }
+}
+```
+
+## Unit / scale outliers
+
+Rows where the value is more than 100× the median for the same
+`(jurisdiction, variable)` over time --- usually means the LLM
+picked the wrong row (e.g. a sub-line) instead of the headline.
+
+```{r scale}
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  scale_check <- facts |>
+    group_by(jurisdiction, variable_id) |>
+    filter(n() >= 4, abs(value_aud_mil) > 0) |>
+    mutate(med = median(abs(value_aud_mil), na.rm = TRUE),
+           ratio = round(abs(value_aud_mil) / med, 4)) |>
+    ungroup() |>
+    filter(ratio > 100 | ratio < 0.01) |>
+    arrange(desc(abs(log10(ratio)))) |>
+    select(jurisdiction, variable_id, fiscal_year, value_aud_mil, med, ratio, document_id)
+  if (nrow(scale_check) == 0L) {
+    htmltools::p(htmltools::strong("Pass."), " No values >100x off their per-state median.")
+  } else {
+    reactable(scale_check, striped = TRUE, defaultPageSize = 15,
+              columns = list(
+                value_aud_mil = colDef(format = colFormat(separators = TRUE)),
+                med = colDef(format = colFormat(separators = TRUE))
+              ))
+  }
+}
+```
+
+## Manual overrides currently applied
+
+Rows in `data/manual_overrides/overrides.csv` that exclude
+known-bad LLM extractions from the warehouse.
+
+```{r overrides}
+if (nrow(overrides) == 0L) {
+  htmltools::p("No overrides currently applied.")
+} else {
+  overrides |>
+    transmute(Jurisdiction = jurisdiction,
+              Variable     = variable_id,
+              `FY`         = fiscal_year,
+              Source       = document_id,
+              `Override value` = value_aud_mil,
+              Note         = notes) |>
+    reactable(striped = TRUE, defaultPageSize = 10)
+}
+```
+
+## Document FY drift
+
+Sanity-check that each fact's fiscal year is within ±5 years of the
+document's own fiscal year. Larger drift suggests a fiscal_year
+mis-extraction.
+
+```{r fy-drift}
+if (nrow(facts) == 0L) {
+  htmltools::p("No data.")
+} else {
+  drift <- facts |>
+    mutate(doc_fy_start = as.integer(substr(stringr::str_extract(document_id, "[0-9]{4}-[0-9]{2}"), 1L, 4L)),
+           row_fy_start = as.integer(substr(fiscal_year, 1L, 4L)),
+           drift_years  = row_fy_start - doc_fy_start) |>
+    count(drift_years, name = "n_rows") |>
+    arrange(drift_years)
+  plot_ly(drift, x = ~drift_years, y = ~n_rows,
+          type = "bar",
+          marker = list(color = "#1f3a93"),
+          hovertemplate = "drift %{x} years: %{y:,} rows<extra></extra>") |>
+    plotly::layout(
+      title = "Distribution of (row FY) - (document FY)",
+      font  = list(family = "Inter, system-ui, sans-serif", size = 12L),
+      xaxis = list(title = "Drift in years"),
+      yaxis = list(title = "Rows", tickformat = ","),
+      margin = list(l = 60L, r = 20L, t = 50L, b = 60L)
+    )
+}
+```
