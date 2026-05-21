@@ -14,7 +14,7 @@ tar_source("R")
 
 agg <- tryCatch(tar_read(facts_aggregate), error = function(e) tibble::tibble())
 
-status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
+status_lbl <- function(b) as.character(ifelse(b, "Forecast", "Actual"))
 ```
 
 ::: {.callout-note}

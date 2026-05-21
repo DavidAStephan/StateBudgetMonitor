@@ -31,14 +31,25 @@ per_gsp <- tryCatch(
 )
 
 # Friendly status label so legends say "Actual" / "Forecast" not TRUE/FALSE.
-status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
+status_lbl <- function(b) {
+  ## Always return character (even on 0-length input) so bind_rows
+  ## across possibly-empty per-capita / per-GSP panels doesn't blow
+  ## up with type mismatch.
+  out <- ifelse(b, "Forecast", "Actual")
+  as.character(out)
+}
 
 # Small helper: build a single-variable timeline plot.
 sbm_state_plot <- function(d, title) {
-  d <- d |> arrange(fiscal_year)
+  if (nrow(d) == 0L) {
+    return(htmltools::p(htmltools::em(paste0(title, ": no data extracted yet."))))
+  }
+  d <- d |>
+    arrange(fiscal_year) |>
+    mutate(status = status_lbl(is_forward_estimate))
   plot_ly(d,
           x = ~fiscal_year, y = ~value_aud_mil,
-          color = ~status_lbl(is_forward_estimate),
+          color = ~status,
           colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
           type = "scatter", mode = "lines+markers",
           line = list(width = 2.5),

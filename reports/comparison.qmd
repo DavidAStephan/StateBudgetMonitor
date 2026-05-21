@@ -17,7 +17,7 @@ facts      <- tryCatch(tar_read(facts_latest),     error = function(e) tibble::t
 per_capita <- tryCatch(tar_read(facts_per_capita), error = function(e) tibble::tibble())
 per_gsp    <- tryCatch(tar_read(facts_per_gsp),    error = function(e) tibble::tibble())
 
-status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
+status_lbl <- function(b) as.character(ifelse(b, "Forecast", "Actual"))
 ```
 
 ::: {.callout-note}
