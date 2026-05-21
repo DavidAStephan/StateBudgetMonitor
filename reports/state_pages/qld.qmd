@@ -93,54 +93,80 @@ if (nrow(facts) > 0L)
 
 ## Drill-down
 
-Pick a variable and a normalisation view.
-
 ```{r drill}
 if (nrow(facts) == 0L) {
   htmltools::p("No data.")
 } else {
-  long <- bind_rows(
-    facts      |> transmute(variable_id, canonical_label, category,
-                            fiscal_year,
-                            status = status_lbl(is_forward_estimate),
-                            value  = value_aud_mil,
-                            view   = "AUD millions"),
-    per_capita |> transmute(variable_id, canonical_label, category,
-                            fiscal_year,
-                            status = status_lbl(is_forward_estimate),
-                            value  = value_per_capita_aud,
-                            view   = "AUD per capita"),
-    per_gsp    |> transmute(variable_id, canonical_label, category,
-                            fiscal_year,
-                            status = status_lbl(is_forward_estimate),
-                            value  = value_share_gsp * 100,
-                            view   = "% of GSP")
-  ) |>
-    arrange(canonical_label, fiscal_year)
+  vars <- facts |>
+    distinct(canonical_label) |>
+    arrange(canonical_label) |>
+    pull(canonical_label)
 
-  shared <- SharedData$new(long)
-  bscols(
-    widths = c(3, 9),
-    list(
-      filter_select("var",  "Variable",      shared, ~canonical_label,
-                    multiple = FALSE),
-      filter_select("view", "Normalisation", shared, ~view,
-                    multiple = FALSE)
-    ),
-    plot_ly(shared,
-            x = ~fiscal_year, y = ~value,
-            color = ~status,
-            colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
-            type  = "scatter", mode = "lines+markers",
-            line  = list(width = 2.5),
-            hovertemplate = "<b>%{x}</b><br>%{y:,.2f}<extra></extra>") |>
-      plotly::layout(
-        font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
-        legend = list(orientation = "h", x = 0, y = -0.15, title = list(text = "")),
-        margin = list(l = 60L, r = 20L, t = 30L, b = 70L),
-        xaxis  = list(title = "", tickangle = -45),
-        yaxis  = list(title = "", tickformat = ",")
+  default_var <- if ("Net debt" %in% vars) "Net debt" else vars[[1L]]
+
+  ## Build one trace per (variable x status), default-hide all except
+  ## the chosen default variable. Plotly's updatemenus dropdown then
+  ## flips visibility per user selection. This is the only way to get
+  ## a "show one variable at a time" UI in crosstalk-free plotly ---
+  ## crosstalk's filter_select treats empty selection as "show all"
+  ## which produces the spaghetti view.
+  p <- plot_ly()
+  trace_var    <- character(0)
+  trace_status <- character(0)
+  for (v in vars) {
+    d <- facts |>
+      filter(canonical_label == v) |>
+      mutate(status = status_lbl(is_forward_estimate)) |>
+      arrange(fiscal_year)
+    for (s in c("Actual", "Forecast")) {
+      ds <- d |> filter(status == s)
+      if (nrow(ds) == 0L) next
+      col <- if (s == "Actual") "#1f3a93" else "#a6611a"
+      p <- p |> add_trace(
+        data = ds,
+        x = ~fiscal_year, y = ~value_aud_mil,
+        type = "scatter", mode = "lines+markers",
+        name = s, legendgroup = s,
+        showlegend = (v == default_var),
+        line   = list(color = col, width = 2.5),
+        marker = list(color = col),
+        visible = (v == default_var),
+        hovertemplate = "<b>%{x}</b><br>%{y:,.0f} AUD mil<extra></extra>"
       )
+      trace_var    <- c(trace_var, v)
+      trace_status <- c(trace_status, s)
+    }
+  }
+
+  buttons <- lapply(vars, function(v) {
+    visible <- trace_var == v
+    list(
+      method = "update",
+      label  = v,
+      args   = list(
+        list(visible    = visible,
+             showlegend = visible),
+        list(title = paste(JURIS, "---", v))
+      )
+    )
+  })
+
+  p |> plotly::layout(
+    title = paste(JURIS, "---", default_var),
+    font  = list(family = "Inter, system-ui, sans-serif", size = 12L),
+    updatemenus = list(list(
+      active    = which(vars == default_var) - 1L,
+      buttons   = buttons,
+      type      = "dropdown",
+      x         = 0,    y         = 1.18,
+      xanchor   = "left", yanchor = "top",
+      bgcolor   = "#f8f9fa",
+      bordercolor = "#dee2e6"
+    )),
+    legend = list(orientation = "h", x = 0, y = -0.18, title = list(text = "")),
+    margin = list(l = 60L, r = 20L, t = 90L, b = 70L),
+    xaxis  = list(title = "", tickangle = -45),
+    yaxis  = list(title = "AUD millions", tickformat = ",")
   )
 }
 ```
