@@ -1,0 +1,329 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,7873.9,2024-25,FALSE,Revenue,Estimated Outcome
+rev_total,8928.2,2025-26,FALSE,Revenue,Budget
+rev_total,9435.4,2026-27,TRUE,Revenue,Estimate
+rev_total,9787.0,2027-28,TRUE,Revenue,Estimate
+rev_total,10273.5,2028-29,TRUE,Revenue,Estimate
+exp_total,9255.1,2024-25,FALSE,Expenses,Estimated Outcome
+exp_total,9608.9,2025-26,FALSE,Expenses,Budget
+exp_total,9813.2,2026-27,TRUE,Expenses,Estimate
+exp_total,10034.7,2027-28,TRUE,Expenses,Estimate
+exp_total,10260.8,2028-29,TRUE,Expenses,Estimate
+net_op_balance,-1113.8,2024-25,FALSE,HEADLINE NET OPERATING BALANCE,Estimated Outcome
+net_op_balance,-424.9,2025-26,FALSE,HEADLINE NET OPERATING BALANCE,Budget
+net_op_balance,-102.8,2026-27,TRUE,HEADLINE NET OPERATING BALANCE,Estimate
+net_op_balance,47.9,2027-28,TRUE,HEADLINE NET OPERATING BALANCE,Estimate
+net_op_balance,330.6,2028-29,TRUE,HEADLINE NET OPERATING BALANCE,Estimate
+cash_surplus,-339.7,2024-25,FALSE,Net cash from operating activities,Estimated Outcome
+cash_surplus,-63.0,2025-26,FALSE,Net cash from operating activities,Budget
+cash_surplus,191.1,2026-27,TRUE,Net cash from operating activities,Estimate
+cash_surplus,382.0,2027-28,TRUE,Net cash from operating activities,Estimate
+cash_surplus,820.3,2028-29,TRUE,Net cash from operating activities,Estimate
+net_debt,9278.0,2024-25,FALSE,Net debt (excluding superannuation),Estimated Outcome
+net_debt,11001.8,2025-26,FALSE,Net debt (excluding superannuation),Budget
+net_debt,12626.1,2026-27,TRUE,Net debt (excluding superannuation),Estimate
+net_debt,13229.5,2027-28,TRUE,Net debt (excluding superannuation),Estimate
+net_debt,13637.5,2028-29,TRUE,Net debt (excluding superannuation),Estimate
+net_fin_liabilities,15148.8,2024-25,FALSE,Net financial liabilities,Estimated Outcome
+net_fin_liabilities,16459.4,2025-26,FALSE,Net financial liabilities,Budget
+net_fin_liabilities,17546.4,2026-27,TRUE,Net financial liabilities,Estimate
+net_fin_liabilities,17818.2,2027-28,TRUE,Net financial liabilities,Estimate
+net_fin_liabilities,17914.8,2028-29,TRUE,Net financial liabilities,Estimate
+rev_total,7873.881,2024-25,FALSE,Total revenue,Estimated outcome
+rev_total,8928.227,2025-26,FALSE,Total revenue,Budget year
+rev_total,9435.422,2026-27,TRUE,Total revenue,
+rev_total,9786.951,2027-28,TRUE,Total revenue,
+rev_total,10273.458,2028-29,TRUE,Total revenue,
+rev_taxation,2733.140,2024-25,FALSE,Own-source taxation,Estimated outcome
+rev_taxation,3056.249,2025-26,FALSE,Own-source taxation,Budget year
+rev_taxation,3319.065,2026-27,TRUE,Own-source taxation,
+rev_taxation,3487.799,2027-28,TRUE,Own-source taxation,
+rev_taxation,3696.893,2028-29,TRUE,Own-source taxation,
+rev_gst,1977.962,2024-25,FALSE,Goods and Services Tax,Estimated outcome
+rev_gst,2198.877,2025-26,FALSE,Goods and Services Tax,Budget year
+rev_gst,2251.862,2026-27,TRUE,Goods and Services Tax,
+rev_gst,2389.068,2027-28,TRUE,Goods and Services Tax,
+rev_gst,2528.103,2028-29,TRUE,Goods and Services Tax,
+rev_grants_tied,1530.590,2024-25,FALSE,Commonwealth grants,Estimated outcome; includes tied grants
+rev_grants_tied,1715.391,2025-26,FALSE,Commonwealth grants,Budget year; includes tied grants
+rev_grants_tied,1642.114,2026-27,TRUE,Commonwealth grants,Includes tied grants
+rev_grants_tied,1566.869,2027-28,TRUE,Commonwealth grants,Includes tied grants
+rev_grants_tied,1580.142,2028-29,TRUE,Commonwealth grants,Includes tied grants
+rev_sales_goods_svcs,664.197,2024-25,FALSE,Sales of goods and services from contracts with customers,Estimated outcome
+rev_sales_goods_svcs,701.721,2025-26,FALSE,Sales of goods and services from contracts with customers,Budget year
+rev_sales_goods_svcs,719.989,2026-27,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,737.592,2027-28,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,757.446,2028-29,TRUE,Sales of goods and services from contracts with customers,
+rev_interest,306.601,2024-25,FALSE,Interest revenue,Estimated outcome
+rev_interest,270.918,2025-26,FALSE,Interest revenue,Budget year
+rev_interest,296.070,2026-27,TRUE,Interest revenue,
+rev_interest,368.888,2027-28,TRUE,Interest revenue,
+rev_interest,402.310,2028-29,TRUE,Interest revenue,
+rev_dividend,112.659,2024-25,FALSE,Dividend and income tax equivalents Income,Estimated outcome
+rev_dividend,263.794,2025-26,FALSE,Dividend and income tax equivalents Income,Budget year
+rev_dividend,378.621,2026-27,TRUE,Dividend and income tax equivalents Income,
+rev_dividend,228.363,2027-28,TRUE,Dividend and income tax equivalents Income,
+rev_dividend,377.284,2028-29,TRUE,Dividend and income tax equivalents Income,
+exp_total,9255.055,2024-25,FALSE,Total expenses,Estimated outcome from Table 3.4.2
+exp_total,9608.937,2025-26,FALSE,Total expenses,Budget year from Table 3.4.2
+exp_total,9813.240,2026-27,TRUE,Total expenses,From Table 3.4.2
+exp_total,10034.733,2027-28,TRUE,Total expenses,From Table 3.4.2
+exp_total,10260.799,2028-29,TRUE,Total expenses,From Table 3.4.2
+rev_total,7873.881,2024-25,FALSE,Total revenue,
+rev_total,8928.227,2025-26,FALSE,Total revenue,
+rev_total,9435.422,2026-27,TRUE,Total revenue,
+rev_total,9786.951,2027-28,TRUE,Total revenue,
+rev_total,10273.458,2028-29,TRUE,Total revenue,
+rev_taxation,2733.140,2024-25,FALSE,Taxation revenue,
+rev_taxation,3056.249,2025-26,FALSE,Taxation revenue,
+rev_taxation,3319.065,2026-27,TRUE,Taxation revenue,
+rev_taxation,3487.799,2027-28,TRUE,Taxation revenue,
+rev_taxation,3696.893,2028-29,TRUE,Taxation revenue,
+rev_gst,1977.962,2024-25,FALSE,GST Revenue,From Table 3.5.12
+rev_gst,2198.877,2025-26,FALSE,GST Revenue,From Table 3.5.12
+rev_gst,2251.862,2026-27,TRUE,GST Revenue,From Table 3.5.12
+rev_gst,2389.068,2027-28,TRUE,GST Revenue,From Table 3.5.12
+rev_gst,2528.103,2028-29,TRUE,GST Revenue,From Table 3.5.12
+rev_grants_tied,1068.724,2024-25,FALSE,National Specific Purpose Payments,From Table 3.5.12
+rev_grants_tied,1125.060,2025-26,FALSE,National Specific Purpose Payments,From Table 3.5.12
+rev_grants_tied,1187.210,2026-27,TRUE,National Specific Purpose Payments,From Table 3.5.12
+rev_grants_tied,1246.783,2027-28,TRUE,National Specific Purpose Payments,From Table 3.5.12
+rev_grants_tied,1303.388,2028-29,TRUE,National Specific Purpose Payments,From Table 3.5.12
+rev_grants_untied,45.387,2024-25,FALSE,ACT municipal services,From Table 3.5.12
+rev_grants_untied,46.340,2025-26,FALSE,ACT municipal services,From Table 3.5.12
+rev_grants_untied,47.452,2026-27,TRUE,ACT municipal services,From Table 3.5.12
+rev_grants_untied,48.401,2027-28,TRUE,ACT municipal services,From Table 3.5.12
+rev_grants_untied,49.466,2028-29,TRUE,ACT municipal services,From Table 3.5.12
+rev_sales_goods_svcs,664.197,2024-25,FALSE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,701.721,2025-26,FALSE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,719.989,2026-27,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,737.592,2027-28,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,757.446,2028-29,TRUE,Sales of goods and services from contracts with customers,
+rev_interest,306.601,2024-25,FALSE,Interest revenue,
+rev_interest,270.918,2025-26,FALSE,Interest revenue,
+rev_interest,296.070,2026-27,TRUE,Interest revenue,
+rev_interest,368.888,2027-28,TRUE,Interest revenue,
+rev_interest,402.310,2028-29,TRUE,Interest revenue,
+rev_dividend,112.659,2024-25,FALSE,Dividend and income tax equivalents income,
+rev_dividend,263.794,2025-26,FALSE,Dividend and income tax equivalents income,
+rev_dividend,378.621,2026-27,TRUE,Dividend and income tax equivalents income,
+rev_dividend,228.363,2027-28,TRUE,Dividend and income tax equivalents income,
+rev_dividend,377.284,2028-29,TRUE,Dividend and income tax equivalents income,
+rev_other,407.582,2024-25,FALSE,Other revenue combined,Sum of Other revenue and Gains from contributed assets
+rev_other,522.802,2025-26,FALSE,Other revenue combined,Sum of Other revenue and Gains from contributed assets
+rev_other,614.022,2026-27,TRUE,Other revenue combined,Sum of Other revenue and Gains from contributed assets
+rev_other,778.402,2027-28,TRUE,Other revenue combined,Sum of Other revenue and Gains from contributed assets
+rev_other,683.843,2028-29,TRUE,Other revenue combined,Sum of Other revenue and Gains from contributed assets
+exp_total,9255.055,2024-25,FALSE,Total expenses,
+exp_total,9608.937,2025-26,FALSE,Total expenses,
+exp_total,9813.240,2026-27,TRUE,Total expenses,
+exp_total,10034.733,2027-28,TRUE,Total expenses,
+exp_total,10260.799,2028-29,TRUE,Total expenses,
+exp_employee,3415.078,2024-25,FALSE,Employee expenses,
+exp_employee,3541.292,2025-26,FALSE,Employee expenses,
+exp_employee,3513.255,2026-27,TRUE,Employee expenses,
+exp_employee,3603.372,2027-28,TRUE,Employee expenses,
+exp_employee,3718.706,2028-29,TRUE,Employee expenses,
+exp_super,1005.358,2024-25,FALSE,Superannuation expenses,Sum of interest cost and other superannuation expenses
+exp_super,1033.315,2025-26,FALSE,Superannuation expenses,Sum of interest cost and other superannuation expenses
+exp_super,1034.559,2026-27,TRUE,Superannuation expenses,Sum of interest cost and other superannuation expenses
+exp_super,1043.372,2027-28,TRUE,Superannuation expenses,Sum of interest cost and other superannuation expenses
+exp_super,1052.241,2028-29,TRUE,Superannuation expenses,Sum of interest cost and other superannuation expenses
+exp_depreciation,618.807,2024-25,FALSE,Depreciation and amortisation,
+exp_depreciation,620.618,2025-26,FALSE,Depreciation and amortisation,
+exp_depreciation,631.314,2026-27,TRUE,Depreciation and amortisation,
+exp_depreciation,640.767,2027-28,TRUE,Depreciation and amortisation,
+exp_depreciation,638.785,2028-29,TRUE,Depreciation and amortisation,
+exp_interest,502.018,2024-25,FALSE,Interest expenses,
+exp_interest,629.414,2025-26,FALSE,Interest expenses,
+exp_interest,766.419,2026-27,TRUE,Interest expenses,
+exp_interest,902.464,2027-28,TRUE,Interest expenses,
+exp_interest,974.416,2028-29,TRUE,Interest expenses,
+exp_other_operating,2191.663,2024-25,FALSE,Other operating expenses,Sum of Supplies and services and Other operating expenses
+exp_other_operating,2123.404,2025-26,FALSE,Other operating expenses,Sum of Supplies and services and Other operating expenses
+exp_other_operating,2257.455,2026-27,TRUE,Other operating expenses,Sum of Supplies and services and Other operating expenses
+exp_other_operating,2234.444,2027-28,TRUE,Other operating expenses,Sum of Supplies and services and Other operating expenses
+exp_other_operating,2249.971,2028-29,TRUE,Other operating expenses,Sum of Supplies and services and Other operating expenses
+exp_current_grants,1522.131,2024-25,FALSE,Grants and purchased services,
+exp_current_grants,1660.894,2025-26,FALSE,Grants and purchased services,
+exp_current_grants,1610.238,2026-27,TRUE,Grants and purchased services,
+exp_current_grants,1610.314,2027-28,TRUE,Grants and purchased services,
+exp_current_grants,1626.680,2028-29,TRUE,Grants and purchased services,
+net_op_balance,-1381.174,2024-25,FALSE,UPF Net operating balance,
+net_op_balance,-680.710,2025-26,FALSE,UPF Net operating balance,
+net_op_balance,-377.818,2026-27,TRUE,UPF Net operating balance,
+net_op_balance,-247.782,2027-28,TRUE,UPF Net operating balance,
+net_op_balance,12.659,2028-29,TRUE,UPF Net operating balance,
+net_lending,-1985.356,2024-25,FALSE,Net borrowing,Negative of net borrowing
+net_lending,-1138.308,2025-26,FALSE,Net borrowing,Negative of net borrowing
+net_lending,-1085.368,2026-27,TRUE,Net borrowing,Negative of net borrowing
+net_lending,-519.190,2027-28,TRUE,Net borrowing,Negative of net borrowing
+net_lending,-327.508,2028-29,TRUE,Net borrowing,Negative of net borrowing
+net_debt,9277.966,2024-25,FALSE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,11001.826,2025-26,FALSE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,12626.078,2026-27,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,13229.496,2027-28,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,13637.493,2028-29,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_fin_liabilities,15148.846,2024-25,FALSE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,16459.420,2025-26,FALSE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,17546.447,2026-27,TRUE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,17818.200,2027-28,TRUE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,17914.769,2028-29,TRUE,Net financial liabilities,From Balance Sheet
+net_worth,20006.263,2024-25,FALSE,Net worth,From Balance Sheet
+net_worth,19572.720,2025-26,FALSE,Net worth,From Balance Sheet
+net_worth,19367.364,2026-27,TRUE,Net worth,From Balance Sheet
+net_worth,19317.990,2027-28,TRUE,Net worth,From Balance Sheet
+net_worth,19506.769,2028-29,TRUE,Net worth,From Balance Sheet
+capex_pnfa,1197.037,2024-25,FALSE,Payments for non-financial assets,
+capex_pnfa,1050.700,2025-26,FALSE,Payments for non-financial assets,
+capex_pnfa,1261.916,2026-27,TRUE,Payments for non-financial assets,
+capex_pnfa,728.666,2027-28,TRUE,Payments for non-financial assets,
+capex_pnfa,903.797,2028-29,TRUE,Payments for non-financial assets,
+rev_total,9390.015,2025-26,FALSE,Total revenue,
+rev_total,9987.487,2026-27,TRUE,Total revenue,
+rev_total,10187.018,2027-28,TRUE,Total revenue,
+rev_total,10903.247,2028-29,TRUE,Total revenue,
+rev_taxation,2999.355,2025-26,FALSE,Taxation revenue,
+rev_taxation,3260.824,2026-27,TRUE,Taxation revenue,
+rev_taxation,3428.112,2027-28,TRUE,Taxation revenue,
+rev_taxation,3635.547,2028-29,TRUE,Taxation revenue,
+rev_payroll,917.33,2025-26,FALSE,Taxes on employers' payroll and labour force,
+rev_payroll,1049.924,2026-27,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1139.107,2027-28,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1232.484,2028-29,TRUE,Taxes on employers' payroll and labour force,
+rev_stamp_duty,1455.826,2025-26,FALSE,Other taxes on property,
+rev_stamp_duty,1538.526,2026-27,TRUE,Other taxes on property,
+rev_stamp_duty,1585.334,2027-28,TRUE,Other taxes on property,
+rev_stamp_duty,1660.994,2028-29,TRUE,Other taxes on property,
+rev_land_tax,236.683,2025-26,FALSE,Land taxes,
+rev_land_tax,250.028,2026-27,TRUE,Land taxes,
+rev_land_tax,257.282,2027-28,TRUE,Land taxes,
+rev_land_tax,271.261,2028-29,TRUE,Land taxes,
+rev_gambling,85.021,2025-26,FALSE,Taxes on gambling,
+rev_gambling,86.605,2026-27,TRUE,Taxes on gambling,
+rev_gambling,88.284,2027-28,TRUE,Taxes on gambling,
+rev_gambling,90.111,2028-29,TRUE,Taxes on gambling,
+rev_motor_vehicle,257.642,2025-26,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,282.539,2026-27,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,301.481,2027-28,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,320.838,2028-29,TRUE,Motor vehicle taxes,
+rev_other_tax,105.768,2025-26,FALSE,Other taxation revenue (sum of Other taxes on provision of goods and services and Other taxes on use of goods),
+rev_other_tax,115.342,2026-27,TRUE,Other taxation revenue (sum of Other taxes on provision of goods and services and Other taxes on use of goods),
+rev_other_tax,116.316,2027-28,TRUE,Other taxation revenue (sum of Other taxes on provision of goods and services and Other taxes on use of goods),
+rev_other_tax,117.316,2028-29,TRUE,Other taxation revenue (sum of Other taxes on provision of goods and services and Other taxes on use of goods),
+rev_gst,2245.217,2025-26,FALSE,GST revenue and municipal grants,
+rev_gst,2299.314,2026-27,TRUE,GST revenue and municipal grants,
+rev_gst,2437.469,2027-28,TRUE,GST revenue and municipal grants,
+rev_gst,2577.569,2028-29,TRUE,GST revenue and municipal grants,
+rev_grants_tied,1397.293,2025-26,FALSE,Other current grant revenue (excluding GST and non-government school grants),Combined current and capital Commonwealth tied grants excluding non-government schools
+rev_grants_tied,1259.948,2026-27,TRUE,Other current grant revenue (excluding GST and non-government school grants),Combined current and capital Commonwealth tied grants excluding non-government schools
+rev_grants_tied,1172.427,2027-28,TRUE,Other current grant revenue (excluding GST and non-government school grants),Combined current and capital Commonwealth tied grants excluding non-government schools
+rev_grants_tied,1173.165,2028-29,TRUE,Other current grant revenue (excluding GST and non-government school grants),Combined current and capital Commonwealth tied grants excluding non-government schools
+rev_sales_goods_svcs,1164.152,2025-26,FALSE,Other sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,1221.207,2026-27,TRUE,Other sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,1286.437,2027-28,TRUE,Other sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,1317.262,2028-29,TRUE,Other sales of goods and services from contracts with customers,
+rev_interest,186.812,2025-26,FALSE,Interest revenue,
+rev_interest,213.831,2026-27,TRUE,Interest revenue,
+rev_interest,269.498,2027-28,TRUE,Interest revenue,
+rev_interest,286.355,2028-29,TRUE,Interest revenue,
+rev_dividend,263.794,2025-26,FALSE,Dividends and income tax equivalent from PNFC sector,
+rev_dividend,378.621,2026-27,TRUE,Dividends and income tax equivalent from PNFC sector,
+rev_dividend,228.363,2027-28,TRUE,Dividends and income tax equivalent from PNFC sector,
+rev_dividend,377.284,2028-29,TRUE,Dividends and income tax equivalent from PNFC sector,
+rev_other,763.779,2025-26,FALSE,Other revenue (sum of Land revenue and Other revenue),
+rev_other,918.453,2026-27,TRUE,Other revenue (sum of Land revenue and Other revenue),
+rev_other,928.522,2027-28,TRUE,Other revenue (sum of Land revenue and Other revenue),
+rev_other,1218.348,2028-29,TRUE,Other revenue (sum of Land revenue and Other revenue),
+exp_total,10226.796,2025-26,FALSE,Total expenses,
+exp_total,10465.635,2026-27,TRUE,Total expenses,
+exp_total,10518.368,2027-28,TRUE,Total expenses,
+exp_total,11046.671,2028-29,TRUE,Total expenses,
+exp_employee,3784.621,2025-26,FALSE,Employee expenses,
+exp_employee,3753.67,2026-27,TRUE,Employee expenses,
+exp_employee,3847.115,2027-28,TRUE,Employee expenses,
+exp_employee,3966.934,2028-29,TRUE,Employee expenses,
+exp_super,1063.408,2025-26,FALSE,Superannuation expenses (sum of Superannuation interest cost and Other superannuation expenses),
+exp_super,1065.224,2026-27,TRUE,Superannuation expenses (sum of Superannuation interest cost and Other superannuation expenses),
+exp_super,1074.688,2027-28,TRUE,Superannuation expenses (sum of Superannuation interest cost and Other superannuation expenses),
+exp_super,1084.227,2028-29,TRUE,Superannuation expenses (sum of Superannuation interest cost and Other superannuation expenses),
+exp_depreciation,836.579,2025-26,FALSE,Depreciation and amortisation,
+exp_depreciation,859.107,2026-27,TRUE,Depreciation and amortisation,
+exp_depreciation,881.353,2027-28,TRUE,Depreciation and amortisation,
+exp_depreciation,896.641,2028-29,TRUE,Depreciation and amortisation,
+exp_interest,644.219,2025-26,FALSE,Interest expenses,
+exp_interest,787.572,2026-27,TRUE,Interest expenses,
+exp_interest,922.455,2027-28,TRUE,Interest expenses,
+exp_interest,1001.393,2028-29,TRUE,Interest expenses,
+exp_other_operating,2515.246,2025-26,FALSE,Other operating expenses (sum of Supplies and services and Other operating expenses),
+exp_other_operating,2659.349,2026-27,TRUE,Other operating expenses (sum of Supplies and services and Other operating expenses),
+exp_other_operating,2465.303,2027-28,TRUE,Other operating expenses (sum of Supplies and services and Other operating expenses),
+exp_other_operating,2764.113,2028-29,TRUE,Other operating expenses (sum of Supplies and services and Other operating expenses),
+exp_capital_grants,1382.723,2025-26,FALSE,Grants and purchased services,Total grants and purchased services
+exp_capital_grants,1340.713,2026-27,TRUE,Grants and purchased services,Total grants and purchased services
+exp_capital_grants,1327.454,2027-28,TRUE,Grants and purchased services,Total grants and purchased services
+exp_capital_grants,1333.363,2028-29,TRUE,Grants and purchased services,Total grants and purchased services
+exp_health,2787.716,2025-26,FALSE,Health,
+exp_health,2877.421,2026-27,TRUE,Health,
+exp_health,2918.592,2027-28,TRUE,Health,
+exp_health,2967.808,2028-29,TRUE,Health,
+exp_education,1984.26,2025-26,FALSE,Education,
+exp_education,2016.296,2026-27,TRUE,Education,
+exp_education,2062.37,2027-28,TRUE,Education,
+exp_education,2109.356,2028-29,TRUE,Education,
+exp_public_order,740.492,2025-26,FALSE,Public order and safety,
+exp_public_order,773.602,2026-27,TRUE,Public order and safety,
+exp_public_order,748.484,2027-28,TRUE,Public order and safety,
+exp_public_order,750.932,2028-29,TRUE,Public order and safety,
+exp_transport_comms,566.451,2025-26,FALSE,Transport,
+exp_transport_comms,546.922,2026-27,TRUE,Transport,
+exp_transport_comms,560.98,2027-28,TRUE,Transport,
+exp_transport_comms,571.449,2028-29,TRUE,Transport,
+exp_social_security,659.81,2025-26,FALSE,Social protection,
+exp_social_security,652.895,2026-27,TRUE,Social protection,
+exp_social_security,652.057,2027-28,TRUE,Social protection,
+exp_social_security,662.968,2028-29,TRUE,Social protection,
+exp_general_public,2076.906,2025-26,FALSE,General public services,
+exp_general_public,2180.575,2026-27,TRUE,General public services,
+exp_general_public,2358.743,2027-28,TRUE,General public services,
+exp_general_public,2480.104,2028-29,TRUE,General public services,
+exp_recreation,228.339,2025-26,FALSE,Recreation culture and religion,
+exp_recreation,229.044,2026-27,TRUE,Recreation culture and religion,
+exp_recreation,227.131,2027-28,TRUE,Recreation culture and religion,
+exp_recreation,221.118,2028-29,TRUE,Recreation culture and religion,
+exp_other_function,482.822,2025-26,FALSE,Other functions (sum of Economic affairs Environmental protection and Housing and community amenities),
+exp_other_function,544.985,2026-27,TRUE,Other functions (sum of Economic affairs Environmental protection and Housing and community amenities),
+exp_other_function,476.376,2027-28,TRUE,Other functions (sum of Economic affairs Environmental protection and Housing and community amenities),
+exp_other_function,497.055,2028-29,TRUE,Other functions (sum of Economic affairs Environmental protection and Housing and community amenities),
+net_op_balance,-836.781,2025-26,FALSE,UPF Net operating balance,
+net_op_balance,-478.148,2026-27,TRUE,UPF Net operating balance,
+net_op_balance,-331.35,2027-28,TRUE,UPF Net operating balance,
+net_op_balance,-143.424,2028-29,TRUE,UPF Net operating balance,
+net_cap_investment,732.624,2025-26,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,1010.007,2026-27,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,456.674,2027-28,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,439.911,2028-29,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1569.405,2025-26,FALSE,Net borrowing,
+net_lending,-1488.155,2026-27,TRUE,Net borrowing,
+net_lending,-788.024,2027-28,TRUE,Net borrowing,
+net_lending,-583.335,2028-29,TRUE,Net borrowing,
+cash_surplus,-1349.09,2025-26,FALSE,Cash (deficit),
+cash_surplus,-1408.292,2026-27,TRUE,Cash (deficit),
+cash_surplus,-687.19,2027-28,TRUE,Cash (deficit),
+cash_surplus,-327.989,2028-29,TRUE,Cash (deficit),
+net_debt,11001.8,2025-26,FALSE,Net debt (excluding superannuation related investments),
+net_debt,12626.1,2026-27,TRUE,Net debt (excluding superannuation related investments),
+net_debt,13229.5,2027-28,TRUE,Net debt (excluding superannuation related investments),
+net_debt,13637.5,2028-29,TRUE,Net debt (excluding superannuation related investments),
+net_fin_liabilities,16459.4,2025-26,FALSE,Net financial liabilities,
+net_fin_liabilities,17546.4,2026-27,TRUE,Net financial liabilities,
+net_fin_liabilities,17818.2,2027-28,TRUE,Net financial liabilities,
+net_fin_liabilities,17914.8,2028-29,TRUE,Net financial liabilities,
+net_worth,19572.7,2025-26,FALSE,Net worth,
+net_worth,19367.4,2026-27,TRUE,Net worth,
+net_worth,19318.0,2027-28,TRUE,Net worth,
+net_worth,19506.8,2028-29,TRUE,Net worth,
+capex_pnfa,1536.898,2025-26,FALSE,Payments for non-financial assets,
+capex_pnfa,1721.33,2026-27,TRUE,Payments for non-financial assets,
+capex_pnfa,1112.895,2027-28,TRUE,Payments for non-financial assets,
+capex_pnfa,1180.992,2028-29,TRUE,Payments for non-financial assets,

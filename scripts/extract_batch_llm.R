@@ -22,8 +22,14 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
-filter_juris <- if (length(args) >= 1L) args[[1L]] else "NSW"
-filter_type  <- if (length(args) >= 2L) args[[2L]] else NULL
+## When the anchor finder picks unhelpful pages (e.g. narrative
+## mentioning "Net debt" but not the operating-statement table),
+## passing `--whole-pdf` as any later arg forces chunking of the
+## entire document instead of consulting the finder.
+force_chunk  <- any(args == "--whole-pdf")
+positional   <- args[!grepl("^--", args)]
+filter_juris <- if (length(positional) >= 1L) positional[[1L]] else "NSW"
+filter_type  <- if (length(positional) >= 2L) positional[[2L]] else NULL
 
 if (!nzchar(Sys.getenv("ANTHROPIC_API_KEY"))) {
   stop("ANTHROPIC_API_KEY not set --- paste it into .Renviron and restart R.",
@@ -134,7 +140,7 @@ for (i in seq_len(nrow(candidates))) {
     next
   }
 
-  pages <- find_ggs_pages(row$pdf_path)
+  pages <- if (force_chunk) NULL else find_ggs_pages(row$pdf_path)
   if (is.null(pages)) {
     ## Anchor finder failed --- fall back to chunking the whole PDF.
     ## Anthropic caps PDF input at 100 pages, so we slice into 90-page
