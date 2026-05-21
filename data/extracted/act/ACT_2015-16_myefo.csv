@@ -1,0 +1,185 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,4554.1,2014-15,FALSE,"Total revenue (from Table 2.1.1, p24)",Actual outcome
+rev_total,4601.6,2015-16,FALSE,"Total revenue (from Table 2.1.1, p24)",Budget Review estimate for budget year
+rev_total,4893.4,2016-17,TRUE,"Total revenue (from Table 2.1.1, p24)",
+rev_total,5100.9,2017-18,TRUE,"Total revenue (from Table 2.1.1, p24)",
+rev_total,5302.8,2018-19,TRUE,"Total revenue (from Table 2.1.1, p24)",
+exp_total,5143.0,2014-15,FALSE,"Total expenses (from Table 2.1.1, p24)",Actual outcome
+exp_total,5240.5,2015-16,FALSE,"Total expenses (from Table 2.1.1, p24)",Budget Review estimate for budget year
+exp_total,5188.3,2016-17,TRUE,"Total expenses (from Table 2.1.1, p24)",
+exp_total,5342.9,2017-18,TRUE,"Total expenses (from Table 2.1.1, p24)",
+exp_total,5470.4,2018-19,TRUE,"Total expenses (from Table 2.1.1, p24)",
+net_op_balance,-479.3,2014-15,FALSE,"Headline Net Operating Balance (from Table 2.1.1, p24)",Actual outcome; includes asbestos scheme impact
+net_op_balance,-478.6,2015-16,FALSE,"Headline Net Operating Balance (from Table 2.1.1, p24)",Budget Review estimate for budget year; includes asbestos scheme impact
+net_op_balance,-122.7,2016-17,TRUE,"Headline Net Operating Balance (from Table 2.1.1, p24)",
+net_op_balance,-55.6,2017-18,TRUE,"Headline Net Operating Balance (from Table 2.1.1, p24)",
+net_op_balance,32.9,2018-19,TRUE,"Headline Net Operating Balance (from Table 2.1.1, p24)",
+net_debt,909.6,2014-15,FALSE,"Net Debt excluding superannuation (from Table 2.1.1, p24)",Actual outcome
+net_debt,1956.5,2015-16,FALSE,"Net Debt excluding superannuation (from Table 2.1.1, p24)",Budget Review estimate for budget year
+net_debt,2487.9,2016-17,TRUE,"Net Debt excluding superannuation (from Table 2.1.1, p24)",
+net_debt,2663.0,2017-18,TRUE,"Net Debt excluding superannuation (from Table 2.1.1, p24)",
+net_debt,2360.6,2018-19,TRUE,"Net Debt excluding superannuation (from Table 2.1.1, p24)",
+net_fin_liabilities,7002.7,2014-15,FALSE,"Net Financial Liabilities (from Table 2.1.1, p24)",Actual outcome
+net_fin_liabilities,5319.1,2015-16,FALSE,"Net Financial Liabilities (from Table 2.1.1, p24)",Budget Review estimate for budget year
+net_fin_liabilities,5887.2,2016-17,TRUE,"Net Financial Liabilities (from Table 2.1.1, p24)",
+net_fin_liabilities,6056.9,2017-18,TRUE,"Net Financial Liabilities (from Table 2.1.1, p24)",
+net_fin_liabilities,5819.4,2018-19,TRUE,"Net Financial Liabilities (from Table 2.1.1, p24)",
+net_worth,16703.5,2015-16,FALSE,"Net Worth (from Table 5.1.3, p50)",Budget Review estimate for budget year
+net_worth,16835.9,2016-17,TRUE,"Net Worth (from Table 5.1.3, p50)",
+net_worth,16932.4,2017-18,TRUE,"Net Worth (from Table 5.1.3, p50)",
+net_worth,17212.0,2018-19,TRUE,"Net Worth (from Table 5.1.3, p50)",
+econ_gsp_growth,1.4,2014-15,FALSE,"Gross State Product (from Table 1.4.1, p15)",Actual year-on-year percentage change
+econ_gsp_growth,1.75,2015-16,FALSE,"Gross State Product (from Table 1.4.1, p15)",Budget Review forecast; converted from '1¾'
+econ_gsp_growth,2.0,2016-17,TRUE,"Gross State Product (from Table 1.4.1, p15)",Projection
+econ_gsp_growth,2.5,2017-18,TRUE,"Gross State Product (from Table 1.4.1, p15)",Projection
+econ_gsp_growth,2.5,2018-19,TRUE,"Gross State Product (from Table 1.4.1, p15)",Projection
+econ_employment,-0.6,2014-15,FALSE,"Employment (from Table 1.4.1, p15)",Actual year-on-year percentage change
+econ_employment,0.25,2015-16,FALSE,"Employment (from Table 1.4.1, p15)",Budget Review forecast; converted from '¼'
+econ_employment,1.0,2016-17,TRUE,"Employment (from Table 1.4.1, p15)",Projection
+econ_employment,1.5,2017-18,TRUE,"Employment (from Table 1.4.1, p15)",Projection
+econ_employment,1.5,2018-19,TRUE,"Employment (from Table 1.4.1, p15)",Projection
+econ_wpi,1.8,2014-15,FALSE,"Wage Price Index (from Table 1.4.1, p15)",Actual year-on-year percentage change
+econ_wpi,2.0,2015-16,FALSE,"Wage Price Index (from Table 1.4.1, p15)",Budget Review forecast
+econ_wpi,2.25,2016-17,TRUE,"Wage Price Index (from Table 1.4.1, p15)",Projection
+econ_wpi,3.5,2017-18,TRUE,"Wage Price Index (from Table 1.4.1, p15)",Projection
+econ_wpi,3.5,2018-19,TRUE,"Wage Price Index (from Table 1.4.1, p15)",Projection
+econ_cpi,1.1,2014-15,FALSE,"Consumer Price Index (from Table 1.4.1, p15)",Actual year-on-year percentage change
+econ_cpi,1.5,2015-16,FALSE,"Consumer Price Index (from Table 1.4.1, p15)",Budget Review forecast
+econ_cpi,2.0,2016-17,TRUE,"Consumer Price Index (from Table 1.4.1, p15)",Projection
+econ_cpi,2.5,2017-18,TRUE,"Consumer Price Index (from Table 1.4.1, p15)",Projection
+econ_cpi,2.5,2018-19,TRUE,"Consumer Price Index (from Table 1.4.1, p15)",Projection
+econ_population,1.5,2014-15,FALSE,"Population growth (from Table 1.4.1, p15)",Forecast for 2014-15 as actual was unavailable
+econ_population,1.5,2015-16,FALSE,"Population growth (from Table 1.4.1, p15)",Budget Review forecast
+econ_population,1.5,2016-17,TRUE,"Population growth (from Table 1.4.1, p15)",Projection
+econ_population,1.5,2017-18,TRUE,"Population growth (from Table 1.4.1, p15)",Projection
+econ_population,1.5,2018-19,TRUE,"Population growth (from Table 1.4.1, p15)",Projection
+rev_total,4554.059,2014-15,FALSE,Total Revenue,
+rev_total,4601.577,2015-16,FALSE,Total Revenue,
+rev_total,4893.415,2016-17,TRUE,Total Revenue,
+rev_total,5100.912,2017-18,TRUE,Total Revenue,
+rev_total,5302.782,2018-19,TRUE,Total Revenue,
+rev_taxation,1376.763,2014-15,FALSE,Taxation Revenue,
+rev_taxation,1524.481,2015-16,FALSE,Taxation Revenue,
+rev_taxation,1604.809,2016-17,TRUE,Taxation Revenue,
+rev_taxation,1720.227,2017-18,TRUE,Taxation Revenue,
+rev_taxation,1840.805,2018-19,TRUE,Taxation Revenue,
+rev_payroll,357.840,2014-15,FALSE,Payroll Tax,
+rev_payroll,422.250,2015-16,FALSE,Payroll Tax,
+rev_payroll,439.152,2016-17,TRUE,Payroll Tax,
+rev_payroll,470.294,2017-18,TRUE,Payroll Tax,
+rev_payroll,503.647,2018-19,TRUE,Payroll Tax,
+rev_stamp_duty,215.722,2014-15,FALSE,Conveyances,
+rev_stamp_duty,232.057,2015-16,FALSE,Conveyances,
+rev_stamp_duty,238.554,2016-17,TRUE,Conveyances,
+rev_stamp_duty,248.647,2017-18,TRUE,Conveyances,
+rev_stamp_duty,258.833,2018-19,TRUE,Conveyances,
+rev_land_tax,96.169,2014-15,FALSE,Land Tax,
+rev_land_tax,94.069,2015-16,FALSE,Land Tax,
+rev_land_tax,101.345,2016-17,TRUE,Land Tax,
+rev_land_tax,108.579,2017-18,TRUE,Land Tax,
+rev_land_tax,116.112,2018-19,TRUE,Land Tax,
+rev_gambling,51.508,2014-15,FALSE,Total Gambling Taxes,
+rev_gambling,52.039,2015-16,FALSE,Total Gambling Taxes,
+rev_gambling,53.341,2016-17,TRUE,Total Gambling Taxes,
+rev_gambling,54.673,2017-18,TRUE,Total Gambling Taxes,
+rev_gambling,56.040,2018-19,TRUE,Total Gambling Taxes,
+rev_motor_vehicle,110.983,2014-15,FALSE,Motor Vehicle Registrations,
+rev_motor_vehicle,121.013,2015-16,FALSE,Motor Vehicle Registrations,
+rev_motor_vehicle,129.708,2016-17,TRUE,Motor Vehicle Registrations,
+rev_motor_vehicle,138.053,2017-18,TRUE,Motor Vehicle Registrations,
+rev_motor_vehicle,147.011,2018-19,TRUE,Motor Vehicle Registrations,
+rev_gst,1991.719,2014-15,FALSE,Commonwealth Grants,
+rev_gst,1866.002,2015-16,FALSE,Commonwealth Grants,
+rev_gst,2024.227,2016-17,TRUE,Commonwealth Grants,
+rev_gst,2070.549,2017-18,TRUE,Commonwealth Grants,
+rev_gst,2124.503,2018-19,TRUE,Commonwealth Grants,
+rev_sales_goods_svcs,475.473,2014-15,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,471.928,2015-16,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,485.463,2016-17,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,566.859,2017-18,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,578.341,2018-19,TRUE,Sales of Goods and Services,
+rev_interest,130.797,2014-15,FALSE,Interest Income,
+rev_interest,135.430,2015-16,FALSE,Interest Income,
+rev_interest,141.065,2016-17,TRUE,Interest Income,
+rev_interest,143.433,2017-18,TRUE,Interest Income,
+rev_interest,137.544,2018-19,TRUE,Interest Income,
+rev_dividend,298.838,2014-15,FALSE,Dividend and Income Tax Equivalents Income,
+rev_dividend,331.474,2015-16,FALSE,Dividend and Income Tax Equivalents Income,
+rev_dividend,296.254,2016-17,TRUE,Dividend and Income Tax Equivalents Income,
+rev_dividend,275.262,2017-18,TRUE,Dividend and Income Tax Equivalents Income,
+rev_dividend,307.155,2018-19,TRUE,Dividend and Income Tax Equivalents Income,
+rev_other,129.715,2014-15,FALSE,Other Revenue,
+rev_other,134.058,2015-16,FALSE,Other Revenue,
+rev_other,137.186,2016-17,TRUE,Other Revenue,
+rev_other,139.312,2017-18,TRUE,Other Revenue,
+rev_other,142.168,2018-19,TRUE,Other Revenue,
+exp_total,5142.979,2014-15,FALSE,Total Expenses,
+exp_total,5240.507,2015-16,FALSE,Total Expenses,
+exp_total,5188.309,2016-17,TRUE,Total Expenses,
+exp_total,5342.876,2017-18,TRUE,Total Expenses,
+exp_total,5470.405,2018-19,TRUE,Total Expenses,
+exp_employee,1761.285,2014-15,FALSE,Employee Expenses,
+exp_employee,1805.098,2015-16,FALSE,Employee Expenses,
+exp_employee,1849.615,2016-17,TRUE,Employee Expenses,
+exp_employee,1880.311,2017-18,TRUE,Employee Expenses,
+exp_employee,1939.165,2018-19,TRUE,Employee Expenses,
+exp_super,646.032,2014-15,FALSE,Total Superannuation Expense,Calculated as Superannuation Interest Cost + Other Superannuation Expense
+exp_super,676.817,2015-16,FALSE,Total Superannuation Expense,Calculated as Superannuation Interest Cost + Other Superannuation Expense
+exp_super,645.211,2016-17,TRUE,Total Superannuation Expense,Calculated as Superannuation Interest Cost + Other Superannuation Expense
+exp_super,662.671,2017-18,TRUE,Total Superannuation Expense,Calculated as Superannuation Interest Cost + Other Superannuation Expense
+exp_super,679.506,2018-19,TRUE,Total Superannuation Expense,Calculated as Superannuation Interest Cost + Other Superannuation Expense
+exp_depreciation,355.531,2014-15,FALSE,Depreciation and Amortisation,
+exp_depreciation,368.565,2015-16,FALSE,Depreciation and Amortisation,
+exp_depreciation,389.870,2016-17,TRUE,Depreciation and Amortisation,
+exp_depreciation,403.846,2017-18,TRUE,Depreciation and Amortisation,
+exp_depreciation,419.182,2018-19,TRUE,Depreciation and Amortisation,
+exp_interest,158.568,2014-15,FALSE,Interest Expense,
+exp_interest,189.042,2015-16,FALSE,Interest Expense,
+exp_interest,215.567,2016-17,TRUE,Interest Expense,
+exp_interest,235.186,2017-18,TRUE,Interest Expense,
+exp_interest,220.009,2018-19,TRUE,Interest Expense,
+exp_current_grants,1220.887,2014-15,FALSE,Grants and Purchased Services,
+exp_current_grants,977.595,2015-16,FALSE,Grants and Purchased Services,
+exp_current_grants,912.475,2016-17,TRUE,Grants and Purchased Services,
+exp_current_grants,952.292,2017-18,TRUE,Grants and Purchased Services,
+exp_current_grants,960.370,2018-19,TRUE,Grants and Purchased Services,
+net_op_balance,-588.919,2014-15,FALSE,UPF Net Operating Balance,
+net_op_balance,-638.930,2015-16,FALSE,UPF Net Operating Balance,
+net_op_balance,-294.894,2016-17,TRUE,UPF Net Operating Balance,
+net_op_balance,-241.964,2017-18,TRUE,UPF Net Operating Balance,
+net_op_balance,-167.623,2018-19,TRUE,UPF Net Operating Balance,
+net_cap_investment,425.251,2014-15,FALSE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,540.143,2015-16,FALSE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,601.300,2016-17,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,217.699,2017-18,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,-89.900,2018-19,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_lending,-1014.170,2014-15,FALSE,Net Lending / (Borrowing),
+net_lending,-1179.073,2015-16,FALSE,Net Lending / (Borrowing),
+net_lending,-896.194,2016-17,TRUE,Net Lending / (Borrowing),
+net_lending,-459.663,2017-18,TRUE,Net Lending / (Borrowing),
+net_lending,-77.723,2018-19,TRUE,Net Lending / (Borrowing),
+cash_surplus,-595.571,2014-15,FALSE,Cash Surplus (+) / Deficit (-),
+cash_surplus,-881.098,2015-16,FALSE,Cash Surplus (+) / Deficit (-),
+cash_surplus,-566.650,2016-17,TRUE,Cash Surplus (+) / Deficit (-),
+cash_surplus,-144.054,2017-18,TRUE,Cash Surplus (+) / Deficit (-),
+cash_surplus,340.879,2018-19,TRUE,Cash Surplus (+) / Deficit (-),
+net_debt,909.557,2014-15,FALSE,Net Debt (Excluding Superannuation Related Investments),
+net_debt,1956.515,2015-16,FALSE,Net Debt (Excluding Superannuation Related Investments),
+net_debt,2487.860,2016-17,TRUE,Net Debt (Excluding Superannuation Related Investments),
+net_debt,2663.012,2017-18,TRUE,Net Debt (Excluding Superannuation Related Investments),
+net_debt,2360.561,2018-19,TRUE,Net Debt (Excluding Superannuation Related Investments),
+net_fin_liabilities,7002.702,2014-15,FALSE,Net Financial Liabilities,
+net_fin_liabilities,5319.050,2015-16,FALSE,Net Financial Liabilities,
+net_fin_liabilities,5887.185,2016-17,TRUE,Net Financial Liabilities,
+net_fin_liabilities,6056.890,2017-18,TRUE,Net Financial Liabilities,
+net_fin_liabilities,5819.371,2018-19,TRUE,Net Financial Liabilities,
+net_worth,14284.948,2014-15,FALSE,Net Worth,
+net_worth,16703.494,2015-16,FALSE,Net Worth,
+net_worth,16835.943,2016-17,TRUE,Net Worth,
+net_worth,16932.415,2017-18,TRUE,Net Worth,
+net_worth,17212.021,2018-19,TRUE,Net Worth,
+capex_pnfa,813.220,2014-15,FALSE,Payments for Non-Financial Assets,
+capex_pnfa,934.735,2015-16,FALSE,Payments for Non-Financial Assets,
+capex_pnfa,980.065,2016-17,TRUE,Payments for Non-Financial Assets,
+capex_pnfa,704.019,2017-18,TRUE,Payments for Non-Financial Assets,
+capex_pnfa,444.986,2018-19,TRUE,Payments for Non-Financial Assets,

@@ -1,0 +1,419 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,24658.3,2022-23,FALSE,Total revenue,
+rev_total,26602.9,2023-24,FALSE,Total revenue,
+rev_total,27147.0,2024-25,TRUE,Total revenue,
+rev_total,28055.5,2025-26,TRUE,Total revenue,
+rev_total,29226.4,2026-27,TRUE,Total revenue,
+rev_taxation,5611.7,2022-23,FALSE,Taxation revenue,
+rev_taxation,5826.7,2023-24,FALSE,Taxation revenue,
+rev_taxation,6010.7,2024-25,TRUE,Taxation revenue,
+rev_taxation,6232.0,2025-26,TRUE,Taxation revenue,
+rev_taxation,6487.8,2026-27,TRUE,Taxation revenue,
+rev_payroll,1603.1,2022-23,FALSE,Payroll tax,
+rev_payroll,1684.7,2023-24,FALSE,Payroll tax,
+rev_payroll,1769.3,2024-25,TRUE,Payroll tax,
+rev_payroll,1862.4,2025-26,TRUE,Payroll tax,
+rev_payroll,1961.2,2026-27,TRUE,Payroll tax,
+rev_stamp_duty,1152.0,2022-23,FALSE,Conveyance duty,
+rev_stamp_duty,1092.0,2023-24,FALSE,Conveyance duty,
+rev_stamp_duty,1117.0,2024-25,TRUE,Conveyance duty,
+rev_stamp_duty,1182.0,2025-26,TRUE,Conveyance duty,
+rev_stamp_duty,1251.0,2026-27,TRUE,Conveyance duty,
+rev_land_tax,569.0,2022-23,FALSE,"Land tax — private, Land tax — public",Combining private (381) and public (188) land tax
+rev_land_tax,706.0,2023-24,FALSE,"Land tax — private, Land tax — public",Combining private (479) and public (227) land tax
+rev_land_tax,706.0,2024-25,TRUE,"Land tax — private, Land tax — public",Combining private (479) and public (227) land tax
+rev_land_tax,726.0,2025-26,TRUE,"Land tax — private, Land tax — public",Combining private (494) and public (232) land tax
+rev_land_tax,747.0,2026-27,TRUE,"Land tax — private, Land tax — public",Combining private (509) and public (238) land tax
+rev_gambling,620.8,2022-23,FALSE,Total gambling taxes,
+rev_gambling,605.3,2023-24,FALSE,Total gambling taxes,
+rev_gambling,611.4,2024-25,TRUE,Total gambling taxes,
+rev_gambling,621.6,2025-26,TRUE,Total gambling taxes,
+rev_gambling,631.6,2026-27,TRUE,Total gambling taxes,
+rev_motor_vehicle,807.6,2022-23,FALSE,Total motor vehicle taxes,
+rev_motor_vehicle,841.0,2023-24,FALSE,Total motor vehicle taxes,
+rev_motor_vehicle,863.6,2024-25,TRUE,Total motor vehicle taxes,
+rev_motor_vehicle,858.9,2025-26,TRUE,Total motor vehicle taxes,
+rev_motor_vehicle,877.9,2026-27,TRUE,Total motor vehicle taxes,
+rev_other_tax,605.0,2022-23,FALSE,Total insurance taxes (insurance taxes presented separately),Includes insurance taxes (604.8) and ESL on fixed property (182) minus property taxes already counted
+rev_other_tax,826.0,2023-24,FALSE,Total insurance taxes and property taxes (net of land tax),Includes insurance (632.8) and property taxes (971.4) minus land tax already counted (706) minus ESL (193) gives approximately 705
+rev_other_tax,950.0,2024-25,TRUE,Total insurance taxes and property taxes (net of land tax),
+rev_other_tax,1009.0,2025-26,TRUE,Total insurance taxes and property taxes (net of land tax),
+rev_other_tax,1048.0,2026-27,TRUE,Total insurance taxes and property taxes (net of land tax),
+rev_gst,7702.3,2022-23,FALSE,GST revenue grants,
+rev_gst,8788.3,2023-24,FALSE,GST revenue grants,
+rev_gst,9023.3,2024-25,TRUE,GST revenue grants,
+rev_gst,9161.1,2025-26,TRUE,GST revenue grants,
+rev_gst,9052.0,2026-27,TRUE,GST revenue grants,
+rev_grants_tied,2799.5,2022-23,FALSE,Ongoing tied grants,
+rev_grants_tied,2878.0,2023-24,FALSE,Ongoing tied grants,
+rev_grants_tied,2975.1,2024-25,TRUE,Ongoing tied grants,
+rev_grants_tied,3129.2,2025-26,TRUE,Ongoing tied grants,
+rev_grants_tied,3267.8,2026-27,TRUE,Ongoing tied grants,
+rev_grants_untied,577.3,2022-23,FALSE,Other Commonwealth grants,Represents untied grants excluding GST
+rev_grants_untied,557.7,2023-24,FALSE,Other Commonwealth grants,
+rev_grants_untied,539.5,2024-25,TRUE,Other Commonwealth grants,
+rev_grants_untied,545.9,2025-26,TRUE,Other Commonwealth grants,
+rev_grants_untied,556.1,2026-27,TRUE,Other Commonwealth grants,
+rev_sales_goods_svcs,2997.0,2022-23,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3074.1,2023-24,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3165.9,2024-25,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3288.7,2025-26,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3390.9,2026-27,TRUE,Sales of goods and services,
+rev_interest,325.7,2022-23,FALSE,Interest income,
+rev_interest,402.8,2023-24,FALSE,Interest income,
+rev_interest,338.2,2024-25,TRUE,Interest income,
+rev_interest,357.3,2025-26,TRUE,Interest income,
+rev_interest,366.8,2026-27,TRUE,Interest income,
+rev_dividend,153.2,2022-23,FALSE,Dividend and income tax equivalent income,
+rev_dividend,248.5,2023-24,FALSE,Dividend and income tax equivalent income,
+rev_dividend,237.5,2024-25,TRUE,Dividend and income tax equivalent income,
+rev_dividend,248.2,2025-26,TRUE,Dividend and income tax equivalent income,
+rev_dividend,265.6,2026-27,TRUE,Dividend and income tax equivalent income,
+rev_other,1618.9,2022-23,FALSE,Other revenue,
+rev_other,1646.7,2023-24,FALSE,Other revenue,
+rev_other,1683.8,2024-25,TRUE,Other revenue,
+rev_other,1747.3,2025-26,TRUE,Other revenue,
+rev_other,1789.4,2026-27,TRUE,Other revenue,
+exp_total,24907.0,2022-23,FALSE,Total expenses,
+exp_total,26353.0,2023-24,FALSE,Total expenses,
+exp_total,26635.0,2024-25,TRUE,Total expenses,
+exp_total,27504.0,2025-26,TRUE,Total expenses,
+exp_total,28587.0,2026-27,TRUE,Total expenses,
+exp_employee,9738.0,2022-23,FALSE,Employee expenses,
+exp_employee,9870.0,2023-24,FALSE,Employee expenses,
+exp_employee,10128.0,2024-25,TRUE,Employee expenses,
+exp_employee,10491.0,2025-26,TRUE,Employee expenses,
+exp_employee,10760.0,2026-27,TRUE,Employee expenses,
+exp_super,1323.0,2022-23,FALSE,"Superannuation interest cost, Other superannuation expenses",Combining superannuation interest cost (269) and other (1054)
+exp_super,1386.0,2023-24,FALSE,"Superannuation interest cost, Other superannuation expenses",Combining superannuation interest cost (265) and other (1121)
+exp_super,1393.0,2024-25,TRUE,"Superannuation interest cost, Other superannuation expenses",Combining superannuation interest cost (247) and other (1146)
+exp_super,1410.0,2025-26,TRUE,"Superannuation interest cost, Other superannuation expenses",Combining superannuation interest cost (228) and other (1182)
+exp_super,1421.0,2026-27,TRUE,"Superannuation interest cost, Other superannuation expenses",Combining superannuation interest cost (208) and other (1213)
+exp_depreciation,1507.0,2022-23,FALSE,Depreciation and amortisation,
+exp_depreciation,1564.0,2023-24,FALSE,Depreciation and amortisation,
+exp_depreciation,1644.0,2024-25,TRUE,Depreciation and amortisation,
+exp_depreciation,1718.0,2025-26,TRUE,Depreciation and amortisation,
+exp_depreciation,1815.0,2026-27,TRUE,Depreciation and amortisation,
+exp_interest,988.0,2022-23,FALSE,Interest expenses,
+exp_interest,1254.0,2023-24,FALSE,Interest expenses,
+exp_interest,1335.0,2024-25,TRUE,Interest expenses,
+exp_interest,1489.0,2025-26,TRUE,Interest expenses,
+exp_interest,1684.0,2026-27,TRUE,Interest expenses,
+exp_other_operating,7992.0,2022-23,FALSE,Other operating expenses,
+exp_other_operating,8309.0,2023-24,FALSE,Other operating expenses,
+exp_other_operating,8395.0,2024-25,TRUE,Other operating expenses,
+exp_other_operating,8659.0,2025-26,TRUE,Other operating expenses,
+exp_other_operating,9054.0,2026-27,TRUE,Other operating expenses,
+exp_current_grants,3360.0,2022-23,FALSE,Grants,Assumes grants are predominantly current
+exp_current_grants,3971.0,2023-24,FALSE,Grants,
+exp_current_grants,3740.0,2024-25,TRUE,Grants,
+exp_current_grants,3736.0,2025-26,TRUE,Grants,
+exp_current_grants,3854.0,2026-27,TRUE,Grants,
+exp_health,8469.0,2022-23,FALSE,Health and Wellbeing (total operating expenses),
+exp_health,8279.0,2023-24,FALSE,Health and Wellbeing (total operating expenses),
+exp_health,8350.0,2024-25,TRUE,Health and Wellbeing (total operating expenses),
+exp_health,8574.0,2025-26,TRUE,Health and Wellbeing (total operating expenses),
+exp_health,8871.0,2026-27,TRUE,Health and Wellbeing (total operating expenses),
+exp_education,4493.0,2022-23,FALSE,Education (total operating expenses),
+exp_education,4656.0,2023-24,FALSE,Education (total operating expenses),
+exp_education,4718.0,2024-25,TRUE,Education (total operating expenses),
+exp_education,4799.0,2025-26,TRUE,Education (total operating expenses),
+exp_education,4875.0,2026-27,TRUE,Education (total operating expenses),
+exp_public_order,1722.0,2022-23,FALSE,"Police, Courts, Correctional Services, Attorney-General combined",Combining Police (1047) + Courts (97) + Correctional (380) + AG (285) minus overlap = approx 1809
+exp_public_order,1813.0,2023-24,FALSE,"Police, Courts, Correctional Services, Attorney-General combined",
+exp_public_order,1795.0,2024-25,TRUE,"Police, Courts, Correctional Services, Attorney-General combined",
+exp_public_order,1792.0,2025-26,TRUE,"Police, Courts, Correctional Services, Attorney-General combined",
+exp_public_order,1818.0,2026-27,TRUE,"Police, Courts, Correctional Services, Attorney-General combined",
+exp_transport_comms,1826.0,2022-23,FALSE,Infrastructure and Transport (total operating expenses),
+exp_transport_comms,1854.0,2023-24,FALSE,Infrastructure and Transport (total operating expenses),
+exp_transport_comms,1819.0,2024-25,TRUE,Infrastructure and Transport (total operating expenses),
+exp_transport_comms,1815.0,2025-26,TRUE,Infrastructure and Transport (total operating expenses),
+exp_transport_comms,1840.0,2026-27,TRUE,Infrastructure and Transport (total operating expenses),
+net_op_balance,-249.0,2022-23,FALSE,Net operating balance,
+net_op_balance,250.0,2023-24,FALSE,Net operating balance,
+net_op_balance,512.0,2024-25,TRUE,Net operating balance,
+net_op_balance,552.0,2025-26,TRUE,Net operating balance,
+net_op_balance,639.0,2026-27,TRUE,Net operating balance,
+net_cap_investment,1236.0,2022-23,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2096.0,2023-24,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2123.0,2024-25,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,3121.0,2025-26,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,3373.0,2026-27,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1485.0,2022-23,FALSE,Net lending/borrowing,
+net_lending,-1846.0,2023-24,FALSE,Net lending/borrowing,
+net_lending,-1611.0,2024-25,TRUE,Net lending/borrowing,
+net_lending,-2569.0,2025-26,TRUE,Net lending/borrowing,
+net_lending,-2734.0,2026-27,TRUE,Net lending/borrowing,
+net_debt,17859.0,2022-23,FALSE,Net debt — GG sector,
+net_debt,20293.0,2023-24,FALSE,Net debt — GG sector,
+net_debt,22488.0,2024-25,TRUE,Net debt — GG sector,
+net_debt,25433.0,2025-26,TRUE,Net debt — GG sector,
+net_debt,28579.0,2026-27,TRUE,Net debt — GG sector,
+net_fin_liabilities,30117.0,2022-23,FALSE,Net financial liabilities,From table 4.1
+net_fin_liabilities,32145.0,2023-24,FALSE,Net financial liabilities,
+net_fin_liabilities,33928.0,2024-25,TRUE,Net financial liabilities,
+net_fin_liabilities,36459.0,2025-26,TRUE,Net financial liabilities,
+net_fin_liabilities,39104.0,2026-27,TRUE,Net financial liabilities,
+net_worth,52167.0,2022-23,FALSE,Net worth,From table 4.1
+net_worth,52746.0,2023-24,FALSE,Net worth,
+net_worth,53539.0,2024-25,TRUE,Net worth,
+net_worth,54368.0,2025-26,TRUE,Net worth,
+rev_total,25854,2022-23,FALSE,"Total revenue",Estimated result from Table 1.3
+rev_total,27850,2023-24,FALSE,"Total revenue",Budget year from Table 1.3
+rev_total,28507,2024-25,TRUE,"Total revenue",Forward estimate from Table 1.3
+rev_total,29436,2025-26,TRUE,"Total revenue",Forward estimate from Table 1.3
+rev_total,30880,2026-27,TRUE,"Total revenue",Forward estimate from Table 1.3
+rev_taxation,6127,2022-23,FALSE,"Taxation revenue",Estimated result from Table 1.3
+rev_taxation,6365,2023-24,FALSE,"Taxation revenue",Budget year from Table 1.3
+rev_taxation,6573,2024-25,TRUE,"Taxation revenue",Forward estimate from Table 1.3
+rev_taxation,6821,2025-26,TRUE,"Taxation revenue",Forward estimate from Table 1.3
+rev_taxation,7073,2026-27,TRUE,"Taxation revenue",Forward estimate from Table 1.3
+rev_gst,8475,2022-23,FALSE,"GST revenue",Estimated result from Table 1.3
+rev_gst,9669,2023-24,FALSE,"GST revenue",Budget year from Table 1.3
+rev_gst,9809,2024-25,TRUE,"GST revenue",Forward estimate from Table 1.3
+rev_gst,10111,2025-26,TRUE,"GST revenue",Forward estimate from Table 1.3
+rev_gst,10460,2026-27,TRUE,"GST revenue",Forward estimate from Table 1.3
+rev_grants_tied,6072,2022-23,FALSE,"Commonwealth tied grants",Estimated result from Table 1.3
+rev_grants_tied,6254,2023-24,FALSE,"Commonwealth tied grants",Budget year from Table 1.3
+rev_grants_tied,6361,2024-25,TRUE,"Commonwealth tied grants",Forward estimate from Table 1.3
+rev_grants_tied,6580,2025-26,TRUE,"Commonwealth tied grants",Forward estimate from Table 1.3
+rev_grants_tied,6962,2026-27,TRUE,"Commonwealth tied grants",Forward estimate from Table 1.3
+exp_total,25604,2022-23,FALSE,"Total expenses",Estimated result from Table 1.3
+exp_total,27600,2023-24,FALSE,"Total expenses",Budget year from Table 1.3
+exp_total,27995,2024-25,TRUE,"Total expenses",Forward estimate from Table 1.3
+exp_total,28884,2025-26,TRUE,"Total expenses",Forward estimate from Table 1.3
+exp_total,30241,2026-27,TRUE,"Total expenses",Forward estimate from Table 1.3
+exp_employee,11836,2022-23,FALSE,"Employee expenses",Estimated result from Table 1.3
+exp_employee,12415,2023-24,FALSE,"Employee expenses",Budget year from Table 1.3
+exp_employee,12600,2024-25,TRUE,"Employee expenses",Forward estimate from Table 1.3
+exp_employee,12843,2025-26,TRUE,"Employee expenses",Forward estimate from Table 1.3
+exp_employee,13143,2026-27,TRUE,"Employee expenses",Forward estimate from Table 1.3
+exp_super,1132,2022-23,FALSE,"Superannuation expenses",Estimated result from Table 1.3
+exp_super,1176,2023-24,FALSE,"Superannuation expenses",Budget year from Table 1.3
+exp_super,1200,2024-25,TRUE,"Superannuation expenses",Forward estimate from Table 1.3
+exp_super,1226,2025-26,TRUE,"Superannuation expenses",Forward estimate from Table 1.3
+exp_super,1255,2026-27,TRUE,"Superannuation expenses",Forward estimate from Table 1.3
+exp_depreciation,1507,2022-23,FALSE,"Depreciation",Estimated result from Table 1.3
+exp_depreciation,1564,2023-24,FALSE,"Depreciation",Budget year from Table 1.3
+exp_depreciation,1644,2024-25,TRUE,"Depreciation",Forward estimate from Table 1.3
+exp_depreciation,1718,2025-26,TRUE,"Depreciation",Forward estimate from Table 1.3
+exp_depreciation,1815,2026-27,TRUE,"Depreciation",Forward estimate from Table 1.3
+exp_interest,809,2022-23,FALSE,"Interest expenses",Estimated result from Table 1.3
+exp_interest,1066,2023-24,FALSE,"Interest expenses",Budget year from Table 1.3
+exp_interest,1214,2024-25,TRUE,"Interest expenses",Forward estimate from Table 1.3
+exp_interest,1350,2025-26,TRUE,"Interest expenses",Forward estimate from Table 1.3
+exp_interest,1501,2026-27,TRUE,"Interest expenses",Forward estimate from Table 1.3
+exp_other_operating,6408,2022-23,FALSE,"Other operating expenses",Estimated result from Table 1.3
+exp_other_operating,6909,2023-24,FALSE,"Other operating expenses",Budget year from Table 1.3
+exp_other_operating,6931,2024-25,TRUE,"Other operating expenses",Forward estimate from Table 1.3
+exp_other_operating,7212,2025-26,TRUE,"Other operating expenses",Forward estimate from Table 1.3
+exp_other_operating,7485,2026-27,TRUE,"Other operating expenses",Forward estimate from Table 1.3
+exp_current_grants,3893,2022-23,FALSE,"Current grants and subsidies",Estimated result from Table 1.3
+exp_current_grants,4449,2023-24,FALSE,"Current grants and subsidies",Budget year from Table 1.3
+exp_current_grants,4386,2024-25,TRUE,"Current grants and subsidies",Forward estimate from Table 1.3
+exp_current_grants,4514,2025-26,TRUE,"Current grants and subsidies",Forward estimate from Table 1.3
+exp_current_grants,5022,2026-27,TRUE,"Current grants and subsidies",Forward estimate from Table 1.3
+exp_capital_grants,20,2022-23,FALSE,"Capital grants",Estimated result from Table 1.3
+exp_capital_grants,20,2023-24,FALSE,"Capital grants",Budget year from Table 1.3
+exp_capital_grants,20,2024-25,TRUE,"Capital grants",Forward estimate from Table 1.3
+exp_capital_grants,20,2025-26,TRUE,"Capital grants",Forward estimate from Table 1.3
+exp_capital_grants,20,2026-27,TRUE,"Capital grants",Forward estimate from Table 1.3
+net_op_balance,250,2022-23,FALSE,"Net operating balance",Estimated result from Table 1.3
+net_op_balance,250,2023-24,FALSE,"Net operating balance",Budget year from Table 1.3
+net_op_balance,512,2024-25,TRUE,"Net operating balance",Forward estimate from Table 1.3
+net_op_balance,552,2025-26,TRUE,"Net operating balance",Forward estimate from Table 1.3
+net_op_balance,639,2026-27,TRUE,"Net operating balance",Forward estimate from Table 1.3
+capex_pnfa,3007,2022-23,FALSE,"Purchases of non-financial assets",Estimated result from Table 1.3
+capex_pnfa,3804,2023-24,FALSE,"Purchases of non-financial assets",Budget year from Table 1.3
+capex_pnfa,4014,2024-25,TRUE,"Purchases of non-financial assets",Forward estimate from Table 1.3
+capex_pnfa,4332,2025-26,TRUE,"Purchases of non-financial assets",Forward estimate from Table 1.3
+capex_pnfa,3899,2026-27,TRUE,"Purchases of non-financial assets",Forward estimate from Table 1.3
+net_lending,-1229,2022-23,FALSE,"Net lending / (borrowing)",Estimated result from Table 1.3
+net_lending,-2161,2023-24,FALSE,"Net lending / (borrowing)",Budget year from Table 1.3
+net_lending,-2141,2024-25,TRUE,"Net lending / (borrowing)",Forward estimate from Table 1.3
+net_lending,-2498,2025-26,TRUE,"Net lending / (borrowing)",Forward estimate from Table 1.3
+net_lending,-2075,2026-27,TRUE,"Net lending / (borrowing)",Forward estimate from Table 1.3
+cash_surplus,-1192,2022-23,FALSE,"Cash surplus / (deficit)",Estimated result from Table 1.3
+cash_surplus,-2107,2023-24,FALSE,"Cash surplus / (deficit)",Budget year from Table 1.3
+cash_surplus,-2079,2024-25,TRUE,"Cash surplus / (deficit)",Forward estimate from Table 1.3
+cash_surplus,-2427,2025-26,TRUE,"Cash surplus / (deficit)",Forward estimate from Table 1.3
+cash_surplus,-1999,2026-27,TRUE,"Cash surplus / (deficit)",Forward estimate from Table 1.3
+net_debt,17859,2022-23,FALSE,"Net debt",Estimated result from Table 1.3
+net_debt,20293,2023-24,FALSE,"Net debt",Budget year from Table 1.3
+net_debt,22488,2024-25,TRUE,"Net debt",Forward estimate from Table 1.3
+net_debt,25433,2025-26,TRUE,"Net debt",Forward estimate from Table 1.3
+net_debt,28579,2026-27,TRUE,"Net debt",Forward estimate from Table 1.3
+net_fin_liabilities,30117,2022-23,FALSE,"Net financial liabilities",Estimated result from Table 1.3
+net_fin_liabilities,32145,2023-24,FALSE,"Net financial liabilities",Budget year from Table 1.3
+net_fin_liabilities,33928,2024-25,TRUE,"Net financial liabilities",Forward estimate from Table 1.3
+net_fin_liabilities,36459,2025-26,TRUE,"Net financial liabilities",Forward estimate from Table 1.3
+net_fin_liabilities,39104,2026-27,TRUE,"Net financial liabilities",Forward estimate from Table 1.3
+net_worth,52167,2022-23,FALSE,"Net worth",Estimated result from Table 1.3
+net_worth,52746,2023-24,FALSE,"Net worth",Budget year from Table 1.3
+net_worth,53539,2024-25,TRUE,"Net worth",Forward estimate from Table 1.3
+net_worth,54368,2025-26,TRUE,"Net worth",Forward estimate from Table 1.3
+net_worth,55316,2026-27,TRUE,"Net worth",Forward estimate from Table 1.3
+econ_gsp_growth,3.5,2022-23,FALSE,"GSP growth (real, %)",Estimated result from Table 7.1
+econ_gsp_growth,1.0,2023-24,FALSE,"GSP growth (real, %)",Budget year forecast from Table 7.1
+econ_gsp_growth,1.75,2024-25,TRUE,"GSP growth (real, %)",Projection from Table 7.1
+econ_gsp_growth,2.0,2025-26,TRUE,"GSP growth (real, %)",Projection from Table 7.1
+econ_gsp_growth,2.0,2026-27,TRUE,"GSP growth (real, %)",Projection from Table 7.1
+econ_employment,3.0,2022-23,FALSE,"Employment growth (%)",Estimated result from Table 7.1
+econ_employment,1.0,2023-24,FALSE,"Employment growth (%)",Budget year forecast from Table 7.1
+econ_employment,0.75,2024-25,TRUE,"Employment growth (%)",Projection from Table 7.1
+econ_employment,1.0,2025-26,TRUE,"Employment growth (%)",Projection from Table 7.1
+econ_employment,1.0,2026-27,TRUE,"Employment growth (%)",Projection from Table 7.1
+econ_cpi,7.75,2022-23,FALSE,"Consumer Price Index growth (%)",Estimated result from Table 7.1
+econ_cpi,3.75,2023-24,FALSE,"Consumer Price Index growth (%)",Budget year forecast from Table 7.1
+econ_cpi,3.25,2024-25,TRUE,"Consumer Price Index growth (%)",Projection from Table 7.1
+econ_cpi,2.75,2025-26,TRUE,"Consumer Price Index growth (%)",Projection from Table 7.1
+econ_cpi,2.5,2026-27,TRUE,"Consumer Price Index growth (%)",Projection from Table 7.1
+rev_total,24658,2022-23,FALSE,Total revenue,
+rev_total,26603,2023-24,FALSE,Total revenue,
+rev_total,27147,2024-25,TRUE,Total revenue,
+rev_total,28056,2025-26,TRUE,Total revenue,
+rev_total,29226,2026-27,TRUE,Total revenue,
+rev_taxation,5612,2022-23,FALSE,Taxation revenue,
+rev_taxation,5827,2023-24,FALSE,Taxation revenue,
+rev_taxation,6011,2024-25,TRUE,Taxation revenue,
+rev_taxation,6232,2025-26,TRUE,Taxation revenue,
+rev_taxation,6488,2026-27,TRUE,Taxation revenue,
+rev_payroll,1603,2022-23,FALSE,Taxes on employers' payroll and labour force,
+rev_payroll,1685,2023-24,FALSE,Taxes on employers' payroll and labour force,
+rev_payroll,1769,2024-25,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1862,2025-26,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1961,2026-27,TRUE,Taxes on employers' payroll and labour force,
+rev_stamp_duty,1152,2022-23,FALSE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1092,2023-24,FALSE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1117,2024-25,TRUE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1182,2025-26,TRUE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1251,2026-27,TRUE,Stamp duties on financial and capital transactions,
+rev_land_tax,568,2022-23,FALSE,Land taxes,
+rev_land_tax,706,2023-24,FALSE,Land taxes,
+rev_land_tax,706,2024-25,TRUE,Land taxes,
+rev_land_tax,726,2025-26,TRUE,Land taxes,
+rev_land_tax,747,2026-27,TRUE,Land taxes,
+rev_gambling,621,2022-23,FALSE,Taxes on gambling,
+rev_gambling,605,2023-24,FALSE,Taxes on gambling,
+rev_gambling,611,2024-25,TRUE,Taxes on gambling,
+rev_gambling,622,2025-26,TRUE,Taxes on gambling,
+rev_gambling,632,2026-27,TRUE,Taxes on gambling,
+rev_motor_vehicle,808,2022-23,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,841,2023-24,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,864,2024-25,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,859,2025-26,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,878,2026-27,TRUE,Motor vehicle taxes,
+rev_gst,7702,2022-23,FALSE,General purpose grants,Extracted from Commonwealth grants general purpose line in Table A.11
+rev_gst,8788,2023-24,FALSE,General purpose grants,Extracted from Commonwealth grants general purpose line in Table A.11
+rev_gst,9023,2024-25,TRUE,General purpose grants,Extracted from Commonwealth grants general purpose line in Table A.11
+rev_gst,9161,2025-26,TRUE,General purpose grants,Extracted from Commonwealth grants general purpose line in Table A.11
+rev_gst,9052,2026-27,TRUE,General purpose grants,Extracted from Commonwealth grants general purpose line in Table A.11
+rev_sales_goods_svcs,2997,2022-23,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3074,2023-24,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,3166,2024-25,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3289,2025-26,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,3391,2026-27,TRUE,Sales of goods and services,
+rev_interest,326,2022-23,FALSE,Interest income,
+rev_interest,403,2023-24,FALSE,Interest income,
+rev_interest,338,2024-25,TRUE,Interest income,
+rev_interest,357,2025-26,TRUE,Interest income,
+rev_interest,367,2026-27,TRUE,Interest income,
+rev_dividend,153,2022-23,FALSE,Dividend and income tax equivalent income,
+rev_dividend,248,2023-24,FALSE,Dividend and income tax equivalent income,
+rev_dividend,237,2024-25,TRUE,Dividend and income tax equivalent income,
+rev_dividend,248,2025-26,TRUE,Dividend and income tax equivalent income,
+rev_dividend,266,2026-27,TRUE,Dividend and income tax equivalent income,
+rev_other,1619,2022-23,FALSE,Other,
+rev_other,1647,2023-24,FALSE,Other,
+rev_other,1684,2024-25,TRUE,Other,
+rev_other,1747,2025-26,TRUE,Other,
+rev_other,1789,2026-27,TRUE,Other,
+exp_total,24907,2022-23,FALSE,Total expenses,
+exp_total,26353,2023-24,FALSE,Total expenses,
+exp_total,26635,2024-25,TRUE,Total expenses,
+exp_total,27504,2025-26,TRUE,Total expenses,
+exp_total,28587,2026-27,TRUE,Total expenses,
+exp_employee,9738,2022-23,FALSE,Employee expenses,
+exp_employee,9870,2023-24,FALSE,Employee expenses,
+exp_employee,10128,2024-25,TRUE,Employee expenses,
+exp_employee,10491,2025-26,TRUE,Employee expenses,
+exp_employee,10760,2026-27,TRUE,Employee expenses,
+exp_super,1323,2022-23,FALSE,Superannuation expenses (Total),Sum of superannuation interest cost and other superannuation expenses
+exp_super,1386,2023-24,FALSE,Superannuation expenses (Total),Sum of superannuation interest cost and other superannuation expenses
+exp_super,1393,2024-25,TRUE,Superannuation expenses (Total),Sum of superannuation interest cost and other superannuation expenses
+exp_super,1410,2025-26,TRUE,Superannuation expenses (Total),Sum of superannuation interest cost and other superannuation expenses
+exp_super,1421,2026-27,TRUE,Superannuation expenses (Total),Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,1507,2022-23,FALSE,Depreciation and amortisation,
+exp_depreciation,1564,2023-24,FALSE,Depreciation and amortisation,
+exp_depreciation,1644,2024-25,TRUE,Depreciation and amortisation,
+exp_depreciation,1718,2025-26,TRUE,Depreciation and amortisation,
+exp_depreciation,1815,2026-27,TRUE,Depreciation and amortisation,
+exp_interest,988,2022-23,FALSE,Interest expenses,
+exp_interest,1254,2023-24,FALSE,Interest expenses,
+exp_interest,1335,2024-25,TRUE,Interest expenses,
+exp_interest,1489,2025-26,TRUE,Interest expenses,
+exp_interest,1684,2026-27,TRUE,Interest expenses,
+exp_other_operating,7992,2022-23,FALSE,Other operating expenses,
+exp_other_operating,8309,2023-24,FALSE,Other operating expenses,
+exp_other_operating,8395,2024-25,TRUE,Other operating expenses,
+exp_other_operating,8659,2025-26,TRUE,Other operating expenses,
+exp_other_operating,9054,2026-27,TRUE,Other operating expenses,
+exp_current_grants,3360,2022-23,FALSE,Grants,
+exp_current_grants,3971,2023-24,FALSE,Grants,
+exp_current_grants,3740,2024-25,TRUE,Grants,
+exp_current_grants,3736,2025-26,TRUE,Grants,
+exp_current_grants,3854,2026-27,TRUE,Grants,
+exp_health,7906,2022-23,FALSE,Total Health,Extracted from expenses by function Table A.13
+exp_health,7912,2023-24,FALSE,Total Health,Extracted from expenses by function Table A.13
+exp_education,5790,2022-23,FALSE,Total Education,Extracted from expenses by function Table A.13
+exp_education,6382,2023-24,FALSE,Total Education,Extracted from expenses by function Table A.13
+exp_public_order,2091,2022-23,FALSE,Total Public order and safety,Extracted from expenses by function Table A.13
+exp_public_order,2321,2023-24,FALSE,Total Public order and safety,Extracted from expenses by function Table A.13
+exp_transport_comms,1871,2022-23,FALSE,Total Transport,Extracted from expenses by function Table A.13
+exp_transport_comms,1983,2023-24,FALSE,Total Transport,Extracted from expenses by function Table A.13
+exp_social_security,2362,2022-23,FALSE,Total Social protection,Extracted from expenses by function Table A.13
+exp_social_security,2521,2023-24,FALSE,Total Social protection,Extracted from expenses by function Table A.13
+exp_general_public,1888,2022-23,FALSE,Total General public services,Extracted from expenses by function Table A.13
+exp_general_public,2141,2023-24,FALSE,Total General public services,Extracted from expenses by function Table A.13
+exp_recreation,948,2022-23,FALSE,Total Recreation culture and religion,Extracted from expenses by function Table A.13
+exp_recreation,1020,2023-24,FALSE,Total Recreation culture and religion,Extracted from expenses by function Table A.13
+net_op_balance,-249,2022-23,FALSE,Net operating balance,
+net_op_balance,250,2023-24,FALSE,Net operating balance,
+net_op_balance,512,2024-25,TRUE,Net operating balance,
+net_op_balance,552,2025-26,TRUE,Net operating balance,
+net_op_balance,639,2026-27,TRUE,Net operating balance,
+net_cap_investment,1236,2022-23,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2096,2023-24,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2123,2024-25,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,3121,2025-26,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,3373,2026-27,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1485,2022-23,FALSE,Net lending / borrowing,
+net_lending,-1846,2023-24,FALSE,Net lending / borrowing,
+net_lending,-1611,2024-25,TRUE,Net lending / borrowing,
+net_lending,-2569,2025-26,TRUE,Net lending / borrowing,
+net_lending,-2734,2026-27,TRUE,Net lending / borrowing,
+cash_surplus,-856,2022-23,FALSE,Cash surplus / (deficit),
+cash_surplus,-1871,2023-24,FALSE,Cash surplus / (deficit),
+cash_surplus,-1688,2024-25,TRUE,Cash surplus / (deficit),
+cash_surplus,-2233,2025-26,TRUE,Cash surplus / (deficit),
+cash_surplus,-2956,2026-27,TRUE,Cash surplus / (deficit),
+net_debt,17859,2022-23,FALSE,Net debt,
+net_debt,20293,2023-24,FALSE,Net debt,
+net_debt,22488,2024-25,TRUE,Net debt,
+net_debt,25433,2025-26,TRUE,Net debt,
+net_debt,28579,2026-27,TRUE,Net debt,
+net_fin_liabilities,30117,2022-23,FALSE,Net financial liabilities,
+net_fin_liabilities,32145,2023-24,FALSE,Net financial liabilities,
+net_fin_liabilities,33928,2024-25,TRUE,Net financial liabilities,
+net_fin_liabilities,36459,2025-26,TRUE,Net financial liabilities,
+net_fin_liabilities,39104,2026-27,TRUE,Net financial liabilities,
+net_worth,52167,2022-23,FALSE,Net worth,
+net_worth,52746,2023-24,FALSE,Net worth,
+net_worth,53539,2024-25,TRUE,Net worth,
+net_worth,54368,2025-26,TRUE,Net worth,
+net_worth,55316,2026-27,TRUE,Net worth,
+capex_pnfa,2965,2022-23,FALSE,Purchases of non-financial assets,
+capex_pnfa,3788,2023-24,FALSE,Purchases of non-financial assets,
+capex_pnfa,3813,2024-25,TRUE,Purchases of non-financial assets,
+capex_pnfa,4879,2025-26,TRUE,Purchases of non-financial assets,
+capex_pnfa,5229,2026-27,TRUE,Purchases of non-financial assets,

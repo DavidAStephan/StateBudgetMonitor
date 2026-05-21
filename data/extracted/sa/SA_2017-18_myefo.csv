@@ -1,0 +1,191 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,19174,2017-18,FALSE,Total revenue,
+rev_total,19270,2018-19,TRUE,Total revenue,
+rev_total,19564,2019-20,TRUE,Total revenue,
+rev_total,20196,2020-21,TRUE,Total revenue,
+rev_taxation,4493,2017-18,FALSE,Taxation revenue,
+rev_taxation,4655,2018-19,TRUE,Taxation revenue,
+rev_taxation,4858,2019-20,TRUE,Taxation revenue,
+rev_taxation,5068,2020-21,TRUE,Taxation revenue,
+rev_payroll,1170,2017-18,FALSE,Payroll tax,
+rev_payroll,1222,2018-19,TRUE,Payroll tax,
+rev_payroll,1277,2019-20,TRUE,Payroll tax,
+rev_payroll,1335,2020-21,TRUE,Payroll tax,
+rev_stamp_duty,812,2017-18,FALSE,Conveyances,
+rev_stamp_duty,819,2018-19,TRUE,Conveyances,
+rev_stamp_duty,894,2019-20,TRUE,Conveyances,
+rev_stamp_duty,973,2020-21,TRUE,Conveyances,
+rev_land_tax,600,2017-18,FALSE,Land tax - private + Land tax - public,Total includes both private (370) and public (230)
+rev_land_tax,615,2018-19,TRUE,Land tax - private + Land tax - public,Total includes both private (381) and public (234)
+rev_land_tax,633,2019-20,TRUE,Land tax - private + Land tax - public,Total includes both private (394) and public (239)
+rev_land_tax,651,2020-21,TRUE,Land tax - private + Land tax - public,Total includes both private (406) and public (245)
+rev_gambling,388,2017-18,FALSE,Gambling tax,
+rev_gambling,402,2018-19,TRUE,Gambling tax,
+rev_gambling,408,2019-20,TRUE,Gambling tax,
+rev_gambling,415,2020-21,TRUE,Gambling tax,
+rev_motor_vehicle,637,2017-18,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,662,2018-19,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,677,2019-20,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,697,2020-21,TRUE,Motor vehicle taxes,
+rev_other_tax,887,2017-18,FALSE,Other property taxes + Insurance taxes,Combined value of Other property taxes (431) and Insurance taxes (456)
+rev_other_tax,934,2018-19,TRUE,Other property taxes + Insurance taxes,Combined value of Other property taxes (461) and Insurance taxes (473)
+rev_other_tax,970,2019-20,TRUE,Other property taxes + Insurance taxes,Combined value of Other property taxes (478) and Insurance taxes (492)
+rev_other_tax,998,2020-21,TRUE,Other property taxes + Insurance taxes,Combined value of Other property taxes (486) and Insurance taxes (512)
+rev_gst,6350,2017-18,FALSE,GST revenue grants,
+rev_gst,6615,2018-19,TRUE,GST revenue grants,
+rev_gst,6909,2019-20,TRUE,GST revenue grants,
+rev_gst,7287,2020-21,TRUE,GST revenue grants,
+rev_grants_tied,1321,2017-18,FALSE,NP grants,National partnership grants
+rev_grants_tied,1144,2018-19,TRUE,NP grants,National partnership grants
+rev_grants_tied,868,2019-20,TRUE,NP grants,National partnership grants
+rev_grants_tied,769,2020-21,TRUE,NP grants,National partnership grants
+rev_grants_untied,2923,2017-18,FALSE,SPP grants,Commonwealth specific purpose grants (excluding GST)
+rev_grants_untied,2942,2018-19,TRUE,SPP grants,Commonwealth specific purpose grants (excluding GST)
+rev_grants_untied,3078,2019-20,TRUE,SPP grants,Commonwealth specific purpose grants (excluding GST)
+rev_grants_untied,3221,2020-21,TRUE,SPP grants,Commonwealth specific purpose grants (excluding GST)
+rev_sales_goods_svcs,2609,2017-18,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2631,2018-19,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2688,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2722,2020-21,TRUE,Sales of goods and services,
+rev_interest,25,2017-18,FALSE,Interest income,
+rev_interest,26,2018-19,TRUE,Interest income,
+rev_interest,27,2019-20,TRUE,Interest income,
+rev_interest,29,2020-21,TRUE,Interest income,
+rev_dividend,644,2017-18,FALSE,Dividend and income tax equivalent income,
+rev_dividend,389,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_dividend,284,2019-20,TRUE,Dividend and income tax equivalent income,
+rev_dividend,256,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_other,668,2017-18,FALSE,Other,Other revenue category
+rev_other,730,2018-19,TRUE,Other,Other revenue category
+rev_other,721,2019-20,TRUE,Other,Other revenue category
+rev_other,713,2020-21,TRUE,Other,Other revenue category
+exp_total,19161,2017-18,FALSE,Total expenses,
+exp_total,19257,2018-19,TRUE,Total expenses,
+exp_total,19453,2019-20,TRUE,Total expenses,
+exp_total,19863,2020-21,TRUE,Total expenses,
+exp_employee,8362,2017-18,FALSE,Employee expenses,
+exp_employee,8381,2018-19,TRUE,Employee expenses,
+exp_employee,8453,2019-20,TRUE,Employee expenses,
+exp_employee,8515,2020-21,TRUE,Employee expenses,
+exp_super,1206,2017-18,FALSE,Superannuation expenses,Sum of superannuation interest cost (348) and other superannuation expenses (858)
+exp_super,1204,2018-19,TRUE,Superannuation expenses,Sum of superannuation interest cost (341) and other superannuation expenses (863)
+exp_super,1200,2019-20,TRUE,Superannuation expenses,Sum of superannuation interest cost (329) and other superannuation expenses (871)
+exp_super,1197,2020-21,TRUE,Superannuation expenses,Sum of superannuation interest cost (317) and other superannuation expenses (880)
+exp_depreciation,1015,2017-18,FALSE,Depreciation and amortisation,
+exp_depreciation,1050,2018-19,TRUE,Depreciation and amortisation,
+exp_depreciation,1076,2019-20,TRUE,Depreciation and amortisation,
+exp_depreciation,1110,2020-21,TRUE,Depreciation and amortisation,
+exp_interest,418,2017-18,FALSE,Interest expenses,
+exp_interest,347,2018-19,TRUE,Interest expenses,
+exp_interest,367,2019-20,TRUE,Interest expenses,
+exp_interest,395,2020-21,TRUE,Interest expenses,
+exp_other_operating,4959,2017-18,FALSE,Other operating expenses,
+exp_other_operating,5170,2018-19,TRUE,Other operating expenses,
+exp_other_operating,5354,2019-20,TRUE,Other operating expenses,
+exp_other_operating,5562,2020-21,TRUE,Other operating expenses,
+exp_current_grants,3201,2017-18,FALSE,Grants,Grants expenses
+exp_current_grants,3105,2018-19,TRUE,Grants,Grants expenses
+exp_current_grants,3002,2019-20,TRUE,Grants,Grants expenses
+exp_current_grants,3084,2020-21,TRUE,Grants,Grants expenses
+exp_health,5943,2017-18,FALSE,Health,From Table B.18 function classification
+exp_health,5939,2018-19,TRUE,Health,Forward estimate not provided in MYBR
+exp_education,4770,2017-18,FALSE,Education,From Table B.18 function classification
+exp_education,4805,2018-19,TRUE,Education,Forward estimate not provided in MYBR
+exp_public_order,1869,2017-18,FALSE,Public order and safety,From Table B.18 function classification
+exp_public_order,1873,2018-19,TRUE,Public order and safety,Forward estimate not provided in MYBR
+exp_transport_comms,1249,2017-18,FALSE,Transport,From Table B.18 function classification
+exp_transport_comms,1261,2018-19,TRUE,Transport,Forward estimate not provided in MYBR
+exp_social_security,1774,2017-18,FALSE,Social protection,From Table B.18 function classification
+exp_social_security,1713,2018-19,TRUE,Social protection,Forward estimate not provided in MYBR
+exp_general_public,1283,2017-18,FALSE,General public services,From Table B.18 function classification
+exp_general_public,1296,2018-19,TRUE,General public services,Forward estimate not provided in MYBR
+exp_recreation,437,2017-18,FALSE,Recreation culture and religion,From Table B.18 function classification
+exp_recreation,406,2018-19,TRUE,Recreation culture and religion,Forward estimate not provided in MYBR
+net_op_balance,12,2017-18,FALSE,Net operating balance,
+net_op_balance,14,2018-19,TRUE,Net operating balance,
+net_op_balance,110,2019-20,TRUE,Net operating balance,
+net_op_balance,334,2020-21,TRUE,Net operating balance,
+net_cap_investment,1948,2017-18,FALSE,Purchases of non-financial assets,
+net_cap_investment,2278,2018-19,TRUE,Purchases of non-financial assets,
+net_cap_investment,1832,2019-20,TRUE,Purchases of non-financial assets,
+net_cap_investment,1871,2020-21,TRUE,Purchases of non-financial assets,
+net_lending,1065,2017-18,FALSE,Net lending / borrowing,
+net_lending,-996,2018-19,TRUE,Net lending / borrowing,
+net_lending,-583,2019-20,TRUE,Net lending / borrowing,
+net_lending,-390,2020-21,TRUE,Net lending / borrowing,
+cash_surplus,1167,2017-18,FALSE,Cash surplus / (deficit),From Table B.7
+cash_surplus,-1041,2018-19,TRUE,Cash surplus / (deficit),From Table B.7
+cash_surplus,-560,2019-20,TRUE,Cash surplus / (deficit),From Table B.7
+cash_surplus,-464,2020-21,TRUE,Cash surplus / (deficit),From Table B.7
+net_debt,4914,2017-18,FALSE,Net debt,From Table B.4
+net_debt,5873,2018-19,TRUE,Net debt,From Table B.4
+net_debt,6315,2019-20,TRUE,Net debt,From Table B.4
+net_debt,6638,2020-21,TRUE,Net debt,From Table B.4
+net_fin_liabilities,19784,2017-18,FALSE,Net financial liabilities,From Table B.4
+net_fin_liabilities,20554,2018-19,TRUE,Net financial liabilities,From Table B.4
+net_fin_liabilities,20863,2019-20,TRUE,Net financial liabilities,From Table B.4
+net_fin_liabilities,20984,2020-21,TRUE,Net financial liabilities,From Table B.4
+net_worth,43815,2017-18,FALSE,Net Worth,From Table B.4
+net_worth,44475,2018-19,TRUE,Net Worth,From Table B.4
+net_worth,45284,2019-20,TRUE,Net Worth,From Table B.4
+net_worth,46324,2020-21,TRUE,Net Worth,From Table B.4
+capex_pnfa,1948,2017-18,FALSE,Purchases of non-financial assets,
+capex_pnfa,2278,2018-19,TRUE,Purchases of non-financial assets,
+capex_pnfa,1832,2019-20,TRUE,Purchases of non-financial assets,
+capex_pnfa,1871,2020-21,TRUE,Purchases of non-financial assets,
+econ_gsp_growth,2.25,2017-18,FALSE,GSP growth (real %),From Table 2.1
+econ_gsp_growth,2.25,2018-19,TRUE,GSP growth (real %),From Table 2.1
+econ_gsp_growth,2.25,2019-20,TRUE,GSP growth (real %),From Table 2.1
+econ_gsp_growth,2.25,2020-21,TRUE,GSP growth (real %),From Table 2.1
+econ_employment,1.0,2017-18,FALSE,Employment growth (%),From Table 2.1
+econ_employment,1.0,2018-19,TRUE,Employment growth (%),From Table 2.1
+econ_employment,1.0,2019-20,TRUE,Employment growth (%),From Table 2.1
+econ_employment,1.0,2020-21,TRUE,Employment growth (%),From Table 2.1
+econ_cpi,2.0,2017-18,FALSE,Adelaide Consumer Price Index,From Table 2.1
+econ_cpi,2.25,2018-19,TRUE,Adelaide Consumer Price Index,From Table 2.1
+econ_cpi,2.5,2019-20,TRUE,Adelaide Consumer Price Index,From Table 2.1
+econ_cpi,2.5,2020-21,TRUE,Adelaide Consumer Price Index,From Table 2.1
+rev_total,18480,2016-17,FALSE,Total revenue,
+rev_total,19174,2017-18,FALSE,Total revenue,
+rev_total,19270,2018-19,TRUE,Total revenue,
+rev_total,19564,2019-20,TRUE,Total revenue,
+rev_total,20196,2020-21,TRUE,Total revenue,
+exp_total,18037,2016-17,FALSE,Total expenses,
+exp_total,19161,2017-18,FALSE,Total expenses,
+exp_total,19257,2018-19,TRUE,Total expenses,
+exp_total,19453,2019-20,TRUE,Total expenses,
+exp_total,19863,2020-21,TRUE,Total expenses,
+net_op_balance,443,2016-17,FALSE,Net operating balance,
+net_op_balance,12,2017-18,FALSE,Net operating balance,
+net_op_balance,14,2018-19,TRUE,Net operating balance,
+net_op_balance,110,2019-20,TRUE,Net operating balance,
+net_op_balance,334,2020-21,TRUE,Net operating balance,
+net_cap_investment,2814,2016-17,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,-1053,2017-18,FALSE,Net acquisition of non-financial assets,Negative value indicates net disposals
+net_cap_investment,1010,2018-19,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,693,2019-20,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,724,2020-21,TRUE,Net acquisition of non-financial assets,
+net_lending,-2371,2016-17,FALSE,Net lending / (borrowing),
+net_lending,1065,2017-18,FALSE,Net lending / (borrowing),
+net_lending,-996,2018-19,TRUE,Net lending / (borrowing),
+net_lending,-583,2019-20,TRUE,Net lending / (borrowing),
+net_lending,-390,2020-21,TRUE,Net lending / (borrowing),
+net_debt,6110,2017-18,FALSE,Net debt,From Table C.2
+net_debt,4914,2018-19,TRUE,Net debt,From Table C.2
+net_debt,5873,2019-20,TRUE,Net debt,From Table C.2
+net_debt,6315,2020-21,TRUE,Net debt,From Table C.2
+net_debt,6638,2021-22,TRUE,Net debt,From Table C.2
+net_fin_liabilities,21614,2017-18,FALSE,Net financial liabilities,From Table C.2
+net_fin_liabilities,19784,2018-19,TRUE,Net financial liabilities,From Table C.2
+net_fin_liabilities,20554,2019-20,TRUE,Net financial liabilities,From Table C.2
+net_fin_liabilities,20863,2020-21,TRUE,Net financial liabilities,From Table C.2
+net_fin_liabilities,20984,2021-22,TRUE,Net financial liabilities,From Table C.2
+net_worth,42433,2017-18,FALSE,Net worth,From Table C.2
+net_worth,43815,2018-19,TRUE,Net worth,From Table C.2
+net_worth,44475,2019-20,TRUE,Net worth,From Table C.2
+net_worth,45284,2020-21,TRUE,Net worth,From Table C.2
+net_worth,46324,2021-22,TRUE,Net worth,From Table C.2
+cash_surplus,1167,2017-18,FALSE,ABS Cash Surplus,From Table C.3
+cash_surplus,-1041,2018-19,TRUE,ABS Cash Surplus,From Table C.3
+cash_surplus,-560,2019-20,TRUE,ABS Cash Surplus,From Table C.3
+cash_surplus,-464,2020-21,TRUE,ABS Cash Surplus,From Table C.3

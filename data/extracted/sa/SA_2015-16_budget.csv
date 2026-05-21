@@ -1,0 +1,325 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,16468.3,2014-15,FALSE,Total revenue (Table 2.3),Estimated Result
+rev_total,17097.3,2015-16,FALSE,Total revenue (Table 2.3),Budget year
+rev_total,18026.1,2016-17,TRUE,Total revenue (Table 2.3),
+rev_total,18595.5,2017-18,TRUE,Total revenue (Table 2.3),
+rev_total,19275.9,2018-19,TRUE,Total revenue (Table 2.3),
+rev_taxation,4394.4,2014-15,FALSE,Taxation revenue (Table 2.3),Estimated Result
+rev_taxation,4542.7,2015-16,FALSE,Taxation revenue (Table 2.3),Budget year
+rev_taxation,4713.1,2016-17,TRUE,Taxation revenue (Table 2.3),
+rev_taxation,4880.3,2017-18,TRUE,Taxation revenue (Table 2.3),
+rev_taxation,5038.1,2018-19,TRUE,Taxation revenue (Table 2.3),
+rev_payroll,1114.1,2014-15,FALSE,Payroll tax (Table 3.4),Estimated Result
+rev_payroll,1184.5,2015-16,FALSE,Payroll tax (Table 3.4),Budget year
+rev_payroll,1252.8,2016-17,TRUE,Payroll tax (Table 3.4),
+rev_payroll,1322.8,2017-18,TRUE,Payroll tax (Table 3.4),
+rev_payroll,1387.6,2018-19,TRUE,Payroll tax (Table 3.4),
+rev_stamp_duty,906.6,2014-15,FALSE,"Conveyance duty (Table 3.4), stamp duty on registration transfers",Estimated Result; sum of conveyance 907 and motor vehicle stamp duty 156 less share duty 3 (non-residential)
+rev_stamp_duty,909.6,2015-16,FALSE,"Conveyance duty, stamp duty on registration transfers",Budget year; sum of conveyance 910 and motor vehicle stamp duty 160 less share duty eliminated
+rev_stamp_duty,932.3,2016-17,TRUE,"Conveyance duty, stamp duty on registration transfers",sum of conveyance 932 and motor vehicle stamp duty 165 less share duty eliminated
+rev_stamp_duty,934.2,2017-18,TRUE,"Conveyance duty, stamp duty on registration transfers",sum of conveyance 934 and motor vehicle stamp duty 169 less share duty eliminated
+rev_stamp_duty,948.3,2018-19,TRUE,"Conveyance duty, stamp duty on registration transfers",sum of conveyance 948 and motor vehicle stamp duty 176 less share duty eliminated
+rev_land_tax,347.0,2014-15,FALSE,Land tax — private (Table 3.4),Estimated Result
+rev_land_tax,358.0,2015-16,FALSE,Land tax — private (Table 3.4),Budget year
+rev_land_tax,372.0,2016-17,TRUE,Land tax — private (Table 3.4),
+rev_land_tax,384.0,2017-18,TRUE,Land tax — private (Table 3.4),
+rev_land_tax,395.0,2018-19,TRUE,Land tax — private (Table 3.4),
+rev_gambling,387.8,2014-15,FALSE,Total gambling taxes (Table 3.4),Estimated Result
+rev_gambling,408.1,2015-16,FALSE,Total gambling taxes (Table 3.4),Budget year
+rev_gambling,418.5,2016-17,TRUE,Total gambling taxes (Table 3.4),
+rev_gambling,441.8,2017-18,TRUE,Total gambling taxes (Table 3.4),
+rev_gambling,451.1,2018-19,TRUE,Total gambling taxes (Table 3.4),
+rev_motor_vehicle,596.5,2014-15,FALSE,Total motor vehicle taxes (Table 3.4),Estimated Result
+rev_motor_vehicle,618.2,2015-16,FALSE,Total motor vehicle taxes (Table 3.4),Budget year
+rev_motor_vehicle,637.3,2016-17,TRUE,Total motor vehicle taxes (Table 3.4),
+rev_motor_vehicle,657.8,2017-18,TRUE,Total motor vehicle taxes (Table 3.4),
+rev_motor_vehicle,680.5,2018-19,TRUE,Total motor vehicle taxes (Table 3.4),
+rev_other_tax,446.5,2014-15,FALSE,Insurance taxes (Table 3.4),Estimated Result
+rev_other_tax,440.8,2015-16,FALSE,Insurance taxes (Table 3.4),Budget year
+rev_other_tax,457.3,2016-17,TRUE,Insurance taxes (Table 3.4),
+rev_other_tax,475.1,2017-18,TRUE,Insurance taxes (Table 3.4),
+rev_other_tax,493.5,2018-19,TRUE,Insurance taxes (Table 3.4),
+rev_gst,4986.3,2014-15,FALSE,GST revenue grants (Table 3.14),Estimated Result
+rev_gst,5517.5,2015-16,FALSE,GST revenue grants (Table 3.14),Budget year
+rev_gst,6077.0,2016-17,TRUE,GST revenue grants (Table 3.14),
+rev_gst,6460.2,2017-18,TRUE,GST revenue grants (Table 3.14),
+rev_gst,6648.4,2018-19,TRUE,GST revenue grants (Table 3.14),
+rev_grants_tied,2970.4,2014-15,FALSE,"Commonwealth SPP and NP grants (current + capital, Table 3.14)",Estimated Result; sum of SPP grants 2507.3 and NP grants 493.9 less on-passing 161.9 for current; capital grants 198.4 less on-passing 0
+rev_grants_tied,3335.2,2015-16,FALSE,"Commonwealth SPP and NP grants (current + capital)",Budget year; sum of SPP current 2677.6 and NP current 464.8 less on-passing 154.0; capital 446.7 less on-passing 0
+rev_grants_tied,3664.9,2016-17,TRUE,"Commonwealth SPP and NP grants (current + capital)",sum of SPP current 2811.8 and NP current 535.7 less on-passing 153.2; capital 546.3 less on-passing 0
+rev_grants_tied,3612.9,2017-18,TRUE,"Commonwealth SPP and NP grants (current + capital)",sum of SPP current 2918.8 and NP current 693.7 less on-passing 158.9; capital 424.4 less on-passing 0
+rev_grants_tied,3845.8,2018-19,TRUE,"Commonwealth SPP and NP grants (current + capital)",sum of SPP current 3039.5 and NP current 997.3 less on-passing 162.8; capital 284.0 less on-passing 0
+rev_grants_untied,0,2014-15,FALSE,Commonwealth untied grants (ex-GST),No separate line item identified for untied grants ex-GST
+rev_grants_untied,0,2015-16,FALSE,Commonwealth untied grants (ex-GST),No separate line item identified
+rev_grants_untied,0,2016-17,TRUE,Commonwealth untied grants (ex-GST),
+rev_grants_untied,0,2017-18,TRUE,Commonwealth untied grants (ex-GST),
+rev_grants_untied,0,2018-19,TRUE,Commonwealth untied grants (ex-GST),
+rev_sales_goods_svcs,2309.3,2014-15,FALSE,Sales of goods and services (Table 3.18),Estimated Result
+rev_sales_goods_svcs,2328.8,2015-16,FALSE,Sales of goods and services (Table 3.18),Budget year
+rev_sales_goods_svcs,2379.2,2016-17,TRUE,Sales of goods and services (Table 3.18),
+rev_sales_goods_svcs,2455.8,2017-18,TRUE,Sales of goods and services (Table 3.18),
+rev_sales_goods_svcs,2538.2,2018-19,TRUE,Sales of goods and services (Table 3.18),
+rev_interest,29.5,2014-15,FALSE,Interest income (Table 3.19),Estimated Result
+rev_interest,29.3,2015-16,FALSE,Interest income (Table 3.19),Budget year
+rev_interest,30.2,2016-17,TRUE,Interest income (Table 3.19),
+rev_interest,31.5,2017-18,TRUE,Interest income (Table 3.19),
+rev_interest,33.2,2018-19,TRUE,Interest income (Table 3.19),
+rev_dividend,780.3,2014-15,FALSE,Dividend and income tax equivalent income (Table 3.20),Estimated Result
+rev_dividend,314.2,2015-16,FALSE,Dividend and income tax equivalent income (Table 3.20),Budget year
+rev_dividend,240.5,2016-17,TRUE,Dividend and income tax equivalent income (Table 3.20),
+rev_dividend,243.9,2017-18,TRUE,Dividend and income tax equivalent income (Table 3.20),
+rev_dividend,256.6,2018-19,TRUE,Dividend and income tax equivalent income (Table 3.20),
+rev_other,651.9,2014-15,FALSE,Other revenue (Table 3.21),Estimated Result
+rev_other,720.0,2015-16,FALSE,Other revenue (Table 3.21),Budget year
+rev_other,727.8,2016-17,TRUE,Other revenue (Table 3.21),
+rev_other,757.4,2017-18,TRUE,Other revenue (Table 3.21),
+rev_other,770.9,2018-19,TRUE,Other revenue (Table 3.21),
+exp_total,16748,2014-15,FALSE,Total expenses (Table 1.4),Estimated Result
+exp_total,17055,2015-16,FALSE,Total expenses (Table 1.4),Budget year
+exp_total,17373,2016-17,TRUE,Total expenses (Table 1.4),
+exp_total,17869,2017-18,TRUE,Total expenses (Table 1.4),
+exp_total,18315,2018-19,TRUE,Total expenses (Table 1.4),
+exp_employee,7425,2014-15,FALSE,Employee expenses (Table 1.4),Estimated Result
+exp_employee,7512,2015-16,FALSE,Employee expenses (Table 1.4),Budget year
+exp_employee,7609,2016-17,TRUE,Employee expenses (Table 1.4),
+exp_employee,7804,2017-18,TRUE,Employee expenses (Table 1.4),
+exp_employee,7945,2018-19,TRUE,Employee expenses (Table 1.4),
+exp_super,1244,2014-15,FALSE,Superannuation expenses (Table 1.4),Estimated Result; sum of superannuation interest cost 438 and other superannuation expenses 806
+exp_super,1190,2015-16,FALSE,Superannuation expenses (Table 1.4),Budget year; sum of 378 and 812
+exp_super,1192,2016-17,TRUE,Superannuation expenses (Table 1.4),sum of 369 and 823
+exp_super,1199,2017-18,TRUE,Superannuation expenses (Table 1.4),sum of 359 and 840
+exp_super,1198,2018-19,TRUE,Superannuation expenses (Table 1.4),sum of 348 and 850
+exp_depreciation,870,2014-15,FALSE,Depreciation and amortisation (Table 1.4),Estimated Result
+exp_depreciation,916,2015-16,FALSE,Depreciation and amortisation (Table 1.4),Budget year
+exp_depreciation,1030,2016-17,TRUE,Depreciation and amortisation (Table 1.4),
+exp_depreciation,1046,2017-18,TRUE,Depreciation and amortisation (Table 1.4),
+exp_depreciation,1052,2018-19,TRUE,Depreciation and amortisation (Table 1.4),
+exp_interest,259,2014-15,FALSE,Interest expenses (Table 1.4),Estimated Result
+exp_interest,198,2015-16,FALSE,Interest expenses (Table 1.4),Budget year
+exp_interest,415,2016-17,TRUE,Interest expenses (Table 1.4),
+exp_interest,415,2017-18,TRUE,Interest expenses (Table 1.4),
+exp_interest,403,2018-19,TRUE,Interest expenses (Table 1.4),
+exp_other_operating,4251,2014-15,FALSE,Other operating expenses (Table 1.4),Estimated Result
+exp_other_operating,4583,2015-16,FALSE,Other operating expenses (Table 1.4),Budget year
+exp_other_operating,4436,2016-17,TRUE,Other operating expenses (Table 1.4),
+exp_other_operating,4627,2017-18,TRUE,Other operating expenses (Table 1.4),
+exp_other_operating,4895,2018-19,TRUE,Other operating expenses (Table 1.4),
+exp_current_grants,2699,2014-15,FALSE,Grants (Table 1.4),Estimated Result
+exp_current_grants,2656,2015-16,FALSE,Grants (Table 1.4),Budget year
+exp_current_grants,2691,2016-17,TRUE,Grants (Table 1.4),
+exp_current_grants,2778,2017-18,TRUE,Grants (Table 1.4),
+exp_current_grants,2822,2018-19,TRUE,Grants (Table 1.4),
+net_op_balance,-279,2014-15,FALSE,Net operating balance (Table 1.4),Estimated Result
+net_op_balance,43,2015-16,FALSE,Net operating balance (Table 1.4),Budget year
+net_op_balance,654,2016-17,TRUE,Net operating balance (Table 1.4),
+net_op_balance,727,2017-18,TRUE,Net operating balance (Table 1.4),
+net_op_balance,961,2018-19,TRUE,Net operating balance (Table 1.4),
+net_cap_investment,72,2015-16,FALSE,Total net acquisition of non-financial assets (Table 1.4),Budget year
+net_cap_investment,3209,2016-17,TRUE,Total net acquisition of non-financial assets (Table 1.4),
+net_cap_investment,328,2017-18,TRUE,Total net acquisition of non-financial assets (Table 1.4),
+net_cap_investment,383,2018-19,TRUE,Total net acquisition of non-financial assets (Table 1.4),
+net_lending,-212,2014-15,FALSE,Net lending/borrowing (Table 1.4),Estimated Result
+net_lending,-29,2015-16,FALSE,Net lending/borrowing (Table 1.4),Budget year
+net_lending,-2556,2016-17,TRUE,Net lending/borrowing (Table 1.4),
+net_lending,399,2017-18,TRUE,Net lending/borrowing (Table 1.4),
+net_lending,578,2018-19,TRUE,Net lending/borrowing (Table 1.4),
+net_debt,4108,2014-15,FALSE,Net debt (Table 1.3),Estimated Result as at 30 June
+net_debt,4238,2015-16,FALSE,Net debt (Table 1.3),Budget as at 30 June
+net_debt,6533,2016-17,TRUE,Net debt (Table 1.3),Estimate as at 30 June
+net_debt,6227,2017-18
+rev_total,17103,2015-16,FALSE,Total revenue,From Table 2.1
+rev_total,18044,2016-17,TRUE,Total revenue,From Table 2.1
+rev_total,18602,2017-18,TRUE,Total revenue,From Table 2.1
+rev_total,19281,2018-19,TRUE,Total revenue,From Table 2.1
+rev_taxation,4490,2015-16,FALSE,Taxation revenue,From Table 2.1
+rev_taxation,4675,2016-17,TRUE,Taxation revenue,From Table 2.1
+rev_taxation,4868,2017-18,TRUE,Taxation revenue,From Table 2.1
+rev_taxation,5058,2018-19,TRUE,Taxation revenue,From Table 2.1
+rev_gst,5855,2015-16,FALSE,GST revenue,From Table 2.1
+rev_gst,6153,2016-17,TRUE,GST revenue,From Table 2.1
+rev_gst,6457,2017-18,TRUE,GST revenue,From Table 2.1
+rev_gst,6772,2018-19,TRUE,GST revenue,From Table 2.1
+rev_grants_tied,3453,2015-16,FALSE,Commonwealth tied grants,From Table 2.1
+rev_grants_tied,3769,2016-17,TRUE,Commonwealth tied grants,From Table 2.1
+rev_grants_tied,3772,2017-18,TRUE,Commonwealth tied grants,From Table 2.1
+rev_grants_tied,3935,2018-19,TRUE,Commonwealth tied grants,From Table 2.1
+rev_grants_untied,455,2015-16,FALSE,Commonwealth untied grants (ex-GST),From Table 2.1
+rev_grants_untied,471,2016-17,TRUE,Commonwealth untied grants (ex-GST),From Table 2.1
+rev_grants_untied,479,2017-18,TRUE,Commonwealth untied grants (ex-GST),From Table 2.1
+rev_grants_untied,488,2018-19,TRUE,Commonwealth untied grants (ex-GST),From Table 2.1
+rev_sales_goods_svcs,1648,2015-16,FALSE,Sales of goods and services,From Table 2.1
+rev_sales_goods_svcs,1713,2016-17,TRUE,Sales of goods and services,From Table 2.1
+rev_sales_goods_svcs,1769,2017-18,TRUE,Sales of goods and services,From Table 2.1
+rev_sales_goods_svcs,1823,2018-19,TRUE,Sales of goods and services,From Table 2.1
+rev_interest,166,2015-16,FALSE,Interest income,From Table 2.1
+rev_interest,172,2016-17,TRUE,Interest income,From Table 2.1
+rev_interest,180,2017-18,TRUE,Interest income,From Table 2.1
+rev_interest,187,2018-19,TRUE,Interest income,From Table 2.1
+rev_dividend,321,2015-16,FALSE,Dividend and tax-equivalent income,From Table 2.1
+rev_dividend,283,2016-17,TRUE,Dividend and tax-equivalent income,From Table 2.1
+rev_dividend,285,2017-18,TRUE,Dividend and tax-equivalent income,From Table 2.1
+rev_dividend,304,2018-19,TRUE,Dividend and tax-equivalent income,From Table 2.1
+rev_other,714,2015-16,FALSE,Other revenue,From Table 2.1
+rev_other,808,2016-17,TRUE,Other revenue,From Table 2.1
+rev_other,792,2017-18,TRUE,Other revenue,From Table 2.1
+rev_other,714,2018-19,TRUE,Other revenue,From Table 2.1
+exp_total,17060,2015-16,FALSE,Total expenses,From Table 2.1
+exp_total,17390,2016-17,TRUE,Total expenses,From Table 2.1
+exp_total,17875,2017-18,TRUE,Total expenses,From Table 2.1
+exp_total,18320,2018-19,TRUE,Total expenses,From Table 2.1
+exp_employee,7459,2015-16,FALSE,Employee expenses,From Table 2.1
+exp_employee,7525,2016-17,TRUE,Employee expenses,From Table 2.1
+exp_employee,7644,2017-18,TRUE,Employee expenses,From Table 2.1
+exp_employee,7768,2018-19,TRUE,Employee expenses,From Table 2.1
+exp_super,752,2015-16,FALSE,Superannuation expenses,From Table 2.1
+exp_super,772,2016-17,TRUE,Superannuation expenses,From Table 2.1
+exp_super,792,2017-18,TRUE,Superannuation expenses,From Table 2.1
+exp_super,812,2018-19,TRUE,Superannuation expenses,From Table 2.1
+exp_depreciation,916,2015-16,FALSE,Depreciation,From Table 2.1
+exp_depreciation,1030,2016-17,TRUE,Depreciation,From Table 2.1
+exp_depreciation,1046,2017-18,TRUE,Depreciation,From Table 2.1
+exp_depreciation,1052,2018-19,TRUE,Depreciation,From Table 2.1
+exp_interest,278,2015-16,FALSE,Interest expenses,From Table 2.1
+exp_interest,372,2016-17,TRUE,Interest expenses,From Table 2.1
+exp_interest,386,2017-18,TRUE,Interest expenses,From Table 2.1
+exp_interest,382,2018-19,TRUE,Interest expenses,From Table 2.1
+exp_other_operating,3871,2015-16,FALSE,Other operating expenses,From Table 2.1
+exp_other_operating,3817,2016-17,TRUE,Other operating expenses,From Table 2.1
+exp_other_operating,3927,2017-18,TRUE,Other operating expenses,From Table 2.1
+exp_other_operating,4014,2018-19,TRUE,Other operating expenses,From Table 2.1
+exp_current_grants,3406,2015-16,FALSE,Current grants and subsidies,From Table 2.1
+exp_current_grants,3499,2016-17,TRUE,Current grants and subsidies,From Table 2.1
+exp_current_grants,3599,2017-18,TRUE,Current grants and subsidies,From Table 2.1
+exp_current_grants,3701,2018-19,TRUE,Current grants and subsidies,From Table 2.1
+exp_capital_grants,378,2015-16,FALSE,Capital grants,From Table 2.1
+exp_capital_grants,375,2016-17,TRUE,Capital grants,From Table 2.1
+exp_capital_grants,380,2017-18,TRUE,Capital grants,From Table 2.1
+exp_capital_grants,591,2018-19,TRUE,Capital grants,From Table 2.1
+net_op_balance,43,2015-16,FALSE,Net operating balance,From Table 2.1
+net_op_balance,654,2016-17,TRUE,Net operating balance,From Table 2.1
+net_op_balance,727,2017-18,TRUE,Net operating balance,From Table 2.1
+net_op_balance,961,2018-19,TRUE,Net operating balance,From Table 2.1
+net_cap_investment,372,2015-16,FALSE,Net capital investment,From Table 2.1
+net_cap_investment,2944,2016-17,TRUE,Net capital investment,From Table 2.1
+net_cap_investment,1158,2017-18,TRUE,Net capital investment,From Table 2.1
+net_cap_investment,668,2018-19,TRUE,Net capital investment,From Table 2.1
+net_lending,-329,2015-16,FALSE,Net lending / (borrowing),From Table 2.1
+net_lending,-2290,2016-17,TRUE,Net lending / (borrowing),From Table 2.1
+net_lending,-431,2017-18,TRUE,Net lending / (borrowing),From Table 2.1
+net_lending,293,2018-19,TRUE,Net lending / (borrowing),From Table 2.1
+cash_surplus,-83,2015-16,FALSE,Cash surplus / (deficit),From Table 2.1
+cash_surplus,-2138,2016-17,TRUE,Cash surplus / (deficit),From Table 2.1
+cash_surplus,-261,2017-18,TRUE,Cash surplus / (deficit),From Table 2.1
+cash_surplus,495,2018-19,TRUE,Cash surplus / (deficit),From Table 2.1
+net_debt,4238,2015-16,FALSE,Net debt,From Table 4.1
+net_debt,6533,2016-17,TRUE,Net debt,From Table 4.1
+net_debt,6227,2017-18,TRUE,Net debt,From Table 4.1
+net_debt,5761,2018-19,TRUE,Net debt,From Table 4.1
+net_fin_liabilities,19732,2015-16,FALSE,Net financial liabilities,From Table 4.1
+net_fin_liabilities,21885,2016-17,TRUE,Net financial liabilities,From Table 4.1
+net_fin_liabilities,21383,2017-18,TRUE,Net financial liabilities,From Table 4.1
+net_fin_liabilities,20692,2018-19,TRUE,Net financial liabilities,From Table 4.1
+net_fin_worth,810,2015-16,FALSE,Net financial worth,From Table 4.1
+net_fin_worth,-1026,2016-17,TRUE,Net financial worth,From Table 4.1
+net_fin_worth,109,2017-18,TRUE,Net financial worth,From Table 4.1
+net_fin_worth,1445,2018-19,TRUE,Net financial worth,From Table 4.1
+net_worth,39485,2015-16,FALSE,Net worth,From Table 4.1
+net_worth,40905,2016-17,TRUE,Net worth,From Table 4.1
+net_worth,42412,2017-18,TRUE,Net worth,From Table 4.1
+net_worth,44174,2018-19,TRUE,Net worth,From Table 4.1
+capex_pnfa,1288,2015-16,FALSE,Purchases of non-financial assets,From Table 2.1
+capex_pnfa,3974,2016-17,TRUE,Purchases of non-financial assets,From Table 2.1
+capex_pnfa,2204,2017-18,TRUE,Purchases of non-financial assets,From Table 2.1
+capex_pnfa,1720,2018-19,TRUE,Purchases of non-financial assets,From Table 2.1
+rev_total,17097,2015-16,FALSE,Total revenue,
+rev_total,18026,2016-17,TRUE,Total revenue,
+rev_total,18596,2017-18,TRUE,Total revenue,
+rev_total,19276,2018-19,TRUE,Total revenue,
+rev_taxation,4543,2015-16,FALSE,Taxation revenue,
+rev_taxation,4713,2016-17,TRUE,Taxation revenue,
+rev_taxation,4880,2017-18,TRUE,Taxation revenue,
+rev_taxation,5038,2018-19,TRUE,Taxation revenue,
+rev_gst,5518,2015-16,FALSE,GST revenue grants,From Table A.14(a) - General purpose grants
+rev_gst,6077,2016-17,TRUE,GST revenue grants,From Table A.14(a) - General purpose grants
+rev_gst,6460,2017-18,TRUE,GST revenue grants,From Table A.14(a) - General purpose grants
+rev_gst,6648,2018-19,TRUE,GST revenue grants,From Table A.14(a) - General purpose grants
+rev_grants_tied,2644,2015-16,FALSE,Commonwealth specific purpose and National Partnership grants,Sum of specific purpose grants (1769) and National Partnership grants (311+154) and grants for on-passing (410)
+rev_grants_tied,2863,2016-17,TRUE,Commonwealth specific purpose and National Partnership grants,
+rev_grants_tied,2767,2017-18,TRUE,Commonwealth specific purpose and National Partnership grants,
+rev_grants_tied,2991,2018-19,TRUE,Commonwealth specific purpose and National Partnership grants,
+rev_sales_goods_svcs,2329,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2379,2016-17,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2456,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2538,2018-19,TRUE,Sales of goods and services,
+rev_interest,29,2015-16,FALSE,Interest income,
+rev_interest,30,2016-17,TRUE,Interest income,
+rev_interest,31,2017-18,TRUE,Interest income,
+rev_interest,33,2018-19,TRUE,Interest income,
+rev_dividend,314,2015-16,FALSE,Dividend and income tax equivalent income,
+rev_dividend,241,2016-17,TRUE,Dividend and income tax equivalent income,
+rev_dividend,244,2017-18,TRUE,Dividend and income tax equivalent income,
+rev_dividend,257,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_other,720,2015-16,FALSE,Other,
+rev_other,728,2016-17,TRUE,Other,
+rev_other,757,2017-18,TRUE,Other,
+rev_other,771,2018-19,TRUE,Other,
+exp_total,17055,2015-16,FALSE,Total expenses,
+exp_total,17373,2016-17,TRUE,Total expenses,
+exp_total,17869,2017-18,TRUE,Total expenses,
+exp_total,18315,2018-19,TRUE,Total expenses,
+exp_employee,7512,2015-16,FALSE,Employee expenses,
+exp_employee,7609,2016-17,TRUE,Employee expenses,
+exp_employee,7804,2017-18,TRUE,Employee expenses,
+exp_employee,7945,2018-19,TRUE,Employee expenses,
+exp_super,1190,2015-16,FALSE,Total superannuation expenses,Sum of superannuation interest cost (378) and other superannuation expenses (812)
+exp_super,1192,2016-17,TRUE,Total superannuation expenses,Sum of 369 + 823
+exp_super,1199,2017-18,TRUE,Total superannuation expenses,Sum of 359 + 840
+exp_super,1198,2018-19,TRUE,Total superannuation expenses,Sum of 348 + 850
+exp_depreciation,916,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,1030,2016-17,TRUE,Depreciation and amortisation,
+exp_depreciation,1046,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,1052,2018-19,TRUE,Depreciation and amortisation,
+exp_interest,198,2015-16,FALSE,Interest expenses,
+exp_interest,415,2016-17,TRUE,Interest expenses,
+exp_interest,415,2017-18,TRUE,Interest expenses,
+exp_interest,403,2018-19,TRUE,Interest expenses,
+exp_other_operating,4583,2015-16,FALSE,Other operating expenses,
+exp_other_operating,4436,2016-17,TRUE,Other operating expenses,
+exp_other_operating,4627,2017-18,TRUE,Other operating expenses,
+exp_other_operating,4895,2018-19,TRUE,Other operating expenses,
+exp_current_grants,2656,2015-16,FALSE,Grants,Includes current and capital grants combined in operating statement
+exp_current_grants,2691,2016-17,TRUE,Grants,
+exp_current_grants,2778,2017-18,TRUE,Grants,
+exp_current_grants,2822,2018-19,TRUE,Grants,
+net_op_balance,43,2015-16,FALSE,Net operating balance,
+net_op_balance,654,2016-17,TRUE,Net operating balance,
+net_op_balance,727,2017-18,TRUE,Net operating balance,
+net_op_balance,961,2018-19,TRUE,Net operating balance,
+net_cap_investment,72,2015-16,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,3209,2016-17,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,328,2017-18,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,383,2018-19,TRUE,Total net acquisition of non-financial assets,
+net_lending,-29,2015-16,FALSE,Net lending/borrowing,
+net_lending,-2556,2016-17,TRUE,Net lending/borrowing,
+net_lending,399,2017-18,TRUE,Net lending/borrowing,
+net_lending,578,2018-19,TRUE,Net lending/borrowing,
+cash_surplus,-124,2015-16,FALSE,Cash surplus/(deficit),From Table A.7
+cash_surplus,250,2016-17,TRUE,Cash surplus/(deficit),
+cash_surplus,334,2017-18,TRUE,Cash surplus/(deficit),
+cash_surplus,487,2018-19,TRUE,Cash surplus/(deficit),
+net_debt,4238,2015-16,FALSE,Net debt,From Table A.4
+net_debt,6533,2016-17,TRUE,Net debt,
+net_debt,6227,2017-18,TRUE,Net debt,
+net_debt,5761,2018-19,TRUE,Net debt,
+net_fin_liabilities,19732,2015-16,FALSE,Net financial liabilities,From Table A.4
+net_fin_liabilities,21885,2016-17,TRUE,Net financial liabilities,
+net_fin_liabilities,21383,2017-18,TRUE,Net financial liabilities,
+net_fin_liabilities,20692,2018-19,TRUE,Net financial liabilities,
+net_worth,39485,2015-16,FALSE,Net worth,From Table A.4
+net_worth,40905,2016-17,TRUE,Net worth,
+net_worth,42412,2017-18,TRUE,Net worth,
+net_worth,44174,2018-19,TRUE,Net worth,
+capex_pnfa,1327,2015-16,FALSE,Purchases of non-financial assets,From Table A.7
+capex_pnfa,4336,2016-17,TRUE,Purchases of non-financial assets,Includes $2820m finance lease acquisition
+capex_pnfa,1441,2017-18,TRUE,Purchases of non-financial assets,
+capex_pnfa,1456,2018-19,TRUE,Purchases of non-financial assets,

@@ -1,0 +1,206 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,17402,2015-16,FALSE,Total revenue,
+rev_total,18122,2016-17,TRUE,Total revenue,
+rev_total,18891,2017-18,TRUE,Total revenue,
+rev_total,19393,2018-19,TRUE,Total revenue,
+rev_taxation,4447,2015-16,FALSE,Taxation revenue,
+rev_taxation,4616,2016-17,TRUE,Taxation revenue,
+rev_taxation,4783,2017-18,TRUE,Taxation revenue,
+rev_taxation,4939,2018-19,TRUE,Taxation revenue,
+rev_payroll,1139,2015-16,FALSE,Taxes on employers' payroll and labour force,From Table B.13
+rev_payroll,1201,2016-17,TRUE,Taxes on employers' payroll and labour force,From Table B.13
+rev_payroll,1265,2017-18,TRUE,Taxes on employers' payroll and labour force,From Table B.13
+rev_payroll,1324,2018-19,TRUE,Taxes on employers' payroll and labour force,From Table B.13
+rev_stamp_duty,1023,2015-16,FALSE,Stamp duties on financial and capital transactions,From Table B.13
+rev_stamp_duty,1060,2016-17,TRUE,Stamp duties on financial and capital transactions,From Table B.13
+rev_stamp_duty,1079,2017-18,TRUE,Stamp duties on financial and capital transactions,From Table B.13
+rev_stamp_duty,1100,2018-19,TRUE,Stamp duties on financial and capital transactions,From Table B.13
+rev_land_tax,581,2015-16,FALSE,Land taxes,From Table B.13
+rev_land_tax,604,2016-17,TRUE,Land taxes,From Table B.13
+rev_land_tax,624,2017-18,TRUE,Land taxes,From Table B.13
+rev_land_tax,643,2018-19,TRUE,Land taxes,From Table B.13
+rev_gambling,397,2015-16,FALSE,Taxes on gambling,From Table B.13
+rev_gambling,406,2016-17,TRUE,Taxes on gambling,From Table B.13
+rev_gambling,429,2017-18,TRUE,Taxes on gambling,From Table B.13
+rev_gambling,440,2018-19,TRUE,Taxes on gambling,From Table B.13
+rev_motor_vehicle,615,2015-16,FALSE,Motor vehicle taxes,From Table B.13
+rev_motor_vehicle,635,2016-17,TRUE,Motor vehicle taxes,From Table B.13
+rev_motor_vehicle,654,2017-18,TRUE,Motor vehicle taxes,From Table B.13
+rev_motor_vehicle,677,2018-19,TRUE,Motor vehicle taxes,From Table B.13
+rev_grants_tied,2917,2015-16,FALSE,Commonwealth tied grants,Calculated as sum of National partnership grants + Specific purpose grants from Table B.14(a)
+rev_grants_tied,3248,2016-17,TRUE,Commonwealth tied grants,Calculated as sum of National partnership grants + Specific purpose grants
+rev_grants_tied,3321,2017-18,TRUE,Commonwealth tied grants,Calculated as sum of National partnership grants + Specific purpose grants
+rev_grants_tied,3559,2018-19,TRUE,Commonwealth tied grants,Calculated as sum of National partnership grants + Specific purpose grants
+rev_sales_goods_svcs,2385,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2424,2016-17,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2511,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2583,2018-19,TRUE,Sales of goods and services,
+rev_interest,33,2015-16,FALSE,Interest income,
+rev_interest,31,2016-17,TRUE,Interest income,
+rev_interest,34,2017-18,TRUE,Interest income,
+rev_interest,36,2018-19,TRUE,Interest income,
+rev_dividend,728,2015-16,FALSE,Dividend and income tax equivalent income,
+rev_dividend,222,2016-17,TRUE,Dividend and income tax equivalent income,
+rev_dividend,272,2017-18,TRUE,Dividend and income tax equivalent income,
+rev_dividend,258,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_other,658,2015-16,FALSE,Other,
+rev_other,703,2016-17,TRUE,Other,
+rev_other,707,2017-18,TRUE,Other,
+rev_other,703,2018-19,TRUE,Other,
+exp_total,17047,2015-16,FALSE,Total expenses,
+exp_total,17622,2016-17,TRUE,Total expenses,
+exp_total,17995,2017-18,TRUE,Total expenses,
+exp_total,18416,2018-19,TRUE,Total expenses,
+exp_employee,7576,2015-16,FALSE,Employee expenses,
+exp_employee,7677,2016-17,TRUE,Employee expenses,
+exp_employee,7892,2017-18,TRUE,Employee expenses,
+exp_employee,8078,2018-19,TRUE,Employee expenses,
+exp_super,1223,2015-16,FALSE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_super,1223,2016-17,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_super,1228,2017-18,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_super,1233,2018-19,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,906,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,1019,2016-17,TRUE,Depreciation and amortisation,
+exp_depreciation,1034,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,1042,2018-19,TRUE,Depreciation and amortisation,
+exp_interest,239,2015-16,FALSE,Interest expenses,
+exp_interest,437,2016-17,TRUE,Interest expenses,
+exp_interest,397,2017-18,TRUE,Interest expenses,
+exp_interest,386,2018-19,TRUE,Interest expenses,
+exp_other_operating,4368,2015-16,FALSE,Other operating expenses,
+exp_other_operating,4488,2016-17,TRUE,Other operating expenses,
+exp_other_operating,4603,2017-18,TRUE,Other operating expenses,
+exp_other_operating,4802,2018-19,TRUE,Other operating expenses,
+exp_current_grants,2735,2015-16,FALSE,Grants,
+exp_current_grants,2778,2016-17,TRUE,Grants,
+exp_current_grants,2840,2017-18,TRUE,Grants,
+exp_current_grants,2875,2018-19,TRUE,Grants,
+net_op_balance,355,2015-16,FALSE,Net operating balance,
+net_op_balance,500,2016-17,TRUE,Net operating balance,
+net_op_balance,897,2017-18,TRUE,Net operating balance,
+net_op_balance,978,2018-19,TRUE,Net operating balance,
+net_lending,398,2015-16,FALSE,Net lending / borrowing,
+net_lending,-2898,2016-17,TRUE,Net lending / borrowing,
+net_lending,193,2017-18,TRUE,Net lending / borrowing,
+net_lending,523,2018-19,TRUE,Net lending / borrowing,
+net_debt,3585,2015-16,FALSE,Net debt,From Table B.4
+net_debt,6312,2016-17,TRUE,Net debt,From Table B.4
+net_debt,6185,2017-18,TRUE,Net debt,From Table B.4
+net_debt,5751,2018-19,TRUE,Net debt,From Table B.4
+net_fin_liabilities,18969,2015-16,FALSE,Net financial liabilities,From Table B.4
+net_fin_liabilities,21495,2016-17,TRUE,Net financial liabilities,From Table B.4
+net_fin_liabilities,21230,2017-18,TRUE,Net financial liabilities,From Table B.4
+net_fin_liabilities,20625,2018-19,TRUE,Net financial liabilities,From Table B.4
+net_worth,39974,2015-16,FALSE,Net worth,From Table B.4
+net_worth,40970,2016-17,TRUE,Net worth,From Table B.4
+net_worth,42159,2017-18,TRUE,Net worth,From Table B.4
+net_worth,43400,2018-19,TRUE,Net worth,From Table B.4
+capex_pnfa,1235,2015-16,FALSE,Purchases of non-financial assets,
+capex_pnfa,4555,2016-17,TRUE,Purchases of non-financial assets,
+capex_pnfa,1805,2017-18,TRUE,Purchases of non-financial assets,
+capex_pnfa,1517,2018-19,TRUE,Purchases of non-financial assets,
+rev_taxation,4376,2014-15,FALSE,Taxation,
+rev_taxation,4447,2015-16,FALSE,Taxation,
+rev_taxation,4616,2016-17,TRUE,Taxation,
+rev_taxation,4783,2017-18,TRUE,Taxation,
+rev_taxation,4939,2018-19,TRUE,Taxation,
+rev_gst,8350,2014-15,FALSE,GST revenue,
+rev_gst,9152,2015-16,FALSE,GST revenue,
+rev_gst,10126,2016-17,TRUE,GST revenue,
+rev_gst,10584,2017-18,TRUE,GST revenue,
+rev_gst,10873,2018-19,TRUE,GST revenue,
+rev_grants_tied,2329,2014-15,FALSE,Commonwealth grants,
+rev_grants_tied,2385,2015-16,FALSE,Commonwealth grants,
+rev_grants_tied,2424,2016-17,TRUE,Commonwealth grants,
+rev_grants_tied,2511,2017-18,TRUE,Commonwealth grants,
+rev_grants_tied,2583,2018-19,TRUE,Commonwealth grants,
+rev_sales_goods_svcs,791,2014-15,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,728,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,222,2016-17,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,272,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,258,2018-19,TRUE,Sales of goods and services,
+rev_interest,28,2014-15,FALSE,Interest income,
+rev_interest,33,2015-16,FALSE,Interest income,
+rev_interest,31,2016-17,TRUE,Interest income,
+rev_interest,34,2017-18,TRUE,Interest income,
+rev_interest,36,2018-19,TRUE,Interest income,
+rev_other,674,2014-15,FALSE,Other,
+rev_other,658,2015-16,FALSE,Other,
+rev_other,703,2016-17,TRUE,Other,
+rev_other,707,2017-18,TRUE,Other,
+rev_other,703,2018-19,TRUE,Other,
+rev_total,16549,2014-15,FALSE,Total revenue,
+rev_total,17402,2015-16,FALSE,Total revenue,
+rev_total,18122,2016-17,TRUE,Total revenue,
+rev_total,18891,2017-18,TRUE,Total revenue,
+rev_total,19393,2018-19,TRUE,Total revenue,
+exp_employee,7493,2014-15,FALSE,Employee,
+exp_employee,7576,2015-16,FALSE,Employee,
+exp_employee,7677,2016-17,TRUE,Employee,
+exp_employee,7892,2017-18,TRUE,Employee,
+exp_employee,8078,2018-19,TRUE,Employee,
+exp_super,438,2014-15,FALSE,Superannuation,
+exp_super,402,2015-16,FALSE,Superannuation,
+exp_super,392,2016-17,TRUE,Superannuation,
+exp_super,382,2017-18,TRUE,Superannuation,
+exp_super,371,2018-19,TRUE,Superannuation,
+exp_depreciation,738,2014-15,FALSE,Depreciation and amortisation,
+exp_depreciation,821,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,831,2016-17,TRUE,Depreciation and amortisation,
+exp_depreciation,846,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,862,2018-19,TRUE,Depreciation and amortisation,
+exp_interest,853,2014-15,FALSE,Interest,
+exp_interest,906,2015-16,FALSE,Interest,
+exp_interest,1019,2016-17,TRUE,Interest,
+exp_interest,1034,2017-18,TRUE,Interest,
+exp_interest,1042,2018-19,TRUE,Interest,
+exp_other_operating,4173,2014-15,FALSE,Other operating,
+exp_other_operating,4368,2015-16,FALSE,Other operating,
+exp_other_operating,4488,2016-17,TRUE,Other operating,
+exp_other_operating,4603,2017-18,TRUE,Other operating,
+exp_other_operating,4802,2018-19,TRUE,Other operating,
+exp_current_grants,2790,2014-15,FALSE,Grants and subsidies,
+exp_current_grants,2735,2015-16,FALSE,Grants and subsidies,
+exp_current_grants,2778,2016-17,TRUE,Grants and subsidies,
+exp_current_grants,2840,2017-18,TRUE,Grants and subsidies,
+exp_current_grants,2875,2018-19,TRUE,Grants and subsidies,
+exp_total,16738,2014-15,FALSE,Total expenses,
+exp_total,17047,2015-16,FALSE,Total expenses,
+exp_total,17622,2016-17,TRUE,Total expenses,
+exp_total,17995,2017-18,TRUE,Total expenses,
+exp_total,18416,2018-19,TRUE,Total expenses,
+net_op_balance,-189,2014-15,FALSE,Net operating balance,
+net_op_balance,355,2015-16,FALSE,Net operating balance,
+net_op_balance,500,2016-17,TRUE,Net operating balance,
+net_op_balance,897,2017-18,TRUE,Net operating balance,
+net_op_balance,978,2018-19,TRUE,Net operating balance,
+net_cap_investment,-78,2014-15,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,-44,2015-16,FALSE,Net acquisition of non-financial assets,
+net_cap_investment,3398,2016-17,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,704,2017-18,TRUE,Net acquisition of non-financial assets,
+net_cap_investment,454,2018-19,TRUE,Net acquisition of non-financial assets,
+net_lending,-111,2014-15,FALSE,Net lending / (borrowing),
+net_lending,398,2015-16,FALSE,Net lending / (borrowing),
+net_lending,-2898,2016-17,TRUE,Net lending / (borrowing),
+net_lending,193,2017-18,TRUE,Net lending / (borrowing),
+net_lending,523,2018-19,TRUE,Net lending / (borrowing),
+cash_surplus,116,2014-15,FALSE,Cash surplus / (deficit),
+cash_surplus,433,2015-16,FALSE,Cash surplus / (deficit),
+cash_surplus,-3004,2016-17,TRUE,Cash surplus / (deficit),
+cash_surplus,152,2017-18,TRUE,Cash surplus / (deficit),
+cash_surplus,453,2018-19,TRUE,Cash surplus / (deficit),
+net_debt,3929,2015,FALSE,Net debt,"As at 30 June"
+net_debt,3585,2016,FALSE,Net debt,"As at 30 June"
+net_debt,6312,2017,TRUE,Net debt,"As at 30 June"
+net_debt,6185,2018,TRUE,Net debt,"As at 30 June"
+net_debt,5751,2019,TRUE,Net debt,"As at 30 June"
+net_fin_liabilities,18296,2015,FALSE,Net financial liabilities,"As at 30 June"
+net_fin_liabilities,18969,2016,FALSE,Net financial liabilities,"As at 30 June"
+net_fin_liabilities,21495,2017,TRUE,Net financial liabilities,"As at 30 June"
+net_fin_liabilities,21230,2018,TRUE,Net financial liabilities,"As at 30 June"
+net_fin_liabilities,20625,2019,TRUE,Net financial liabilities,"As at 30 June"
+net_worth,40121,2015,FALSE,Net worth,"As at 30 June"
+net_worth,39974,2016,FALSE,Net worth,"As at 30 June"
+net_worth,40970,2017,TRUE,Net worth,"As at 30 June"
+net_worth,42159,2018,TRUE,Net worth,"As at 30 June"
+net_worth,43400,2019,TRUE,Net worth,"As at 30 June"

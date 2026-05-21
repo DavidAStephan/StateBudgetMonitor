@@ -1,0 +1,199 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,7000.1,2021-22,FALSE,Revenue,
+rev_total,7397.8,2022-23,FALSE,Revenue,
+rev_total,7513.9,2023-24,TRUE,Revenue,
+rev_total,7814.2,2024-25,TRUE,Revenue,
+rev_total,8061.3,2025-26,TRUE,Revenue,
+exp_total,7755.8,2021-22,FALSE,Expenses,
+exp_total,8037.8,2022-23,FALSE,Expenses,
+exp_total,8013.8,2023-24,TRUE,Expenses,
+exp_total,8236.5,2024-25,TRUE,Expenses,
+exp_total,8475.0,2025-26,TRUE,Expenses,
+net_op_balance,-537.2,2021-22,FALSE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-461.5,2022-23,FALSE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-282.5,2023-24,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-188.7,2024-25,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-162.9,2025-26,TRUE,HEADLINE NET OPERATING BALANCE,
+cash_surplus,211.0,2021-22,FALSE,Net cash from operating activities,
+cash_surplus,-24.8,2022-23,FALSE,Net cash from operating activities,
+cash_surplus,96.1,2023-24,TRUE,Net cash from operating activities,
+cash_surplus,229.1,2024-25,TRUE,Net cash from operating activities,
+cash_surplus,175.3,2025-26,TRUE,Net cash from operating activities,
+net_debt,4752.6,2021-22,FALSE,Net debt (excluding superannuation),
+net_debt,6193.1,2022-23,FALSE,Net debt (excluding superannuation),
+net_debt,7207.5,2023-24,TRUE,Net debt (excluding superannuation),
+net_debt,8368.4,2024-25,TRUE,Net debt (excluding superannuation),
+net_debt,9650.7,2025-26,TRUE,Net debt (excluding superannuation),
+net_fin_liabilities,12079.6,2021-22,FALSE,Net financial liabilities,
+net_fin_liabilities,11324.5,2022-23,FALSE,Net financial liabilities,
+net_fin_liabilities,12063.9,2023-24,TRUE,Net financial liabilities,
+net_fin_liabilities,13066.7,2024-25,TRUE,Net financial liabilities,
+net_fin_liabilities,14030.5,2025-26,TRUE,Net financial liabilities,
+rev_total,7397.803,2022-23,FALSE,Total revenue,
+rev_total,7513.876,2023-24,TRUE,Total revenue,
+rev_total,7814.199,2024-25,TRUE,Total revenue,
+rev_total,8061.262,2025-26,TRUE,Total revenue,
+rev_taxation,2589.545,2022-23,FALSE,Taxation revenue,
+rev_taxation,2605.478,2023-24,TRUE,Taxation revenue,
+rev_taxation,2712.456,2024-25,TRUE,Taxation revenue,
+rev_taxation,2845.829,2025-26,TRUE,Taxation revenue,
+rev_gst,1776.504,2022-23,FALSE,Goods and Services Tax (from Table 3.3.7),Derived from Commonwealth grants context
+rev_gst,1756.925,2023-24,TRUE,Goods and Services Tax (from Table 3.3.7),Derived from Commonwealth grants context
+rev_gst,1814.903,2024-25,TRUE,Goods and Services Tax (from Table 3.3.7),Derived from Commonwealth grants context
+rev_gst,1910.981,2025-26,TRUE,Goods and Services Tax (from Table 3.3.7),Derived from Commonwealth grants context
+rev_sales_goods_svcs,650.262,2022-23,FALSE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,672.372,2023-24,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,691.901,2024-25,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,711.845,2025-26,TRUE,Sales of goods and services from contracts with customers,
+rev_interest,235.519,2022-23,FALSE,Interest revenue,
+rev_interest,164.698,2023-24,TRUE,Interest revenue,
+rev_interest,153.407,2024-25,TRUE,Interest revenue,
+rev_interest,141.592,2025-26,TRUE,Interest revenue,
+rev_dividend,133.962,2022-23,FALSE,Dividend and income tax equivalents income,
+rev_dividend,301.837,2023-24,TRUE,Dividend and income tax equivalents income,
+rev_dividend,318.762,2024-25,TRUE,Dividend and income tax equivalents income,
+rev_dividend,331.370,2025-26,TRUE,Dividend and income tax equivalents income,
+rev_other,538.976,2022-23,FALSE,Other revenue + Gains from contributed assets,Combined from two line items
+rev_other,409.217,2023-24,TRUE,Other revenue + Gains from contributed assets,Combined from two line items
+rev_other,529.084,2024-25,TRUE,Other revenue + Gains from contributed assets,Combined from two line items
+rev_other,478.385,2025-26,TRUE,Other revenue + Gains from contributed assets,Combined from two line items
+exp_total,8037.781,2022-23,FALSE,Total expenses,
+exp_total,8013.798,2023-24,TRUE,Total expenses,
+exp_total,8236.505,2024-25,TRUE,Total expenses,
+exp_total,8475.043,2025-26,TRUE,Total expenses,
+exp_employee,2717.996,2022-23,FALSE,Employee expenses,
+exp_employee,2717.899,2023-24,TRUE,Employee expenses,
+exp_employee,2803.379,2024-25,TRUE,Employee expenses,
+exp_employee,2880.502,2025-26,TRUE,Employee expenses,
+exp_super,901.821,2022-23,FALSE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,874.205,2023-24,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,885.125,2024-25,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,892.862,2025-26,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_depreciation,565.707,2022-23,FALSE,Depreciation and amortisation,
+exp_depreciation,595.296,2023-24,TRUE,Depreciation and amortisation,
+exp_depreciation,615.500,2024-25,TRUE,Depreciation and amortisation,
+exp_depreciation,621.873,2025-26,TRUE,Depreciation and amortisation,
+exp_interest,347.528,2022-23,FALSE,Interest expenses,
+exp_interest,398.590,2023-24,TRUE,Interest expenses,
+exp_interest,455.591,2024-25,TRUE,Interest expenses,
+exp_interest,517.860,2025-26,TRUE,Interest expenses,
+exp_other_operating,1706.471,2022-23,FALSE,Supplies and services + Other operating expenses,Combined from two line items
+exp_other_operating,1786.010,2023-24,TRUE,Supplies and services + Other operating expenses,Combined from two line items
+exp_other_operating,1863.775,2024-25,TRUE,Supplies and services + Other operating expenses,Combined from two line items
+exp_other_operating,1930.616,2025-26,TRUE,Supplies and services + Other operating expenses,Combined from two line items
+exp_current_grants,1798.258,2022-23,FALSE,Grants and purchased services,
+exp_current_grants,1641.798,2023-24,TRUE,Grants and purchased services,
+exp_current_grants,1613.135,2024-25,TRUE,Grants and purchased services,
+exp_current_grants,1631.330,2025-26,TRUE,Grants and purchased services,
+net_op_balance,-639.978,2022-23,FALSE,UPF net operating balance,
+net_op_balance,-499.922,2023-24,TRUE,UPF net operating balance,
+net_op_balance,-422.306,2024-25,TRUE,UPF net operating balance,
+net_op_balance,-413.781,2025-26,TRUE,UPF net operating balance,
+net_lending,-1313.921,2022-23,FALSE,Net lending/(borrowing),
+net_lending,-837.931,2023-24,TRUE,Net lending/(borrowing),
+net_lending,-1207.155,2024-25,TRUE,Net lending/(borrowing),
+net_lending,-1192.204,2025-26,TRUE,Net lending/(borrowing),
+net_debt,6193.142,2022-23,FALSE,Net debt (excluding superannuation related investments),From Table 3.5.1
+net_debt,7207.535,2023-24,TRUE,Net debt (excluding superannuation related investments),From Table 3.5.1
+net_debt,8368.381,2024-25,TRUE,Net debt (excluding superannuation related investments),From Table 3.5.1
+net_debt,9650.657,2025-26,TRUE,Net debt (excluding superannuation related investments),From Table 3.5.1
+net_fin_liabilities,11324.522,2022-23,FALSE,Net financial liabilities,From Table 3.5.2
+net_fin_liabilities,12063.883,2023-24,TRUE,Net financial liabilities,From Table 3.5.2
+net_fin_liabilities,13066.682,2024-25,TRUE,Net financial liabilities,From Table 3.5.2
+net_fin_liabilities,14030.509,2025-26,TRUE,Net financial liabilities,From Table 3.5.2
+net_worth,20353.738,2022-23,FALSE,Net worth,From Table 3.5.3
+net_worth,20063.875,2023-24,TRUE,Net worth,From Table 3.5.3
+net_worth,19726.813,2024-25,TRUE,Net worth,From Table 3.5.3
+net_worth,19734.032,2025-26,TRUE,Net worth,From Table 3.5.3
+capex_pnfa,1090.624,2022-23,FALSE,Payments for non-financial assets,
+capex_pnfa,886.348,2023-24,TRUE,Payments for non-financial assets,
+capex_pnfa,1224.851,2024-25,TRUE,Payments for non-financial assets,
+capex_pnfa,1292.769,2025-26,TRUE,Payments for non-financial assets,
+rev_total,7771.663,2022-23,FALSE,Total revenue,
+rev_taxation,2538.706,2022-23,FALSE,Taxation revenue,
+rev_gst,3081.765,2022-23,FALSE,Commonwealth grants,Includes GST and other Commonwealth grants
+rev_sales_goods_svcs,1216.540,2022-23,FALSE,Sales of goods and services,Sum of revenue from associates/joint ventures (195.834) and other sales (1020.706)
+rev_interest,144.776,2022-23,FALSE,Interest revenue,
+rev_dividend,167.774,2022-23,FALSE,Investment revenue,
+rev_other,622.102,2022-23,FALSE,Other revenue,Sum of land revenue (179.178) + other revenue (212.486) + gains from contributed assets (230.438)
+exp_total,8509.125,2022-23,FALSE,Total expenses,
+exp_employee,2945.358,2022-23,FALSE,Employee expenses,
+exp_super,927.837,2022-23,FALSE,Superannuation expenses,Sum of superannuation interest cost (425.834) and other superannuation expenses (502.003)
+exp_depreciation,749.010,2022-23,FALSE,Depreciation and amortisation,
+exp_interest,374.750,2022-23,FALSE,Interest expenses,
+exp_other_operating,1975.906,2022-23,FALSE,Other operating expenses,Sum of supplies and services (1675.652) and other operating expenses (300.254)
+exp_current_grants,1536.264,2022-23,FALSE,Grants and purchased services,
+net_op_balance,-737.462,2022-23,FALSE,UPF net operating balance,
+net_cap_investment,679.456,2022-23,FALSE,Total net acquisition of non-financial assets,
+net_lending,-1416.918,2022-23,FALSE,Net borrowing,Negative value indicates net borrowing
+cash_surplus,-1262.124,2022-23,FALSE,Cash deficit,Negative value indicates deficit
+net_debt,8100.203,2022-23,FALSE,Net debt (excluding superannuation related investments),
+net_fin_liabilities,13767.736,2022-23,FALSE,Net financial liabilities,
+net_worth,21087.633,2022-23,FALSE,Net worth,
+capex_pnfa,1397.667,2022-23,FALSE,Payments for non-financial assets,
+rev_total,7949.077,2023-24,TRUE,Total revenue,
+rev_taxation,2551.817,2023-24,TRUE,Taxation revenue,
+rev_gst,3190.268,2023-24,TRUE,Commonwealth grants,
+rev_sales_goods_svcs,1147.797,2023-24,TRUE,Sales of goods and services,Sum of revenue from associates/joint ventures (80.143) and other sales (1067.654)
+rev_interest,88.075,2023-24,TRUE,Interest revenue,
+rev_dividend,170.006,2023-24,TRUE,Investment revenue,
+rev_other,801.114,2023-24,TRUE,Other revenue,Sum of land revenue (438.105) + other revenue (190.930) + gains from contributed assets (172.079)
+exp_total,8582.053,2023-24,TRUE,Total expenses,
+exp_employee,2947.994,2023-24,TRUE,Employee expenses,
+exp_super,900.966,2023-24,TRUE,Superannuation expenses,Sum of superannuation interest cost (457.759) and other superannuation expenses (443.207)
+exp_depreciation,760.175,2023-24,TRUE,Depreciation and amortisation,
+exp_interest,413.981,2023-24,TRUE,Interest expenses,
+exp_other_operating,2188.515,2023-24,TRUE,Other operating expenses,Sum of supplies and services (1757.402) and other operating expenses (431.113)
+exp_current_grants,1370.422,2023-24,TRUE,Grants and purchased services,
+net_op_balance,-632.976,2023-24,TRUE,UPF net operating balance,
+net_cap_investment,512.741,2023-24,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1145.717,2023-24,TRUE,Net borrowing,
+cash_surplus,-929.162,2023-24,TRUE,Cash deficit,
+net_debt,9220.338,2023-24,TRUE,Net debt (excluding superannuation related investments),
+net_fin_liabilities,14687.138,2023-24,TRUE,Net financial liabilities,
+net_worth,20828.517,2023-24,TRUE,Net worth,
+capex_pnfa,1252.318,2023-24,TRUE,Payments for non-financial assets,
+rev_total,8241.603,2024-25,TRUE,Total revenue,
+rev_taxation,2656.690,2024-25,TRUE,Taxation revenue,
+rev_gst,3225.657,2024-25,TRUE,Commonwealth grants,
+rev_sales_goods_svcs,1174.081,2024-25,TRUE,Sales of goods and services,Sum of revenue from associates/joint ventures (72.995) and other sales (1101.086)
+rev_interest,73.867,2024-25,TRUE,Interest revenue,
+rev_dividend,182.932,2024-25,TRUE,Investment revenue,
+rev_other,928.376,2024-25,TRUE,Other revenue,Sum of land revenue (567.312) + other revenue (206.851) + gains from contributed assets (154.213)
+exp_total,8821.993,2024-25,TRUE,Total expenses,
+exp_employee,3040.124,2024-25,TRUE,Employee expenses,
+exp_super,912.901,2024-25,TRUE,Superannuation expenses,Sum of superannuation interest cost (469.329) and other superannuation expenses (443.572)
+exp_depreciation,788.155,2024-25,TRUE,Depreciation and amortisation,
+exp_interest,470.416,2024-25,TRUE,Interest expenses,
+exp_other_operating,2264.278,2024-25,TRUE,Other operating expenses,Sum of supplies and services (1799.064) and other operating expenses (465.214)
+exp_current_grants,1346.119,2024-25,TRUE,Grants and purchased services,
+net_op_balance,-580.390,2024-25,TRUE,UPF net operating balance,
+net_cap_investment,534.672,2024-25,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1115.062,2024-25,TRUE,Net borrowing,
+cash_surplus,-964.264,2024-25,TRUE,Cash deficit,
+net_debt,10373.213,2024-25,TRUE,Net debt (excluding superannuation related investments),
+net_fin_liabilities,15709.331,2024-25,TRUE,Net financial liabilities,
+net_worth,20499.820,2024-25,TRUE,Net worth,
+capex_pnfa,1406.314,2024-25,TRUE,Payments for non-financial assets,
+rev_total,8359.848,2025-26,TRUE,Total revenue,
+rev_taxation,2788.867,2025-26,TRUE,Taxation revenue,
+rev_gst,3355.695,2025-26,TRUE,Commonwealth grants,
+rev_sales_goods_svcs,1206.429,2025-26,TRUE,Sales of goods and services,Sum of revenue from associates/joint ventures (72.097) and other sales (1134.332)
+rev_interest,57.866,2025-26,TRUE,Interest revenue,
+rev_dividend,196.546,2025-26,TRUE,Investment revenue,
+rev_other,754.445,2025-26,TRUE,Other revenue,Sum of land revenue (388.343) + other revenue (232.259) + gains from contributed assets (133.843)
+exp_total,9042.311,2025-26,TRUE,Total expenses,
+exp_employee,3124.480,2025-26,TRUE,Employee expenses,
+exp_super,921.705,2025-26,TRUE,Superannuation expenses,Sum of superannuation interest cost (479.943) and other superannuation expenses (441.762)
+exp_depreciation,797.020,2025-26,TRUE,Depreciation and amortisation,
+exp_interest,528.466,2025-26,TRUE,Interest expenses,
+exp_other_operating,2313.894,2025-26,TRUE,Other operating expenses,Sum of supplies and services (1860.192) and other operating expenses (453.702)
+exp_current_grants,1356.746,2025-26,TRUE,Grants and purchased services,
+net_op_balance,-682.463,2025-26,TRUE,UPF net operating balance,
+net_cap_investment,332.095,2025-26,TRUE,Total net acquisition of non-financial assets,
+net_lending,-1014.558,2025-26,TRUE,Net borrowing,
+cash_surplus,-954.576,2025-26,TRUE,Cash deficit,
+net_debt,11526.119,2025-26,TRUE,Net debt (excluding superannuation related investments),
+net_fin_liabilities,16640.014,2025-26,TRUE,Net financial liabilities,
+net_worth,20524.981,2025-26,TRUE,Net worth,
+capex_pnfa,1257.926,2025-26,TRUE,Payments for non-financial assets,

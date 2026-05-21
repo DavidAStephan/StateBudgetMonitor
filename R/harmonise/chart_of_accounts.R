@@ -16,6 +16,26 @@
 #' @export
 sbm_apply_chart_of_accounts <- function(facts, dictionary, overrides) {
 
+  ## Normalise fiscal_year before joining --- the LLM occasionally
+  ## extracts balance-sheet column headers like "30 June 2019" or
+  ## just "2019" as fiscal_year, when they should be the canonical
+  ## "YYYY-YY" FY label.
+  facts <- facts |>
+    dplyr::mutate(fiscal_year = normalise_fiscal_year(fiscal_year))
+
+  ## Recompute is_forward_estimate from the document's own FY rather
+  ## than trusting the LLM's flag --- a row whose fiscal_year starts
+  ## strictly AFTER the document's fiscal_year is a forward estimate.
+  ## The LLM gets the budget-year row right but flips the flag on
+  ## actuals reported in the same budget paper for prior years.
+  facts <- facts |>
+    dplyr::mutate(
+      .doc_fy_start = as.integer(stringr::str_sub(estimate_type_fy(document_id), 1L, 4L)),
+      .row_fy_start = as.integer(stringr::str_sub(fiscal_year, 1L, 4L)),
+      is_forward_estimate = .row_fy_start > .doc_fy_start
+    ) |>
+    dplyr::select(-.doc_fy_start, -.row_fy_start)
+
   labelled <- facts |>
     dplyr::left_join(
       dictionary |>
@@ -75,6 +95,59 @@ sbm_apply_chart_of_accounts <- function(facts, dictionary, overrides) {
   }
 
   labelled
+}
+
+#' Normalise miscellaneous fiscal-year encodings to "YYYY-YY"
+#'
+#' The LLM occasionally emits one of several non-canonical forms:
+#'
+#'   * `"YYYY-YY"` --- already canonical, pass through.
+#'   * `"YYYY-MM-DD"` --- balance-sheet date. End-of-FY date (30 June)
+#'     belongs to FY (YYYY-1, YYYY); other dates belong to whichever
+#'     FY contains them.
+#'   * `"YYYY"` --- typically a calendar-year column header from a
+#'     balance sheet (i.e. "as at 30 June 2018"). Map to the FY that
+#'     ENDS in that year: `"2018"` -> `"2017-18"`.
+#'   * anything else --- return NA, which downstream filter drops.
+#'
+#' @param x Character vector.
+#' @return Character vector of FY labels (or NA where unparseable).
+#' @keywords internal
+normalise_fiscal_year <- function(x) {
+  x <- as.character(x)
+  out <- rep(NA_character_, length(x))
+  ok_fy <- grepl("^[12][0-9]{3}-[0-9]{2}$", x)
+  out[ok_fy] <- x[ok_fy]
+
+  is_date <- grepl("^[12][0-9]{3}-[0-9]{2}-[0-9]{2}$", x)
+  if (any(is_date)) {
+    d <- suppressWarnings(as.Date(x[is_date]))
+    y <- as.integer(format(d, "%Y"))
+    m <- as.integer(format(d, "%m"))
+    fy_start <- ifelse(m >= 7L, y, y - 1L)
+    out[is_date] <- sprintf("%d-%02d", fy_start, (fy_start + 1L) %% 100L)
+  }
+
+  is_year <- grepl("^[12][0-9]{3}$", x)
+  if (any(is_year)) {
+    y <- as.integer(x[is_year])
+    ## Treat bare "YYYY" as the FY that ENDS in that calendar year ---
+    ## the LLM typically extracts these from "as at 30 June YYYY"
+    ## headers on balance sheets.
+    out[is_year] <- sprintf("%d-%02d", y - 1L, y %% 100L)
+  }
+
+  out
+}
+
+#' Extract the fiscal year from a canonical document_id
+#'
+#' Document ids follow `<JURIS>_<YYYY-YY>_<doctype>`. Returns the
+#' `YYYY-YY` token; NA if it can't be parsed.
+#'
+#' @keywords internal
+estimate_type_fy <- function(document_id) {
+  stringr::str_extract(document_id, "[12][0-9]{3}-[0-9]{2}")
 }
 
 #' Load manual overrides

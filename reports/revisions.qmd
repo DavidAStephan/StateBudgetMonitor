@@ -20,24 +20,29 @@ revs <- tryCatch(tar_read(revisions), error = function(e) tibble::tibble())
 Each point is one Budget Paper or MYEFO release; the x-axis is the
 document's release date. Filter to a jurisdiction, variable, and
 forecast fiscal year to see how the estimate has moved as each
-Budget update has been released.
-
-This is the vintage-discipline view: it answers
-"what was knowable about X at any past point in time?"
+Budget update has been released. **You must pick all three filters
+to get a clean trail.**
 :::
 
 ```{r}
 if (nrow(revs) == 0L) {
-  htmltools::p("No revisions yet --- the panel is built from `fiscal_facts` joined to `dim_documents.release_date`; add committed CSVs under `data/extracted/` to populate it.")
+  htmltools::p("No revisions yet.")
 } else {
-  shared <- SharedData$new(revs |> filter(!is.na(release_date)))
+  rev2 <- revs |>
+    filter(!is.na(release_date)) |>
+    arrange(jurisdiction, variable_id, fiscal_year, release_date)
+
+  shared <- SharedData$new(rev2)
 
   bscols(
     widths = c(3, 9),
     list(
-      filter_select("jur", "Jurisdiction",  shared, ~jurisdiction),
-      filter_select("var", "Variable",      shared, ~canonical_label),
-      filter_select("fy",  "Forecast year", shared, ~fiscal_year)
+      filter_select("jur", "Jurisdiction",  shared, ~jurisdiction,
+                    multiple = FALSE),
+      filter_select("var", "Variable",      shared, ~canonical_label,
+                    multiple = FALSE),
+      filter_select("fy",  "Forecast year", shared, ~fiscal_year,
+                    multiple = FALSE)
     ),
     plot_ly(shared,
             x = ~release_date, y = ~value_aud_mil,
@@ -50,13 +55,15 @@ if (nrow(revs) == 0L) {
             hovertemplate = paste(
               "<b>%{text}</b><br>",
               "Released: %{x}<br>",
-              "Value: %{y:,.0f} AUD mil<extra></extra>"
+              "%{y:,.0f} AUD mil<extra></extra>"
             )) |>
-      sbm_theme_fiscal(
-        title       = "Vintage trail",
-        yaxis_title = "AUD millions"
-      ) |>
-      layout(xaxis = list(title = "Document release date"))
+      plotly::layout(
+        font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+        legend = list(orientation = "h", x = 0, y = -0.18, title = list(text = "")),
+        margin = list(l = 60L, r = 20L, t = 30L, b = 70L),
+        xaxis  = list(title = "Document release date"),
+        yaxis  = list(title = "AUD millions", tickformat = ",")
+      )
   )
 }
 ```
@@ -69,13 +76,23 @@ if (nrow(revs) == 0L) {
 } else {
   revs |>
     arrange(jurisdiction, variable_id, fiscal_year, release_date) |>
-    select(jurisdiction, variable_id, canonical_label, fiscal_year,
-           release_date, doc_type, value_aud_mil, document_id) |>
+    transmute(
+      Jurisdiction  = jurisdiction,
+      Variable      = canonical_label,
+      `Forecast FY` = fiscal_year,
+      Released      = release_date,
+      DocType       = doc_type,
+      `Value (AUD mil)` = round(value_aud_mil),
+      Source        = document_id
+    ) |>
     reactable(
       defaultPageSize = 15,
       searchable      = TRUE,
       filterable      = TRUE,
-      striped         = TRUE
+      striped         = TRUE,
+      columns = list(
+        `Value (AUD mil)` = colDef(format = colFormat(separators = TRUE))
+      )
     )
 }
 ```

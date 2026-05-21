@@ -1,0 +1,153 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5608.0,2018-19,FALSE,"Revenue","From Table 2.1.1, page 27"
+rev_total,5833.1,2019-20,TRUE,"Revenue","From Table 2.1.1, page 27"
+rev_total,6127.7,2020-21,TRUE,"Revenue","From Table 2.1.1, page 27"
+rev_total,6369.1,2021-22,TRUE,"Revenue","From Table 2.1.1, page 27"
+exp_total,5796.5,2018-19,FALSE,"Expenses","From Table 2.1.1, page 27"
+exp_total,6049.4,2019-20,TRUE,"Expenses","From Table 2.1.1, page 27"
+exp_total,6322.8,2020-21,TRUE,"Expenses","From Table 2.1.1, page 27"
+exp_total,6506.3,2021-22,TRUE,"Expenses","From Table 2.1.1, page 27"
+net_op_balance,1.5,2018-19,FALSE,"HEADLINE NET OPERATING BALANCE","From Table 2.1.1, page 27"
+net_op_balance,-27.9,2019-20,TRUE,"HEADLINE NET OPERATING BALANCE","From Table 2.1.1, page 27"
+net_op_balance,5.0,2020-21,TRUE,"HEADLINE NET OPERATING BALANCE","From Table 2.1.1, page 27"
+net_op_balance,77.4,2021-22,TRUE,"HEADLINE NET OPERATING BALANCE","From Table 2.1.1, page 27"
+cash_surplus,468.2,2018-19,FALSE,"Net Cash from Operating Activities","From Table 2.1.1, page 27"
+cash_surplus,378.3,2019-20,TRUE,"Net Cash from Operating Activities","From Table 2.1.1, page 27"
+cash_surplus,598.0,2020-21,TRUE,"Net Cash from Operating Activities","From Table 2.1.1, page 27"
+cash_surplus,581.7,2021-22,TRUE,"Net Cash from Operating Activities","From Table 2.1.1, page 27"
+net_debt,2079.3,2018-19,FALSE,"Net Debt (excluding superannuation)","From Table 2.1.1, page 27"
+net_debt,2635.9,2019-20,TRUE,"Net Debt (excluding superannuation)","From Table 2.1.1, page 27"
+net_debt,2907.8,2020-21,TRUE,"Net Debt (excluding superannuation)","From Table 2.1.1, page 27"
+net_debt,2950.2,2021-22,TRUE,"Net Debt (excluding superannuation)","From Table 2.1.1, page 27"
+net_fin_liabilities,6748.6,2018-19,FALSE,"Net Financial Liabilities","From Table 2.1.1, page 27"
+net_fin_liabilities,7277.5,2019-20,TRUE,"Net Financial Liabilities","From Table 2.1.1, page 27"
+net_fin_liabilities,7577.9,2020-21,TRUE,"Net Financial Liabilities","From Table 2.1.1, page 27"
+net_fin_liabilities,7670.9,2021-22,TRUE,"Net Financial Liabilities","From Table 2.1.1, page 27"
+econ_gsp_growth,3.5,2018-19,FALSE,"Gross State Product","From Table 1.2.1, page 11. Real percentage change"
+econ_gsp_growth,3.5,2019-20,TRUE,"Gross State Product","From Table 1.2.1, page 11. Real percentage change"
+econ_gsp_growth,3.5,2020-21,TRUE,"Gross State Product","From Table 1.2.1, page 11. Real percentage change"
+econ_gsp_growth,3.5,2021-22,TRUE,"Gross State Product","From Table 1.2.1, page 11. Real percentage change"
+econ_employment,2.0,2018-19,FALSE,"Employment","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_employment,1.75,2019-20,TRUE,"Employment","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_employment,1.5,2020-21,TRUE,"Employment","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_employment,1.5,2021-22,TRUE,"Employment","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_wpi,2.5,2018-19,FALSE,"Wage Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_wpi,2.75,2019-20,TRUE,"Wage Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_wpi,3.0,2020-21,TRUE,"Wage Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_wpi,3.25,2021-22,TRUE,"Wage Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_cpi,2.25,2018-19,FALSE,"Consumer Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_cpi,2.5,2019-20,TRUE,"Consumer Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_cpi,2.5,2020-21,TRUE,"Consumer Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_cpi,2.5,2021-22,TRUE,"Consumer Price Index","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_population,1.75,2018-19,FALSE,"Population","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_population,1.75,2019-20,TRUE,"Population","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_population,1.75,2020-21,TRUE,"Population","From Table 1.2.1, page 11. Through the year basis percentage change"
+econ_population,1.5,2021-22,TRUE,"Population","From Table 1.2.1, page 11. Through the year basis percentage change"
+rev_total,5608.000,2018-19,FALSE,Total Revenue,
+rev_total,5833.097,2019-20,TRUE,Total Revenue,
+rev_total,6127.668,2020-21,TRUE,Total Revenue,
+rev_total,6369.088,2021-22,TRUE,Total Revenue,
+rev_taxation,1906.202,2018-19,FALSE,Taxation Revenue,
+rev_taxation,2032.086,2019-20,TRUE,Taxation Revenue,
+rev_taxation,2147.033,2020-21,TRUE,Taxation Revenue,
+rev_taxation,2261.116,2021-22,TRUE,Taxation Revenue,
+rev_payroll,532.767,2018-19,FALSE,Payroll Tax,From Taxation Revenue table page 112
+rev_payroll,572.451,2019-20,TRUE,Payroll Tax,From Taxation Revenue table page 112
+rev_payroll,612.903,2020-21,TRUE,Payroll Tax,From Taxation Revenue table page 112
+rev_payroll,656.313,2021-22,TRUE,Payroll Tax,From Taxation Revenue table page 112
+rev_stamp_duty,254.777,2018-19,FALSE,Conveyances,From Taxation Revenue table page 112 - Duties section
+rev_stamp_duty,282.002,2019-20,TRUE,Conveyances,From Taxation Revenue table page 112 - Duties section
+rev_stamp_duty,283.009,2020-21,TRUE,Conveyances,From Taxation Revenue table page 112 - Duties section
+rev_stamp_duty,284.449,2021-22,TRUE,Conveyances,From Taxation Revenue table page 112 - Duties section
+rev_land_tax,141.027,2018-19,FALSE,Land Tax,From Taxation Revenue table page 112
+rev_land_tax,147.225,2019-20,TRUE,Land Tax,From Taxation Revenue table page 112
+rev_land_tax,154.237,2020-21,TRUE,Land Tax,From Taxation Revenue table page 112
+rev_land_tax,159.923,2021-22,TRUE,Land Tax,From Taxation Revenue table page 112
+rev_gambling,54.190,2018-19,FALSE,Gambling Taxes,From Taxation Revenue table page 112
+rev_gambling,56.509,2019-20,TRUE,Gambling Taxes,From Taxation Revenue table page 112
+rev_gambling,57.846,2020-21,TRUE,Gambling Taxes,From Taxation Revenue table page 112
+rev_gambling,59.242,2021-22,TRUE,Gambling Taxes,From Taxation Revenue table page 112
+rev_motor_vehicle,141.775,2018-19,FALSE,Motor Vehicle Registrations,From Taxation Revenue table page 112
+rev_motor_vehicle,148.155,2019-20,TRUE,Motor Vehicle Registrations,From Taxation Revenue table page 112
+rev_motor_vehicle,155.193,2020-21,TRUE,Motor Vehicle Registrations,From Taxation Revenue table page 112
+rev_motor_vehicle,162.565,2021-22,TRUE,Motor Vehicle Registrations,From Taxation Revenue table page 112
+rev_gst,2337.669,2018-19,FALSE,Commonwealth Grants,Operating Statement page 105
+rev_gst,2373.812,2019-20,TRUE,Commonwealth Grants,Operating Statement page 105
+rev_gst,2499.709,2020-21,TRUE,Commonwealth Grants,Operating Statement page 105
+rev_gst,2644.170,2021-22,TRUE,Commonwealth Grants,Operating Statement page 105
+rev_sales_goods_svcs,538.348,2018-19,FALSE,Sales of Goods and Services,Operating Statement page 105
+rev_sales_goods_svcs,553.869,2019-20,TRUE,Sales of Goods and Services,Operating Statement page 105
+rev_sales_goods_svcs,565.750,2020-21,TRUE,Sales of Goods and Services,Operating Statement page 105
+rev_sales_goods_svcs,576.429,2021-22,TRUE,Sales of Goods and Services,Operating Statement page 105
+rev_interest,117.422,2018-19,FALSE,Interest Income,Operating Statement page 105
+rev_interest,115.256,2019-20,TRUE,Interest Income,Operating Statement page 105
+rev_interest,114.346,2020-21,TRUE,Interest Income,Operating Statement page 105
+rev_interest,116.710,2021-22,TRUE,Interest Income,Operating Statement page 105
+rev_dividend,384.391,2018-19,FALSE,Dividend and Income Tax Equivalent Income,Operating Statement page 105
+rev_dividend,395.189,2019-20,TRUE,Dividend and Income Tax Equivalent Income,Operating Statement page 105
+rev_dividend,438.459,2020-21,TRUE,Dividend and Income Tax Equivalent Income,Operating Statement page 105
+rev_dividend,370.063,2021-22,TRUE,Dividend and Income Tax Equivalent Income,Operating Statement page 105
+rev_other,165.419,2018-19,FALSE,Other Revenue plus Distributions from Financial Investments,Operating Statement page 105 - sum of Other Revenue and Distributions
+rev_other,196.234,2019-20,TRUE,Other Revenue plus Distributions from Financial Investments,Operating Statement page 105 - sum of Other Revenue and Distributions
+rev_other,195.432,2020-21,TRUE,Other Revenue plus Distributions from Financial Investments,Operating Statement page 105 - sum of Other Revenue and Distributions
+rev_other,198.643,2021-22,TRUE,Other Revenue plus Distributions from Financial Investments,Operating Statement page 105 - sum of Other Revenue and Distributions
+exp_total,5796.513,2018-19,FALSE,Total Expenses,Operating Statement page 105
+exp_total,6049.381,2019-20,TRUE,Total Expenses,Operating Statement page 105
+exp_total,6322.825,2020-21,TRUE,Total Expenses,Operating Statement page 105
+exp_total,6506.311,2021-22,TRUE,Total Expenses,Operating Statement page 105
+exp_employee,2088.429,2018-19,FALSE,Employee Expenses,Operating Statement page 105
+exp_employee,2125.832,2019-20,TRUE,Employee Expenses,Operating Statement page 105
+exp_employee,2161.159,2020-21,TRUE,Employee Expenses,Operating Statement page 105
+exp_employee,2207.408,2021-22,TRUE,Employee Expenses,Operating Statement page 105
+exp_super,710.987,2018-19,FALSE,Superannuation Expenses,Operating Statement page 105 - sum of Superannuation Interest Cost and Other Superannuation Expenses
+exp_super,718.165,2019-20,TRUE,Superannuation Expenses,Operating Statement page 105 - sum of Superannuation Interest Cost and Other Superannuation Expenses
+exp_super,733.362,2020-21,TRUE,Superannuation Expenses,Operating Statement page 105 - sum of Superannuation Interest Cost and Other Superannuation Expenses
+exp_super,743.929,2021-22,TRUE,Superannuation Expenses,Operating Statement page 105 - sum of Superannuation Interest Cost and Other Superannuation Expenses
+exp_depreciation,425.402,2018-19,FALSE,Depreciation and Amortisation,Operating Statement page 105
+exp_depreciation,456.275,2019-20,TRUE,Depreciation and Amortisation,Operating Statement page 105
+exp_depreciation,465.771,2020-21,TRUE,Depreciation and Amortisation,Operating Statement page 105
+exp_depreciation,467.820,2021-22,TRUE,Depreciation and Amortisation,Operating Statement page 105
+exp_interest,199.727,2018-19,FALSE,Interest Expense,Operating Statement page 105
+exp_interest,218.582,2019-20,TRUE,Interest Expense,Operating Statement page 105
+exp_interest,226.071,2020-21,TRUE,Interest Expense,Operating Statement page 105
+exp_interest,239.079,2021-22,TRUE,Interest Expense,Operating Statement page 105
+exp_other_operating,1294.866,2018-19,FALSE,Other Operating Expenses,Operating Statement page 105 - sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1416.323,2019-20,TRUE,Other Operating Expenses,Operating Statement page 105 - sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1489.776,2020-21,TRUE,Other Operating Expenses,Operating Statement page 105 - sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1666.042,2021-22,TRUE,Other Operating Expenses,Operating Statement page 105 - sum of Supplies and Services and Other Operating Expenses
+exp_current_grants,1077.102,2018-19,FALSE,Grants and Purchased Services,Operating Statement page 105
+exp_current_grants,1114.204,2019-20,TRUE,Grants and Purchased Services,Operating Statement page 105
+exp_current_grants,1246.686,2020-21,TRUE,Grants and Purchased Services,Operating Statement page 105
+exp_current_grants,1182.033,2021-22,TRUE,Grants and Purchased Services,Operating Statement page 105
+net_op_balance,1.497,2018-19,FALSE,HEADLINE NET OPERATING BALANCE,Operating Statement page 106
+net_op_balance,-27.876,2019-20,TRUE,HEADLINE NET OPERATING BALANCE,Operating Statement page 106
+net_op_balance,5.001,2020-21,TRUE,HEADLINE NET OPERATING BALANCE,Operating Statement page 106
+net_op_balance,77.396,2021-22,TRUE,HEADLINE NET OPERATING BALANCE,Operating Statement page 106
+net_cap_investment,205.080,2018-19,FALSE,Total Net Acquisition of Non-Financial Assets,Operating Statement page 106
+net_cap_investment,488.431,2019-20,TRUE,Total Net Acquisition of Non-Financial Assets,Operating Statement page 106
+net_cap_investment,366.219,2020-21,TRUE,Total Net Acquisition of Non-Financial Assets,Operating Statement page 106
+net_cap_investment,213.455,2021-22,TRUE,Total Net Acquisition of Non-Financial Assets,Operating Statement page 106
+net_lending,-393.593,2018-19,FALSE,Net Lending / (Borrowing),Operating Statement page 106
+net_lending,-704.715,2019-20,TRUE,Net Lending / (Borrowing),Operating Statement page 106
+net_lending,-561.376,2020-21,TRUE,Net Lending / (Borrowing),Operating Statement page 106
+net_lending,-350.678,2021-22,TRUE,Net Lending / (Borrowing),Operating Statement page 106
+cash_surplus,-8.451,2018-19,FALSE,Cash Surplus (+) / Deficit (-),Cash Flow Statement page 111
+cash_surplus,-407.278,2019-20,TRUE,Cash Surplus (+) / Deficit (-),Cash Flow Statement page 111
+cash_surplus,-175.822,2020-21,TRUE,Cash Surplus (+) / Deficit (-),Cash Flow Statement page 111
+cash_surplus,55.913,2021-22,TRUE,Cash Surplus (+) / Deficit (-),Cash Flow Statement page 111
+net_debt,2079.339,2018-19,FALSE,Net Debt (Excluding Superannuation Related Investments),Balance Sheet page 108
+net_debt,2635.948,2019-20,TRUE,Net Debt (Excluding Superannuation Related Investments),Balance Sheet page 108
+net_debt,2907.801,2020-21,TRUE,Net Debt (Excluding Superannuation Related Investments),Balance Sheet page 108
+net_debt,2950.246,2021-22,TRUE,Net Debt (Excluding Superannuation Related Investments),Balance Sheet page 108
+net_fin_liabilities,6748.633,2018-19,FALSE,Net Financial Liabilities,Balance Sheet page 108
+net_fin_liabilities,7277.513,2019-20,TRUE,Net Financial Liabilities,Balance Sheet page 108
+net_fin_liabilities,7577.929,2020-21,TRUE,Net Financial Liabilities,Balance Sheet page 108
+net_fin_liabilities,7670.877,2021-22,TRUE,Net Financial Liabilities,Balance Sheet page 108
+net_worth,17646.596,2018-19,FALSE,Net Worth,Balance Sheet page 108
+net_worth,17806.181,2019-20,TRUE,Net Worth,Balance Sheet page 108
+net_worth,18081.612,2020-21,TRUE,Net Worth,Balance Sheet page 108
+net_worth,18389.363,2021-22,TRUE,Net Worth,Balance Sheet page 108
+capex_pnfa,709.959,2018-19,FALSE,Payments for Non-Financial Assets,Cash Flow Statement page 110
+capex_pnfa,915.381,2019-20,TRUE,Payments for Non-Financial Assets,Cash Flow Statement page 110
+capex_pnfa,924.949,2020-21,TRUE,Payments for Non-Financial Assets,Cash Flow Statement page 110
+capex_pnfa,660.950,2021-22,TRUE,Payments for Non-Financial Assets,Cash Flow Statement page 110

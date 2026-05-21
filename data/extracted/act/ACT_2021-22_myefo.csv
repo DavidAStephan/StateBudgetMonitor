@@ -1,0 +1,168 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6311.3,2020-21,FALSE,Total revenue,Actual
+rev_total,6807.2,2021-22,FALSE,Total revenue,Budget Review estimate
+rev_total,6775.9,2022-23,TRUE,Total revenue,Revised Estimate
+rev_total,6897.5,2023-24,TRUE,Total revenue,Revised Estimate
+rev_total,7162.9,2024-25,TRUE,Total revenue,Revised Estimate
+exp_total,6808.0,2020-21,FALSE,Total expenses,Actual
+exp_total,7792.8,2021-22,FALSE,Total expenses,Budget Review estimate
+exp_total,7496.1,2022-23,TRUE,Total expenses,Revised Estimate
+exp_total,7556.7,2023-24,TRUE,Total expenses,Revised Estimate
+exp_total,7798.6,2024-25,TRUE,Total expenses,Revised Estimate
+net_op_balance,-373.2,2020-21,FALSE,Net operating balance,Actual (HNOB)
+net_op_balance,-770.2,2021-22,FALSE,Net operating balance,Budget Review estimate (HNOB)
+net_op_balance,-490.2,2022-23,TRUE,Net operating balance,Revised Estimate (HNOB)
+net_op_balance,-412.8,2023-24,TRUE,Net operating balance,Revised Estimate (HNOB)
+net_op_balance,-371.9,2024-25,TRUE,Net operating balance,Revised Estimate (HNOB)
+cash_surplus,237.6,2020-21,FALSE,Net cash from operating activities,Actual
+cash_surplus,-125.3,2021-22,FALSE,Net cash from operating activities,Budget Review estimate
+cash_surplus,-62.0,2022-23,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,58.1,2023-24,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,85.6,2024-25,TRUE,Net cash from operating activities,Revised Estimate
+net_debt,4354.5,2020-21,FALSE,Net debt (excluding superannuation),Actual
+net_debt,5363.6,2021-22,FALSE,Net debt (excluding superannuation),Budget Review estimate
+net_debt,6472.6,2022-23,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_debt,7776.8,2023-24,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_debt,9089.7,2024-25,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_fin_liabilities,13339.8,2020-21,FALSE,Net financial liabilities,Actual
+net_fin_liabilities,11492.7,2021-22,FALSE,Net financial liabilities,Budget Review estimate
+net_fin_liabilities,12360.4,2022-23,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,13576.5,2023-24,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,14677.7,2024-25,TRUE,Net financial liabilities,Revised Estimate
+econ_gsp_growth,2.8,2020-21,FALSE,Gross State Product,Actual
+econ_gsp_growth,2.5,2021-22,FALSE,Gross State Product,Estimate
+econ_gsp_growth,3.25,2022-23,TRUE,Gross State Product,Forecast
+econ_gsp_growth,3.0,2023-24,TRUE,Gross State Product,Projection
+econ_gsp_growth,3.0,2024-25,TRUE,Gross State Product,Projection
+econ_employment,1.7,2020-21,FALSE,Employment growth,Actual
+econ_employment,0.25,2021-22,FALSE,Employment growth,Estimate
+econ_employment,1.25,2022-23,TRUE,Employment growth,Forecast
+econ_employment,1.25,2023-24,TRUE,Employment growth,Projection
+econ_employment,1.5,2024-25,TRUE,Employment growth,Projection
+econ_wpi,1.7,2020-21,FALSE,Wage Price Index growth,Actual
+econ_wpi,2.75,2021-22,FALSE,Wage Price Index growth,Estimate
+econ_wpi,3.0,2022-23,TRUE,Wage Price Index growth,Forecast
+econ_wpi,3.0,2023-24,TRUE,Wage Price Index growth,Projection
+econ_wpi,3.0,2024-25,TRUE,Wage Price Index growth,Projection
+econ_cpi,4.8,2020-21,FALSE,Consumer Price Index growth,Actual
+econ_cpi,3.75,2021-22,FALSE,Consumer Price Index growth,Estimate
+econ_cpi,2.75,2022-23,TRUE,Consumer Price Index growth,Forecast
+econ_cpi,2.5,2023-24,TRUE,Consumer Price Index growth,Projection
+econ_cpi,2.5,2024-25,TRUE,Consumer Price Index growth,Projection
+econ_population,0.25,2020-21,FALSE,Population growth,Actual
+econ_population,0.25,2021-22,FALSE,Population growth,Estimate
+econ_population,1.25,2022-23,TRUE,Population growth,Forecast
+econ_population,1.25,2023-24,TRUE,Population growth,Projection
+econ_population,1.25,2024-25,TRUE,Population growth,Projection
+rev_total,6807.181,2021-22,FALSE,Total revenue,
+rev_total,6775.852,2022-23,TRUE,Total revenue,
+rev_total,6897.542,2023-24,TRUE,Total revenue,
+rev_total,7162.926,2024-25,TRUE,Total revenue,
+rev_taxation,2315.144,2021-22,FALSE,Taxation revenue,
+rev_taxation,2380.414,2022-23,TRUE,Taxation revenue,
+rev_taxation,2437.877,2023-24,TRUE,Taxation revenue,
+rev_taxation,2557.594,2024-25,TRUE,Taxation revenue,
+rev_payroll,621.664,2021-22,FALSE,Payroll tax,From Table 3.4.2
+rev_payroll,664.559,2022-23,TRUE,Payroll tax,From Table 3.4.2
+rev_payroll,716.062,2023-24,TRUE,Payroll tax,From Table 3.4.2
+rev_payroll,770.662,2024-25,TRUE,Payroll tax,From Table 3.4.2
+rev_stamp_duty,396.136,2021-22,FALSE,Residential conveyances + Commercial conveyances,288.930 + 107.206 from Table 3.4.2
+rev_stamp_duty,340.623,2022-23,TRUE,Residential conveyances + Commercial conveyances,252.782 + 87.841 from Table 3.4.2
+rev_stamp_duty,283.820,2023-24,TRUE,Residential conveyances + Commercial conveyances,213.936 + 69.884 from Table 3.4.2
+rev_stamp_duty,278.318,2024-25,TRUE,Residential conveyances + Commercial conveyances,209.610 + 68.708 from Table 3.4.2
+rev_land_tax,157.957,2021-22,FALSE,Land tax,From Table 3.4.2
+rev_land_tax,177.675,2022-23,TRUE,Land tax,From Table 3.4.2
+rev_land_tax,181.925,2023-24,TRUE,Land tax,From Table 3.4.2
+rev_land_tax,188.711,2024-25,TRUE,Land tax,From Table 3.4.2
+rev_gambling,69.612,2021-22,FALSE,Total gambling taxes,From Table 3.4.2
+rev_gambling,73.107,2022-23,TRUE,Total gambling taxes,From Table 3.4.2
+rev_gambling,74.545,2023-24,TRUE,Total gambling taxes,From Table 3.4.2
+rev_gambling,75.901,2024-25,TRUE,Total gambling taxes,From Table 3.4.2
+rev_motor_vehicle,158.168,2021-22,FALSE,Motor vehicle registration,From Table 3.4.2
+rev_motor_vehicle,164.036,2022-23,TRUE,Motor vehicle registration,From Table 3.4.2
+rev_motor_vehicle,167.012,2023-24,TRUE,Motor vehicle registration,From Table 3.4.2
+rev_motor_vehicle,176.166,2024-25,TRUE,Motor vehicle registration,From Table 3.4.2
+rev_gst,1472.702,2021-22,FALSE,Goods and Services Tax,From Table 4.1
+rev_gst,1489.788,2022-23,TRUE,Goods and Services Tax,From Table 4.1
+rev_gst,1564.694,2023-24,TRUE,Goods and Services Tax,From Table 4.1
+rev_gst,1646.742,2024-25,TRUE,Goods and Services Tax,From Table 4.1
+rev_grants_tied,1449.038,2021-22,FALSE,Commonwealth grants,From Table 4.1 - includes SPPs and NPPs
+rev_grants_tied,1355.244,2022-23,TRUE,Commonwealth grants,From Table 4.1
+rev_grants_tied,1428.441,2023-24,TRUE,Commonwealth grants,From Table 4.1
+rev_grants_tied,1350.045,2024-25,TRUE,Commonwealth grants,From Table 4.1
+rev_sales_goods_svcs,605.050,2021-22,FALSE,Sales of goods and services,From Table 4.1
+rev_sales_goods_svcs,632.946,2022-23,TRUE,Sales of goods and services,From Table 4.1
+rev_sales_goods_svcs,650.617,2023-24,TRUE,Sales of goods and services,From Table 4.1
+rev_sales_goods_svcs,662.953,2024-25,TRUE,Sales of goods and services,From Table 4.1
+rev_interest,281.632,2021-22,FALSE,Investment revenue,From Table 4.1
+rev_interest,269.273,2022-23,TRUE,Investment revenue,From Table 4.1
+rev_interest,273.957,2023-24,TRUE,Investment revenue,From Table 4.1
+rev_interest,283.991,2024-25,TRUE,Investment revenue,From Table 4.1
+rev_dividend,300.918,2021-22,FALSE,Dividend and income tax equivalents income,From Table 4.1
+rev_dividend,232.433,2022-23,TRUE,Dividend and income tax equivalents income,From Table 4.1
+rev_dividend,96.274,2023-24,TRUE,Dividend and income tax equivalents income,From Table 4.1
+rev_dividend,266.144,2024-25,TRUE,Dividend and income tax equivalents income,From Table 4.1
+rev_other,203.623,2021-22,FALSE,Other revenue,From Table 4.1
+rev_other,202.716,2022-23,TRUE,Other revenue,From Table 4.1
+rev_other,201.410,2023-24,TRUE,Other revenue,From Table 4.1
+rev_other,254.999,2024-25,TRUE,Other revenue,From Table 4.1
+exp_total,7792.770,2021-22,FALSE,Total expenses,From Table 4.1
+exp_total,7496.093,2022-23,TRUE,Total expenses,From Table 4.1
+exp_total,7556.694,2023-24,TRUE,Total expenses,From Table 4.1
+exp_total,7798.555,2024-25,TRUE,Total expenses,From Table 4.1
+exp_employee,2605.872,2021-22,FALSE,Employee expenses,From Table 4.1
+exp_employee,2556.407,2022-23,TRUE,Employee expenses,From Table 4.1
+exp_employee,2632.107,2023-24,TRUE,Employee expenses,From Table 4.1
+exp_employee,2703.076,2024-25,TRUE,Employee expenses,From Table 4.1
+exp_super,861.459,2021-22,FALSE,Superannuation interest cost + Other superannuation expense,302.379 + 559.080 from Table 4.1
+exp_super,836.470,2022-23,TRUE,Superannuation interest cost + Other superannuation expense,404.714 + 431.756 from Table 4.1
+exp_super,840.961,2023-24,TRUE,Superannuation interest cost + Other superannuation expense,413.652 + 427.309 from Table 4.1
+exp_super,845.616,2024-25,TRUE,Superannuation interest cost + Other superannuation expense,421.708 + 423.908 from Table 4.1
+exp_depreciation,528.090,2021-22,FALSE,Depreciation and amortisation,From Table 4.1
+exp_depreciation,564.863,2022-23,TRUE,Depreciation and amortisation,From Table 4.1
+exp_depreciation,589.065,2023-24,TRUE,Depreciation and amortisation,From Table 4.1
+exp_depreciation,609.574,2024-25,TRUE,Depreciation and amortisation,From Table 4.1
+exp_interest,255.082,2021-22,FALSE,Interest expense,From Table 4.1
+exp_interest,287.636,2022-23,TRUE,Interest expense,From Table 4.1
+exp_interest,338.336,2023-24,TRUE,Interest expense,From Table 4.1
+exp_interest,377.238,2024-25,TRUE,Interest expense,From Table 4.1
+exp_other_operating,1712.355,2021-22,FALSE,Supplies and services + Other operating expenses,1412.843 + 299.512 from Table 4.1
+exp_other_operating,1717.882,2022-23,TRUE,Supplies and services + Other operating expenses,1413.238 + 304.644 from Table 4.1
+exp_other_operating,1751.922,2023-24,TRUE,Supplies and services + Other operating expenses,1440.004 + 311.918 from Table 4.1
+exp_other_operating,1831.168,2024-25,TRUE,Supplies and services + Other operating expenses,1509.871 + 321.297 from Table 4.1
+exp_current_grants,1829.912,2021-22,FALSE,Grants and purchased services,From Table 4.1
+exp_current_grants,1532.835,2022-23,TRUE,Grants and purchased services,From Table 4.1
+exp_current_grants,1404.303,2023-24,TRUE,Grants and purchased services,From Table 4.1
+exp_current_grants,1431.883,2024-25,TRUE,Grants and purchased services,From Table 4.1
+net_op_balance,-985.589,2021-22,FALSE,UPF net operating balance,From Table 4.1
+net_op_balance,-720.241,2022-23,TRUE,UPF net operating balance,From Table 4.1
+net_op_balance,-659.152,2023-24,TRUE,UPF net operating balance,From Table 4.1
+net_op_balance,-635.629,2024-25,TRUE,UPF net operating balance,From Table 4.1
+net_cap_investment,541.558,2021-22,FALSE,Total net acquisition of non-financial assets,From Table 4.1
+net_cap_investment,320.466,2022-23,TRUE,Total net acquisition of non-financial assets,From Table 4.1
+net_cap_investment,746.999,2023-24,TRUE,Total net acquisition of non-financial assets,From Table 4.1
+net_cap_investment,720.776,2024-25,TRUE,Total net acquisition of non-financial assets,From Table 4.1
+net_lending,-1527.147,2021-22,FALSE,Net borrowing,From Table 4.1
+net_lending,-1040.707,2022-23,TRUE,Net borrowing,From Table 4.1
+net_lending,-1406.151,2023-24,TRUE,Net borrowing,From Table 4.1
+net_lending,-1356.405,2024-25,TRUE,Net borrowing,From Table 4.1
+cash_surplus,-1071.076,2021-22,FALSE,Cash deficit,From Table 4.4
+cash_surplus,-786.567,2022-23,TRUE,Cash deficit,From Table 4.4
+cash_surplus,-1055.803,2023-24,TRUE,Cash deficit,From Table 4.4
+cash_surplus,-1121.241,2024-25,TRUE,Cash deficit,From Table 4.4
+net_debt,5363.559,2021-22,FALSE,Net debt (excluding superannuation related investments),From Table 4.2
+net_debt,6472.640,2022-23,TRUE,Net debt (excluding superannuation related investments),From Table 4.2
+net_debt,7776.775,2023-24,TRUE,Net debt (excluding superannuation related investments),From Table 4.2
+net_debt,9089.725,2024-25,TRUE,Net debt (excluding superannuation related investments),From Table 4.2
+net_fin_liabilities,11492.716,2021-22,FALSE,Net financial liabilities,From Table 4.2
+net_fin_liabilities,12360.447,2022-23,TRUE,Net financial liabilities,From Table 4.2
+net_fin_liabilities,13576.474,2023-24,TRUE,Net financial liabilities,From Table 4.2
+net_fin_liabilities,14677.708,2024-25,TRUE,Net financial liabilities,From Table 4.2
+net_worth,16203.079,2021-22,FALSE,Net worth,From Table 4.2
+net_worth,15624.277,2022-23,TRUE,Net worth,From Table 4.2
+net_worth,15353.790,2023-24,TRUE,Net worth,From Table 4.2
+net_worth,14938.698,2024-25,TRUE,Net worth,From Table 4.2
+capex_pnfa,1021.057,2021-22,FALSE,Payments for non-financial assets,From Table 4.4
+capex_pnfa,762.314,2022-23,TRUE,Payments for non-financial assets,From Table 4.4
+capex_pnfa,1152.294,2023-24,TRUE,Payments for non-financial assets,From Table 4.4
+capex_pnfa,1245.822,2024-25,TRUE,Payments for non-financial assets,From Table 4.4

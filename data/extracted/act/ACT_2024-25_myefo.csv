@@ -1,0 +1,177 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,7598.0,2023-24,FALSE,Revenue,Actual
+rev_total,8145.8,2024-25,FALSE,Revenue,Budget estimate - superseded by Budget Review
+rev_total,7976.8,2024-25,FALSE,Revenue,Budget Review estimate
+rev_total,8889.5,2025-26,TRUE,Revenue,Revised Estimate
+rev_total,9325.6,2026-27,TRUE,Revenue,Revised Estimate
+rev_total,9756.9,2027-28,TRUE,Revenue,Revised Estimate
+exp_total,8657.8,2023-24,FALSE,Expenses,Actual
+exp_total,9000.8,2024-25,FALSE,Expenses,Budget estimate - superseded by Budget Review
+exp_total,9204.6,2024-25,FALSE,Expenses,Budget Review estimate
+exp_total,9269.4,2025-26,TRUE,Expenses,Revised Estimate
+exp_total,9556.7,2026-27,TRUE,Expenses,Revised Estimate
+exp_total,9883.9,2027-28,TRUE,Expenses,Revised Estimate
+net_op_balance,-814.6,2023-24,FALSE,HEADLINE NET OPERATING BALANCE,Actual
+net_op_balance,-624.1,2024-25,FALSE,HEADLINE NET OPERATING BALANCE,Budget estimate - superseded by Budget Review
+net_op_balance,-971.7,2024-25,FALSE,HEADLINE NET OPERATING BALANCE,Budget Review estimate
+net_op_balance,-117.1,2025-26,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+net_op_balance,51.4,2026-27,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+net_op_balance,176.7,2027-28,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+cash_surplus,-117.7,2023-24,FALSE,Net cash from operating activities,Actual
+cash_surplus,24.2,2024-25,FALSE,Net cash from operating activities,Budget estimate - superseded by Budget Review
+cash_surplus,-320.5,2024-25,FALSE,Net cash from operating activities,Budget Review estimate
+cash_surplus,128.1,2025-26,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,509.2,2026-27,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,743.8,2027-28,TRUE,Net cash from operating activities,Revised Estimate
+net_debt,7293.1,2023-24,FALSE,Net debt (excluding superannuation related investments),Actual
+net_debt,8870.0,2024-25,FALSE,Net debt (excluding superannuation related investments),Budget estimate - superseded by Budget Review
+net_debt,9043.8,2024-25,FALSE,Net debt (excluding superannuation related investments),Budget Review estimate
+net_debt,10592.4,2025-26,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_debt,12010.7,2026-27,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_debt,12819.1,2027-28,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_fin_liabilities,13576.6,2023-24,FALSE,Net financial liabilities,Actual
+net_fin_liabilities,14396.4,2024-25,FALSE,Net financial liabilities,Budget estimate - superseded by Budget Review
+net_fin_liabilities,14400.3,2024-25,FALSE,Net financial liabilities,Budget Review estimate
+net_fin_liabilities,15492.7,2025-26,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,16539.0,2026-27,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,17066.3,2027-28,TRUE,Net financial liabilities,Revised Estimate
+rev_total,7598.023,2023-24,FALSE,Total revenue,Actual Outcome
+rev_total,7976.824,2024-25,FALSE,Total revenue,Budget Review
+rev_total,8889.499,2025-26,TRUE,Total revenue,Revised Estimate
+rev_total,9325.599,2026-27,TRUE,Total revenue,Revised Estimate
+rev_total,9756.922,2027-28,TRUE,Total revenue,Revised Estimate
+rev_taxation,2572.029,2023-24,FALSE,Own-source taxation,Actual Outcome
+rev_taxation,2737.144,2024-25,FALSE,Own-source taxation,Budget Review
+rev_taxation,2955.290,2025-26,TRUE,Own-source taxation,Revised Estimate
+rev_taxation,3149.447,2026-27,TRUE,Own-source taxation,Revised Estimate
+rev_taxation,3353.509,2027-28,TRUE,Own-source taxation,Revised Estimate
+rev_payroll,737.404,2023-24,FALSE,Payroll tax,Actual Outcome
+rev_payroll,839.903,2024-25,FALSE,Payroll tax,Budget Review
+rev_payroll,936.492,2025-26,TRUE,Payroll tax,Revised Estimate
+rev_payroll,1016.094,2026-27,TRUE,Payroll tax,Revised Estimate
+rev_payroll,1098.397,2027-28,TRUE,Payroll tax,Revised Estimate
+rev_stamp_duty,330.874,2023-24,FALSE,Total duties,Actual Outcome. Sum of residential and commercial conveyances
+rev_stamp_duty,327.131,2024-25,FALSE,Total duties,Budget Review. Sum of residential and commercial conveyances
+rev_stamp_duty,341.832,2025-26,TRUE,Total duties,Revised Estimate. Sum of residential and commercial conveyances
+rev_stamp_duty,350.854,2026-27,TRUE,Total duties,Revised Estimate. Sum of residential and commercial conveyances
+rev_stamp_duty,357.814,2027-28,TRUE,Total duties,Revised Estimate. Sum of residential and commercial conveyances
+rev_land_tax,205.563,2023-24,FALSE,Land tax,Actual Outcome
+rev_land_tax,217.916,2024-25,FALSE,Land tax,Budget Review
+rev_land_tax,222.630,2025-26,TRUE,Land tax,Revised Estimate
+rev_land_tax,232.899,2026-27,TRUE,Land tax,Revised Estimate
+rev_land_tax,244.845,2027-28,TRUE,Land tax,Revised Estimate
+rev_gambling,87.802,2023-24,FALSE,Total gambling taxes,Actual Outcome
+rev_gambling,87.013,2024-25,FALSE,Total gambling taxes,Budget Review
+rev_gambling,91.472,2025-26,TRUE,Total gambling taxes,Revised Estimate
+rev_gambling,96.685,2026-27,TRUE,Total gambling taxes,Revised Estimate
+rev_gambling,102.845,2027-28,TRUE,Total gambling taxes,Revised Estimate
+rev_motor_vehicle,177.342,2023-24,FALSE,Motor vehicle registration,Actual Outcome
+rev_motor_vehicle,185.762,2024-25,FALSE,Motor vehicle registration,Budget Review
+rev_motor_vehicle,195.979,2025-26,TRUE,Motor vehicle registration,Revised Estimate
+rev_motor_vehicle,206.268,2026-27,TRUE,Motor vehicle registration,Revised Estimate
+rev_motor_vehicle,216.582,2027-28,TRUE,Motor vehicle registration,Revised Estimate
+rev_gst,1894.432,2023-24,FALSE,Goods and Services Tax,Actual Outcome
+rev_gst,1982.522,2024-25,FALSE,Goods and Services Tax,Budget Review
+rev_gst,2116.915,2025-26,TRUE,Goods and Services Tax,Revised Estimate
+rev_gst,2239.159,2026-27,TRUE,Goods and Services Tax,Revised Estimate
+rev_gst,2375.763,2027-28,TRUE,Goods and Services Tax,Revised Estimate
+rev_grants_tied,1481.633,2023-24,FALSE,Commonwealth grants,Actual Outcome. Excludes GST
+rev_grants_tied,1544.775,2024-25,FALSE,Commonwealth grants,Budget Review. Excludes GST
+rev_grants_tied,1629.970,2025-26,TRUE,Commonwealth grants,Revised Estimate. Excludes GST
+rev_grants_tied,1670.990,2026-27,TRUE,Commonwealth grants,Revised Estimate. Excludes GST
+rev_grants_tied,1714.217,2027-28,TRUE,Commonwealth grants,Revised Estimate. Excludes GST
+rev_sales_goods_svcs,680.835,2023-24,FALSE,Sales of goods and services from contracts with customers,Actual Outcome
+rev_sales_goods_svcs,671.805,2024-25,FALSE,Sales of goods and services from contracts with customers,Budget Review
+rev_sales_goods_svcs,693.788,2025-26,TRUE,Sales of goods and services from contracts with customers,Revised Estimate
+rev_sales_goods_svcs,716.492,2026-27,TRUE,Sales of goods and services from contracts with customers,Revised Estimate
+rev_sales_goods_svcs,735.673,2027-28,TRUE,Sales of goods and services from contracts with customers,Revised Estimate
+rev_interest,291.277,2023-24,FALSE,Interest revenue,Actual Outcome
+rev_interest,270.829,2024-25,FALSE,Interest revenue,Budget Review
+rev_interest,258.185,2025-26,TRUE,Interest revenue,Revised Estimate
+rev_interest,279.084,2026-27,TRUE,Interest revenue,Revised Estimate
+rev_interest,361.617,2027-28,TRUE,Interest revenue,Revised Estimate
+rev_dividend,130.969,2023-24,FALSE,Dividend and income tax equivalents Income,Actual Outcome
+rev_dividend,153.153,2024-25,FALSE,Dividend and income tax equivalents Income,Budget Review
+rev_dividend,351.902,2025-26,TRUE,Dividend and income tax equivalents Income,Revised Estimate
+rev_dividend,462.286,2026-27,TRUE,Dividend and income tax equivalents Income,Revised Estimate
+rev_dividend,396.036,2027-28,TRUE,Dividend and income tax equivalents Income,Revised Estimate
+rev_other,239.544,2023-24,FALSE,Other revenue,Actual Outcome. Excludes gains from contributed assets
+rev_other,307.177,2024-25,FALSE,Other revenue,Budget Review. Excludes gains from contributed assets
+rev_other,380.997,2025-26,TRUE,Other revenue,Revised Estimate. Excludes gains from contributed assets
+rev_other,371.475,2026-27,TRUE,Other revenue,Revised Estimate. Excludes gains from contributed assets
+rev_other,402.068,2027-28,TRUE,Other revenue,Revised Estimate. Excludes gains from contributed assets
+exp_total,8657.756,2023-24,FALSE,Total expenses,Actual Outcome
+exp_total,9204.586,2024-25,FALSE,Total expenses,Budget Review
+exp_total,9269.391,2025-26,TRUE,Total expenses,Revised Estimate
+exp_total,9556.658,2026-27,TRUE,Total expenses,Revised Estimate
+exp_total,9883.905,2027-28,TRUE,Total expenses,Revised Estimate
+exp_employee,3239.809,2023-24,FALSE,Employee expenses,Actual Outcome
+exp_employee,3337.110,2024-25,FALSE,Employee expenses,Budget Review
+exp_employee,3369.589,2025-26,TRUE,Employee expenses,Revised Estimate
+exp_employee,3464.465,2026-27,TRUE,Employee expenses,Revised Estimate
+exp_employee,3569.854,2027-28,TRUE,Employee expenses,Revised Estimate
+exp_super,968.051,2023-24,FALSE,Superannuation expenses,Actual Outcome. Sum of interest cost and other super
+exp_super,997.044,2024-25,FALSE,Superannuation expenses,Budget Review. Sum of interest cost and other super
+exp_super,1018.292,2025-26,TRUE,Superannuation expenses,Revised Estimate. Sum of interest cost and other super
+exp_super,1032.110,2026-27,TRUE,Superannuation expenses,Revised Estimate. Sum of interest cost and other super
+exp_super,1042.131,2027-28,TRUE,Superannuation expenses,Revised Estimate. Sum of interest cost and other super
+exp_depreciation,604.853,2023-24,FALSE,Depreciation and amortisation,Actual Outcome
+exp_depreciation,635.343,2024-25,FALSE,Depreciation and amortisation,Budget Review
+exp_depreciation,641.913,2025-26,TRUE,Depreciation and amortisation,Revised Estimate
+exp_depreciation,647.518,2026-27,TRUE,Depreciation and amortisation,Revised Estimate
+exp_depreciation,657.721,2027-28,TRUE,Depreciation and amortisation,Revised Estimate
+exp_interest,379.588,2023-24,FALSE,Interest expense,Actual Outcome
+exp_interest,506.753,2024-25,FALSE,Interest expense,Budget Review
+exp_interest,604.230,2025-26,TRUE,Interest expense,Revised Estimate
+exp_interest,724.125,2026-27,TRUE,Interest expense,Revised Estimate
+exp_interest,863.544,2027-28,TRUE,Interest expense,Revised Estimate
+exp_other_operating,1992.174,2023-24,FALSE,Other operating expenses,Actual Outcome. Sum of supplies/services and other operating
+exp_other_operating,2137.801,2024-25,FALSE,Other operating expenses,Budget Review. Sum of supplies/services and other operating
+exp_other_operating,2098.181,2025-26,TRUE,Other operating expenses,Revised Estimate. Sum of supplies/services and other operating
+exp_other_operating,2149.700,2026-27,TRUE,Other operating expenses,Revised Estimate. Sum of supplies/services and other operating
+exp_other_operating,2191.421,2027-28,TRUE,Other operating expenses,Revised Estimate. Sum of supplies/services and other operating
+exp_current_grants,1473.281,2023-24,FALSE,Grants and purchased services,Actual Outcome
+exp_current_grants,1590.535,2024-25,FALSE,Grants and purchased services,Budget Review
+exp_current_grants,1537.186,2025-26,TRUE,Grants and purchased services,Revised Estimate
+exp_current_grants,1538.740,2026-27,TRUE,Grants and purchased services,Revised Estimate
+exp_current_grants,1559.234,2027-28,TRUE,Grants and purchased services,Revised Estimate
+net_op_balance,-1059.733,2023-24,FALSE,UPF Net operating balance,Actual Outcome
+net_op_balance,-1227.762,2024-25,FALSE,UPF Net operating balance,Budget Review
+net_op_balance,-379.892,2025-26,TRUE,UPF Net operating balance,Revised Estimate
+net_op_balance,-231.059,2026-27,TRUE,UPF Net operating balance,Revised Estimate
+net_op_balance,-126.983,2027-28,TRUE,UPF Net operating balance,Revised Estimate
+net_lending,-1586.036,2023-24,FALSE,Net lending / (borrowing),Actual Outcome
+net_lending,-1622.580,2024-25,FALSE,Net lending / (borrowing),Budget Review
+net_lending,-998.634,2025-26,TRUE,Net lending / (borrowing),Revised Estimate
+net_lending,-1092.757,2026-27,TRUE,Net lending / (borrowing),Revised Estimate
+net_lending,-770.019,2027-28,TRUE,Net lending / (borrowing),Revised Estimate
+net_debt,7293.086,2023-24,FALSE,Net debt (excluding superannuation related investments),Actual Outcome
+net_debt,9043.815,2024-25,FALSE,Net debt (excluding superannuation related investments),Budget Review
+net_debt,10592.437,2025-26,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_debt,12010.682,2026-27,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_debt,12819.114,2027-28,TRUE,Net debt (excluding superannuation related investments),Revised Estimate
+net_fin_liabilities,13576.607,2023-24,FALSE,Net financial liabilities,Actual Outcome
+net_fin_liabilities,14400.303,2024-25,FALSE,Net financial liabilities,Budget Review
+net_fin_liabilities,15492.681,2025-26,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,16538.979,2026-27,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,17066.281,2027-28,TRUE,Net financial liabilities,Revised Estimate
+net_worth,20877.200,2023-24,FALSE,Net worth,Actual Outcome
+net_worth,20486.088,2024-25,FALSE,Net worth,Budget Review
+net_worth,20366.058,2025-26,TRUE,Net worth,Revised Estimate
+net_worth,20343.348,2026-27,TRUE,Net worth,Revised Estimate
+net_worth,20413.137,2027-28,TRUE,Net worth,Revised Estimate
+capex_pnfa,1080.910,2023-24,FALSE,Payments for non-financial assets,Actual Outcome
+capex_pnfa,1016.200,2024-25,FALSE,Payments for non-financial assets,Budget Review
+capex_pnfa,1119.705,2025-26,TRUE,Payments for non-financial assets,Revised Estimate
+capex_pnfa,1415.063,2026-27,TRUE,Payments for non-financial assets,Revised Estimate
+capex_pnfa,1226.994,2027-28,TRUE,Payments for non-financial assets,Revised Estimate
+capex_infra_program,1411.399,2023-24,FALSE,Total GGS and PTE Infrastructure Investment Program forecast,Actual Outcome
+capex_infra_program,1657.621,2025-26,TRUE,Total GGS and PTE Infrastructure Investment Program forecast,Revised Estimate
+capex_infra_program,1737.651,2026-27,TRUE,Total GGS and PTE Infrastructure Investment Program forecast,Revised Estimate
+capex_infra_program,2115.223,2027-28,TRUE,Total GGS and PTE Infrastructure Investment Program forecast,Revised Estimate
+capex_infra_program,1291.716,2028-29,TRUE,Total GGS and PTE Infrastructure Investment Program forecast,Revised Estimate
+cash_surplus,-1168.262,2023-24,FALSE,Cash (deficit),Actual Outcome
+cash_surplus,-1303.622,2024-25,FALSE,Cash (deficit),Budget Review
+cash_surplus,-946.819,2025-26,TRUE,Cash (deficit),Revised Estimate
+cash_surplus,-879.434,2026-27,TRUE,Cash (deficit),Revised Estimate
+cash_surplus,-454.828,2027-28,TRUE,Cash (deficit),Revised Estimate

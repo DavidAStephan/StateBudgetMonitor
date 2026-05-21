@@ -1,0 +1,217 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5608.3,2018-19,FALSE,Revenue,Actual Outcome
+rev_total,5871.2,2019-20,FALSE,Revenue,Original Budget
+rev_total,5768.3,2019-20,FALSE,Revenue,Budget Review
+rev_total,6098.7,2020-21,TRUE,Revenue,Revised Estimate
+rev_total,6396.8,2021-22,TRUE,Revenue,Revised Estimate
+rev_total,6855.9,2022-23,TRUE,Revenue,Revised Estimate
+exp_total,5919.4,2018-19,FALSE,Expenses,Actual Outcome
+exp_total,6158.0,2019-20,FALSE,Expenses,Original Budget
+exp_total,6226.6,2019-20,FALSE,Expenses,Budget Review
+exp_total,6484.5,2020-21,TRUE,Expenses,Revised Estimate
+exp_total,6617.9,2021-22,TRUE,Expenses,Revised Estimate
+exp_total,6852.4,2022-23,TRUE,Expenses,Revised Estimate
+net_op_balance,-118.6,2018-19,FALSE,HEADLINE NET OPERATING BALANCE,Actual Outcome
+net_op_balance,-89.1,2019-20,FALSE,HEADLINE NET OPERATING BALANCE,Original Budget
+net_op_balance,-255.6,2019-20,FALSE,HEADLINE NET OPERATING BALANCE,Budget Review
+net_op_balance,-170.5,2020-21,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+net_op_balance,9.6,2021-22,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+net_op_balance,250.6,2022-23,TRUE,HEADLINE NET OPERATING BALANCE,Revised Estimate
+cash_surplus,342.6,2018-19,FALSE,Net cash from operating activities,Actual Outcome
+cash_surplus,240.9,2019-20,FALSE,Net cash from operating activities,Original Budget
+cash_surplus,108.3,2019-20,FALSE,Net cash from operating activities,Budget Review
+cash_surplus,429.9,2020-21,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,695.1,2021-22,TRUE,Net cash from operating activities,Revised Estimate
+cash_surplus,930.3,2022-23,TRUE,Net cash from operating activities,Revised Estimate
+net_debt,2215.7,2018-19,FALSE,Net debt (excluding superannuation),Actual Outcome
+net_debt,2713.9,2019-20,FALSE,Net debt (excluding superannuation),Original Budget
+net_debt,3075.5,2019-20,FALSE,Net debt (excluding superannuation),Budget Review
+net_debt,3780.5,2020-21,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_debt,4029.7,2021-22,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_debt,3924.6,2022-23,TRUE,Net debt (excluding superannuation),Revised Estimate
+net_fin_liabilities,10527.3,2018-19,FALSE,Net financial liabilities,Actual Outcome
+net_fin_liabilities,7274.9,2019-20,FALSE,Net financial liabilities,Original Budget
+net_fin_liabilities,7654.7,2019-20,FALSE,Net financial liabilities,Budget Review
+net_fin_liabilities,8349.1,2020-21,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,8726.2,2021-22,TRUE,Net financial liabilities,Revised Estimate
+net_fin_liabilities,8896.6,2022-23,TRUE,Net financial liabilities,Revised Estimate
+rev_total,5768.3,2019-20,FALSE,Total revenue,
+rev_total,6098.7,2020-21,TRUE,Total revenue,
+rev_total,6396.8,2021-22,TRUE,Total revenue,
+rev_total,6855.9,2022-23,TRUE,Total revenue,
+rev_taxation,2035.8,2019-20,FALSE,Taxation revenue,
+rev_taxation,2167.5,2020-21,TRUE,Taxation revenue,
+rev_taxation,2291.2,2021-22,TRUE,Taxation revenue,
+rev_taxation,2406.3,2022-23,TRUE,Taxation revenue,
+rev_payroll,582.5,2019-20,FALSE,Payroll tax,
+rev_payroll,623.9,2020-21,TRUE,Payroll tax,
+rev_payroll,669.6,2021-22,TRUE,Payroll tax,
+rev_payroll,716.6,2022-23,TRUE,Payroll tax,
+rev_stamp_duty,249.9,2019-20,FALSE,Conveyances,Under Duties section
+rev_stamp_duty,261.8,2020-21,TRUE,Conveyances,Under Duties section
+rev_stamp_duty,271.1,2021-22,TRUE,Conveyances,Under Duties section
+rev_stamp_duty,266.7,2022-23,TRUE,Conveyances,Under Duties section
+rev_land_tax,150.9,2019-20,FALSE,Land tax,
+rev_land_tax,158.3,2020-21,TRUE,Land tax,
+rev_land_tax,163.9,2021-22,TRUE,Land tax,
+rev_land_tax,169.0,2022-23,TRUE,Land tax,
+rev_gambling,63.7,2019-20,FALSE,Total gambling taxes,
+rev_gambling,65.0,2020-21,TRUE,Total gambling taxes,
+rev_gambling,66.4,2021-22,TRUE,Total gambling taxes,
+rev_gambling,67.8,2022-23,TRUE,Total gambling taxes,
+rev_motor_vehicle,149.6,2019-20,FALSE,Motor vehicle registrations,Under Other taxes section
+rev_motor_vehicle,158.4,2020-21,TRUE,Motor vehicle registrations,Under Other taxes section
+rev_motor_vehicle,165.0,2021-22,TRUE,Motor vehicle registrations,Under Other taxes section
+rev_motor_vehicle,172.3,2022-23,TRUE,Motor vehicle registrations,Under Other taxes section
+rev_other_tax,990.1,2019-20,FALSE,Combined other tax categories,"Includes general rates (599.1), duties excluding conveyances (33.5), and other taxes (357.5)"
+rev_other_tax,1064.0,2020-21,TRUE,Combined other tax categories,"Includes general rates (651.3), duties excluding conveyances (34.6), and other taxes (378.1)"
+rev_other_tax,1096.0,2021-22,TRUE,Combined other tax categories,"Includes general rates (696.9), duties excluding conveyances (35.8), and other taxes (363.3)"
+rev_other_tax,1136.9,2022-23,TRUE,Combined other tax categories,"Includes general rates (745.6), duties excluding conveyances (37.1), and other taxes (354.2)"
+rev_grants_tied,2387.9,2019-20,FALSE,Commonwealth grants,Includes both tied and untied grants
+rev_grants_tied,2516.0,2020-21,TRUE,Commonwealth grants,Includes both tied and untied grants
+rev_grants_tied,2604.4,2021-22,TRUE,Commonwealth grants,Includes both tied and untied grants
+rev_grants_tied,2760.8,2022-23,TRUE,Commonwealth grants,Includes both tied and untied grants
+rev_sales_goods_svcs,583.6,2019-20,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,585.1,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,595.9,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,611.8,2022-23,TRUE,Sales of goods and services,
+rev_interest,102.4,2019-20,FALSE,Interest income,
+rev_interest,96.3,2020-21,TRUE,Interest income,
+rev_interest,95.0,2021-22,TRUE,Interest income,
+rev_interest,93.5,2022-23,TRUE,Interest income,
+rev_dividend,301.2,2019-20,FALSE,Dividend and income tax equivalent income,
+rev_dividend,385.1,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_dividend,446.7,2021-22,TRUE,Dividend and income tax equivalent income,
+rev_dividend,455.1,2022-23,TRUE,Dividend and income tax equivalent income,
+rev_other,360.6,2019-20,FALSE,Other revenue and distributions,"Includes Other revenue (190.5) and Distributions from financial investments (30.4) and Gains from contributed assets (136.5)"
+rev_other,348.9,2020-21,TRUE,Other revenue and distributions,"Includes Other revenue (172.7) and Distributions from financial investments (36.1) and Gains from contributed assets (140.0)"
+rev_other,363.7,2021-22,TRUE,Other revenue and distributions,"Includes Other revenue (172.2) and Distributions from financial investments (38.7) and Gains from contributed assets (152.7)"
+rev_other,528.4,2022-23,TRUE,Other revenue and distributions,"Includes Other revenue (182.3) and Distributions from financial investments (41.4) and Gains from contributed assets (304.8)"
+exp_total,6226.6,2019-20,FALSE,Total expenses,
+exp_total,6484.5,2020-21,TRUE,Total expenses,
+exp_total,6617.9,2021-22,TRUE,Total expenses,
+exp_total,6852.4,2022-23,TRUE,Total expenses,
+exp_employee,2189.8,2019-20,FALSE,Employee expenses,
+exp_employee,2210.4,2020-21,TRUE,Employee expenses,
+exp_employee,2258.4,2021-22,TRUE,Employee expenses,
+exp_employee,2298.5,2022-23,TRUE,Employee expenses,
+exp_super,689.0,2019-20,FALSE,Total superannuation expenses,"Combined Superannuation interest cost (228.6) and Other superannuation expenses (460.4)"
+exp_super,743.1,2020-21,TRUE,Total superannuation expenses,"Combined Superannuation interest cost (402.8) and Other superannuation expenses (340.3)"
+exp_super,754.2,2021-22,TRUE,Total superannuation expenses,"Combined Superannuation interest cost (413.8) and Other superannuation expenses (340.3)"
+exp_super,762.2,2022-23,TRUE,Total superannuation expenses,"Combined Superannuation interest cost (424.1) and Other superannuation expenses (338.2)"
+exp_depreciation,473.5,2019-20,FALSE,Depreciation and amortisation,
+exp_depreciation,497.2,2020-21,TRUE,Depreciation and amortisation,
+exp_depreciation,541.7,2021-22,TRUE,Depreciation and amortisation,
+exp_depreciation,553.2,2022-23,TRUE,Depreciation and amortisation,
+exp_interest,214.7,2019-20,FALSE,Interest expense,
+exp_interest,209.5,2020-21,TRUE,Interest expense,
+exp_interest,220.8,2021-22,TRUE,Interest expense,
+exp_interest,206.1,2022-23,TRUE,Interest expense,
+exp_other_operating,1387.9,2019-20,FALSE,Other operating expenses,"Combined Supplies and services (1124.3) and Other operating expenses (263.6)"
+exp_other_operating,1440.6,2020-21,TRUE,Other operating expenses,"Combined Supplies and services (1167.6) and Other operating expenses (273.1)"
+exp_other_operating,1554.7,2021-22,TRUE,Other operating expenses,"Combined Supplies and services (1277.0) and Other operating expenses (277.6)"
+exp_other_operating,1724.7,2022-23,TRUE,Other operating expenses,"Combined Supplies and services (1439.7) and Other operating expenses (285.0)"
+exp_current_grants,1271.7,2019-20,FALSE,Grants and purchased services,
+exp_current_grants,1383.7,2020-21,TRUE,Grants and purchased services,
+exp_current_grants,1288.1,2021-22,TRUE,Grants and purchased services,
+exp_current_grants,1307.7,2022-23,TRUE,Grants and purchased services,
+net_op_balance,-458.3,2019-20,FALSE,UPF net operating balance,
+net_op_balance,-385.8,2020-21,TRUE,UPF net operating balance,
+net_op_balance,-221.1,2021-22,TRUE,UPF net operating balance,
+net_op_balance,3.5,2022-23,TRUE,UPF net operating balance,
+net_lending,-974.0,2019-20,FALSE,Net lending/(borrowing),
+net_lending,-598.6,2020-21,TRUE,Net lending/(borrowing),
+net_lending,-570.9,2021-22,TRUE,Net lending/(borrowing),
+net_lending,-377.2,2022-23,TRUE,Net lending/(borrowing),
+cash_surplus,-750.9,2019-20,FALSE,Cash surplus(+)/deficit(-),From Cash Flow Statement
+cash_surplus,-256.9,2020-21,TRUE,Cash surplus(+)/deficit(-),From Cash Flow Statement
+cash_surplus,-72.9,2021-22,TRUE,Cash surplus(+)/deficit(-),From Cash Flow Statement
+cash_surplus,272.0,2022-23,TRUE,Cash surplus(+)/deficit(-),From Cash Flow Statement
+net_debt,3075.5,2019-20,FALSE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,3780.5,2020-21,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,4029.7,2021-22,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_debt,3924.6,2022-23,TRUE,Net debt (excluding superannuation related investments),From Balance Sheet
+net_fin_liabilities,7654.7,2019-20,FALSE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,8349.1,2020-21,TRUE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,8726.2,2021-22,TRUE,Net financial liabilities,From Balance Sheet
+net_fin_liabilities,8896.6,2022-23,TRUE,Net financial liabilities,From Balance Sheet
+net_worth,17669.9,2019-20,FALSE,Net worth,From Balance Sheet
+net_worth,17612.7,2020-21,TRUE,Net worth,From Balance Sheet
+net_worth,17709.3,2021-22,TRUE,Net worth,From Balance Sheet
+net_worth,17996.4,2022-23,TRUE,Net worth,From Balance Sheet
+capex_pnfa,1017.8,2019-20,FALSE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,865.5,2020-21,TRUE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,900.9,2021-22,TRUE,Purchase of non-financial assets,From Cash Flow Statement
+capex_pnfa,791.2,2022-23,TRUE,Purchase of non-financial assets,From Cash Flow Statement
+rev_total,6034.584,2019-20,FALSE,Total revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_taxation,1988.616,2019-20,FALSE,Taxation revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_gst,2417.514,2019-20,FALSE,Commonwealth grants,Includes GST and other Commonwealth grants - not disaggregated in this table
+rev_sales_goods_svcs,940.149,2019-20,FALSE,Other sales of goods and services,From Consolidated Total Territory Operating Statement revised estimate
+rev_interest,34.341,2019-20,FALSE,Interest income,From Consolidated Total Territory Operating Statement revised estimate
+rev_dividend,76.760,2019-20,FALSE,Dividend income,From Consolidated Total Territory Operating Statement revised estimate
+rev_other,159.410,2019-20,FALSE,Other revenue,From Consolidated Total Territory Operating Statement revised estimate - excluding land revenue
+exp_total,6600.675,2019-20,FALSE,Total expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_employee,2381.531,2019-20,FALSE,Employee expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_super,702.067,2019-20,FALSE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,612.244,2019-20,FALSE,Depreciation and amortisation,From Consolidated Total Territory Operating Statement revised estimate
+exp_interest,234.317,2019-20,FALSE,Interest expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_other_operating,1632.102,2019-20,FALSE,Other operating expenses,Sum of supplies and services and other operating expenses
+net_op_balance,-566.091,2019-20,FALSE,UPF net operating balance,From Consolidated Total Territory Operating Statement revised estimate
+net_lending,-1276.040,2019-20,FALSE,Net lending/(borrowing),From Consolidated Total Territory Operating Statement revised estimate
+net_debt,4996.543,2019-20,FALSE,Net debt (excluding superannuation related investments),From Consolidated Total Territory Balance Sheet revised estimate
+net_worth,18233.905,2019-20,FALSE,Net worth,From Consolidated Total Territory Balance Sheet revised estimate
+cash_surplus,-1016.043,2019-20,FALSE,Cash surplus(+)/deficit (-),From Consolidated Total Territory Cash Flow Statement revised estimate
+rev_total,6413.762,2020-21,TRUE,Total revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_taxation,2116.483,2020-21,TRUE,Taxation revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_gst,2545.521,2020-21,TRUE,Commonwealth grants,Includes GST and other Commonwealth grants - not disaggregated in this table
+rev_sales_goods_svcs,941.185,2020-21,TRUE,Other sales of goods and services,From Consolidated Total Territory Operating Statement revised estimate
+rev_interest,27.138,2020-21,TRUE,Interest income,From Consolidated Total Territory Operating Statement revised estimate
+rev_dividend,80.809,2020-21,TRUE,Dividend income,From Consolidated Total Territory Operating Statement revised estimate
+rev_other,153.151,2020-21,TRUE,Other revenue,From Consolidated Total Territory Operating Statement revised estimate - excluding land revenue
+exp_total,6931.376,2020-21,TRUE,Total expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_employee,2411.155,2020-21,TRUE,Employee expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_super,756.409,2020-21,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,633.628,2020-21,TRUE,Depreciation and amortisation,From Consolidated Total Territory Operating Statement revised estimate
+exp_interest,230.182,2020-21,TRUE,Interest expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_other_operating,1752.330,2020-21,TRUE,Other operating expenses,Sum of supplies and services and other operating expenses
+net_op_balance,-517.614,2020-21,TRUE,UPF net operating balance,From Consolidated Total Territory Operating Statement revised estimate
+net_lending,-742.002,2020-21,TRUE,Net lending/(borrowing),From Consolidated Total Territory Operating Statement revised estimate
+net_debt,5823.613,2020-21,TRUE,Net debt (excluding superannuation related investments),From Consolidated Total Territory Balance Sheet revised estimate
+net_worth,18166.200,2020-21,TRUE,Net worth,From Consolidated Total Territory Balance Sheet revised estimate
+cash_surplus,-434.981,2020-21,TRUE,Cash surplus(+)/deficit (-),From Consolidated Total Territory Cash Flow Statement revised estimate
+rev_total,6904.342,2021-22,TRUE,Total revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_taxation,2236.753,2021-22,TRUE,Taxation revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_gst,2634.135,2021-22,TRUE,Commonwealth grants,Includes GST and other Commonwealth grants - not disaggregated in this table
+rev_sales_goods_svcs,959.905,2021-22,TRUE,Other sales of goods and services,From Consolidated Total Territory Operating Statement revised estimate
+rev_interest,24.451,2021-22,TRUE,Interest income,From Consolidated Total Territory Operating Statement revised estimate
+rev_dividend,86.596,2021-22,TRUE,Dividend income,From Consolidated Total Territory Operating Statement revised estimate
+rev_other,154.377,2021-22,TRUE,Other revenue,From Consolidated Total Territory Operating Statement revised estimate - excluding land revenue
+exp_total,7233.407,2021-22,TRUE,Total expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_employee,2464.152,2021-22,TRUE,Employee expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_super,767.936,2021-22,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,683.662,2021-22,TRUE,Depreciation and amortisation,From Consolidated Total Territory Operating Statement revised estimate
+exp_interest,241.523,2021-22,TRUE,Interest expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_other_operating,2019.617,2021-22,TRUE,Other operating expenses,Sum of supplies and services and other operating expenses
+net_op_balance,-329.065,2021-22,TRUE,UPF net operating balance,From Consolidated Total Territory Operating Statement revised estimate
+net_lending,-430.103,2021-22,TRUE,Net lending/(borrowing),From Consolidated Total Territory Operating Statement revised estimate
+net_debt,6091.627,2021-22,TRUE,Net debt (excluding superannuation related investments),From Consolidated Total Territory Balance Sheet revised estimate
+net_worth,18256.106,2021-22,TRUE,Net worth,From Consolidated Total Territory Balance Sheet revised estimate
+cash_surplus,-135.729,2021-22,TRUE,Cash surplus(+)/deficit (-),From Consolidated Total Territory Cash Flow Statement revised estimate
+rev_total,7232.573,2022-23,TRUE,Total revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_taxation,2349.471,2022-23,TRUE,Taxation revenue,From Consolidated Total Territory Operating Statement revised estimate
+rev_gst,2791.248,2022-23,TRUE,Commonwealth grants,Includes GST and other Commonwealth grants - not disaggregated in this table
+rev_sales_goods_svcs,985.463,2022-23,TRUE,Other sales of goods and services,From Consolidated Total Territory Operating Statement revised estimate
+rev_interest,21.580,2022-23,TRUE,Interest income,From Consolidated Total Territory Operating Statement revised estimate
+rev_dividend,92.743,2022-23,TRUE,Dividend income,From Consolidated Total Territory Operating Statement revised estimate
+rev_other,157.801,2022-23,TRUE,Other revenue,From Consolidated Total Territory Operating Statement revised estimate - excluding land revenue
+exp_total,7322.476,2022-23,TRUE,Total expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_employee,2508.631,2022-23,TRUE,Employee expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_super,776.404,2022-23,TRUE,Superannuation expenses,Sum of superannuation interest cost and other superannuation expenses
+exp_depreciation,700.147,2022-23,TRUE,Depreciation and amortisation,From Consolidated Total Territory Operating Statement revised estimate
+exp_interest,225.152,2022-23,TRUE,Interest expenses,From Consolidated Total Territory Operating Statement revised estimate
+exp_other_operating,2040.013,2022-23,TRUE,Other operating expenses,Sum of supplies and services and other operating expenses
+net_op_balance,-89.903,2022-23,TRUE,UPF net operating balance,From Consolidated Total Territory Operating Statement revised estimate
+net_lending,26.471,2022-23,TRUE,Net lending/(borrowing),From Consolidated Total Territory Operating Statement revised estimate
+net_debt,6012.170,2022-23,TRUE,Net debt (excluding superannuation related investments),From Consolidated Total Territory Balance Sheet revised estimate
+net_worth,18526.461,2022-23,TRUE,Net worth,From Consolidated Total Territory Balance Sheet revised estimate
+cash_surplus,226.912,2022-23,TRUE,Cash surplus(+)/deficit (-),From Consolidated Total Territory Cash Flow Statement revised estimate

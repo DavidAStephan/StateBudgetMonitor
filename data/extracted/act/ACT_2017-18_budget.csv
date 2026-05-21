@@ -1,0 +1,296 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5165.836,2016-17,FALSE,Total revenue,Estimated outcome
+rev_total,5341.439,2017-18,FALSE,Total revenue,Budget year
+rev_total,5538.705,2018-19,TRUE,Total revenue,
+rev_total,5800.362,2019-20,TRUE,Total revenue,
+rev_total,6040.337,2020-21,TRUE,Total revenue,
+exp_total,5410.579,2016-17,FALSE,Total expenses,Estimated outcome
+exp_total,5596.370,2017-18,FALSE,Total expenses,Budget year
+exp_total,5709.181,2018-19,TRUE,Total expenses,
+exp_total,5965.018,2019-20,TRUE,Total expenses,
+exp_total,6183.579,2020-21,TRUE,Total expenses,
+net_op_balance,-73.931,2016-17,FALSE,Net operating balance,Estimated outcome; excludes superannuation return adjustment
+net_op_balance,-83.409,2017-18,FALSE,Net operating balance,Budget year; excludes superannuation return adjustment
+net_op_balance,9.793,2018-19,TRUE,Net operating balance,Excludes superannuation return adjustment
+net_op_balance,27.928,2019-20,TRUE,Net operating balance,Excludes superannuation return adjustment
+net_op_balance,63.272,2020-21,TRUE,Net operating balance,Excludes superannuation return adjustment
+cash_surplus,382.981,2016-17,FALSE,Net Cash from Operating Activities,Estimated outcome
+cash_surplus,311.606,2017-18,FALSE,Net Cash from Operating Activities,Budget year
+cash_surplus,495.841,2018-19,TRUE,Net Cash from Operating Activities,
+cash_surplus,366.297,2019-20,TRUE,Net Cash from Operating Activities,
+cash_surplus,564.446,2020-21,TRUE,Net Cash from Operating Activities,
+net_debt,1746.497,2016-17,FALSE,Net Debt (excluding superannuation),Estimated outcome
+net_debt,2001.138,2017-18,FALSE,Net Debt (excluding superannuation),Budget year
+net_debt,2746.905,2018-19,TRUE,Net Debt (excluding superannuation),
+net_debt,2866.140,2019-20,TRUE,Net Debt (excluding superannuation),
+net_debt,2826.928,2020-21,TRUE,Net Debt (excluding superannuation),
+net_fin_liabilities,4768.731,2016-17,FALSE,Net Financial Liabilities,Estimated outcome
+net_fin_liabilities,5107.111,2017-18,FALSE,Net Financial Liabilities,Budget year
+net_fin_liabilities,5879.594,2018-19,TRUE,Net Financial Liabilities,
+net_fin_liabilities,6057.437,2019-20,TRUE,Net Financial Liabilities,
+net_fin_liabilities,6092.293,2020-21,TRUE,Net Financial Liabilities,
+econ_gsp_growth,3.4,2015-16,FALSE,Gross State Product,Actual real growth percentage
+econ_gsp_growth,3.25,2016-17,FALSE,Gross State Product,Estimate real growth percentage
+econ_gsp_growth,2.75,2017-18,FALSE,Gross State Product,Forecast real growth percentage
+econ_gsp_growth,2.5,2018-19,TRUE,Gross State Product,Projection real growth percentage
+econ_gsp_growth,2.5,2019-20,TRUE,Gross State Product,Projection real growth percentage
+econ_gsp_growth,2.5,2020-21,TRUE,Gross State Product,Projection real growth percentage
+econ_employment,1.8,2015-16,FALSE,Employment growth,Actual percentage through the year
+econ_employment,1.25,2016-17,FALSE,Employment growth,Estimate percentage through the year
+econ_employment,1.5,2017-18,FALSE,Employment growth,Forecast percentage through the year
+econ_employment,1.5,2018-19,TRUE,Employment growth,Projection percentage through the year
+econ_employment,1.5,2019-20,TRUE,Employment growth,Projection percentage through the year
+econ_employment,1.5,2020-21,TRUE,Employment growth,Projection percentage through the year
+econ_wpi,1.9,2015-16,FALSE,Wage Price Index growth,Actual percentage through the year
+econ_wpi,1.75,2016-17,FALSE,Wage Price Index growth,Estimate percentage through the year
+econ_wpi,2.0,2017-18,FALSE,Wage Price Index growth,Forecast percentage through the year
+econ_wpi,2.5,2018-19,TRUE,Wage Price Index growth,Projection percentage through the year
+econ_wpi,3.0,2019-20,TRUE,Wage Price Index growth,Projection percentage through the year
+econ_wpi,3.0,2020-21,TRUE,Wage Price Index growth,Projection percentage through the year
+econ_cpi,0.8,2015-16,FALSE,Consumer Price Index growth,Actual percentage through the year
+econ_cpi,2.5,2016-17,FALSE,Consumer Price Index growth,Estimate percentage through the year
+econ_cpi,2.0,2017-18,FALSE,Consumer Price Index growth,Forecast percentage through the year
+econ_cpi,2.25,2018-19,TRUE,Consumer Price Index growth,Projection percentage through the year
+econ_cpi,2.5,2019-20,TRUE,Consumer Price Index growth,Projection percentage through the year
+econ_cpi,2.5,2020-21,TRUE,Consumer Price Index growth,Projection percentage through the year
+econ_population,1.3,2015-16,FALSE,Population growth,Actual percentage through the year
+econ_population,1.5,2016-17,FALSE,Population growth,Estimate percentage through the year
+econ_population,1.5,2017-18,FALSE,Population growth,Forecast percentage through the year
+econ_population,1.5,2018-19,TRUE,Population growth,Projection percentage through the year
+econ_population,1.5,2019-20,TRUE,Population growth,Projection percentage through the year
+econ_population,1.5,2020-21,TRUE,Population growth,Projection percentage through the year
+rev_total,5165.836,2016-17,FALSE,"Total",Estimated outcome
+rev_total,5341.439,2017-18,FALSE,"Total",Budget
+rev_total,5538.705,2018-19,TRUE,"Total",Estimate
+rev_total,5800.362,2019-20,TRUE,"Total",Estimate
+rev_total,6040.337,2020-21,TRUE,"Total",Estimate
+rev_taxation,1676.673,2016-17,FALSE,"Own-Source Taxation",Estimated outcome
+rev_taxation,1752.032,2017-18,FALSE,"Own-Source Taxation",Budget
+rev_taxation,1887.304,2018-19,TRUE,"Own-Source Taxation",Estimate
+rev_taxation,1990.347,2019-20,TRUE,"Own-Source Taxation",Estimate
+rev_taxation,2099.964,2020-21,TRUE,"Own-Source Taxation",Estimate
+rev_payroll,445.357,2016-17,FALSE,"Payroll Tax",Estimated outcome
+rev_payroll,470.254,2017-18,FALSE,"Payroll Tax",Budget
+rev_payroll,504.413,2018-19,TRUE,"Payroll Tax",Estimate
+rev_payroll,542.183,2019-20,TRUE,"Payroll Tax",Estimate
+rev_payroll,580.556,2020-21,TRUE,"Payroll Tax",Estimate
+rev_stamp_duty,306.08,2016-17,FALSE,"Total Duties (Commercial + Residential Conveyances)",Estimated outcome; sum of commercial and residential conveyances
+rev_stamp_duty,268.194,2017-18,FALSE,"Total Duties (Commercial + Residential Conveyances)",Budget; sum of commercial and residential conveyances
+rev_stamp_duty,283.499,2018-19,TRUE,"Total Duties (Commercial + Residential Conveyances)",Estimate; sum of commercial and residential conveyances
+rev_stamp_duty,286.563,2019-20,TRUE,"Total Duties (Commercial + Residential Conveyances)",Estimate; sum of commercial and residential conveyances
+rev_stamp_duty,287.766,2020-21,TRUE,"Total Duties (Commercial + Residential Conveyances)",Estimate; sum of commercial and residential conveyances
+rev_land_tax,110.344,2016-17,FALSE,"Land Tax",Estimated outcome
+rev_land_tax,130.079,2017-18,FALSE,"Land Tax",Budget
+rev_land_tax,140.212,2018-19,TRUE,"Land Tax",Estimate
+rev_land_tax,146.195,2019-20,TRUE,"Land Tax",Estimate
+rev_land_tax,152.437,2020-21,TRUE,"Land Tax",Estimate
+rev_gambling,50.77,2016-17,FALSE,"Total gambling taxes",Estimated outcome
+rev_gambling,52.059,2017-18,FALSE,"Total gambling taxes",Budget
+rev_gambling,55.19,2018-19,TRUE,"Total gambling taxes",Estimate
+rev_gambling,56.509,2019-20,TRUE,"Total gambling taxes",Estimate
+rev_gambling,57.846,2020-21,TRUE,"Total gambling taxes",Estimate
+rev_motor_vehicle,128.87,2016-17,FALSE,"Motor Vehicle Registration",Estimated outcome
+rev_motor_vehicle,136.968,2017-18,FALSE,"Motor Vehicle Registration",Budget
+rev_motor_vehicle,145.909,2018-19,TRUE,"Motor Vehicle Registration",Estimate
+rev_motor_vehicle,145.894,2019-20,TRUE,"Motor Vehicle Registration",Estimate
+rev_motor_vehicle,150.986,2020-21,TRUE,"Motor Vehicle Registration",Estimate
+rev_other_tax,160.362,2016-17,FALSE,"Total Other Taxes",Estimated outcome; excludes motor vehicle registration
+rev_other_tax,175.927,2017-18,FALSE,"Total Other Taxes",Budget; excludes motor vehicle registration
+rev_other_tax,192.178,2018-19,TRUE,"Total Other Taxes",Estimate; excludes motor vehicle registration
+rev_other_tax,200.758,2019-20,TRUE,"Total Other Taxes",Estimate; excludes motor vehicle registration
+rev_other_tax,208.759,2020-21,TRUE,"Total Other Taxes",Estimate; excludes motor vehicle registration
+rev_gst,1568.8,2016-17,FALSE,"GST revenue",Estimated outcome; calculated as Commonwealth Grants minus tied grants
+rev_gst,1667.3,2017-18,FALSE,"GST revenue",Budget; calculated as Commonwealth Grants minus tied grants
+rev_gst,1719.9,2018-19,TRUE,"GST revenue",Estimate; calculated as Commonwealth Grants minus tied grants
+rev_gst,1766.2,2019-20,TRUE,"GST revenue",Estimate; calculated as Commonwealth Grants minus tied grants
+rev_gst,1848.8,2020-21,TRUE,"GST revenue",Estimate; calculated as Commonwealth Grants minus tied grants
+rev_sales_goods_svcs,492.229,2016-17,FALSE,"Sales of Goods and Services",Estimated outcome
+rev_sales_goods_svcs,520.623,2017-18,FALSE,"Sales of Goods and Services",Budget
+rev_sales_goods_svcs,535.008,2018-19,TRUE,"Sales of Goods and Services",Estimate
+rev_sales_goods_svcs,547.609,2019-20,TRUE,"Sales of Goods and Services",Estimate
+rev_sales_goods_svcs,560.129,2020-21,TRUE,"Sales of Goods and Services",Estimate
+rev_interest,124.521,2016-17,FALSE,"Interest Income",Estimated outcome
+rev_interest,125.124,2017-18,FALSE,"Interest Income",Budget
+rev_interest,112.053,2018-19,TRUE,"Interest Income",Estimate
+rev_interest,119.268,2019-20,TRUE,"Interest Income",Estimate
+rev_interest,115.406,2020-21,TRUE,"Interest Income",Estimate
+rev_dividend,472.182,2016-17,FALSE,"Dividend and Income Tax Equivalents",Estimated outcome
+rev_dividend,407.963,2017-18,FALSE,"Dividend and Income Tax Equivalents",Budget
+rev_dividend,343.243,2018-19,TRUE,"Dividend and Income Tax Equivalents",Estimate
+rev_dividend,403.577,2019-20,TRUE,"Dividend and Income Tax Equivalents",Estimate
+rev_dividend,391.773,2020-21,TRUE,"Dividend and Income Tax Equivalents",Estimate
+rev_other,152.61,2016-17,FALSE,"Other",Estimated outcome
+rev_other,164.493,2017-18,FALSE,"Other",Budget
+rev_other,149.823,2018-19,TRUE,"Other",Estimate
+rev_other,147.662,2019-20,TRUE,"Other",Estimate
+rev_other,152.615,2020-21,TRUE,"Other",Estimate
+rev_gst,1224.615,2017-18,FALSE,GST Revenue,
+rev_gst,1286.584,2018-19,TRUE,GST Revenue,
+rev_gst,1325.269,2019-20,TRUE,GST Revenue,
+rev_gst,1398.634,2020-21,TRUE,GST Revenue,
+rev_total,5158.168,2017-18,FALSE,Total revenue,Includes ACT Municipal Services payments of $39.562m
+rev_total,5385.824,2018-19,TRUE,Total revenue,
+rev_total,5549.893,2019-20,TRUE,Total revenue,
+rev_total,5756.671,2020-21,TRUE,Total revenue,
+exp_total,5058.652,2017-18,FALSE,Total expenses,
+exp_total,5219.303,2018-19,TRUE,Total expenses,
+exp_total,5358.044,2019-20,TRUE,Total expenses,
+exp_total,5480.566,2020-21,TRUE,Total expenses,
+net_op_balance,99.516,2017-18,FALSE,Net operating balance,
+net_op_balance,166.521,2018-19,TRUE,Net operating balance,
+net_op_balance,191.849,2019-20,TRUE,Net operating balance,
+net_op_balance,276.105,2020-21,TRUE,Net operating balance,
+net_debt,2001.1,2017-18,FALSE,Net debt (excluding super),
+net_debt,2746.9,2018-19,TRUE,Net debt (excluding super),
+net_debt,2866.1,2019-20,TRUE,Net debt (excluding super),
+net_debt,2826.9,2020-21,TRUE,Net debt (excluding super),
+net_fin_liabilities,5107.1,2017-18,FALSE,Net financial liabilities,
+net_fin_liabilities,5879.6,2018-19,TRUE,Net financial liabilities,
+net_fin_liabilities,6057.4,2019-20,TRUE,Net financial liabilities,
+net_fin_liabilities,6092.3,2020-21,TRUE,Net financial liabilities,
+net_worth,18002.3,2017-18,FALSE,Net worth,
+net_worth,18168.7,2018-19,TRUE,Net worth,
+net_worth,18344.8,2019-20,TRUE,Net worth,
+net_worth,18578.1,2020-21,TRUE,Net worth,
+rev_total,5341.439,2017-18,FALSE,"Total Revenue",
+rev_total,5538.705,2018-19,TRUE,"Total Revenue",
+rev_total,5800.362,2019-20,TRUE,"Total Revenue",
+rev_total,6040.337,2020-21,TRUE,"Total Revenue",
+rev_taxation,1752.032,2017-18,FALSE,"Taxation Revenue",
+rev_taxation,1887.304,2018-19,TRUE,"Taxation Revenue",
+rev_taxation,1990.347,2019-20,TRUE,"Taxation Revenue",
+rev_taxation,2099.964,2020-21,TRUE,"Taxation Revenue",
+rev_payroll,470.432,2017-18,FALSE,"Taxes on Employers' Payroll and Labour Force",Table 9.5
+rev_payroll,504.595,2018-19,TRUE,"Taxes on Employers' Payroll and Labour Force",Table 9.5
+rev_payroll,542.365,2019-20,TRUE,"Taxes on Employers' Payroll and Labour Force",Table 9.5
+rev_payroll,580.743,2020-21,TRUE,"Taxes on Employers' Payroll and Labour Force",Table 9.5
+rev_stamp_duty,851.714,2017-18,FALSE,"Other (Taxes on Property)",From Table 9.5 - includes stamp duties
+rev_stamp_duty,925.56,2018-19,TRUE,"Other (Taxes on Property)",From Table 9.5 - includes stamp duties
+rev_stamp_duty,977.904,2019-20,TRUE,"Other (Taxes on Property)",From Table 9.5 - includes stamp duties
+rev_stamp_duty,1031.51,2020-21,TRUE,"Other (Taxes on Property)",From Table 9.5 - includes stamp duties
+rev_land_tax,130.079,2017-18,FALSE,"Land Taxes",Table 9.5
+rev_land_tax,140.212,2018-19,TRUE,"Land Taxes",Table 9.5
+rev_land_tax,146.195,2019-20,TRUE,"Land Taxes",Table 9.5
+rev_land_tax,152.437,2020-21,TRUE,"Land Taxes",Table 9.5
+rev_gambling,52.059,2017-18,FALSE,"Taxes on Gambling",Table 9.5
+rev_gambling,55.19,2018-19,TRUE,"Taxes on Gambling",Table 9.5
+rev_gambling,56.509,2019-20,TRUE,"Taxes on Gambling",Table 9.5
+rev_gambling,57.846,2020-21,TRUE,"Taxes on Gambling",Table 9.5
+rev_motor_vehicle,167.494,2017-18,FALSE,"Motor Vehicle Taxes",Table 9.5
+rev_motor_vehicle,177.245,2018-19,TRUE,"Motor Vehicle Taxes",Table 9.5
+rev_motor_vehicle,178.291,2019-20,TRUE,"Motor Vehicle Taxes",Table 9.5
+rev_motor_vehicle,184.481,2020-21,TRUE,"Motor Vehicle Taxes",Table 9.5
+rev_other_tax,39.027,2017-18,FALSE,"Other (Taxes on Use of Goods)",Table 9.5
+rev_other_tax,41.509,2018-19,TRUE,"Other (Taxes on Use of Goods)",Table 9.5
+rev_other_tax,44.137,2019-20,TRUE,"Other (Taxes on Use of Goods)",Table 9.5
+rev_other_tax,45.963,2020-21,TRUE,"Other (Taxes on Use of Goods)",Table 9.5
+rev_gst,1264.177,2017-18,FALSE,"GST Revenue and Municipal Grants",Table 9.6
+rev_gst,1326.699,2018-19,TRUE,"GST Revenue and Municipal Grants",Table 9.6
+rev_gst,1365.986,2019-20,TRUE,"GST Revenue and Municipal Grants",Table 9.6
+rev_gst,1439.921,2020-21,TRUE,"GST Revenue and Municipal Grants",Table 9.6
+rev_grants_tied,852.232,2017-18,FALSE,"Other Contributions and Grants (Current + Capital)",Table 9.6 - calculated as sum
+rev_grants_tied,911.008,2018-19,TRUE,"Other Contributions and Grants (Current + Capital)",Table 9.6 - calculated as sum
+rev_grants_tied,938.505,2019-20,TRUE,"Other Contributions and Grants (Current + Capital)",Table 9.6 - calculated as sum
+rev_grants_tied,988.728,2020-21,TRUE,"Other Contributions and Grants (Current + Capital)",Table 9.6 - calculated as sum
+rev_sales_goods_svcs,520.623,2017-18,FALSE,"Sales of Goods and Services",
+rev_sales_goods_svcs,535.008,2018-19,TRUE,"Sales of Goods and Services",
+rev_sales_goods_svcs,547.609,2019-20,TRUE,"Sales of Goods and Services",
+rev_sales_goods_svcs,560.129,2020-21,TRUE,"Sales of Goods and Services",
+rev_interest,125.124,2017-18,FALSE,"Interest Income",
+rev_interest,112.053,2018-19,TRUE,"Interest Income",
+rev_interest,119.268,2019-20,TRUE,"Interest Income",
+rev_interest,115.406,2020-21,TRUE,"Interest Income",
+rev_dividend,407.963,2017-18,FALSE,"Dividend and Income Tax Equivalents Income",
+rev_dividend,343.243,2018-19,TRUE,"Dividend and Income Tax Equivalents Income",
+rev_dividend,403.577,2019-20,TRUE,"Dividend and Income Tax Equivalents Income",
+rev_dividend,391.773,2020-21,TRUE,"Dividend and Income Tax Equivalents Income",
+rev_other,321.361,2017-18,FALSE,"Other Revenue + Distributions + Gains from Contributed Assets",Calculated sum of Other Revenue + Distributions from Financial Investments + Gains from Contributed Assets
+rev_other,397.128,2018-19,TRUE,"Other Revenue + Distributions + Gains from Contributed Assets",Calculated sum
+rev_other,399.36,2019-20,TRUE,"Other Revenue + Distributions + Gains from Contributed Assets",Calculated sum
+rev_other,469.406,2020-21,TRUE,"Other Revenue + Distributions + Gains from Contributed Assets",Calculated sum
+exp_total,5596.37,2017-18,FALSE,"Total Expenses",
+exp_total,5709.181,2018-19,TRUE,"Total Expenses",
+exp_total,5965.018,2019-20,TRUE,"Total Expenses",
+exp_total,6183.579,2020-21,TRUE,"Total Expenses",
+exp_employee,1963.198,2017-18,FALSE,"Employee Expenses",
+exp_employee,1983.439,2018-19,TRUE,"Employee Expenses",
+exp_employee,2017.794,2019-20,TRUE,"Employee Expenses",
+exp_employee,2051.128,2020-21,TRUE,"Employee Expenses",
+exp_super,654.465,2017-18,FALSE,"Superannuation Expenses (Interest Cost + Other)",Calculated as sum of Superannuation Interest Cost + Other Superannuation Expense
+exp_super,662.493,2018-19,TRUE,"Superannuation Expenses (Interest Cost + Other)",Calculated sum
+exp_super,669.938,2019-20,TRUE,"Superannuation Expenses (Interest Cost + Other)",Calculated sum
+exp_super,680.943,2020-21,TRUE,"Superannuation Expenses (Interest Cost + Other)",Calculated sum
+exp_depreciation,379.602,2017-18,FALSE,"Depreciation and Amortisation",
+exp_depreciation,414.18,2018-19,TRUE,"Depreciation and Amortisation",
+exp_depreciation,434.792,2019-20,TRUE,"Depreciation and Amortisation",
+exp_depreciation,430.502,2020-21,TRUE,"Depreciation and Amortisation",
+exp_interest,200.728,2017-18,FALSE,"Interest Expense",
+exp_interest,211.536,2018-19,TRUE,"Interest Expense",
+exp_interest,234.549,2019-20,TRUE,"Interest Expense",
+exp_interest,230.082,2020-21,TRUE,"Interest Expense",
+exp_other_operating,1306.169,2017-18,FALSE,"Other Operating Expenses (Supplies and Services + Other)",Calculated as sum of Supplies and Services + Other Operating Expenses
+exp_other_operating,1320.663,2018-19,TRUE,"Other Operating Expenses (Supplies and Services + Other)",Calculated sum
+exp_other_operating,1385.005,2019-20,TRUE,"Other Operating Expenses (Supplies and Services + Other)",Calculated sum
+exp_other_operating,1507.746,2020-21,TRUE,"Other Operating Expenses (Supplies and Services + Other)",Calculated sum
+exp_current_grants,1027.584,2017-18,FALSE,"Current grants and subsidies",From Table 9.7 - Total Current Grant Expense
+exp_current_grants,1030.273,2018-19,TRUE,"Current grants and subsidies",From Table 9.7
+exp_current_grants,1078.495,2019-20,TRUE,"Current grants and subsidies",From Table 9.7
+exp_current_grants,1100.629,2020-21,TRUE,"Current grants and subsidies",From Table 9.7
+exp_capital_grants,64.624,2017-18,FALSE,"Capital grants",From Table 9.7 - Total Capital Grant Expense
+exp_capital_grants,86.597,2018-19,TRUE,"Capital grants",From Table 9.7
+exp_capital_grants,144.445,2019-20,TRUE,"Capital grants",From Table 9.7
+exp_capital_grants,182.549,2020-21,TRUE,"Capital grants",From Table 9.7
+exp_health,1524.492,2017-18,FALSE,"Health",Table 9.10 - Function 05
+exp_health,1568.197,2018-19,TRUE,"Health",Table 9.10
+exp_health,1636.815,2019-20,TRUE,"Health",Table 9.10
+exp_health,1718.233,2020-21,TRUE,"Health",Table 9.10
+exp_education,1149.346,2017-18,FALSE,"Education",Table 9.10 - Function 04
+exp_education,1188.366,2018-19,TRUE,"Education",Table 9.10
+exp_education,1222.526,2019-20,TRUE,"Education",Table 9.10
+exp_education,1251.383,2020-21,TRUE,"Education",Table 9.10
+exp_public_order,446.898,2017-18,FALSE,"Public Order and Safety",Table 9.10 - Function 03
+exp_public_order,446.04,2018-19,TRUE,"Public Order and Safety",Table 9.10
+exp_public_order,452.72,2019-20,TRUE,"Public Order and Safety",Table 9.10
+exp_public_order,469.374,2020-21,TRUE,"Public Order and Safety",Table 9.10
+exp_transport_comms,355.35,2017-18,FALSE,"Transport and Communications",Table 9.10 - Function 12
+exp_transport_comms,409.613,2018-19,TRUE,"Transport and Communications",Table 9.10
+exp_transport_comms,428.44,2019-20,TRUE,"Transport and Communications",Table 9.10
+exp_transport_comms,442.556,2020-21,TRUE,"Transport and Communications",Table 9.10
+exp_social_security,319.218,2017-18,FALSE,"Social Security",Table 9.10 - Function 06
+exp_social_security,328.974,2018-19,TRUE,"Social Security",Table 9.10
+exp_social_security,359.426,2019-20,TRUE,"Social Security",Table 9.10
+exp_social_security,372.419,2020-21,TRUE,"Social Security",Table 9.10
+exp_general_public,506.887,2017-18,FALSE,"General Public Services",Table 9.10 - Function 01
+exp_general_public,493.943,2018-19,TRUE,"General Public Services",Table 9.10
+exp_general_public,504.432,2019-20,TRUE,"General Public Services",Table 9.10
+exp_general_public,520.467,2020-21,TRUE,"General Public Services",Table 9.10
+exp_recreation,231.611,2017-18,FALSE,"Recreation and Culture",Table 9.10 - Function 08
+exp_recreation,218.912,2018-19,TRUE,"Recreation and Culture",Table 9.10
+exp_recreation,223.415,2019-20,TRUE,"Recreation and Culture",Table 9.10
+exp_recreation,229.337,2020-21,TRUE,"Recreation and Culture",Table 9.10
+exp_other_function,462.568,2017-18,FALSE,"Other functions",Table 9.10 - calculated as sum of functions 07+09+10+11+13
+exp_other_function,455.136,2018-19,TRUE,"Other functions",Table 9.10 - calculated sum
+exp_other_function,497.245,2019-20,TRUE,"Other functions",Table 9.10 - calculated sum
+exp_other_function,519.81,2020-21,TRUE,"Other functions",Table 9.10 - calculated sum
+net_op_balance,-254.931,2017-18,FALSE,"UPF Net Operating Balance",
+net_op_balance,-170.476,2018-19,TRUE,"UPF Net Operating Balance",
+net_op_balance,-164.656,2019-20,TRUE,"UPF Net Operating Balance",
+net_op_balance,-143.242,2020-21,TRUE,"UPF Net Operating Balance",
+net_cap_investment,294.687,2017-18,FALSE,"Total Net Acquisition of Non-Financial Assets",
+net_cap_investment,207.586,2018-19,TRUE,"Total Net Acquisition of Non-Financial Assets",
+net_cap_investment,191.876,2019-20,TRUE,"Total Net Acquisition of Non-Financial Assets",
+net_cap_investment,105.065,2020-21,TRUE,"Total Net Acquisition of Non-Financial Assets",
+net_lending,-549.618,2017-18,FALSE,"Net Lending/(Borrowing)",
+net_lending,-378.062,2018-19,TRUE,"Net Lending/(Borrowing)",
+net_lending,-356.532,2019-20,TRUE,"Net Lending/(Borrowing)",
+net_lending,-248.307,2020-21,TRUE,"Net Lending/(Borrowing)",
+cash_surplus,-258.312,2017-18,FALSE,"Cash Surplus (+) /Deficit (-)",From Table 9.4
+cash_surplus,-2.039,2018-19,TRUE,"Cash Surplus (+) /Deficit (-)",From Table 9.4
+cash_surplus,-172.413,2019-20,TRUE,"Cash Surplus (+) /Deficit (-)",From Table 9.4
+cash_surplus,107.622,2020-21,TRUE,"Cash Surplus (+) /Deficit (-)",From Table 9.4
+net_debt,2001.138,2017-18,FALSE,"Net Debt (excluding Superannuation Related Investments)",From Table 9.2
+net_debt,2746.905,2018-19,TRUE,"Net Debt (excluding Superannuation Related Investments)",From Table 9.2
+net_debt,2866.14,2019-20,TRUE,"Net Debt (excluding Superannuation Related Investments)",From Table 9.2
+net_debt,2826.928,2020-21,TRUE,"Net Debt (excluding Superannuation Related Investments)",From Table 9.2
+net_fin_liabilities,5107.111,2017-18,FALSE,"Net Financial Liabilities",From Table 9.2
+net_fin_liabilities,5879.594,2018-19

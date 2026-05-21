@@ -1,0 +1,197 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,22173,2021-22,FALSE,Total revenue,
+rev_taxation,5038,2021-22,FALSE,Taxation revenue,
+rev_payroll,1440,2021-22,FALSE,Payroll tax,
+rev_stamp_duty,1055,2021-22,FALSE,Conveyances,
+rev_land_tax,544,2021-22,FALSE,Land tax - private and public combined,Combined private (376) and public (168)
+rev_gambling,462,2021-22,FALSE,Gambling tax,
+rev_motor_vehicle,762,2021-22,FALSE,Motor vehicle taxes,
+rev_other_tax,1775,2021-22,FALSE,Other taxation revenue,Includes insurance taxes (531) + other property taxes (242) calculated as residual
+rev_gst,6711,2021-22,FALSE,GST revenue grants,
+rev_grants_tied,5130,2021-22,FALSE,Commonwealth tied grants,SPP grants (3735) + NP grants (1395)
+rev_grants_untied,0,2021-22,FALSE,Commonwealth untied grants (ex-GST),Not separately identified in MYBR
+rev_sales_goods_svcs,2797,2021-22,FALSE,Sales of goods and services,
+rev_interest,29,2021-22,FALSE,Interest income,
+rev_dividend,175,2021-22,FALSE,Dividend and income tax equivalent income,
+rev_other,2264,2021-22,FALSE,Other revenue,Includes other contributions/grants (722) + royalties (336) + other (1235) but partial overlap with line items
+exp_total,23763,2021-22,FALSE,Total expenses,
+exp_employee,9102,2021-22,FALSE,Employee expenses,
+exp_super,1128,2021-22,FALSE,Superannuation expenses,Superannuation interest cost (188) + Other superannuation expenses (940)
+exp_depreciation,1435,2021-22,FALSE,Depreciation and amortisation,
+exp_interest,505,2021-22,FALSE,Interest expenses,
+exp_other_operating,7849,2021-22,FALSE,Other operating expenses,
+exp_current_grants,3743,2021-22,FALSE,Grants,Assuming current grants as capital grants not separately shown
+net_op_balance,-1590,2021-22,FALSE,Net operating balance,
+net_lending,-2902,2021-22,FALSE,Net lending / borrowing,
+net_debt,16807,2021-22,FALSE,Net debt,
+net_fin_liabilities,31421,2021-22,FALSE,Net financial liabilities,
+net_worth,45918,2021-22,FALSE,Net Worth,
+capex_pnfa,2992,2021-22,FALSE,Purchases of non-financial assets,
+rev_total,23046,2022-23,TRUE,Total revenue,
+rev_taxation,5046,2022-23,TRUE,Taxation revenue,
+rev_payroll,1507,2022-23,TRUE,Payroll tax,
+rev_stamp_duty,950,2022-23,TRUE,Conveyances,
+rev_land_tax,538,2022-23,TRUE,Land tax - private and public combined,Combined private (366) and public (172)
+rev_gambling,471,2022-23,TRUE,Gambling tax,
+rev_motor_vehicle,776,2022-23,TRUE,Motor vehicle taxes,
+rev_other_tax,1804,2022-23,TRUE,Other taxation revenue,Includes insurance taxes (549) + other property taxes (255) calculated as residual
+rev_gst,7142,2022-23,TRUE,GST revenue grants,
+rev_grants_tied,5484,2022-23,TRUE,Commonwealth tied grants,SPP grants (3826) + NP grants (1658)
+rev_grants_untied,0,2022-23,TRUE,Commonwealth untied grants (ex-GST),Not separately identified in MYBR
+rev_sales_goods_svcs,2847,2022-23,TRUE,Sales of goods and services,
+rev_interest,139,2022-23,TRUE,Interest income,
+rev_dividend,190,2022-23,TRUE,Dividend and income tax equivalent income,
+rev_other,2198,2022-23,TRUE,Other revenue,Includes other contributions/grants (643) + royalties (329) + other (1227)
+exp_total,22944,2022-23,TRUE,Total expenses,
+exp_employee,9250,2022-23,TRUE,Employee expenses,
+exp_super,1129,2022-23,TRUE,Superannuation expenses,Superannuation interest cost (170) + Other superannuation expenses (959)
+exp_depreciation,1492,2022-23,TRUE,Depreciation and amortisation,
+exp_interest,717,2022-23,TRUE,Interest expenses,
+exp_other_operating,7498,2022-23,TRUE,Other operating expenses,
+exp_current_grants,2859,2022-23,TRUE,Grants,
+net_op_balance,102,2022-23,TRUE,Net operating balance,
+net_lending,-1907,2022-23,TRUE,Net lending / borrowing,
+net_debt,19104,2022-23,TRUE,Net debt,
+net_fin_liabilities,33087,2022-23,TRUE,Net financial liabilities,
+net_worth,46519,2022-23,TRUE,Net Worth,
+capex_pnfa,3592,2022-23,TRUE,Purchases of non-financial assets,
+rev_total,24432,2023-24,TRUE,Total revenue,
+rev_taxation,5237,2023-24,TRUE,Taxation revenue,
+rev_payroll,1574,2023-24,TRUE,Payroll tax,
+rev_stamp_duty,1011,2023-24,TRUE,Conveyances,
+rev_land_tax,549,2023-24,TRUE,Land tax - private and public combined,Combined private (373) and public (176)
+rev_gambling,481,2023-24,TRUE,Gambling tax,
+rev_motor_vehicle,795,2023-24,TRUE,Motor vehicle taxes,
+rev_other_tax,1827,2023-24,TRUE,Other taxation revenue,Includes insurance taxes (568) + other property taxes (258) calculated as residual
+rev_gst,7773,2023-24,TRUE,GST revenue grants,
+rev_grants_tied,5888,2023-24,TRUE,Commonwealth tied grants,SPP grants (3993) + NP grants (1895)
+rev_grants_untied,0,2023-24,TRUE,Commonwealth untied grants (ex-GST),Not separately identified in MYBR
+rev_sales_goods_svcs,2898,2023-24,TRUE,Sales of goods and services,
+rev_interest,219,2023-24,TRUE,Interest income,
+rev_dividend,211,2023-24,TRUE,Dividend and income tax equivalent income,
+rev_other,2206,2023-24,TRUE,Other revenue,Includes other contributions/grants (637) + royalties (336) + other (1233)
+exp_total,23767,2023-24,TRUE,Total expenses,
+exp_employee,9416,2023-24,TRUE,Employee expenses,
+exp_super,1141,2023-24,TRUE,Superannuation expenses,Superannuation interest cost (158) + Other superannuation expenses (983)
+exp_depreciation,1552,2023-24,TRUE,Depreciation and amortisation,
+exp_interest,871,2023-24,TRUE,Interest expenses,
+exp_other_operating,7674,2023-24,TRUE,Other operating expenses,
+exp_current_grants,3113,2023-24,TRUE,Grants,
+net_op_balance,666,2023-24,TRUE,Net operating balance,
+net_lending,-2071,2023-24,TRUE,Net lending / borrowing,
+net_debt,21628,2023-24,TRUE,Net debt,
+net_fin_liabilities,34997,2023-24,TRUE,Net financial liabilities,
+net_worth,47822,2023-24,TRUE,Net Worth,
+capex_pnfa,4417,2023-24,TRUE,Purchases of non-financial assets,
+rev_total,24857,2024-25,TRUE,Total revenue,
+rev_taxation,5423,2024-25,TRUE,Taxation revenue,
+rev_payroll,1644,2024-25,TRUE,Payroll tax,
+rev_stamp_duty,1057,2024-25,TRUE,Conveyances,
+rev_land_tax,563,2024-25,TRUE,Land tax - private and public combined,Combined private (382) and public (181)
+rev_gambling,489,2024-25,TRUE,Gambling tax,
+rev_motor_vehicle,814,2024-25,TRUE,Motor vehicle taxes,
+rev_other_tax,1856,2024-25,TRUE,Other taxation revenue,Includes insurance taxes (590) + other property taxes (266) calculated as residual
+rev_gst,7995,2024-25,TRUE,GST revenue grants,
+rev_grants_tied,5696,2024-25,TRUE,Commonwealth tied grants,SPP grants (4152) + NP grants (1544)
+rev_grants_untied,0,2024-25,TRUE,Commonwealth untied grants (ex-GST),Not separately identified in MYBR
+rev_sales_goods_svcs,2972,2024-25,TRUE,Sales of goods and services,
+rev_interest,280,2024-25,TRUE,Interest income,
+rev_dividend,243,2024-25,TRUE,Dividend and income tax equivalent income,
+rev_other,2248,2024-25,TRUE,Other revenue,Includes other contributions/grants (646) + royalties (342) + other (1260)
+exp_total,24319,2024-25,TRUE,Total expenses,
+exp_employee,9609,2024-25,TRUE,Employee expenses,
+exp_super,1145,2024-25,TRUE,Superannuation expenses,Superannuation interest cost (146) + Other superannuation expenses (999)
+exp_depreciation,1636,2024-25,TRUE,Depreciation and amortisation,
+exp_interest,999,2024-25,TRUE,Interest expenses,
+exp_other_operating,7676,2024-25,TRUE,Other operating expenses,
+exp_current_grants,3254,2024-25,TRUE,Grants,
+net_op_balance,537,2024-25,TRUE,Net operating balance,
+net_lending,-1326,2024-25,TRUE,Net lending / borrowing,
+net_debt,23377,2024-25,TRUE,Net debt,
+net_fin_liabilities,36134,2024-25,TRUE,Net financial liabilities,
+net_worth,49081,2024-25,TRUE,Net Worth,
+capex_pnfa,3578,2024-25,TRUE,Purchases of non-financial assets,
+rev_taxation,5338,2021-22,FALSE,Taxes received,
+rev_taxation,5049,2022-23,TRUE,Taxes received,
+rev_taxation,5232,2023-24,TRUE,Taxes received,
+rev_taxation,5418,2024-25,TRUE,Taxes received,
+rev_sales_goods_svcs,2696,2021-22,FALSE,Receipts from sales of goods and services,
+rev_sales_goods_svcs,2744,2022-23,TRUE,Receipts from sales of goods and services,
+rev_sales_goods_svcs,2798,2023-24,TRUE,Receipts from sales of goods and services,
+rev_sales_goods_svcs,2869,2024-25,TRUE,Receipts from sales of goods and services,
+rev_gst,6711,2021-22,FALSE,General purpose grants,From Table B.11(part a)
+rev_gst,7142,2022-23,TRUE,General purpose grants,From Table B.11(part a)
+rev_gst,7773,2023-24,TRUE,General purpose grants,From Table B.11(part a)
+rev_gst,7995,2024-25,TRUE,General purpose grants,From Table B.11(part a)
+rev_grants_tied,4294,2021-22,FALSE,Commonwealth tied grants,Sum of National partnership grants (556+116+2454) and Specific purpose grants (1169)
+rev_grants_tied,4221,2022-23,TRUE,Commonwealth tied grants,Sum of National partnership grants (309+200+2484) and Specific purpose grants (1228)
+rev_grants_tied,4310,2023-24,TRUE,Commonwealth tied grants,Sum of National partnership grants (243+184+2603) and Specific purpose grants (1280)
+rev_grants_tied,4344,2024-25,TRUE,Commonwealth tied grants,Sum of National partnership grants (124+180+2721) and Specific purpose grants (1319)
+rev_interest,18,2021-22,FALSE,Interest receipts,
+rev_interest,128,2022-23,TRUE,Interest receipts,
+rev_interest,201,2023-24,TRUE,Interest receipts,
+rev_interest,261,2024-25,TRUE,Interest receipts,
+rev_dividend,214,2021-22,FALSE,Dividends and income tax equivalents,
+rev_dividend,215,2022-23,TRUE,Dividends and income tax equivalents,
+rev_dividend,236,2023-24,TRUE,Dividends and income tax equivalents,
+rev_dividend,269,2024-25,TRUE,Dividends and income tax equivalents,
+rev_other,2255,2021-22,FALSE,Other receipts and contributions,Sum of Other receipts (1569) and Other contributions and grants (156+5+16+5)
+rev_other,2288,2022-23,TRUE,Other receipts and contributions,Sum of Other receipts (1583) and Other contributions and grants (139+5+5+8)
+rev_other,2246,2023-24,TRUE,Other receipts and contributions,Sum of Other receipts (1596) and Other contributions and grants (137+5+5+6)
+rev_other,2282,2024-25,TRUE,Other receipts and contributions,Sum of Other receipts (1631) and Other contributions and grants (137+5+5+5)
+rev_total,22570,2021-22,FALSE,Total operating receipts,
+rev_total,22930,2022-23,TRUE,Total operating receipts,
+rev_total,24306,2023-24,TRUE,Total operating receipts,
+rev_total,24743,2024-25,TRUE,Total operating receipts,
+exp_employee,10505,2021-22,FALSE,Payments to employees,
+exp_employee,10625,2022-23,TRUE,Payments to employees,
+exp_employee,10783,2023-24,TRUE,Payments to employees,
+exp_employee,10991,2024-25,TRUE,Payments to employees,
+exp_interest,494,2021-22,FALSE,Interest paid,
+exp_interest,677,2022-23,TRUE,Interest paid,
+exp_interest,840,2023-24,TRUE,Interest paid,
+exp_interest,986,2024-25,TRUE,Interest paid,
+exp_current_grants,3738,2021-22,FALSE,Grants and subsidies paid,From Table B.7
+exp_current_grants,2853,2022-23,TRUE,Grants and subsidies paid,From Table B.7
+exp_current_grants,3108,2023-24,TRUE,Grants and subsidies paid,From Table B.7
+exp_current_grants,3249,2024-25,TRUE,Grants and subsidies paid,From Table B.7
+exp_other_operating,7902,2021-22,FALSE,Purchases of goods and services and other,Sum of Purchases of goods and services (5837) and Other payments (2065)
+exp_other_operating,7411,2022-23,TRUE,Purchases of goods and services and other,Sum of Purchases of goods and services (5481) and Other payments (1930)
+exp_other_operating,7595,2023-24,TRUE,Purchases of goods and services and other,Sum of Purchases of goods and services (5650) and Other payments (1945)
+exp_other_operating,7607,2024-25,TRUE,Purchases of goods and services and other,Sum of Purchases of goods and services (5597) and Other payments (2010)
+net_lending,-69,2021-22,FALSE,Net cash flows from operating activities,
+net_lending,1363,2022-23,TRUE,Net cash flows from operating activities,
+net_lending,1981,2023-24,TRUE,Net cash flows from operating activities,
+net_lending,1910,2024-25,TRUE,Net cash flows from operating activities,
+capex_pnfa,2687,2021-22,FALSE,Purchases of non-financial assets,
+capex_pnfa,3338,2022-23,TRUE,Purchases of non-financial assets,
+capex_pnfa,3743,2023-24,TRUE,Purchases of non-financial assets,
+capex_pnfa,3384,2024-25,TRUE,Purchases of non-financial assets,
+cash_surplus,-2563,2021-22,FALSE,Cash surplus / (deficit),
+cash_surplus,-1932,2022-23,TRUE,Cash surplus / (deficit),
+cash_surplus,-1710,2023-24,TRUE,Cash surplus / (deficit),
+cash_surplus,-1427,2024-25,TRUE,Cash surplus / (deficit),
+rev_payroll,1440,2021-22,FALSE,Taxes on employers' payroll and labour force,From Table B.10
+rev_payroll,1507,2022-23,TRUE,Taxes on employers' payroll and labour force,From Table B.10
+rev_payroll,1574,2023-24,TRUE,Taxes on employers' payroll and labour force,From Table B.10
+rev_payroll,1644,2024-25,TRUE,Taxes on employers' payroll and labour force,From Table B.10
+rev_land_tax,544,2021-22,FALSE,Land taxes,From Table B.10
+rev_land_tax,538,2022-23,TRUE,Land taxes,From Table B.10
+rev_land_tax,549,2023-24,TRUE,Land taxes,From Table B.10
+rev_land_tax,563,2024-25,TRUE,Land taxes,From Table B.10
+rev_stamp_duty,1055,2021-22,FALSE,Stamp duties on financial and capital transactions,From Table B.10
+rev_stamp_duty,950,2022-23,TRUE,Stamp duties on financial and capital transactions,From Table B.10
+rev_stamp_duty,1011,2023-24,TRUE,Stamp duties on financial and capital transactions,From Table B.10
+rev_stamp_duty,1057,2024-25,TRUE,Stamp duties on financial and capital transactions,From Table B.10
+rev_gambling,462,2021-22,FALSE,Taxes on gambling,From Table B.10
+rev_gambling,471,2022-23,TRUE,Taxes on gambling,From Table B.10
+rev_gambling,481,2023-24,TRUE,Taxes on gambling,From Table B.10
+rev_gambling,489,2024-25,TRUE,Taxes on gambling,From Table B.10
+rev_motor_vehicle,762,2021-22,FALSE,Motor vehicle taxes,From Table B.10
+rev_motor_vehicle,776,2022-23,TRUE,Motor vehicle taxes,From Table B.10
+rev_motor_vehicle,795,2023-24,TRUE,Motor vehicle taxes,From Table B.10
+rev_motor_vehicle,814,2024-25,TRUE,Motor vehicle taxes,From Table B.10
+rev_other_tax,775,2021-22,FALSE,Other taxation,Sum of Other property taxes (242) and Taxes on insurance (531)
+rev_other_tax,804,2022-23,TRUE,Other taxation,Sum of Other property taxes (255) and Taxes on insurance (549)
+rev_other_tax,826,2023-24,TRUE,Other taxation,Sum of Other property taxes (258) and Taxes on insurance (568)
+rev_other_tax,856,2024-25,TRUE,Other taxation,Sum of Other property taxes (266) and Taxes on insurance (590)

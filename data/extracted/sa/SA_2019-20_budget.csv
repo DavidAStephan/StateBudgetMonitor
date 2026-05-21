@@ -1,0 +1,359 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,20359.0,2018-19,FALSE,Total revenue,Estimated Result
+rev_total,20197.9,2019-20,FALSE,Total revenue,
+rev_total,20543.5,2020-21,TRUE,Total revenue,
+rev_total,21233.3,2021-22,TRUE,Total revenue,
+rev_total,22118.0,2022-23,TRUE,Total revenue,
+rev_taxation,4564.7,2018-19,FALSE,Taxation revenue,Estimated Result
+rev_taxation,4579.9,2019-20,FALSE,Taxation revenue,
+rev_taxation,4774.0,2020-21,TRUE,Taxation revenue,
+rev_taxation,4974.0,2021-22,TRUE,Taxation revenue,
+rev_taxation,5177.9,2022-23,TRUE,Taxation revenue,
+rev_payroll,1253.4,2018-19,FALSE,Payroll tax,Estimated Result
+rev_payroll,1282.0,2019-20,FALSE,Payroll tax,
+rev_payroll,1341.6,2020-21,TRUE,Payroll tax,
+rev_payroll,1407.2,2021-22,TRUE,Payroll tax,
+rev_payroll,1478.9,2022-23,TRUE,Payroll tax,
+rev_stamp_duty,769.0,2018-19,FALSE,Conveyance duty,Estimated Result
+rev_stamp_duty,801.0,2019-20,FALSE,Conveyance duty,
+rev_stamp_duty,864.0,2020-21,TRUE,Conveyance duty,
+rev_stamp_duty,926.0,2021-22,TRUE,Conveyance duty,
+rev_stamp_duty,991.0,2022-23,TRUE,Conveyance duty,
+rev_land_tax,617.0,2018-19,FALSE,Land tax - private and public combined,Estimated Result private 381 + public 236
+rev_land_tax,645.0,2019-20,FALSE,Land tax - private and public combined,private 403 + public 242
+rev_land_tax,663.0,2020-21,TRUE,Land tax - private and public combined,private 415 + public 248
+rev_land_tax,676.0,2021-22,TRUE,Land tax - private and public combined,private 423 + public 253
+rev_land_tax,692.0,2022-23,TRUE,Land tax - private and public combined,private 432 + public 260
+rev_gambling,408.4,2018-19,FALSE,Gambling taxes,Estimated Result
+rev_gambling,409.6,2019-20,FALSE,Gambling taxes,
+rev_gambling,417.7,2020-21,TRUE,Gambling taxes,
+rev_gambling,425.7,2021-22,TRUE,Gambling taxes,
+rev_gambling,433.1,2022-23,TRUE,Gambling taxes,
+rev_motor_vehicle,662.7,2018-19,FALSE,Motor vehicle taxes,Estimated Result
+rev_motor_vehicle,717.5,2019-20,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,737.3,2020-21,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,758.1,2021-22,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,780.3,2022-23,TRUE,Motor vehicle taxes,
+rev_gst,6715.7,2018-19,FALSE,GST revenue grants,Estimated Result
+rev_gst,6758.0,2019-20,FALSE,GST revenue grants,
+rev_gst,6948.2,2020-21,TRUE,GST revenue grants,
+rev_gst,7107.4,2021-22,TRUE,GST revenue grants,
+rev_gst,7423.7,2022-23,TRUE,GST revenue grants,
+rev_grants_tied,2987.1,2018-19,FALSE,Commonwealth tied grants,Estimated Result ongoing tied 2041.8 + ongoing tied on-passing 945.3
+rev_grants_tied,3245.6,2019-20,FALSE,Commonwealth tied grants,ongoing tied 2251.9 + ongoing tied on-passing 993.7
+rev_grants_tied,3397.3,2020-21,TRUE,Commonwealth tied grants,ongoing tied 2323.8 + ongoing tied on-passing 1073.5
+rev_grants_tied,3582.8,2021-22,TRUE,Commonwealth tied grants,ongoing tied 2441.0 + ongoing tied on-passing 1141.8
+rev_grants_tied,3775.2,2022-23,TRUE,Commonwealth tied grants,ongoing tied 2563.8 + ongoing tied on-passing 1211.4
+rev_sales_goods_svcs,2597.2,2018-19,FALSE,Sales of goods and services,Estimated Result
+rev_sales_goods_svcs,2639.7,2019-20,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2711.0,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2791.5,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2881.6,2022-23,TRUE,Sales of goods and services,
+rev_interest,23.0,2018-19,FALSE,Interest income,Estimated Result
+rev_interest,135.6,2019-20,FALSE,Interest income,Affected by accounting presentation changes from 2019-20
+rev_interest,169.5,2020-21,TRUE,Interest income,
+rev_interest,205.6,2021-22,TRUE,Interest income,
+rev_interest,279.4,2022-23,TRUE,Interest income,
+rev_dividend,497.5,2018-19,FALSE,Dividend and income tax equivalent income,Estimated Result
+rev_dividend,346.3,2019-20,FALSE,Dividend and income tax equivalent income,
+rev_dividend,354.7,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_dividend,375.1,2021-22,TRUE,Dividend and income tax equivalent income,
+rev_dividend,405.4,2022-23,TRUE,Dividend and income tax equivalent income,
+rev_other,763.9,2018-19,FALSE,Other revenue,Estimated Result
+rev_other,847.8,2019-20,FALSE,Other revenue,
+rev_other,786.6,2020-21,TRUE,Other revenue,
+rev_other,783.7,2021-22,TRUE,Other revenue,
+rev_other,783.3,2022-23,TRUE,Other revenue,
+exp_total,20258.0,2018-19,FALSE,Total expenses,Estimated Result
+exp_total,20104.0,2019-20,FALSE,Total expenses,
+exp_total,20439.0,2020-21,TRUE,Total expenses,
+exp_total,21091.0,2021-22,TRUE,Total expenses,
+exp_total,21867.0,2022-23,TRUE,Total expenses,
+exp_employee,8645.0,2018-19,FALSE,Employee expenses,Estimated Result
+exp_employee,8522.0,2019-20,FALSE,Employee expenses,
+exp_employee,8563.0,2020-21,TRUE,Employee expenses,
+exp_employee,8717.0,2021-22,TRUE,Employee expenses,
+exp_employee,8967.0,2022-23,TRUE,Employee expenses,
+exp_super,1184.0,2018-19,FALSE,Superannuation expenses,Estimated Result - interest cost 322 + other 862
+exp_super,1122.0,2019-20,FALSE,Superannuation expenses,interest cost 266 + other 856
+exp_super,1114.0,2020-21,TRUE,Superannuation expenses,interest cost 255 + other 859
+exp_super,1116.0,2021-22,TRUE,Superannuation expenses,interest cost 242 + other 874
+exp_super,1128.0,2022-23,TRUE,Superannuation expenses,interest cost 229 + other 899
+exp_depreciation,1073.0,2018-19,FALSE,Depreciation and amortisation,Estimated Result
+exp_depreciation,1302.0,2019-20,FALSE,Depreciation and amortisation,
+exp_depreciation,1313.0,2020-21,TRUE,Depreciation and amortisation,
+exp_depreciation,1339.0,2021-22,TRUE,Depreciation and amortisation,
+exp_depreciation,1368.0,2022-23,TRUE,Depreciation and amortisation,
+exp_interest,368.0,2018-19,FALSE,Interest expenses,Estimated Result
+exp_interest,518.0,2019-20,FALSE,Interest expenses,Affected by accounting presentation changes from 2019-20
+exp_interest,586.0,2020-21,TRUE,Interest expenses,
+exp_interest,682.0,2021-22,TRUE,Interest expenses,
+exp_interest,814.0,2022-23,TRUE,Interest expenses,
+exp_other_operating,5274.0,2018-19,FALSE,Other operating expenses,Estimated Result
+exp_other_operating,5832.0,2019-20,FALSE,Other operating expenses,
+exp_other_operating,5991.0,2020-21,TRUE,Other operating expenses,
+exp_other_operating,6278.0,2021-22,TRUE,Other operating expenses,
+exp_other_operating,6668.0,2022-23,TRUE,Other operating expenses,
+exp_capital_grants,3714.0,2018-19,FALSE,Grants,Estimated Result
+exp_capital_grants,2808.0,2019-20,FALSE,Grants,
+exp_capital_grants,2872.0,2020-21,TRUE,Grants,
+exp_capital_grants,2959.0,2021-22,TRUE,Grants,
+exp_capital_grants,2922.0,2022-23,TRUE,Grants,
+net_op_balance,101.0,2018-19,FALSE,Net operating balance,Estimated Result
+net_op_balance,94.0,2019-20,FALSE,Net operating balance,
+net_op_balance,105.0,2020-21,TRUE,Net operating balance,
+net_op_balance,142.0,2021-22,TRUE,Net operating balance,
+net_op_balance,251.0,2022-23,TRUE,Net operating balance,
+net_cap_investment,680.0,2018-19,FALSE,Total net acquisition of non-financial assets,Estimated Result
+net_cap_investment,1163.0,2019-20,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,759.0,2020-21,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,1131.0,2021-22,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,836.0,2022-23,TRUE,Total net acquisition of non-financial assets,
+net_lending,-579.0,2018-19,FALSE,Net lending/borrowing,Estimated Result
+net_lending,-1069.0,2019-20,FALSE,Net lending/borrowing,
+net_lending,-654.0,2020-21,TRUE,Net lending/borrowing,
+net_lending,-989.0,2021-22,TRUE,Net lending/borrowing,
+net_lending,-585.0,2022-23,TRUE,Net lending/borrowing,
+net_debt,6289.0,2018-19,FALSE,Net debt - GG sector,Estimated Result
+net_debt,9468.0,2019-20,FALSE,Net debt - GG sector,
+net_debt,10752.0,2020-21,TRUE,Net debt - GG sector,
+net_debt,12278.0,2021-22,TRUE,Net debt - GG sector,
+net_debt,13208.0,2022-23,TRUE,Net debt - GG sector,
+capex_pnfa,1843.0,2018-19,FALSE,Purchases of non-financial assets,Estimated Result
+capex_pnfa,2572.0,2019-20,FALSE,Purchases of non-financial assets,
+capex_pnfa,2377.0,2020-21,TRUE,Purchases of non-financial assets,
+capex_pnfa,2506.0,2021-22,TRUE,Purchases of non-financial assets,
+capex_pnfa,2281.0,2022-23,TRUE,Purchases of non-financial assets,
+rev_total,20343,2018-19,FALSE,Total revenue,Estimated result
+rev_total,20202,2019-20,TRUE,Total revenue,
+rev_total,20551,2020-21,TRUE,Total revenue,
+rev_total,21231,2021-22,TRUE,Total revenue,
+rev_total,22122,2022-23,TRUE,Total revenue,
+rev_taxation,3821,2018-19,FALSE,Taxation,Estimated result
+rev_taxation,3916,2019-20,TRUE,Taxation,
+rev_taxation,4012,2020-21,TRUE,Taxation,
+rev_taxation,4161,2021-22,TRUE,Taxation,
+rev_taxation,4297,2022-23,TRUE,Taxation,
+rev_payroll,1245,2018-19,FALSE,Payroll tax,Estimated result
+rev_payroll,1279,2019-20,TRUE,Payroll tax,
+rev_payroll,1313,2020-21,TRUE,Payroll tax,
+rev_payroll,1363,2021-22,TRUE,Payroll tax,
+rev_payroll,1417,2022-23,TRUE,Payroll tax,
+rev_stamp_duty,846,2018-19,FALSE,Stamp duties,Estimated result
+rev_stamp_duty,840,2019-20,TRUE,Stamp duties,
+rev_stamp_duty,855,2020-21,TRUE,Stamp duties,
+rev_stamp_duty,874,2021-22,TRUE,Stamp duties,
+rev_stamp_duty,887,2022-23,TRUE,Stamp duties,
+rev_land_tax,799,2018-19,FALSE,Land tax,Estimated result
+rev_land_tax,810,2019-20,TRUE,Land tax,
+rev_land_tax,825,2020-21,TRUE,Land tax,
+rev_land_tax,845,2021-22,TRUE,Land tax,
+rev_land_tax,862,2022-23,TRUE,Land tax,
+rev_gambling,424,2018-19,FALSE,Gambling taxes,Estimated result
+rev_gambling,430,2019-20,TRUE,Gambling taxes,
+rev_gambling,435,2020-21,TRUE,Gambling taxes,
+rev_gambling,439,2021-22,TRUE,Gambling taxes,
+rev_gambling,443,2022-23,TRUE,Gambling taxes,
+rev_motor_vehicle,442,2018-19,FALSE,Motor vehicle taxes,Estimated result
+rev_motor_vehicle,478,2019-20,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,498,2020-21,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,549,2021-22,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,596,2022-23,TRUE,Motor vehicle taxes,
+rev_other_tax,65,2018-19,FALSE,Other taxation,Estimated result
+rev_other_tax,79,2019-20,TRUE,Other taxation,
+rev_other_tax,86,2020-21,TRUE,Other taxation,
+rev_other_tax,91,2021-22,TRUE,Other taxation,
+rev_other_tax,92,2022-23,TRUE,Other taxation,
+rev_gst,6789,2018-19,FALSE,GST revenue grants,Estimated result
+rev_gst,6748,2019-20,TRUE,GST revenue grants,
+rev_gst,6963,2020-21,TRUE,GST revenue grants,
+rev_gst,7181,2021-22,TRUE,GST revenue grants,
+rev_gst,7435,2022-23,TRUE,GST revenue grants,
+rev_grants_tied,4940,2018-19,FALSE,Commonwealth tied grants,Estimated result
+rev_grants_tied,4790,2019-20,TRUE,Commonwealth tied grants,
+rev_grants_tied,4855,2020-21,TRUE,Commonwealth tied grants,
+rev_grants_tied,5094,2021-22,TRUE,Commonwealth tied grants,
+rev_grants_tied,5328,2022-23,TRUE,Commonwealth tied grants,
+rev_sales_goods_svcs,1850,2018-19,FALSE,Sales of goods and services,Estimated result
+rev_sales_goods_svcs,1842,2019-20,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1854,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1866,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,1876,2022-23,TRUE,Sales of goods and services,
+rev_interest,162,2018-19,FALSE,Interest income,Estimated result
+rev_interest,367,2019-20,TRUE,Interest income,
+rev_interest,411,2020-21,TRUE,Interest income,
+rev_interest,458,2021-22,TRUE,Interest income,
+rev_interest,504,2022-23,TRUE,Interest income,
+rev_dividend,392,2018-19,FALSE,Dividend and income tax equivalent income,Estimated result
+rev_dividend,263,2019-20,TRUE,Dividend and income tax equivalent income,
+rev_dividend,274,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_dividend,291,2021-22,TRUE,Dividend and income tax equivalent income,
+rev_dividend,309,2022-23,TRUE,Dividend and income tax equivalent income,
+rev_other,1389,2018-19,FALSE,Other revenue,Estimated result
+rev_other,2276,2019-20,TRUE,Other revenue,
+rev_other,2182,2020-21,TRUE,Other revenue,
+rev_other,2180,2021-22,TRUE,Other revenue,
+rev_other,2373,2022-23,TRUE,Other revenue,
+exp_total,20242,2018-19,FALSE,Total expenses,Estimated result
+exp_total,20108,2019-20,TRUE,Total expenses,
+exp_total,20446,2020-21,TRUE,Total expenses,
+exp_total,21089,2021-22,TRUE,Total expenses,
+exp_total,21871,2022-23,TRUE,Total expenses,
+exp_employee,7865,2018-19,FALSE,Employee expenses,Estimated result
+exp_employee,7883,2019-20,TRUE,Employee expenses,
+exp_employee,7953,2020-21,TRUE,Employee expenses,
+exp_employee,8117,2021-22,TRUE,Employee expenses,
+exp_employee,8271,2022-23,TRUE,Employee expenses,
+exp_super,700,2018-19,FALSE,Superannuation expenses,Estimated result
+exp_super,710,2019-20,TRUE,Superannuation expenses,
+exp_super,719,2020-21,TRUE,Superannuation expenses,
+exp_super,728,2021-22,TRUE,Superannuation expenses,
+exp_super,737,2022-23,TRUE,Superannuation expenses,
+exp_depreciation,1073,2018-19,FALSE,Depreciation,Estimated result
+exp_depreciation,1302,2019-20,TRUE,Depreciation,
+exp_depreciation,1313,2020-21,TRUE,Depreciation,
+exp_depreciation,1339,2021-22,TRUE,Depreciation,
+exp_depreciation,1368,2022-23,TRUE,Depreciation,
+exp_interest,269,2018-19,FALSE,Interest expenses,Estimated result
+exp_interest,389,2019-20,TRUE,Interest expenses,
+exp_interest,416,2020-21,TRUE,Interest expenses,
+exp_interest,451,2021-22,TRUE,Interest expenses,
+exp_interest,486,2022-23,TRUE,Interest expenses,
+exp_other_operating,4463,2018-19,FALSE,Other operating expenses,Estimated result
+exp_other_operating,4474,2019-20,TRUE,Other operating expenses,
+exp_other_operating,4555,2020-21,TRUE,Other operating expenses,
+exp_other_operating,4655,2021-22,TRUE,Other operating expenses,
+exp_other_operating,4779,2022-23,TRUE,Other operating expenses,
+exp_current_grants,4793,2018-19,FALSE,Grants and subsidies expenses,Estimated result
+exp_current_grants,4430,2019-20,TRUE,Grants and subsidies expenses,
+exp_current_grants,4578,2020-21,TRUE,Grants and subsidies expenses,
+exp_current_grants,4820,2021-22,TRUE,Grants and subsidies expenses,
+exp_current_grants,5123,2022-23,TRUE,Grants and subsidies expenses,
+net_op_balance,101,2018-19,FALSE,Net operating balance,Estimated result
+net_op_balance,94,2019-20,TRUE,Net operating balance,
+net_op_balance,105,2020-21,TRUE,Net operating balance,
+net_op_balance,142,2021-22,TRUE,Net operating balance,
+net_op_balance,251,2022-23,TRUE,Net operating balance,
+net_cap_investment,1747,2018-19,FALSE,Net capital investment,Estimated result
+net_cap_investment,2304,2019-20,TRUE,Net capital investment,
+net_cap_investment,1861,2020-21,TRUE,Net capital investment,
+net_cap_investment,2072,2021-22,TRUE,Net capital investment,
+net_cap_investment,2056,2022-23,TRUE,Net capital investment,
+net_lending,-1646,2018-19,FALSE,Net lending/(borrowing),Estimated result
+net_lending,-2210,2019-20,TRUE,Net lending/(borrowing),
+net_lending,-1756,2020-21,TRUE,Net lending/(borrowing),
+net_lending,-1930,2021-22,TRUE,Net lending/(borrowing),
+net_lending,-1805,2022-23,TRUE,Net lending/(borrowing),
+cash_surplus,652,2018-19,FALSE,Cash surplus/(deficit),Estimated result
+cash_surplus,1438,2019-20,TRUE,Cash surplus/(deficit),
+cash_surplus,893,2020-21,TRUE,Cash surplus/(deficit),
+cash_surplus,1000,2021-22,TRUE,Cash surplus/(deficit),
+cash_surplus,729,2022-23,TRUE,Cash surplus/(deficit),
+net_debt,6289,2018-19,FALSE,Net debt,Estimated result
+net_debt,9468,2019-20,TRUE,Net debt,
+net_debt,10752,2020-21,TRUE,Net debt,
+net_debt,12278,2021-22,TRUE,Net debt,
+net_debt,13208,2022-23,TRUE,Net debt,
+net_fin_liabilities,25462,2018-19,FALSE,Net financial liabilities,Estimated result
+net_fin_liabilities,27025,2019-20,TRUE,Net financial liabilities,
+net_fin_liabilities,27534,2020-21,TRUE,Net financial liabilities,
+net_fin_liabilities,28321,2021-22,TRUE,Net financial liabilities,
+net_fin_liabilities,28632,2022-23,TRUE,Net financial liabilities,
+net_worth,42017,2018-19,FALSE,Net worth,Estimated result
+net_worth,41675,2019-20,TRUE,Net worth,
+net_worth,42138,2020-21,TRUE,Net worth,
+net_worth,42667,2021-22,TRUE,Net worth,
+net_worth,43287,2022-23,TRUE,Net worth,
+capex_pnfa,1820,2018-19,FALSE,Purchases of non-financial assets,Estimated result
+capex_pnfa,2387,2019-20,TRUE,Purchases of non-financial assets,
+capex_pnfa,2143,2020-21,TRUE,Purchases of non-financial assets,
+capex_pnfa,2085,2021-22,TRUE,Purchases of non-financial assets,
+capex_pnfa,2109,2022-23,TRUE,Purchases of non-financial assets,
+rev_total,20198,2019-20,FALSE,Total revenue,
+rev_total,20543,2020-21,TRUE,Total revenue,
+rev_total,21233,2021-22,TRUE,Total revenue,
+rev_total,22118,2022-23,TRUE,Total revenue,
+rev_taxation,4580,2019-20,FALSE,Taxation revenue,
+rev_taxation,4774,2020-21,TRUE,Taxation revenue,
+rev_taxation,4974,2021-22,TRUE,Taxation revenue,
+rev_taxation,5178,2022-23,TRUE,Taxation revenue,
+rev_gst,6758,2019-20,FALSE,Commonwealth general purpose grants,Derived from GST revenue grants
+rev_gst,6948,2020-21,TRUE,Commonwealth general purpose grants,
+rev_gst,7107,2021-22,TRUE,Commonwealth general purpose grants,
+rev_gst,7424,2022-23,TRUE,Commonwealth general purpose grants,
+rev_grants_tied,4891,2019-20,FALSE,Grants,Calculated as total grants minus GST revenue
+rev_grants_tied,4800,2020-21,TRUE,Grants,
+rev_grants_tied,4996,2021-22,TRUE,Grants,
+rev_grants_tied,5166,2022-23,TRUE,Grants,
+rev_sales_goods_svcs,2640,2019-20,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2711,2020-21,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2791,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2882,2022-23,TRUE,Sales of goods and services,
+rev_interest,136,2019-20,FALSE,Interest income,
+rev_interest,169,2020-21,TRUE,Interest income,
+rev_interest,206,2021-22,TRUE,Interest income,
+rev_interest,279,2022-23,TRUE,Interest income,
+rev_dividend,346,2019-20,FALSE,Dividend and income tax equivalent income,
+rev_dividend,355,2020-21,TRUE,Dividend and income tax equivalent income,
+rev_dividend,375,2021-22,TRUE,Dividend and income tax equivalent income,
+rev_dividend,405,2022-23,TRUE,Dividend and income tax equivalent income,
+rev_other,848,2019-20,FALSE,Other,
+rev_other,787,2020-21,TRUE,Other,
+rev_other,784,2021-22,TRUE,Other,
+rev_other,783,2022-23,TRUE,Other,
+exp_total,20104,2019-20,FALSE,Total expenses,
+exp_total,20439,2020-21,TRUE,Total expenses,
+exp_total,21091,2021-22,TRUE,Total expenses,
+exp_total,21867,2022-23,TRUE,Total expenses,
+exp_employee,8522,2019-20,FALSE,Employee expenses,
+exp_employee,8563,2020-21,TRUE,Employee expenses,
+exp_employee,8717,2021-22,TRUE,Employee expenses,
+exp_employee,8967,2022-23,TRUE,Employee expenses,
+exp_super,1122,2019-20,FALSE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,1114,2020-21,TRUE,Superannuation expenses,
+exp_super,1116,2021-22,TRUE,Superannuation expenses,
+exp_super,1128,2022-23,TRUE,Superannuation expenses,
+exp_depreciation,1302,2019-20,FALSE,Depreciation and amortisation,
+exp_depreciation,1313,2020-21,TRUE,Depreciation and amortisation,
+exp_depreciation,1339,2021-22,TRUE,Depreciation and amortisation,
+exp_depreciation,1368,2022-23,TRUE,Depreciation and amortisation,
+exp_interest,518,2019-20,FALSE,Interest expenses,
+exp_interest,586,2020-21,TRUE,Interest expenses,
+exp_interest,682,2021-22,TRUE,Interest expenses,
+exp_interest,814,2022-23,TRUE,Interest expenses,
+exp_other_operating,5832,2019-20,FALSE,Other operating expenses,
+exp_other_operating,5991,2020-21,TRUE,Other operating expenses,
+exp_other_operating,6278,2021-22,TRUE,Other operating expenses,
+exp_other_operating,6668,2022-23,TRUE,Other operating expenses,
+exp_current_grants,2808,2019-20,FALSE,Grants,
+exp_current_grants,2872,2020-21,TRUE,Grants,
+exp_current_grants,2959,2021-22,TRUE,Grants,
+exp_current_grants,2922,2022-23,TRUE,Grants,
+net_op_balance,94,2019-20,FALSE,Net operating balance,
+net_op_balance,105,2020-21,TRUE,Net operating balance,
+net_op_balance,142,2021-22,TRUE,Net operating balance,
+net_op_balance,251,2022-23,TRUE,Net operating balance,
+net_lending,-1069,2019-20,FALSE,Net lending / borrowing,
+net_lending,-654,2020-21,TRUE,Net lending / borrowing,
+net_lending,-989,2021-22,TRUE,Net lending / borrowing,
+net_lending,-585,2022-23,TRUE,Net lending / borrowing,
+cash_surplus,-1438,2019-20,FALSE,Cash surplus / (deficit),
+cash_surplus,-893,2020-21,TRUE,Cash surplus / (deficit),
+cash_surplus,-1000,2021-22,TRUE,Cash surplus / (deficit),
+cash_surplus,-729,2022-23,TRUE,Cash surplus / (deficit),
+net_debt,9468,2019-20,FALSE,Net debt,
+net_debt,10752,2020-21,TRUE,Net debt,
+net_debt,12278,2021-22,TRUE,Net debt,
+net_debt,13208,2022-23,TRUE,Net debt,
+net_fin_liabilities,27025,2019-20,FALSE,Net financial liabilities,
+net_fin_liabilities,27534,2020-21,TRUE,Net financial liabilities,
+net_fin_liabilities,28321,2021-22,TRUE,Net financial liabilities,
+net_fin_liabilities,28632,2022-23,TRUE,Net financial liabilities,
+net_worth,41675,2019-20,FALSE,Net Worth,
+net_worth,42138,2020-21,TRUE,Net Worth,
+net_worth,42667,2021-22,TRUE,Net Worth,
+net_worth,43287,2022-23,TRUE,Net Worth,
+capex_pnfa,2572,2019-20,FALSE,Purchases of non-financial assets,
+capex_pnfa,2377,2020-21,TRUE,Purchases of non-financial assets,
+capex_pnfa,2506,2021-22,TRUE,Purchases of non-financial assets,
+capex_pnfa,2281,2022-23,TRUE,Purchases of non-financial assets,

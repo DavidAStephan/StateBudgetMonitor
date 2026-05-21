@@ -1,0 +1,308 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5604.9,2019-20,FALSE,Revenue,Audited Outcome
+rev_total,5981.1,2020-21,FALSE,Revenue,
+rev_total,6171.9,2021-22,TRUE,Revenue,
+rev_total,6330.5,2022-23,TRUE,Revenue,
+rev_total,6560.1,2023-24,TRUE,Revenue,
+exp_total,6517.6,2019-20,FALSE,Expenses,Audited Outcome
+exp_total,6749.7,2020-21,FALSE,Expenses,
+exp_total,6839.1,2021-22,TRUE,Expenses,
+exp_total,6941.8,2022-23,TRUE,Expenses,
+exp_total,7148.2,2023-24,TRUE,Expenses,
+net_op_balance,-681.1,2019-20,FALSE,HEADLINE NET OPERATING BALANCE,Audited Outcome
+net_op_balance,-603.1,2020-21,FALSE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-474.7,2021-22,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-406.0,2022-23,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,-369.1,2023-24,TRUE,HEADLINE NET OPERATING BALANCE,
+cash_surplus,-104.5,2019-20,FALSE,Net cash from operating activities,Audited Outcome
+cash_surplus,-219.8,2020-21,FALSE,Net cash from operating activities,
+cash_surplus,22.5,2021-22,TRUE,Net cash from operating activities,
+cash_surplus,295.6,2022-23,TRUE,Net cash from operating activities,
+cash_surplus,404.2,2023-24,TRUE,Net cash from operating activities,
+net_debt,3296.7,2019-20,FALSE,Net debt (excluding superannuation),Audited Outcome
+net_debt,4665.0,2020-21,FALSE,Net debt (excluding superannuation),
+net_debt,5960.6,2021-22,TRUE,Net debt (excluding superannuation),
+net_debt,6926.7,2022-23,TRUE,Net debt (excluding superannuation),
+net_debt,7658.6,2023-24,TRUE,Net debt (excluding superannuation),
+net_fin_liabilities,12003.2,2019-20,FALSE,Net financial liabilities,Audited Outcome
+net_fin_liabilities,9301.8,2020-21,FALSE,Net financial liabilities,
+net_fin_liabilities,10559.7,2021-22,TRUE,Net financial liabilities,
+net_fin_liabilities,11744.9,2022-23,TRUE,Net financial liabilities,
+net_fin_liabilities,12670.2,2023-24,TRUE,Net financial liabilities,
+rev_total,5604.9,2019-20,FALSE,Total revenue,Audited outcome
+rev_total,5981.1,2020-21,FALSE,Total revenue,Budget year
+rev_total,6171.9,2021-22,TRUE,Total revenue,
+rev_total,6330.5,2022-23,TRUE,Total revenue,
+rev_total,6560.1,2023-24,TRUE,Total revenue,
+rev_taxation,1949.2,2019-20,FALSE,Total taxation,Audited outcome
+rev_taxation,1987.2,2020-21,FALSE,Total taxation,Budget year
+rev_taxation,2156.2,2021-22,TRUE,Total taxation,
+rev_taxation,2269.8,2022-23,TRUE,Total taxation,
+rev_taxation,2390.2,2023-24,TRUE,Total taxation,
+rev_payroll,561.8,2019-20,FALSE,Payroll Tax,Audited outcome
+rev_payroll,563.5,2020-21,FALSE,Payroll Tax,Budget year
+rev_payroll,606.9,2021-22,TRUE,Payroll Tax,
+rev_payroll,653.0,2022-23,TRUE,Payroll Tax,
+rev_payroll,702.7,2023-24,TRUE,Payroll Tax,
+rev_stamp_duty,149.7,2019-20,FALSE,Residential conveyances,Audited outcome - residential only
+rev_stamp_duty,160.9,2020-21,FALSE,Residential conveyances,Budget year - residential only
+rev_stamp_duty,186.9,2021-22,TRUE,Residential conveyances,Residential only
+rev_stamp_duty,190.8,2022-23,TRUE,Residential conveyances,Residential only
+rev_stamp_duty,196.1,2023-24,TRUE,Residential conveyances,Residential only
+rev_land_tax,143.4,2019-20,FALSE,Land tax,Audited outcome
+rev_land_tax,147.4,2020-21,FALSE,Land tax,Budget year
+rev_land_tax,158.7,2021-22,TRUE,Land tax,
+rev_land_tax,168.9,2022-23,TRUE,Land tax,
+rev_land_tax,177.3,2023-24,TRUE,Land tax,
+rev_gambling,56.5,2019-20,FALSE,Total gambling taxes,Audited outcome
+rev_gambling,67.4,2020-21,FALSE,Total gambling taxes,Budget year
+rev_gambling,74.8,2021-22,TRUE,Total gambling taxes,
+rev_gambling,78.1,2022-23,TRUE,Total gambling taxes,
+rev_gambling,79.7,2023-24,TRUE,Total gambling taxes,
+rev_motor_vehicle,155.7,2019-20,FALSE,Motor Vehicle Registration,Audited outcome - includes levies
+rev_motor_vehicle,150.7,2020-21,FALSE,Motor Vehicle Registration,Budget year
+rev_motor_vehicle,153.4,2021-22,TRUE,Motor Vehicle Registration,
+rev_motor_vehicle,156.2,2022-23,TRUE,Motor Vehicle Registration,
+rev_motor_vehicle,159.1,2023-24,TRUE,Motor Vehicle Registration,
+rev_gst,1239.9,2019-20,FALSE,GST Revenue,Audited outcome - uses FBO figure
+rev_gst,1221.5,2020-21,FALSE,GST revenue,Budget year
+rev_gst,1300.6,2021-22,TRUE,GST revenue,
+rev_gst,1380.1,2022-23,TRUE,GST revenue,
+rev_gst,1441.6,2023-24,TRUE,GST revenue,
+rev_grants_tied,914.8,2019-20,FALSE,National Specific Purpose Payments (SPPs),Audited outcome
+rev_grants_tied,931.3,2020-21,FALSE,National Specific Purpose Payments (SPPs),Budget year
+rev_grants_tied,944.3,2021-22,TRUE,National Specific Purpose Payments (SPPs),
+rev_grants_tied,992.4,2022-23,TRUE,National Specific Purpose Payments (SPPs),
+rev_grants_tied,1046.7,2023-24,TRUE,National Specific Purpose Payments (SPPs),
+rev_grants_untied,40.7,2019-20,FALSE,ACT Municipal Services,Audited outcome
+rev_grants_untied,41.2,2020-21,FALSE,ACT Municipal Services,Budget year
+rev_grants_untied,41.6,2021-22,TRUE,ACT Municipal Services,
+rev_grants_untied,42.1,2022-23,TRUE,ACT Municipal Services,
+rev_grants_untied,42.7,2023-24,TRUE,ACT Municipal Services,
+rev_sales_goods_svcs,547.0,2019-20,FALSE,Sales of goods and services,Audited outcome
+rev_sales_goods_svcs,561.7,2020-21,FALSE,Sales of goods and services,Budget year
+rev_sales_goods_svcs,602.1,2021-22,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,621.8,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,636.9,2023-24,TRUE,Sales of goods and services,
+rev_interest,119.6,2019-20,FALSE,Total interest received,Audited outcome
+rev_interest,87.0,2020-21,FALSE,Total interest received,Budget year
+rev_interest,101.2,2021-22,TRUE,Total interest received,
+rev_interest,100.8,2022-23,TRUE,Total interest received,
+rev_interest,99.8,2023-24,TRUE,Total interest received,
+rev_dividend,157.7,2019-20,FALSE,Total dividends and tax equivalents,Audited outcome
+rev_dividend,486.7,2020-21,FALSE,Total dividends and tax equivalents,Budget year
+rev_dividend,216.3,2021-22,TRUE,Total dividends and tax equivalents,
+rev_dividend,127.1,2022-23,TRUE,Total dividends and tax equivalents,
+rev_dividend,206.3,2023-24,TRUE,Total dividends and tax equivalents,
+rev_other,170.6,2019-20,FALSE,Other revenue,Audited outcome
+rev_other,189.9,2020-21,FALSE,Other revenue,Budget year
+rev_other,195.7,2021-22,TRUE,Other revenue,
+rev_other,204.2,2022-23,TRUE,Other revenue,
+rev_other,203.3,2023-24,TRUE,Other revenue,
+exp_total,6517.6,2019-20,FALSE,Total expenses,Audited outcome
+exp_total,6749.7,2020-21,FALSE,Total expenses,Budget year
+exp_total,6839.1,2021-22,TRUE,Total expenses,
+exp_total,6941.8,2022-23,TRUE,Total expenses,
+exp_total,7148.2,2023-24,TRUE,Total expenses,
+exp_employee,2325.4,2019-20,FALSE,Employee expenses,Audited outcome
+exp_employee,2369.8,2020-21,FALSE,Employee expenses,Budget year
+exp_employee,2333.0,2021-22,TRUE,Employee expenses,
+exp_employee,2366.5,2022-23,TRUE,Employee expenses,
+exp_employee,2418.3,2023-24,TRUE,Employee expenses,
+exp_super,702.2,2019-20,FALSE,Total superannuation expense,Audited outcome - includes interest and other super
+exp_super,694.8,2020-21,FALSE,Total superannuation expense,Budget year - includes interest and other super
+exp_super,764.7,2021-22,TRUE,Total superannuation expense,Includes interest and other super
+exp_super,771.1,2022-23,TRUE,Total superannuation expense,Includes interest and other super
+exp_super,783.7,2023-24,TRUE,Total superannuation expense,Includes interest and other super
+exp_depreciation,465.8,2019-20,FALSE,Depreciation and amortisation,Audited outcome
+exp_depreciation,498.2,2020-21,FALSE,Depreciation and amortisation,Budget year
+exp_depreciation,555.5,2021-22,TRUE,Depreciation and amortisation,
+exp_depreciation,563.5,2022-23,TRUE,Depreciation and amortisation,
+exp_depreciation,569.0,2023-24,TRUE,Depreciation and amortisation,
+exp_interest,206.5,2019-20,FALSE,Interest expense,Audited outcome
+exp_interest,202.0,2020-21,FALSE,Interest expense,Budget year
+exp_interest,253.8,2021-22,TRUE,Interest expense,
+exp_interest,258.6,2022-23,TRUE,Interest expense,
+exp_interest,275.7,2023-24,TRUE,Interest expense,
+exp_other_operating,1398.1,2019-20,FALSE,Total other operating expenses,Audited outcome - supplies and services plus other operating
+exp_other_operating,1469.5,2020-21,FALSE,Total other operating expenses,Budget year - supplies and services plus other operating
+exp_other_operating,1557.9,2021-22,TRUE,Total other operating expenses,Supplies and services plus other operating
+exp_other_operating,1646.4,2022-23,TRUE,Total other operating expenses,Supplies and services plus other operating
+exp_other_operating,1724.3,2023-24,TRUE,Total other operating expenses,Supplies and services plus other operating
+exp_current_grants,1419.6,2019-20,FALSE,Grants and purchased services,Audited outcome - current component
+exp_current_grants,1515.4,2020-21,FALSE,Grants and purchased services,Budget year - current component
+exp_current_grants,1374.0,2021-22,TRUE,Grants and purchased services,Current component
+exp_current_grants,1335.6,2022-23,TRUE,Grants and purchased services,Current component
+exp_current_grants,1377.2,2023-24,TRUE,Grants and purchased services,Current component
+exp_health,1847.8,2019-20,FALSE,Health,Audited outcome - by function
+exp_health,1962.7,2020-21,FALSE,Health,Budget year - by function
+exp_health,1861.9,2021-22,TRUE,Health,By function
+exp_health,1909.2,2022-23,TRUE,Health,By function
+exp_health,1957.7,2023-24,TRUE,Health,By function
+exp_education,1495.4,2019-20,FALSE,Education,Audited outcome - by function
+exp_education,1538.6,2020-21,FALSE,Education,Budget year - by function
+exp_education,1567.4,2021-22,TRUE,Education,By function
+exp_education,1621.8,2022-23,TRUE,Education,By function
+exp_education,1685.4,2023-24,TRUE,Education,By function
+exp_public_order,522.7,2019-20,FALSE,Public order and safety,Audited outcome - by function
+exp_public_order,561.2,2020-21,FALSE,Public order and safety,Budget year - by function
+exp_public_order,559.1,2021-22,TRUE,Public order and safety,By function
+exp_public_order,569.9,2022-23,TRUE,Public order and safety,By function
+exp_public_order,582.8,2023-24,TRUE,Public order and safety,By function
+exp_transport_comms,474.7,2019-20,FALSE,Transport,Audited outcome - by function
+exp_transport_comms,510.6,2020-21,FALSE,Transport,Budget year - by function
+exp_transport_comms,505.0,2021-22,TRUE,Transport,By function
+exp_transport_comms,513.4,2022-23,TRUE,Transport,By function
+exp_transport_comms,525.6,2023-24,TRUE,Transport,By function
+exp_social_security,551.7,2019-20,FALSE,Social protection,Audited outcome - by function
+exp_social_security,526.2,2020-21,FALSE,Social protection,Budget year - by function
+exp_social_security,487.1,2021-22,TRUE,Social protection,By function
+exp_social_security,482.4,2022-23,TRUE,Social protection,By function
+exp_social_security,498.2,2023-24,TRUE,Social protection,By function
+exp_general_public,1030.2,2019-20,FALSE,General public services,Audited outcome - by function
+exp_general_public,1018.6,2020-21,FALSE,General public services,Budget year - by function
+exp_general_public,1274.2,2021-22,TRUE,General public services,By function
+exp_general_public,1302.4,2022-23,TRUE,General public services,By function
+exp_general_public,1343.3,2023-24,TRUE,General public services,By function
+exp_recreation,207.3,2019-20,FALSE,"Recreation, culture and religion",Audited outcome - by function
+exp_recreation,214.0,2020-21,FALSE,"Recreation, culture and religion",Budget year - by function
+exp_recreation,196.0,2021-22,TRUE,"Recreation, culture and religion",By function
+exp_recreation,193.4,2022-23,TRUE,"Recreation, culture and religion",By function
+exp_recreation,196.6,2023-24,TRUE,"Recreation, culture and religion",By function
+capex_pnfa,913.5,2020-21,FALSE,Total Infrastructure Investment Program,Budget year - includes reserve
+capex_pnfa,1287.1,2021-22,TRUE,Total Infrastructure Investment Program,Includes reserve offset
+capex_pnfa,1113.5,2022-23,TRUE,Total Infrastructure Investment Program,
+capex_pnfa,989.5,2023-24,TRUE,Total Infrastructure Investment Program,
+rev_total,5604.947,2019-20,FALSE,Total revenue,"Audited outcome, Operating statement"
+rev_taxation,1949.207,2019-20,FALSE,Taxation revenue,"Audited outcome, Operating statement"
+rev_payroll,561.775,2019-20,FALSE,Taxes on employers' payroll and labour force,"Audited outcome, General Government Sector taxes table"
+rev_land_tax,143.378,2019-20,FALSE,Land taxes,"Audited outcome, General Government Sector taxes table"
+rev_stamp_duty,904.522,2019-20,FALSE,Taxes on property - Other,"Audited outcome, likely includes stamp duties"
+rev_gambling,56.521,2019-20,FALSE,Taxes on gambling,"Audited outcome, General Government Sector taxes table"
+rev_motor_vehicle,189.579,2019-20,FALSE,Motor vehicle taxes,"Audited outcome, General Government Sector taxes table"
+rev_gst,1280.587,2019-20,FALSE,GST revenue and municipal grants,"Audited outcome, General Government Sector grant revenue table"
+rev_grants_tied,797.049,2019-20,FALSE,Other contributions and grants,"Audited outcome, current Commonwealth grants"
+rev_sales_goods_svcs,546.992,2019-20,FALSE,Sales of goods and services from contracts with customers,"Audited outcome, Operating statement"
+rev_interest,234.986,2019-20,FALSE,Investment revenue,"Audited outcome, Operating statement (reclassified in 2019-20)"
+rev_dividend,157.661,2019-20,FALSE,Dividend and income tax equivalents income,"Audited outcome, Operating statement"
+exp_total,6517.568,2019-20,FALSE,Total expenses,"Audited outcome, Operating statement"
+exp_employee,2325.368,2019-20,FALSE,Employee expenses,"Audited outcome, Operating statement"
+exp_super,473.542,2019-20,FALSE,Other superannuation expense,"Audited outcome, Operating statement"
+exp_depreciation,465.827,2019-20,FALSE,Depreciation and amortisation,"Audited outcome, Operating statement"
+exp_interest,206.461,2019-20,FALSE,Interest expense,"Audited outcome, Operating statement"
+exp_health,1847.755,2019-20,FALSE,Health,"Audited outcome, General Government Sector expenses by function"
+exp_education,1495.424,2019-20,FALSE,Education,"Audited outcome, General Government Sector expenses by function"
+exp_public_order,522.658,2019-20,FALSE,Public order and safety,"Audited outcome, General Government Sector expenses by function"
+exp_transport_comms,474.658,2019-20,FALSE,Transport,"Audited outcome, General Government Sector expenses by function"
+exp_social_security,551.707,2019-20,FALSE,Social protection,"Audited outcome, General Government Sector expenses by function"
+exp_general_public,1030.195,2019-20,FALSE,General public services,"Audited outcome, General Government Sector expenses by function"
+exp_recreation,207.324,2019-20,FALSE,"Recreation, culture and religion","Audited outcome, General Government Sector expenses by function"
+net_op_balance,-912.621,2019-20,FALSE,UPF Net Operating Balance,"Audited outcome, Operating statement"
+net_lending,-1029.245,2019-20,FALSE,Net borrowing,"Audited outcome, Operating statement key fiscal aggregates"
+cash_surplus,-602.836,2019-20,FALSE,Cash deficit,"Audited outcome, Statement of cash flows key fiscal aggregates"
+net_debt,3296.704,2019-20,FALSE,Net debt (excluding superannuation related investments),"Audited outcome, Balance sheet"
+net_fin_liabilities,12003.232,2019-20,FALSE,Net financial liabilities,"Audited outcome, Balance sheet"
+net_worth,13030.343,2019-20,FALSE,Net worth,"Audited outcome, Balance sheet"
+capex_pnfa,579.337,2019-20,FALSE,Payments for non-financial assets,"Audited outcome, Statement of cash flows"
+rev_total,5981.076,2020-21,FALSE,Total revenue,"Budget, Operating statement"
+rev_taxation,1987.23,2020-21,FALSE,Taxation revenue,"Budget, Operating statement"
+rev_payroll,563.507,2020-21,FALSE,Taxes on employers' payroll and labour force,"Budget, General Government Sector taxes table"
+rev_land_tax,147.404,2020-21,FALSE,Land taxes,"Budget, General Government Sector taxes table"
+rev_stamp_duty,947.05,2020-21,FALSE,Taxes on property - Other,"Budget, likely includes stamp duties"
+rev_gambling,67.414,2020-21,FALSE,Taxes on gambling,"Budget, General Government Sector taxes table"
+rev_motor_vehicle,182.188,2020-21,FALSE,Motor vehicle taxes,"Budget, General Government Sector taxes table"
+rev_gst,1262.784,2020-21,FALSE,GST revenue and municipal grants,"Budget, General Government Sector grant revenue table"
+rev_grants_tied,786.115,2020-21,FALSE,Other contributions and grants,"Budget, current Commonwealth grants"
+rev_sales_goods_svcs,561.693,2020-21,FALSE,Sales of goods and services from contracts with customers,"Budget, Operating statement"
+rev_interest,218.819,2020-21,FALSE,Investment revenue,"Budget, Operating statement"
+rev_dividend,486.739,2020-21,FALSE,Dividend and income tax equivalents income,"Budget, Operating statement"
+exp_total,6749.744,2020-21,FALSE,Total expenses,"Budget, Operating statement"
+exp_employee,2369.825,2020-21,FALSE,Employee expenses,"Budget, Operating statement"
+exp_super,484.23,2020-21,FALSE,Other superannuation expense,"Budget, Operating statement"
+exp_depreciation,498.236,2020-21,FALSE,Depreciation and amortisation,"Budget, Operating statement"
+exp_interest,201.989,2020-21,FALSE,Interest expense,"Budget, Operating statement"
+exp_health,1962.698,2020-21,FALSE,Health,"Budget, General Government Sector expenses by function"
+exp_education,1538.574,2020-21,FALSE,Education,"Budget, General Government Sector expenses by function"
+exp_public_order,561.155,2020-21,FALSE,Public order and safety,"Budget, General Government Sector expenses by function"
+exp_transport_comms,510.594,2020-21,FALSE,Transport,"Budget, General Government Sector expenses by function"
+exp_social_security,526.246,2020-21,FALSE,Social protection,"Budget, General Government Sector expenses by function"
+exp_general_public,1018.577,2020-21,FALSE,General public services,"Budget, General Government Sector expenses by function"
+exp_recreation,213.997,2020-21,FALSE,"Recreation, culture and religion","Budget, General Government Sector expenses by function"
+net_op_balance,-768.668,2020-21,FALSE,UPF Net Operating Balance,"Budget, Operating statement"
+net_lending,-1258.991,2020-21,FALSE,Net borrowing,"Budget, Operating statement key fiscal aggregates"
+cash_surplus,-1141.3,2020-21,FALSE,Cash deficit,"Budget, Statement of cash flows key fiscal aggregates"
+net_debt,4665.002,2020-21,FALSE,Net debt (excluding superannuation related investments),"Budget, Balance sheet"
+net_fin_liabilities,9301.832,2020-21,FALSE,Net financial liabilities,"Budget, Balance sheet"
+net_worth,16628.859,2020-21,FALSE,Net worth,"Budget, Balance sheet"
+capex_pnfa,1027.653,2020-21,FALSE,Payments for non-financial assets,"Budget, Statement of cash flows"
+rev_total,6171.874,2021-22,TRUE,Total revenue,"Estimate, Operating statement"
+rev_taxation,2156.238,2021-22,TRUE,Taxation revenue,"Estimate, Operating statement"
+rev_payroll,606.91,2021-22,TRUE,Taxes on employers' payroll and labour force,"Estimate, General Government Sector taxes table"
+rev_land_tax,158.72,2021-22,TRUE,Land taxes,"Estimate, General Government Sector taxes table"
+rev_stamp_duty,1054.404,2021-22,TRUE,Taxes on property - Other,"Estimate, likely includes stamp duties"
+rev_gambling,74.817,2021-22,TRUE,Taxes on gambling,"Estimate, General Government Sector taxes table"
+rev_motor_vehicle,185.927,2021-22,TRUE,Motor vehicle taxes,"Estimate, General Government Sector taxes table"
+rev_gst,1342.245,2021-22,TRUE,GST revenue and municipal grants,"Estimate, General Government Sector grant revenue table"
+rev_grants_tied,788.741,2021-22,TRUE,Other contributions and grants,"Estimate, current Commonwealth grants"
+rev_sales_goods_svcs,602.108,2021-22,TRUE,Sales of goods and services from contracts with customers,"Estimate, Operating statement"
+rev_interest,235.565,2021-22,TRUE,Investment revenue,"Estimate, Operating statement"
+rev_dividend,216.301,2021-22,TRUE,Dividend and income tax equivalents income,"Estimate, Operating statement"
+exp_total,6839.052,2021-22,TRUE,Total expenses,"Estimate, Operating statement"
+exp_employee,2333.049,2021-22,TRUE,Employee expenses,"Estimate, Operating statement"
+exp_super,351.586,2021-22,TRUE,Other superannuation expense,"Estimate, Operating statement"
+exp_depreciation,555.526,2021-22,TRUE,Depreciation and amortisation,"Estimate, Operating statement"
+exp_interest,253.817,2021-22,TRUE,Interest expense,"Estimate, Operating statement"
+exp_health,1861.92,2021-22,TRUE,Health,"Estimate, General Government Sector expenses by function"
+exp_education,1567.369,2021-22,TRUE,Education,"Estimate, General Government Sector expenses by function"
+exp_public_order,559.079,2021-22,TRUE,Public order and safety,"Estimate, General Government Sector expenses by function"
+exp_transport_comms,504.982,2021-22,TRUE,Transport,"Estimate, General Government Sector expenses by function"
+exp_social_security,487.086,2021-22,TRUE,Social protection,"Estimate, General Government Sector expenses by function"
+exp_general_public,1274.196,2021-22,TRUE,General public services,"Estimate, General Government Sector expenses by function"
+exp_recreation,196.046,2021-22,TRUE,"Recreation, culture and religion","Estimate, General Government Sector expenses by function"
+net_op_balance,-667.178,2021-22,TRUE,UPF Net Operating Balance,"Estimate, Operating statement"
+net_lending,-1332.701,2021-22,TRUE,Net borrowing,"Estimate, Operating statement key fiscal aggregates"
+cash_surplus,-1048.175,2021-22,TRUE,Cash deficit,"Estimate, Statement of cash flows key fiscal aggregates"
+net_debt,5960.61,2021-22,TRUE,Net debt (excluding superannuation related investments),"Estimate, Balance sheet"
+net_fin_liabilities,10559.743,2021-22,TRUE,Net financial liabilities,"Estimate, Balance sheet"
+net_worth,15971.383,2021-22,TRUE,Net worth,"Estimate, Balance sheet"
+capex_pnfa,1144.952,2021-22,TRUE,Payments for non-financial assets,"Estimate, Statement of cash flows"
+rev_total,6330.509,2022-23,TRUE,Total revenue,"Estimate, Operating statement"
+rev_taxation,2269.753,2022-23,TRUE,Taxation revenue,"Estimate, Operating statement"
+rev_payroll,653.035,2022-23,TRUE,Taxes on employers' payroll and labour force,"Estimate, General Government Sector taxes table"
+rev_land_tax,168.945,2022-23,TRUE,Land taxes,"Estimate, General Government Sector taxes table"
+rev_stamp_duty,1106.022,2022-23,TRUE,Taxes on property - Other,"Estimate, likely includes stamp duties"
+rev_gambling,78.053,2022-23,TRUE,Taxes on gambling,"Estimate, General Government Sector taxes table"
+rev_motor_vehicle,189.031,2022-23,TRUE,Motor vehicle taxes,"Estimate, General Government Sector taxes table"
+rev_gst,1422.171,2022-23,TRUE,GST revenue and municipal grants,"Estimate, General Government Sector grant revenue table"
+rev_grants_tied,808.417,2022-23,TRUE,Other contributions and grants,"Estimate, current Commonwealth grants"
+rev_sales_goods_svcs,621.838,2022-23,TRUE,Sales of goods and services from contracts with customers,"Estimate, Operating statement"
+rev_interest,243.93,2022-23,TRUE,Investment revenue,"Estimate, Operating statement"
+rev_dividend,127.083,2022-23,TRUE,Dividend and income tax equivalents income,"Estimate, Operating statement"
+exp_total,6941.781,2022-23,TRUE,Total expenses,"Estimate, Operating statement"
+exp_employee,2366.491,2022-23,TRUE,Employee expenses,"Estimate, Operating statement"
+exp_super,347.532,2022-23,TRUE,Other superannuation expense,"Estimate, Operating statement"
+exp_depreciation,563.526,2022-23,TRUE,Depreciation and amortisation,"Estimate, Operating statement"
+exp_interest,258.579,2022-23,TRUE,Interest expense,"Estimate, Operating statement"
+exp_health,1909.187,2022-23,TRUE,Health,"Estimate, General Government Sector expenses by function"
+exp_education,1621.777,2022-23,TRUE,Education,"Estimate, General Government Sector expenses by function"
+exp_public_order,569.897,2022-23,TRUE,Public order and safety,"Estimate, General Government Sector expenses by function"
+exp_transport_comms,513.446,2022-23,TRUE,Transport,"Estimate, General Government Sector expenses by function"
+exp_social_security,482.428,2022-23,TRUE,Social protection,"Estimate, General Government Sector expenses by function"
+exp_general_public,1302.351,2022-23,TRUE,General public services,"Estimate, General Government Sector expenses by function"
+exp_recreation,193.393,2022-23,TRUE,"Recreation, culture and religion","Estimate, General Government Sector expenses by function"
+net_op_balance,-611.272,2022-23,TRUE,UPF Net Operating Balance,"Estimate, Operating statement"
+net_lending,-1307.292,2022-23,TRUE,Net borrowing,"Estimate, Operating statement key fiscal aggregates"
+cash_surplus,-762.33,2022-23,TRUE,Cash deficit,"Estimate, Statement of cash flows key fiscal aggregates"
+net_debt,6926.682,2022-23,TRUE,Net debt (excluding superannuation related investments),"Estimate, Balance sheet"
+net_fin_liabilities,11744.851,2022-23,TRUE,Net financial liabilities,"Estimate, Balance sheet"
+net_worth,15343.149,2022-23,TRUE,Net worth,"Estimate, Balance sheet"
+capex_pnfa,1111.686,2022-23,TRUE,Payments for non-financial assets,"Estimate, Statement of cash flows"
+rev_total,6560.134,2023-24,TRUE,Total revenue,"Estimate, Operating statement"
+rev_taxation,2390.173,2023-24,TRUE,Taxation revenue,"Estimate, Operating statement"
+rev_payroll,702.666,2023-24,TRUE,Taxes on employers' payroll and labour force,"Estimate, General Government Sector taxes table"
+rev_land_tax,177.331,2023-24,TRUE,Land taxes,"Estimate, General Government Sector taxes table"
+rev_stamp_duty,1161.
+capex_infra_program,668.614,2020-21,FALSE,"Total 2020-21 Capital Works-in-Progress",
+capex_infra_program,538.800,2021-22,TRUE,"Total 2020-21 Capital Works-in-Progress",
+capex_infra_program,263.587,2022-23,TRUE,"Total 2020-21 Capital Works-in-Progress",
+capex_infra_program,74.614,2023-24,TRUE,"Total 2020-21 Capital Works-in-Progress",

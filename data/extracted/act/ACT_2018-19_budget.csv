@@ -1,0 +1,287 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5424.088,2017-18,FALSE,Revenue,Estimated Outcome
+rev_total,5671.305,2018-19,FALSE,Revenue,Budget year
+rev_total,5854.703,2019-20,TRUE,Revenue,
+rev_total,6108.325,2020-21,TRUE,Revenue,
+rev_total,6335.102,2021-22,TRUE,Revenue,
+exp_total,5566.218,2017-18,FALSE,Expenses,Estimated Outcome
+exp_total,5818.171,2018-19,FALSE,Expenses,Budget year
+exp_total,6004.634,2019-20,TRUE,Expenses,
+exp_total,6290.286,2020-21,TRUE,Expenses,
+exp_total,6505.509,2021-22,TRUE,Expenses,
+net_op_balance,31.887,2017-18,FALSE,HEADLINE NET OPERATING BALANCE,Estimated Outcome
+net_op_balance,36.459,2018-19,FALSE,HEADLINE NET OPERATING BALANCE,Budget year
+net_op_balance,43.956,2019-20,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,25.922,2020-21,TRUE,HEADLINE NET OPERATING BALANCE,
+net_op_balance,52.494,2021-22,TRUE,HEADLINE NET OPERATING BALANCE,
+cash_surplus,476.159,2017-18,FALSE,Net Cash from Operating Activities,Estimated Outcome
+cash_surplus,435.667,2018-19,FALSE,Net Cash from Operating Activities,Budget year
+cash_surplus,425.072,2019-20,TRUE,Net Cash from Operating Activities,
+cash_surplus,592.955,2020-21,TRUE,Net Cash from Operating Activities,
+cash_surplus,645.704,2021-22,TRUE,Net Cash from Operating Activities,
+net_debt,1357.024,2017-18,FALSE,Net Debt (excluding superannuation),Estimated Outcome
+net_debt,2108.347,2018-19,FALSE,Net Debt (excluding superannuation),Budget year
+net_debt,2627.736,2019-20,TRUE,Net Debt (excluding superannuation),
+net_debt,2894.703,2020-21,TRUE,Net Debt (excluding superannuation),
+net_debt,2834.947,2021-22,TRUE,Net Debt (excluding superannuation),
+net_fin_liabilities,5713.438,2017-18,FALSE,Net Financial Liabilities,Estimated Outcome
+net_fin_liabilities,6609.246,2018-19,FALSE,Net Financial Liabilities,Budget year
+net_fin_liabilities,7120.412,2019-20,TRUE,Net Financial Liabilities,
+net_fin_liabilities,7394.182,2020-21,TRUE,Net Financial Liabilities,
+net_fin_liabilities,7466.852,2021-22,TRUE,Net Financial Liabilities,
+rev_total,5527.6,2018-19,FALSE,"Total revenue","From Table 2.4.2 - reported as expenses by key priority area, not revenue table"
+exp_total,5818.171,2018-19,FALSE,Total Expenses,
+exp_employee,2060.032,2018-19,FALSE,Employee Expenses,
+exp_super,706.658,2018-19,FALSE,Superannuation expenses,Combined Superannuation Interest Cost (378.066) and Other Superannuation Expenses (328.592)
+exp_depreciation,435.806,2018-19,FALSE,Depreciation and Amortisation,
+exp_interest,199.977,2018-19,FALSE,Interest Expense,
+exp_other_operating,1332.706,2018-19,FALSE,Other operating expenses,Combined Supplies and Services (1108.504) and Other Operating Expenses (224.202)
+exp_current_grants,1082.992,2018-19,FALSE,Grants and Purchased Services,
+rev_total,5671.305,2018-19,FALSE,Total revenue,From Table 6.1.1
+rev_taxation,1898.190,2018-19,FALSE,Own-Source Taxation,
+rev_gst,1328.348,2018-19,FALSE,Goods and Services Tax,
+rev_grants_tied,982.921,2018-19,FALSE,Commonwealth Grants,
+rev_sales_goods_svcs,542.093,2018-19,FALSE,Sales of Goods and Services,
+rev_interest,118.534,2018-19,FALSE,Interest Income,
+rev_dividend,397.462,2018-19,FALSE,Dividend and Income Tax Equivalents,
+exp_total,5566.218,2017-18,FALSE,Total Expenses,
+exp_employee,1985.905,2017-18,FALSE,Employee Expenses,
+exp_super,667.585,2017-18,FALSE,Superannuation expenses,Combined Superannuation Interest Cost (303.750) and Other Superannuation Expenses (363.835)
+exp_depreciation,394.224,2017-18,FALSE,Depreciation and Amortisation,
+exp_interest,187.976,2017-18,FALSE,Interest Expense,
+exp_other_operating,1231.558,2017-18,FALSE,Other operating expenses,Combined Supplies and Services (1041.596) and Other Operating Expenses (189.962)
+exp_current_grants,1098.970,2017-18,FALSE,Grants and Purchased Services,
+rev_total,5424.088,2017-18,FALSE,Total revenue,
+rev_taxation,1721.625,2017-18,FALSE,Own-Source Taxation,
+rev_gst,1292.414,2017-18,FALSE,Goods and Services Tax,
+rev_grants_tied,994.799,2017-18,FALSE,Commonwealth Grants,
+rev_sales_goods_svcs,518.432,2017-18,FALSE,Sales of Goods and Services,
+rev_interest,124.363,2017-18,FALSE,Interest Income,
+rev_dividend,410.776,2017-18,FALSE,Dividend and Income Tax Equivalents,
+exp_total,6004.634,2019-20,TRUE,Total Expenses,
+exp_employee,2102.257,2019-20,TRUE,Employee Expenses,
+exp_super,716.868,2019-20,TRUE,Superannuation expenses,Combined Superannuation Interest Cost (390.317) and Other Superannuation Expenses (326.551)
+exp_depreciation,452.783,2019-20,TRUE,Depreciation and Amortisation,
+exp_interest,222.175,2019-20,TRUE,Interest Expense,
+exp_other_operating,1399.505,2019-20,TRUE,Other operating expenses,Combined Supplies and Services (1155.423) and Other Operating Expenses (244.082)
+exp_current_grants,1111.046,2019-20,TRUE,Grants and Purchased Services,
+rev_total,5854.703,2019-20,TRUE,Total revenue,
+rev_taxation,2027.968,2019-20,TRUE,Own-Source Taxation,
+rev_gst,1373.103,2019-20,TRUE,Goods and Services Tax,
+rev_grants_tied,976.152,2019-20,TRUE,Commonwealth Grants,
+rev_sales_goods_svcs,556.286,2019-20,TRUE,Sales of Goods and Services,
+rev_interest,120.907,2019-20,TRUE,Interest Income,
+rev_dividend,390.777,2019-20,TRUE,Dividend and Income Tax Equivalents,
+exp_total,6290.286,2020-21,TRUE,Total Expenses,
+exp_employee,2141.526,2020-21,TRUE,Employee Expenses,
+exp_super,732.237,2020-21,TRUE,Superannuation expenses,Combined Superannuation Interest Cost (401.867) and Other Superannuation Expenses (330.370)
+exp_depreciation,463.294,2020-21,TRUE,Depreciation and Amortisation,
+exp_interest,235.178,2020-21,TRUE,Interest Expense,
+exp_other_operating,1477.521,2020-21,TRUE,Other operating expenses,Combined Supplies and Services (1222.554) and Other Operating Expenses (254.967)
+exp_current_grants,1240.530,2020-21,TRUE,Grants and Purchased Services,
+rev_total,6108.325,2020-21,TRUE,Total revenue,
+rev_taxation,2141.654,2020-21,TRUE,Own-Source Taxation,
+rev_gst,1450.763,2020-21,TRUE,Goods and Services Tax,
+rev_grants_tied,1024.965,2020-21,TRUE,Commonwealth Grants,
+rev_sales_goods_svcs,567.675,2020-21,TRUE,Sales of Goods and Services,
+rev_interest,121.082,2020-21,TRUE,Interest Income,
+rev_dividend,436.411,2020-21,TRUE,Dividend and Income Tax Equivalents,
+exp_total,6505.509,2021-22,TRUE,Total Expenses,
+exp_employee,2190.615,2021-22,TRUE,Employee Expenses,
+exp_super,743.131,2021-22,TRUE,Superannuation expenses,Combined Superannuation Interest Cost (412.667) and Other Superannuation Expenses (330.464)
+exp_depreciation,463.694,2021-22,TRUE,Depreciation and Amortisation,
+exp_interest,248.323,2021-22,TRUE,Interest Expense,
+exp_other_operating,1686.636,2021-22,TRUE,Other operating expenses,Combined Supplies and Services (1426.386) and Other Operating Expenses (260.250)
+exp_current_grants,1173.110,2021-22,TRUE,Grants and Purchased Services,
+rev_total,6335.102,2021-22,TRUE,Total revenue,
+rev_taxation,2261.017,2021-22,TRUE,Own-Source Taxation,
+rev_gst,1525.111,2021-22,TRUE,Goods and Services Tax,
+rev_grants_tied,1077.016,2021-22,TRUE,Commonwealth Grants,
+rev_sales_goods_svcs,578.279,2021-22,TRUE,Sales of Goods and Services,
+rev_interest,123.401,2021-22,TRUE,Interest Income,
+rev_dividend,367.865,2021-22,TRUE,Dividend and Income Tax Equivalents,
+rev_total,4661.954,2017-18,FALSE,"Total revenue (Table 7.2.7 indicates Commonwealth = 2266.844, plus own-source rev ~2395.11)",Calculated from Commonwealth revenue (2266.844) and approx own-source revenue to reach implied total
+rev_total,4973.5,2018-19,FALSE,"Total revenue (Table 7.2.7: Commonwealth = 2290.395, plus own-source rev ~2683.1)",Calculated from Commonwealth revenue and approximate own-source revenue to match fiscal balance
+rev_total,5309.5,2019-20,TRUE,"Total revenue (Table 7.2.7: Commonwealth = 2328.587, plus own-source rev ~2980.9)",Calculated from Commonwealth revenue and approximate own-source revenue
+rev_total,5596.1,2020-21,TRUE,"Total revenue (Table 7.2.7: Commonwealth = 2454.932, plus own-source rev ~3141.2)",Calculated from Commonwealth revenue and approximate own-source revenue
+rev_total,5896.4,2021-22,TRUE,"Total revenue (Table 7.2.7: Commonwealth = 2581.331, plus own-source rev ~3315.1)",Calculated from Commonwealth revenue and approximate own-source revenue
+rev_taxation,1721.625,2017-18,FALSE,"Total Taxation (Table 6.2.1)",
+rev_taxation,1898.19,2018-19,FALSE,"Total Taxation (Table 6.2.1)",
+rev_taxation,2027.968,2019-20,TRUE,"Total Taxation (Table 6.2.1)",
+rev_taxation,2141.654,2020-21,TRUE,"Total Taxation (Table 6.2.1)",
+rev_taxation,2261.017,2021-22,TRUE,"Total Taxation (Table 6.2.1)",
+rev_payroll,494.436,2017-18,FALSE,"Payroll Tax (Table 6.2.1)",
+rev_payroll,522.118,2018-19,FALSE,"Payroll Tax (Table 6.2.1)",
+rev_payroll,561.024,2019-20,TRUE,"Payroll Tax (Table 6.2.1)",
+rev_payroll,600.652,2020-21,TRUE,"Payroll Tax (Table 6.2.1)",
+rev_payroll,643.2,2021-22,TRUE,"Payroll Tax (Table 6.2.1)",
+rev_stamp_duty,227.08,2017-18,FALSE,"Total Duties: Commercial Conveyances 48.904 + Residential Conveyances 178.176 (Table 6.2.1)",
+rev_stamp_duty,274.566,2018-19,FALSE,"Total Duties: Commercial Conveyances 65.732 + Residential Conveyances 208.834 (Table 6.2.1)",
+rev_stamp_duty,287.557,2019-20,TRUE,"Total Duties: Commercial Conveyances 73.434 + Residential Conveyances 214.123 (Table 6.2.1)",
+rev_stamp_duty,288.471,2020-21,TRUE,"Total Duties: Commercial Conveyances 70.785 + Residential Conveyances 217.686 (Table 6.2.1)",
+rev_stamp_duty,296.13,2021-22,TRUE,"Total Duties: Commercial Conveyances 75.475 + Residential Conveyances 220.655 (Table 6.2.1)",
+rev_land_tax,130.079,2017-18,FALSE,"Land Tax (Table 6.2.1)",
+rev_land_tax,141.112,2018-19,FALSE,"Land Tax (Table 6.2.1)",
+rev_land_tax,147.495,2019-20,TRUE,"Land Tax (Table 6.2.1)",
+rev_land_tax,154.237,2020-21,TRUE,"Land Tax (Table 6.2.1)",
+rev_land_tax,159.923,2021-22,TRUE,"Land Tax (Table 6.2.1)",
+rev_gambling,52.059,2017-18,FALSE,"Total gambling taxes (Table 6.2.1)",
+rev_gambling,54.19,2018-19,FALSE,"Total gambling taxes (Table 6.2.1)",
+rev_gambling,56.509,2019-20,TRUE,"Total gambling taxes (Table 6.2.1)",
+rev_gambling,57.846,2020-21,TRUE,"Total gambling taxes (Table 6.2.1)",
+rev_gambling,59.242,2021-22,TRUE,"Total gambling taxes (Table 6.2.1)",
+rev_motor_vehicle,132.835,2017-18,FALSE,"Motor Vehicle Registration (Table 6.2.1)",
+rev_motor_vehicle,141.775,2018-19,FALSE,"Motor Vehicle Registration (Table 6.2.1)",
+rev_motor_vehicle,148.155,2019-20,TRUE,"Motor Vehicle Registration (Table 6.2.1)",
+rev_motor_vehicle,155.193,2020-21,TRUE,"Motor Vehicle Registration (Table 6.2.1)",
+rev_motor_vehicle,162.565,2021-22,TRUE,"Motor Vehicle Registration (Table 6.2.1)",
+rev_gst,1292.414,2017-18,FALSE,"GST Revenue (Table 6.2.8)",Includes balancing adjustment of +$26 million for underpayment in 2016-17
+rev_gst,1328.348,2018-19,FALSE,"GST Revenue (Table 6.2.8)",
+rev_gst,1373.103,2019-20,TRUE,"GST Revenue (Table 6.2.8)",
+rev_gst,1450.763,2020-21,TRUE,"GST Revenue (Table 6.2.8)",
+rev_gst,1525.111,2021-22,TRUE,"GST Revenue (Table 6.2.8)",
+rev_grants_tied,771.629,2017-18,FALSE,"National Specific Purpose Payments (SPPs) (Table 6.2.8)",Includes the gross-up of the GST on Non-Government Schools' funding
+rev_grants_tied,785.771,2018-19,FALSE,"National Specific Purpose Payments (SPPs) (Table 6.2.8)",Includes the gross-up of the GST on Non-Government Schools' funding
+rev_grants_tied,822.862,2019-20,TRUE,"National Specific Purpose Payments (SPPs) (Table 6.2.8)",Includes the gross-up of the GST on Non-Government Schools' funding
+rev_grants_tied,866.292,2020-21,TRUE,"National Specific Purpose Payments (SPPs) (Table 6.2.8)",Includes the gross-up of the GST on Non-Government Schools' funding
+rev_grants_tied,908.508,2021-22,TRUE,"National Specific Purpose Payments (SPPs) (Table 6.2.8)",Includes the gross-up of the GST on Non-Government Schools' funding
+rev_grants_untied,39.562,2017-18,FALSE,"ACT Municipal Services (Table 6.2.8)",
+rev_grants_untied,40.116,2018-19,FALSE,"ACT Municipal Services (Table 6.2.8)",
+rev_grants_untied,40.677,2019-20,TRUE,"ACT Municipal Services (Table 6.2.8)",
+rev_grants_untied,41.287,2020-21,TRUE,"ACT Municipal Services (Table 6.2.8)",
+rev_grants_untied,41.907,2021-22,TRUE,"ACT Municipal Services (Table 6.2.8)",
+rev_sales_goods_svcs,518.432,2017-18,FALSE,"Total Sales of Goods and Services (Table 6.2.10)",
+rev_sales_goods_svcs,542.093,2018-19,FALSE,"Total Sales of Goods and Services (Table 6.2.10)",
+rev_sales_goods_svcs,556.286,2019-20,TRUE,"Total Sales of Goods and Services (Table 6.2.10)",
+rev_sales_goods_svcs,567.675,2020-21,TRUE,"Total Sales of Goods and Services (Table 6.2.10)",
+rev_sales_goods_svcs,578.279,2021-22,TRUE,"Total Sales of Goods and Services (Table 6.2.10)",
+rev_interest,124.363,2017-18,FALSE,"Total interest received (Table 6.2.11)",
+rev_interest,118.534,2018-19,FALSE,"Total interest received (Table 6.2.11)",
+rev_interest,120.907,2019-20,TRUE,"Total interest received (Table 6.2.11)",
+rev_interest,121.082,2020-21,TRUE,"Total interest received (Table 6.2.11)",
+rev_interest,123.401,2021-22,TRUE,"Total interest received (Table 6.2.11)",
+rev_dividend,281.425,2017-18,FALSE,"Total Dividends (Table 6.2.13)",
+rev_dividend,266.092,2018-19,FALSE,"Total Dividends (Table 6.2.13)",
+rev_dividend,281.838,2019-20,TRUE,"Total Dividends (Table 6.2.13)",
+rev_dividend,314.343,2020-21,TRUE,"Total Dividends (Table 6.2.13)",
+rev_dividend,268.187,2021-22,TRUE,"Total Dividends (Table 6.2.13)",
+rev_other,162.814,2017-18,FALSE,"Total Other Revenue (Table 6.2.14)",
+rev_other,144.609,2018-19,FALSE,"Total Other Revenue (Table 6.2.14)",
+rev_other,142.973,2019-20,TRUE,"Total Other Revenue (Table 6.2.14)",
+rev_other,147.963,2020-21,TRUE,"Total Other Revenue (Table 6.2.14)",
+rev_other,145.905,2021-22,TRUE,"Total Other Revenue (Table 6.2.14)",
+net_debt,1357,2017-18,FALSE,"Net debt (excluding super) (Table 8.2.1)",
+net_debt,2108.3,2018-19,FALSE,"Net debt (excluding super) (Table 8.2.1)",
+net_debt,2627.7,2019-20,TRUE,"Net debt (excluding super) (Table 8.2.1)",
+net_debt,2894.7,2020-21,TRUE,"Net debt (excluding super) (Table 8.2.1)",
+net_debt,2834.9,2021-22,TRUE,"Net debt (excluding super) (Table 8.2.1)",
+net_fin_liabilities,5713.4,2017-18,FALSE,"Net financial liabilities (Table 8.2.1)",
+net_fin_liabilities,6609.2,2018-19,FALSE,"Net financial liabilities (Table 8.2.1)",
+net_fin_liabilities,7120.4,2019-20,TRUE,"Net financial liabilities (Table 8.2.1)",
+net_fin_liabilities,7394.2,2020-21,TRUE,"Net financial liabilities (Table 8.2.1)",
+net_fin_liabilities,7466.9,2021-22,TRUE,"Net financial liabilities (Table 8.2.1)",
+net_worth,17262.1,2017-18,FALSE,"Net worth (Table 8.2.1)",
+net_worth,17634.3,2018-19,FALSE,"Net worth (Table 8.2.1)",
+net_worth,17848.2,2019-20,TRUE,"Net worth (Table 8.2.1)",
+net_worth,18072.4,2020-21,TRUE,"Net worth (Table 8.2.1)",
+net_worth,18351.9,2021-22,TRUE,"Net worth (Table 8.2.1)",
+rev_total,5752.891,2017-18,FALSE,Total Revenue,
+rev_total,6077.179,2018-19,FALSE,Total Revenue,
+rev_total,6208.932,2019-20,TRUE,Total Revenue,
+rev_total,6489.003,2020-21,TRUE,Total Revenue,
+rev_total,6754.337,2021-22,TRUE,Total Revenue,
+rev_taxation,1679.992,2017-18,FALSE,Taxation Revenue,
+rev_taxation,1852.103,2018-19,FALSE,Taxation Revenue,
+rev_taxation,1979.553,2019-20,TRUE,Taxation Revenue,
+rev_taxation,2088.697,2020-21,TRUE,Taxation Revenue,
+rev_taxation,2204.308,2021-22,TRUE,Taxation Revenue,
+rev_gst,2288.677,2017-18,FALSE,Commonwealth Grants,Includes GST revenue as part of Commonwealth Grants
+rev_gst,2312.919,2018-19,FALSE,Commonwealth Grants,Includes GST revenue as part of Commonwealth Grants
+rev_gst,2350.022,2019-20,TRUE,Commonwealth Grants,Includes GST revenue as part of Commonwealth Grants
+rev_gst,2476.495,2020-21,TRUE,Commonwealth Grants,Includes GST revenue as part of Commonwealth Grants
+rev_gst,2602.894,2021-22,TRUE,Commonwealth Grants,Includes GST revenue as part of Commonwealth Grants
+rev_sales_goods_svcs,980.654,2017-18,FALSE,Sales of Goods and Services,Combined other sales and revenue from associates/JV
+rev_sales_goods_svcs,963.713,2018-19,FALSE,Sales of Goods and Services,Combined other sales and revenue from associates/JV
+rev_sales_goods_svcs,991.5,2019-20,TRUE,Sales of Goods and Services,Combined other sales and revenue from associates/JV
+rev_sales_goods_svcs,1017.242,2020-21,TRUE,Sales of Goods and Services,Combined other sales and revenue from associates/JV
+rev_sales_goods_svcs,1045.397,2021-22,TRUE,Sales of Goods and Services,Combined other sales and revenue from associates/JV
+rev_interest,54.331,2017-18,FALSE,Interest Income,
+rev_interest,44.745,2018-19,FALSE,Interest Income,
+rev_interest,42.034,2019-20,TRUE,Interest Income,
+rev_interest,41.517,2020-21,TRUE,Interest Income,
+rev_interest,40.668,2021-22,TRUE,Interest Income,
+rev_dividend,90.091,2017-18,FALSE,Dividend and distribution income,Combined distributions from financial investments and dividend income
+rev_dividend,95.149,2018-19,FALSE,Dividend and distribution income,Combined distributions from financial investments and dividend income
+rev_dividend,102.699,2019-20,TRUE,Dividend and distribution income,Combined distributions from financial investments and dividend income
+rev_dividend,110.122,2020-21,TRUE,Dividend and distribution income,Combined distributions from financial investments and dividend income
+rev_dividend,118.089,2021-22,TRUE,Dividend and distribution income,Combined distributions from financial investments and dividend income
+rev_other,517.959,2017-18,FALSE,Other Revenue,Combined land revenue and other revenue
+rev_other,615.223,2018-19,FALSE,Other Revenue,Combined land revenue and other revenue
+rev_other,564.724,2019-20,TRUE,Other Revenue,Combined land revenue and other revenue
+rev_other,644.42,2020-21,TRUE,Other Revenue,Combined land revenue and other revenue
+rev_other,632.378,2021-22,TRUE,Other Revenue,Combined land revenue and other revenue
+exp_total,5823.348,2017-18,FALSE,Total Expenses,
+exp_total,6208.551,2018-19,FALSE,Total Expenses,
+exp_total,6396.587,2019-20,TRUE,Total Expenses,
+exp_total,6745.651,2020-21,TRUE,Total Expenses,
+exp_total,6971.557,2021-22,TRUE,Total Expenses,
+exp_employee,2158.689,2017-18,FALSE,Employee Expenses,
+exp_employee,2246.559,2018-19,FALSE,Employee Expenses,
+exp_employee,2296.088,2019-20,TRUE,Employee Expenses,
+exp_employee,2347.62,2020-21,TRUE,Employee Expenses,
+exp_employee,2401.598,2021-22,TRUE,Employee Expenses,
+exp_super,676.829,2017-18,FALSE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,716.921,2018-19,FALSE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,727.849,2019-20,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,744.378,2020-21,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_super,755.609,2021-22,TRUE,Superannuation expenses,Combined superannuation interest cost and other superannuation expenses
+exp_depreciation,494.825,2017-18,FALSE,Depreciation and Amortisation,
+exp_depreciation,537.684,2018-19,FALSE,Depreciation and Amortisation,
+exp_depreciation,537.04,2019-20,TRUE,Depreciation and Amortisation,
+exp_depreciation,551.967,2020-21,TRUE,Depreciation and Amortisation,
+exp_depreciation,558.031,2021-22,TRUE,Depreciation and Amortisation,
+exp_interest,190.388,2017-18,FALSE,Interest Expense,
+exp_interest,203.761,2018-19,FALSE,Interest Expense,
+exp_interest,223.041,2019-20,TRUE,Interest Expense,
+exp_interest,237.883,2020-21,TRUE,Interest Expense,
+exp_interest,250.581,2021-22,TRUE,Interest Expense,
+exp_other_operating,1373.708,2017-18,FALSE,Other Operating Expenses,Combined supplies and services and other operating expenses
+exp_other_operating,1583.436,2018-19,FALSE,Other Operating Expenses,Combined supplies and services and other operating expenses
+exp_other_operating,1672.669,2019-20,TRUE,Other Operating Expenses,Combined supplies and services and other operating expenses
+exp_other_operating,1800.24,2020-21,TRUE,Other Operating Expenses,Combined supplies and services and other operating expenses
+exp_other_operating,2004.326,2021-22,TRUE,Other Operating Expenses,Combined supplies and services and other operating expenses
+exp_current_grants,928.909,2017-18,FALSE,Grants and Purchased Services,
+exp_current_grants,920.19,2018-19,FALSE,Grants and Purchased Services,
+exp_current_grants,939.9,2019-20,TRUE,Grants and Purchased Services,
+exp_current_grants,1063.563,2020-21,TRUE,Grants and Purchased Services,
+exp_current_grants,1001.412,2021-22,TRUE,Grants and Purchased Services,
+net_op_balance,126.258,2017-18,FALSE,Operating Result,
+net_op_balance,102.612,2018-19,FALSE,Operating Result,
+net_op_balance,-70.747,2019-20,TRUE,Operating Result,
+net_op_balance,-163.225,2020-21,TRUE,Operating Result,
+net_op_balance,25.17,2021-22,TRUE,Operating Result,
+net_lending,-201.582,2017-18,FALSE,Net Lending / (Borrowing),
+net_lending,-224.06,2018-19,FALSE,Net Lending / (Borrowing),
+net_lending,-679.562,2019-20,TRUE,Net Lending / (Borrowing),
+net_lending,-387.88,2020-21,TRUE,Net Lending / (Borrowing),
+net_lending,-119.116,2021-22,TRUE,Net Lending / (Borrowing),
+cash_surplus,-38.335,2017-18,FALSE,Cash Surplus (+)/Deficit (-),
+cash_surplus,-33.622,2018-19,FALSE,Cash Surplus (+)/Deficit (-),
+cash_surplus,-541.572,2019-20,TRUE,Cash Surplus (+)/Deficit (-),
+cash_surplus,-137.934,2020-21,TRUE,Cash Surplus (+)/Deficit (-),
+cash_surplus,123.654,2021-22,TRUE,Cash Surplus (+)/Deficit (-),
+net_debt,2825.524,2017-18,FALSE,Net Debt (excluding Superannuation Related Investments),
+net_debt,3743.778,2018-19,FALSE,Net Debt (excluding Superannuation Related Investments),
+net_debt,4379.663,2019-20,TRUE,Net Debt (excluding Superannuation Related Investments),
+net_debt,4630.694,2020-21,TRUE,Net Debt (excluding Superannuation Related Investments),
+net_debt,4630.337,2021-22,TRUE,Net Debt (excluding Superannuation Related Investments),
+net_fin_liabilities,7626.632,2017-18,FALSE,Net Financial Liabilities,
+net_fin_liabilities,8728.014,2018-19,FALSE,Net Financial Liabilities,
+net_fin_liabilities,9446.191,2019-20,TRUE,Net Financial Liabilities,
+net_fin_liabilities,9770.026,2020-21,TRUE,Net Financial Liabilities,
+net_fin_liabilities,9806.997,2021-22,TRUE,Net Financial Liabilities,
+net_worth,17637.409,2017-18,FALSE,Net Worth,
+net_worth,17945.558,2018-19,FALSE,Net Worth,
+net_worth,18079.511,2019-20,TRUE,Net Worth,
+net_worth,18213.359,2020-21,TRUE,Net Worth,
+net_worth,18394.591,2021-22,TRUE,Net Worth,

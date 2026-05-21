@@ -13,57 +13,65 @@ library(reactable)
 library(htmltools)
 tar_source("R")
 
-facts      <- tryCatch(tar_read(facts_latest),    error = function(e) tibble::tibble())
+facts      <- tryCatch(tar_read(facts_latest),     error = function(e) tibble::tibble())
 per_capita <- tryCatch(tar_read(facts_per_capita), error = function(e) tibble::tibble())
-per_gsp    <- tryCatch(tar_read(facts_per_gsp),   error = function(e) tibble::tibble())
+per_gsp    <- tryCatch(tar_read(facts_per_gsp),    error = function(e) tibble::tibble())
+
+status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
 ```
 
 ::: {.callout-note}
-Pick a variable, the jurisdictions to compare, and the normalisation
-view (absolute AUD millions, per-capita AUD, or share of GSP).
-Selections are linked --- changing one widget updates every chart and
-table on the page.
+Pick **one** variable and one normalisation view. Jurisdictions can
+be toggled to bring lines in and out. Default shows net debt in
+AUD millions.
 :::
 
 ```{r}
 if (nrow(facts) == 0L) {
   htmltools::p("No facts in the warehouse yet.")
 } else {
-  long <- facts |>
-    transmute(jurisdiction, variable_id, canonical_label, category,
-              fiscal_year, is_forward_estimate,
-              value = value_aud_mil, view = "absolute_aud_mil") |>
-    bind_rows(
-      per_capita |> transmute(jurisdiction, variable_id, canonical_label,
-                              category, fiscal_year, is_forward_estimate,
-                              value = value_per_capita_aud,
-                              view = "per_capita_aud")
-    ) |>
-    bind_rows(
-      per_gsp |> transmute(jurisdiction, variable_id, canonical_label,
-                           category, fiscal_year, is_forward_estimate,
-                           value = value_share_gsp * 100,
-                           view = "share_gsp_pct")
-    )
+  long <- bind_rows(
+    facts      |> transmute(jurisdiction, variable_id, canonical_label,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_aud_mil,
+                            view   = "AUD millions"),
+    per_capita |> transmute(jurisdiction, variable_id, canonical_label,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_per_capita_aud,
+                            view   = "AUD per capita"),
+    per_gsp    |> transmute(jurisdiction, variable_id, canonical_label,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_share_gsp * 100,
+                            view   = "% of GSP")
+  ) |>
+    arrange(jurisdiction, canonical_label, fiscal_year)
 
   shared <- SharedData$new(long)
-
   bscols(
     widths = c(3, 9),
     list(
-      filter_select("var",  "Variable",      shared, ~canonical_label),
-      filter_select("view", "Normalisation", shared, ~view, multiple = FALSE),
+      filter_select("var",  "Variable",      shared, ~canonical_label,
+                    multiple = FALSE),
+      filter_select("view", "Normalisation", shared, ~view,
+                    multiple = FALSE),
       filter_checkbox("jur", "Jurisdictions", shared, ~jurisdiction,
                       inline = TRUE)
     ),
     plot_ly(shared,
             x = ~fiscal_year, y = ~value,
             color = ~jurisdiction,
-            type = "scatter", mode = "lines+markers",
-            line = list(width = 2)) |>
-      sbm_theme_fiscal(
-        title       = "Selected variable",
-        yaxis_title = "value"
+            type  = "scatter", mode = "lines+markers",
+            line  = list(width = 2),
+            hovertemplate = "<b>%{x}</b><br>%{y:,.2f}<extra></extra>") |>
+      plotly::layout(
+        font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+        legend = list(orientation = "h", x = 0, y = -0.15),
+        margin = list(l = 60L, r = 20L, t = 30L, b = 70L),
+        xaxis  = list(title = "", tickangle = -45),
+        yaxis  = list(title = "", tickformat = ",")
       )
   )
 }
@@ -76,14 +84,23 @@ if (nrow(facts) == 0L) {
   htmltools::p("No facts to show.")
 } else {
   facts |>
-    select(jurisdiction, variable_id, canonical_label, fiscal_year,
-           value_aud_mil, is_forward_estimate, estimate_type, document_id) |>
-    arrange(variable_id, jurisdiction, fiscal_year) |>
+    arrange(canonical_label, jurisdiction, fiscal_year) |>
+    transmute(
+      Jurisdiction = jurisdiction,
+      Variable     = canonical_label,
+      FY           = fiscal_year,
+      `Value (AUD mil)` = round(value_aud_mil),
+      Status       = status_lbl(is_forward_estimate),
+      Source       = document_id
+    ) |>
     reactable(
       defaultPageSize = 15,
       searchable      = TRUE,
       filterable      = TRUE,
-      striped         = TRUE
+      striped         = TRUE,
+      columns = list(
+        `Value (AUD mil)` = colDef(format = colFormat(separators = TRUE))
+      )
     )
 }
 ```

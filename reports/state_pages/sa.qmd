@@ -29,86 +29,135 @@ per_gsp <- tryCatch(
   tar_read(facts_per_gsp) |> filter(jurisdiction == JURIS),
   error = function(e) tibble::tibble()
 )
+
+# Friendly status label so legends say "Actual" / "Forecast" not TRUE/FALSE.
+status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
+
+# Small helper: build a single-variable timeline plot.
+sbm_state_plot <- function(d, title) {
+  d <- d |> arrange(fiscal_year)
+  plot_ly(d,
+          x = ~fiscal_year, y = ~value_aud_mil,
+          color = ~status_lbl(is_forward_estimate),
+          colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
+          type = "scatter", mode = "lines+markers",
+          line = list(width = 2.5),
+          hovertemplate = "<b>%{x}</b><br>%{y:,.0f} AUD mil<extra></extra>") |>
+    plotly::layout(
+      title  = title,
+      font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+      legend = list(orientation = "h", x = 0, y = -0.18, title = list(text = "")),
+      margin = list(l = 60L, r = 20L, t = 50L, b = 70L),
+      xaxis  = list(title = "", tickangle = -45),
+      yaxis  = list(title = "AUD millions", tickformat = ",")
+    )
+}
 ```
 
-## Headline variables
+## Headline aggregates
 
-::: {.callout-note}
-Data currently shown is from PLACEHOLDER CSVs under
-`data/extracted/sa/`. Replace those values with extracted figures
-from the source Budget Papers; everything downstream (per-capita
-normalisation against ABS ERP, revisions panel, aggregates) flows
-through automatically.
-:::
+```{r rev}
+if (nrow(facts) > 0L)
+  sbm_state_plot(facts |> filter(variable_id == "rev_total"),
+                 paste(JURIS, "--- Total revenue"))
+```
 
-```{r linked-chart}
+```{r exp}
+if (nrow(facts) > 0L)
+  sbm_state_plot(facts |> filter(variable_id == "exp_total"),
+                 paste(JURIS, "--- Total expenses"))
+```
 
+```{r nob}
+if (nrow(facts) > 0L)
+  sbm_state_plot(facts |> filter(variable_id == "net_op_balance"),
+                 paste(JURIS, "--- Net operating balance"))
+```
+
+```{r netdebt}
+if (nrow(facts) > 0L)
+  sbm_state_plot(facts |> filter(variable_id == "net_debt"),
+                 paste(JURIS, "--- Net debt"))
+```
+
+## Drill-down
+
+Pick a variable and a normalisation view.
+
+```{r drill}
 if (nrow(facts) == 0L) {
-  htmltools::p("No facts in the warehouse yet for SA.")
+  htmltools::p("No data.")
 } else {
-  ## Long panel covering absolute / per-capita / per-GSP views in
-  ## one table so a single SharedData backs all three.
-  long <- facts |>
-    transmute(variable_id, canonical_label, fiscal_year,
-              is_forward_estimate, value = value_aud_mil,
-              view = "absolute_aud_mil") |>
-    bind_rows(
-      per_capita |> transmute(variable_id, canonical_label, fiscal_year,
-                              is_forward_estimate,
-                              value = value_per_capita_aud,
-                              view = "per_capita_aud")
-    ) |>
-    bind_rows(
-      per_gsp |> transmute(variable_id, canonical_label, fiscal_year,
-                           is_forward_estimate,
-                           value = value_share_gsp * 100,
-                           view = "share_gsp_pct")
-    )
+  long <- bind_rows(
+    facts      |> transmute(variable_id, canonical_label, category,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_aud_mil,
+                            view   = "AUD millions"),
+    per_capita |> transmute(variable_id, canonical_label, category,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_per_capita_aud,
+                            view   = "AUD per capita"),
+    per_gsp    |> transmute(variable_id, canonical_label, category,
+                            fiscal_year,
+                            status = status_lbl(is_forward_estimate),
+                            value  = value_share_gsp * 100,
+                            view   = "% of GSP")
+  ) |>
+    arrange(canonical_label, fiscal_year)
 
   shared <- SharedData$new(long)
-
   bscols(
     widths = c(3, 9),
     list(
-      filter_select("var",  "Variable",       shared, ~canonical_label),
-      filter_select("view", "Normalisation",  shared, ~view, multiple = FALSE),
-      filter_select("fy",   "Fiscal year",    shared, ~fiscal_year,
-                    multiple = TRUE)
+      filter_select("var",  "Variable",      shared, ~canonical_label,
+                    multiple = FALSE),
+      filter_select("view", "Normalisation", shared, ~view,
+                    multiple = FALSE)
     ),
     plot_ly(shared,
             x = ~fiscal_year, y = ~value,
-            color = ~is_forward_estimate,
-            colors = c(`FALSE` = "#1f3a93", `TRUE` = "#5a6c7d"),
-            type = "scatter", mode = "lines+markers",
-            line = list(width = 2.5),
-            hovertemplate = paste(
-              "<b>%{x}</b><br>",
-              "Value: %{y:,.2f}<extra></extra>"
-            )) |>
-      sbm_theme_fiscal(
-        title       = paste(JURIS, "--- selected variable"),
-        yaxis_title = "value"
+            color = ~status,
+            colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
+            type  = "scatter", mode = "lines+markers",
+            line  = list(width = 2.5),
+            hovertemplate = "<b>%{x}</b><br>%{y:,.2f}<extra></extra>") |>
+      plotly::layout(
+        font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+        legend = list(orientation = "h", x = 0, y = -0.15, title = list(text = "")),
+        margin = list(l = 60L, r = 20L, t = 30L, b = 70L),
+        xaxis  = list(title = "", tickangle = -45),
+        yaxis  = list(title = "", tickformat = ",")
       )
   )
 }
 ```
 
-## Fact table
+## All variables
 
-```{r fact-table}
+```{r table}
 if (nrow(facts) == 0L) {
-  htmltools::p("No facts in the warehouse yet for SA.")
+  htmltools::p("No data.")
 } else {
   facts |>
-    select(variable_id, canonical_label, category, fiscal_year, value_aud_mil,
-           is_forward_estimate, estimate_type, document_id, release_date) |>
-    arrange(category, variable_id, fiscal_year) |>
+    arrange(category, canonical_label, fiscal_year) |>
+    transmute(
+      Category = category,
+      Variable = canonical_label,
+      `FY`     = fiscal_year,
+      `Value (AUD mil)` = round(value_aud_mil),
+      Status   = status_lbl(is_forward_estimate),
+      Source   = document_id
+    ) |>
     reactable(
       defaultPageSize = 15,
       searchable      = TRUE,
       filterable      = TRUE,
       striped         = TRUE,
-      defaultColDef   = colDef(minWidth = 90)
+      columns = list(
+        `Value (AUD mil)` = colDef(format = colFormat(separators = TRUE))
+      )
     )
 }
 ```

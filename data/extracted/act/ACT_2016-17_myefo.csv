@@ -1,0 +1,157 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,5135.9,2016-17,FALSE,Total revenue,
+rev_total,5058.0,2017-18,TRUE,Total revenue,
+rev_total,5353.4,2018-19,TRUE,Total revenue,
+rev_total,5545.4,2019-20,TRUE,Total revenue,
+exp_total,5426.2,2016-17,FALSE,Total expenses,
+exp_total,5333.9,2017-18,TRUE,Total expenses,
+exp_total,5538.5,2018-19,TRUE,Total expenses,
+exp_total,5735.6,2019-20,TRUE,Total expenses,
+net_op_balance,-119.5,2016-17,FALSE,Headline Net Operating Balance,Negative values indicate deficit
+net_op_balance,-94.3,2017-18,TRUE,Headline Net Operating Balance,Negative values indicate deficit
+net_op_balance,4.9,2018-19,TRUE,Headline Net Operating Balance,
+net_op_balance,13.3,2019-20,TRUE,Headline Net Operating Balance,
+cash_surplus,188.7,2016-17,FALSE,Net Cash from Operating Activities,
+cash_surplus,347.7,2017-18,TRUE,Net Cash from Operating Activities,
+cash_surplus,512.4,2018-19,TRUE,Net Cash from Operating Activities,
+cash_surplus,519.2,2019-20,TRUE,Net Cash from Operating Activities,
+net_debt,2001.7,2016-17,FALSE,Net Debt (excluding superannuation),
+net_debt,2310.7,2017-18,TRUE,Net Debt (excluding superannuation),
+net_debt,2830.7,2018-19,TRUE,Net Debt (excluding superannuation),
+net_debt,2650.4,2019-20,TRUE,Net Debt (excluding superannuation),
+net_fin_liabilities,5202.1,2016-17,FALSE,Net Financial Liabilities,
+net_fin_liabilities,5513.2,2017-18,TRUE,Net Financial Liabilities,
+net_fin_liabilities,6171.4,2018-19,TRUE,Net Financial Liabilities,
+net_fin_liabilities,6052.4,2019-20,TRUE,Net Financial Liabilities,
+econ_gsp_growth,2.25,2016-17,FALSE,Gross State Product,Real growth forecast
+econ_gsp_growth,2.5,2017-18,TRUE,Gross State Product,Real growth forecast
+econ_gsp_growth,2.5,2018-19,TRUE,Gross State Product,Real growth forecast
+econ_gsp_growth,2.5,2019-20,TRUE,Gross State Product,Real growth forecast
+econ_employment,1.25,2016-17,FALSE,Employment,Growth rate forecast
+econ_employment,1.5,2017-18,TRUE,Employment,Growth rate forecast
+econ_employment,1.5,2018-19,TRUE,Employment,Growth rate forecast
+econ_employment,1.5,2019-20,TRUE,Employment,Growth rate forecast
+econ_wpi,2.0,2016-17,FALSE,Wage Price Index,Total hourly rates of pay excluding bonuses
+econ_wpi,2.0,2017-18,TRUE,Wage Price Index,Total hourly rates of pay excluding bonuses
+econ_wpi,3.5,2018-19,TRUE,Wage Price Index,Total hourly rates of pay excluding bonuses
+econ_wpi,3.5,2019-20,TRUE,Wage Price Index,Total hourly rates of pay excluding bonuses
+econ_cpi,2.0,2016-17,FALSE,Consumer Price Index growth,Through the year basis
+econ_cpi,1.75,2017-18,TRUE,Consumer Price Index growth,Through the year basis
+econ_cpi,2.5,2018-19,TRUE,Consumer Price Index growth,Through the year basis
+econ_cpi,2.5,2019-20,TRUE,Consumer Price Index growth,Through the year basis
+econ_population,1.5,2016-17,FALSE,Population growth,Through the year basis
+econ_population,1.5,2017-18,TRUE,Population growth,Through the year basis
+econ_population,1.5,2018-19,TRUE,Population growth,Through the year basis
+econ_population,1.5,2019-20,TRUE,Population growth,Through the year basis
+rev_total,5135.898,2016-17,FALSE,Total Revenue,
+rev_total,5057.968,2017-18,TRUE,Total Revenue,
+rev_total,5353.441,2018-19,TRUE,Total Revenue,
+rev_total,5545.362,2019-20,TRUE,Total Revenue,
+rev_taxation,1642.927,2016-17,FALSE,Taxation Revenue,
+rev_taxation,1729.834,2017-18,TRUE,Taxation Revenue,
+rev_taxation,1871.120,2018-19,TRUE,Taxation Revenue,
+rev_taxation,1969.686,2019-20,TRUE,Taxation Revenue,
+rev_payroll,439.977,2016-17,FALSE,Payroll tax,Page 78 table
+rev_payroll,468.230,2017-18,TRUE,Payroll tax,Page 78 table
+rev_payroll,506.069,2018-19,TRUE,Payroll tax,Page 78 table
+rev_payroll,543.341,2019-20,TRUE,Payroll tax,Page 78 table
+rev_stamp_duty,275.901,2016-17,FALSE,Conveyances,Page 78 table
+rev_stamp_duty,250.263,2017-18,TRUE,Conveyances,Page 78 table
+rev_stamp_duty,279.403,2018-19,TRUE,Conveyances,Page 78 table
+rev_stamp_duty,285.265,2019-20,TRUE,Conveyances,Page 78 table
+rev_land_tax,110.345,2016-17,FALSE,Land tax,Page 78 table
+rev_land_tax,130.079,2017-18,TRUE,Land tax,Page 78 table
+rev_land_tax,138.212,2018-19,TRUE,Land tax,Page 78 table
+rev_land_tax,144.195,2019-20,TRUE,Land tax,Page 78 table
+rev_gambling,52.270,2016-17,FALSE,Gambling taxes,Page 78 table
+rev_gambling,53.577,2017-18,TRUE,Gambling taxes,Page 78 table
+rev_gambling,54.916,2018-19,TRUE,Gambling taxes,Page 78 table
+rev_gambling,56.289,2019-20,TRUE,Gambling taxes,Page 78 table
+rev_motor_vehicle,127.371,2016-17,FALSE,Motor vehicle registrations,Page 78 table
+rev_motor_vehicle,135.660,2017-18,TRUE,Motor vehicle registrations,Page 78 table
+rev_motor_vehicle,144.560,2018-19,TRUE,Motor vehicle registrations,Page 78 table
+rev_motor_vehicle,144.502,2019-20,TRUE,Motor vehicle registrations,Page 78 table
+rev_other_tax,286.416,2016-17,FALSE,Other taxes,Page 78 table - sum of other taxes category
+rev_other_tax,307.971,2017-18,TRUE,Other taxes,Page 78 table - sum of other taxes category
+rev_other_tax,329.815,2018-19,TRUE,Other taxes,Page 78 table - sum of other taxes category
+rev_other_tax,336.773,2019-20,TRUE,Other taxes,Page 78 table - sum of other taxes category
+rev_gst,2062.747,2016-17,FALSE,Commonwealth Grants,Includes GST revenue
+rev_gst,2132.713,2017-18,TRUE,Commonwealth Grants,Includes GST revenue
+rev_gst,2165.405,2018-19,TRUE,Commonwealth Grants,Includes GST revenue
+rev_gst,2244.840,2019-20,TRUE,Commonwealth Grants,Includes GST revenue
+rev_sales_goods_svcs,479.589,2016-17,FALSE,Sales of Goods and Services,
+rev_sales_goods_svcs,505.052,2017-18,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,520.787,2018-19,TRUE,Sales of Goods and Services,
+rev_sales_goods_svcs,530.400,2019-20,TRUE,Sales of Goods and Services,
+rev_interest,123.790,2016-17,FALSE,Interest Income,
+rev_interest,112.205,2017-18,TRUE,Interest Income,
+rev_interest,105.231,2018-19,TRUE,Interest Income,
+rev_interest,112.139,2019-20,TRUE,Interest Income,
+rev_dividend,493.410,2016-17,FALSE,Dividend and Income Tax Equivalents Income,
+rev_dividend,291.213,2017-18,TRUE,Dividend and Income Tax Equivalents Income,
+rev_dividend,365.213,2018-19,TRUE,Dividend and Income Tax Equivalents Income,
+rev_dividend,385.048,2019-20,TRUE,Dividend and Income Tax Equivalents Income,
+rev_other,147.784,2016-17,FALSE,Other Revenue,
+rev_other,148.556,2017-18,TRUE,Other Revenue,
+rev_other,151.474,2018-19,TRUE,Other Revenue,
+rev_other,150.415,2019-20,TRUE,Other Revenue,
+exp_total,5426.173,2016-17,FALSE,Total Expenses,
+exp_total,5333.873,2017-18,TRUE,Total Expenses,
+exp_total,5538.547,2018-19,TRUE,Total Expenses,
+exp_total,5735.596,2019-20,TRUE,Total Expenses,
+exp_employee,1897.725,2016-17,FALSE,Employee Expenses,
+exp_employee,1902.752,2017-18,TRUE,Employee Expenses,
+exp_employee,1945.412,2018-19,TRUE,Employee Expenses,
+exp_employee,1982.161,2019-20,TRUE,Employee Expenses,
+exp_super,751.460,2016-17,FALSE,Superannuation Expenses,Sum of all superannuation expenses
+exp_super,660.713,2017-18,TRUE,Superannuation Expenses,Sum of all superannuation expenses
+exp_super,674.147,2018-19,TRUE,Superannuation Expenses,Sum of all superannuation expenses
+exp_super,687.108,2019-20,TRUE,Superannuation Expenses,Sum of all superannuation expenses
+exp_depreciation,371.698,2016-17,FALSE,Depreciation and Amortisation,
+exp_depreciation,383.234,2017-18,TRUE,Depreciation and Amortisation,
+exp_depreciation,408.101,2018-19,TRUE,Depreciation and Amortisation,
+exp_depreciation,419.306,2019-20,TRUE,Depreciation and Amortisation,
+exp_interest,186.212,2016-17,FALSE,Interest Expense,
+exp_interest,202.558,2017-18,TRUE,Interest Expense,
+exp_interest,215.695,2018-19,TRUE,Interest Expense,
+exp_interest,232.429,2019-20,TRUE,Interest Expense,
+exp_other_operating,1214.942,2016-17,FALSE,Other Operating Expenses,Sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1208.809,2017-18,TRUE,Other Operating Expenses,Sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1289.334,2018-19,TRUE,Other Operating Expenses,Sum of Supplies and Services and Other Operating Expenses
+exp_other_operating,1406.763,2019-20,TRUE,Other Operating Expenses,Sum of Supplies and Services and Other Operating Expenses
+exp_current_grants,1004.136,2016-17,FALSE,Grants and Purchased Services,
+exp_current_grants,975.807,2017-18,TRUE,Grants and Purchased Services,
+exp_current_grants,1005.858,2018-19,TRUE,Grants and Purchased Services,
+exp_current_grants,1007.829,2019-20,TRUE,Grants and Purchased Services,
+net_op_balance,-290.275,2016-17,FALSE,UPF Net Operating Balance,
+net_op_balance,-275.905,2017-18,TRUE,UPF Net Operating Balance,
+net_op_balance,-185.106,2018-19,TRUE,UPF Net Operating Balance,
+net_op_balance,-190.234,2019-20,TRUE,UPF Net Operating Balance,
+net_cap_investment,373.317,2016-17,FALSE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,244.377,2017-18,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,170.273,2018-19,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_cap_investment,-110.708,2019-20,TRUE,Total Net Acquisition of Non-Financial Assets,
+net_lending,-663.592,2016-17,FALSE,Net Lending / (Borrowing),
+net_lending,-520.282,2017-18,TRUE,Net Lending / (Borrowing),
+net_lending,-355.379,2018-19,TRUE,Net Lending / (Borrowing),
+net_lending,-79.526,2019-20,TRUE,Net Lending / (Borrowing),
+cash_surplus,-456.224,2016-17,FALSE,Cash Surplus (+) / Deficit (-),
+cash_surplus,-192.996,2017-18,TRUE,Cash Surplus (+) / Deficit (-),
+cash_surplus,29.379,2018-19,TRUE,Cash Surplus (+) / Deficit (-),
+cash_surplus,270.196,2019-20,TRUE,Cash Surplus (+) / Deficit (-),
+net_debt,2001.669,2016-17,FALSE,Net Debt (Excluding Superannuation Related Investments),Table 5.1.1
+net_debt,2310.727,2017-18,TRUE,Net Debt (Excluding Superannuation Related Investments),Table 5.1.1
+net_debt,2830.669,2018-19,TRUE,Net Debt (Excluding Superannuation Related Investments),Table 5.1.1
+net_debt,2650.440,2019-20,TRUE,Net Debt (Excluding Superannuation Related Investments),Table 5.1.1
+net_fin_liabilities,5202.059,2016-17,FALSE,Net Financial Liabilities,Table 5.1.2
+net_fin_liabilities,5513.242,2017-18,TRUE,Net Financial Liabilities,Table 5.1.2
+net_fin_liabilities,6171.386,2018-19,TRUE,Net Financial Liabilities,Table 5.1.2
+net_fin_liabilities,6052.398,2019-20,TRUE,Net Financial Liabilities,Table 5.1.2
+net_worth,17555.540,2016-17,FALSE,Net Worth,Table 5.1.3
+net_worth,17667.722,2017-18,TRUE,Net Worth,Table 5.1.3
+net_worth,17920.582,2018-19,TRUE,Net Worth,Table 5.1.3
+net_worth,18065.633,2019-20,TRUE,Net Worth,Table 5.1.3
+capex_pnfa,930.172,2016-17,FALSE,Payments for Non-Financial Assets,
+capex_pnfa,809.107,2017-18,TRUE,Payments for Non-Financial Assets,
+capex_pnfa,640.317,2018-19,TRUE,Payments for Non-Financial Assets,
+capex_pnfa,350.147,2019-20,TRUE,Payments for Non-Financial Assets,

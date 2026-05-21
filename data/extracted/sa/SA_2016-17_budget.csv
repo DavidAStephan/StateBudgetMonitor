@@ -1,0 +1,295 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,17295,2015-16,FALSE,Total revenue,
+rev_total,18263,2016-17,FALSE,Total revenue,
+rev_total,18917,2017-18,TRUE,Total revenue,
+rev_total,18974,2018-19,TRUE,Total revenue,
+rev_total,19389,2019-20,TRUE,Total revenue,
+rev_taxation,4406,2015-16,FALSE,Taxation revenue,
+rev_taxation,4517,2016-17,FALSE,Taxation revenue,
+rev_taxation,4656,2017-18,TRUE,Taxation revenue,
+rev_taxation,4799,2018-19,TRUE,Taxation revenue,
+rev_taxation,5023,2019-20,TRUE,Taxation revenue,
+rev_payroll,1117,2015-16,FALSE,Payroll tax,
+rev_payroll,1159,2016-17,FALSE,Payroll tax,
+rev_payroll,1204,2017-18,TRUE,Payroll tax,
+rev_payroll,1251,2018-19,TRUE,Payroll tax,
+rev_payroll,1315,2019-20,TRUE,Payroll tax,
+rev_stamp_duty,875,2015-16,FALSE,Conveyance duty,
+rev_stamp_duty,902,2016-17,FALSE,Conveyance duty,
+rev_stamp_duty,918,2017-18,TRUE,Conveyance duty,
+rev_stamp_duty,939,2018-19,TRUE,Conveyance duty,
+rev_stamp_duty,1029,2019-20,TRUE,Conveyance duty,
+rev_land_tax,578,2015-16,FALSE,"Land tax — private, Land tax — public",Combined private (356) and public (222)
+rev_land_tax,593,2016-17,FALSE,"Land tax — private, Land tax — public",Combined private (366) and public (227)
+rev_land_tax,610,2017-18,TRUE,"Land tax — private, Land tax — public",Combined private (378) and public (232)
+rev_land_tax,627,2018-19,TRUE,"Land tax — private, Land tax — public",Combined private (389) and public (238)
+rev_land_tax,645,2019-20,TRUE,"Land tax — private, Land tax — public",Combined private (402) and public (243)
+rev_gambling,386,2015-16,FALSE,Gambling taxes,
+rev_gambling,389,2016-17,FALSE,Gambling taxes,
+rev_gambling,406,2017-18,TRUE,Gambling taxes,
+rev_gambling,417,2018-19,TRUE,Gambling taxes,
+rev_gambling,423,2019-20,TRUE,Gambling taxes,
+rev_motor_vehicle,614,2015-16,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,625,2016-17,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,642,2017-18,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,662,2018-19,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,682,2019-20,TRUE,Motor vehicle taxes,
+rev_other_tax,438,2015-16,FALSE,Insurance taxes,
+rev_other_tax,443,2016-17,FALSE,Insurance taxes,
+rev_other_tax,460,2017-18,TRUE,Insurance taxes,
+rev_other_tax,479,2018-19,TRUE,Insurance taxes,
+rev_other_tax,498,2019-20,TRUE,Insurance taxes,
+rev_gst,5573,2015-16,FALSE,GST revenue grants,
+rev_gst,6101,2016-17,FALSE,GST revenue grants,
+rev_gst,6424,2017-18,TRUE,GST revenue grants,
+rev_gst,6479,2018-19,TRUE,GST revenue grants,
+rev_gst,6574,2019-20,TRUE,GST revenue grants,
+rev_grants_tied,2935,2015-16,FALSE,"National Partnership grants, Specific purpose grants","Combined Commonwealth Government NP and SPP current grants (excluding on-passing): 316+2619=2935"
+rev_grants_tied,3119,2016-17,FALSE,"National Partnership grants, Specific purpose grants","Combined Commonwealth Government NP and SPP current grants (excluding on-passing): 385+2734=3119"
+rev_grants_tied,3278,2017-18,TRUE,"National Partnership grants, Specific purpose grants","Combined Commonwealth Government NP and SPP current grants (excluding on-passing): 280+2998=3278"
+rev_grants_tied,3097,2018-19,TRUE,"National Partnership grants, Specific purpose grants","Combined Commonwealth Government NP and SPP current grants (excluding on-passing): 388+2898=3286. Using Table 3.3 figures: SPP+NP=3477 minus on-passing 969=2508. Recalculating from Table 3.14"
+rev_grants_tied,2292,2019-20,TRUE,"National Partnership grants, Specific purpose grants",
+rev_sales_goods_svcs,2416,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2487,2016-17,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2588,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2644,2018-19,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2719,2019-20,TRUE,Sales of goods and services,
+rev_interest,24,2015-16,FALSE,Interest income,
+rev_interest,24,2016-17,FALSE,Interest income,
+rev_interest,24,2017-18,TRUE,Interest income,
+rev_interest,26,2018-19,TRUE,Interest income,
+rev_interest,25,2019-20,TRUE,Interest income,
+rev_dividend,775,2015-16,FALSE,Dividend and income tax equivalent income,
+rev_dividend,326,2016-17,FALSE,Dividend and income tax equivalent income,
+rev_dividend,251,2017-18,TRUE,Dividend and income tax equivalent income,
+rev_dividend,265,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_dividend,281,2019-20,TRUE,Dividend and income tax equivalent income,
+rev_other,622,2015-16,FALSE,Other revenue,
+rev_other,664,2016-17,FALSE,Other revenue,
+rev_other,652,2017-18,TRUE,Other revenue,
+rev_other,665,2018-19,TRUE,Other revenue,
+rev_other,705,2019-20,TRUE,Other revenue,
+exp_total,17036,2015-16,FALSE,Total expenses,
+exp_total,18009,2016-17,FALSE,Total expenses,
+exp_total,18502,2017-18,TRUE,Total expenses,
+exp_total,18509,2018-19,TRUE,Total expenses,
+exp_total,18923,2019-20,TRUE,Total expenses,
+exp_employee,7749,2015-16,FALSE,Employee expenses,
+exp_employee,7899,2016-17,FALSE,Employee expenses,
+exp_employee,8068,2017-18,TRUE,Employee expenses,
+exp_employee,8143,2018-19,TRUE,Employee expenses,
+exp_employee,8285,2019-20,TRUE,Employee expenses,
+exp_super,1242,2015-16,FALSE,"Superannuation interest cost, Other superannuation expenses",Combined: 402+840=1242
+exp_super,1251,2016-17,FALSE,"Superannuation interest cost, Other superannuation expenses",Combined: 392+859=1251
+exp_super,1254,2017-18,TRUE,"Superannuation interest cost, Other superannuation expenses",Combined: 382+872=1254
+exp_super,1256,2018-19,TRUE,"Superannuation interest cost, Other superannuation expenses",Combined: 371+885=1256
+exp_super,1263,2019-20,TRUE,"Superannuation interest cost, Other superannuation expenses",Combined: 359+904=1263
+exp_depreciation,889,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,963,2016-17,FALSE,Depreciation and amortisation,
+exp_depreciation,1020,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,1055,2018-19,TRUE,Depreciation and amortisation,
+exp_depreciation,1058,2019-20,TRUE,Depreciation and amortisation,
+exp_interest,233,2015-16,FALSE,Interest expenses,
+exp_interest,346,2016-17,FALSE,Interest expenses,
+exp_interest,375,2017-18,TRUE,Interest expenses,
+exp_interest,300,2018-19,TRUE,Interest expenses,
+exp_interest,297,2019-20,TRUE,Interest expenses,
+exp_other_operating,4155,2015-16,FALSE,Other operating expenses,
+exp_other_operating,4613,2016-17,FALSE,Other operating expenses,
+exp_other_operating,4832,2017-18,TRUE,Other operating expenses,
+exp_other_operating,4939,2018-19,TRUE,Other operating expenses,
+exp_other_operating,5178,2019-20,TRUE,Other operating expenses,
+exp_current_grants,2768,2015-16,FALSE,Grants,
+exp_current_grants,2937,2016-17,FALSE,Grants,
+exp_current_grants,2955,2017-18,TRUE,Grants,
+exp_current_grants,2818,2018-19,TRUE,Grants,
+exp_current_grants,2843,2019-20,TRUE,Grants,
+net_op_balance,258,2015-16,FALSE,Net operating balance,
+net_op_balance,254,2016-17,FALSE,Net operating balance,
+net_op_balance,415,2017-18,TRUE,Net operating balance,
+net_op_balance,464,2018-19,TRUE,Net operating balance,
+net_op_balance,466,2019-20,TRUE,Net operating balance,
+net_cap_investment,256,2015-16,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2690,2016-17,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,726,2017-18,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,420,2018-19,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,413,2019-20,TRUE,Total net acquisition of non-financial assets,
+net_lending,3,2015-16,FALSE,Net lending/borrowing,
+net_lending,-2436,2016-17,FALSE,Net lending/borrowing,
+net_lending,-310,2017-18,TRUE,Net lending/borrowing,
+net_lending,44,2018-19,TRUE,Net lending/borrowing,
+net_lending,52,2019-20,TRUE,Net lending/borrowing,
+net_debt,4071,2015-16,FALSE,Net debt,
+net_debt,6246,2016-17,FALSE,Net debt,
+net_debt,6561,2017-18,TRUE,Net debt,
+net_debt,6541,2018-19,TRUE,Net debt,
+net_debt,6536,2019-20,TRUE,Net debt,
+capex_pnfa,1236,2015-16,FALSE,Purchases of non-financial assets,
+capex_pnfa,4630,2016-17,FALSE,Purchases of non-financial assets,"Includes $2820 million for new Royal Adelaide Hospital finance lease"
+capex_pnfa,2134,2017-18,TRUE,Purchases of non-financial assets,
+capex_pnfa,1508,2018-19,TRUE,Purchases of non-financial assets,
+capex_pnfa,1510,2019-20,TRUE,Purchases of non-financial assets,
+net_debt,4071,2015-16,FALSE,"Net debt $m",Estimated Result as at 30 June 2016
+net_debt,6246,2016-17,FALSE,"Net debt $m",
+net_debt,6561,2017-18,TRUE,"Net debt $m",
+net_debt,6541,2018-19,TRUE,"Net debt $m",
+net_debt,6536,2019-20,TRUE,"Net debt $m",
+net_fin_liabilities,19796,2015-16,FALSE,"Net financial liabilities $m",Estimated Result as at 30 June 2016
+net_fin_liabilities,21783,2016-17,FALSE,"Net financial liabilities $m",
+net_fin_liabilities,21951,2017-18,TRUE,"Net financial liabilities $m",
+net_fin_liabilities,21756,2018-19,TRUE,"Net financial liabilities $m",
+net_fin_liabilities,21574,2019-20,TRUE,"Net financial liabilities $m",
+net_worth,39195,2015-16,FALSE,"Net worth $m",Estimated Result as at 30 June 2016
+net_worth,40573,2016-17,FALSE,"Net worth $m",
+net_worth,41476,2017-18,TRUE,"Net worth $m",
+net_worth,42675,2018-19,TRUE,"Net worth $m",
+net_worth,43883,2019-20,TRUE,"Net worth $m",
+rev_total,17295,2015-16,FALSE,Total revenue,
+rev_total,18263,2016-17,FALSE,Total revenue,
+rev_total,18917,2017-18,TRUE,Total revenue,
+rev_total,18974,2018-19,TRUE,Total revenue,
+rev_total,19389,2019-20,TRUE,Total revenue,
+rev_taxation,4406,2015-16,FALSE,Taxation revenue,
+rev_taxation,4517,2016-17,FALSE,Taxation revenue,
+rev_taxation,4656,2017-18,TRUE,Taxation revenue,
+rev_taxation,4799,2018-19,TRUE,Taxation revenue,
+rev_taxation,5023,2019-20,TRUE,Taxation revenue,
+rev_payroll,1117,2015-16,FALSE,Taxes on employers' payroll and labour force,
+rev_payroll,1159,2016-17,FALSE,Taxes on employers' payroll and labour force,
+rev_payroll,1204,2017-18,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1251,2018-19,TRUE,Taxes on employers' payroll and labour force,
+rev_payroll,1315,2019-20,TRUE,Taxes on employers' payroll and labour force,
+rev_stamp_duty,1007,2015-16,FALSE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1041,2016-17,FALSE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1063,2017-18,TRUE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1087,2018-19,TRUE,Stamp duties on financial and capital transactions,
+rev_stamp_duty,1182,2019-20,TRUE,Stamp duties on financial and capital transactions,
+rev_land_tax,578,2015-16,FALSE,Land taxes,
+rev_land_tax,593,2016-17,FALSE,Land taxes,
+rev_land_tax,610,2017-18,TRUE,Land taxes,
+rev_land_tax,626,2018-19,TRUE,Land taxes,
+rev_land_tax,644,2019-20,TRUE,Land taxes,
+rev_gambling,386,2015-16,FALSE,Taxes on gambling,
+rev_gambling,389,2016-17,FALSE,Taxes on gambling,
+rev_gambling,406,2017-18,TRUE,Taxes on gambling,
+rev_gambling,417,2018-19,TRUE,Taxes on gambling,
+rev_gambling,423,2019-20,TRUE,Taxes on gambling,
+rev_motor_vehicle,614,2015-16,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,625,2016-17,FALSE,Motor vehicle taxes,
+rev_motor_vehicle,642,2017-18,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,662,2018-19,TRUE,Motor vehicle taxes,
+rev_motor_vehicle,682,2019-20,TRUE,Motor vehicle taxes,
+rev_gst,5573,2015-16,FALSE,General purpose grants,Sourced from Table A.14(a) Commonwealth general purpose grants
+rev_gst,6101,2016-17,FALSE,General purpose grants,Sourced from Table A.14(a) Commonwealth general purpose grants
+rev_gst,6424,2017-18,TRUE,General purpose grants,Sourced from Table A.14(a) Commonwealth general purpose grants
+rev_gst,6479,2018-19,TRUE,General purpose grants,Sourced from Table A.14(a) Commonwealth general purpose grants
+rev_gst,6574,2019-20,TRUE,General purpose grants,Sourced from Table A.14(a) Commonwealth general purpose grants
+rev_grants_tied,2230,2015-16,FALSE,Commonwealth tied grants,Sum of National partnership grants plus Specific purpose grants from Table A.14(a)
+rev_grants_tied,2338,2016-17,FALSE,Commonwealth tied grants,Sum of National partnership grants plus Specific purpose grants from Table A.14(a)
+rev_grants_tied,2278,2017-18,TRUE,Commonwealth tied grants,Sum of National partnership grants plus Specific purpose grants from Table A.14(a)
+rev_grants_tied,2387,2018-19,TRUE,Commonwealth tied grants,Sum of National partnership grants plus Specific purpose grants from Table A.14(a)
+rev_grants_tied,2312,2019-20,TRUE,Commonwealth tied grants,Sum of National partnership grants plus Specific purpose grants from Table A.14(a)
+rev_sales_goods_svcs,2416,2015-16,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2487,2016-17,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,2588,2017-18,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2644,2018-19,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,2719,2019-20,TRUE,Sales of goods and services,
+rev_interest,24,2015-16,FALSE,Interest income,
+rev_interest,24,2016-17,FALSE,Interest income,
+rev_interest,24,2017-18,TRUE,Interest income,
+rev_interest,26,2018-19,TRUE,Interest income,
+rev_interest,25,2019-20,TRUE,Interest income,
+rev_dividend,775,2015-16,FALSE,Dividend and income tax equivalent income,
+rev_dividend,326,2016-17,FALSE,Dividend and income tax equivalent income,
+rev_dividend,251,2017-18,TRUE,Dividend and income tax equivalent income,
+rev_dividend,265,2018-19,TRUE,Dividend and income tax equivalent income,
+rev_dividend,281,2019-20,TRUE,Dividend and income tax equivalent income,
+rev_other,622,2015-16,FALSE,Other,
+rev_other,664,2016-17,FALSE,Other,
+rev_other,652,2017-18,TRUE,Other,
+rev_other,665,2018-19,TRUE,Other,
+rev_other,705,2019-20,TRUE,Other,
+exp_total,17036,2015-16,FALSE,Total expenses,
+exp_total,18009,2016-17,FALSE,Total expenses,
+exp_total,18502,2017-18,TRUE,Total expenses,
+exp_total,18509,2018-19,TRUE,Total expenses,
+exp_total,18923,2019-20,TRUE,Total expenses,
+exp_employee,7749,2015-16,FALSE,Employee expenses,
+exp_employee,7899,2016-17,FALSE,Employee expenses,
+exp_employee,8068,2017-18,TRUE,Employee expenses,
+exp_employee,8143,2018-19,TRUE,Employee expenses,
+exp_employee,8285,2019-20,TRUE,Employee expenses,
+exp_super,1242,2015-16,FALSE,Superannuation expenses,Sum of Superannuation interest cost and Other superannuation expenses
+exp_super,1251,2016-17,FALSE,Superannuation expenses,Sum of Superannuation interest cost and Other superannuation expenses
+exp_super,1254,2017-18,TRUE,Superannuation expenses,Sum of Superannuation interest cost and Other superannuation expenses
+exp_super,1256,2018-19,TRUE,Superannuation expenses,Sum of Superannuation interest cost and Other superannuation expenses
+exp_super,1263,2019-20,TRUE,Superannuation expenses,Sum of Superannuation interest cost and Other superannuation expenses
+exp_depreciation,889,2015-16,FALSE,Depreciation and amortisation,
+exp_depreciation,963,2016-17,FALSE,Depreciation and amortisation,
+exp_depreciation,1020,2017-18,TRUE,Depreciation and amortisation,
+exp_depreciation,1055,2018-19,TRUE,Depreciation and amortisation,
+exp_depreciation,1058,2019-20,TRUE,Depreciation and amortisation,
+exp_interest,233,2015-16,FALSE,Interest expenses,
+exp_interest,346,2016-17,FALSE,Interest expenses,
+exp_interest,375,2017-18,TRUE,Interest expenses,
+exp_interest,300,2018-19,TRUE,Interest expenses,
+exp_interest,297,2019-20,TRUE,Interest expenses,
+exp_other_operating,4155,2015-16,FALSE,Other operating expenses,
+exp_other_operating,4613,2016-17,FALSE,Other operating expenses,
+exp_other_operating,4832,2017-18,TRUE,Other operating expenses,
+exp_other_operating,4939,2018-19,TRUE,Other operating expenses,
+exp_other_operating,5178,2019-20,TRUE,Other operating expenses,
+exp_health,5343,2015-16,FALSE,Health,From Table A.16 Estimated Result
+exp_health,5618,2016-17,FALSE,Health,From Table A.16 Budget
+exp_education,4263,2015-16,FALSE,Education,From Table A.16 Estimated Result
+exp_education,4364,2016-17,FALSE,Education,From Table A.16 Budget
+exp_public_order,1679,2015-16,FALSE,Public order and safety,From Table A.16 Estimated Result
+exp_public_order,1752,2016-17,FALSE,Public order and safety,From Table A.16 Budget
+exp_transport_comms,1100,2015-16,FALSE,Transport and communications,From Table A.16 Estimated Result
+exp_transport_comms,1219,2016-17,FALSE,Transport and communications,From Table A.16 Budget
+exp_social_security,1356,2015-16,FALSE,Social security and welfare,From Table A.16 Estimated Result
+exp_social_security,1437,2016-17,FALSE,Social security and welfare,From Table A.16 Budget
+exp_general_public,383,2015-16,FALSE,General public services,From Table A.16 Estimated Result
+exp_general_public,408,2016-17,FALSE,General public services,From Table A.16 Budget
+exp_recreation,404,2015-16,FALSE,Recreation and culture,From Table A.16 Estimated Result
+exp_recreation,421,2016-17,FALSE,Recreation and culture,From Table A.16 Budget
+net_op_balance,258,2015-16,FALSE,Net operating balance,
+net_op_balance,254,2016-17,FALSE,Net operating balance,
+net_op_balance,415,2017-18,TRUE,Net operating balance,
+net_op_balance,464,2018-19,TRUE,Net operating balance,
+net_op_balance,466,2019-20,TRUE,Net operating balance,
+net_cap_investment,256,2015-16,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,2690,2016-17,FALSE,Total net acquisition of non-financial assets,
+net_cap_investment,726,2017-18,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,420,2018-19,TRUE,Total net acquisition of non-financial assets,
+net_cap_investment,413,2019-20,TRUE,Total net acquisition of non-financial assets,
+net_lending,3,2015-16,FALSE,Net lending / borrowing,
+net_lending,-2436,2016-17,FALSE,Net lending / borrowing,
+net_lending,-310,2017-18,TRUE,Net lending / borrowing,
+net_lending,44,2018-19,TRUE,Net lending / borrowing,
+net_lending,52,2019-20,TRUE,Net lending / borrowing,
+cash_surplus,-4,2015-16,FALSE,Cash surplus / (deficit),From Table A.7
+cash_surplus,290,2016-17,FALSE,Cash surplus / (deficit),From Table A.7
+cash_surplus,-353,2017-18,TRUE,Cash surplus / (deficit),From Table A.7
+cash_surplus,-24,2018-19,TRUE,Cash surplus / (deficit),From Table A.7
+cash_surplus,-15,2019-20,TRUE,Cash surplus / (deficit),From Table A.7
+net_debt,4071,2015-16,FALSE,Net debt,From Table A.4
+net_debt,6246,2016-17,FALSE,Net debt,From Table A.4
+net_debt,6561,2017-18,TRUE,Net debt,From Table A.4
+net_debt,6541,2018-19,TRUE,Net debt,From Table A.4
+net_debt,6536,2019-20,TRUE,Net debt,From Table A.4
+net_fin_liabilities,19796,2015-16,FALSE,Net financial liabilities,From Table A.4
+net_fin_liabilities,21783,2016-17,FALSE,Net financial liabilities,From Table A.4
+net_fin_liabilities,21951,2017-18,TRUE,Net financial liabilities,From Table A.4
+net_fin_liabilities,21756,2018-19,TRUE,Net financial liabilities,From Table A.4
+net_fin_liabilities,21574,2019-20,TRUE,Net financial liabilities,From Table A.4
+net_worth,39195,2015-16,FALSE,Net Worth,From Table A.4
+net_worth,40573,2016-17,FALSE,Net Worth,From Table A.4
+net_worth,41476,2017-18,TRUE,Net Worth,From Table A.4
+net_worth,42675,2018-19,TRUE,Net Worth,From Table A.4
+net_worth,43883,2019-20,TRUE,Net Worth,From Table A.4
+capex_pnfa,1236,2015-16,FALSE,Purchases of non-financial assets,
+capex_pnfa,4630,2016-17,FALSE,Purchases of non-financial assets,
+capex_pnfa,2134,2017-18,TRUE,Purchases of non-financial assets,
+capex_pnfa,1508,2018-19,TRUE,Purchases of non-financial assets,
+capex_pnfa,1510,2019-20,TRUE,Purchases of non-financial assets,

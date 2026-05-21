@@ -13,29 +13,69 @@ library(htmltools)
 tar_source("R")
 
 agg <- tryCatch(tar_read(facts_aggregate), error = function(e) tibble::tibble())
+
+status_lbl <- function(b) ifelse(b, "Forecast", "Actual")
 ```
 
 ::: {.callout-note}
-Aggregate views sum flow variables (revenue, expenses, capex) and
-stock variables (net debt) across all eight jurisdictions. They
-should be treated as approximate while Phase 2 extraction is
-incomplete --- the sum reflects whatever subset of states has been
-extracted so far.
+Aggregate views sum each jurisdiction's most-recent value per
+fiscal year. Coverage is partial while extraction is still being
+backfilled --- see `n_states` in the table for how many states
+contributed to each row.
 :::
 
-```{r}
+## Net debt --- all states summed
+
+```{r netdebt}
 if (nrow(agg) == 0L) {
   htmltools::p("No aggregate panel yet.")
 } else {
-  agg |>
-    filter(variable_id == "net_debt", !is_forward_estimate) |>
+  d <- agg |>
+    filter(variable_id == "net_debt") |>
     arrange(fiscal_year) |>
-    plot_ly(x = ~fiscal_year, y = ~value_aud_mil,
-            type = "scatter", mode = "lines+markers",
-            name = "All states & territories") |>
-    sbm_theme_fiscal(
-      title       = "Aggregate net debt",
-      yaxis_title = "AUD millions"
+    mutate(status = status_lbl(is_forward_estimate))
+  plot_ly(d,
+          x = ~fiscal_year, y = ~value_aud_mil,
+          color = ~status,
+          colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
+          type = "scatter", mode = "lines+markers",
+          line = list(width = 3),
+          hovertemplate = "<b>%{x}</b><br>%{y:,.0f} AUD mil<extra></extra>") |>
+    plotly::layout(
+      title  = "All states --- net debt",
+      font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+      legend = list(orientation = "h", x = 0, y = -0.18, title = list(text = "")),
+      margin = list(l = 60L, r = 20L, t = 50L, b = 70L),
+      xaxis  = list(title = "", tickangle = -45),
+      yaxis  = list(title = "AUD millions", tickformat = ",")
+    )
+}
+```
+
+## Total revenue --- all states summed
+
+```{r rev}
+if (nrow(agg) == 0L) {
+  htmltools::p("No data.")
+} else {
+  d <- agg |>
+    filter(variable_id == "rev_total") |>
+    arrange(fiscal_year) |>
+    mutate(status = status_lbl(is_forward_estimate))
+  plot_ly(d,
+          x = ~fiscal_year, y = ~value_aud_mil,
+          color = ~status,
+          colors = c(Actual = "#1f3a93", Forecast = "#a6611a"),
+          type = "scatter", mode = "lines+markers",
+          line = list(width = 3),
+          hovertemplate = "<b>%{x}</b><br>%{y:,.0f} AUD mil<extra></extra>") |>
+    plotly::layout(
+      title  = "All states --- total revenue",
+      font   = list(family = "Inter, system-ui, sans-serif", size = 12L),
+      legend = list(orientation = "h", x = 0, y = -0.18, title = list(text = "")),
+      margin = list(l = 60L, r = 20L, t = 50L, b = 70L),
+      xaxis  = list(title = "", tickangle = -45),
+      yaxis  = list(title = "AUD millions", tickformat = ",")
     )
 }
 ```
@@ -47,13 +87,22 @@ if (nrow(agg) == 0L) {
   htmltools::p("Empty.")
 } else {
   agg |>
-    arrange(variable_id, fiscal_year) |>
-    select(variable_id, canonical_label, fiscal_year, value_aud_mil, n_states) |>
+    arrange(canonical_label, fiscal_year) |>
+    transmute(
+      Variable = canonical_label,
+      FY       = fiscal_year,
+      `Sum (AUD mil)` = round(value_aud_mil),
+      `States summed` = n_states,
+      Status = status_lbl(is_forward_estimate)
+    ) |>
     reactable(
       defaultPageSize = 15,
       searchable      = TRUE,
       filterable      = TRUE,
-      striped         = TRUE
+      striped         = TRUE,
+      columns = list(
+        `Sum (AUD mil)` = colDef(format = colFormat(separators = TRUE))
+      )
     )
 }
 ```

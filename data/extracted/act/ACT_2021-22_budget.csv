@@ -1,0 +1,218 @@
+variable_id,value_aud_mil,fiscal_year,is_forward_estimate,source_line_item,notes
+rev_total,6307.488,2020-21,FALSE,Total revenue (Table 3.5.1),Interim outcome
+rev_total,6597.145,2021-22,FALSE,Total revenue (Table 3.5.1),
+rev_total,6541.706,2022-23,TRUE,Total revenue (Table 3.5.1),
+rev_total,6696.263,2023-24,TRUE,Total revenue (Table 3.5.1),
+rev_total,6952.591,2024-25,TRUE,Total revenue (Table 3.5.1),
+rev_taxation,2043.428,2020-21,FALSE,Own-source taxation,Interim outcome
+rev_taxation,2216.163,2021-22,FALSE,Own-source taxation,
+rev_taxation,2344.155,2022-23,TRUE,Own-source taxation,
+rev_taxation,2399.836,2023-24,TRUE,Own-source taxation,
+rev_taxation,2519.774,2024-25,TRUE,Own-source taxation,
+rev_payroll,576.294,2020-21,FALSE,Payroll tax,Interim outcome
+rev_payroll,588.846,2021-22,FALSE,Payroll tax,
+rev_payroll,646.694,2022-23,TRUE,Payroll tax,
+rev_payroll,695.196,2023-24,TRUE,Payroll tax,
+rev_payroll,747.336,2024-25,TRUE,Payroll tax,
+rev_stamp_duty,285.075,2020-21,FALSE,Total duties,Interim outcome; includes commercial and residential conveyances and motor vehicle
+rev_stamp_duty,385.424,2021-22,FALSE,Total duties,
+rev_stamp_duty,360.672,2022-23,TRUE,Total duties,
+rev_stamp_duty,309.502,2023-24,TRUE,Total duties,
+rev_stamp_duty,310.988,2024-25,TRUE,Total duties,
+rev_land_tax,149.082,2020-21,FALSE,Land tax,Interim outcome
+rev_land_tax,157.957,2021-22,FALSE,Land tax,
+rev_land_tax,177.675,2022-23,TRUE,Land tax,
+rev_land_tax,181.925,2023-24,TRUE,Land tax,
+rev_land_tax,188.711,2024-25,TRUE,Land tax,
+rev_gambling,69.222,2020-21,FALSE,Total gambling taxes,Interim outcome
+rev_gambling,62.211,2021-22,FALSE,Total gambling taxes,
+rev_gambling,74.305,2022-23,TRUE,Total gambling taxes,
+rev_gambling,75.750,2023-24,TRUE,Total gambling taxes,
+rev_gambling,77.159,2024-25,TRUE,Total gambling taxes,
+rev_motor_vehicle,157.122,2020-21,FALSE,Motor Vehicle Registration,Interim outcome
+rev_motor_vehicle,158.168,2021-22,FALSE,Motor Vehicle Registration,
+rev_motor_vehicle,162.059,2022-23,TRUE,Motor Vehicle Registration,
+rev_motor_vehicle,163.626,2023-24,TRUE,Motor Vehicle Registration,
+rev_motor_vehicle,171.536,2024-25,TRUE,Motor Vehicle Registration,
+rev_gst,1349.090,2020-21,FALSE,Goods and Services Tax,Interim outcome
+rev_gst,1367.761,2021-22,FALSE,Goods and Services Tax,
+rev_gst,1400.096,2022-23,TRUE,Goods and Services Tax,
+rev_gst,1457.706,2023-24,TRUE,Goods and Services Tax,
+rev_gst,1528.909,2024-25,TRUE,Goods and Services Tax,
+rev_grants_tied,1157.745,2020-21,FALSE,Commonwealth Grants,Interim outcome
+rev_grants_tied,1399.790,2021-22,FALSE,Commonwealth Grants,
+rev_grants_tied,1336.957,2022-23,TRUE,Commonwealth Grants,
+rev_grants_tied,1407.808,2023-24,TRUE,Commonwealth Grants,
+rev_grants_tied,1330.932,2024-25,TRUE,Commonwealth Grants,
+rev_sales_goods_svcs,579.899,2020-21,FALSE,Sales of goods and services,Interim outcome
+rev_sales_goods_svcs,602.401,2021-22,FALSE,Sales of goods and services,
+rev_sales_goods_svcs,627.844,2022-23,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,643.678,2023-24,TRUE,Sales of goods and services,
+rev_sales_goods_svcs,653.614,2024-25,TRUE,Sales of goods and services,
+rev_interest,262.161,2020-21,FALSE,Investment revenue,Interim outcome
+rev_interest,245.643,2021-22,FALSE,Investment revenue,
+rev_interest,259.847,2022-23,TRUE,Investment revenue,
+rev_interest,267.212,2023-24,TRUE,Investment revenue,
+rev_interest,277.476,2024-25,TRUE,Investment revenue,
+rev_dividend,463.004,2020-21,FALSE,Dividend and income tax equivalents,Interim outcome
+rev_dividend,252.490,2021-22,FALSE,Dividend and income tax equivalents,
+rev_dividend,237.645,2022-23,TRUE,Dividend and income tax equivalents,
+rev_dividend,92.818,2023-24,TRUE,Dividend and income tax equivalents,
+rev_dividend,266.144,2024-25,TRUE,Dividend and income tax equivalents,
+rev_other,244.079,2020-21,FALSE,Other revenue,Interim outcome
+rev_other,206.424,2021-22,FALSE,Other revenue,
+rev_other,185.236,2022-23,TRUE,Other revenue,
+rev_other,182.933,2023-24,TRUE,Other revenue,
+rev_other,235.280,2024-25,TRUE,Other revenue
+exp_total,6794.132,2020-21,FALSE,Total expenses (Table 3.4.2),Interim outcome
+exp_total,7764.689,2021-22,FALSE,Total expenses,
+exp_total,7337.336,2022-23,TRUE,Total expenses,
+exp_total,7474.360,2023-24,TRUE,Total expenses,
+exp_total,7691.977,2024-25,TRUE,Total expenses,
+exp_employee,2467.070,2020-21,FALSE,Employee expenses,Interim outcome
+exp_employee,2532.911,2021-22,FALSE,Employee expenses,
+exp_employee,2537.053,2022-23,TRUE,Employee expenses,
+exp_employee,2607.817,2023-24,TRUE,Employee expenses,
+exp_employee,2679.854,2024-25,TRUE,Employee expenses,
+exp_super,703.472,2020-21,FALSE,Total superannuation expenses,Interim outcome; sum of superannuation interest cost and other
+exp_super,851.381,2021-22,FALSE,Total superannuation expenses,
+exp_super,830.841,2022-23,TRUE,Total superannuation expenses,
+exp_super,833.923,2023-24,TRUE,Total superannuation expenses,
+exp_super,839.168,2024-25,TRUE,Total superannuation expenses,
+exp_depreciation,497.192,2020-21,FALSE,Depreciation and amortisation,Interim outcome
+exp_depreciation,539.817,2021-22,FALSE,Depreciation and amortisation,
+exp_depreciation,570.141,2022-23,TRUE,Depreciation and amortisation,
+exp_depreciation,597.296,2023-24,TRUE,Depreciation and amortisation,
+exp_depreciation,623.503,2024-25,TRUE,Depreciation and amortisation,
+exp_interest,198.566,2020-21,FALSE,Interest expense,Interim outcome
+exp_interest,239.084,2021-22,FALSE,Interest expense,
+exp_interest,260.767,2022-23,TRUE,Interest expense,
+exp_interest,295.439,2023-24,TRUE,Interest expense,
+exp_interest,323.049,2024-25,TRUE,Interest expense,
+exp_other_operating,1466.306,2020-21,FALSE,Total other operating expenses,Interim outcome; sum of supplies/services and other operating
+exp_other_operating,1742.478,2021-22,FALSE,Total other operating expenses,
+exp_other_operating,1701.517,2022-23,TRUE,Total other operating expenses,
+exp_other_operating,1747.048,2023-24,TRUE,Total other operating expenses,
+exp_other_operating,1806.430,2024-25,TRUE,Total other operating expenses,
+exp_current_grants,1461.525,2020-21,FALSE,Grants and purchased services,Interim outcome
+exp_current_grants,1859.018,2021-22,FALSE,Grants and purchased services,
+exp_current_grants,1437.017,2022-23,TRUE,Grants and purchased services,
+exp_current_grants,1392.837,2023-24,TRUE,Grants and purchased services,
+exp_current_grants,1419.973,2024-25,TRUE,Grants and purchased services
+rev_payroll,588.8,2021-22,FALSE,Payroll tax,
+rev_payroll,747.3,2024-25,TRUE,Payroll tax,
+net_debt,4352.8,2020-21,FALSE,Net debt (excluding superannuation),"Interim Outcome"
+net_debt,5721.0,2021-22,FALSE,Net debt (excluding superannuation),
+net_debt,6875.9,2022-23,TRUE,Net debt (excluding superannuation),
+net_debt,8245.2,2023-24,TRUE,Net debt (excluding superannuation),
+net_debt,9580.9,2024-25,TRUE,Net debt (excluding superannuation),
+net_fin_liabilities,13301.0,2020-21,FALSE,Net financial liabilities,"Interim Outcome"
+net_fin_liabilities,11747.8,2021-22,FALSE,Net financial liabilities,
+net_fin_liabilities,12674.8,2022-23,TRUE,Net financial liabilities,
+net_fin_liabilities,13969.8,2023-24,TRUE,Net financial liabilities,
+net_fin_liabilities,15092.4,2024-25,TRUE,Net financial liabilities,
+net_worth,13693.0,2020-21,FALSE,Net worth,"Interim Outcome"
+net_worth,16055.6,2021-22,FALSE,Net worth,
+net_worth,15404.8,2022-23,TRUE,Net worth,
+net_worth,15007.1,2023-24,TRUE,Net worth,
+net_worth,14490.1,2024-25,TRUE,Net worth,
+rev_total,6307.488,2020-21,FALSE,Total revenue,Interim outcome
+rev_total,6597.145,2021-22,FALSE,Total revenue,Budget
+rev_total,6541.706,2022-23,TRUE,Total revenue,
+rev_total,6696.263,2023-24,TRUE,Total revenue,
+rev_total,6952.591,2024-25,TRUE,Total revenue,
+rev_taxation,2043.428,2020-21,FALSE,Taxation revenue,Interim outcome
+rev_taxation,2216.163,2021-22,FALSE,Taxation revenue,Budget
+rev_taxation,2344.155,2022-23,TRUE,Taxation revenue,
+rev_taxation,2399.836,2023-24,TRUE,Taxation revenue,
+rev_taxation,2519.774,2024-25,TRUE,Taxation revenue,
+rev_gst,1394.087,2020-21,FALSE,GST revenue and municipal grants,Interim outcome from Table 4.2.2
+rev_gst,1409.461,2021-22,FALSE,GST revenue and municipal grants,Budget from Table 4.2.2
+rev_gst,1442.380,2022-23,TRUE,GST revenue and municipal grants,From Table 4.2.2
+rev_gst,1500.582,2023-24,TRUE,GST revenue and municipal grants,From Table 4.2.2
+rev_gst,1572.343,2024-25,TRUE,GST revenue and municipal grants,From Table 4.2.2
+rev_sales_goods_svcs,579.899,2020-21,FALSE,Sales of goods and services from contracts with customers,Interim outcome
+rev_sales_goods_svcs,602.401,2021-22,FALSE,Sales of goods and services from contracts with customers,Budget
+rev_sales_goods_svcs,627.844,2022-23,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,643.678,2023-24,TRUE,Sales of goods and services from contracts with customers,
+rev_sales_goods_svcs,653.614,2024-25,TRUE,Sales of goods and services from contracts with customers,
+rev_interest,262.161,2020-21,FALSE,Investment revenue,Interim outcome
+rev_interest,245.643,2021-22,FALSE,Investment revenue,Budget
+rev_interest,259.847,2022-23,TRUE,Investment revenue,
+rev_interest,267.212,2023-24,TRUE,Investment revenue,
+rev_interest,277.476,2024-25,TRUE,Investment revenue,
+rev_dividend,463.004,2020-21,FALSE,Dividend and income tax equivalents income,Interim outcome
+rev_dividend,252.490,2021-22,FALSE,Dividend and income tax equivalents income,Budget
+rev_dividend,237.645,2022-23,TRUE,Dividend and income tax equivalents income,
+rev_dividend,92.818,2023-24,TRUE,Dividend and income tax equivalents income,
+rev_dividend,266.144,2024-25,TRUE,Dividend and income tax equivalents income,
+exp_total,6794.132,2020-21,FALSE,Total expenses,Interim outcome
+exp_total,7764.689,2021-22,FALSE,Total expenses,Budget
+exp_total,7337.336,2022-23,TRUE,Total expenses,
+exp_total,7474.360,2023-24,TRUE,Total expenses,
+exp_total,7691.977,2024-25,TRUE,Total expenses,
+exp_employee,2467.070,2020-21,FALSE,Employee expenses,Interim outcome
+exp_employee,2532.911,2021-22,FALSE,Employee expenses,Budget
+exp_employee,2537.053,2022-23,TRUE,Employee expenses,
+exp_employee,2607.817,2023-24,TRUE,Employee expenses,
+exp_employee,2679.854,2024-25,TRUE,Employee expenses,
+exp_super,703.472,2020-21,FALSE,Superannuation expenses,Interim outcome - combined superannuation interest cost and other
+exp_super,851.381,2021-22,FALSE,Superannuation expenses,Budget - combined superannuation interest cost and other
+exp_super,830.841,2022-23,TRUE,Superannuation expenses,Combined superannuation interest cost and other
+exp_super,833.923,2023-24,TRUE,Superannuation expenses,Combined superannuation interest cost and other
+exp_super,839.168,2024-25,TRUE,Superannuation expenses,Combined superannuation interest cost and other
+exp_depreciation,497.192,2020-21,FALSE,Depreciation and amortisation,Interim outcome
+exp_depreciation,539.817,2021-22,FALSE,Depreciation and amortisation,Budget
+exp_depreciation,570.141,2022-23,TRUE,Depreciation and amortisation,
+exp_depreciation,597.296,2023-24,TRUE,Depreciation and amortisation,
+exp_depreciation,623.503,2024-25,TRUE,Depreciation and amortisation,
+exp_interest,198.566,2020-21,FALSE,Interest expense,Interim outcome
+exp_interest,239.084,2021-22,FALSE,Interest expense,Budget
+exp_interest,260.767,2022-23,TRUE,Interest expense,
+exp_interest,295.439,2023-24,TRUE,Interest expense,
+exp_interest,323.049,2024-25,TRUE,Interest expense,
+net_op_balance,-486.644,2020-21,FALSE,UPF Net Operating Balance,Interim outcome
+net_op_balance,-1167.544,2021-22,FALSE,UPF Net Operating Balance,Budget
+net_op_balance,-795.630,2022-23,TRUE,UPF Net Operating Balance,
+net_op_balance,-778.097,2023-24,TRUE,UPF Net Operating Balance,
+net_op_balance,-739.386,2024-25,TRUE,UPF Net Operating Balance,
+net_lending,-655.497,2020-21,FALSE,Net borrowing,Interim outcome - sign reversed
+net_lending,-1856.586,2021-22,FALSE,Net borrowing,Budget - sign reversed
+net_lending,-1113.441,2022-23,TRUE,Net borrowing,Sign reversed
+net_lending,-1503.784,2023-24,TRUE,Net borrowing,Sign reversed
+net_lending,-1378.630,2024-25,TRUE,Net borrowing,Sign reversed
+net_debt,4352.829,2020-21,FALSE,Net debt (excluding superannuation related investments),Interim outcome from Table 4.1.2
+net_debt,5721.000,2021-22,FALSE,Net debt (excluding superannuation related investments),Budget from Table 4.1.2
+net_debt,6875.881,2022-23,TRUE,Net debt (excluding superannuation related investments),From Table 4.1.2
+net_debt,8245.236,2023-24,TRUE,Net debt (excluding superannuation related investments),From Table 4.1.2
+net_debt,9580.867,2024-25,TRUE,Net debt (excluding superannuation related investments),From Table 4.1.2
+net_worth,13693.038,2020-21,FALSE,Net worth,Interim outcome from Table 4.1.2
+net_worth,16055.583,2021-22,FALSE,Net worth,Budget from Table 4.1.2
+net_worth,15404.782,2022-23,TRUE,Net worth,From Table 4.1.2
+net_worth,15007.110,2023-24,TRUE,Net worth,From Table 4.1.2
+net_worth,14490.066,2024-25,TRUE,Net worth,From Table 4.1.2
+capex_pnfa,671.334,2020-21,FALSE,Payments for non-financial assets,Interim outcome from Table 4.1.4
+capex_pnfa,1052.744,2021-22,FALSE,Payments for non-financial assets,Budget from Table 4.1.4
+capex_pnfa,828.416,2022-23,TRUE,Payments for non-financial assets,From Table 4.1.4
+capex_pnfa,1139.037,2023-24,TRUE,Payments for non-financial assets,From Table 4.1.4
+capex_pnfa,1178.033,2024-25,TRUE,Payments for non-financial assets,From Table 4.1.4
+net_op_balance,-363.1,2020-21,FALSE,"Headline net operating balance",Interim outcome (unaudited)
+net_debt,4352.8,2020-21,FALSE,"Net debt",Interim outcome (unaudited). Includes impact of AASB 16 Leases from 2019-20
+net_fin_liabilities,13301.0,2020-21,FALSE,"Net financial liabilities",Interim outcome (unaudited)
+net_worth,13693.0,2020-21,FALSE,"Net worth",Interim outcome (unaudited)
+net_op_balance,-951.5,2021-22,FALSE,"Headline net operating balance",
+net_debt,5721.0,2021-22,FALSE,"Net debt",Includes impact of AASB 16 Leases
+net_fin_liabilities,11747.8,2021-22,FALSE,"Net financial liabilities",
+net_worth,16055.6,2021-22,FALSE,"Net worth",
+net_op_balance,-564.3,2022-23,TRUE,"Headline net operating balance",
+net_debt,6875.9,2022-23,TRUE,"Net debt",Includes impact of AASB 16 Leases
+net_fin_liabilities,12674.8,2022-23,TRUE,"Net financial liabilities",
+net_worth,15404.8,2022-23,TRUE,"Net worth",
+net_op_balance,-530.4,2023-24,TRUE,"Headline net operating balance",
+net_debt,8245.2,2023-24,TRUE,"Net debt",Includes impact of AASB 16 Leases
+net_fin_liabilities,13969.8,2023-24,TRUE,"Net financial liabilities",
+net_worth,15007.1,2023-24,TRUE,"Net worth",
+net_op_balance,-474.1,2024-25,TRUE,"Headline net operating balance",
+net_debt,9580.9,2024-25,TRUE,"Net debt",Includes impact of AASB 16 Leases
+net_fin_liabilities,15092.4,2024-25,TRUE,"Net financial liabilities",
+net_worth,14490.1,2024-25,TRUE,"Net worth",
