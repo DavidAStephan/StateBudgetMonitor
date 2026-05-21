@@ -15,6 +15,8 @@ tar_source("R")
 
 facts <- tryCatch(tar_read(facts_latest), error = function(e) tibble::tibble())
 revs  <- tryCatch(tar_read(revisions),    error = function(e) tibble::tibble())
+recon <- tryCatch(tar_read(gfs_reconciliation), error = function(e) tibble::tibble())
+abs_gfs <- tryCatch(tar_read(abs_gfs), error = function(e) tibble::tibble())
 overrides <- tryCatch(
   sbm_load_overrides("data/manual_overrides/overrides.csv"),
   error = function(e) tibble::tibble()
@@ -222,6 +224,147 @@ if (nrow(facts) == 0L) {
                 med = colDef(format = colFormat(separators = TRUE))
               ))
   }
+}
+```
+
+## ABS GFS reconciliation
+
+This is the validation backstop the project brief calls for: every
+extracted fact compared against ABS Government Finance Statistics
+(catalogue 5512.0). Rows where the absolute discrepancy exceeds 2%
+are flagged. Some flags are real extraction errors; others are
+definitional (e.g., Budget Paper "Total expenses" sometimes
+includes capital grants which ABS records elsewhere).
+
+```{r abs-summary}
+if (nrow(recon) == 0L) {
+  htmltools::p(htmltools::strong("No ABS GFS data loaded ---"),
+               " check that the abs_gfs target has run successfully.")
+} else {
+  total <- nrow(recon)
+  flagged <- sum(recon$flagged)
+  passed  <- total - flagged
+  htmltools::div(
+    style = "display:flex; gap:1.5rem; margin:1rem 0;",
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#f8f9fa; border-radius:4px;",
+      htmltools::strong("Rows compared"), htmltools::br(),
+      htmltools::tags$span(style = "font-size:2rem;", format(total, big.mark = ","))
+    ),
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#e7f5e7; border-radius:4px;",
+      htmltools::strong("Within 2% of ABS"), htmltools::br(),
+      htmltools::tags$span(style = "font-size:2rem;",
+                           sprintf("%s (%.0f%%)", format(passed, big.mark = ","),
+                                   100 * passed / total))
+    ),
+    htmltools::div(
+      style = "flex:1; padding:1rem; background:#fff4e6; border-radius:4px;",
+      htmltools::strong("Flagged > 2%"), htmltools::br(),
+      htmltools::tags$span(style = "font-size:2rem;",
+                           sprintf("%s (%.0f%%)", format(flagged, big.mark = ","),
+                                   100 * flagged / total))
+    )
+  )
+}
+```
+
+### Worst 30 discrepancies
+
+```{r abs-worst}
+if (nrow(recon) == 0L) {
+  htmltools::p("No ABS reconciliation data.")
+} else {
+  recon |>
+    arrange(desc(abs(diff_pct))) |>
+    slice_head(n = 30) |>
+    transmute(
+      Jurisdiction    = jurisdiction,
+      Variable        = canonical_label,
+      `FY`            = fiscal_year,
+      `SBM value`     = round(sbm_value_aud_mil),
+      `ABS value`     = round(abs_value_aud_mil),
+      `Diff (AUD mil)`= round(diff_aud_mil),
+      `Diff (%)`      = round(diff_pct, 1),
+      `Source doc`    = sbm_document_id
+    ) |>
+    reactable(
+      striped = TRUE,
+      defaultPageSize = 15,
+      filterable = TRUE,
+      columns = list(
+        `SBM value`      = colDef(format = colFormat(separators = TRUE)),
+        `ABS value`      = colDef(format = colFormat(separators = TRUE)),
+        `Diff (AUD mil)` = colDef(format = colFormat(separators = TRUE)),
+        `Diff (%)`       = colDef(format = colFormat(suffix = "%"))
+      )
+    )
+}
+```
+
+### Pass rate by variable
+
+Which of our canonical variables reconcile cleanly vs ABS, broken
+down per variable.
+
+```{r abs-by-var}
+if (nrow(recon) == 0L) {
+  htmltools::p("No ABS reconciliation data.")
+} else {
+  recon |>
+    group_by(canonical_label) |>
+    summarise(
+      n_rows  = n(),
+      pass    = sum(!flagged, na.rm = TRUE),
+      flagged = sum(flagged,  na.rm = TRUE),
+      median_abs_diff_pct = round(median(abs(diff_pct), na.rm = TRUE), 1),
+      .groups = "drop"
+    ) |>
+    arrange(desc(pass / n_rows)) |>
+    reactable(
+      striped = TRUE,
+      defaultPageSize = 15,
+      columns = list(
+        median_abs_diff_pct = colDef(format = colFormat(suffix = "%"))
+      )
+    )
+}
+```
+
+### Headline aggregates per state (FY 2023-24 vs ABS)
+
+```{r abs-headline}
+if (nrow(recon) == 0L) {
+  htmltools::p("No ABS reconciliation data.")
+} else {
+  recon |>
+    filter(fiscal_year == "2023-24",
+           variable_id %in% c("rev_total", "exp_total",
+                              "net_op_balance", "net_lending")) |>
+    arrange(jurisdiction, variable_id) |>
+    transmute(
+      Jurisdiction = jurisdiction,
+      Variable     = canonical_label,
+      `SBM`        = round(sbm_value_aud_mil),
+      `ABS`        = round(abs_value_aud_mil),
+      `Diff (%)`   = round(diff_pct, 1)
+    ) |>
+    reactable(
+      striped = TRUE,
+      defaultPageSize = 25,
+      columns = list(
+        SBM = colDef(format = colFormat(separators = TRUE)),
+        ABS = colDef(format = colFormat(separators = TRUE)),
+        `Diff (%)` = colDef(
+          format = colFormat(suffix = "%"),
+          cell = function(v) {
+            if (abs(v) <= 2) htmltools::span(v, style = "color:#1f8c1f;")
+            else if (abs(v) <= 10) htmltools::span(v, style = "color:#a66400;")
+            else htmltools::span(v, style = "color:#c00;")
+          }
+        )
+      )
+    )
 }
 ```
 
